@@ -1,0 +1,22 @@
+$blue: #183059;
+$red: #D72638;
+$light-blue: #7ea3cc;
+$dark-purple: #140F2D;
+$beige-light: #d0d1cd;
+$beige-lighter: #F6F6E9;
+
+
+@use "bulma/sass" with (
+  $family-primary: '"Nunito", sans-serif',
+  $grey-dark: $dark-purple,  
+  $grey-light: $beige-light,
+  $primary: $blue,   
+  $warning: $red,
+  $link: $light-blue,  
+  $control-border-width: 2px,
+  $input-shadow: none
+);
+@use "sass:map";
+@use "sass:color";
+
+@import '@creativebulma/bulma-badge/dist/bulma-badge.css';
