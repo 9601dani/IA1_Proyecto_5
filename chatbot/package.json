@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --base-href=\"/-IA1_Proyecto_5/\"",
+    "deploy": "npx angular-cli-ghpages --dir=dist/chatbot/browser",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
