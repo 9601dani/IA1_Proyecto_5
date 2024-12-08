@@ -47,7 +47,7 @@ def preprocess_input(input_sentence, tokenizer, maxlen_questions):
         tokens_list.append(tokenizer.word_index[word])
     return pad_sequences([tokens_list], maxlen=maxlen_questions, padding='post')
 
-tests = ['Hello', 'Are you a bot', 'What is your name', 'Do know any jokes', 'what is AI']
+tests = ['Hola Como estas', 'Bebes', 'Cuidate', 'que eres', 'Que es un chatbot', 'Cual es tu nombre', 'Me has caido bien', 'Porque no puedes comer']
 
 for test_sentence in tests:
     states_values = encoder_model.predict(preprocess_input(test_sentence, tokenizer, maxlen_questions))
