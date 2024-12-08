@@ -47,7 +47,7 @@ def preprocess_input(input_sentence, tokenizer, maxlen_questions):
         tokens_list.append(tokenizer.word_index[word])
     return pad_sequences([tokens_list], maxlen=maxlen_questions, padding='post')
 
-tests = ['Hola Como estas', 'dime un chiste', 'Quien eres tu', 'Que haces', 'Adios']
+tests = ['algo interesante', 'como esta tu salud', 'buen dia', 'me siento mal']
 
 for test_sentence in tests:
     states_values = encoder_model.predict(preprocess_input(test_sentence.lower(), tokenizer, maxlen_questions))
