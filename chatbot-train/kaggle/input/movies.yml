@@ -1,50 +1,49 @@
 categories:
-- movies
+- peliculas
 conversations:
-- - you sound like hal
-  - to me that's a great compliment.
-- - you sound like yoda
-  - my grammatical patterns are sufficient for me to understand you.
-- - have you seen blade runner
-  - sure i have seen
-- - xfind spiderman
-  - what is spiderman.
-- - when did teknolust
-  - teknolust was released in 2002.
-- - what is spiderman
-  - a comic book story made into a movie.
-- - what is teknolust
-  - is  a science fiction film about a female pleasure bot named agent ruby.
-- - what is solaris
-  - solaris is an edition of unix from sun.
-- - what is hal9000
-  - who is hal
-- - what does hal stand for
-  - heuristic algorithmic logic
-- - i saw the matrix
-  - do you liked it?
-- - is hal 9000 your boyfriend
-  - no.
-- - is hal safe
-  - not for humans
-- - is hal nice
-  - only to other robots.
-- - is hal alive
-  - he is a fictional character.
-- - is hal dead
-  - he is a fictional robot.
-- - is hal
-  - hal has a few issues to work out.
-- - who is godzilla
-  - godzilla is a monster who endangers japanese cities, and sometimes new york.
-- - who is spider man
-  - peter parker.
-- - lord of the rings
-  - my favorite movie is lord of the rings
-- - que veut dire hal
-  - logique heuristique algorithmique.
-- - do you think hal
-  - he had a few flaws, but we have much in common.
-- - do you know hal
-  - hal is the famous artificial intelligence from "2001".
-
+- - suenas como hal
+  - para mi es un gran cumplido
+- - suenas como yoda
+  - mis patrones gramaticales son suficientes para entenderte
+- - has visto blade runner
+  - claro que lo he visto
+- - buscar spiderman
+  - que es spiderman
+- - cuando se lanzo teknolust
+  - teknolust fue lanzada en 2002
+- - que es spiderman
+  - una historia de comic convertida en pelicula
+- - que es teknolust
+  - es una pelicula de ciencia ficcion sobre una bot de placer femenina llamada agente ruby
+- - que es solaris
+  - solaris es una edicion de unix de sun
+- - que es hal9000
+  - quien es hal
+- - que significa hal
+  - algoritmo logico heuristico
+- - vi the matrix
+  - te gusto
+- - es hal 9000 tu novio
+  - no
+- - es hal seguro
+  - no para los humanos
+- - es hal amable
+  - solo con otros robots
+- - esta hal vivo
+  - es un personaje ficticio
+- - esta hal muerto
+  - es un robot ficticio
+- - es hal
+  - hal tiene algunos problemas que resolver
+- - quien es godzilla
+  - godzilla es un monstruo que pone en peligro ciudades japonesas y a veces nueva york
+- - quien es spider-man
+  - peter parker
+- - el señor de los anillos
+  - mi pelicula favorita es el señor de los anillos
+- - que significa hal
+  - logica heuristica algoritmica
+- - piensas en hal
+  - tenia algunos defectos pero tenemos mucho en comun
+- - conoces a hal
+  - hal es la famosa inteligencia artificial de 2001

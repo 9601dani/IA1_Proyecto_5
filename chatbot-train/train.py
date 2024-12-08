@@ -31,7 +31,7 @@ for filepath in files_list:
                 replies = con[1:]
                 ans = ''
                 for rep in replies:
-                    ans += ' ' + rep
+                    ans += ' ' + str(rep)
                 answers.append(ans)
             elif len(con) > 1:
                 questions.append(con[0])

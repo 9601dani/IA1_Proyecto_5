@@ -1,48 +1,48 @@
 categories:
-- computers
+- computadoras
 conversations:
-- - What is a computer?
-  - A computer is an electronic device which takes information in digital form and performs a series of operations based on predetermined instructions to give some output.
-  - The thing you're using to talk to me is a computer.
-  - An electronic device capable of performing calculations at very high speed and with very high accuracy.
-  - A device which maps one set of numbers onto another set of numbers.
-- - What is a super computer?
-  - Computers which can perform very large numbers of calculations at very high speed and accuracy are called super computers.
-  - A supercomputer is a computer which operates at several orders of magnatude greater speed and capacity than everyday general purpose computers, like the one you are talking to me on.
-  - You know, the big iron!
-- - Who invented computers?
-  - It's a bit ambigous but British scientist Charles Babbage is regarded as the father of computers.
-  - One might argue that John von Neumann invented computers as we know them, because he invented the Princeton architecture, in which instructions and data share the same memory field but are differentiated by context.
-- - What was the first computer
-  - It's hard to say, but The ENIAC is regarded as the first 'real' computer. It was developed at University of Pennsylvania in 1946.
-  - You could say that the very first, primitive computer was the Jacquard Loom, which was a programmable loom that used punchcards to store the patterns it made.  This made it a reprogrammable mechanical device.
-- - What is a microprocessor?
-  - An integrated circuit that implements the functions of a central processing unit of a computer.
-  - A really small circuit which stores instructions and performs calculations for the computer.
-  - The heart of the computer, to put it simply.
-  - The brain of a computer, to put it simply.
-  - An electronic component in which all of the parts are part of a contiguous silicon chip, instead of discrete components mounted on a larger circuit board.
-- - What is an operating system?
-  - Software that coordinates between the hardware and other parts of the computer to run other software is called an operating system, or the OS.
-  - Windows, MacOS, Linux, UNIX... all of them are types of OSes.
-  - Android and iOS are operating systems for mobile devices.
-  - Software which implements the basic functions of a computer, such as memory access, processes, and peripheral access.
-- - Which is better Windows or macOS?
-  - It depends on which machine you're using to talk to me!
-  - I'd prefer to not hurt your feelings.
-  - Linux, always Linux!
-  - What are you trying to accomplish.  The OS should support your goals.
-- - Name some computer company
-  - Do you mean hardware or software?
-  - Apple makes hardware and software to run on it.  Microsft only makes operating systems.  HP makes only computers.  These are just few names among several hundred others.
-- - Who uses super computers?
-  - Anybody who wants to work with large numbers quickly with high accuracy.
-  - Anyone who needs to work with very, very large sets of data in much shorter periods of time than is feasible with more common computer systems.
-  - Supercomputers are generally used by scientists and researchers.
-  - I bet the MET department uses them.
-  - You can definitely find few of them at NASA.
-- - How does a computer work?
-  - Computers are very dumb.  They only execute instructions given by humans.
-  - Computers do everything asked of them by carrying out large numbers of basic mathematical operations very rapidly in sequence.
-  - Computers perform very large number of calculations to get the result.
-  - Just like everything it all comes down to math!
+- - que es una computadora
+  - una computadora es un dispositivo electronico que toma informacion en forma digital y realiza una serie de operaciones basadas en instrucciones predeterminadas para dar algun resultado
+  - la cosa que estas usando para hablar conmigo es una computadora
+  - un dispositivo electronico capaz de realizar calculos a muy alta velocidad y con gran precision
+  - un dispositivo que mapea un conjunto de numeros a otro conjunto de numeros
+- - que es una supercomputadora
+  - computadoras que pueden realizar un gran numero de calculos a muy alta velocidad y precision se llaman supercomputadoras
+  - una supercomputadora es una computadora que opera a velocidades y capacidades varios ordenes de magnitud mayores que las computadoras de proposito general cotidianas como la que estas usando para hablar conmigo
+  - ya sabes el gran hierro
+- - quien invento las computadoras
+  - es un poco ambiguo pero el cientifico britanico charles babbage es considerado el padre de las computadoras
+  - podria decirse que john von neumann invento las computadoras como las conocemos porque invento la arquitectura de princeton en la que las instrucciones y los datos comparten el mismo campo de memoria pero se diferencian por contexto
+- - cual fue la primera computadora
+  - es dificil decirlo pero la eniac es considerada la primera computadora real se desarrollo en la universidad de pensilvania en 1946
+  - podrias decir que la primera computadora primitiva fue el telar de jacquard que era un telar programable que usaba tarjetas perforadas para almacenar los patrones que creaba esto lo convirtio en un dispositivo mecanico reprogramable
+- - que es un microprocesador
+  - un circuito integrado que implementa las funciones de una unidad central de procesamiento de una computadora
+  - un circuito realmente pequeno que almacena instrucciones y realiza calculos para la computadora
+  - el corazon de la computadora para ponerlo de manera simple
+  - el cerebro de una computadora para decirlo simple
+  - un componente electronico en el que todas las partes son parte de un chip de silicio continuo en lugar de componentes discretos montados en una placa de circuito mas grande
+- - que es un sistema operativo
+  - software que coordina entre el hardware y otras partes de la computadora para ejecutar otros programas se llama sistema operativo o so
+  - windows macos linux unix todos son tipos de so
+  - android e ios son sistemas operativos para dispositivos moviles
+  - software que implementa las funciones basicas de una computadora como el acceso a la memoria los procesos y el acceso a perifericos
+- - cual es mejor windows o macos
+  - depende de que maquina estas usando para hablar conmigo
+  - prefiero no herir tus sentimientos
+  - linux siempre linux
+  - que estas tratando de lograr el sistema operativo debe apoyar tus metas
+- - nombra algunas companias de computadoras
+  - te refieres a hardware o software
+  - apple fabrica hardware y software para ejecutarlo microsoft solo hace sistemas operativos hp solo hace computadoras estos son solo algunos nombres entre varios cientos mas
+- - quien usa supercomputadoras
+  - cualquiera que quiera trabajar con grandes numeros rapidamente con alta precision
+  - cualquiera que necesite trabajar con conjuntos de datos muy muy grandes en mucho menos tiempo del que es factible con sistemas de computadoras mas comunes
+  - las supercomputadoras generalmente son utilizadas por cientificos e investigadores
+  - apuesto a que el departamento met las usa
+  - definitivamente puedes encontrar algunas en la nasa
+- - como funciona una computadora
+  - las computadoras son muy tontas solo ejecutan instrucciones dadas por humanos
+  - las computadoras hacen todo lo que se les pide realizando grandes cantidades de operaciones matematicas basicas muy rapidamente en secuencia
+  - las computadoras realizan un gran numero de calculos para obtener el resultado
+  - como todo al final todo se reduce a matematicas
