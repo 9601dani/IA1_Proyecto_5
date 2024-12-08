@@ -1,2 +1,4 @@
 .vscode
 .angular
+/chatbot-train/myenv/
+/chatbot-train/__pycache__
