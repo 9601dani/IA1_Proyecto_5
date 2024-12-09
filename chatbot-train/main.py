@@ -3,6 +3,8 @@ import numpy as np
 import tensorflow as tf
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 import pickle
+import json
+
 
 # Cargar el modelo completo
 inf_model = tf.keras.models.load_model('s2s_model.keras')
@@ -14,6 +16,14 @@ with open('tokenizer.pkl', 'rb') as file:
 tokenizer = metadata["tokenizer"]
 maxlen_questions = metadata["maxlen_questions"]
 maxlen_answers = metadata["maxlen_answers"]
+
+with open('tokenizer..pkl', 'w') as file:
+    tokenizer_json = tokenizer.to_json()
+    json.dump({
+        "tokenizer": tokenizer_json,
+        "maxlen_questions": maxlen_questions,
+        "maxlen_answers": maxlen_answers
+    }, file)
 
 # Crear el modelo del codificador
 encoder_inputs = inf_model.input[0]  # Primera entrada del modelo
