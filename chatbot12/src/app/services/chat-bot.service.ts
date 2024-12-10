@@ -17,10 +17,10 @@ export class ChatBotService {
 
   async loadModel() {
 
-    this.encoderModel = await tf.loadLayersModel('/assets/encoder/model.json');
-    this.decoderModel = await tf.loadLayersModel('/assets/decoder/model.json');
+    this.encoderModel = await tf.loadLayersModel('assets/encoder/model.json');
+    this.decoderModel = await tf.loadLayersModel('assets/decoder/model.json');
 
-    const tokenizerData = await fetch('/assets/tokenizer.json').then(m => m.json());
+    const tokenizerData = await fetch('assets/tokenizer.json').then(m => m.json());
     this.tokenizer = tokenizerData.tokenizer;
     this.maxLenAnswers = tokenizerData.maxlen_answers;
     this.maxLenQuestions = tokenizerData.maxlen_questions;
