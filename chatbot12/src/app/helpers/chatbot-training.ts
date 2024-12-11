@@ -60,8 +60,8 @@ async function trainModel(): Promise<void> {
   });
 
   // Convertir los datos a tensores
-  const xs = tf.tensor2d(inputs); 
-  const ys = tf.tensor2d(labels); 
+  const xs = tf.tensor2d(inputs);
+  const ys = tf.tensor2d(labels);
 
   // Entrenar el modelo
   await model.fit(xs, ys, {
@@ -93,3 +93,19 @@ export {
   trainModel,
   predictResponse
 };
+
+
+
+async function predictResponse(input: string): Promise<string> {
+  const vocabulary = generateVocabulary(trainingData);
+  const model = await tf.loadLayersModel('localstorage://chatbot-model');
+
+  const processedInput = preprocessInput(input, vocabulary);
+  const tensorInput = tf.tensor2d([processedInput], [1, vocabulary.length]);
+
+  const prediction = model.predict(tensorInput) as tf.Tensor;
+  const predictedIndex = prediction.argMax(-1).dataSync()[0];
+
+  const possibleResponses = trainingData[predictedIndex].output;
+  return getRandomResponse(possibleResponses);
+}
