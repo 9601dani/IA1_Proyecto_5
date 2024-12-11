@@ -1,0 +1,193 @@
+$primary-color: #183059;
+$primary-color-hover: #00c1a8;
+$secondary-color: #f5f5f5;
+$text-color: #333;
+$background-color: white;
+$border-color: #ddd;
+$font-size-small: 1rem;
+$font-size-large: 1.2rem;
+
+.chat-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 10px;
+  background-color: $background-color;
+  position: relative;
+
+  .options-box {
+    width: 200px;
+    background-color: $background-color;
+    border: 1px solid $border-color;
+    border-radius: 8px;
+    margin-right: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    position: static; /* Default behavior */
+
+    .options-header {
+      background-color: $primary-color;
+      color: $background-color;
+      padding: 10px;
+      font-size: 1rem;
+      text-align: center;
+      border-radius: 8px 8px 0 0;
+    }
+
+    .options-form {
+      padding: 10px;
+
+      .custom-radio {
+        display: flex;
+        align-items: center; // Centra verticalmente el texto con el radio button
+        gap: 5px; // Espaciado entre el botón y el texto
+        margin-bottom: 10px;
+      
+        input[type="radio"] {
+          margin-right: 0; // Elimina márgenes adicionales
+        }
+      }
+    }
+  }
+
+  .chat-box {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    background-color: $background-color;
+
+    @media (min-width: 768px) {
+      max-width: 600px;
+      height: 85vh;
+    }
+
+    @media (min-width: 1024px) {
+      max-width: 800px;
+      height: 90vh;
+    }
+  }
+
+  .chat-header {
+    background-color: $primary-color;
+    color: $background-color;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 5px 5px 0 0;
+    z-index: 1;
+  }
+
+  .chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 15px 10px;
+    background-color: $background-color;
+    border: 1px solid $border-color;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: $font-size-small;
+
+    @media (min-width: 1024px) {
+      font-size: $font-size-large;
+    }
+
+    .message-container {
+      display: flex;
+
+      &.align-right {
+        justify-content: flex-end;
+      }
+
+      &.align-left {
+        justify-content: flex-start;
+      }
+
+      .message {
+        padding: 10px 15px;
+        border-radius: 10px;
+        max-width: 70%;
+        word-wrap: break-word;
+        font-size: $font-size-small;
+
+        &.is-user {
+          background-color: $primary-color;
+          color: $background-color;
+          text-align: right;
+          border-bottom-right-radius: 0;
+        }
+
+        &.is-bot {
+          background-color: $secondary-color;
+          color: $text-color;
+          text-align: left;
+          border-bottom-left-radius: 0;
+        }
+      }
+    }
+  }
+
+  .chat-input {
+    padding: 10px;
+    border-top: 1px solid $border-color;
+    background-color: $background-color;
+
+    .field {
+      display: flex;
+      align-items: center;
+    }
+
+    .input {
+      flex: 1;
+      border-radius: 5px;
+      background-color: $background-color;
+      color: $text-color;
+      border: 1px solid $border-color;
+      padding: 5px 10px;
+
+      &::placeholder {
+        color: $text-color;
+        font-style: italic;
+      }
+    }
+
+    .button {
+      background-color: $primary-color;
+      color: $background-color;
+      border-radius: 5px;
+      white-space: nowrap;
+      padding: 5px 15px;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.2s;
+
+      &:hover {
+        background-color: $primary-color-hover;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+
+    .options-box {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90%; /* Full width for small devices */
+      margin-right: 0;
+      border-radius: 8px;
+    }
+
+    .chat-box {
+      margin-top: 200px; /* Space for options box */
+    }
+  }
+}
