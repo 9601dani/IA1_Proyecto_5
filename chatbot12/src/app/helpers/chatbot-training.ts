@@ -93,19 +93,3 @@ export {
   trainModel,
   predictResponse
 };
-
-
-
-async function predictResponse(input: string): Promise<string> {
-  const vocabulary = generateVocabulary(trainingData);
-  const model = await tf.loadLayersModel('localstorage://chatbot-model');
-
-  const processedInput = preprocessInput(input, vocabulary);
-  const tensorInput = tf.tensor2d([processedInput], [1, vocabulary.length]);
-
-  const prediction = model.predict(tensorInput) as tf.Tensor;
-  const predictedIndex = prediction.argMax(-1).dataSync()[0];
-
-  const possibleResponses = trainingData[predictedIndex].output;
-  return getRandomResponse(possibleResponses);
-}
