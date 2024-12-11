@@ -1,48 +1,50 @@
 <body>
-    <div class="chat-container">
-        <div class="chat-box">
-          <div class="chat-header">
-            Chatbot Grupo 5 - Chatbot12
-          </div>
-      
-          <div class="chat-messages" #chatMessages>
-            <div
-              *ngFor="let message of messages"
-              class="message-container"
-              [ngClass]="{
+  <div class="chat-container">
+    <div class="options-box">
+      <div class="options-header">
+        Modelos disponibles
+      </div>
+      <form [formGroup]="modelSelectionForm" class="options-form">
+        <label class="radio">
+          <input type="radio" formControlName="model" value="sequence-to-sequence" />
+          S2S
+        </label>
+        <label class="radio">
+          <input type="radio" formControlName="model" value="intents" />
+          Intents
+        </label>
+      </form>
+    </div>
+    <div class="chat-box">
+      <div class="chat-header">
+        Chatbot Grupo 5 - Chatbot12
+      </div>
+
+      <div class="chat-messages" #chatMessages>
+        <div *ngFor="let message of messages" class="message-container" [ngClass]="{
                 'align-right': message.sender === 'user',
                 'align-left': message.sender === 'bot'
-              }"
-            >
-              <div
-                class="message"
-                [ngClass]="{
+              }">
+          <div class="message" [ngClass]="{
                   'is-user': message.sender === 'user',
                   'is-bot': message.sender === 'bot'
-                }"
-              >
-                <p>{{ message.text }}</p>
-              </div>
-            </div>
-          </div>
-      
-          <div class="chat-input">
-            <div class="field has-addons">
-              <div class="control is-expanded">
-                <input
-                  type="text"
-                  class="input"
-                  placeholder="Escribe tu mensaje..."
-                  [(ngModel)]="userInput"
-                  (keydown.enter)="sendMessage()"
-                />
-              </div>
-              <div class="control">
-                <button class="button is-primary" (click)="sendMessage()">Enviar</button>
-              </div>
-            </div>
+                }">
+            <p>{{ message.text }}</p>
           </div>
         </div>
       </div>
-      
+
+      <div class="chat-input">
+        <div class="field has-addons">
+          <div class="control is-expanded">
+            <input type="text" class="input" placeholder="Escribe tu mensaje..." [(ngModel)]="userInput"
+              (keydown.enter)="sendMessage()" />
+          </div>
+          <div class="control">
+            <button class="button is-primary" (click)="sendMessage()">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
