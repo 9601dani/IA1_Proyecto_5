@@ -1,5 +1,6 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { ChatBotService } from '../../../services/chat-bot.service';
+import { ChatbotTryingService } from 'src/app/services/chat-trying.service';
 import { FormBuilder, FormGroup } from '@angular/forms';
 
 @Component({
@@ -15,18 +16,21 @@ export class HomeComponent implements OnInit {
 
   @ViewChild('chatMessages') chatMessages!: ElementRef;
 
-  constructor(private chatbotService: ChatBotService, private fb: FormBuilder) {}
+  constructor(private chatbotService: ChatBotService, private chatTrying: ChatbotTryingService,private fb: FormBuilder) {}
+
 
   async ngOnInit() {
     this.modelSelectionForm = this.fb.group({
       model: ['sequence-to-sequence'] // Valor predeterminado
     });
     await this.chatbotService.loadModel();
+    await this.chatTrying.trainChatbot()
   }
 
   async sendMessage() {
     if (this.userInput.trim() === '') return;
-
+    const res = await this.chatTrying.getResponse(this.userInput)
+    console.log( '-------',res  )
     this.messages.push({ sender: 'user', text: this.userInput });
 
     const { model } = this.modelSelectionForm.value;
@@ -43,6 +47,7 @@ export class HomeComponent implements OnInit {
     this.userInput = '';
 
     this.messages.push({ sender: 'bot', text: data });
+
   }
 
   generateBotResponse(userMessage: string): string {
