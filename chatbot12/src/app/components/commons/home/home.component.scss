@@ -38,12 +38,14 @@ $font-size-large: 1.2rem;
     .options-form {
       padding: 10px;
 
-      .radio {
-        display: block;
+      .custom-radio {
+        display: flex;
+        align-items: center; // Centra verticalmente el texto con el radio button
+        gap: 5px; // Espaciado entre el botón y el texto
         margin-bottom: 10px;
-
+      
         input[type="radio"] {
-          margin-right: 5px;
+          margin-right: 0; // Elimina márgenes adicionales
         }
       }
     }

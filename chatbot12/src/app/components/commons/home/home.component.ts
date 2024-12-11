@@ -29,8 +29,6 @@ export class HomeComponent implements OnInit {
 
   async sendMessage() {
     if (this.userInput.trim() === '') return;
-    const res = await this.chatTrying.getResponse(this.userInput)
-    console.log( '-------',res  )
     this.messages.push({ sender: 'user', text: this.userInput });
 
     const { model } = this.modelSelectionForm.value;
@@ -42,6 +40,8 @@ export class HomeComponent implements OnInit {
       data = await this.chatbotService.decodeSequence(this.userInput);
     } else {
       // TODO: add intents model
+      data = await this.chatTrying.getResponse(this.userInput)
+
     }
 
     this.userInput = '';
