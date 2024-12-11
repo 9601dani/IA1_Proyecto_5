@@ -1,39 +1,43 @@
 import * as tf from '@tensorflow/tfjs';
+import trainingData from './data.json';
 
-// Vocabulario controlado (palabras clave)
-const vocabulary = ["hola", "cómo", "estás", "adiós", "gracias", "bien", "mal"];
+// Preprocesar la entrada
+function preprocessInput(input: string, vocabulary: string[]): number[] {
+  const words = input.toLowerCase().split(' ');
+  const vector = new Array(vocabulary.length).fill(0);
 
-// Preprocesar la entrada (convertir las palabras en un vector de 0s y 1s)
-function preprocessInput(input: string): number[] {
-  const words = input.toLowerCase().split(' '); // Convertir a minúsculas y dividir por palabras
-  const vector = new Array(vocabulary.length).fill(0); // Inicializar el vector de 0s
-
-  // Asignar 1 en las posiciones correspondientes del vocabulario
   words.forEach((word) => {
     const index = vocabulary.indexOf(word);
     if (index !== -1) {
-      vector[index] = 1; // Marca 1 si la palabra está en el vocabulario
+      vector[index] = 1;
+    } else {
+      console.warn(`Palabra desconocida: ${word}`);
     }
   });
 
   return vector;
 }
-// Respuestas posibles
-const responsesMap: { [key: number]: string } = {
-  0: "¡Hola! ¿Cómo puedo ayudarte?",
-  1: "Estoy bien, gracias por preguntar.",
-  2: "¡Adiós! Que tengas un buen día.",
-  3: "¡De nada! Siempre aquí para ayudarte.",
-  4: "Me alegra escuchar que estás bien.",
-  5: "Lamento escuchar que estás mal.",
-};
+
+// Seleccionar random
+function getRandomResponse(responses: string[]): string {
+  const randomIndex = Math.floor(Math.random() * responses.length);
+  return responses[randomIndex];
+}
+
+// Preprocesar el vocabulario
+function generateVocabulary(data: { input: string; output: string[] }[]): string[] {
+  const allWords = data
+    .map((item) => item.input.toLowerCase().split(' '))
+    .reduce((acc, words) => acc.concat(words), []);
+  return Array.from(new Set(allWords));
+}
 
 // Crear el modelo
-function createModel(): tf.Sequential {
+function createModel(vocabularyLength: number, outputLength: number): tf.Sequential {
   const model = tf.sequential();
-  model.add(tf.layers.dense({ units: 16, activation: 'relu', inputShape: [vocabulary.length] })); // Capa densa de entrada
-  model.add(tf.layers.dense({ units: 8, activation: 'relu' })); // Capa oculta
-  model.add(tf.layers.dense({ units: Object.keys(responsesMap).length, activation: 'softmax' })); // Capa de salida con activación softmax
+  model.add(tf.layers.dense({ units: 16, activation: 'relu', inputShape: [vocabularyLength] }));
+  model.add(tf.layers.dense({ units: 8, activation: 'relu' }));
+  model.add(tf.layers.dense({ units: outputLength, activation: 'softmax' }));
 
   model.compile({
     optimizer: 'adam',
@@ -43,56 +47,49 @@ function createModel(): tf.Sequential {
 
   return model;
 }
+
 async function trainModel(): Promise<void> {
-  const model = createModel();
+  const vocabulary = generateVocabulary(trainingData);
+  const model = createModel(vocabulary.length, trainingData.length);
 
-  // Datos de entrada (frases procesadas)
-  const inputs = [
-    preprocessInput("hola"),
-    preprocessInput("cómo estás"),
-    preprocessInput("adiós"),
-    preprocessInput("gracias"),
-    preprocessInput("estoy bien"),
-    preprocessInput("estoy mal"),
-  ];
+  const inputs = trainingData.map((data) => preprocessInput(data.input, vocabulary));
+  const labels = trainingData.map((_, i) => {
+    const labelVector = new Array(trainingData.length).fill(0);
+    labelVector[i] = 1;
+    return labelVector;
+  });
 
-  // Etiquetas correspondientes (en formato one-hot encoding)
-  const labels = [
-    [1, 0, 0, 0, 0, 0], // saludo
-    [0, 1, 0, 0, 0, 0], // estado
-    [0, 0, 1, 0, 0, 0], // despedida
-    [0, 0, 0, 1, 0, 0], // gratitud
-    [0, 0, 0, 0, 1, 0], // bien
-    [0, 0, 0, 0, 0, 1], // mal
-  ];
-
-  const xs = tf.tensor2d(inputs);
-  const ys = tf.tensor2d(labels);
+  // Convertir los datos a tensores
+  const xs = tf.tensor2d(inputs); 
+  const ys = tf.tensor2d(labels); 
 
   // Entrenar el modelo
   await model.fit(xs, ys, {
-    epochs: 100, // Aumentar el número de epochs para mejorar el aprendizaje
-    batchSize: 4,
+    epochs: 200,
+    batchSize: 15,
+    shuffle: true,
   });
 
-  // Guardar el modelo
+
   await model.save('localstorage://chatbot-model');
-  console.log("Modelo entrenado y guardado.");
+  console.log('Modelo entrenado y guardado.');
 }
+
 async function predictResponse(input: string): Promise<string> {
-  // Cargar el modelo desde localStorage
+  const vocabulary = generateVocabulary(trainingData);
   const model = await tf.loadLayersModel('localstorage://chatbot-model');
 
-  // Preprocesar la entrada del usuario
-  const processedInput = preprocessInput(input);
+  const processedInput = preprocessInput(input, vocabulary);
   const tensorInput = tf.tensor2d([processedInput], [1, vocabulary.length]);
 
-  // Realizar la predicción
   const prediction = model.predict(tensorInput) as tf.Tensor;
   const predictedIndex = prediction.argMax(-1).dataSync()[0];
 
-  return responsesMap[predictedIndex];
+  const possibleResponses = trainingData[predictedIndex].output;
+  return getRandomResponse(possibleResponses);
 }
+
 export {
-  trainModel, predictResponse
-}
+  trainModel,
+  predictResponse
+};
