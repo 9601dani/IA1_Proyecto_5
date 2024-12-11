@@ -1,0 +1,5 @@
+[
+  { "input": "hola", "output": "¡Hola! ¿Cómo estás?" },
+  { "input": "¿cómo estás?", "output": "Estoy bien, gracias por preguntar." },
+  { "input": "adiós", "output": "¡Adiós! Que tengas un buen día." }
+]

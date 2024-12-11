@@ -1,5 +1,6 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { ChatBotService } from '../../../services/chat-bot.service';
+import { ChatbotTryingService } from 'src/app/services/chat-trying.service';
 
 @Component({
   selector: 'app-home',
@@ -13,15 +14,17 @@ export class HomeComponent implements OnInit {
 
   @ViewChild('chatMessages') chatMessages!: ElementRef;
 
-  constructor(private chatbotService: ChatBotService) {}
+  constructor(private chatbotService: ChatBotService, private chatTrying: ChatbotTryingService) {}
 
   async ngOnInit() {
     await this.chatbotService.loadModel();
+    await this.chatTrying.trainChatbot()
   }
 
   async sendMessage() {
     if (this.userInput.trim() === '') return;
-
+    const res = await this.chatTrying.getResponse(this.userInput)
+    console.log( '-------',res  )
     this.messages.push({ sender: 'user', text: this.userInput });
 
     const userMessage = this.userInput;
@@ -31,6 +34,7 @@ export class HomeComponent implements OnInit {
     this.userInput = '';
 
     this.messages.push({ sender: 'bot', text: data });
+
   }
 
   generateBotResponse(userMessage: string): string {
