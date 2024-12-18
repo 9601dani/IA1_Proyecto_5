@@ -2,5 +2,8 @@
 import './styles.css';
 import { createApp } from 'vue'
 import App from './App.vue'
+import { loadModelAndTokenizer } from './helpers/modelService';
 
-createApp(App).mount('#app')
+loadModelAndTokenizer().then(() => {
+  createApp(App).mount('#app')
+});
