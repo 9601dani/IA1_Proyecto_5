@@ -60,8 +60,8 @@ async function trainModel(): Promise<void> {
   });
 
   // Convertir los datos a tensores
-  const xs = tf.tensor2d(inputs); 
-  const ys = tf.tensor2d(labels); 
+  const xs = tf.tensor2d(inputs);
+  const ys = tf.tensor2d(labels);
 
   // Entrenar el modelo
   await model.fit(xs, ys, {
