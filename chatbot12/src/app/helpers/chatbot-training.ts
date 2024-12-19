@@ -86,8 +86,8 @@ async function trainModel(): Promise<void> {
 
   // Entrenar el modelo
   await model.fit(xs, ys, {
-    epochs: 190,
-    batchSize: 35,
+    epochs: 200,
+    batchSize: 15,
     shuffle: true,
   });
 
