@@ -1,5 +1,5 @@
 import * as tf from '@tensorflow/tfjs';
-import trainingData from './data.json';
+import trainingData from './data-programming.json';
 
 // Preprocesar la entrada
 function preprocessInput(input: string, vocabulary: string[]): number[] {
