@@ -1,12 +1,29 @@
 import * as tf from '@tensorflow/tfjs';
 import trainingData from './data-programming.json';
 
-// Preprocesar la entrada
-function preprocessInput(input: string, vocabulary: string[]): number[] {
-  const words = input.toLowerCase().split(' ');
-  const vector = new Array(vocabulary.length).fill(0);
+function preprocessInput(input, vocabulary) {
+  const connectors = [
+    "y", "que", "o", "u", "pero", "porque", "aunque", "si", "cuando", 
+    "como", "por", "a", "de", "en", "con", "para", "el", "la", "los", "las", 
+    "un", "una", "unos", "unas", "al", "del"
+  ];
 
-  words.forEach((word) => {
+
+  function cleanText(text) {
+    return text
+      .normalize("NFD") 
+      .replace(/[\u0300-\u036f]/g, '') 
+      .replace(/[^\w\s]/g, '') 
+      .toLowerCase(); 
+  }
+
+  const cleanInput = cleanText(input);
+  const words = cleanInput.split(' ');
+  
+  const filteredWords = words.filter(word => !connectors.includes(word));
+
+  const vector = new Array(vocabulary.length).fill(0);
+  filteredWords.forEach((word) => {
     const index = vocabulary.indexOf(word);
     if (index !== -1) {
       vector[index] = 1;
@@ -42,8 +59,11 @@ function createModel(vocabularyLength: number, outputLength: number): tf.Sequent
   model.compile({
     optimizer: 'adam',
     loss: 'categoricalCrossentropy',
-    metrics: ['accuracy'],
+    metrics: [],
   });
+  
+  
+  
 
   return model;
 }
@@ -66,8 +86,8 @@ async function trainModel(): Promise<void> {
 
   // Entrenar el modelo
   await model.fit(xs, ys, {
-    epochs: 200,
-    batchSize: 15,
+    epochs: 190,
+    batchSize: 35,
     shuffle: true,
   });
 
