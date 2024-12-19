@@ -1,5 +1,5 @@
 [
-  { "input": "hola", "output": ["hola como estas", "hola que tal", "buenos dias como estas"] },
+  { "input": "hola", "output": ["hola como estas", "hola que tal", "buenos dias como estas"], "label": "es" },
   { "input": "buenas", "output": ["hola como estas", "hola que tal", "buenos dias como estas"] },
   { "input": "hey", "output": ["hola como estas", "hola que tal", "buenos dias como estas"] },
   { "input": "como estas", "output": ["estoy bien gracias por preguntar", "todo bien, y tu?"] },

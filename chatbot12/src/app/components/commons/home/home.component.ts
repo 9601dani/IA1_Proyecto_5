@@ -21,7 +21,7 @@ export class HomeComponent implements OnInit {
 
   async ngOnInit() {
     this.modelSelectionForm = this.fb.group({
-      model: ['sequence-to-sequence'] // Valor predeterminado
+      model: ['intents'] // Valor predeterminado
     });
     await this.chatbotService.loadModel();
     await this.chatTrying.trainChatbot()
