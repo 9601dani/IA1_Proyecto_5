@@ -6,7 +6,13 @@ import { trainModel, predictResponse } from '../helpers/chatbot-training';
 })
 export class ChatbotTryingService {
   async trainChatbot(): Promise<void> {
-    await trainModel();
+   const item = localStorage.getItem('tensorflowjs_models/chatbot-model/info');
+   if(JSON.parse(item) !== null) {
+      console.log('Modelo ya entrenado');
+      return;
+   }
+  console.log('Entrenando modelo...');
+  await trainModel();
   }
 
   async getResponse(input: string): Promise<string> {
