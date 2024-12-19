@@ -1,0 +1,1533 @@
+[
+  {
+    "input": "que es programacion",
+    "output": [
+      "Es el proceso de escribir instrucciones que una computadora puede entender.",
+      "Es la creación de código para resolver problemas o automatizar tareas en una computadora."
+    ]
+  },
+  {
+    "input": "que es un lenguaje de programacion",
+    "output": [
+      "Es un conjunto de reglas y sintaxis que se utiliza para escribir programas.",
+      "Es la herramienta que los programadores usan para comunicarse con las computadoras."
+    ]
+  },
+  {
+    "input": "que es un programa",
+    "output": [
+      "Es un conjunto de instrucciones escritas en un lenguaje de programación.",
+      "Es una secuencia de comandos que le dice a una computadora qué hacer."
+    ]
+  },
+  {
+    "input": "que es una computadora",
+    "output": [
+      "Es un dispositivo electrónico que procesa datos y ejecuta programas.",
+      "Es una máquina capaz de realizar cálculos y tareas según las instrucciones que recibe."
+    ]
+  },
+  {
+    "input": "que relación hay entre un programa y una computadora",
+    "output": [
+      "Un programa es ejecutado por una computadora para realizar tareas específicas.",
+      "La computadora interpreta y sigue las instrucciones del programa para cumplir una función."
+    ]
+  },
+  {
+    "input": "que es un algoritmo",
+    "output": [
+      "Es una secuencia de pasos definidos para resolver un problema.",
+      "Es una serie de instrucciones que se deben seguir para alcanzar un objetivo."
+    ]
+  },
+  {
+    "input": "que relacion hay entre un algoritmo y un programa",
+    "output": [
+      "Un programa implementa un algoritmo utilizando un lenguaje de programación.",
+      "Un algoritmo es la base lógica de un programa que resuelve un problema."
+    ]
+  },
+  {
+    "input": "que es una variable",
+    "output": [
+      "Es un espacio en memoria utilizado para almacenar datos.",
+      "Es un contenedor que guarda información que puede cambiar durante la ejecución de un programa."
+    ]
+  },
+  {
+    "input": "que es una funcion",
+    "output": [
+      "Es un bloque de código reutilizable que realiza una tarea específica.",
+      "Es una porción de código diseñada para realizar una operación y que puede ser llamada en un programa."
+    ]
+  },
+  {
+    "input": "que es un bucle",
+    "output": [
+      "Es una estructura que permite repetir un bloque de código varias veces.",
+      "Es una forma de ejecutar una misma operación múltiples veces en un programa."
+    ]
+  },
+  {
+    "input": "que es una condicion",
+    "output": [
+      "Es una instrucción que evalúa si una expresión es verdadera o falsa.",
+      "Es un mecanismo para tomar decisiones dentro de un programa."
+    ]
+  },
+  {
+    "input": "que relacion hay entre condiciones y bucles",
+    "output": [
+      "Los bucles suelen depender de condiciones para determinar cuándo detenerse.",
+      "Las condiciones permiten controlar la ejecución de los bucles en un programa."
+    ]
+  },
+  {
+    "input": "que es un error en programacion",
+    "output": [
+      "Es un fallo o problema en el código que impide que un programa funcione correctamente.",
+      "Es una discrepancia entre lo que un programa hace y lo que debería hacer."
+    ]
+  },
+  {
+    "input": "que es la depuracion",
+    "output": [
+      "Es el proceso de encontrar y corregir errores en un programa.",
+      "Es la técnica utilizada para analizar y solucionar fallos en el código."
+    ]
+  },
+  {
+    "input": "que es una base de datos",
+    "output": [
+      "Es un sistema organizado para almacenar, gestionar y recuperar información.",
+      "Es una colección de datos estructurados que pueden ser accesados por programas."
+    ]
+  },
+  {
+    "input": "que es un framework",
+    "output": [
+      "Es un conjunto de herramientas y bibliotecas diseñadas para facilitar el desarrollo de software.",
+      "Es una estructura predefinida que ayuda a construir aplicaciones de manera eficiente."
+    ]
+  },
+  {
+    "input": "que es una api",
+    "output": [
+      "Es una interfaz que permite que diferentes programas se comuniquen entre sí.",
+      "Es un conjunto de funciones y protocolos que facilitan la interacción entre sistemas."
+    ]
+  },
+  {
+    "input": "que es un compilador",
+    "output": [
+      "Es un programa que traduce código fuente a un lenguaje máquina entendible por la computadora.",
+      "Es una herramienta que convierte el código de alto nivel en un formato ejecutable."
+    ]
+  },
+  {
+    "input": "que es un interprete",
+    "output": [
+      "Es un programa que ejecuta el código fuente línea por línea sin necesidad de compilarlo.",
+      "Es una herramienta que traduce y ejecuta código al mismo tiempo."
+    ]
+  },
+  {
+    "input": "cual es la diferencia entre un compilador y un interprete",
+    "output": [
+      "El compilador traduce todo el código antes de ejecutarlo, mientras que el intérprete lo hace línea por línea.",
+      "El compilador genera un archivo ejecutable, mientras que el intérprete no."
+    ]
+  },
+  {
+    "input": "que es un entorno de desarrollo integrado",
+    "output": [
+      "Es una aplicación que proporciona herramientas para escribir, depurar y ejecutar código.",
+      "Es un software que reúne un editor, un compilador, un depurador y otras herramientas en un mismo lugar."
+    ]
+  },
+  {
+    "input": "que es una biblioteca en programacion",
+    "output": [
+      "Es un conjunto de funciones y recursos predefinidos que los desarrolladores pueden reutilizar.",
+      "Es un recurso que facilita la implementación de tareas comunes sin necesidad de escribir código desde cero."
+    ]
+  },
+  {
+    "input": "que es un objeto en programacion orientada a objetos",
+    "output": [
+      "Es una instancia de una clase que contiene atributos y métodos.",
+      "Es una representación de un elemento con características y comportamientos específicos."
+    ]
+  },
+  {
+    "input": "que es una clase en programacion orientada a objetos",
+    "output": [
+      "Es un modelo o plantilla que define las propiedades y comportamientos de un objeto.",
+      "Es la estructura base a partir de la cual se crean objetos en un programa."
+    ]
+  },
+  {
+    "input": "que es la herencia en programacion orientada a objetos",
+    "output": [
+      "Es un mecanismo que permite que una clase derive propiedades y métodos de otra.",
+      "Es una forma de reutilizar código al crear nuevas clases basadas en clases existentes."
+    ]
+  },
+  {
+    "input": "que es el polimorfismo en programación orientada a objetos",
+    "output": [
+      "Es la capacidad de un objeto de tomar múltiples formas.",
+      "Es un principio que permite que diferentes objetos respondan de manera única a un mismo mensaje o método."
+    ]
+  },
+  {
+    "input": "que es un archivo json",
+    "output": [
+      "Es un formato de intercambio de datos que utiliza texto legible por humanos para almacenar información estructurada.",
+      "Es un archivo que almacena datos en pares clave-valor, muy utilizado en aplicaciones web."
+    ]
+  },
+  {
+    "input": "que es un sistema de control de versiones",
+    "output": [
+      "Es una herramienta que registra los cambios realizados en un proyecto a lo largo del tiempo.",
+      "Es un sistema que permite gestionar diferentes versiones del código fuente de un proyecto."
+    ]
+  },
+  {
+    "input": "que es git",
+    "output": [
+      "Es un sistema de control de versiones distribuido utilizado para gestionar proyectos de software.",
+      "Es una herramienta que permite a los desarrolladores rastrear y colaborar en el desarrollo de código."
+    ]
+  },
+  {
+    "input": "que es github",
+    "output": [
+      "Es una plataforma basada en la nube que utiliza Git para alojar y colaborar en proyectos.",
+      "Es un servicio donde los desarrolladores pueden compartir, revisar y administrar código fuente."
+    ]
+  },
+  {
+    "input": "que es un repositorio",
+    "output": [
+      "Es un espacio donde se almacena el código fuente de un proyecto.",
+      "Es una colección organizada de archivos relacionados con un proyecto de software."
+    ]
+  },
+  {
+    "input": "que es una red neuronal en programacion",
+    "output": [
+      "Es un modelo computacional inspirado en el funcionamiento del cerebro humano.",
+      "Es un sistema de aprendizaje automático que utiliza capas de nodos interconectados para procesar datos."
+    ]
+  },
+  {
+    "input": "que es el aprendizaje automatico",
+    "output": [
+      "Es un campo de la inteligencia artificial que permite a los sistemas aprender y mejorar automáticamente a partir de datos.",
+      "Es una técnica donde los modelos se entrenan para hacer predicciones o tomar decisiones sin ser programados explícitamente."
+    ]
+  },
+  {
+    "input": "que es un dataset",
+    "output": [
+      "Es un conjunto de datos estructurados utilizados para entrenar o evaluar modelos de aprendizaje automático.",
+      "Es una colección de información organizada que se utiliza en experimentos o análisis."
+    ]
+  },
+  {
+    "input": "que es una api rest",
+    "output": [
+      "Es un estilo de arquitectura que permite la comunicación entre sistemas a través de HTTP.",
+      "Es una interfaz que utiliza métodos como GET, POST, PUT y DELETE para interactuar con datos."
+    ]
+  },
+  {
+    "input": "que es un servidor",
+    "output": [
+      "Es un sistema que proporciona servicios o recursos a otros dispositivos en una red.",
+      "Es una computadora que gestiona solicitudes de los clientes y entrega respuestas."
+    ]
+  },
+  {
+    "input": "¿Qué es un backend?",
+    "output": [
+      "Es la parte del desarrollo web que se encarga de la lógica del servidor, la base de datos y el procesamiento.",
+      "Es la capa de una aplicación que no es visible para el usuario pero maneja datos y operaciones."
+    ]
+  },
+  {
+    "input": "¿Qué es un frontend?",
+    "output": [
+      "Es la parte visual e interactiva de una aplicación con la que interactúa el usuario.",
+      "Es la capa de una aplicación que se desarrolla utilizando tecnologías como HTML, CSS y JavaScript."
+    ]
+  },
+  {
+    "input": "que es devops?",
+    "output": [
+      "Es una práctica que combina desarrollo de software y operaciones para mejorar la entrega y mantenimiento de aplicaciones.",
+      "Es una cultura que promueve la colaboración entre los equipos de desarrollo y operaciones."
+    ]
+  },
+  {
+    "input": "que es un microservicio",
+    "output": [
+      "Es un estilo de arquitectura que divide una aplicación en servicios pequeños e independientes.",
+      "Es una forma de diseñar aplicaciones donde cada módulo realiza una función específica."
+    ]
+  },
+  {
+    "input": "que es un contenedor",
+    "output": [
+      "Es una unidad estandarizada de software que empaqueta código y sus dependencias para que sea ejecutable en cualquier entorno.",
+      "Es una tecnología que aísla aplicaciones para garantizar consistencia entre entornos de desarrollo y producción."
+    ]
+  },
+  {
+    "input": "que es docker",
+    "output": [
+      "Es una plataforma que permite crear, desplegar y ejecutar aplicaciones en contenedores.",
+      "Es una herramienta para empaquetar aplicaciones y sus dependencias en un entorno aislado y portátil."
+    ]
+  },
+  {
+    "input": "que es kubernetes",
+    "output": [
+      "Es una plataforma de orquestación para gestionar contenedores y aplicaciones distribuidas.",
+      "Es una herramienta que automatiza el despliegue, escalado y administración de aplicaciones en contenedores."
+    ]
+  },
+  {
+    "input": "que es un servidor web",
+    "output": [
+      "Es un software o hardware que entrega páginas web a los usuarios cuando las solicitan.",
+      "Es una aplicación que procesa solicitudes HTTP y envía respuestas con contenido web."
+    ]
+  },
+  {
+    "input": "que es http",
+    "output": [
+      "Es un protocolo que define cómo se intercambia información entre un cliente y un servidor web.",
+      "Es la base de la comunicación en la web, utilizado para transferir datos como texto, imágenes y videos."
+    ]
+  },
+  {
+    "input": "que es https",
+    "output": [
+      "Es la versión segura de HTTP que utiliza cifrado para proteger la transferencia de datos.",
+      "Es un protocolo que garantiza la privacidad y seguridad en las comunicaciones web."
+    ]
+  },
+  {
+    "input": "que es un framework frontend",
+    "output": [
+      "Es un conjunto de herramientas y bibliotecas para construir interfaces de usuario de manera eficiente.",
+      "Es una estructura predefinida que facilita el desarrollo de aplicaciones web dinámicas."
+    ]
+  },
+  {
+    "input": "que es angular",
+    "output": [
+      "Es un framework frontend desarrollado por Google para crear aplicaciones web dinámicas.",
+      "Es una herramienta basada en TypeScript que facilita la construcción de interfaces complejas."
+    ]
+  },
+  {
+    "input": "que es react",
+    "output": [
+      "Es una biblioteca de JavaScript para construir interfaces de usuario.",
+      "Es una herramienta que permite crear componentes reutilizables en aplicaciones web."
+    ]
+  },
+  {
+    "input": "que es vue.js",
+    "output": [
+      "Es un framework progresivo de JavaScript para construir interfaces de usuario.",
+      "Es una herramienta que se enfoca en la simplicidad y flexibilidad para desarrollar aplicaciones web."
+    ]
+  },
+  {
+    "input": "que es una base de datos relacional",
+    "output": [
+      "Es un sistema que organiza datos en tablas conectadas mediante relaciones.",
+      "Es un modelo de base de datos que utiliza SQL para gestionar información estructurada."
+    ]
+  },
+  {
+    "input": "que es sql",
+    "output": [
+      "Es un lenguaje utilizado para consultar y gestionar bases de datos relacionales.",
+      "Es una herramienta estándar para realizar operaciones como insertar, eliminar y actualizar datos."
+    ]
+  },
+  {
+    "input": "que es una base de datos no relacional",
+    "output": [
+      "Es un sistema que almacena datos sin usar un esquema de tablas tradicional.",
+      "Es un modelo flexible utilizado para manejar datos no estructurados o semiestructurados."
+    ]
+  },
+  {
+    "input": "que es mongodb",
+    "output": [
+      "Es una base de datos no relacional orientada a documentos.",
+      "Es una herramienta que almacena datos en formato JSON para mayor flexibilidad."
+    ]
+  },
+  {
+    "input": "que es un servidor de aplicaciones",
+    "output": [
+      "Es un software que ejecuta aplicaciones y proporciona servicios a través de una red.",
+      "Es una plataforma que gestiona la lógica empresarial en aplicaciones distribuidas."
+    ]
+  },
+  {
+    "input": "que es un script",
+    "output": [
+      "Es un archivo de código que contiene instrucciones para ser ejecutadas por un intérprete.",
+      "Es un programa corto diseñado para automatizar tareas o realizar funciones específicas."
+    ]
+  },
+  {
+    "input": "que es un protocolo",
+    "output": [
+      "Es un conjunto de reglas que define cómo se comunican los dispositivos en una red.",
+      "Es una especificación que garantiza que los datos se transfieran de manera consistente."
+    ]
+  },
+  {
+    "input": "que es rest?",
+    "output": [
+      "Es un estilo arquitectónico para diseñar servicios web basados en recursos.",
+      "Es un enfoque que utiliza métodos HTTP para interactuar con APIs."
+    ]
+  },
+  {
+    "input": "que es un token jwt",
+    "output": [
+      "Es un estándar para la transmisión segura de información entre partes como un objeto JSON.",
+      "Es una herramienta utilizada para la autenticación y autorización en aplicaciones web."
+    ]
+  },
+  {
+    "input": "que es un middleware",
+    "output": [
+      "Es una capa intermedia que conecta diferentes componentes o sistemas en una aplicación.",
+      "Es un software que actúa como puente para procesar solicitudes y respuestas."
+    ]
+  },
+  {
+    "input": "que es node.js",
+    "output": [
+      "Es un entorno de ejecución para JavaScript que permite construir aplicaciones del lado del servidor.",
+      "Es una plataforma que utiliza el motor V8 de Google para ejecutar código JavaScript."
+    ]
+  },
+  {
+    "input": "que es npm",
+    "output": [
+      "Es el gestor de paquetes oficial de Node.js.",
+      "Es una herramienta que facilita la instalación y gestión de dependencias en proyectos JavaScript."
+    ]
+  },
+  {
+    "input": "que es un archivo yaml",
+    "output": [
+      "Es un formato legible por humanos utilizado para configurar y definir datos.",
+      "Es una herramienta comúnmente utilizada en archivos de configuración como los de Kubernetes."
+    ]
+  },
+  {
+    "input": "que es una variable",
+    "output": [
+      "Es un espacio en memoria que almacena datos y tiene un nombre asociado.",
+      "Es un contenedor que puede contener diferentes valores durante la ejecución de un programa."
+    ]
+  },
+  {
+    "input": "que es un bucle",
+    "output": [
+      "Es una estructura de control que permite ejecutar un bloque de código repetidamente.",
+      "Es una técnica que se usa para realizar tareas repetitivas hasta que se cumpla una condición."
+    ]
+  },
+  {
+    "input": "que es un condicional",
+    "output": [
+      "Es una estructura de control que permite ejecutar diferentes bloques de código según una condición.",
+      "Es una forma de tomar decisiones en un programa basado en comparaciones lógicas."
+    ]
+  },
+  {
+    "input": "que es un algoritmo",
+    "output": [
+      "Es un conjunto de pasos bien definidos para resolver un problema.",
+      "Es una secuencia lógica de instrucciones que permite realizar una tarea."
+    ]
+  },
+  {
+    "input": "que es un lenguaje de programacion",
+    "output": [
+      "Es un conjunto de reglas y sintaxis que los desarrolladores usan para comunicarse con las computadoras.",
+      "Es una herramienta que permite crear software mediante instrucciones comprensibles para las máquinas."
+    ]
+  },
+  {
+    "input": "que ide son populares",
+    "output": [
+      "Ejemplos incluyen Visual Studio Code, IntelliJ IDEA, Eclipse y PyCharm.",
+      "Son aplicaciones ampliamente utilizadas para desarrollar proyectos en lenguajes específicos o variados."
+    ]
+  },
+  {
+    "input": "que es un archivo xml",
+    "output": [
+      "Es un lenguaje de marcado que define reglas para almacenar y transportar datos.",
+      "Se utiliza para representar datos estructurados en aplicaciones como servicios web."
+    ]
+  },
+  {
+    "input": "que es un archivo csv",
+    "output": [
+      "Es un formato de archivo que almacena datos tabulares separados por comas.",
+      "Se utiliza comúnmente para intercambiar datos entre aplicaciones como hojas de cálculo y bases de datos."
+    ]
+  },
+  {
+    "input": "que es una pila",
+    "output": [
+      "Es una estructura de datos que sigue el principio LIFO (último en entrar, primero en salir).",
+      "Es un contenedor donde los elementos se añaden y eliminan desde el mismo extremo."
+    ]
+  },
+  {
+    "input": "que es una cola",
+    "output": [
+      "Es una estructura de datos que sigue el principio FIFO (primero en entrar, primero en salir).",
+      "Es un contenedor donde los elementos se añaden al final y se eliminan desde el principio."
+    ]
+  },
+  {
+    "input": "que es elasticsearch",
+    "output": [
+      "Es un motor de búsqueda y análisis distribuido basado en documentos.",
+      "Es una herramienta utilizada para buscar, analizar y visualizar grandes cantidades de datos."
+    ]
+  },
+  {
+    "input": "que es un balanceador de carga",
+    "output": [
+      "Es un dispositivo o software que distribuye el tráfico de red entre varios servidores.",
+      "Se utiliza para mejorar la disponibilidad y el rendimiento de una aplicación."
+    ]
+  },
+  {
+    "input": "que es una red de cdn",
+    "output": [
+      "Es una red de servidores distribuidos que entrega contenido web de manera rápida y eficiente.",
+      "Se utiliza para reducir la latencia y mejorar la experiencia del usuario."
+    ]
+  },
+  {
+    "input": "que es un test unitario",
+    "output": [
+      "Es una prueba que valida el funcionamiento de una unidad específica de código.",
+      "Se utiliza para asegurarse de que cada parte del software funcione correctamente de forma aislada."
+    ]
+  },
+  {
+    "input": "que es un test de integracion",
+    "output": [
+      "Es una prueba que verifica cómo interactúan diferentes módulos o componentes entre sí.",
+      "Se asegura de que las partes del sistema funcionen juntas como se espera."
+    ]
+  },
+  {
+    "input": "que es integracion continua",
+    "output": [
+      "Es una práctica de desarrollo que integra cambios frecuentes en el código en un repositorio compartido.",
+      "Se utiliza para detectar errores rápidamente al compilar y probar cada cambio automáticamente."
+    ]
+  },
+  {
+    "input": "que es despliegue continuo",
+    "output": [
+      "Es una práctica que asegura que el software esté siempre en un estado listo para ser desplegado.",
+      "Automatiza la entrega de nuevas versiones del software a entornos de pruebas o producción."
+    ]
+  },
+  {
+    "input": "que es un archivo de configuracion",
+    "output": [
+      "Es un archivo que almacena ajustes y parámetros para que un software funcione según lo esperado.",
+      "Se utiliza para personalizar el comportamiento de una aplicación sin modificar su código fuente."
+    ]
+  },
+  {
+    "input": "que es un sistema operativo",
+    "output": [
+      "Es un software que gestiona los recursos de hardware y software en un dispositivo.",
+      "Actúa como intermediario entre los usuarios y el hardware de la computadora."
+    ]
+  },
+  {
+    "input": "que es una funcion en programacion",
+    "output": [
+      "Es un bloque de código que realiza una tarea específica y puede ser reutilizado.",
+      "Es una estructura que encapsula lógica para evitar redundancia en el código."
+    ]
+  },
+  {
+    "input": "que es la programacion funcional",
+    "output": [
+      "Es un paradigma de programación basado en funciones y evaluación sin efectos secundarios.",
+      "Se enfoca en la composición de funciones puras para lograr resultados."
+    ]
+  },
+  {
+    "input": "que es la programacion declarativa",
+    "output": [
+      "Es un estilo de programación donde se describe el qué se quiere hacer, no cómo hacerlo.",
+      "Se utiliza para expresar lógica sin especificar el control del flujo."
+    ]
+  },
+  {
+    "input": "que es un entorno virtual",
+    "output": [
+      "Es un espacio aislado donde se instalan dependencias específicas de un proyecto.",
+      "Se utiliza para evitar conflictos entre las versiones de bibliotecas y herramientas."
+    ]
+  },
+  {
+    "input": "que es un servidor",
+    "output": [
+      "es un computador o programa que proporciona servicios a otros dispositivos o programas llamados clientes",
+      "es un sistema que almacena y distribuye recursos o datos a traves de una red"
+    ]
+  },
+  {
+    "input": "que es un cliente",
+    "output": [
+      "es un dispositivo o programa que solicita servicios o recursos a un servidor",
+      "es una parte del sistema que interactua con el servidor para consumir datos o funcionalidades"
+    ]
+  },
+  {
+    "input": "que es la nube",
+    "output": [
+      "es un conjunto de servidores remotos que almacenan y procesan datos accesibles via internet",
+      "es un modelo de computacion que permite acceder a recursos y servicios de forma remota"
+    ]
+  },
+  {
+    "input": "que es una red",
+    "output": [
+      "es un conjunto de dispositivos conectados entre si que comparten recursos y datos",
+      "es una infraestructura que permite la comunicacion entre computadoras y otros dispositivos"
+    ]
+  },
+  {
+    "input": "que es un sistema distribuido",
+    "output": [
+      "es un conjunto de computadoras que trabajan juntas para lograr un objetivo comun",
+      "es un sistema en el que multiples nodos cooperan para procesar datos y realizar tareas"
+    ]
+  },
+  {
+    "input": "que es un microservicio",
+    "output": [
+      "es un componente independiente y especializado que forma parte de una aplicacion mas grande",
+      "es un estilo de arquitectura que divide una aplicacion en servicios pequeños y desacoplados"
+    ]
+  },
+  {
+    "input": "que es un orquestador de contenedores",
+    "output": [
+      "es una herramienta que gestiona y coordina el despliegue, la escalabilidad y la operacion de contenedores",
+      "es un software que automatiza tareas relacionadas con la administracion de contenedores"
+    ]
+  },
+  {
+    "input": "que es machine learning",
+    "output": [
+      "es una rama de la inteligencia artificial que permite a los sistemas aprender y mejorar automaticamente a partir de los datos",
+      "es una tecnica que utiliza algoritmos para identificar patrones y realizar predicciones"
+    ]
+  },
+  {
+    "input": "que es un modelo entrenado",
+    "output": [
+      "es el resultado de aplicar un algoritmo de aprendizaje sobre un conjunto de datos",
+      "es una representacion que permite realizar predicciones o clasificaciones basadas en datos previos"
+    ]
+  },
+  {
+    "input": "que es un commit",
+    "output": [
+      "es un cambio registrado en un sistema de control de versiones como git",
+      "es una confirmacion de que los cambios en el codigo se han guardado en el historial del proyecto"
+    ]
+  },
+  {
+    "input": "que es una rama en git",
+    "output": [
+      "es una version paralela del codigo que permite trabajar en nuevas funcionalidades sin afectar la principal",
+      "es un mecanismo que facilita el desarrollo colaborativo y la gestion de versiones"
+    ]
+  },
+  {
+    "input": "que es python",
+    "output": [
+      "es un lenguaje de programacion de alto nivel y proposito general conocido por su simplicidad y legibilidad",
+      "es un lenguaje utilizado en desarrollo web, analisis de datos, inteligencia artificial y muchas otras areas"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar python",
+    "output": [
+      "tiene una sintaxis sencilla que facilita el aprendizaje y el desarrollo rapido",
+      "cuenta con una gran cantidad de bibliotecas y una comunidad activa",
+      "es multiplataforma y se adapta bien a proyectos de cualquier escala"
+    ]
+  },
+  {
+    "input": "que es javascript",
+    "output": [
+      "es un lenguaje de programacion orientado a objetos que se ejecuta principalmente en navegadores web",
+      "es el lenguaje utilizado para agregar interactividad a las paginas web"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar javascript",
+    "output": [
+      "es compatible con todos los navegadores modernos y no requiere configuraciones adicionales",
+      "permite el desarrollo tanto del frontend como del backend con tecnologias como nodejs",
+      "tiene una comunidad masiva y una amplia variedad de frameworks como react y angular"
+    ]
+  },
+  {
+    "input": "que es java",
+    "output": [
+      "es un lenguaje de programacion orientado a objetos ampliamente utilizado en aplicaciones empresariales",
+      "es un lenguaje que permite la creacion de software multiplataforma gracias a su maquina virtual java"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar java",
+    "output": [
+      "es muy estable y confiable, lo que lo hace ideal para aplicaciones a gran escala",
+      "tiene una amplia cantidad de herramientas y bibliotecas que facilitan el desarrollo",
+      "es compatible con una gran cantidad de dispositivos gracias a su filosofia write once, run anywhere"
+    ]
+  },
+  {
+    "input": "que es c",
+    "output": [
+      "es un lenguaje de programacion de bajo nivel y proposito general conocido por su eficiencia",
+      "es uno de los lenguajes mas antiguos y se utiliza en sistemas operativos y software de alto rendimiento"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar c",
+    "output": [
+      "ofrece un control directo sobre el hardware y la gestion de memoria",
+      "es rapido y eficiente, lo que lo hace ideal para aplicaciones criticas de rendimiento",
+      "es la base de muchos otros lenguajes como c plus plus y java"
+    ]
+  },
+  {
+    "input": "que es c plus plus",
+    "output": [
+      "es una extension del lenguaje c que incorpora programacion orientada a objetos",
+      "es un lenguaje utilizado para desarrollar sistemas operativos, videojuegos y aplicaciones de alto rendimiento"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar c plus plus",
+    "output": [
+      "combina el control de bajo nivel de c con capacidades avanzadas de programacion orientada a objetos",
+      "es altamente eficiente y escalable, adecuado para proyectos complejos",
+      "tiene una amplia comunidad y soporte para bibliotecas como boost y stl"
+    ]
+  },
+  {
+    "input": "que es ruby",
+    "output": [
+      "es un lenguaje de programacion interpretado y orientado a objetos conocido por su sintaxis amigable",
+      "es el lenguaje detras del popular framework de desarrollo web ruby on rails"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar ruby",
+    "output": [
+      "facilita el desarrollo rapido de aplicaciones gracias a su sintaxis sencilla",
+      "tiene una comunidad activa y un ecosistema de gemas que amplian sus capacidades",
+      "es ideal para startups y proyectos con plazos ajustados"
+    ]
+  },
+  {
+    "input": "que es go",
+    "output": [
+      "es un lenguaje de programacion creado por google conocido por su simplicidad y eficiencia",
+      "es utilizado en sistemas distribuidos, servicios web y aplicaciones en la nube"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar go",
+    "output": [
+      "es rapido gracias a su compilacion nativa y su gestion eficiente de memoria",
+      "tiene soporte integrado para concurrencia mediante goroutines",
+      "es ideal para sistemas distribuidos y aplicaciones escalables"
+    ]
+  },
+  {
+    "input": "que es php",
+    "output": [
+      "es un lenguaje de programacion orientado a la web utilizado para desarrollar paginas dinamicas",
+      "es uno de los lenguajes mas populares para crear aplicaciones backend"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar php",
+    "output": [
+      "es facil de aprender y tiene una curva de aprendizaje baja",
+      "es ampliamente compatible con servidores web y bases de datos como mysql",
+      "cuenta con frameworks como laravel y symfony que aceleran el desarrollo"
+    ]
+  },
+  {
+    "input": "que es rust",
+    "output": [
+      "es un lenguaje de programacion de sistemas enfocado en la seguridad y el rendimiento",
+      "es utilizado en aplicaciones de alto rendimiento donde la gestion de memoria es crucial"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar rust",
+    "output": [
+      "garantiza seguridad en la memoria gracias a su sistema de ownership",
+      "ofrece un rendimiento comparable al de c y c plus plus",
+      "tiene una comunidad creciente y es ideal para aplicaciones seguras y robustas"
+    ]
+  },
+  {
+    "input": "que es swift",
+    "output": [
+      "es un lenguaje de programacion creado por apple para desarrollar aplicaciones para sus plataformas",
+      "es moderno y seguro, diseñado para ser rapido y eficiente"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar swift",
+    "output": [
+      "tiene una sintaxis clara y legible, lo que facilita el desarrollo",
+      "es compatible con aplicaciones para ios, macos, watchos y tvos",
+      "ofrece herramientas avanzadas como playgrounds para aprendizaje interactivo"
+    ]
+  },
+  {
+    "input": "que es kotlin",
+    "output": [
+      "es un lenguaje de programacion moderno y estatico diseñado para interoperar con java",
+      "es el lenguaje oficial para desarrollar aplicaciones android"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar kotlin",
+    "output": [
+      "es conciso y reduce el codigo boilerplate en comparacion con java",
+      "ofrece seguridad nula para evitar errores comunes",
+      "es compatible con java, lo que facilita su adopcion en proyectos existentes"
+    ]
+  },
+  {
+    "input": "que lenguajes de programacion existen",
+    "output": [
+      "Swift, java script, python, entre otros"
+    ]
+  },
+  {
+    "input": "que es scrum",
+    "output": [
+      "es una metodologia agil para la gestion y desarrollo de proyectos",
+      "es un marco de trabajo que organiza el desarrollo en ciclos cortos llamados sprints"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar scrum",
+    "output": [
+      "permite adaptarse rapidamente a los cambios en los requisitos del proyecto",
+      "fomenta la colaboracion entre los miembros del equipo",
+      "divide el trabajo en tareas manejables para facilitar la entrega continua de valor"
+    ]
+  },
+  {
+    "input": "que es un sprint",
+    "output": [
+      "es un periodo corto de tiempo en scrum donde se completan tareas especificas del proyecto",
+      "es un ciclo de trabajo que normalmente dura entre una y cuatro semanas"
+    ]
+  },
+  {
+    "input": "que es kanban",
+    "output": [
+      "es una metodologia visual que ayuda a gestionar el flujo de trabajo",
+      "es un sistema que utiliza tarjetas y tableros para organizar y priorizar tareas"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar kanban",
+    "output": [
+      "facilita la identificacion de cuellos de botella en el flujo de trabajo",
+      "promueve la mejora continua y la entrega constante de valor",
+      "es flexible y puede adaptarse a cualquier tipo de equipo o proyecto"
+    ]
+  },
+  {
+    "input": "que es xp",
+    "output": [
+      "es una metodologia de desarrollo agil conocida como programacion extrema",
+      "es un enfoque que enfatiza la calidad del software y la satisfaccion del cliente"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar xp",
+    "output": [
+      "fomenta practicas como el desarrollo guiado por pruebas y la programacion en pareja",
+      "mejora la calidad del codigo mediante iteraciones frecuentes y retroalimentacion continua",
+      "reduce el riesgo al entregar software funcional de forma incremental"
+    ]
+  },
+  {
+    "input": "que es una metodologia agil",
+    "output": [
+      "es un enfoque para el desarrollo de software que prioriza la flexibilidad y la colaboracion",
+      "es una metodologia que busca entregar valor rapido y adaptarse a los cambios"
+    ]
+  },
+  {
+    "input": "cuales son los principios de las metodologias agiles",
+    "output": [
+      "priorizar la satisfaccion del cliente mediante entregas tempranas y continuas",
+      "adaptarse a los cambios en los requisitos incluso en etapas avanzadas del desarrollo",
+      "fomentar la comunicacion constante entre los desarrolladores y los clientes"
+    ]
+  },
+  {
+    "input": "que es waterfall",
+    "output": [
+      "es una metodologia tradicional donde el desarrollo se realiza en fases lineales",
+      "es un modelo secuencial que incluye etapas como analisis, diseño, desarrollo y pruebas"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar waterfall",
+    "output": [
+      "es facil de entender y gestionar debido a su estructura lineal",
+      "es adecuado para proyectos con requisitos claros y bien definidos desde el inicio",
+      "proporciona documentacion detallada en cada etapa del proyecto"
+    ]
+  },
+  {
+    "input": "que es el modelo v",
+    "output": [
+      "es una extension del modelo waterfall que enfatiza la validacion y verificacion en cada etapa",
+      "es un enfoque que asegura la calidad del software a traves de pruebas sistematicas"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar el modelo v",
+    "output": [
+      "asegura que cada fase de desarrollo tiene una prueba correspondiente",
+      "facilita la deteccion temprana de errores",
+      "es adecuado para proyectos criticos donde la calidad es prioritaria"
+    ]
+  },
+  {
+    "input": "que es el modelo espiral",
+    "output": [
+      "es una metodologia iterativa que combina elementos del waterfall y prototipos",
+      "es un modelo que gestiona riesgos mediante ciclos repetitivos llamados espirales"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios del modelo espiral",
+    "output": [
+      "facilita la gestion de riesgos en cada iteracion",
+      "permite mejorar el proyecto basandose en retroalimentacion continua",
+      "es adecuado para proyectos grandes y complejos"
+    ]
+  },
+  {
+    "input": "que es devops",
+    "output": [
+      "es una metodologia que combina desarrollo y operaciones para acelerar el ciclo de vida del software",
+      "es un enfoque colaborativo que automatiza y mejora los procesos de desarrollo y despliegue"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar devops",
+    "output": [
+      "reduce los tiempos de entrega gracias a la integracion continua y el despliegue continuo",
+      "mejora la calidad del software mediante pruebas automatizadas",
+      "promueve la colaboracion entre equipos de desarrollo y operaciones"
+    ]
+  },
+  {
+    "input": "que es lean development",
+    "output": [
+      "es una metodologia basada en los principios de lean manufacturing para reducir desperdicios en el desarrollo",
+      "es un enfoque que busca maximizar el valor entregado al cliente con el minimo esfuerzo"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de lean development",
+    "output": [
+      "reduce los tiempos de desarrollo al eliminar tareas innecesarias",
+      "fomenta la mejora continua y el aprendizaje constante",
+      "prioriza las funcionalidades que aportan valor directo al cliente"
+    ]
+  },
+  {
+    "input": "que es el desarrollo guiado por pruebas",
+    "output": [
+      "es una metodologia en la que las pruebas se escriben antes del codigo",
+      "es un enfoque que asegura que el software cumpla con los requisitos definidos"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios del desarrollo guiado por pruebas",
+    "output": [
+      "reduce errores al definir claramente los requisitos antes de programar",
+      "mejora la calidad del codigo y facilita el mantenimiento",
+      "fomenta una mejor comprension de los objetivos del proyecto"
+    ]
+  },
+  {
+    "input": "que es crystal",
+    "output": [
+      "es una metodologia agil que se adapta al tamaño y la complejidad del proyecto",
+      "es un enfoque flexible que prioriza la comunicacion y la satisfaccion del cliente"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar crystal",
+    "output": [
+      "es adaptable a diferentes equipos y contextos",
+      "fomenta la colaboracion y la retroalimentacion constante",
+      "prioriza la entrega temprana y continua de valor"
+    ]
+  },
+  {
+    "input": "que es safe",
+    "output": [
+      "es un marco de trabajo agil para la gestion de proyectos a gran escala",
+      "es un enfoque que coordina multiples equipos para entregar valor de manera alineada"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar safe",
+    "output": [
+      "facilita la sincronizacion entre equipos grandes",
+      "promueve la transparencia y la alineacion en proyectos complejos",
+      "es ideal para empresas que buscan escalar sus practicas agiles"
+    ]
+  },
+  {
+    "input": "cuales son las partes de una computadora",
+    "output": [
+      "las partes principales son la unidad central de procesamiento, la memoria ram, el disco duro, la tarjeta madre, y la fuente de alimentacion",
+      "incluyen el procesador, la memoria, el almacenamiento, y los perifericos como teclado y monitor"
+    ]
+  },
+  {
+    "input": "que es el procesador",
+    "output": [
+      "es el cerebro de la computadora que ejecuta las instrucciones de los programas",
+      "es la unidad central de procesamiento encargada de realizar los calculos y tomar decisiones"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de un procesador rapido",
+    "output": [
+      "permite ejecutar programas de manera mas fluida",
+      "mejora el rendimiento general de la computadora",
+      "reduce el tiempo de carga de aplicaciones"
+    ]
+  },
+  {
+    "input": "que es la memoria ram",
+    "output": [
+      "es un tipo de memoria que almacena datos temporalmente mientras se ejecutan programas",
+      "es una memoria volatil que permite el acceso rapido a los datos que necesita el procesador"
+    ]
+  },
+  {
+    "input": "para que sirve la memoria ram",
+    "output": [
+      "sirve para ejecutar programas y cargar datos rapidamente",
+      "permite que el sistema operativo y las aplicaciones funcionen de manera eficiente"
+    ]
+  },
+  {
+    "input": "que es un disco duro",
+    "output": [
+      "es un dispositivo de almacenamiento que guarda datos de forma permanente",
+      "es el lugar donde se almacenan los sistemas operativos, programas y archivos del usuario"
+    ]
+  },
+  {
+    "input": "cuales son las diferencias entre un disco duro y un ssd",
+    "output": [
+      "un ssd es mas rapido y silencioso que un disco duro tradicional",
+      "los discos duros suelen tener mayor capacidad de almacenamiento a un costo menor",
+      "los ssd son mas resistentes a golpes y vibraciones"
+    ]
+  },
+  {
+    "input": "que es la tarjeta madre",
+    "output": [
+      "es el componente principal de una computadora donde se conectan todos los demas componentes",
+      "es una placa de circuito que permite la comunicacion entre el procesador, la memoria y los dispositivos perifericos"
+    ]
+  },
+  {
+    "input": "para que sirve la tarjeta madre",
+    "output": [
+      "sirve como base para conectar y coordinar todos los componentes de la computadora",
+      "proporciona puertos y conexiones para dispositivos externos e internos"
+    ]
+  },
+  {
+    "input": "que es la fuente de alimentacion",
+    "output": [
+      "es un componente que convierte la electricidad de la toma corriente en energia util para la computadora",
+      "es el dispositivo encargado de suministrar energia a todos los componentes internos"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de una buena fuente de alimentacion",
+    "output": [
+      "proporciona energia estable y protege contra sobretensiones",
+      "mejora la eficiencia energetica y prolonga la vida util de los componentes",
+      "permite expandir la computadora con componentes de mayor consumo"
+    ]
+  },
+  {
+    "input": "que es una tarjeta grafica",
+    "output": [
+      "es un componente que se encarga de procesar y renderizar graficos en una computadora",
+      "es una unidad dedicada para manejar tareas relacionadas con graficos y video"
+    ]
+  },
+  {
+    "input": "para que sirve una tarjeta grafica",
+    "output": [
+      "sirve para mejorar el rendimiento en aplicaciones graficas y juegos",
+      "permite trabajar con software de edicion de video y modelado 3d de manera eficiente"
+    ]
+  },
+  {
+    "input": "que es un monitor",
+    "output": [
+      "es un dispositivo de salida que muestra informacion visual al usuario",
+      "es una pantalla donde se pueden ver las tareas que realiza la computadora"
+    ]
+  },
+  {
+    "input": "cuales son las diferencias entre un monitor lcd y uno led",
+    "output": [
+      "los monitores led tienen mejor contraste y colores mas vivos que los lcd",
+      "los monitores led consumen menos energia que los lcd",
+      "los lcd son generalmente mas economicos pero menos avanzados"
+    ]
+  },
+  {
+    "input": "que es un teclado",
+    "output": [
+      "es un dispositivo de entrada que permite al usuario ingresar texto y comandos",
+      "es un periferico que contiene teclas para interactuar con la computadora"
+    ]
+  },
+  {
+    "input": "que es un mouse",
+    "output": [
+      "es un dispositivo de entrada que permite mover un cursor en la pantalla y seleccionar elementos",
+      "es un periferico que facilita la navegacion e interaccion con la computadora"
+    ]
+  },
+  {
+    "input": "que es un sistema de enfriamiento",
+    "output": [
+      "es un conjunto de dispositivos que regulan la temperatura de los componentes de la computadora",
+      "es un sistema que previene el sobrecalentamiento del procesador y otros componentes"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de un buen sistema de enfriamiento",
+    "output": [
+      "prolonga la vida util de los componentes",
+      "mejora el rendimiento al mantener los componentes a temperaturas optimas",
+      "reduce el ruido generado por los ventiladores"
+    ]
+  },
+  {
+    "input": "que son los perifericos",
+    "output": [
+      "son dispositivos externos que amplian las funciones de la computadora",
+      "incluyen dispositivos de entrada como el teclado y de salida como el monitor"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar perifericos adicionales",
+    "output": [
+      "amplian las capacidades de la computadora para tareas especificas",
+      "mejoran la experiencia del usuario con dispositivos como impresoras y altavoces",
+      "facilitan la productividad y el entretenimiento"
+    ]
+  },
+  {
+    "input": "que es un sistema operativo",
+    "output": [
+      "es un software que gestiona los recursos hardware y permite ejecutar programas en una computadora",
+      "es un conjunto de programas que coordinan y controlan el hardware de un dispositivo"
+    ]
+  },
+  {
+    "input": "cuales son los principales sistemas operativos",
+    "output": [
+      "los principales son Windows, macOS, Linux, y sus variantes",
+      "algunos ejemplos comunes son Windows 10, Ubuntu, y macOS Big Sur"
+    ]
+  },
+  {
+    "input": "que es windows",
+    "output": [
+      "es un sistema operativo desarrollado por Microsoft",
+      "es un sistema operativo gráfico que es ampliamente utilizado en computadoras personales"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar windows",
+    "output": [
+      "es compatible con una gran cantidad de software y hardware",
+      "tiene una interfaz gráfica amigable y es fácil de usar",
+      "es ampliamente utilizado en entornos corporativos y de juegos"
+    ]
+  },
+  {
+    "input": "que es macos",
+    "output": [
+      "es un sistema operativo desarrollado por Apple para sus computadoras Mac",
+      "es un sistema operativo basado en Unix que tiene una interfaz gráfica pulida"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar macos",
+    "output": [
+      "ofrece un ecosistema cerrado y optimizado para los dispositivos Apple",
+      "es conocido por su estabilidad, seguridad y facilidad de uso",
+      "tiene una integración perfecta con otros dispositivos Apple como iPhones y iPads"
+    ]
+  },
+  {
+    "input": "que es linux",
+    "output": [
+      "es un sistema operativo de código abierto basado en el núcleo Linux",
+      "es un sistema operativo flexible que se puede personalizar ampliamente"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar linux",
+    "output": [
+      "es gratuito y de código abierto, lo que permite personalizarlo y adaptarlo a las necesidades del usuario",
+      "es conocido por su estabilidad y seguridad",
+      "tiene una gran comunidad que ofrece soporte y desarrollos continuos"
+    ]
+  },
+  {
+    "input": "que es una distribucion de linux",
+    "output": [
+      "es una versión de Linux que incluye el núcleo junto con software adicional como gestores de paquetes y aplicaciones",
+      "es una version del sistema operativo adaptada a ciertos tipos de usuarios o necesidades"
+    ]
+  },
+  {
+    "input": "cuales son las distribuciones de linux mas populares",
+    "output": [
+      "algunas de las distribuciones más populares son Ubuntu, Fedora, Debian, y Arch Linux",
+      "Ubuntu es conocida por ser fácil de usar, mientras que Arch Linux es popular entre usuarios avanzados"
+    ]
+  },
+  {
+    "input": "que es ubuntu",
+    "output": [
+      "es una distribución de Linux basada en Debian, conocida por ser fácil de usar y orientada a usuarios nuevos",
+      "es una de las distribuciones de Linux más populares para escritorios y servidores"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar ubuntu",
+    "output": [
+      "es fácil de instalar y tiene una amplia documentación y comunidad",
+      "es compatible con una gran cantidad de hardware y software",
+      "tiene una interfaz gráfica amigable para usuarios novatos"
+    ]
+  },
+  {
+    "input": "que es fedora",
+    "output": [
+      "es una distribución de Linux patrocinada por Red Hat, conocida por ser vanguardista y tener software actualizado",
+      "es una distribución de Linux que proporciona una plataforma de código abierto y libre para desarrolladores"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar fedora",
+    "output": [
+      "tiene acceso a las últimas tecnologías y características en software libre",
+      "está bien respaldada por la comunidad y Red Hat",
+      "es ideal para desarrolladores y usuarios avanzados que buscan estabilidad y novedades"
+    ]
+  },
+  {
+    "input": "que es debian",
+    "output": [
+      "es una distribución de Linux conocida por su estabilidad y soporte a largo plazo",
+      "es una de las distribuciones más antiguas y es la base de muchas otras distribuciones como Ubuntu"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar debian",
+    "output": [
+      "es muy estable y tiene una gran base de usuarios",
+      "se enfoca en la fiabilidad y la seguridad",
+      "tiene un ciclo de actualizaciones regulares y bien soportadas"
+    ]
+  },
+  {
+    "input": "que es arch linux",
+    "output": [
+      "es una distribución de Linux orientada a usuarios avanzados que prefieren un control total sobre su sistema",
+      "es conocida por su filosofía de simplicidad y personalización"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar arch linux",
+    "output": [
+      "ofrece un control completo sobre los paquetes y configuraciones del sistema",
+      "tiene un modelo de actualizaciones continuas que siempre proporciona las últimas versiones de software",
+      "es ideal para usuarios que quieren aprender sobre Linux en profundidad"
+    ]
+  },
+  {
+    "input": "que es el terminal en linux",
+    "output": [
+      "es una interfaz de línea de comandos que permite interactuar con el sistema operativo mediante texto",
+      "es una herramienta poderosa que permite ejecutar comandos, scripts y administrar el sistema"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar el terminal",
+    "output": [
+      "permite realizar tareas de manera más rápida y eficiente que usando solo una interfaz gráfica",
+      "es ideal para la automatización de tareas mediante scripts",
+      "ofrece un control total sobre el sistema y es utilizado por administradores de sistemas"
+    ]
+  },
+  {
+    "input": "que es un gestor de paquetes en linux",
+    "output": [
+      "es una herramienta que facilita la instalación, actualización y eliminación de software en Linux",
+      "es un sistema que maneja las dependencias y versiones de los paquetes de software"
+    ]
+  },
+  {
+    "input": "cuales son los gestores de paquetes más comunes en linux",
+    "output": [
+      "los gestores de paquetes más comunes son apt para Debian y Ubuntu, dnf para Fedora, y pacman para Arch Linux",
+      "cada distribución de Linux tiene su propio gestor de paquetes"
+    ]
+  },
+  {
+    "input": "que es un entorno de escritorio",
+    "output": [
+      "es un conjunto de aplicaciones y componentes gráficos que proporcionan una interfaz de usuario en una computadora",
+      "es lo que ves y usas para interactuar con tu sistema operativo de manera visual"
+    ]
+  },
+  {
+    "input": "cuales son los entornos de escritorio más populares en linux",
+    "output": [
+      "los entornos de escritorio más populares son GNOME, KDE Plasma, y XFCE",
+      "cada uno ofrece una experiencia de usuario diferente, desde minimalista hasta completamente personalizada"
+    ]
+  },
+  {
+    "input": "que es la seguridad en linux",
+    "output": [
+      "es un conjunto de prácticas y herramientas diseñadas para proteger el sistema operativo de ataques y accesos no autorizados",
+      "Linux tiene una estructura de permisos que permite controlar el acceso a archivos y recursos del sistema"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de la seguridad en linux",
+    "output": [
+      "Linux es conocido por ser más seguro que otros sistemas operativos debido a su modelo de permisos y la rapidez con que se aplican actualizaciones de seguridad",
+      "su naturaleza abierta permite que la comunidad identifique y corrija vulnerabilidades rápidamente"
+    ]
+  },
+  {
+    "input": "cuales son los tipos de algoritmos",
+    "output": [
+      "los tipos de algoritmos incluyen algoritmos de búsqueda, ordenamiento, grafos, y de optimización",
+      "también existen algoritmos recursivos, iterativos, y paralelos"
+    ]
+  },
+  {
+    "input": "que es un algoritmo de busqueda",
+    "output": [
+      "es un algoritmo utilizado para encontrar un elemento dentro de una estructura de datos, como un arreglo o lista",
+      "los algoritmos de búsqueda más comunes son la búsqueda lineal y la búsqueda binaria"
+    ]
+  },
+  {
+    "input": "que es la busqueda lineal",
+    "output": [
+      "es un algoritmo de búsqueda que recorre los elementos de una lista uno por uno hasta encontrar el elemento buscado",
+      "es simple y eficiente para listas pequeñas, pero no es óptimo para listas grandes"
+    ]
+  },
+  {
+    "input": "que es la busqueda binaria",
+    "output": [
+      "es un algoritmo de búsqueda eficiente que divide una lista ordenada en dos partes y descarta la mitad en cada paso",
+      "es mucho más rápido que la búsqueda lineal en listas grandes, pero requiere que la lista esté ordenada"
+    ]
+  },
+  {
+    "input": "que es un algoritmo de ordenamiento",
+    "output": [
+      "es un algoritmo que organiza los elementos de una lista en un orden específico, como ascendente o descendente",
+      "los algoritmos de ordenamiento más comunes son el ordenamiento por burbuja, selección y merge sort"
+    ]
+  },
+  {
+    "input": "que es el algoritmo de ordenamiento por burbuja",
+    "output": [
+      "es un algoritmo simple que compara elementos adyacentes en una lista y los intercambia si están en el orden incorrecto",
+      "es fácil de entender y implementar, pero no es muy eficiente para listas grandes"
+    ]
+  },
+  {
+    "input": "que es el algoritmo de seleccion",
+    "output": [
+      "es un algoritmo de ordenamiento que selecciona el menor (o mayor) elemento de una lista y lo coloca en la posición correcta, repitiendo el proceso para el resto de los elementos",
+      "es más eficiente que el ordenamiento por burbuja, pero todavía no es el más rápido para listas grandes"
+    ]
+  },
+  {
+    "input": "que es el merge sort",
+    "output": [
+      "es un algoritmo de ordenamiento eficiente basado en la técnica de dividir y conquistar",
+      "divide la lista en partes más pequeñas, las ordena y luego las fusiona para formar la lista ordenada"
+    ]
+  },
+  {
+    "input": "que es un algoritmo de grafos",
+    "output": [
+      "es un tipo de algoritmo utilizado para resolver problemas relacionados con redes de nodos y conexiones, como rutas más cortas o flujos de información",
+      "los algoritmos de grafos más comunes son el algoritmo de Dijkstra y el algoritmo de Floyd-Warshall"
+    ]
+  },
+  {
+    "input": "que es el algoritmo de dijkstra",
+    "output": [
+      "es un algoritmo que encuentra la ruta más corta desde un nodo de inicio a todos los demás nodos de un grafo ponderado",
+      "es muy eficiente y se utiliza en aplicaciones como el GPS para calcular rutas"
+    ]
+  },
+  {
+    "input": "que es el algoritmo de floyd-warshall",
+    "output": [
+      "es un algoritmo que encuentra las rutas más cortas entre todos los pares de nodos en un grafo",
+      "es útil cuando se necesita conocer las distancias más cortas entre cualquier par de nodos, pero no es tan eficiente como otros algoritmos en grafos grandes"
+    ]
+  },
+  {
+    "input": "que es un algoritmo de optimizacion",
+    "output": [
+      "es un algoritmo que busca la mejor solución posible a un problema, generalmente dentro de un conjunto de soluciones posibles",
+      "se utilizan en áreas como la programación lineal, la asignación de recursos y la planificación de rutas"
+    ]
+  },
+  {
+    "input": "que es un algoritmo recursivo",
+    "output": [
+      "es un algoritmo que se llama a sí mismo con un conjunto reducido de datos hasta que se alcanza una condición base",
+      "es útil para problemas que pueden dividirse en subproblemas similares, como el cálculo de factoriales o la búsqueda binaria"
+    ]
+  },
+  {
+    "input": "que es la recursion en algoritmos",
+    "output": [
+      "es el proceso de que un algoritmo se llame a sí mismo para resolver subproblemas más pequeños",
+      "se utiliza en algoritmos como la búsqueda binaria, ordenamiento por merge, y en la resolución de problemas matemáticos"
+    ]
+  },
+  {
+    "input": "que es un algoritmo iterativo",
+    "output": [
+      "es un algoritmo que repite un conjunto de instrucciones hasta que se cumple una condición específica",
+      "es comúnmente utilizado en bucles y estructuras de control como for y while"
+    ]
+  },
+  {
+    "input": "cual es la diferencia entre recursión e iteracion",
+    "output": [
+      "la recursión implica que el algoritmo se llame a sí mismo, mientras que la iteración usa bucles para repetir una serie de instrucciones",
+      "la recursión es más elegante y clara en algunos problemas, mientras que la iteración es más eficiente en términos de memoria"
+    ]
+  },
+  {
+    "input": "que es un algoritmo paralelo",
+    "output": [
+      "es un algoritmo que divide un problema en subproblemas más pequeños y los resuelve simultáneamente utilizando múltiples procesadores o núcleos",
+      "se utiliza para acelerar el procesamiento de grandes cantidades de datos, como en el análisis de datos masivos y la inteligencia artificial"
+    ]
+  },
+  {
+    "input": "que es el algoritmo de busqueda en profundidad",
+    "output": [
+      "es un algoritmo de búsqueda en grafos que explora tan profundamente como sea posible antes de retroceder",
+      "se utiliza en la resolución de problemas de laberintos, árboles de decisión y otros problemas de exploración"
+    ]
+  },
+  {
+    "input": "que es el algoritmo de busqueda en anchura",
+    "output": [
+      "es un algoritmo de búsqueda en grafos que explora todos los nodos de un nivel antes de pasar al siguiente",
+      "es útil cuando se busca la ruta más corta en un grafo no ponderado"
+    ]
+  },
+  {
+    "input": "que es un algoritmo de clasificacion",
+    "output": [
+      "es un tipo de algoritmo que organiza los elementos de un conjunto en un orden determinado, ya sea ascendente o descendente",
+      "los algoritmos de clasificación más conocidos son quicksort, bubblesort y merge sort"
+    ]
+  },
+  {
+    "input": "que es un algoritmo de encriptacion",
+    "output": [
+      "es un algoritmo que convierte información legible en un formato cifrado para garantizar la privacidad de los datos",
+      "se utilizan en la seguridad informática para proteger contraseñas y comunicaciones sensibles"
+    ]
+  }
+]
+
+
+
+
