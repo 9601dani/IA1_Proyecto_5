@@ -11,14 +11,14 @@ function preprocessInput(input: string, vocabulary: string[]): number[] {
     if (index !== -1) {
       vector[index] = 1;
     } else {
-      console.warn(`Palabra desconocida: ${word}`);
+      console.warn(`Unknown word: ${word}`);
     }
   });
 
   return vector;
 }
 
-// Seleccionar random
+// Seleccionar respuesta al azar
 function getRandomResponse(responses: string[]): string {
   const randomIndex = Math.floor(Math.random() * responses.length);
   return responses[randomIndex];
@@ -48,6 +48,7 @@ function createModel(vocabularyLength: number, outputLength: number): tf.Sequent
   return model;
 }
 
+// Entrenar el modelo
 async function trainModel(): Promise<void> {
   const vocabulary = generateVocabulary(trainingData);
   const model = createModel(vocabulary.length, trainingData.length);
@@ -70,11 +71,11 @@ async function trainModel(): Promise<void> {
     shuffle: true,
   });
 
-
   await model.save('localstorage://chatbot-model');
   console.log('Modelo entrenado y guardado.');
 }
 
+// Predecir la respuesta
 async function predictResponse(input: string): Promise<string> {
   const vocabulary = generateVocabulary(trainingData);
   const model = await tf.loadLayersModel('localstorage://chatbot-model');
