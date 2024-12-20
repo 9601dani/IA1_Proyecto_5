@@ -16,6 +16,14 @@
     ]
   },
   {
+    "input": "en que puedes ayudarme",
+    "output": [
+      "puedo responder preguntas, darte informacion y ayudarte en lo que necesites, estoy entrenado para temas de programacion",
+      "estoy aqui para resolver tus dudas y ayudarte en lo que necesites, estoy entrenado para temas de programacion,",
+      "puedo ayudarte sobre temas como programacion"
+    ]
+  },
+  {
     "input": "buenas",
     "output": [
       "hola como estas",
@@ -95,7 +103,7 @@
     "output": [
       "puedo responder preguntas, darte informacion y ayudarte en lo que necesites, estoy entrenado para temas de programacion",
       "estoy aqui para resolver tus dudas y ayudarte en lo que necesites, estoy entrenado para temas de programacion,",
-      "puedo ayudarte en temas de IA, programacion, puedo ayudarte sobre temas como programacion"
+      "puedo ayudarte sobre temas como programacion"
     ]
   },
   {
@@ -110,13 +118,13 @@
     "input": "perdon",
     "output": [
       "no te preocupes todo esta bien",
-      "no hay problema, como puedo ayudarte?"
+      "no hay problema, como puedo ayudarte?, estoy entrenado para temas de programacion"
     ]
   },
   {
     "input": "lo siento",
     "output": [
-      "no pasa nada, como puedo ayudarte?",
+      "no pasa nada, como puedo ayudarte?, estoy entrenado para temas de programacion y uno que otro chiste",
       "no te preocupes, estoy aqui para ayudarte"
     ]
   },
@@ -137,7 +145,7 @@
   {
     "input": "que dia es hoy",
     "output": [
-      "hoy es un gran dia, como puedo ayudarte?",
+      "hoy es un gran dia, como puedo ayudarte? estoy entrenado para temas de programacion",
       "hoy es un dia perfecto para aprender algo nuevo"
     ]
   },
@@ -333,8 +341,15 @@
   {
     "input": "que dia es",
     "output": [
-      "hoy es un gran dia, como puedo ayudarte?",
+      "hoy es un gran dia, como puedo ayudarte?, quieres saber sobre que es la programacion",
       "hoy es un dia perfecto para aprender algo nuevo"
+    ]
+  },
+  {
+    "input": "si",
+    "output": [
+      "Es el proceso de escribir instrucciones que una computadora puede entender.",
+      "Es la creación de código para resolver problemas o automatizar tareas en una computadora."
     ]
   },
   {
@@ -535,7 +550,7 @@
     ]
   },
   {
-    "input": "que es programacion",
+    "input": "que es la programacion",
     "output": [
       "Es el proceso de escribir instrucciones que una computadora puede entender.",
       "Es la creación de código para resolver problemas o automatizar tareas en una computadora."
