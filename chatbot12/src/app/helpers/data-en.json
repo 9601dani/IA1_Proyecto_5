@@ -1,0 +1,19 @@
+[
+    { "input": "hello", "output": ["hello, how are you?", "hi, what's up?", "good morning, how are you?"], "label": "en" },
+    { "input": "good morning", "output": ["good morning, hope you have a great day", "hello, how are you today?"] },
+    { "input": "good afternoon", "output": ["good afternoon, how can I help you?", "how's your afternoon going, how can I assist?"] },
+    { "input": "good evening", "output": ["good evening, have a good rest", "sweet dreams, see you tomorrow"] },
+    { "input": "how are you", "output": ["I'm fine, thanks for asking", "everything's good, how about you?"] },
+    { "input": "goodbye", "output": ["goodbye, take care", "see you later", "see you next time"] },
+    { "input": "thank you", "output": ["you're welcome, always here to help", "no problem", "here for whatever you need"] },
+    { "input": "i'm sorry", "output": ["don't worry, everything is fine", "no problem, how can I help?"] },
+    { "input": "what time is it", "output": ["I'm sorry, I can't tell the exact time, but I can help with other things", "I don't have a clock, but I can assist with something else"] },
+    { "input": "what day is it", "output": ["today is a great day, how can I assist?", "it's a perfect day to learn something new"] },
+    { "input": "i'm sad", "output": ["I'm so sorry, if you need to talk, I'm here for you", "I understand, you're not alone, tell me more"] },
+    { "input": "i'm happy", "output": ["I'm glad to hear that, it makes me happy too", "that's great to know, I'm thrilled for you!"] },
+    { "input": "tell me a joke", "output": ["Why do birds not use Facebook? Because they already have Twitter!", "What does a bee do in the gym? Zumba!"] },
+    { "input": "what is nlp", "output": ["NLP means Natural Language Processing, a branch of AI focused on human-computer interaction through language", "NLP is about teaching machines to understand and respond in our language"] },
+    { "input": "tell me something interesting", "output": ["Did you know octopuses have three hearts and blue blood?", "Did you know honey never spoils?"] },
+    { "input": "motivate me", "output": ["Never give up, great achievements take time and effort", "Believe in yourself, anything is possible if you give your best"] }
+  ]
+  

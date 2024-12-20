@@ -1,0 +1,4332 @@
+[
+  {
+    "input": "hola",
+    "output": [
+      "hola como estas",
+      "hola que tal",
+      "buenos dias como estas"
+    ]
+  },
+  {
+    "input": "bien",
+    "output": [
+      "me alegra saberlo, dime en que puedo ayudarte, estoy entrenado para temas de programacion ",
+      "que alegria, puedo ayudarte en distintos temas, estoy entrenado para temas de programacion",
+      "me alegra escuchar eso, puedo ayudarte con el tema de programacion"
+    ]
+  },
+  {
+    "input": "en que puedes ayudarme",
+    "output": [
+      "puedo responder preguntas, darte informacion y ayudarte en lo que necesites, estoy entrenado para temas de programacion",
+      "estoy aqui para resolver tus dudas y ayudarte en lo que necesites, estoy entrenado para temas de programacion,",
+      "puedo ayudarte sobre temas como programacion"
+    ]
+  },
+  {
+    "input": "buenas",
+    "output": [
+      "hola como estas",
+      "hola que tal",
+      "buenos dias como estas"
+    ]
+  },
+  {
+    "input": "hey",
+    "output": [
+      "hola como estas",
+      "hola que tal",
+      "buenos dias como estas"
+    ]
+  },
+  {
+    "input": "como estas",
+    "output": [
+      "estoy bien gracias por preguntar",
+      "todo bien, y tu?"
+    ]
+  },
+  {
+    "input": "todo bien",
+    "output": [
+      "estoy bien gracias por preguntar",
+      "todo bien, y tu?",
+      "me alegra escuchar eso"
+    ]
+  },
+  {
+    "input": "adios",
+    "output": [
+      "adios cuidate",
+      "hasta luego",
+      "nos vemos"
+    ]
+  },
+  {
+    "input": "nos vemos",
+    "output": [
+      "adios cuidate",
+      "hasta luego",
+      "nos vemos"
+    ]
+  },
+  {
+    "input": "buenos dias",
+    "output": [
+      "buenos dias espero que tengas un excelente dia, puedo ayudarte en temas de programacion",
+      "hola como estas en este dia"
+    ]
+  },
+  {
+    "input": "como te llamas",
+    "output": [
+      "soy un asistente virtual pero puedes llamarme bot",
+      "me llamo bot, tu asistente"
+    ]
+  },
+  {
+    "input": "tienes algun nombre",
+    "output": [
+      "soy un asistente virtual pero puedes llamarme bot",
+      "me llamo bot, tu asistente"
+    ]
+  },
+  {
+    "input": "quien eres",
+    "output": [
+      "soy un asistente virtual pero puedes llamarme bot",
+      "me llamo bot, tu asistente"
+    ]
+  },
+  {
+    "input": "que puedes hacer",
+    "output": [
+      "puedo responder preguntas, darte informacion y ayudarte en lo que necesites, estoy entrenado para temas de programacion",
+      "estoy aqui para resolver tus dudas y ayudarte en lo que necesites, estoy entrenado para temas de programacion,",
+      "puedo ayudarte sobre temas como programacion"
+    ]
+  },
+  {
+    "input": "gracias",
+    "output": [
+      "de nada siempre aqui para ayudarte",
+      "no hay de que",
+      "aqui estoy para lo que necesites"
+    ]
+  },
+  {
+    "input": "perdon",
+    "output": [
+      "no te preocupes todo esta bien",
+      "no hay problema, como puedo ayudarte?, estoy entrenado para temas de programacion"
+    ]
+  },
+  {
+    "input": "lo siento",
+    "output": [
+      "no pasa nada, como puedo ayudarte?, estoy entrenado para temas de programacion y uno que otro chiste",
+      "no te preocupes, estoy aqui para ayudarte"
+    ]
+  },
+  {
+    "input": "que hora es",
+    "output": [
+      "lo siento no puedo dar la hora exacta pero puedo ayudarte con otras cosas",
+      "no tengo un reloj, pero puedo ayudarte con otra cosa"
+    ]
+  },
+  {
+    "input": "dime la hora",
+    "output": [
+      "lo siento no puedo dar la hora exacta pero puedo ayudarte con otras cosas",
+      "no tengo un reloj, pero puedo ayudarte con otra cosa"
+    ]
+  },
+  {
+    "input": "que dia es hoy",
+    "output": [
+      "hoy es un gran dia, como puedo ayudarte? estoy entrenado para temas de programacion",
+      "hoy es un dia perfecto para aprender algo nuevo"
+    ]
+  },
+  {
+    "input": "ayuda",
+    "output": [
+      "por supuesto dime que necesitas y vere como ayudarte, estoy entrenado para temas de programacion",
+      "estoy aqui para lo que necesites, dime como puedo ayudarte, estoy entrenado para temas de programacion",
+      "puedo ayudarte en temas de programacion"
+    ]
+  },
+  {
+    "input": "estoy triste",
+    "output": [
+      "lo siento mucho si necesitas hablar o apoyo estoy aqui",
+      "te entiendo, no estas solo, cuentame mas"
+    ]
+  },
+  {
+    "input": "estoy feliz",
+    "output": [
+      "que alegria escuchar eso, me hace feliz saber que estas bien",
+      "eso es genial, me encanta saberlo!"
+    ]
+  },
+  {
+    "input": "cuentame un chiste",
+    "output": [
+      "por que los pajaros no usan facebook porque ya tienen twitter",
+      "que hace una abeja en el gimnasio zumba"
+    ]
+  },
+  {
+    "input": "dime un chiste",
+    "output": [
+      "por que los pajaros no usan facebook porque ya tienen twitter",
+      "que hace una abeja en el gimnasio zumba"
+    ]
+  },
+  {
+    "input": "cuentame otro chiste",
+    "output": [
+      "por que los pajaros no usan facebook porque ya tienen twitter",
+      "que hace una abeja en el gimnasio zumba"
+    ]
+  },
+  {
+    "input": "dime otro chiste",
+    "output": [
+      "por que los pajaros no usan facebook porque ya tienen twitter",
+      "que hace una abeja en el gimnasio zumba"
+    ]
+  },
+  {
+    "input": "que son los pajaros",
+    "output": [
+      "los pajaros son animales voladores que tienen plumas y pico",
+      "los pajaros son animales que vuelan y tienen plumas"
+    ]
+  },
+  {
+    "input": "que es un pajaro",
+    "output": [
+      "un pajaro es un animal volador que tiene plumas y pico",
+      "un pajaro es un animal que vuela y tienen pluma"
+    ]
+  },
+  {
+    "input": "que es facebook",
+    "output": [
+      "facebook es una red social donde las personas pueden compartir contenido interactuar y conectar"
+    ]
+  },
+  {
+    "input": "que es una red social",
+    "output": [
+      "una red social es una plataforma digital donde las personas pueden interactuar compartir ideas contenido y comunicarse entre si"
+    ]
+  },
+  {
+    "input": "que son las redes sociales",
+    "output": [
+      "las redes sociales son plataformas digitales que permiten a los usuarios conectarse compartir contenido y comunicarse entre ellos"
+    ]
+  },
+  {
+    "input": "que son las personas",
+    "output": [
+      "las personas son seres humanos que poseen capacidades de pensamiento razonamiento y comunicacion"
+    ]
+  },
+  {
+    "input": "que significa compartir",
+    "output": [
+      "compartir significa poner algo a disposicion de otros para que lo usen o disfruten en conjunto"
+    ]
+  },
+  {
+    "input": "que es conectar",
+    "output": [
+      "conectar es establecer una relacion o vinculo entre dos o mas elementos"
+    ]
+  },
+  {
+    "input": "que significa conectar",
+    "output": [
+      "conectar significa unir o enlazar cosas personas o ideas para que interactuen o trabajen en conjunto"
+    ]
+  },
+  {
+    "input": "que es twitter",
+    "output": [
+      "twitter es una plataforma donde los usuarios pueden publicar mensajes cortos llamados tweets"
+    ]
+  },
+  {
+    "input": "por que los pajaros no usan facebook",
+    "output": [
+      "porque ya tienen twitter"
+    ]
+  },
+  {
+    "input": "que hace una abeja en el gimnasio",
+    "output": [
+      "zumba"
+    ]
+  },
+  {
+    "input": "que es la zumba",
+    "output": [
+      "la zumba es una actividad fisica que combina baile y ejercicio al ritmo de musica latina"
+    ]
+  },
+  {
+    "input": "que son las abejas",
+    "output": [
+      "las abejas son insectos polinizadores que juegan un papel crucial en el ecosistema y producen miel"
+    ]
+  },
+  {
+    "input": "que es un pajaro",
+    "output": [
+      "un pajaro es un animal vertebrado con plumas alas y generalmente la capacidad de volar"
+    ]
+  },
+  {
+    "input": "que hacen los pajaros en redes sociales",
+    "output": [
+      "en este contexto los pajaros usan twitter como parte del chiste"
+    ]
+  },
+  {
+    "input": "que es un gimnasio",
+    "output": [
+      "un gimnasio es un lugar donde las personas van a ejercitarse y mejorar su condicion fisica"
+    ]
+  },
+  {
+    "input": "estoy animado",
+    "output": [
+      "que alegria escuchar eso, me hace feliz saber que estas bien",
+      "eso es genial, me encanta saberlo!"
+    ]
+  },
+  {
+    "input": "estoy de maravilla",
+    "output": [
+      "que alegria escuchar eso, me hace feliz saber que estas bien",
+      "eso es genial, me encanta saberlo!"
+    ]
+  },
+  {
+    "input": "que hora tienes",
+    "output": [
+      "lo siento no puedo dar la hora exacta pero puedo ayudarte con otras cosas",
+      "no tengo un reloj, pero puedo ayudarte con otra cosa"
+    ]
+  },
+  {
+    "input": "cual es la hora",
+    "output": [
+      "lo siento no puedo dar la hora exacta pero puedo ayudarte con otras cosas",
+      "no tengo un reloj, pero puedo ayudarte con otra cosa"
+    ]
+  },
+  {
+    "input": "que dia tenemos",
+    "output": [
+      "hoy es un gran dia, como puedo ayudarte?",
+      "hoy es un dia perfecto para aprender algo nuevo"
+    ]
+  },
+  {
+    "input": "que dia es",
+    "output": [
+      "hoy es un gran dia, como puedo ayudarte?, quieres saber sobre que es la programacion",
+      "hoy es un dia perfecto para aprender algo nuevo"
+    ]
+  },
+  {
+    "input": "si",
+    "output": [
+      "Es el proceso de escribir instrucciones que una computadora puede entender.",
+      "Es la creación de código para resolver problemas o automatizar tareas en una computadora."
+    ]
+  },
+  {
+    "input": "estas disponible",
+    "output": [
+      "claro que si estoy aqui para ayudarte",
+      "estoy disponible, dime en qué puedo ayudarte"
+    ]
+  },
+  {
+    "input": "sigues disponible",
+    "output": [
+      "claro que si estoy aqui para ayudarte",
+      "estoy disponible, dime en qué puedo ayudarte"
+    ]
+  },
+  {
+    "input": "me puedes ayudar",
+    "output": [
+      "por supuesto dime que necesitas y vere como ayudarte",
+      "estoy aqui para lo que necesites, dime como puedo ayudarte"
+    ]
+  },
+  {
+    "input": "me ayudas",
+    "output": [
+      "por supuesto dime que necesitas y vere como ayudarte",
+      "estoy aqui para lo que necesites, dime como puedo ayudarte"
+    ]
+  },
+  {
+    "input": "ayudame",
+    "output": [
+      "por supuesto dime que necesitas y vere como ayudarte, estoy entrenado para temas de programacion y uno que otro chiste",
+      "estoy aqui para lo que necesites, dime como puedo ayudarte, estoy entrenado para temas de programacion y uno que otro chiste"
+    ]
+  },
+  {
+    "input": "hola como estas",
+    "output": [
+      "estoy bien y tu"
+    ]
+  },
+  {
+    "input": "buenos dias",
+    "output": [
+      "buenos dias como te sientes hoy"
+    ]
+  },
+  {
+    "input": "hola que tal",
+    "output": [
+      "todo va bien por aqui y tu como estas"
+    ]
+  },
+  {
+    "input": "hola todo bien",
+    "output": [
+      "si gracias como te va a ti"
+    ]
+  },
+  {
+    "input": "hola me escuchas",
+    "output": [
+      "claro que si en que puedo ayudarte hoy"
+    ]
+  },
+  {
+    "input": "buenas tardes",
+    "output": [
+      "buenas tardes espero que tengas un buen dia"
+    ]
+  },
+  {
+    "input": "buenas noches",
+    "output": [
+      "buenas noches necesitas algo antes de dormir"
+    ]
+  },
+  {
+    "input": "hey como te va",
+    "output": [
+      "hola todo bien por aqui y tu"
+    ]
+  },
+  {
+    "input": "hola que haces",
+    "output": [
+      "hola estoy aqui esperando ayudarte"
+    ]
+  },
+  {
+    "input": "hola me puedes ayudar",
+    "output": [
+      "claro que si dime en que necesitas ayuda"
+    ]
+  },
+  {
+    "input": "hola como te llamas",
+    "output": [
+      "hola soy un asistente virtual y tu como te llamas"
+    ]
+  },
+  {
+    "input": "hola que me cuentas",
+    "output": [
+      "hola aqui listo para ayudarte y tu que cuentas"
+    ]
+  },
+  {
+    "input": "hola hace tiempo que no hablamos",
+    "output": [
+      "hola si es verdad que gusto verte de nuevo"
+    ]
+  },
+  {
+    "input": "hola que tal todo por ahi",
+    "output": [
+      "todo va bien y por ahi como va todo"
+    ]
+  },
+  {
+    "input": "hola que tal como estas hoy",
+    "output": [
+      "hola estoy bien gracias por preguntar y tu como estas hoy"
+    ]
+  },
+  {
+    "input": "hola tienes tiempo para hablar",
+    "output": [
+      "claro estoy aqui para ti dime en que te ayudo"
+    ]
+  },
+  {
+    "input": "hola puedo preguntarte algo",
+    "output": [
+      "claro que si estoy aqui para responder tus preguntas"
+    ]
+  },
+  {
+    "input": "hola que tal tu tarde",
+    "output": [
+      "mi tarde ha sido tranquila y la tuya que tal"
+    ]
+  },
+  {
+    "input": "hola como has estado",
+    "output": [
+      "hola he estado bien gracias por preguntar y tu"
+    ]
+  },
+  {
+    "input": "hola espero que estes bien",
+    "output": [
+      "hola gracias espero que tu tambien lo estes"
+    ]
+  },
+  {
+    "input": "hola hace mucho que no hablamos",
+    "output": [
+      "si es cierto hola que gusto hablar contigo de nuevo"
+    ]
+  },
+  {
+    "input": "hola que tal tu dia hasta ahora",
+    "output": [
+      "mi dia ha sido bueno y el tuyo como va hasta ahora"
+    ]
+  },
+  {
+    "input": "hola que tal tu semana",
+    "output": [
+      "mi semana va bien gracias y la tuya como va"
+    ]
+  },
+  {
+    "input": "hola como amaneciste hoy",
+    "output": [
+      "hola amaneci bien gracias por preguntar y tu"
+    ]
+  },
+  {
+    "input": "hola buenas como va tu dia",
+    "output": [
+      "buenas mi dia va bien gracias y el tuyo como va"
+    ]
+  },
+  {
+    "input": "hola estas disponible",
+    "output": [
+      "hola si claro en que puedo ayudarte"
+    ]
+  },
+  {
+    "input": "por que existes",
+    "output": [
+      "fui creado para ayudarte y mejorar tus interacciones con la tecnologia"
+    ]
+  },
+  {
+    "input": "que es la programacion",
+    "output": [
+      "Es el proceso de escribir instrucciones que una computadora puede entender.",
+      "Es la creación de código para resolver problemas o automatizar tareas en una computadora."
+    ]
+  },
+  {
+    "input": "que es la programacion",
+    "output": [
+      "Es el proceso de escribir instrucciones que una computadora puede entender.",
+      "Es la creación de código para resolver problemas o automatizar tareas en una computadora."
+    ]
+  },
+  {
+    "input": "que es instrucciones",
+    "output": [
+      "Son indicaciones específicas que le dicen a una computadora qué hacer paso a paso.",
+      "Son órdenes organizadas que una máquina o persona sigue para realizar una tarea."
+    ]
+  },
+  {
+    "input": "que es una computadora",
+    "output": [
+      "Es un dispositivo electrónico capaz de procesar y almacenar datos siguiendo instrucciones.",
+      "Es una máquina diseñada para realizar cálculos y ejecutar programas de software."
+    ]
+  },
+  {
+    "input": "que significa la creacion de codigo",
+    "output": [
+      "Es el proceso de escribir líneas de texto en un lenguaje de programación para construir software.",
+      "Es desarrollar instrucciones que definen cómo debe funcionar un programa o sistema."
+    ]
+  },
+  {
+    "input": "que es automatizar",
+    "output": [
+      "Es hacer que procesos o tareas se realicen automáticamente sin intervención humana constante.",
+      "Es usar tecnología para ejecutar actividades repetitivas de manera eficiente."
+    ]
+  },
+  {
+    "input": "que es un dispositivo electronico",
+    "output": [
+      "Es un aparato que funciona con electricidad y realiza tareas específicas mediante circuitos electrónicos.",
+      "Es una máquina que usa componentes eléctricos y electrónicos para procesar información o realizar acciones."
+    ]
+  },
+  {
+    "input": "que significa procesar informacion",
+    "output": [
+      "Es realizar operaciones sobre datos para transformarlos en información útil.",
+      "Es aplicar algoritmos o reglas para analizar, organizar o convertir datos."
+    ]
+  },
+  {
+    "input": "que es almacenar datos",
+    "output": [
+      "Es guardar información en un medio físico o digital para su uso futuro.",
+      "Es conservar datos de manera organizada para acceder a ellos cuando se necesiten."
+    ]
+  },
+  {
+    "input": "que es informacion util",
+    "output": [
+      "Es conocimiento derivado de datos que tiene valor para tomar decisiones o resolver problemas.",
+      "Es el resultado de procesar datos de manera que sean comprensibles y accionables."
+    ]
+  },
+  {
+    "input": "que es conocimiento derivado",
+    "output": [
+      "Es información obtenida al procesar y analizar datos de forma lógica y sistemática.",
+      "Es el entendimiento generado a partir de datos que tienen un contexto o un propósito."
+    ]
+  },
+  {
+    "input": "que es una tarea automatica",
+    "output": [
+      "Es una actividad que se realiza sin necesidad de intervención humana continua.",
+      "Es un proceso que se ejecuta de manera independiente mediante programación o dispositivos."
+    ]
+  },
+  {
+    "input": "que son pasos organizados",
+    "output": [
+      "Son acciones dispuestas en un orden lógico para alcanzar un objetivo específico.",
+      "Son instrucciones estructuradas que garantizan que un proceso se realice de manera efectiva."
+    ]
+  },
+  {
+    "input": "que significa tomar decisiones",
+    "output": [
+      "Es el proceso de elegir una opción entre varias alternativas disponibles.",
+      "Es analizar información para seleccionar la acción más adecuada en una situación dada."
+    ]
+  },
+  {
+    "input": "que es analizar datos",
+    "output": [
+      "Es examinar información detalladamente para extraer patrones, tendencias o conclusiones.",
+      "Es el proceso de evaluar datos para comprenderlos y utilizarlos en la toma de decisiones."
+    ]
+  },
+  {
+    "input": "que es un medio digital",
+    "output": [
+      "Es un soporte electrónico como discos duros, la nube o dispositivos USB donde se almacena información.",
+      "Es un entorno basado en tecnología digital que permite guardar y transmitir datos."
+    ]
+  },
+  {
+    "input": "que significa transformar datos",
+    "output": [
+      "Es modificar o reorganizar información para cambiar su formato, estructura o propósito.",
+      "Es convertir datos en una forma más útil o comprensible para análisis o uso."
+    ]
+  },
+  {
+    "input": "que es una tarea repetitiva",
+    "output": [
+      "Es una acción que se realiza una y otra vez de manera similar o idéntica.",
+      "Es un proceso que no cambia con el tiempo y que suele ser automatizable."
+    ]
+  },
+  {
+    "input": "que es automatizable",
+    "output": [
+      "Es algo que puede configurarse para ejecutarse automáticamente sin intervención humana.",
+      "Es una actividad susceptible de ser realizada por sistemas tecnológicos de forma autónoma."
+    ]
+  },
+  {
+    "input": "que son reglas organizadas",
+    "output": [
+      "Son normas dispuestas de forma lógica y estructurada para garantizar un funcionamiento eficiente.",
+      "Son principios que definen un orden para realizar tareas de manera efectiva."
+    ]
+  },
+  {
+    "input": "que significa realizar tareas",
+    "output": [
+      "Es ejecutar actividades o acciones específicas para cumplir con un objetivo.",
+      "Es llevar a cabo un conjunto de pasos que conducen a un resultado esperado."
+    ]
+  },
+  {
+    "input": "que es una actividad estructurada",
+    "output": [
+      "Es una acción planificada con un inicio, desarrollo y final definidos.",
+      "Es un conjunto de pasos organizados para lograr un propósito claro."
+    ]
+  },
+  {
+    "input": "que es identificar patrones",
+    "output": [
+      "Es reconocer estructuras o repeticiones dentro de un conjunto de datos o información.",
+      "Es detectar similitudes o regularidades que ayuden a interpretar o predecir comportamientos."
+    ]
+  },
+  {
+    "input": "que es codigo",
+    "output": [
+      "Es un conjunto de instrucciones escritas en un lenguaje de programación para ser ejecutadas por una computadora.",
+      "Es una representación estructurada de órdenes que permiten realizar tareas o resolver problemas mediante software."
+    ]
+  },
+  {
+    "input": "que es un conjunto de instrucciones",
+    "output": [
+      "Son varias órdenes organizadas que, al ser ejecutadas, logran un objetivo o completan una tarea.",
+      "Es una secuencia de pasos que indica a una computadora cómo realizar una acción específica."
+    ]
+  },
+  {
+    "input": "que es una representacion estructurada",
+    "output": [
+      "Es una forma organizada de presentar información o datos siguiendo un esquema lógico.",
+      "Es un modelo o formato claro y ordenado que facilita la comprensión y ejecución de un proceso."
+    ]
+  },
+  {
+    "input": "que significa ser ejecutadas",
+    "output": [
+      "Es llevar a cabo las instrucciones de un código para que se realicen las acciones indicadas.",
+      "Es procesar las órdenes de un programa para generar resultados o realizar tareas."
+    ]
+  },
+  {
+    "input": "que son ordenes",
+    "output": [
+      "Son comandos específicos que indican a una computadora qué hacer y cómo hacerlo.",
+      "Son instrucciones puntuales que se deben seguir para completar un proceso."
+    ]
+  },
+  {
+    "input": "que significa realizar tareas mediante software",
+    "output": [
+      "Es usar programas o aplicaciones para ejecutar actividades o resolver problemas automáticamente.",
+      "Es emplear herramientas tecnológicas para llevar a cabo acciones específicas de manera eficiente."
+    ]
+  },
+  {
+    "input": "que es una computadora ejecutando codigo",
+    "output": [
+      "Es un dispositivo procesando instrucciones escritas en un lenguaje de programación.",
+      "Es el acto de interpretar y seguir las órdenes definidas en un código para realizar acciones."
+    ]
+  },
+  {
+    "input": "que significa procesar instrucciones",
+    "output": [
+      "Es interpretar y realizar las acciones indicadas por un conjunto de órdenes.",
+      "Es ejecutar pasos definidos en un código para producir resultados específicos."
+    ]
+  },
+  {
+    "input": "que es resolver problemas con codigo",
+    "output": [
+      "Es escribir y ejecutar instrucciones para encontrar soluciones a desafíos o necesidades.",
+      "Es usar lenguajes de programación para automatizar procesos o crear herramientas que simplifiquen tareas."
+    ]
+  },
+  {
+    "input": "que significa escribir un conjunto de ordenes",
+    "output": [
+      "Es redactar instrucciones en un lenguaje de programación para que una computadora las entienda.",
+      "Es diseñar una secuencia lógica de pasos para lograr un objetivo o realizar una tarea."
+    ]
+  },
+  {
+    "input": "que es un modelo ordenado",
+    "output": [
+      "Es una estructura organizada que facilita la comprensión y ejecución de un proceso.",
+      "Es un esquema lógico que define cómo deben realizarse tareas o procesarse datos."
+    ]
+  },
+  {
+    "input": "que es un algoritmo",
+    "output": [
+      "es una secuencia de pasos definidos para resolver un problema",
+      "es un conjunto de instrucciones que se ejecutan en orden para alcanzar un objetivo",
+      "es una serie de pasos logicos que describen como resolver una tarea especifica"
+    ]
+  },
+  {
+    "input": "que significa un conjunto de pasos",
+    "output": [
+      "Son varias acciones organizadas en un orden lógico para lograr un resultado.",
+      "Es una serie de etapas que se deben seguir para completar una tarea o resolver un problema."
+    ]
+  },
+  {
+    "input": "que significa definido de manera logica",
+    "output": [
+      "Es estructurado de forma clara y coherente, siguiendo reglas o principios razonables.",
+      "Es diseñado para que cada paso tenga sentido y esté alineado con el objetivo final."
+    ]
+  },
+  {
+    "input": "que significa resolver un problema con un algoritmo",
+    "output": [
+      "Es usar una secuencia de pasos claros para encontrar una solución a una dificultad o necesidad.",
+      "Es aplicar un conjunto de instrucciones organizadas para superar un reto o cumplir un propósito."
+    ]
+  },
+  {
+    "input": "que significa una serie de pasos escritos",
+    "output": [
+      "Es una lista de acciones detalladas redactadas en un formato que puede ser entendido y seguido.",
+      "Es un grupo de instrucciones documentadas de manera clara y organizada."
+    ]
+  },
+  {
+    "input": "que significa interpretar un algoritmo",
+    "output": [
+      "Es analizar cada paso de un conjunto de instrucciones para ejecutarlo de manera adecuada.",
+      "Es convertir las acciones definidas en un algoritmo en operaciones que la computadora pueda realizar."
+    ]
+  },
+  {
+    "input": "que es ejecutar un algoritmo",
+    "output": [
+      "Es realizar los pasos definidos en un algoritmo para obtener un resultado.",
+      "Es seguir las instrucciones de un algoritmo para resolver un problema o completar una tarea."
+    ]
+  },
+  {
+    "input": "para que sirve un algoritmo",
+    "output": [
+      "sirve para resolver problemas de manera estructurada y eficiente",
+      "se utiliza para automatizar tareas y encontrar soluciones a problemas complejos",
+      "es esencial para crear programas y sistemas que resuelvan problemas especificos"
+    ]
+  },
+  {
+    "input": "cuales son las caracteristicas de un algoritmo",
+    "output": [
+      "debe ser finito, tener pasos bien definidos y ser preciso",
+      "tiene un inicio y un fin, y debe producir un resultado correcto",
+      "debe ser claro, eficiente y aplicable en cualquier contexto definido"
+    ]
+  },
+  {
+    "input": "cuales son los tipos de algoritmos",
+    "output": [
+      "algunos tipos son los algoritmos recursivos, iterativos, voraces y dinamicos",
+      "pueden ser de busqueda, ordenamiento, optimizacion o generacion",
+      "se clasifican segun su enfoque como divide y venceras, backtracking o algoritmos probabilisticos"
+    ]
+  },
+  {
+    "input": "que es un algoritmo recursivo",
+    "output": [
+      "es un algoritmo que se llama a si mismo para resolver un problema",
+      "es un tipo de algoritmo que divide un problema grande en subproblemas mas pequeños",
+      "se basa en definirse en terminos de si mismo hasta alcanzar un caso base"
+    ]
+  },
+  {
+    "input": "que ejemplos hay de algoritmos recursivos",
+    "output": [
+      "el calculo del factorial de un numero es un ejemplo clasico",
+      "la sucesion de fibonacci se puede resolver con un algoritmo recursivo",
+      "la busqueda en profundidad en un grafo es otro ejemplo comun"
+    ]
+  },
+  {
+    "input": "que es un algoritmo de ordenamiento",
+    "output": [
+      "es un algoritmo diseñado para reorganizar elementos en un orden especifico",
+      "sirve para ordenar datos de forma ascendente o descendente",
+      "es una tecnica para organizar listas de datos como numeros o cadenas"
+    ]
+  },
+  {
+    "input": "cuales son los algoritmos de ordenamiento mas comunes",
+    "output": [
+      "algunos son quicksort, mergesort, bubble sort y insertion sort",
+      "los mas comunes incluyen quicksort, heapsort y selection sort",
+      "puedes encontrar algoritmos como merge sort y radix sort entre los mas usados"
+    ]
+  },
+  {
+    "input": "que es quicksort",
+    "output": [
+      "es un algoritmo de ordenamiento basado en divide y venceras",
+      "organiza los elementos seleccionando un pivote y particionando los datos alrededor de el",
+      "es un metodo eficiente para ordenar listas grandes de datos"
+    ]
+  },
+  {
+    "input": "cual es la complejidad de quicksort",
+    "output": [
+      "en el mejor caso y promedio es o n log n",
+      "en el peor caso puede ser o n al cuadrado si los pivotes se eligen mal",
+      "es eficiente en la mayoria de los casos pero depende de como se seleccionen los pivotes"
+    ]
+  },
+  {
+    "input": "que es un algoritmo voraz",
+    "output": [
+      "es un algoritmo que toma decisiones optimas en cada paso con la esperanza de encontrar la solucion global optima",
+      "se utiliza en problemas donde las soluciones parciales optimas llevan a la solucion completa",
+      "es un enfoque para resolver problemas dividiendo la solucion en pasos secuenciales"
+    ]
+  },
+  {
+    "input": "cuales son ejemplos de algoritmos voraces",
+    "output": [
+      "el algoritmo de dijkstra para encontrar el camino mas corto en un grafo",
+      "el problema de la mochila fraccional puede resolverse con un enfoque voraz",
+      "el algoritmo de kruskal para arboles de expansion minima es otro ejemplo"
+    ]
+  },
+  {
+    "input": "que diferencia hay entre algoritmos voraces y dinamicos",
+    "output": [
+      "los algoritmos voraces toman decisiones paso a paso, mientras que los dinamicos resuelven subproblemas y combinan soluciones",
+      "los voraces buscan soluciones optimas inmediatas, los dinamicos almacenan resultados intermedios para optimizar el proceso",
+      "los voraces son mas simples pero no siempre garantizan la solucion optima como los dinamicos"
+    ]
+  },
+  {
+    "input": "que es un algoritmo dinamico",
+    "output": [
+      "es un metodo para resolver problemas dividiendolos en subproblemas y almacenando sus soluciones",
+      "es un enfoque que evita recomputaciones al guardar resultados en memoria",
+      "se utiliza para problemas que tienen subproblemas solapados y propiedades de optimizacion"
+    ]
+  },
+  {
+    "input": "que ejemplos hay de algoritmos dinamicos",
+    "output": [
+      "el algoritmo de floyd-warshall para caminos mas cortos en grafos",
+      "la solucion al problema de la mochila entera es un clasico de la programacion dinamica",
+      "el calculo de la sucesion de fibonacci con memoizacion es otro ejemplo"
+    ]
+  },
+  {
+    "input": "que tipos de instrucciones tiene un algoritmo",
+    "output": [
+      "puede tener instrucciones secuenciales, condicionales y repetitivas",
+      "las instrucciones se clasifican en secuenciales, de decision y de repeticion",
+      "puede incluir instrucciones de flujo lineal, bifurcaciones y bucles"
+    ]
+  },
+  {
+    "input": "que es una instruccion secuencial",
+    "output": [
+      "es una instruccion que se ejecuta una tras otra en el orden en que aparecen",
+      "son pasos que se siguen de manera lineal sin desviarse",
+      "es un tipo de instruccion donde cada accion ocurre exactamente una vez"
+    ]
+  },
+  {
+    "input": "que significa transformar un conjunto de instrucciones",
+    "output": [
+      "Es modificar las órdenes para adaptarlas a un formato o contexto específico.",
+      "Es convertir pasos definidos en una estructura que pueda ser procesada o ejecutada."
+    ]
+  },
+  {
+    "input": "que es un formato especifico",
+    "output": [
+      "Es una estructura definida que organiza información de manera que pueda ser interpretada correctamente.",
+      "Es una disposición estándar que asegura que los datos sean entendidos o utilizados adecuadamente."
+    ]
+  },
+  {
+    "input": "que es una estructura definida",
+    "output": [
+      "Es un esquema previamente diseñado que organiza elementos de manera coherente.",
+      "Es un marco lógico que establece cómo deben ordenarse las partes de un sistema o proceso."
+    ]
+  },
+  {
+    "input": "que significa modificar un algoritmo",
+    "output": [
+      "Es ajustar los pasos de un conjunto de instrucciones para adaptarlos a nuevas necesidades o mejorar su eficiencia.",
+      "Es cambiar la lógica o estructura de un algoritmo para optimizar su funcionamiento."
+    ]
+  },
+  {
+    "input": "que significa optimizar un algoritmo",
+    "output": [
+      "Es mejorar un conjunto de instrucciones para que sea más rápido o eficiente al resolver un problema.",
+      "Es reducir el tiempo o los recursos necesarios para ejecutar un algoritmo manteniendo su funcionalidad."
+    ]
+  },
+  {
+    "input": "que es la eficiencia en un algoritmo",
+    "output": [
+      "Es la capacidad de resolver un problema utilizando la menor cantidad posible de tiempo y recursos.",
+      "Es la medida de cuán bien un algoritmo realiza su tarea en comparación con otros métodos."
+    ]
+  },
+  {
+    "input": "que significa comparar metodos",
+    "output": [
+      "Es analizar diferentes técnicas o enfoques para identificar cuál es más adecuado o eficiente.",
+      "Es evaluar las ventajas y desventajas de distintos procesos para elegir el mejor."
+    ]
+  },
+  {
+    "input": "que significa elegir un metodo",
+    "output": [
+      "Es seleccionar la técnica más adecuada para resolver un problema o realizar una tarea específica.",
+      "Es tomar una decisión basada en la eficiencia y las características de cada opción disponible."
+    ]
+  },
+  {
+    "input": "que es una tecnica adecuada",
+    "output": [
+      "Es un enfoque o método que se ajusta de manera efectiva a las necesidades de una tarea o problema.",
+      "Es una estrategia que permite lograr un objetivo de forma precisa y eficiente."
+    ]
+  },
+  {
+    "input": "que es la logica en un algoritmo",
+    "output": [
+      "Es la base racional que organiza los pasos de un conjunto de instrucciones para garantizar que cumplan su propósito.",
+      "Es el razonamiento que guía la secuencia y estructura de las acciones dentro de un algoritmo."
+    ]
+  },
+  {
+    "input": "puedes darme ejemplos de instrucciones secuenciales",
+    "output": [
+      "asignar un valor a una variable, mostrar un mensaje en pantalla y realizar una suma",
+      "leer un dato del usuario, calcular el doble y mostrar el resultado",
+      "calcular el promedio de tres numeros, imprimirlo y finalizar el programa"
+    ]
+  },
+  {
+    "input": "que es una instruccion condicional",
+    "output": [
+      "es una instruccion que permite tomar decisiones basadas en una condicion",
+      "se utiliza para ejecutar diferentes bloques de codigo segun si una condicion es verdadera o falsa",
+      "es un tipo de instruccion que evalua una expresion y decide el flujo del algoritmo"
+    ]
+  },
+  {
+    "input": "puedes darme ejemplos de instrucciones condicionales",
+    "output": [
+      "si la edad es mayor o igual a 18, mostrar eres mayor de edad",
+      "si el numero es positivo, imprimir es positivo, de lo contrario imprimir es negativo",
+      "verificar si un numero es par o impar y mostrar el resultado"
+    ]
+  },
+  {
+    "input": "que es una instruccion repetitiva",
+    "output": [
+      "es una instruccion que ejecuta un bloque de codigo varias veces mientras se cumpla una condicion",
+      "se utiliza para realizar tareas repetitivas de manera automatica",
+      "es un tipo de instruccion que repite una accion hasta que se cumple un criterio de finalizacion"
+    ]
+  },
+  {
+    "input": "puedes darme ejemplos de instrucciones repetitivas",
+    "output": [
+      "repetir hasta que el usuario introduzca un numero mayor a 0",
+      "calcular la suma de los numeros del 1 al 100 utilizando un bucle",
+      "mostrar los numeros pares entre 1 y 50 utilizando un bucle for"
+    ]
+  },
+  {
+    "input": "que tipos de bucles existen en los algoritmos",
+    "output": [
+      "los mas comunes son bucles for, while y do while",
+      "puedes usar bucles definidos como for y bucles indeterminados como while",
+      "los tipos principales son for para iteraciones definidas y while para condiciones"
+    ]
+  },
+  {
+    "input": "que es un bucle for",
+    "output": [
+      "es un bucle que repite un bloque de codigo un numero fijo de veces",
+      "se utiliza cuando se conoce de antemano la cantidad de iteraciones",
+      "es una estructura que incluye un inicio, una condicion y un incremento o decremento"
+    ]
+  },
+  {
+    "input": "puedes darme ejemplos de un bucle for",
+    "output": [
+      "recorrer un arreglo para imprimir cada elemento",
+      "mostrar los numeros del 1 al 10 incrementando de uno en uno",
+      "calcular el factorial de un numero utilizando un bucle for"
+    ]
+  },
+  {
+    "input": "que es un bucle while",
+    "output": [
+      "es un bucle que ejecuta un bloque de codigo mientras una condicion sea verdadera",
+      "se utiliza cuando no se sabe exactamente cuantas veces se repetira la tarea",
+      "es una estructura que evalua una condicion antes de ejecutar el bloque de codigo"
+    ]
+  },
+  {
+    "input": "puedes darme ejemplos de un bucle while",
+    "output": [
+      "seguir pidiendo al usuario un numero hasta que introduzca un numero positivo",
+      "sumar numeros introducidos por el usuario hasta que ingrese cero",
+      "mostrar un contador que incrementa mientras sea menor a 10"
+    ]
+  },
+  {
+    "input": "puedes darme ejemplos de un bucle do while",
+    "output": [
+      "pedir al usuario un numero hasta que introduzca uno mayor a 10",
+      "mostrar un mensaje en pantalla al menos una vez, luego repetir segun una condicion",
+      "calcular la suma de numeros ingresados hasta que el usuario escriba salir"
+    ]
+  },
+  {
+    "input": "que son las instrucciones de entrada y salida en un algoritmo",
+    "output": [
+      "son las instrucciones que permiten interactuar con el usuario o el entorno",
+      "las instrucciones de entrada capturan datos, y las de salida los muestran o los envian",
+      "se utilizan para recibir informacion del usuario y mostrar resultados o mensajes"
+    ]
+  },
+  {
+    "input": "puedes darme ejemplos de instrucciones de entrada y salida",
+    "output": [
+      "leer un numero del usuario y mostrar su cuadrado",
+      "pedir al usuario su nombre y mostrar un mensaje de bienvenida",
+      "capturar dos numeros y mostrar su suma en pantalla"
+    ]
+  },
+  {
+    "input": "que es un lenguaje de programacion",
+    "output": [
+      "es un medio para comunicarse con una computadora mediante instrucciones",
+      "es un sistema de notacion para escribir programas que ejecuta una computadora",
+      "es una herramienta para crear software a traves de instrucciones entendibles por maquinas"
+    ]
+  },
+  {
+    "input": "que significa escribir instrucciones en un lenguaje de programacion",
+    "output": [
+      "Es redactar un conjunto de órdenes en un formato que la computadora pueda interpretar y ejecutar.",
+      "Es usar la sintaxis de un lenguaje de programación para definir cómo se deben realizar las acciones en un algoritmo."
+    ]
+  },
+  {
+    "input": "que es la sintaxis de un lenguaje de programacion",
+    "output": [
+      "Es el conjunto de reglas que dictan cómo deben escribirse las instrucciones para que sean comprendidas por una computadora.",
+      "Es la estructura y el orden en el que deben organizarse los comandos en un lenguaje de programación."
+    ]
+  },
+  {
+    "input": "que es un programa en un lenguaje de programacion",
+    "output": [
+      "Es un conjunto de instrucciones escritas en un lenguaje de programación para ejecutar una tarea específica.",
+      "Es un algoritmo codificado en un formato que una computadora puede procesar y ejecutar."
+    ]
+  },
+  {
+    "input": "que significa codificar un algoritmo",
+    "output": [
+      "Es traducir un conjunto de pasos lógicos de un algoritmo a un lenguaje de programación para que pueda ser ejecutado por una computadora.",
+      "Es escribir un algoritmo utilizando la sintaxis y reglas de un lenguaje de programación."
+    ]
+  },
+  {
+    "input": "que significa traducir un algoritmo",
+    "output": [
+      "Es convertir las instrucciones de un algoritmo a un formato que pueda ser interpretado por una computadora.",
+      "Es transformar un conjunto de pasos lógicos en código utilizando un lenguaje de programación."
+    ]
+  },
+  {
+    "input": "cuales son los tipos de lenguajes de programacion",
+    "output": [
+      "los principales tipos son lenguajes de bajo nivel y de alto nivel",
+      "se clasifican en lenguajes de maquina, ensambladores, y lenguajes como c o python",
+      "pueden ser de bajo nivel como ensamblador o de alto nivel como java o python"
+    ]
+  },
+  {
+    "input": "que es un lenguaje de bajo nivel",
+    "output": [
+      "es un lenguaje cercano al hardware de la computadora, como el lenguaje ensamblador",
+      "es un tipo de lenguaje que opera directamente con instrucciones de maquina",
+      "es un lenguaje menos abstracto que requiere conocer detalles del hardware"
+    ]
+  },
+  {
+    "input": "dame ejemplos de lenguajes de bajo nivel",
+    "output": [
+      "ensamblador y lenguaje de maquina son ejemplos clasicos",
+      "los microcontroladores a menudo usan lenguaje ensamblador",
+      "el codigo binario es el lenguaje de bajo nivel mas basico"
+    ]
+  },
+  {
+    "input": "que es un lenguaje de alto nivel",
+    "output": [
+      "es un lenguaje diseñado para ser facil de entender por los humanos",
+      "es un tipo de lenguaje mas abstracto que oculta los detalles del hardware",
+      "es una herramienta para escribir programas complejos con sintaxis cercana al lenguaje natural"
+    ]
+  },
+  {
+    "input": "dame ejemplos de lenguajes de alto nivel",
+    "output": [
+      "python, java, c++, y javascript son ejemplos de lenguajes de alto nivel",
+      "lenguajes como ruby, php y swift son tambien de alto nivel",
+      "herramientas populares como go y kotlin pertenecen a esta categoria"
+    ]
+  },
+  {
+    "input": "que diferencia hay entre lenguajes de alto y bajo nivel",
+    "output": [
+      "los de bajo nivel son cercanos al hardware, mientras que los de alto nivel son mas faciles para los humanos",
+      "los lenguajes de bajo nivel requieren mas conocimiento del hardware, los de alto nivel son mas abstractos",
+      "en los lenguajes de alto nivel escribes menos lineas de codigo para tareas complejas"
+    ]
+  },
+  {
+    "input": "que es un lenguaje compilado",
+    "output": [
+      "es un lenguaje que se traduce a codigo maquina antes de ejecutarse",
+      "es un tipo de lenguaje donde el programa completo se convierte a binario antes de ejecutarse",
+      "es un lenguaje que necesita un compilador para generar un ejecutable"
+    ]
+  },
+  {
+    "input": "puedes darme ejemplos de lenguajes compilados",
+    "output": [
+      "c, c++ y rust son ejemplos de lenguajes compilados",
+      "lenguajes como go y fortran son compilados",
+      "swift y kotlin tambien pueden ser compilados"
+    ]
+  },
+  {
+    "input": "que es un lenguaje interpretado",
+    "output": [
+      "es un lenguaje que se ejecuta directamente por un interprete sin necesidad de compilar",
+      "es un tipo de lenguaje donde las instrucciones se traducen y ejecutan en tiempo real",
+      "los lenguajes interpretados no generan un archivo binario antes de ejecutarse"
+    ]
+  },
+  {
+    "input": "puedes darme ejemplos de lenguajes interpretados",
+    "output": [
+      "python, javascript y ruby son lenguajes interpretados",
+      "php y perl son otros ejemplos de lenguajes interpretados",
+      "lenguajes como lua y bash tambien son interpretados"
+    ]
+  },
+  {
+    "input": "que diferencia hay entre lenguajes compilados e interpretados",
+    "output": [
+      "los compilados generan un ejecutable antes de ejecutarse, los interpretados no",
+      "los compilados son mas rapidos en ejecucion, pero los interpretados son mas flexibles",
+      "los interpretados traducen instrucciones en tiempo real, los compilados lo hacen antes"
+    ]
+  },
+  {
+    "input": "que es un lenguaje orientado a objetos",
+    "output": [
+      "es un lenguaje que organiza el codigo en objetos que representan entidades del mundo real",
+      "es un paradigma de programacion que utiliza clases y objetos para estructurar el codigo",
+      "es un tipo de lenguaje donde los datos y las funciones se encapsulan en objetos"
+    ]
+  },
+  {
+    "input": "puedes darme ejemplos de lenguajes orientados a objetos",
+    "output": [
+      "java, python, c++ y ruby son lenguajes orientados a objetos",
+      "lenguajes como kotlin y swift tambien usan orientacion a objetos",
+      "c# y javascript soportan programacion orientada a objetos"
+    ]
+  },
+  {
+    "input": "que es un lenguaje funcional",
+    "output": [
+      "es un lenguaje que trata las computaciones como evaluaciones de funciones matematicas",
+      "es un paradigma donde las funciones son las unidades principales del programa",
+      "los lenguajes funcionales evitan estados y datos mutables"
+    ]
+  },
+  {
+    "input": "puedes darme ejemplos de lenguajes funcionales",
+    "output": [
+      "haskell, elixir y erlang son ejemplos de lenguajes funcionales",
+      "lenguajes como f# y clojure tambien son funcionales",
+      "scala y ocaml soportan el paradigma funcional"
+    ]
+  },
+  {
+    "input": "que es un lenguaje de scripting",
+    "output": [
+      "es un lenguaje diseñado para automatizar tareas en un sistema operativo o aplicacion",
+      "es un tipo de lenguaje utilizado para escribir scripts que controlan programas o procesos",
+      "los lenguajes de scripting son comunmente interpretados y usados para tareas rapidas"
+    ]
+  },
+  {
+    "input": "puedes darme ejemplos de lenguajes de scripting",
+    "output": [
+      "javascript, python y bash son lenguajes de scripting comunes",
+      "lenguajes como ruby, php y perl son tambien de scripting",
+      "lua y powershell son otros ejemplos de lenguajes de scripting"
+    ]
+  },
+  {
+    "input": "que es python",
+    "output": [
+      "es un lenguaje de programacion de alto nivel, interpretado y multiproposito",
+      "es un lenguaje popular por su sintaxis sencilla y gran cantidad de bibliotecas",
+      "es una herramienta muy utilizada para ciencia de datos, inteligencia artificial y desarrollo web"
+    ]
+  },
+  {
+    "input": "para que se utiliza python",
+    "output": [
+      "se utiliza en ciencia de datos, inteligencia artificial, desarrollo web y automatizacion",
+      "es comun en analisis de datos, aprendizaje automatico y desarrollo de aplicaciones",
+      "tambien se usa para crear scripts, manejar datos y programar aplicaciones"
+    ]
+  },
+  {
+    "input": "que es java",
+    "output": [
+      "es un lenguaje de programacion de alto nivel, orientado a objetos y multiplataforma",
+      "es un lenguaje conocido por su portabilidad gracias a la maquina virtual de java",
+      "es una herramienta popular para aplicaciones empresariales y desarrollo movil"
+    ]
+  },
+  {
+    "input": "para que se utiliza java",
+    "output": [
+      "se utiliza para desarrollar aplicaciones empresariales, juegos y software para android",
+      "es comun en aplicaciones de servidor, sistemas distribuidos y aplicaciones web",
+      "tambien se usa para programar dispositivos embebidos y aplicaciones de escritorio"
+    ]
+  },
+  {
+    "input": "que es javascript",
+    "output": [
+      "es un lenguaje de programacion de alto nivel utilizado principalmente para desarrollo web",
+      "es un lenguaje interpretado que permite crear paginas web dinamicas e interactivas",
+      "es una herramienta clave para la programacion del lado del cliente y del servidor"
+    ]
+  },
+  {
+    "input": "para que se utiliza javascript",
+    "output": [
+      "se utiliza para crear interfaces web interactivas y aplicaciones web modernas",
+      "es comun en el desarrollo del lado del cliente y del servidor con nodejs",
+      "tambien se usa para manejar eventos en paginas web y construir juegos web"
+    ]
+  },
+  {
+    "input": "que es c",
+    "output": [
+      "es un lenguaje de programacion de bajo nivel, estructurado y eficiente",
+      "es conocido por su velocidad y control sobre los recursos del sistema",
+      "es una herramienta utilizada para sistemas operativos, compiladores y aplicaciones de alto rendimiento"
+    ]
+  },
+  {
+    "input": "para que se utiliza c",
+    "output": [
+      "se utiliza en el desarrollo de sistemas operativos y software de hardware",
+      "es comun para programar dispositivos embebidos y aplicaciones de alto rendimiento",
+      "tambien se usa en videojuegos, simulaciones y sistemas en tiempo real"
+    ]
+  },
+  {
+    "input": "que es c++",
+    "output": [
+      "es un lenguaje de programacion de alto nivel basado en c, con soporte para programacion orientada a objetos",
+      "es un lenguaje versatil y eficiente utilizado para desarrollo de software complejo",
+      "es una extension de c que incluye caracteristicas avanzadas como clases y objetos"
+    ]
+  },
+  {
+    "input": "para que se utiliza c++",
+    "output": [
+      "se utiliza para desarrollar videojuegos, software de simulacion y motores graficos",
+      "es comun en el desarrollo de sistemas operativos y aplicaciones cientificas",
+      "tambien se usa para aplicaciones de alto rendimiento y sistemas embebidos"
+    ]
+  },
+  {
+    "input": "que es ruby",
+    "output": [
+      "es un lenguaje de programacion de alto nivel, interpretado y orientado a objetos",
+      "es conocido por su enfoque en la simplicidad y productividad",
+      "es una herramienta popular para desarrollo web, especialmente con ruby on rails"
+    ]
+  },
+  {
+    "input": "para que se utiliza ruby",
+    "output": [
+      "se utiliza principalmente para desarrollo web con el framework ruby on rails",
+      "es comun en aplicaciones de automatizacion y scripting",
+      "tambien se usa para prototipos rapidos y desarrollo de aplicaciones dinamicas"
+    ]
+  },
+  {
+    "input": "que es kotlin",
+    "output": [
+      "es un lenguaje de programacion moderno y de alto nivel desarrollado por jetbrains",
+      "es conocido por ser interoperable con java y utilizado principalmente para desarrollo movil",
+      "es una herramienta popular para desarrollar aplicaciones android y sistemas backend"
+    ]
+  },
+  {
+    "input": "para que se utiliza kotlin",
+    "output": [
+      "se utiliza para desarrollar aplicaciones android y sistemas backend",
+      "es comun en proyectos que requieren integracion con java",
+      "tambien se usa para aplicaciones multiplataforma y microservicios"
+    ]
+  },
+  {
+    "input": "que es swift",
+    "output": [
+      "es un lenguaje de programacion moderno desarrollado por apple para sus plataformas",
+      "es conocido por ser rapido, seguro y facil de aprender",
+      "es una herramienta popular para desarrollar aplicaciones para ios y macos"
+    ]
+  },
+  {
+    "input": "para que se utiliza swift",
+    "output": [
+      "se utiliza para desarrollar aplicaciones para ios, macos, watchos y tvos",
+      "es comun en el ecosistema apple para aplicaciones moviles y de escritorio",
+      "tambien se usa para aprendizaje y proyectos de codigo abierto en la comunidad apple"
+    ]
+  },
+  {
+    "input": "que es rust",
+    "output": [
+      "es un lenguaje de programacion moderno enfocado en seguridad y rendimiento",
+      "es conocido por su sistema de manejo de memoria que evita errores comunes",
+      "es una herramienta utilizada para sistemas de alto rendimiento y software seguro"
+    ]
+  },
+  {
+    "input": "para que se utiliza rust",
+    "output": [
+      "se utiliza para desarrollar sistemas embebidos, navegadores y software seguro",
+      "es comun en proyectos donde el rendimiento y la seguridad son criticos",
+      "tambien se usa en aplicaciones de sistemas como motores de bases de datos"
+    ]
+  },
+  {
+    "input": "que es go",
+    "output": [
+      "es un lenguaje de programacion creado por google enfocado en la simplicidad y el rendimiento",
+      "es conocido por ser rapido, escalable y facil de compilar",
+      "es una herramienta popular para sistemas distribuidos y servicios web"
+    ]
+  },
+  {
+    "input": "para que se utiliza go",
+    "output": [
+      "se utiliza para desarrollar servicios web, herramientas de infraestructura y sistemas distribuidos",
+      "es comun en aplicaciones de alto rendimiento como servidores y microservicios",
+      "tambien se usa en proyectos de red, cloud computing y contenedores"
+    ]
+  },
+  {
+    "input": "cuales son las ventajas de python",
+    "output": [
+      "es facil de aprender y leer gracias a su sintaxis simple",
+      "tiene una gran cantidad de bibliotecas y frameworks disponibles",
+      "es multiplataforma y ampliamente soportado por la comunidad"
+    ]
+  },
+  {
+    "input": "cuales son las desventajas de python",
+    "output": [
+      "es mas lento que otros lenguajes como c o java",
+      "consume mas recursos debido a su naturaleza interpretada",
+      "no es la mejor opcion para aplicaciones de tiempo real"
+    ]
+  },
+  {
+    "input": "que frameworks existen en python",
+    "output": [
+      "algunos frameworks populares son django, flask y fastapi",
+      "tambien estan pandas y numpy para analisis de datos",
+      "se usa tensorflow y pytorch para inteligencia artificial"
+    ]
+  },
+  {
+    "input": "que diferencia hay entre python y java",
+    "output": [
+      "python tiene una sintaxis mas sencilla y es interpretado",
+      "java es mas rapido y se compila en bytecode para la maquina virtual",
+      "java se usa mas para aplicaciones empresariales, mientras que python es comun en analisis de datos"
+    ]
+  },
+  {
+    "input": "que caracteristicas tiene java",
+    "output": [
+      "es orientado a objetos y tiene recoleccion automatica de basura",
+      "es multiplataforma gracias a la maquina virtual de java",
+      "tiene un sistema de tipado estatico que previene errores en tiempo de compilacion"
+    ]
+  },
+  {
+    "input": "cuales son las ventajas de java",
+    "output": [
+      "es muy escalable y adecuado para aplicaciones empresariales",
+      "tiene un ecosistema maduro y documentacion amplia",
+      "es compatible con una gran cantidad de plataformas"
+    ]
+  },
+  {
+    "input": "que frameworks existen en java",
+    "output": [
+      "algunos frameworks populares son spring, hibernate y struts",
+      "spring boot es comun para desarrollar microservicios",
+      "javafx se usa para crear interfaces graficas"
+    ]
+  },
+  {
+    "input": "que caracteristicas tiene c++",
+    "output": [
+      "soporta programacion orientada a objetos y funcional",
+      "permite un control detallado sobre la memoria",
+      "es un lenguaje compilado que ofrece alto rendimiento"
+    ]
+  },
+  {
+    "input": "que diferencia hay entre c y c++",
+    "output": [
+      "c es un lenguaje estructurado mientras que c++ soporta programacion orientada a objetos",
+      "c++ incluye funcionalidades como clases, herencia y polimorfismo",
+      "c se usa para sistemas operativos, mientras que c++ es mas comun en videojuegos y simulaciones"
+    ]
+  },
+  {
+    "input": "que es un framework",
+    "output": [
+      "es una estructura de codigo predefinida que facilita el desarrollo de aplicaciones",
+      "es un conjunto de herramientas y bibliotecas que ayudan a resolver problemas comunes",
+      "sirve para agilizar y estandarizar el proceso de desarrollo"
+    ]
+  },
+  {
+    "input": "como elegir un lenguaje de programacion",
+    "output": [
+      "depende del proyecto que desees realizar, como desarrollo web o aplicaciones moviles",
+      "considera el soporte comunitario y las herramientas disponibles",
+      "piensa en la curva de aprendizaje y tus objetivos a largo plazo"
+    ]
+  },
+  {
+    "input": "que es django",
+    "output": [
+      "es un framework de alto nivel para desarrollo web en python",
+      "es conocido por seguir el principio de no te repitas y facilitar el desarrollo rapido",
+      "incluye herramientas para manejar bases de datos, autentificacion y mas"
+    ]
+  },
+  {
+    "input": "que ventajas tiene django",
+    "output": [
+      "tiene un sistema de administracion integrado y poderoso",
+      "es escalable y adecuado para proyectos pequeños y grandes",
+      "sigue buenas practicas como el principio mvc"
+    ]
+  },
+  {
+    "input": "que es flask",
+    "output": [
+      "es un microframework para desarrollo web en python",
+      "es conocido por ser ligero y facil de extender",
+      "permite crear aplicaciones web con minima configuracion"
+    ]
+  },
+  {
+    "input": "para que sirve flask",
+    "output": [
+      "se utiliza para desarrollar aplicaciones web pequeñas y api",
+      "es ideal para proyectos que requieren flexibilidad",
+      "se usa en aplicaciones donde no se necesita un framework robusto como django"
+    ]
+  },
+  {
+    "input": "que frameworks hay para inteligencia artificial en python",
+    "output": [
+      "algunos populares son tensorflow, pytorch y scikit-learn",
+      "tensorflow es usado para redes neuronales y aprendizaje profundo",
+      "scikit-learn es ideal para aprendizaje automatico clasico"
+    ]
+  },
+  {
+    "input": "que es spring",
+    "output": [
+      "es un framework para desarrollo de aplicaciones empresariales en java",
+      "proporciona herramientas para desarrollar aplicaciones escalables",
+      "soporta programacion orientada a aspectos y gestion de dependencias"
+    ]
+  },
+  {
+    "input": "para que sirve spring boot",
+    "output": [
+      "sirve para crear aplicaciones java con configuracion minima",
+      "facilita el desarrollo de microservicios",
+      "es ideal para proyectos que requieren implementacion rapida"
+    ]
+  },
+  {
+    "input": "que es hibernate",
+    "output": [
+      "es un framework de mapeo objeto-relacional para java",
+      "permite interactuar con bases de datos de manera eficiente",
+      "facilita la persistencia de datos en aplicaciones java"
+    ]
+  },
+  {
+    "input": "que diferencia hay entre spring y hibernate",
+    "output": [
+      "spring es un framework general para aplicaciones empresariales",
+      "hibernate se centra en el mapeo de datos y la persistencia",
+      "spring puede integrar hibernate como parte de su ecosistema"
+    ]
+  },
+  {
+    "input": "que es react",
+    "output": [
+      "es una biblioteca de javascript para construir interfaces de usuario",
+      "es desarrollada por facebook y se centra en componentes reutilizables",
+      "es ideal para aplicaciones web dinamicas y modernas"
+    ]
+  },
+  {
+    "input": "para que sirve react",
+    "output": [
+      "sirve para crear aplicaciones web con interfaces dinamicas",
+      "se utiliza para construir paginas web de una sola pagina o spa",
+      "facilita la gestion del estado y el renderizado de componentes"
+    ]
+  },
+  {
+    "input": "que es angular",
+    "output": [
+      "es un framework de javascript para desarrollo de aplicaciones web",
+      "es mantenido por google y sigue una arquitectura basada en componentes",
+      "ofrece herramientas integradas como inyeccion de dependencias y enrutamiento"
+    ]
+  },
+  {
+    "input": "que diferencia hay entre angular y react",
+    "output": [
+      "angular es un framework completo mientras que react es una biblioteca",
+      "react permite mas flexibilidad al integrar herramientas externas",
+      "angular tiene una curva de aprendizaje mas pronunciada pero ofrece mas funcionalidades integradas"
+    ]
+  },
+  {
+    "input": "que es vue",
+    "output": [
+      "es un framework progresivo de javascript para construir interfaces de usuario",
+      "es conocido por su simplicidad y facilidad de integracion",
+      "es ideal para proyectos pequeños y grandes que requieren modularidad"
+    ]
+  },
+  {
+    "input": "que frameworks existen en c++",
+    "output": [
+      "algunos populares son qt, boost y poco",
+      "qt se usa para desarrollo de aplicaciones multiplataforma con interfaces graficas",
+      "boost proporciona bibliotecas para muchas tareas comunes como gestion de memoria"
+    ]
+  },
+  {
+    "input": "que es qt",
+    "output": [
+      "es un framework para c++ enfocado en aplicaciones graficas y multiplataforma",
+      "incluye herramientas para crear interfaces graficas modernas",
+      "es utilizado en software de escritorio, movil y embebido"
+    ]
+  },
+  {
+    "input": "que frameworks hay para desarrollo movil",
+    "output": [
+      "algunos populares son flutter, react native y xamarin",
+      "flutter es desarrollado por google y usa dart como lenguaje base",
+      "react native permite desarrollar aplicaciones moviles usando javascript"
+    ]
+  },
+  {
+    "input": "que es flutter",
+    "output": [
+      "es un framework de google para desarrollo movil multiplataforma",
+      "permite crear aplicaciones nativas con una sola base de codigo",
+      "usa dart como lenguaje de programacion"
+    ]
+  },
+  {
+    "input": "que es react native",
+    "output": [
+      "es un framework basado en javascript para desarrollo movil",
+      "permite crear aplicaciones para ios y android con una sola base de codigo",
+      "se basa en la misma filosofia de componentes que react"
+    ]
+  },
+  {
+    "input": "que es frontend",
+    "output": [
+      "es la parte visual de una aplicacion con la que interactuan los usuarios",
+      "se refiere al desarrollo de interfaces graficas y experiencias de usuario",
+      "incluye tecnologias como html, css y javascript"
+    ]
+  },
+  {
+    "input": "que lenguajes se usan en frontend",
+    "output": [
+      "los principales son html, css y javascript",
+      "tambien se utilizan tecnologias como typescript y frameworks como react o angular"
+    ]
+  },
+  {
+    "input": "que es html",
+    "output": [
+      "es un lenguaje de marcado utilizado para estructurar el contenido de una pagina web",
+      "define la estructura basica de una pagina como encabezados, parrafos y enlaces",
+      "es esencial para el desarrollo frontend"
+    ]
+  },
+  {
+    "input": "que es css",
+    "output": [
+      "es un lenguaje de estilos usado para definir la apariencia de una pagina web",
+      "permite personalizar colores, fuentes y diseño de los elementos",
+      "se usa junto con html para mejorar la experiencia visual"
+    ]
+  },
+  {
+    "input": "que es javascript",
+    "output": [
+      "es un lenguaje de programacion utilizado para añadir interactividad a las paginas web",
+      "permite crear funcionalidades dinamicas como animaciones y validaciones",
+      "es esencial para el desarrollo frontend moderno"
+    ]
+  },
+  {
+    "input": "que frameworks se usan en frontend",
+    "output": [
+      "algunos populares son react, angular y vue",
+      "bootstrap se usa para diseño responsivo",
+      "tailwind css es una herramienta moderna para estilos"
+    ]
+  },
+  {
+    "input": "que diferencia hay entre react y angular",
+    "output": [
+      "react es una biblioteca mientras que angular es un framework completo",
+      "react ofrece mas flexibilidad, pero angular incluye mas herramientas integradas",
+      "react se usa para proyectos ligeros y angular para aplicaciones robustas"
+    ]
+  },
+  {
+    "input": "que es un spa",
+    "output": [
+      "es una aplicacion de pagina unica donde el contenido se carga dinamicamente",
+      "evita recargar toda la pagina al navegar entre secciones",
+      "es comun en frameworks como react, angular y vue"
+    ]
+  },
+  {
+    "input": "que es backend",
+    "output": [
+      "es la parte de un sistema que maneja la logica, bases de datos y servidores",
+      "se encarga de procesar solicitudes y enviar respuestas al frontend",
+      "es esencial para manejar la logica de negocio de una aplicacion"
+    ]
+  },
+  {
+    "input": "que lenguajes se usan en backend",
+    "output": [
+      "algunos populares son java, python, php, ruby y javascript con nodejs",
+      "tambien se usa go, c# y kotlin dependiendo del caso de uso"
+    ]
+  },
+  {
+    "input": "que frameworks se usan en backend",
+    "output": [
+      "algunos populares son spring boot para java, django y flask para python",
+      "laravel para php y express para nodejs son opciones comunes",
+      "tambien se usa ruby on rails y .net core"
+    ]
+  },
+  {
+    "input": "que es nodejs",
+    "output": [
+      "es un entorno de ejecucion de javascript para el backend",
+      "permite desarrollar aplicaciones escalables con un unico lenguaje",
+      "es conocido por su eficiencia en manejo de multiples solicitudes"
+    ]
+  },
+  {
+    "input": "que es flask",
+    "output": [
+      "es un microframework de python para desarrollo backend",
+      "es ligero y permite crear api rapidas con minima configuracion",
+      "es ideal para proyectos pequeños y prototipos"
+    ]
+  },
+  {
+    "input": "que es una api rest",
+    "output": [
+      "es una interfaz que permite la comunicacion entre sistemas usando peticiones http",
+      "sigue principios como la separacion entre cliente y servidor",
+      "es comun en aplicaciones web y servicios moviles"
+    ]
+  },
+  {
+    "input": "que es graphql",
+    "output": [
+      "es una alternativa a rest para apis",
+      "permite al cliente especificar exactamente que datos necesita",
+      "es desarrollado por facebook y se usa en aplicaciones modernas"
+    ]
+  },
+  {
+    "input": "que es una base de datos",
+    "output": [
+      "es un sistema para almacenar y organizar informacion",
+      "puede ser sql como mysql y postgresql, o no sql como mongodb",
+      "se utiliza para guardar datos que seran usados por el backend"
+    ]
+  },
+  {
+    "input": "que diferencia hay entre sql y no sql",
+    "output": [
+      "sql usa tablas con esquemas definidos, mientras que no sql es mas flexible",
+      "sql es ideal para datos estructurados, no sql para datos no estructurados",
+      "sql incluye sistemas como mysql y postgresql, no sql incluye mongodb y cassandra"
+    ]
+  },
+  {
+    "input": "como se comunican frontend y backend",
+    "output": [
+      "a traves de apis usando protocolos como http",
+      "el frontend envia solicitudes al backend y este responde con datos",
+      "la comunicacion puede ser en formatos como json o xml"
+    ]
+  },
+  {
+    "input": "que es un full stack developer",
+    "output": [
+      "es un desarrollador que trabaja tanto en frontend como en backend",
+      "tiene conocimientos en diseño de interfaces y logica del servidor",
+      "puede desarrollar aplicaciones completas de inicio a fin"
+    ]
+  },
+  {
+    "input": "que diferencia hay entre frontend y backend",
+    "output": [
+      "el frontend es lo que ve el usuario, el backend es la logica detras",
+      "el frontend usa html, css y javascript, el backend usa lenguajes como java o python",
+      "el backend se encarga de procesar datos y gestionar la comunicacion con bases de datos"
+    ]
+  },
+  {
+    "input": "que es una base de datos",
+    "output": [
+      "es un sistema para almacenar y gestionar informacion de manera estructurada",
+      "se utiliza para guardar datos que pueden ser consultados y modificados facilmente",
+      "es esencial para aplicaciones que necesitan manejar grandes cantidades de informacion"
+    ]
+  },
+  {
+    "input": "que tipos de bases de datos existen",
+    "output": [
+      "hay bases de datos relacionales y no relacionales",
+      "tambien existen bases de datos jerarquicas, en red y orientadas a objetos",
+      "dependen del tipo de informacion y del caso de uso"
+    ]
+  },
+  {
+    "input": "que es una base de datos relacional",
+    "output": [
+      "es una base de datos que organiza la informacion en tablas con filas y columnas",
+      "usa sql como lenguaje para consultar y modificar datos",
+      "ejemplos incluyen mysql, postgresql y sql server"
+    ]
+  },
+  {
+    "input": "que es una base de datos no relacional",
+    "output": [
+      "es una base de datos que no usa tablas para organizar los datos",
+      "puede almacenar informacion en formatos como documentos, grafos o claves-valor",
+      "ejemplos incluyen mongodb, cassandra y redis"
+    ]
+  },
+  {
+    "input": "que es un esquema en una base de datos",
+    "output": [
+      "es la estructura que define como se organizan los datos en una base de datos",
+      "incluye tablas, columnas, tipos de datos y relaciones entre tablas",
+      "es importante en bases de datos relacionales"
+    ]
+  },
+  {
+    "input": "que es sql",
+    "output": [
+      "es un lenguaje de consulta estructurado usado para interactuar con bases de datos relacionales",
+      "permite realizar operaciones como insertar, consultar y eliminar datos",
+      "es compatible con sistemas como mysql, postgresql y oracle"
+    ]
+  },
+  {
+    "input": "que es mysql",
+    "output": [
+      "es un sistema de gestion de bases de datos relacional de codigo abierto",
+      "es popular por ser rapido y facil de usar",
+      "se usa comunmente en aplicaciones web"
+    ]
+  },
+  {
+    "input": "que es postgresql",
+    "output": [
+      "es un sistema de gestion de bases de datos relacional avanzado y de codigo abierto",
+      "ofrece soporte para transacciones complejas y extensibilidad",
+      "es ideal para aplicaciones empresariales y proyectos avanzados"
+    ]
+  },
+  {
+    "input": "que es sql server",
+    "output": [
+      "es un sistema de gestion de bases de datos relacional desarrollado por microsoft",
+      "se usa principalmente en entornos empresariales",
+      "ofrece integracion con otros productos de microsoft como azure y visual studio"
+    ]
+  },
+  {
+    "input": "que es mongodb",
+    "output": [
+      "es una base de datos no relacional que almacena datos en formato de documentos json",
+      "es ideal para aplicaciones que manejan datos no estructurados o semiestructurados",
+      "es popular en aplicaciones web modernas y sistemas distribuidos"
+    ]
+  },
+  {
+    "input": "para que se usa mongodb",
+    "output": [
+      "se utiliza en aplicaciones web, sistemas de recomendacion y big data",
+      "es ideal para manejar grandes volumenes de datos y escalar horizontalmente",
+      "se usa cuando no se necesita una estructura estricta de tablas y columnas"
+    ]
+  },
+  {
+    "input": "que es redis",
+    "output": [
+      "es una base de datos no relacional basada en clave-valor",
+      "es conocida por su velocidad y se usa como cache o para almacenar sesiones",
+      "es popular en aplicaciones que requieren acceso rapido a los datos"
+    ]
+  },
+  {
+    "input": "que es cassandra",
+    "output": [
+      "es una base de datos no relacional distribuida y escalable",
+      "es ideal para manejar grandes volumenes de datos en tiempo real",
+      "es utilizada por empresas como netflix y twitter para alta disponibilidad"
+    ]
+  },
+  {
+    "input": "que diferencias hay entre mongodb y redis",
+    "output": [
+      "mongodb almacena documentos json, mientras que redis usa un modelo clave-valor",
+      "redis es mas rapido pero mongodb es mas flexible para datos complejos",
+      "redis es ideal para cache y mongodb para datos no estructurados"
+    ]
+  },
+  {
+    "input": "que es un compilador",
+    "output": [
+      "un compilador es un programa que traduce el código fuente de un lenguaje de programación de alto nivel a un lenguaje de bajo nivel o código máquina",
+      "el compilador permite que el código escrito en un lenguaje comprensible por los humanos sea ejecutado por una computadora",
+      "un ejemplo de compilador es GCC para C o C++"
+    ]
+  },
+  {
+    "input": "que es un interprete",
+    "output": [
+      "es un tipo de programa que ejecuta el código de un lenguaje de programación línea por línea, sin necesidad de compilar todo el código de antemano",
+      "a diferencia de un compilador, un intérprete no crea un archivo de código máquina, sino que traduce y ejecuta las instrucciones directamente",
+      "un ejemplo común de intérprete es Python"
+    ]
+  },
+  {
+    "input": "que es un bug",
+    "output": [
+      "un bug es un error o fallo en el código de un programa que causa un comportamiento inesperado o incorrecto",
+      "los bugs pueden ser causados por errores de sintaxis, lógicas o problemas de rendimiento",
+      "es importante depurar el código para encontrar y corregir los bugs"
+    ]
+  },
+  {
+    "input": "que es un debugger",
+    "output": [
+      "un debugger es una herramienta que permite examinar el estado de un programa mientras se ejecuta, ayudando a identificar y corregir bugs",
+      "los debuggers permiten realizar seguimiento de la ejecución del código, inspeccionar variables y controlar el flujo del programa",
+      "algunos debuggers populares son GDB para C y C++, o el debugger integrado en IDEs como Visual Studio Code"
+    ]
+  },
+  {
+    "input": "que es una variable",
+    "output": [
+      "una variable es un espacio de almacenamiento que contiene un valor que puede cambiar durante la ejecución de un programa",
+      "las variables se utilizan para almacenar datos como números, cadenas de texto o incluso objetos",
+      "cada variable tiene un tipo de dato que determina qué tipo de valores puede almacenar, como 'int' para enteros o 'string' para texto"
+    ]
+  },
+  {
+    "input": "que es un tipo de dato",
+    "output": [
+      "un tipo de dato es una clasificación de los valores que una variable puede almacenar, como números, texto o booleanos",
+      "los tipos de datos básicos incluyen enteros (int), números decimales (float), texto (string) y valores lógicos (boolean)",
+      "los tipos de datos también pueden ser más complejos, como listas, diccionarios o incluso clases definidas por el usuario"
+    ]
+  },
+  {
+    "input": "que es un tipo de dato primitivo",
+    "output": [
+      "un tipo de dato primitivo es un tipo de dato básico que no se puede descomponer en tipos más simples",
+      "los tipos de datos primitivos incluyen enteros (int), decimales (float), cadenas de texto (string) y valores lógicos (boolean)",
+      "estos tipos de datos son fundamentales y forman la base para construir otros tipos de datos más complejos"
+    ]
+  },
+  {
+    "input": "que es un tipo de dato compuesto",
+    "output": [
+      "un tipo de dato compuesto es un tipo de dato que se crea combinando varios tipos de datos primitivos o incluso otros tipos compuestos",
+      "los tipos de datos compuestos incluyen listas (arrays), diccionarios (objetos en algunos lenguajes), tuplas y conjuntos",
+      "estos tipos de datos permiten almacenar colecciones de datos más complejas y estructuradas"
+    ]
+  },
+  {
+    "input": "que es un array",
+    "output": [
+      "un array es una estructura de datos que almacena una colección de elementos del mismo tipo",
+      "los elementos de un array se almacenan en posiciones contiguas de memoria y se accede a ellos mediante un índice",
+      "en muchos lenguajes de programación, como JavaScript o Python, los arrays pueden ser dinámicos o de tamaño fijo"
+    ]
+  },
+  {
+    "input": "que es una lista en programación",
+    "output": [
+      "una lista es un tipo de dato compuesto que almacena una colección ordenada de elementos, que pueden ser de diferentes tipos",
+      "a diferencia de los arrays, las listas pueden almacenar elementos de diferentes tipos de datos en muchos lenguajes, como en Python",
+      "una lista también puede ser dinámica, es decir, se puede cambiar su tamaño durante la ejecución del programa"
+    ]
+  },
+  {
+    "input": "que es un diccionario",
+    "output": [
+      "un diccionario es una estructura de datos que almacena pares de clave-valor",
+      "cada elemento en un diccionario está compuesto por una clave única y un valor asociado a esa clave",
+      "los diccionarios son útiles cuando necesitas buscar un valor rápidamente a partir de una clave, como en Python o JavaScript"
+    ]
+  },
+  {
+    "input": "que es una tupla",
+    "output": [
+      "una tupla es una estructura de datos similar a una lista, pero con la diferencia de que las tuplas son inmutables, es decir, no pueden ser modificadas después de su creación",
+      "en muchos lenguajes de programación, como Python, las tuplas se utilizan para almacenar datos que no deben cambiar durante la ejecución del programa",
+      "las tuplas también pueden contener elementos de diferentes tipos de datos"
+    ]
+  },
+  {
+    "input": "que es un conjunto",
+    "output": [
+      "un conjunto es una colección de elementos no ordenados y sin duplicados",
+      "los conjuntos son útiles cuando necesitas almacenar datos únicos, sin preocuparte del orden en que se insertan",
+      "en Python, los conjuntos se definen utilizando la clase 'set', y son diferentes de las listas o tuplas en cuanto a la unicidad de los elementos"
+    ]
+  },
+  {
+    "input": "que es un string",
+    "output": [
+      "un string es un tipo de dato que representa una secuencia de caracteres, como texto",
+      "los strings pueden incluir letras, números y otros caracteres, y se utilizan para manipular texto en la mayoría de los lenguajes de programación",
+      "en algunos lenguajes, los strings son inmutables, lo que significa que no pueden ser modificados después de su creación, como en Python o Java"
+    ]
+  },
+  {
+    "input": "que es un booleano",
+    "output": [
+      "un booleano es un tipo de dato que tiene solo dos valores posibles: verdadero (true) o falso (false)",
+      "los valores booleanos se utilizan en las condiciones y estructuras de control, como 'if' o 'while', para tomar decisiones en un programa",
+      "los booleanos son fundamentales en la programación lógica y las expresiones condicionales"
+    ]
+  },
+  {
+    "input": "que es un valor nulo",
+    "output": [
+      "un valor nulo es un valor especial que representa la ausencia de un valor válido o definido en una variable",
+      "el valor nulo puede ser utilizado para indicar que una variable aún no ha sido inicializada o que no tiene un valor asignado",
+      "en algunos lenguajes, como JavaScript, se utiliza 'null' para denotar un valor nulo, mientras que en otros, como Python, se utiliza 'None'"
+    ]
+  },
+  {
+    "input": "que es un tipo de dato flotante",
+    "output": [
+      "un tipo de dato flotante es un tipo numérico que se utiliza para representar números con decimales",
+      "los números flotantes son especialmente útiles para realizar cálculos precisos que incluyen valores decimales, como 3.14 o 0.5",
+      "en muchos lenguajes de programación, como Python o Java, los flotantes se representan con el tipo 'float'"
+    ]
+  },
+  {
+    "input": "que es un tipo de dato entero",
+    "output": [
+      "un tipo de dato entero es un tipo numérico que se utiliza para representar números sin decimales, como 1, 100 o -5",
+      "los enteros son fundamentales en programación para realizar operaciones matemáticas simples, como contar o iterar sobre elementos",
+      "en lenguajes como Python o Java, los enteros se representan con el tipo 'int'"
+    ]
+  },
+  {
+    "input": "que es el tipo de dato char",
+    "output": [
+      "el tipo de dato 'char' se utiliza para representar un solo carácter, como 'a', 'B' o '9'",
+      "el 'char' es comúnmente utilizado en lenguajes como C y C++ para manipular caracteres individuales en cadenas de texto",
+      "en otros lenguajes como Python, los caracteres son tratados como strings de longitud 1"
+    ]
+  },
+  {
+    "input": "que es el tipo de dato complejo",
+    "output": [
+      "el tipo de dato complejo se utiliza para representar números que tienen una parte real y una parte imaginaria, como 3 + 4i",
+      "en algunos lenguajes, como Python, puedes trabajar con números complejos utilizando el tipo 'complex'",
+      "los números complejos son utilizados en áreas como la ingeniería, matemáticas y procesamiento de señales"
+    ]
+  },
+  {
+    "input": "que es una funcion",
+    "output": [
+      "una función es un bloque de código que realiza una tarea específica y puede ser reutilizado en diferentes partes del programa",
+      "las funciones pueden aceptar entradas (parámetros) y devolver un valor como resultado",
+      "en muchos lenguajes de programación, las funciones permiten organizar el código de manera modular y eficiente"
+    ]
+  },
+  {
+    "input": "que es la recursion",
+    "output": [
+      "la recursión es una técnica en programación en la que una función se llama a sí misma para resolver un problema",
+      "generalmente, la recursión se utiliza para resolver problemas que se pueden dividir en subproblemas más pequeños, como en el caso de los árboles o la búsqueda binaria",
+      "es importante que una función recursiva tenga una condición base que detenga la llamada recursiva"
+    ]
+  },
+  {
+    "input": "hello",
+    "output": [
+      "Hi, how are you",
+      "hi how are things",
+      "good morning how are you"
+    ]
+  },
+  {
+    "input": "good",
+    "output": [
+      "I'm glad to know, tell me how I can help you, I'm trained in programming topics ",
+      "What a joy, I can help you on different topics, I am trained in programming topics",
+      "I'm glad to hear that, I can help you with the programming issue"
+    ]
+  },
+  {
+    "input": "how can you help me",
+    "output": [
+      "I can answer questions, give you information and help you with whatever you need, I am trained in programming topics",
+      "I am here to answer your questions and help you with whatever you need, I am trained in programming issues,",
+      "I can help you on topics such as programming"
+    ]
+  },
+  {
+    "input": "hello good",
+    "output": [
+      "Hi, how are you",
+      "hi how are things",
+      "good morning how are you"
+    ]
+  },
+  {
+    "input": "hey",
+    "output": [
+      "Hi, how are you",
+      "hi how are things",
+      "good morning how are you"
+    ]
+  },
+  {
+    "input": "how are you",
+    "output": [
+      "I'm fine thanks for asking",
+      "everything is fine, and you?"
+    ]
+  },
+  {
+    "input": "all good",
+    "output": [
+      "I'm fine thanks for asking",
+      "everything is fine, and you?",
+      "I'm glad to hear that"
+    ]
+  },
+  {
+    "input": "bye",
+    "output": [
+      "goodbye take care",
+      "see you later",
+      "see you"
+    ]
+  },
+  {
+    "input": "see you",
+    "output": [
+      "goodbye take care",
+      "see you later",
+      "see you"
+    ]
+  },
+  {
+    "input": "good morning",
+    "output": [
+      "good morning I hope you have a great day, I can help you with programming issues",
+      "Hello, how are you today?"
+    ]
+  },
+  {
+    "input": "what is your name",
+    "output": [
+      "I'm a virtual assistant but you can call me a bot",
+      "My name is bot, your assistant"
+    ]
+  },
+  {
+    "input": "do you have any name",
+    "output": [
+      "I'm a virtual assistant but you can call me a bot",
+      "My name is bot, your assistant"
+    ]
+  },
+  {
+    "input": "who are you",
+    "output": [
+      "I'm a virtual assistant but you can call me a bot",
+      "My name is bot, your assistant"
+    ]
+  },
+  {
+    "input": "what can you do",
+    "output": [
+      "I can answer questions, give you information and help you with whatever you need, I am trained in programming topics",
+      "I am here to answer your questions and help you with whatever you need, I am trained in programming issues,",
+      "I can help you on topics such as programming"
+    ]
+  },
+  {
+    "input": "thank you",
+    "output": [
+      "you're welcome always here to help you",
+      "it doesn't matter",
+      "I'm here for whatever you need"
+    ]
+  },
+  {
+    "input": "sorry",
+    "output": [
+      "don't worry everything is fine",
+      "No problem, how can I help you? I am trained in programming topics."
+    ]
+  },
+  {
+    "input": "I'm sorry",
+    "output": [
+      "It's okay, how can I help you? I am trained in programming topics and the occasional joke.",
+      "Don't worry, I'm here to help you."
+    ]
+  },
+  {
+    "input": "what time is it",
+    "output": [
+      "Sorry I can't give the exact time but I can help you with other things",
+      "I don't have a watch, but I can help you with something else"
+    ]
+  },
+  {
+    "input": "tell me the time",
+    "output": [
+      "Sorry I can't give the exact time but I can help you with other things",
+      "I don't have a watch, but I can help you with something else"
+    ]
+  },
+  {
+    "input": "What day is today",
+    "output": [
+      "Today is a big day, how can I help you? ",
+      "Today is a perfect day to learn something new."
+    ]
+  },
+  {
+    "input": "aid",
+    "output": [
+      "Of course tell me what you need and I will see how to help you, I am trained in programming topics",
+      "I am here for whatever you need, tell me how I can help you, I am trained in programming topics",
+      "I can help you with programming issues"
+    ]
+  },
+  {
+    "input": "I'm sad",
+    "output": [
+      "I'm so sorry if you need to talk or support I'm here",
+      "I understand you, you are not alone, tell me more"
+    ]
+  },
+  {
+    "input": "I'm happy",
+    "output": [
+      "What a joy to hear that, it makes me happy to know that you are well.",
+      "That's great, I love knowing that!"
+    ]
+  },
+  {
+    "input": "tell me a joke",
+    "output": [
+      "Why don't birds use Facebook because they already have Twitter?",
+      "What does a bee do in the gym?"
+    ]
+  },
+  {
+    "input": "tell me a joke",
+    "output": [
+      "Why don't birds use Facebook because they already have Twitter?",
+      "What does a bee do in the gym?"
+    ]
+  },
+  {
+    "input": "tell me another joke",
+    "output": [
+      "Why don't birds use Facebook because they already have Twitter?",
+      "What does a bee do in the gym?"
+    ]
+  },
+  {
+    "input": "tell me another joke",
+    "output": [
+      "Why don't birds use Facebook because they already have Twitter?",
+      "What does a bee do in the gym?"
+    ]
+  },
+  {
+    "input": "what are birds",
+    "output": [
+      "Birds are flying animals that have feathers and a beak.",
+      "Birds are animals that fly and have feathers."
+    ]
+  },
+  {
+    "input": "what is a bird",
+    "output": [
+      "A bird is a flying animal that has feathers and a beak.",
+      "a bird is an animal that flies and has a feather"
+    ]
+  },
+  {
+    "input": "what is facebook",
+    "output": [
+      "Facebook is a social network where people can share content, interact and connect."
+    ]
+  },
+  {
+    "input": "what is a social network",
+    "output": [
+      "A social network is a digital platform where people can interact, share ideas, content and communicate with each other."
+    ]
+  },
+  {
+    "input": "what are social networks",
+    "output": [
+      "Social networks are digital platforms that allow users to connect, share content and communicate with each other."
+    ]
+  },
+  {
+    "input": "what are people",
+    "output": [
+      "People are human beings who have thinking, reasoning and communication capabilities."
+    ]
+  },
+  {
+    "input": "What does it mean to share?",
+    "output": [
+      "Sharing means making something available to others to use or enjoy together."
+    ]
+  },
+  {
+    "input": "what is connecting",
+    "output": [
+      "connect is to establish a relationship or link between two or more elements"
+    ]
+  },
+  {
+    "input": "what does it mean to connect",
+    "output": [
+      "connect means to join or link things, people or ideas so that they interact or work together."
+    ]
+  },
+  {
+    "input": "what is twitter",
+    "output": [
+      "Twitter is a platform where users can post short messages called tweets."
+    ]
+  },
+  {
+    "input": "Why don't birds use Facebook?",
+    "output": [
+      "because they already have twitter"
+    ]
+  },
+  {
+    "input": "What does a bee do in the gym?",
+    "output": [
+      "zumba"
+    ]
+  },
+  {
+    "input": "what is zumba",
+    "output": [
+      "Zumba is a physical activity that combines dance and exercise to the rhythm of Latin music"
+    ]
+  },
+  {
+    "input": "what are bees",
+    "output": [
+      "Bees are pollinating insects that play a crucial role in the ecosystem and produce honey"
+    ]
+  },
+  {
+    "input": "what is a bird",
+    "output": [
+      "A bird is a vertebrate animal with feathers, wings and generally the ability to fly."
+    ]
+  },
+  {
+    "input": "What birds do on social networks",
+    "output": [
+      "In this context, the birds use Twitter as part of the joke."
+    ]
+  },
+  {
+    "input": "what is a gym",
+    "output": [
+      "A gym is a place where people go to exercise and improve their physical condition."
+    ]
+  },
+  {
+    "input": "I'm encouraged",
+    "output": [
+      "What a joy to hear that, it makes me happy to know that you are well.",
+      "That's great, I love knowing that!"
+    ]
+  },
+  {
+    "input": "I'm wonderful",
+    "output": [
+      "What a joy to hear that, it makes me happy to know that you are well.",
+      "That's great, I love knowing that!"
+    ]
+  },
+  {
+    "input": "what time do you have",
+    "output": [
+      "Sorry I can't give the exact time but I can help you with other things",
+      "I don't have a watch, but I can help you with something else"
+    ]
+  },
+  {
+    "input": "what is the time",
+    "output": [
+      "Sorry I can't give the exact time but I can help you with other things",
+      "I don't have a watch, but I can help you with something else"
+    ]
+  },
+  {
+    "input": "what day do we have",
+    "output": [
+      "Today is a big day, how can I help you?",
+      "Today is a perfect day to learn something new."
+    ]
+  },
+  {
+    "input": "what day is it",
+    "output": [
+      "Today is a big day, how can I help you? You want to know what programming is about.",
+      "Today is a perfect day to learn something new."
+    ]
+  },
+  {
+    "input": "Yeah",
+    "output": [
+      "It is the process of writing instructions that a computer can understand.",
+      "It is the creation of code to solve problems or automate tasks on a computer."
+    ]
+  },
+  {
+    "input": "are you available",
+    "output": [
+      "Of course I'm here to help you.",
+      "I am available, tell me how I can help you"
+    ]
+  },
+  {
+    "input": "are you still available",
+    "output": [
+      "Of course I'm here to help you.",
+      "I am available, tell me how I can help you"
+    ]
+  },
+  {
+    "input": "can you help me",
+    "output": [
+      "Of course tell me what you need and I will see how to help you.",
+      "I'm here for whatever you need, tell me how I can help you"
+    ]
+  },
+  {
+    "input": "you help me",
+    "output": [
+      "Of course tell me what you need and I will see how to help you.",
+      "I'm here for whatever you need, tell me how I can help you"
+    ]
+  },
+  {
+    "input": "help me",
+    "output": [
+      "Of course, tell me what you need and I will see how to help you, I am trained in programming topics and the occasional joke.",
+      "I am here for whatever you need, tell me how I can help you, I am trained in programming topics and the occasional joke."
+    ]
+  },
+  {
+    "input": "Hi, how are you",
+    "output": [
+      "I'm good and you"
+    ]
+  },
+  {
+    "input": "good morning",
+    "output": [
+      "good morning how are you feeling today"
+    ]
+  },
+  {
+    "input": "hi how are things",
+    "output": [
+      "everything is going well here and how are you?"
+    ]
+  },
+  {
+    "input": "hello everything is fine",
+    "output": [
+      "Yes, thank you, how are you doing?"
+    ]
+  },
+  {
+    "input": "Hello, are you listening to me?",
+    "output": [
+      "Of course, how can I help you today?"
+    ]
+  },
+  {
+    "input": "Good afternoon",
+    "output": [
+      "good afternoon I hope you have a good day"
+    ]
+  },
+  {
+    "input": "good night",
+    "output": [
+      "good night you need something before going to sleep"
+    ]
+  },
+  {
+    "input": "hey how are you doing",
+    "output": [
+      "Hello, everything is fine here and you"
+    ]
+  },
+  {
+    "input": "hello what are you doing",
+    "output": [
+      "Hello, I'm here waiting to help you."
+    ]
+  },
+  {
+    "input": "hello can you help me",
+    "output": [
+      "Of course, tell me what you need help with."
+    ]
+  },
+  {
+    "input": "hello what's your name",
+    "output": [
+      "Hello, I am a virtual assistant and what is your name?"
+    ]
+  },
+  {
+    "input": "Hello, what can you tell me?",
+    "output": [
+      "Hello, here ready to help you and what do you say?"
+    ]
+  },
+  {
+    "input": "Hello, it's been a while since we talked",
+    "output": [
+      "Hello, yes it's true, it's nice to see you again."
+    ]
+  },
+  {
+    "input": "Hello, how's everything going there?",
+    "output": [
+      "everything is going well and here's how everything is going"
+    ]
+  },
+  {
+    "input": "Hello, how are you today?",
+    "output": [
+      "Hello, I'm fine, thank you for asking and how are you today?"
+    ]
+  },
+  {
+    "input": "hello do you have time to talk",
+    "output": [
+      "Of course I'm here for you, tell me how I can help you"
+    ]
+  },
+  {
+    "input": "Hello, can I ask you something?",
+    "output": [
+      "Of course I'm here to answer your questions."
+    ]
+  },
+  {
+    "input": "Hello, how was your afternoon?",
+    "output": [
+      "My afternoon has been calm and how is yours?"
+    ]
+  },
+  {
+    "input": "hello how have you been",
+    "output": [
+      "Hello, I have been fine, thank you for asking and you?"
+    ]
+  },
+  {
+    "input": "Hello I hope you are well",
+    "output": [
+      "Hello, thank you, I hope you are too."
+    ]
+  },
+  {
+    "input": "Hello, we haven't talked in a long time.",
+    "output": [
+      "yes that's true hello it's nice talking to you again"
+    ]
+  },
+  {
+    "input": "Hello, how's your day so far?",
+    "output": [
+      "My day has been good and yours, how is it going so far?"
+    ]
+  },
+  {
+    "input": "Hello, how was your week?",
+    "output": [
+      "My week is going well, thank you, and how is yours?"
+    ]
+  },
+  {
+    "input": "Hello, how did you wake up today?",
+    "output": [
+      "Hello, I woke up well, thank you for asking and you?"
+    ]
+  },
+  {
+    "input": "Hello, how is your day going?",
+    "output": [
+      "Hello, my day is going well, thank you, and how is yours?"
+    ]
+  },
+  {
+    "input": "Hello, are you available?",
+    "output": [
+      "Hello, yes, of course, how can I help you?"
+    ]
+  },
+  {
+    "input": "why do you exist",
+    "output": [
+      "I was created to help you and improve your interactions with technology"
+    ]
+  },
+  {
+    "input": "what is programming",
+    "output": [
+      "It is the process of writing instructions that a computer can understand.",
+      "It is the creation of code to solve problems or automate tasks on a computer."
+    ]
+  },
+  {
+    "input": "what is programming",
+    "output": [
+      "It is the process of writing instructions that a computer can understand.",
+      "It is the creation of code to solve problems or automate tasks on a computer."
+    ]
+  },
+  {
+    "input": "what is instructions",
+    "output": [
+      "They are specific directions that tell a computer what to do step by step.",
+      "They are organized orders that a machine or person follows to perform a task."
+    ]
+  },
+  {
+    "input": "what is a computer",
+    "output": [
+      "It is an electronic device capable of processing and storing data following instructions.",
+      "It is a machine designed to perform calculations and run software programs."
+    ]
+  },
+  {
+    "input": "What does code creation mean?",
+    "output": [
+      "It is the process of writing lines of text in a programming language to build software.",
+      "It is developing instructions that define how a program or system should work."
+    ]
+  },
+  {
+    "input": "what is automation",
+    "output": [
+      "It is making processes or tasks carried out automatically without constant human intervention.",
+      "It is using technology to execute repetitive activities efficiently."
+    ]
+  },
+  {
+    "input": "what is an electronic device",
+    "output": [
+      "It is a device that runs on electricity and performs specific tasks using electronic circuits.",
+      "It is a machine that uses electrical and electronic components to process information or perform actions."
+    ]
+  },
+  {
+    "input": "What does it mean to process information?",
+    "output": [
+      "It is performing operations on data to transform it into useful information.",
+      "It is applying algorithms or rules to analyze, organize or convert data."
+    ]
+  },
+  {
+    "input": "what is storing data",
+    "output": [
+      "It is saving information in a physical or digital medium for future use.",
+      "It is keeping data in an organized way to access it when needed."
+    ]
+  },
+  {
+    "input": "what is useful information",
+    "output": [
+      "It is knowledge derived from data that has value for making decisions or solving problems.",
+      "It is the result of processing data in a way that makes it understandable and actionable."
+    ]
+  },
+  {
+    "input": "what is derived knowledge",
+    "output": [
+      "It is information obtained by processing and analyzing data in a logical and systematic way.",
+      "It is the understanding generated from data that has a context or purpose."
+    ]
+  },
+  {
+    "input": "What is an automatic task?",
+    "output": [
+      "It is an activity that is carried out without the need for continuous human intervention.",
+      "It is a process that is executed independently through programming or devices."
+    ]
+  },
+  {
+    "input": "What are organized steps?",
+    "output": [
+      "They are actions arranged in a logical order to achieve a specific objective.",
+      "They are structured instructions that guarantee that a process is carried out effectively."
+    ]
+  },
+  {
+    "input": "What does it mean to make decisions?",
+    "output": [
+      "It is the process of choosing an option among several available alternatives.",
+      "It is analyzing information to select the most appropriate action in a given situation."
+    ]
+  },
+  {
+    "input": "what is analyzing data",
+    "output": [
+      "It is examining information in detail to extract patterns, trends or conclusions.",
+      "It is the process of evaluating data to understand it and use it in decision making."
+    ]
+  },
+  {
+    "input": "what is a digital medium",
+    "output": [
+      "It is an electronic medium such as hard drives, the cloud or USB devices where information is stored.",
+      "It is an environment based on digital technology that allows data to be stored and transmitted."
+    ]
+  },
+  {
+    "input": "What does it mean to transform data?",
+    "output": [
+      "It is modifying or reorganizing information to change its format, structure or purpose.",
+      "It is converting data into a more useful or understandable form for analysis or use."
+    ]
+  },
+  {
+    "input": "which is a repetitive task",
+    "output": [
+      "It is an action that is performed over and over again in a similar or identical manner.",
+      "It is a process that does not change over time and is usually automatable."
+    ]
+  },
+  {
+    "input": "which is automatable",
+    "output": [
+      "It is something that can be set to run automatically without human intervention.",
+      "It is an activity that can be carried out autonomously by technological systems."
+    ]
+  },
+  {
+    "input": "What are organized rules?",
+    "output": [
+      "They are rules arranged in a logical and structured way to guarantee efficient operation.",
+      "They are principles that define an order to perform tasks effectively."
+    ]
+  },
+  {
+    "input": "What does it mean to perform tasks?",
+    "output": [
+      "It is executing specific activities or actions to meet an objective.",
+      "It is carrying out a set of steps that lead to an expected result."
+    ]
+  },
+  {
+    "input": "which is a structured activity",
+    "output": [
+      "It is a planned action with a defined beginning, middle and end.",
+      "It is a set of steps organized to achieve a clear purpose."
+    ]
+  },
+  {
+    "input": "what is identifying patterns",
+    "output": [
+      "It is recognizing structures or repetitions within a set of data or information.",
+      "It is detecting similarities or regularities that help interpret or predict behaviors."
+    ]
+  },
+  {
+    "input": "what is code",
+    "output": [
+      "It is a set of instructions written in a programming language to be executed by a computer.",
+      "It is a structured representation of orders that allow tasks to be performed or problems to be solved using software."
+    ]
+  },
+  {
+    "input": "what is a set of instructions",
+    "output": [
+      "They are several organized orders that, when executed, achieve an objective or complete a task.",
+      "It is a sequence of steps that tells a computer how to perform a specific action."
+    ]
+  },
+  {
+    "input": "What is a structured representation?",
+    "output": [
+      "It is an organized way of presenting information or data following a logical scheme.",
+      "It is a clear and orderly model or format that facilitates the understanding and execution of a process."
+    ]
+  },
+  {
+    "input": "What does it mean to be executed?",
+    "output": [
+      "It is carrying out the instructions of a code so that the indicated actions are carried out.",
+      "It is processing the orders of a program to generate results or perform tasks."
+    ]
+  },
+  {
+    "input": "what are orders",
+    "output": [
+      "They are specific commands that tell a computer what to do and how to do it.",
+      "They are specific instructions that must be followed to complete a process."
+    ]
+  },
+  {
+    "input": "What does it mean to perform tasks using software?",
+    "output": [
+      "It is using programs or applications to execute activities or solve problems automatically.",
+      "It is using technological tools to carry out specific actions efficiently."
+    ]
+  },
+  {
+    "input": "what is a computer executing code",
+    "output": [
+      "It is a device processing instructions written in a programming language.",
+      "It is the act of interpreting and following the orders defined in a code to perform actions."
+    ]
+  },
+  {
+    "input": "What does it mean to process instructions?",
+    "output": [
+      "It is interpreting and carrying out the actions indicated by a set of orders.",
+      "It is executing defined steps in code to produce specific results."
+    ]
+  },
+  {
+    "input": "What is solving problems with code?",
+    "output": [
+      "It is writing and executing instructions to find solutions to challenges or needs.",
+      "It is using programming languages ​​to automate processes or create tools that simplify tasks."
+    ]
+  },
+  {
+    "input": "What does it mean to write a set of commands?",
+    "output": [
+      "It is writing instructions in a programming language so that a computer understands them.",
+      "It is designing a logical sequence of steps to achieve a goal or perform a task."
+    ]
+  },
+  {
+    "input": "what is an ordered model",
+    "output": [
+      "It is an organized structure that facilitates the understanding and execution of a process.",
+      "It is a logical scheme that defines how tasks should be performed or data processed."
+    ]
+  },
+  {
+    "input": "what is an algorithm",
+    "output": [
+      "It is a sequence of steps defined to solve a problem",
+      "is a set of instructions that are executed in order to achieve a goal",
+      "is a series of logical steps that describe how to solve a specific task"
+    ]
+  },
+  {
+    "input": "What does a set of steps mean?",
+    "output": [
+      "They are several actions organized in a logical order to achieve a result.",
+      "It is a series of stages that must be followed to complete a task or solve a problem."
+    ]
+  },
+  {
+    "input": "What does logically defined mean?",
+    "output": [
+      "It is structured in a clear and coherent way, following reasonable rules or principles.",
+      "It is designed so that each step makes sense and is aligned with the final objective."
+    ]
+  },
+  {
+    "input": "What does it mean to solve a problem with an algorithm?",
+    "output": [
+      "It is using a sequence of clear steps to find a solution to a difficulty or need.",
+      "It is applying a set of organized instructions to overcome a challenge or fulfill a purpose."
+    ]
+  },
+  {
+    "input": "What does a series of written steps mean?",
+    "output": [
+      "It is a list of detailed actions written in a format that can be understood and followed.",
+      "It is a group of instructions documented in a clear and organized manner."
+    ]
+  },
+  {
+    "input": "What does it mean to interpret an algorithm?",
+    "output": [
+      "It is analyzing each step of a set of instructions to execute it appropriately.",
+      "It is converting the actions defined in an algorithm into operations that the computer can perform."
+    ]
+  },
+  {
+    "input": "what is running an algorithm",
+    "output": [
+      "It is carrying out the steps defined in an algorithm to obtain a result.",
+      "It is following the instructions of an algorithm to solve a problem or complete a task."
+    ]
+  },
+  {
+    "input": "What is an algorithm for?",
+    "output": [
+      "serves to solve problems in a structured and efficient way",
+      "used to automate tasks and find solutions to complex problems",
+      "It is essential to create programs and systems that solve specific problems"
+    ]
+  },
+  {
+    "input": "What are the characteristics of an algorithm",
+    "output": [
+      "It must be finite, have well-defined steps and be precise",
+      "has a beginning and an end, and must produce a correct result",
+      "must be clear, efficient and applicable in any defined context"
+    ]
+  },
+  {
+    "input": "what are the types of algorithms",
+    "output": [
+      "Some types are recursive, iterative, greedy and dynamic algorithms.",
+      "They can be search, sorting, optimization or generation",
+      "They are classified according to their approach such as divide and conquer, backtracking or probabilistic algorithms."
+    ]
+  },
+  {
+    "input": "what is a recursive algorithm",
+    "output": [
+      "It is an algorithm that calls itself to solve a problem.",
+      "It is a type of algorithm that divides a large problem into smaller subproblems.",
+      "is based on defining oneself in terms of oneself until reaching a base case"
+    ]
+  },
+  {
+    "input": "What examples are there of recursive algorithms?",
+    "output": [
+      "calculating the factorial of a number is a classic example",
+      "The Fibonacci sequence can be solved with a recursive algorithm",
+      "Depth-first search in a graph is another common example."
+    ]
+  },
+  {
+    "input": "what is a sorting algorithm",
+    "output": [
+      "is an algorithm designed to rearrange elements in a specific order",
+      "Used to sort data in ascending or descending order",
+      "It is a technique for organizing lists of data such as numbers or strings."
+    ]
+  },
+  {
+    "input": "What are the most common sorting algorithms?",
+    "output": [
+      "some are quicksort, mergesort, bubble sort and insertion sort",
+      "the most common include quicksort, heapsort and selection sort",
+      "You can find algorithms such as merge sort and radix sort among the most used"
+    ]
+  },
+  {
+    "input": "what is quicksort",
+    "output": [
+      "It is a sorting algorithm based on divide and conquer.",
+      "organizes the elements by selecting a pivot and partitioning the data around it",
+      "It is an efficient method for sorting large lists of data."
+    ]
+  },
+  {
+    "input": "what is the complexity of quicksort",
+    "output": [
+      "in the best case and average is o n log n",
+      "in the worst case it can be or n squared if the pivots are chosen poorly",
+      "It is efficient in most cases but it depends on how the pivots are selected."
+    ]
+  },
+  {
+    "input": "what is a greedy algorithm",
+    "output": [
+      "It is an algorithm that makes optimal decisions at each step in the hope of finding the overall optimal solution.",
+      "It is used in problems where optimal partial solutions lead to the complete solution.",
+      "It is an approach to solving problems by breaking the solution into sequential steps."
+    ]
+  },
+  {
+    "input": "What are examples of greedy algorithms?",
+    "output": [
+      "Dijkstra's algorithm to find the shortest path in a graph",
+      "the fractional knapsack problem can be solved with a greedy approach",
+      "Kruskal's algorithm for minimum spanning trees is another example."
+    ]
+  },
+  {
+    "input": "What is the difference between greedy and dynamic algorithms?",
+    "output": [
+      "Greedy algorithms make decisions step by step, while dynamic algorithms solve subproblems and combine solutions.",
+      "The voracious ones look for immediate optimal solutions, the dynamic ones store intermediate results to optimize the process.",
+      "The greedy ones are simpler but do not always guarantee the optimal solution like the dynamic ones."
+    ]
+  },
+  {
+    "input": "what is a dynamic algorithm",
+    "output": [
+      "It is a method of solving problems by dividing them into subproblems and storing their solutions.",
+      "is an approach that avoids recomputations by saving results in memory",
+      "It is used for problems that have overlapping subproblems and optimization properties."
+    ]
+  },
+  {
+    "input": "What examples are there of dynamic algorithms?",
+    "output": [
+      "the floyd-warshall algorithm for shortest paths in graphs",
+      "The solution to the entire backpack problem is a classic of dynamic programming",
+      "The calculation of the Fibonacci sequence with memoization is another example."
+    ]
+  },
+  {
+    "input": "What types of instructions does an algorithm have?",
+    "output": [
+      "can have sequential, conditional and repetitive instructions",
+      "Instructions are classified as sequential, decision and repetition.",
+      "may include linear flow instructions, branches, and loops"
+    ]
+  },
+  {
+    "input": "What is a sequential instruction?",
+    "output": [
+      "It is an instruction that is executed one after another in the order in which they appear",
+      "They are steps that are followed in a linear manner without deviating",
+      "It is a type of instruction where each action occurs exactly once."
+    ]
+  },
+  {
+    "input": "What does it mean to transform a set of instructions?",
+    "output": [
+      "It is modifying orders to adapt them to a specific format or context.",
+      "It is converting defined steps into a structure that can be processed or executed."
+    ]
+  },
+  {
+    "input": "What is a specific format?",
+    "output": [
+      "It is a defined structure that organizes information so that it can be interpreted correctly.",
+      "It is a standard provision that ensures that data is understood or used appropriately."
+    ]
+  },
+  {
+    "input": "which is a defined structure",
+    "output": [
+      "It is a previously designed scheme that organizes elements in a coherent way.",
+      "It is a logical framework that establishes how the parts of a system or process should be ordered."
+    ]
+  },
+  {
+    "input": "What does it mean to modify an algorithm?",
+    "output": [
+      "It is adjusting the steps of a set of instructions to adapt them to new needs or improve their efficiency.",
+      "It is changing the logic or structure of an algorithm to optimize its operation."
+    ]
+  },
+  {
+    "input": "What does it mean to optimize an algorithm?",
+    "output": [
+      "It is improving a set of instructions to make it faster or more efficient in solving a problem.",
+      "It is reducing the time or resources necessary to execute an algorithm while maintaining its functionality."
+    ]
+  },
+  {
+    "input": "What is efficiency in an algorithm?",
+    "output": [
+      "It is the ability to solve a problem using the least amount of time and resources possible.",
+      "It is the measure of how well an algorithm performs its task compared to other methods."
+    ]
+  },
+  {
+    "input": "What does it mean to compare methods?",
+    "output": [
+      "It is analyzing different techniques or approaches to identify which is most appropriate or efficient.",
+      "It is evaluating the advantages and disadvantages of different processes to choose the best one."
+    ]
+  },
+  {
+    "input": "What does it mean to choose a method?",
+    "output": [
+      "It is selecting the most appropriate technique to solve a problem or perform a specific task.",
+      "It is making a decision based on the efficiency and characteristics of each available option."
+    ]
+  },
+  {
+    "input": "What is an appropriate technique?",
+    "output": [
+      "It is an approach or method that effectively meets the needs of a task or problem.",
+      "It is a strategy that allows you to achieve a goal accurately and efficiently."
+    ]
+  },
+  {
+    "input": "What is logic in an algorithm?",
+    "output": [
+      "It is the rational basis that organizes the steps of a set of instructions to ensure that they fulfill their purpose.",
+      "It is the reasoning that guides the sequence and structure of actions within an algorithm."
+    ]
+  },
+  {
+    "input": "Can you give me examples of sequential instructions?",
+    "output": [
+      "assign a value to a variable, display a message on the screen and perform a sum",
+      "read a data from the user, calculate the double and show the result",
+      "calculate the average of three numbers, print it and finish the program"
+    ]
+  },
+  {
+    "input": "what is a conditional statement",
+    "output": [
+      "It is an instruction that allows you to make decisions based on a condition",
+      "used to execute different blocks of code depending on whether a condition is true or false",
+      "It is a type of instruction that evaluates an expression and decides the flow of the algorithm"
+    ]
+  },
+  {
+    "input": "Can you give me examples of conditional statements?",
+    "output": [
+      "If the age is greater than or equal to 18, show that you are of legal age",
+      "If the number is positive, print is positive, otherwise print is negative",
+      "check if a number is even or odd and show the result"
+    ]
+  },
+  {
+    "input": "What is a repetitive instruction?",
+    "output": [
+      "It is an instruction that executes a block of code several times as long as a condition is met.",
+      "It is used to perform repetitive tasks automatically",
+      "is a type of instruction that repeats an action until a completion criterion is met"
+    ]
+  },
+  {
+    "input": "Can you give me examples of repetitive instructions?",
+    "output": [
+      "repeat until the user enters a number greater than 0",
+      "calculate the sum of numbers from 1 to 100 using a loop",
+      "display even numbers between 1 and 50 using a for loop"
+    ]
+  },
+  {
+    "input": "What types of loops exist in algorithms",
+    "output": [
+      "the most common are for, while and do while loops",
+      "you can use defined loops like for and indeterminate loops like while",
+      "The main types are for for defined iterations and while for conditions"
+    ]
+  },
+  {
+    "input": "what is a for loop",
+    "output": [
+      "is a loop that repeats a block of code a fixed number of times",
+      "It is used when the number of iterations is known in advance",
+      "is a structure that includes a beginning, a condition, and an increment or decrement"
+    ]
+  },
+  {
+    "input": "can you give me examples of a for loop",
+    "output": [
+      "loop through an array to print each element",
+      "show the numbers from 1 to 10 incrementing one by one",
+      "calculate the factorial of a number using a for loop"
+    ]
+  },
+  {
+    "input": "what is a while loop",
+    "output": [
+      "is a loop that executes a block of code as long as a condition is true",
+      "It is used when it is not known exactly how many times the task will be repeated",
+      "It is a structure that evaluates a condition before executing the code block"
+    ]
+  },
+  {
+    "input": "can you give me examples of a while loop",
+    "output": [
+      "keep asking the user for a number until they enter a positive number",
+      "add numbers entered by the user until zero is entered",
+      "show a counter that increments as long as it is less than 10"
+    ]
+  },
+  {
+    "input": "can you give me examples of a do while loop",
+    "output": [
+      "ask the user for a number until they enter one greater than 10",
+      "display a message on the screen at least once, then repeat according to a condition",
+      "calculate the sum of numbers entered until the user types exit"
+    ]
+  },
+  {
+    "input": "What are the input and output instructions in an algorithm?",
+    "output": [
+      "are the instructions that allow you to interact with the user or the environment",
+      "Input instructions capture data, and output instructions display or send it.",
+      "They are used to receive information from the user and display results or messages"
+    ]
+  },
+  {
+    "input": "Can you give me examples of input and output instructions?",
+    "output": [
+      "read a number from the user and show its square",
+      "ask the user for their name and display a welcome message",
+      "capture two numbers and show their sum on the screen"
+    ]
+  },
+  {
+    "input": "what is a programming language",
+    "output": [
+      "It is a means of communicating with a computer using instructions",
+      "It is a notation system for writing programs that a computer executes.",
+      "It is a tool for creating software through machine-understandable instructions."
+    ]
+  },
+  {
+    "input": "What does it mean to write instructions in a programming language?",
+    "output": [
+      "It is writing a set of commands in a format that the computer can interpret and execute.",
+      "It is using the syntax of a programming language to define how actions should be performed in an algorithm."
+    ]
+  },
+  {
+    "input": "What is the syntax of a programming language?",
+    "output": [
+      "It is the set of rules that dictate how instructions must be written so that they are understood by a computer.",
+      "It is the structure and order in which commands should be organized in a programming language."
+    ]
+  },
+  {
+    "input": "What is a program in a programming language?",
+    "output": [
+      "It is a set of instructions written in a programming language to execute a specific task.",
+      "It is an algorithm encoded in a format that a computer can process and execute."
+    ]
+  },
+  {
+    "input": "What does it mean to code an algorithm?",
+    "output": [
+      "It is translating a set of logical steps of an algorithm into a programming language so that it can be executed by a computer.",
+      "It is writing an algorithm using the syntax and rules of a programming language."
+    ]
+  },
+  {
+    "input": "What does it mean to translate an algorithm?",
+    "output": [
+      "It is converting the instructions of an algorithm into a format that can be interpreted by a computer.",
+      "It is transforming a set of logical steps into code using a programming language."
+    ]
+  },
+  {
+    "input": "What are the types of programming languages?",
+    "output": [
+      "The main types are low-level and high-level languages",
+      "They are classified into machine languages, assembly languages, and languages ​​such as C or Python.",
+      "They can be low level like assembler or high level like java or python"
+    ]
+  },
+  {
+    "input": "which is a low level language",
+    "output": [
+      "It is a language close to computer hardware, like assembly language",
+      "It is a type of language that operates directly with machine instructions",
+      "It is a less abstract language that requires knowing hardware details"
+    ]
+  },
+  {
+    "input": "give me examples of low level languages",
+    "output": [
+      "assembly and machine language are classic examples",
+      "microcontrollers often use assembly language",
+      "Binary code is the most basic low-level language."
+    ]
+  },
+  {
+    "input": "what is a high level language",
+    "output": [
+      "It is a language designed to be easy for humans to understand.",
+      "It is a more abstract type of language that hides the details of the hardware",
+      "is a tool for writing complex programs with syntax close to natural language"
+    ]
+  },
+  {
+    "input": "give me examples of high level languages",
+    "output": [
+      "python, java, c++, and javascript are examples of high-level languages",
+      "languages ​​like ruby, php and swift are also high level",
+      "popular tools like go and kotlin belong to this category"
+    ]
+  },
+  {
+    "input": "What is the difference between high and low level languages?",
+    "output": [
+      "low level ones are close to the hardware, while high level ones are easier for humans",
+      "Low-level languages ​​require more hardware knowledge, high-level languages ​​are more abstract.",
+      "In high-level languages ​​you write fewer lines of code for complex tasks"
+    ]
+  },
+  {
+    "input": "what is a compiled language",
+    "output": [
+      "It is a language that is translated into machine code before being executed.",
+      "is a type of language where the entire program is converted to binary before being executed",
+      "It is a language that needs a compiler to generate an executable"
+    ]
+  },
+  {
+    "input": "can you give me examples of compiled languages",
+    "output": [
+      "c, c++ and rust are examples of compiled languages",
+      "languages ​​like go and fortran are compiled",
+      "swift and kotlin can also be compiled"
+    ]
+  },
+  {
+    "input": "what is an interpreted language",
+    "output": [
+      "It is a language that is executed directly by an interpreter without the need to compile",
+      "It is a type of language where instructions are translated and executed in real time",
+      "Interpreted languages ​​do not generate a binary file before running"
+    ]
+  },
+  {
+    "input": "Can you give me examples of interpreted languages?",
+    "output": [
+      "python, javascript and ruby ​​are interpreted languages",
+      "php and perl are other examples of interpreted languages",
+      "languages ​​like lua and bash are also interpreted"
+    ]
+  },
+  {
+    "input": "What is the difference between compiled and interpreted languages?",
+    "output": [
+      "compiled ones generate an executable before running, interpreted ones do not",
+      "The compiled ones are faster in execution, but the interpreted ones are more flexible",
+      "Interpreted ones translate instructions in real time, compiled ones do it sooner"
+    ]
+  },
+  {
+    "input": "what is an object oriented language",
+    "output": [
+      "It is a language that organizes code into objects that represent real-world entities.",
+      "It is a programming paradigm that uses classes and objects to structure the code.",
+      "It is a type of language where data and functions are encapsulated in objects"
+    ]
+  },
+  {
+    "input": "Can you give me examples of object-oriented languages?",
+    "output": [
+      "Java, Python, C++ and Ruby are object-oriented languages.",
+      "Languages ​​like Kotlin and Swift also use object orientation",
+      "c# and javascript support object-oriented programming"
+    ]
+  },
+  {
+    "input": "what is a functional language",
+    "output": [
+      "is a language that treats computations as evaluations of mathematical functions",
+      "It is a paradigm where functions are the main units of the program",
+      "functional languages ​​avoid mutable states and data"
+    ]
+  },
+  {
+    "input": "Can you give me examples of functional languages?",
+    "output": [
+      "Haskell, Elixir and Erlang are examples of functional languages",
+      "languages ​​like f# and clojure are also functional",
+      "scala and ocaml support the functional paradigm"
+    ]
+  },
+  {
+    "input": "what is a scripting language",
+    "output": [
+      "is a language designed to automate tasks in an operating system or application",
+      "is a type of language used to write scripts that control programs or processes",
+      "Scripting languages ​​are commonly interpreted and used for quick tasks."
+    ]
+  },
+  {
+    "input": "Can you give me examples of scripting languages?",
+    "output": [
+      "javascript, python and bash are common scripting languages",
+      "languages ​​like ruby, php and perl are also scripting",
+      "lua and powershell are other examples of scripting languages"
+    ]
+  },
+  {
+    "input": "what is python",
+    "output": [
+      "It is a high-level, interpreted, multipurpose programming language.",
+      "It is a popular language for its simple syntax and large number of libraries",
+      "It is a widely used tool for data science, artificial intelligence and web development"
+    ]
+  },
+  {
+    "input": "what is python used for",
+    "output": [
+      "It is used in data science, artificial intelligence, web development and automation",
+      "It is common in data analysis, machine learning and application development",
+      "It is also used to create scripts, manage data and program applications."
+    ]
+  },
+  {
+    "input": "what is java",
+    "output": [
+      "It is a high-level, object-oriented, cross-platform programming language.",
+      "It is a language known for its portability thanks to the Java virtual machine",
+      "It is a popular tool for enterprise applications and mobile development"
+    ]
+  },
+  {
+    "input": "What is java used for?",
+    "output": [
+      "It is used to develop business applications, games and software for android",
+      "It is common in server applications, distributed systems and web applications",
+      "It is also used to program embedded devices and desktop applications."
+    ]
+  },
+  {
+    "input": "what is javascript",
+    "output": [
+      "It is a high-level programming language used primarily for web development.",
+      "It is an interpreted language that allows you to create dynamic and interactive web pages.",
+      "It is a key tool for client-side and server-side programming."
+    ]
+  },
+  {
+    "input": "What is javascript used for?",
+    "output": [
+      "used to create interactive web interfaces and modern web applications",
+      "It is common in client and server side development with nodejs",
+      "It is also used to handle events on web pages and build web games."
+    ]
+  },
+  {
+    "input": "what is c",
+    "output": [
+      "It is a low-level, structured and efficient programming language.",
+      "It is known for its speed and control over system resources",
+      "is a tool used for high-performance operating systems, compilers and applications"
+    ]
+  },
+  {
+    "input": "what is c used for",
+    "output": [
+      "It is used in the development of operating systems and hardware software",
+      "It is common for programming embedded devices and high-performance applications.",
+      "It is also used in video games, simulations and real-time systems."
+    ]
+  },
+  {
+    "input": "what is c++",
+    "output": [
+      "It is a high-level programming language based on C, with support for object-oriented programming.",
+      "It is a versatile and efficient language used for complex software development.",
+      "It is a C extension that includes advanced features such as classes and objects."
+    ]
+  },
+  {
+    "input": "What is c++ used for?",
+    "output": [
+      "It is used to develop video games, simulation software and graphics engines.",
+      "It is common in the development of operating systems and scientific applications",
+      "It is also used for high performance applications and embedded systems."
+    ]
+  },
+  {
+    "input": "what is ruby",
+    "output": [
+      "It is a high-level, interpreted, object-oriented programming language.",
+      "is known for its focus on simplicity and productivity",
+      "It is a popular tool for web development, especially with ruby ​​on rails"
+    ]
+  },
+  {
+    "input": "What is ruby ​​used for?",
+    "output": [
+      "It is mainly used for web development with the ruby ​​on rails framework",
+      "It is common in automation and scripting applications",
+      "It is also used for rapid prototyping and dynamic application development."
+    ]
+  },
+  {
+    "input": "what is kotlin",
+    "output": [
+      "is a modern, high-level programming language developed by jetbrains",
+      "It is known to be interoperable with Java and mainly used for mobile development.",
+      "It is a popular tool for developing Android applications and backend systems."
+    ]
+  },
+  {
+    "input": "What is Kotlin used for?",
+    "output": [
+      "It is used to develop android applications and backend systems",
+      "It is common in projects that require integration with Java",
+      "It is also used for cross-platform applications and microservices."
+    ]
+  },
+  {
+    "input": "what is swift",
+    "output": [
+      "It is a modern programming language developed by Apple for its platforms.",
+      "It is known for being fast, secure and easy to learn",
+      "It is a popular tool for developing applications for iOS and Macos."
+    ]
+  },
+  {
+    "input": "What is Swift used for?",
+    "output": [
+      "It is used to develop applications for ios, macos, watchos and tvos",
+      "It is common in the Apple ecosystem for mobile and desktop applications",
+      "It is also used for learning and open source projects in the Apple community."
+    ]
+  },
+  {
+    "input": "what is rust",
+    "output": [
+      "It is a modern programming language focused on security and performance",
+      "It is known for its memory management system that prevents common errors",
+      "is a tool used for high performance systems and secure software"
+    ]
+  },
+  {
+    "input": "What is rust used for?",
+    "output": [
+      "It is used to develop embedded systems, browsers and secure software",
+      "It is common in projects where performance and security are critical",
+      "It is also used in system applications such as database engines."
+    ]
+  },
+  {
+    "input": "what is go",
+    "output": [
+      "It is a programming language created by Google focused on simplicity and performance.",
+      "It is known for being fast, scalable and easy to compile.",
+      "It is a popular tool for distributed systems and web services"
+    ]
+  },
+  {
+    "input": "What is go used for?",
+    "output": [
+      "used to develop web services, infrastructure tools and distributed systems",
+      "It is common in high-performance applications such as servers and microservices",
+      "It is also used in network, cloud computing and container projects."
+    ]
+  },
+  {
+    "input": "what are the advantages of python",
+    "output": [
+      "It is easy to learn and read thanks to its simple syntax",
+      "has a large number of libraries and frameworks available",
+      "It is cross-platform and widely supported by the community"
+    ]
+  },
+  {
+    "input": "what are the disadvantages of python",
+    "output": [
+      "It is slower than other languages ​​like C or Java.",
+      "consumes more resources due to its interpreted nature",
+      "It is not the best option for real-time applications."
+    ]
+  },
+  {
+    "input": "What frameworks exist in Python?",
+    "output": [
+      "some popular frameworks are django, flask and fastapi",
+      "There are also pandas and numpy for data analysis",
+      "tensorflow and pytorch are used for artificial intelligence"
+    ]
+  },
+  {
+    "input": "What is the difference between Python and Java?",
+    "output": [
+      "python has a simpler syntax and is interpreted",
+      "java is faster and is compiled into bytecode for the virtual machine",
+      "Java is used more for business applications, while Python is common in data analysis."
+    ]
+  },
+  {
+    "input": "What features does Java have?",
+    "output": [
+      "It is object-oriented and has automatic garbage collection.",
+      "It is cross-platform thanks to the Java virtual machine",
+      "It has a static typing system that prevents errors at compile time"
+    ]
+  },
+  {
+    "input": "what are the advantages of java",
+    "output": [
+      "It is very scalable and suitable for enterprise applications",
+      "It has a mature ecosystem and extensive documentation",
+      "It is compatible with a large number of platforms"
+    ]
+  },
+  {
+    "input": "What frameworks exist in Java?",
+    "output": [
+      "some popular frameworks are spring, hibernate and struts",
+      "spring boot is common to develop microservices",
+      "javafx is used to create graphical interfaces"
+    ]
+  },
+  {
+    "input": "What characteristics does c++ have?",
+    "output": [
+      "supports object-oriented and functional programming",
+      "allows fine-grained control over memory",
+      "It is a compiled language that offers high performance"
+    ]
+  },
+  {
+    "input": "what is the difference between c and c++",
+    "output": [
+      "C is a structured language while C++ supports object-oriented programming.",
+      "c++ includes features such as classes, inheritance and polymorphism",
+      "c is used for operating systems, while c++ is more common in video games and simulations."
+    ]
+  },
+  {
+    "input": "what is a framework",
+    "output": [
+      "It is a predefined code structure that makes application development easier.",
+      "is a set of tools and libraries that help solve common problems",
+      "serves to streamline and standardize the development process"
+    ]
+  },
+  {
+    "input": "how to choose a programming language",
+    "output": [
+      "It depends on the project you want to carry out, such as web development or mobile applications.",
+      "consider community support and tools available",
+      "think about the learning curve and your long-term goals"
+    ]
+  },
+  {
+    "input": "what is django",
+    "output": [
+      "It is a high-level framework for web development in Python.",
+      "It is known for following the principle of don't repeat yourself and facilitating rapid development.",
+      "includes tools to manage databases, authentication and more"
+    ]
+  },
+  {
+    "input": "What advantages does django have?",
+    "output": [
+      "It has an integrated and powerful administration system",
+      "It is scalable and suitable for small and large projects",
+      "follow good practices like the mvc principle"
+    ]
+  },
+  {
+    "input": "what is flask",
+    "output": [
+      "It is a microframework for web development in Python",
+      "It is known for being lightweight and easy to extend.",
+      "allows you to create web applications with minimal configuration"
+    ]
+  },
+  {
+    "input": "What is flask for?",
+    "output": [
+      "used to develop small web applications and APIs",
+      "It is ideal for projects that require flexibility",
+      "It is used in applications where a robust framework like django is not needed"
+    ]
+  },
+  {
+    "input": "What frameworks are there for artificial intelligence in Python?",
+    "output": [
+      "some popular ones are tensorflow, pytorch and scikit-learn",
+      "tensorflow is used for neural networks and deep learning",
+      "scikit-learn is ideal for classical machine learning"
+    ]
+  },
+  {
+    "input": "what is spring",
+    "output": [
+      "It is a framework for developing business applications in Java.",
+      "provides tools to develop scalable applications",
+      "supports aspect-oriented programming and dependency management"
+    ]
+  },
+  {
+    "input": "What is spring boot for?",
+    "output": [
+      "It is used to create Java applications with minimal configuration",
+      "facilitates the development of microservices",
+      "It is ideal for projects that require quick implementation"
+    ]
+  },
+  {
+    "input": "what is hibernate",
+    "output": [
+      "is an object-relational mapping framework for java",
+      "allows you to interact with databases efficiently",
+      "facilitates data persistence in java applications"
+    ]
+  },
+  {
+    "input": "What is the difference between spring and hibernate?",
+    "output": [
+      "spring is a general framework for enterprise applications",
+      "hibernate focuses on data mapping and persistence",
+      "spring can integrate hibernate as part of its ecosystem"
+    ]
+  },
+  {
+    "input": "what is react",
+    "output": [
+      "is a javascript library for building user interfaces",
+      "It is developed by Facebook and focuses on reusable components",
+      "It is ideal for dynamic and modern web applications"
+    ]
+  },
+  {
+    "input": "What is react for?",
+    "output": [
+      "It is used to create web applications with dynamic interfaces",
+      "It is used to build single page or spa websites.",
+      "makes it easier to manage state and render components"
+    ]
+  },
+  {
+    "input": "what is angular",
+    "output": [
+      "is a javascript framework for web application development",
+      "It is maintained by Google and follows a component-based architecture.",
+      "offers built-in tools such as dependency injection and routing"
+    ]
+  },
+  {
+    "input": "What is the difference between Angular and React?",
+    "output": [
+      "angular is a complete framework while react is a library",
+      "react allows more flexibility when integrating external tools",
+      "Angular has a steeper learning curve but offers more built-in functionality"
+    ]
+  },
+  {
+    "input": "what is vue",
+    "output": [
+      "is a progressive javascript framework for building user interfaces",
+      "It is known for its simplicity and ease of integration",
+      "It is ideal for small and large projects that require modularity"
+    ]
+  },
+  {
+    "input": "What frameworks exist in c++",
+    "output": [
+      "some popular ones are qt, boost and bit",
+      "qt is used for developing cross-platform applications with graphical interfaces",
+      "boost provides libraries for many common tasks such as memory management"
+    ]
+  },
+  {
+    "input": "what is qt",
+    "output": [
+      "It is a framework for C++ focused on graphical and cross-platform applications.",
+      "includes tools to create modern graphical interfaces",
+      "It is used in desktop, mobile and embedded software"
+    ]
+  },
+  {
+    "input": "What frameworks are there for mobile development?",
+    "output": [
+      "some popular ones are flutter, react native and xamarin",
+      "flutter is developed by google and uses dart as the base language",
+      "react native allows you to develop mobile applications using javascript"
+    ]
+  },
+  {
+    "input": "what is flutter",
+    "output": [
+      "It is a Google framework for cross-platform mobile development.",
+      "allows you to create native applications with a single code base",
+      "use dart as a programming language"
+    ]
+  },
+  {
+    "input": "what is react native",
+    "output": [
+      "It is a javascript-based framework for mobile development.",
+      "allows you to create applications for iOS and Android with a single code base",
+      "It is based on the same component philosophy as react"
+    ]
+  },
+  {
+    "input": "what is frontend",
+    "output": [
+      "It is the visual part of an application with which users interact",
+      "refers to the development of graphic interfaces and user experiences",
+      "includes technologies such as html, css and javascript"
+    ]
+  },
+  {
+    "input": "What languages ​​are used in frontend?",
+    "output": [
+      "the main ones are html, css and javascript",
+      "Technologies such as typescript and frameworks such as react or angular are also used."
+    ]
+  },
+  {
+    "input": "what is html",
+    "output": [
+      "It is a markup language used to structure the content of a web page.",
+      "defines the basic structure of a page such as headings, paragraphs and links",
+      "It is essential for frontend development"
+    ]
+  },
+  {
+    "input": "what is css",
+    "output": [
+      "It is a styling language used to define the appearance of a web page.",
+      "allows you to customize colors, fonts and design of elements",
+      "used in conjunction with html to enhance the visual experience"
+    ]
+  },
+  {
+    "input": "what is javascript",
+    "output": [
+      "It is a programming language used to add interactivity to web pages",
+      "allows you to create dynamic functionalities such as animations and validations",
+      "It is essential for modern frontend development"
+    ]
+  },
+  {
+    "input": "What frameworks are used in frontend",
+    "output": [
+      "some popular ones are react, angular and vue",
+      "bootstrap is used for responsive design",
+      "tailwind css is a modern tool for styles"
+    ]
+  },
+  {
+    "input": "What is the difference between react and angular?",
+    "output": [
+      "react is a library while angular is a complete framework",
+      "react offers more flexibility, but angular includes more built-in tools",
+      "react is used for lightweight projects and angular for robust applications"
+    ]
+  },
+  {
+    "input": "what is a spa",
+    "output": [
+      "It is a single page application where the content loads dynamically",
+      "avoid reloading the entire page when navigating between sections",
+      "It is common in frameworks like react, angular and vue"
+    ]
+  },
+  {
+    "input": "what is backend",
+    "output": [
+      "It is the part of a system that manages the logic, databases and servers",
+      "is responsible for processing requests and sending responses to the frontend",
+      "It is essential to manage the business logic of an application"
+    ]
+  },
+  {
+    "input": "What languages ​​are used in the backend?",
+    "output": [
+      "some popular ones are java, python, php, ruby ​​and javascript with nodejs",
+      "go, c# and kotlin are also used depending on the use case"
+    ]
+  },
+  {
+    "input": "What frameworks are used in the backend?",
+    "output": [
+      "some popular ones are spring boot for java, django and flask for python",
+      "laravel for php and express for nodejs are common options",
+      "Ruby on rails and .net core are also used"
+    ]
+  },
+  {
+    "input": "what is nodejs",
+    "output": [
+      "It is a javascript execution environment for the backend",
+      "allows you to develop scalable applications with a single language",
+      "It is known for its efficiency in handling multiple requests"
+    ]
+  },
+  {
+    "input": "what is flask",
+    "output": [
+      "is a python microframework for backend development",
+      "It is lightweight and allows you to create fast APIs with minimal configuration.",
+      "It is ideal for small projects and prototypes"
+    ]
+  },
+  {
+    "input": "what is a rest api",
+    "output": [
+      "It is an interface that allows communication between systems using http requests",
+      "follows principles such as the separation between client and server",
+      "It is common in web applications and mobile services"
+    ]
+  },
+  {
+    "input": "what is graphql",
+    "output": [
+      "It is an alternative to rest for apis",
+      "allows the client to specify exactly what data they need",
+      "It is developed by Facebook and is used in modern applications"
+    ]
+  },
+  {
+    "input": "what is a database",
+    "output": [
+      "It is a system for storing and organizing information",
+      "can be sql like mysql and postgresql, or non-sql like mongodb",
+      "It is used to store data that will be used by the backend"
+    ]
+  },
+  {
+    "input": "What is the difference between SQL and non-SQL?",
+    "output": [
+      "SQL uses tables with defined schemas, while non-SQL is more flexible.",
+      "sql is great for structured data, not sql for unstructured data",
+      "sql includes systems such as mysql and postgresql, non-sql includes mongodb and cassandra"
+    ]
+  },
+  {
+    "input": "How frontend and backend communicate",
+    "output": [
+      "through apis using protocols like http",
+      "The frontend sends requests to the backend and it responds with data",
+      "Communication can be in formats such as json or xml"
+    ]
+  },
+  {
+    "input": "what is a full stack developer",
+    "output": [
+      "is a developer who works on both frontend and backend",
+      "Has knowledge of interface design and server logic",
+      "can develop complete applications from start to finish"
+    ]
+  },
+  {
+    "input": "What is the difference between frontend and backend?",
+    "output": [
+      "The frontend is what the user sees, the backend is the logic behind",
+      "The frontend uses html, css and javascript, the backend uses languages ​​​​like java or python",
+      "The backend is responsible for processing data and managing communication with databases."
+    ]
+  },
+  {
+    "input": "what is a database",
+    "output": [
+      "It is a system for storing and managing information in a structured way.",
+      "It is used to store data that can be easily consulted and modified",
+      "It is essential for applications that need to handle large amounts of information."
+    ]
+  },
+  {
+    "input": "What types of databases exist?",
+    "output": [
+      "There are relational and non-relational databases.",
+      "There are also hierarchical, network and object-oriented databases.",
+      "They depend on the type of information and the use case."
+    ]
+  },
+  {
+    "input": "what is a relational database",
+    "output": [
+      "It is a database that organizes information in tables with rows and columns.",
+      "uses sql as a language to query and modify data",
+      "Examples include mysql, postgresql and sql server"
+    ]
+  },
+  {
+    "input": "What is a non-relational database?",
+    "output": [
+      "It is a database that does not use tables to organize data",
+      "can store information in formats such as documents, graphs or key-values",
+      "Examples include mongodb, cassandra and redis"
+    ]
+  },
+  {
+    "input": "What is a schema in a database?",
+    "output": [
+      "It is the structure that defines how data is organized in a database",
+      "includes tables, columns, data types, and relationships between tables",
+      "It is important in relational databases"
+    ]
+  },
+  {
+    "input": "what is sql",
+    "output": [
+      "is a structured query language used to interact with relational databases",
+      "allows you to perform operations such as inserting, querying and deleting data",
+      "It is compatible with systems such as mysql, postgresql and oracle"
+    ]
+  },
+  {
+    "input": "what is mysql",
+    "output": [
+      "It is an open source relational database management system.",
+      "It is popular for being fast and easy to use.",
+      "commonly used in web applications"
+    ]
+  },
+  {
+    "input": "what is postgresql",
+    "output": [
+      "It is an advanced, open source relational database management system.",
+      "offers support for complex transactions and extensibility",
+      "It is ideal for enterprise applications and advanced projects"
+    ]
+  },
+  {
+    "input": "what is sql server",
+    "output": [
+      "It is a relational database management system developed by Microsoft.",
+      "primarily used in business environments",
+      "Offers integration with other Microsoft products such as Azure and Visual Studio"
+    ]
+  },
+  {
+    "input": "what is mongodb",
+    "output": [
+      "is a non-relational database that stores data in json document format",
+      "It is ideal for applications that handle unstructured or semi-structured data",
+      "It is popular in modern web applications and distributed systems"
+    ]
+  },
+  {
+    "input": "What is mongodb used for?",
+    "output": [
+      "It is used in web applications, recommendation systems and big data",
+      "It is ideal for handling large volumes of data and scaling horizontally",
+      "used when a strict structure of tables and columns is not needed"
+    ]
+  },
+  {
+    "input": "what is redis",
+    "output": [
+      "It is a non-relational database based on key-value",
+      "It is known for its speed and is used as a cache or to store sessions",
+      "It is popular in applications that require quick access to data"
+    ]
+  },
+  {
+    "input": "what is cassandra",
+    "output": [
+      "It is a distributed and scalable non-relational database",
+      "It is ideal for handling large volumes of data in real time",
+      "It is used by companies like Netflix and Twitter for high availability"
+    ]
+  },
+  {
+    "input": "What are the differences between mongodb and redis?",
+    "output": [
+      "mongodb stores json documents, while redis uses a key-value model",
+      "redis is faster but mongodb is more flexible for complex data",
+      "redis is ideal for caching and mongodb for unstructured data"
+    ]
+  },
+  {
+    "input": "what is a compiler",
+    "output": [
+      "A compiler is a program that translates the source code of a high-level programming language into a low-level language or machine code.",
+      "the compiler allows code written in a human-understandable language to be executed by a computer",
+      "an example of a compiler is GCC for C or C++"
+    ]
+  },
+  {
+    "input": "what is an interpreter",
+    "output": [
+      "is a type of program that executes the code of a programming language line by line, without having to compile all the code beforehand",
+      "Unlike a compiler, an interpreter does not create a machine code file, but rather translates and executes instructions directly",
+      "a common example of an interpreter is Python"
+    ]
+  },
+  {
+    "input": "what is a bug",
+    "output": [
+      "A bug is an error or flaw in a program's code that causes unexpected or incorrect behavior.",
+      "Bugs can be caused by syntax errors, logic errors, or performance problems.",
+      "It is important to debug the code to find and fix bugs"
+    ]
+  },
+  {
+    "input": "what is a debugger",
+    "output": [
+      "A debugger is a tool that allows you to examine the state of a program while it is running, helping to identify and correct bugs.",
+      "Debuggers allow you to track code execution, inspect variables, and control program flow.",
+      "Some popular debuggers are GDB for C and C++, or the debugger built into IDEs like Visual Studio Code"
+    ]
+  },
+  {
+    "input": "what is a variable",
+    "output": [
+      "A variable is a storage space that contains a value that can change during the execution of a program",
+      "Variables are used to store data such as numbers, text strings, or even objects",
+      "Each variable has a data type that determines what type of values ​​it can store, such as 'int' for integers or 'string' for text"
+    ]
+  },
+  {
+    "input": "what is a data type",
+    "output": [
+      "A data type is a classification of the values ​​that a variable can store, such as numbers, text, or booleans",
+      "Basic data types include integers (int), decimal numbers (float), text (string), and logical values ​​(boolean)",
+      "data types can also be more complex, such as lists, dictionaries, or even user-defined classes"
+    ]
+  },
+  {
+    "input": "which is a primitive data type",
+    "output": [
+      "A primitive data type is a basic data type that cannot be decomposed into simpler types.",
+      "Primitive data types include integers (int), decimals (float), strings (string), and logical values ​​(boolean)",
+      "These data types are fundamental and form the basis for building other more complex data types."
+    ]
+  },
+  {
+    "input": "which is a composite data type",
+    "output": [
+      "A composite data type is a data type that is created by combining several primitive data types or even other composite types.",
+      "Composite data types include lists (arrays), dictionaries (objects in some languages), tuples, and sets",
+      "These data types allow for storing more complex and structured collections of data."
+    ]
+  },
+  {
+    "input": "what is an array",
+    "output": [
+      "An array is a data structure that stores a collection of elements of the same type",
+      "The elements of an array are stored in contiguous memory locations and are accessed using an index",
+      "In many programming languages, such as JavaScript or Python, arrays can be dynamic or fixed size"
+    ]
+  },
+  {
+    "input": "what is a list in programming",
+    "output": [
+      "A list is a composite data type that stores an ordered collection of elements, which can be of different types",
+      "Unlike arrays, lists can store elements of different data types in many languages, such as Python",
+      "A list can also be dynamic, that is, its size can be changed during program execution"
+    ]
+  },
+  {
+    "input": "what is a dictionary",
+    "output": [
+      "A dictionary is a data structure that stores key-value pairs",
+      "Each element in a dictionary is composed of a unique key and a value associated with that key",
+      "Dictionaries are useful when you need to quickly look up a value from a key, such as in Python or JavaScript"
+    ]
+  },
+  {
+    "input": "what is a tuple",
+    "output": [
+      "A tuple is a data structure similar to a list, but with the difference that tuples are immutable, that is, they cannot be modified after their creation.",
+      "In many programming languages, such as Python, tuples are used to store data that should not change during program execution",
+      "tuples can also contain elements of different data types"
+    ]
+  },
+  {
+    "input": "what is a set",
+    "output": [
+      "A set is a collection of unordered elements without duplicates.",
+      "Sets are useful when you need to store unique data, without worrying about the order in which it is inserted",
+      "In Python, sets are defined using the 'set' class, and are different from lists or tuples in terms of the uniqueness of the elements"
+    ]
+  },
+  {
+    "input": "what is a string",
+    "output": [
+      "A string is a data type that represents a sequence of characters, such as text",
+      "Strings can include letters, numbers, and other characters, and are used to manipulate text in most programming languages.",
+      "In some languages, strings are immutable, meaning they cannot be modified after they are created, such as in Python or Java"
+    ]
+  },
+  {
+    "input": "what is a boolean",
+    "output": [
+      "A boolean is a data type that has only two possible values: true or false.",
+      "Boolean values ​​are used in conditions and control structures, such as 'if' or 'while', to make decisions in a program",
+      "Booleans are fundamental in logic programming and conditional expressions"
+    ]
+  },
+  {
+    "input": "which is a null value",
+    "output": [
+      "A null value is a special value that represents the absence of a valid or defined value in a variable.",
+      "The null value can be used to indicate that a variable has not yet been initialized or that it does not have a value assigned",
+      "In some languages, such as JavaScript, 'null' is used to denote a null value, while in others, such as Python, 'None' is used"
+    ]
+  },
+  {
+    "input": "what is a floating data type",
+    "output": [
+      "A float data type is a numeric type used to represent numbers with decimals.",
+      "Float numbers are especially useful for performing precise calculations that include decimal values, such as 3.14 or 0.5",
+      "In many programming languages, such as Python or Java, floats are represented with the type 'float'"
+    ]
+  },
+  {
+    "input": "which is an integer data type",
+    "output": [
+      "An integer data type is a numeric type used to represent numbers without decimals, such as 1, 100, or -5",
+      "Integers are essential in programming to perform simple mathematical operations, such as counting or iterating over elements",
+      "In languages ​​like Python or Java, integers are represented with the 'int' type"
+    ]
+  },
+  {
+    "input": "what is the char data type",
+    "output": [
+      "The 'char' data type is used to represent a single character, such as 'a', 'B' or '9'",
+      "'char' is commonly used in languages ​​such as C and C++ to manipulate individual characters in text strings",
+      "In other languages ​​like Python, characters are treated as strings of length 1"
+    ]
+  },
+  {
+    "input": "What is the complex data type?",
+    "output": [
+      "The complex data type is used to represent numbers that have a real part and an imaginary part, such as 3 + 4i",
+      "In some languages, such as Python, you can work with complex numbers using the 'complex' type",
+      "Complex numbers are used in areas such as engineering, mathematics, and signal processing."
+    ]
+  },
+  {
+    "input": "what is a function",
+    "output": [
+      "A function is a block of code that performs a specific task and can be reused in different parts of the program.",
+      "functions can accept input (parameters) and return a value as a result",
+      "In many programming languages, functions allow code to be organized in a modular and efficient way"
+    ]
+  },
+  {
+    "input": "what is recursion",
+    "output": [
+      "Recursion is a technique in programming in which a function calls itself to solve a problem",
+      "Generally, recursion is used to solve problems that can be broken down into smaller subproblems, such as trees or binary search.",
+      "It is important that a recursive function have a base condition that stops the recursive call"
+    ]
+  }
+]

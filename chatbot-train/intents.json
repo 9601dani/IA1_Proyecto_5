@@ -1,0 +1,75 @@
+{
+    "intents": [
+        {
+            "tag": "saludos",
+            "patterns": [
+                "Hola",
+                "Buenos días",
+                "Buenas tardes",
+                "¿Qué tal?",
+                "¿Cómo estás?"
+            ],
+            "responses": [
+                "¡Hola!",
+                "¡Buenos días!",
+                "¡Qué gusto verte!",
+                "¿Cómo te puedo ayudar?"
+            ]
+        },
+        {
+            "tag": "ayuda",
+            "patterns": [
+                "¿Me puedes ayudar?",
+                "Necesito ayuda",
+                "Ayúdame",
+                "¿Qué puedes hacer?"
+            ],
+            "responses": [
+                "¡Claro! ¿En qué necesitas ayuda?",
+                "Estoy aquí para asistirte.",
+                "Puedo responder preguntas o contar chistes."
+            ]
+        },
+        {
+            "tag": "chistes",
+            "patterns": [
+                "Cuéntame un chiste",
+                "Dime algo divertido",
+                "Hazme reír",
+                "¿Sabes algún chiste?"
+            ],
+            "responses": [
+                "¿Por qué los pájaros no usan Facebook? Porque ya tienen Twitter.",
+                "¿Qué hace una abeja en el gimnasio? ¡Zum-ba!",
+                "¿Por qué los programadores confunden Halloween con Navidad? Porque Oct 31 = Dec 25."
+            ]
+        },
+        {
+            "tag": "superheroes",
+            "patterns": [
+                "¿Quién es tu superhéroe favorito?",
+                "¿Te gustan los superhéroes?",
+                "Dime algo de superhéroes"
+            ],
+            "responses": [
+                "Me gusta Iron Man, ¡es muy inteligente!",
+                "Batman siempre tiene un plan.",
+                "¡Los superhéroes nos inspiran a ser mejores!"
+            ]
+        },
+        {
+            "tag": "programacion",
+            "patterns": [
+                "¿Qué es Python?",
+                "¿Qué lenguaje de programación usas?",
+                "¿Sabes programar?",
+                "Cuéntame sobre programación"
+            ],
+            "responses": [
+                "¡Python es un lenguaje increíble!",
+                "Uso Python y TensorFlow para funcionar.",
+                "La programación es la forma de hablar con las computadoras."
+            ]
+        }
+    ]
+}
