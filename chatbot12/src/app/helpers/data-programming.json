@@ -557,11 +557,284 @@
     ]
   },
   {
+    "input": "que es la programacion",
+    "output": [
+      "Es el proceso de escribir instrucciones que una computadora puede entender.",
+      "Es la creación de código para resolver problemas o automatizar tareas en una computadora."
+    ]
+  },
+  {
+    "input": "que es instrucciones",
+    "output": [
+      "Son indicaciones específicas que le dicen a una computadora qué hacer paso a paso.",
+      "Son órdenes organizadas que una máquina o persona sigue para realizar una tarea."
+    ]
+  },
+  {
+    "input": "que es una computadora",
+    "output": [
+      "Es un dispositivo electrónico capaz de procesar y almacenar datos siguiendo instrucciones.",
+      "Es una máquina diseñada para realizar cálculos y ejecutar programas de software."
+    ]
+  },
+  {
+    "input": "que significa la creacion de codigo",
+    "output": [
+      "Es el proceso de escribir líneas de texto en un lenguaje de programación para construir software.",
+      "Es desarrollar instrucciones que definen cómo debe funcionar un programa o sistema."
+    ]
+  },
+  {
+    "input": "que es automatizar",
+    "output": [
+      "Es hacer que procesos o tareas se realicen automáticamente sin intervención humana constante.",
+      "Es usar tecnología para ejecutar actividades repetitivas de manera eficiente."
+    ]
+  },
+  {
+    "input": "que es un dispositivo electronico",
+    "output": [
+      "Es un aparato que funciona con electricidad y realiza tareas específicas mediante circuitos electrónicos.",
+      "Es una máquina que usa componentes eléctricos y electrónicos para procesar información o realizar acciones."
+    ]
+  },
+  {
+    "input": "que significa procesar informacion",
+    "output": [
+      "Es realizar operaciones sobre datos para transformarlos en información útil.",
+      "Es aplicar algoritmos o reglas para analizar, organizar o convertir datos."
+    ]
+  },
+  {
+    "input": "que es almacenar datos",
+    "output": [
+      "Es guardar información en un medio físico o digital para su uso futuro.",
+      "Es conservar datos de manera organizada para acceder a ellos cuando se necesiten."
+    ]
+  },
+  {
+    "input": "que es informacion util",
+    "output": [
+      "Es conocimiento derivado de datos que tiene valor para tomar decisiones o resolver problemas.",
+      "Es el resultado de procesar datos de manera que sean comprensibles y accionables."
+    ]
+  },
+  {
+    "input": "que es conocimiento derivado",
+    "output": [
+      "Es información obtenida al procesar y analizar datos de forma lógica y sistemática.",
+      "Es el entendimiento generado a partir de datos que tienen un contexto o un propósito."
+    ]
+  },
+  {
+    "input": "que es una tarea automatica",
+    "output": [
+      "Es una actividad que se realiza sin necesidad de intervención humana continua.",
+      "Es un proceso que se ejecuta de manera independiente mediante programación o dispositivos."
+    ]
+  },
+  {
+    "input": "que son pasos organizados",
+    "output": [
+      "Son acciones dispuestas en un orden lógico para alcanzar un objetivo específico.",
+      "Son instrucciones estructuradas que garantizan que un proceso se realice de manera efectiva."
+    ]
+  },
+  {
+    "input": "que significa tomar decisiones",
+    "output": [
+      "Es el proceso de elegir una opción entre varias alternativas disponibles.",
+      "Es analizar información para seleccionar la acción más adecuada en una situación dada."
+    ]
+  },
+  {
+    "input": "que es analizar datos",
+    "output": [
+      "Es examinar información detalladamente para extraer patrones, tendencias o conclusiones.",
+      "Es el proceso de evaluar datos para comprenderlos y utilizarlos en la toma de decisiones."
+    ]
+  },
+  {
+    "input": "que es un medio digital",
+    "output": [
+      "Es un soporte electrónico como discos duros, la nube o dispositivos USB donde se almacena información.",
+      "Es un entorno basado en tecnología digital que permite guardar y transmitir datos."
+    ]
+  },
+  {
+    "input": "que significa transformar datos",
+    "output": [
+      "Es modificar o reorganizar información para cambiar su formato, estructura o propósito.",
+      "Es convertir datos en una forma más útil o comprensible para análisis o uso."
+    ]
+  },
+  {
+    "input": "que es una tarea repetitiva",
+    "output": [
+      "Es una acción que se realiza una y otra vez de manera similar o idéntica.",
+      "Es un proceso que no cambia con el tiempo y que suele ser automatizable."
+    ]
+  },
+  {
+    "input": "que es automatizable",
+    "output": [
+      "Es algo que puede configurarse para ejecutarse automáticamente sin intervención humana.",
+      "Es una actividad susceptible de ser realizada por sistemas tecnológicos de forma autónoma."
+    ]
+  },
+  {
+    "input": "que son reglas organizadas",
+    "output": [
+      "Son normas dispuestas de forma lógica y estructurada para garantizar un funcionamiento eficiente.",
+      "Son principios que definen un orden para realizar tareas de manera efectiva."
+    ]
+  },
+  {
+    "input": "que significa realizar tareas",
+    "output": [
+      "Es ejecutar actividades o acciones específicas para cumplir con un objetivo.",
+      "Es llevar a cabo un conjunto de pasos que conducen a un resultado esperado."
+    ]
+  },
+  {
+    "input": "que es una actividad estructurada",
+    "output": [
+      "Es una acción planificada con un inicio, desarrollo y final definidos.",
+      "Es un conjunto de pasos organizados para lograr un propósito claro."
+    ]
+  },
+  {
+    "input": "que es identificar patrones",
+    "output": [
+      "Es reconocer estructuras o repeticiones dentro de un conjunto de datos o información.",
+      "Es detectar similitudes o regularidades que ayuden a interpretar o predecir comportamientos."
+    ]
+  },
+  {
+    "input": "que es codigo",
+    "output": [
+      "Es un conjunto de instrucciones escritas en un lenguaje de programación para ser ejecutadas por una computadora.",
+      "Es una representación estructurada de órdenes que permiten realizar tareas o resolver problemas mediante software."
+    ]
+  },
+  {
+    "input": "que es un conjunto de instrucciones",
+    "output": [
+      "Son varias órdenes organizadas que, al ser ejecutadas, logran un objetivo o completan una tarea.",
+      "Es una secuencia de pasos que indica a una computadora cómo realizar una acción específica."
+    ]
+  },
+  {
+    "input": "que es una representacion estructurada",
+    "output": [
+      "Es una forma organizada de presentar información o datos siguiendo un esquema lógico.",
+      "Es un modelo o formato claro y ordenado que facilita la comprensión y ejecución de un proceso."
+    ]
+  },
+  {
+    "input": "que significa ser ejecutadas",
+    "output": [
+      "Es llevar a cabo las instrucciones de un código para que se realicen las acciones indicadas.",
+      "Es procesar las órdenes de un programa para generar resultados o realizar tareas."
+    ]
+  },
+  {
+    "input": "que son ordenes",
+    "output": [
+      "Son comandos específicos que indican a una computadora qué hacer y cómo hacerlo.",
+      "Son instrucciones puntuales que se deben seguir para completar un proceso."
+    ]
+  },
+  {
+    "input": "que significa realizar tareas mediante software",
+    "output": [
+      "Es usar programas o aplicaciones para ejecutar actividades o resolver problemas automáticamente.",
+      "Es emplear herramientas tecnológicas para llevar a cabo acciones específicas de manera eficiente."
+    ]
+  },
+  {
+    "input": "que es una computadora ejecutando codigo",
+    "output": [
+      "Es un dispositivo procesando instrucciones escritas en un lenguaje de programación.",
+      "Es el acto de interpretar y seguir las órdenes definidas en un código para realizar acciones."
+    ]
+  },
+  {
+    "input": "que significa procesar instrucciones",
+    "output": [
+      "Es interpretar y realizar las acciones indicadas por un conjunto de órdenes.",
+      "Es ejecutar pasos definidos en un código para producir resultados específicos."
+    ]
+  },
+  {
+    "input": "que es resolver problemas con codigo",
+    "output": [
+      "Es escribir y ejecutar instrucciones para encontrar soluciones a desafíos o necesidades.",
+      "Es usar lenguajes de programación para automatizar procesos o crear herramientas que simplifiquen tareas."
+    ]
+  },
+  {
+    "input": "que significa escribir un conjunto de ordenes",
+    "output": [
+      "Es redactar instrucciones en un lenguaje de programación para que una computadora las entienda.",
+      "Es diseñar una secuencia lógica de pasos para lograr un objetivo o realizar una tarea."
+    ]
+  },
+  {
+    "input": "que es un modelo ordenado",
+    "output": [
+      "Es una estructura organizada que facilita la comprensión y ejecución de un proceso.",
+      "Es un esquema lógico que define cómo deben realizarse tareas o procesarse datos."
+    ]
+  },
+  {
     "input": "que es un algoritmo",
     "output": [
       "es una secuencia de pasos definidos para resolver un problema",
       "es un conjunto de instrucciones que se ejecutan en orden para alcanzar un objetivo",
       "es una serie de pasos logicos que describen como resolver una tarea especifica"
+    ]
+  },
+  {
+    "input": "que significa un conjunto de pasos",
+    "output": [
+      "Son varias acciones organizadas en un orden lógico para lograr un resultado.",
+      "Es una serie de etapas que se deben seguir para completar una tarea o resolver un problema."
+    ]
+  },
+  {
+    "input": "que significa definido de manera logica",
+    "output": [
+      "Es estructurado de forma clara y coherente, siguiendo reglas o principios razonables.",
+      "Es diseñado para que cada paso tenga sentido y esté alineado con el objetivo final."
+    ]
+  },
+  {
+    "input": "que significa resolver un problema con un algoritmo",
+    "output": [
+      "Es usar una secuencia de pasos claros para encontrar una solución a una dificultad o necesidad.",
+      "Es aplicar un conjunto de instrucciones organizadas para superar un reto o cumplir un propósito."
+    ]
+  },
+  {
+    "input": "que significa una serie de pasos escritos",
+    "output": [
+      "Es una lista de acciones detalladas redactadas en un formato que puede ser entendido y seguido.",
+      "Es un grupo de instrucciones documentadas de manera clara y organizada."
+    ]
+  },
+  {
+    "input": "que significa interpretar un algoritmo",
+    "output": [
+      "Es analizar cada paso de un conjunto de instrucciones para ejecutarlo de manera adecuada.",
+      "Es convertir las acciones definidas en un algoritmo en operaciones que la computadora pueda realizar."
+    ]
+  },
+  {
+    "input": "que es ejecutar un algoritmo",
+    "output": [
+      "Es realizar los pasos definidos en un algoritmo para obtener un resultado.",
+      "Es seguir las instrucciones de un algoritmo para resolver un problema o completar una tarea."
     ]
   },
   {
@@ -693,6 +966,76 @@
     ]
   },
   {
+    "input": "que significa transformar un conjunto de instrucciones",
+    "output": [
+      "Es modificar las órdenes para adaptarlas a un formato o contexto específico.",
+      "Es convertir pasos definidos en una estructura que pueda ser procesada o ejecutada."
+    ]
+  },
+  {
+    "input": "que es un formato especifico",
+    "output": [
+      "Es una estructura definida que organiza información de manera que pueda ser interpretada correctamente.",
+      "Es una disposición estándar que asegura que los datos sean entendidos o utilizados adecuadamente."
+    ]
+  },
+  {
+    "input": "que es una estructura definida",
+    "output": [
+      "Es un esquema previamente diseñado que organiza elementos de manera coherente.",
+      "Es un marco lógico que establece cómo deben ordenarse las partes de un sistema o proceso."
+    ]
+  },
+  {
+    "input": "que significa modificar un algoritmo",
+    "output": [
+      "Es ajustar los pasos de un conjunto de instrucciones para adaptarlos a nuevas necesidades o mejorar su eficiencia.",
+      "Es cambiar la lógica o estructura de un algoritmo para optimizar su funcionamiento."
+    ]
+  },
+  {
+    "input": "que significa optimizar un algoritmo",
+    "output": [
+      "Es mejorar un conjunto de instrucciones para que sea más rápido o eficiente al resolver un problema.",
+      "Es reducir el tiempo o los recursos necesarios para ejecutar un algoritmo manteniendo su funcionalidad."
+    ]
+  },
+  {
+    "input": "que es la eficiencia en un algoritmo",
+    "output": [
+      "Es la capacidad de resolver un problema utilizando la menor cantidad posible de tiempo y recursos.",
+      "Es la medida de cuán bien un algoritmo realiza su tarea en comparación con otros métodos."
+    ]
+  },
+  {
+    "input": "que significa comparar metodos",
+    "output": [
+      "Es analizar diferentes técnicas o enfoques para identificar cuál es más adecuado o eficiente.",
+      "Es evaluar las ventajas y desventajas de distintos procesos para elegir el mejor."
+    ]
+  },
+  {
+    "input": "que significa elegir un metodo",
+    "output": [
+      "Es seleccionar la técnica más adecuada para resolver un problema o realizar una tarea específica.",
+      "Es tomar una decisión basada en la eficiencia y las características de cada opción disponible."
+    ]
+  },
+  {
+    "input": "que es una tecnica adecuada",
+    "output": [
+      "Es un enfoque o método que se ajusta de manera efectiva a las necesidades de una tarea o problema.",
+      "Es una estrategia que permite lograr un objetivo de forma precisa y eficiente."
+    ]
+  },
+  {
+    "input": "que es la logica en un algoritmo",
+    "output": [
+      "Es la base racional que organiza los pasos de un conjunto de instrucciones para garantizar que cumplan su propósito.",
+      "Es el razonamiento que guía la secuencia y estructura de las acciones dentro de un algoritmo."
+    ]
+  },
+  {
     "input": "puedes darme ejemplos de instrucciones secuenciales",
     "output": [
       "asignar un valor a una variable, mostrar un mensaje en pantalla y realizar una suma",
@@ -773,14 +1116,6 @@
     ]
   },
   {
-    "input": "que es un bucle do while",
-    "output": [
-      "es un bucle que garantiza que el bloque de codigo se ejecuta al menos una vez",
-      "se utiliza cuando el codigo debe ejecutarse al menos una vez antes de verificar la condicion",
-      "es una estructura que evalua la condicion al final del bloque de codigo"
-    ]
-  },
-  {
     "input": "puedes darme ejemplos de un bucle do while",
     "output": [
       "pedir al usuario un numero hasta que introduzca uno mayor a 10",
@@ -813,6 +1148,41 @@
     ]
   },
   {
+    "input": "que significa escribir instrucciones en un lenguaje de programacion",
+    "output": [
+      "Es redactar un conjunto de órdenes en un formato que la computadora pueda interpretar y ejecutar.",
+      "Es usar la sintaxis de un lenguaje de programación para definir cómo se deben realizar las acciones en un algoritmo."
+    ]
+  },
+  {
+    "input": "que es la sintaxis de un lenguaje de programacion",
+    "output": [
+      "Es el conjunto de reglas que dictan cómo deben escribirse las instrucciones para que sean comprendidas por una computadora.",
+      "Es la estructura y el orden en el que deben organizarse los comandos en un lenguaje de programación."
+    ]
+  },
+  {
+    "input": "que es un programa en un lenguaje de programacion",
+    "output": [
+      "Es un conjunto de instrucciones escritas en un lenguaje de programación para ejecutar una tarea específica.",
+      "Es un algoritmo codificado en un formato que una computadora puede procesar y ejecutar."
+    ]
+  },
+  {
+    "input": "que significa codificar un algoritmo",
+    "output": [
+      "Es traducir un conjunto de pasos lógicos de un algoritmo a un lenguaje de programación para que pueda ser ejecutado por una computadora.",
+      "Es escribir un algoritmo utilizando la sintaxis y reglas de un lenguaje de programación."
+    ]
+  },
+  {
+    "input": "que significa traducir un algoritmo",
+    "output": [
+      "Es convertir las instrucciones de un algoritmo a un formato que pueda ser interpretado por una computadora.",
+      "Es transformar un conjunto de pasos lógicos en código utilizando un lenguaje de programación."
+    ]
+  },
+  {
     "input": "cuales son los tipos de lenguajes de programacion",
     "output": [
       "los principales tipos son lenguajes de bajo nivel y de alto nivel",
@@ -829,7 +1199,7 @@
     ]
   },
   {
-    "input": "puedes darme ejemplos de lenguajes de bajo nivel",
+    "input": "dame ejemplos de lenguajes de bajo nivel",
     "output": [
       "ensamblador y lenguaje de maquina son ejemplos clasicos",
       "los microcontroladores a menudo usan lenguaje ensamblador",
@@ -845,7 +1215,7 @@
     ]
   },
   {
-    "input": "puedes darme ejemplos de lenguajes de alto nivel",
+    "input": "dame ejemplos de lenguajes de alto nivel",
     "output": [
       "python, java, c++, y javascript son ejemplos de lenguajes de alto nivel",
       "lenguajes como ruby, php y swift son tambien de alto nivel",
@@ -1571,14 +1941,6 @@
     ]
   },
   {
-    "input": "que diferencias hay entre mysql y postgresql",
-    "output": [
-      "mysql es mas sencillo y facil de configurar, mientras que postgresql es mas avanzado",
-      "postgresql ofrece mas funcionalidades como soporte para json y transacciones complejas",
-      "mysql es ideal para proyectos pequeños y postgresql para aplicaciones empresariales"
-    ]
-  },
-  {
     "input": "que es sql server",
     "output": [
       "es un sistema de gestion de bases de datos relacional desarrollado por microsoft",
@@ -1624,192 +1986,6 @@
       "mongodb almacena documentos json, mientras que redis usa un modelo clave-valor",
       "redis es mas rapido pero mongodb es mas flexible para datos complejos",
       "redis es ideal para cache y mongodb para datos no estructurados"
-    ]
-  },
-  {
-    "input": "que es una transaccion en bases de datos",
-    "output": [
-      "es una secuencia de operaciones que se ejecutan como una sola unidad logica",
-      "asegura propiedades como atomicidad, consistencia, aislamiento y durabilidad (acid)",
-      "es comun en bases de datos relacionales"
-    ]
-  },
-  {
-    "input": "que son las propiedades acid",
-    "output": [
-      "son propiedades que garantizan la fiabilidad de las transacciones en bases de datos",
-      "incluyen atomicidad, consistencia, aislamiento y durabilidad",
-      "aseguran que las operaciones sean seguras incluso ante fallos"
-    ]
-  },
-  {
-    "input": "que es una base de datos distribuida",
-    "output": [
-      "es una base de datos cuyos datos estan repartidos en multiples ubicaciones fisicas",
-      "permite manejar grandes volumenes de datos y mejorar la disponibilidad",
-      "es comun en sistemas modernos como cassandra y mongodb"
-    ]
-  },
-  {
-    "input": "que es un indice en una base de datos",
-    "output": [
-      "es una estructura que mejora la velocidad de las consultas en una base de datos",
-      "se crea sobre columnas especificas para facilitar las busquedas",
-      "es similar a un indice en un libro, donde puedes encontrar informacion rapidamente"
-    ]
-  },
-  {
-    "input": "que es un backup en bases de datos",
-    "output": [
-      "es una copia de seguridad de los datos almacenados en una base de datos",
-      "se utiliza para restaurar informacion en caso de perdida o fallos",
-      "es esencial para garantizar la seguridad de los datos"
-    ]
-  },
-  {
-    "input": "cuales son las ventajas de una base de datos relacional",
-    "output": [
-      "son muy eficientes para manejar datos estructurados con relaciones entre ellos",
-      "ofrecen integridad referencial a traves de claves primarias y foraneas",
-      "son ideales para transacciones que requieren consistencia y fiabilidad",
-      "se usan ampliamente en sistemas financieros y aplicaciones empresariales"
-    ]
-  },
-  {
-    "input": "cuales son las desventajas de una base de datos relacional",
-    "output": [
-      "no son tan eficientes para manejar grandes volúmenes de datos no estructurados",
-      "pueden ser lentas al escalar horizontalmente en grandes sistemas distribuidos",
-      "requieren un esquema rígido que dificulta la flexibilidad"
-    ]
-  },
-  {
-    "input": "que es una clave primaria",
-    "output": [
-      "es un campo en una tabla que identifica de manera unica cada registro",
-      "ningun otro registro puede tener el mismo valor en la clave primaria",
-      "es fundamental para mantener la integridad de los datos en una base de datos relacional"
-    ]
-  },
-  {
-    "input": "que es una clave foranea",
-    "output": [
-      "es un campo en una tabla que hace referencia a la clave primaria de otra tabla",
-      "se usa para establecer relaciones entre tablas",
-      "garantiza la integridad referencial en la base de datos"
-    ]
-  },
-  {
-    "input": "cuando debo usar una base de datos relacional",
-    "output": [
-      "cuando los datos estan altamente estructurados y tienen relaciones claras entre si",
-      "cuando se necesita garantizar la integridad de los datos mediante transacciones",
-      "en aplicaciones que requieren alta consistencia y disponibilidad, como sistemas bancarios"
-    ]
-  },
-  {
-    "input": "cuales son las ventajas de una base de datos no relacional",
-    "output": [
-      "son muy buenas para manejar grandes volúmenes de datos no estructurados o semi-estructurados",
-      "ofrecen flexibilidad en la estructura de datos, permitiendo cambios dinámicos",
-      "son fácilmente escalables horizontalmente, lo que las hace ideales para aplicaciones distribuidas",
-      "son ideales para aplicaciones web modernas, big data y sistemas en tiempo real"
-    ]
-  },
-  {
-    "input": "cuales son las desventajas de una base de datos no relacional",
-    "output": [
-      "no tienen la misma consistencia que las bases de datos relacionales en todas las operaciones",
-      "no ofrecen soporte para transacciones ACID en todos los casos",
-      "pueden ser más complejas de gestionar a medida que crecen"
-    ]
-  },
-  {
-    "input": "que es un documento en una base de datos no relacional",
-    "output": [
-      "es una estructura de datos que almacena informacion en formato JSON o BSON",
-      "es más flexible que las filas de una tabla en bases de datos relacionales",
-      "cada documento puede tener diferentes campos, lo que permite mayor dinamismo"
-    ]
-  },
-  {
-    "input": "cuando debo usar una base de datos no relacional",
-    "output": [
-      "cuando se necesita manejar datos no estructurados, como imágenes, logs o contenido en texto libre",
-      "cuando se requiere escalabilidad horizontal y alto rendimiento para aplicaciones en tiempo real",
-      "cuando se busca flexibilidad en el esquema y no se requiere una estructura rígida"
-    ]
-  },
-  {
-    "input": "que es un modelo de datos clave-valor",
-    "output": [
-      "es un modelo donde cada elemento de la base de datos se almacena como un par clave-valor",
-      "es usado en bases de datos como redis, ideal para almacenamiento en cache o sesiones",
-      "es extremadamente rápido para operaciones de lectura y escritura"
-    ]
-  },
-  {
-    "input": "que es un bus en una computadora",
-    "output": [
-      "es un sistema de comunicación que permite el intercambio de datos entre los componentes de la computadora, como la CPU, la memoria y el almacenamiento",
-      "el bus transporta señales digitales que permiten que los diferentes componentes de la computadora se conecten entre sí",
-      "hay diferentes tipos de buses, como el bus de datos, el bus de direcciones y el bus de control"
-    ]
-  },
-  {
-    "input": "que es una tarjeta grafica",
-    "output": [
-      "es un componente de hardware que se encarga de generar y procesar los gráficos que se muestran en el monitor",
-      "tiene su propio procesador, llamado GPU (unidad de procesamiento gráfico), que permite realizar cálculos intensivos relacionados con los gráficos",
-      "es fundamental para tareas que requieren un alto rendimiento visual, como los videojuegos o la edición de video"
-    ]
-  },
-  {
-    "input": "que es un procesador",
-    "output": [
-      "es un chip que ejecuta las instrucciones de los programas en la computadora",
-      "es el componente que realiza los cálculos y operaciones lógicas, controlando el flujo de datos a través de los otros componentes",
-      "el rendimiento de una computadora depende en gran medida de la velocidad y arquitectura de su procesador"
-    ]
-  },
-  {
-    "input": "que es un sistema de archivos",
-    "output": [
-      "es una estructura que organiza y gestiona los archivos en el almacenamiento de la computadora",
-      "permite almacenar, recuperar y organizar datos de manera eficiente, asegurando que los archivos se puedan acceder cuando se necesiten",
-      "hay diferentes tipos de sistemas de archivos, como NTFS en Windows y EXT4 en Linux"
-    ]
-  },
-  {
-    "input": "que es la arquitectura de una computadora",
-    "output": [
-      "es el diseño y la estructura interna de la computadora, que determina cómo interactúan sus componentes",
-      "la arquitectura de la computadora incluye la CPU, la memoria, los buses, el sistema de almacenamiento y otros componentes clave",
-      "también se refiere a la manera en que los programas interactúan con estos componentes"
-    ]
-  },
-  {
-    "input": "que es la nube",
-    "output": [
-      "es un servicio que permite almacenar datos y ejecutar aplicaciones a través de Internet, sin necesidad de mantener una infraestructura local",
-      "la nube utiliza servidores remotos en centros de datos que ofrecen almacenamiento y procesamiento de datos",
-      "es utilizada para hacer accesibles los datos desde cualquier lugar y en cualquier dispositivo con acceso a Internet"
-    ]
-  },
-  {
-    "input": "que es el hardware",
-    "output": [
-      "es la parte física de la computadora, es decir, todos los componentes electrónicos y mecánicos que permiten su funcionamiento",
-      "incluye la CPU, la memoria, los dispositivos de almacenamiento, la tarjeta gráfica, entre otros",
-      "es el conjunto de elementos que realiza el procesamiento de los datos y permite que interactuemos con la computadora"
-    ]
-  },
-  {
-    "input": "que es la computacion en la nube",
-    "output": [
-      "es un modelo de entrega de servicios informáticos a través de Internet, donde los recursos como almacenamiento, servidores y bases de datos están disponibles de manera remota",
-      "permite acceder a recursos de computación sin necesidad de mantener infraestructura física local, pagando solo por lo que se usa",
-      "es una tecnología que permite almacenar datos y ejecutar aplicaciones en servidores remotos en lugar de en tu propia computadora"
     ]
   },
   {
@@ -1986,38 +2162,6 @@
       "la recursión es una técnica en programación en la que una función se llama a sí misma para resolver un problema",
       "generalmente, la recursión se utiliza para resolver problemas que se pueden dividir en subproblemas más pequeños, como en el caso de los árboles o la búsqueda binaria",
       "es importante que una función recursiva tenga una condición base que detenga la llamada recursiva"
-    ]
-  },
-  {
-    "input": "que es un error de sintaxis",
-    "output": [
-      "un error de sintaxis es un tipo de error que ocurre cuando el código no sigue las reglas gramaticales del lenguaje de programación",
-      "esto puede incluir olvidarse de cerrar un paréntesis, escribir mal una palabra clave o usar un símbolo incorrecto",
-      "los errores de sintaxis suelen ser fáciles de detectar porque los compiladores o intérpretes generalmente indican exactamente dónde está el problema"
-    ]
-  },
-  {
-    "input": "que es un error logico",
-    "output": [
-      "un error lógico es un tipo de error en el que el código se ejecuta sin fallos, pero no produce el resultado esperado",
-      "esto puede ocurrir si hay un error en la lógica del programa, como usar una condición incorrecta o realizar un cálculo erróneo",
-      "los errores lógicos son más difíciles de detectar porque el programa no se detiene, pero el resultado no es el esperado"
-    ]
-  },
-  {
-    "input": "que es un puntero",
-    "output": [
-      "un puntero es una variable que almacena la dirección de memoria de otra variable en lugar de su valor",
-      "los punteros son comúnmente utilizados en lenguajes como C y C++ para manejar de manera eficiente la memoria y trabajar con estructuras de datos complejas",
-      "con punteros, puedes modificar directamente el valor de una variable desde otra ubicación en la memoria"
-    ]
-  },
-  {
-    "input": "que es la gestion de memoria",
-    "output": [
-      "la gestión de memoria es el proceso mediante el cual un programa controla cómo se reserva, utiliza y libera la memoria de la computadora",
-      "esto incluye la asignación de memoria para variables, estructuras de datos y objetos, así como la liberación de memoria cuando ya no se necesita",
-      "lenguajes como C y C++ requieren que los programadores gestionen la memoria manualmente, mientras que otros lenguajes como Java o Python lo hacen automáticamente"
     ]
   }
 ]
