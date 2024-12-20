@@ -1,0 +1,5146 @@
+[
+  {
+    "input": "hola",
+    "output": [
+      "hola como estas",
+      "hola que tal",
+      "buenos dias como estas"
+    ]
+  },
+  {
+    "input": "bien",
+    "output": [
+      "me alegra saberlo, dime en que puedo ayudarte, estoy entrenado para temas de programacion, algo interesante, un chiste, motivarte o inspirarte ",
+      "que alegria, puedo ayudarte en distintos temas, estoy entrenado para temas de programacion, algo interesante, un chiste, motivarte o inspirarte",
+      "me alegra escuchar eso, puedo ayudarte sobre temas como IA, servidores, programacion"
+    ]
+  },
+  {
+    "input": "buenas",
+    "output": [
+      "hola como estas",
+      "hola que tal",
+      "buenos dias como estas"
+    ]
+  },
+  {
+    "input": "hey",
+    "output": [
+      "hola como estas",
+      "hola que tal",
+      "buenos dias como estas"
+    ]
+  },
+  {
+    "input": "como estas",
+    "output": [
+      "estoy bien gracias por preguntar",
+      "todo bien, y tu?"
+    ]
+  },
+  {
+    "input": "todo bien",
+    "output": [
+      "estoy bien gracias por preguntar",
+      "todo bien, y tu?",
+      "me alegra escuchar eso"
+    ]
+  },
+  {
+    "input": "adios",
+    "output": [
+      "adios cuidate",
+      "hasta luego",
+      "nos vemos"
+    ]
+  },
+  {
+    "input": "nos vemos",
+    "output": [
+      "adios cuidate",
+      "hasta luego",
+      "nos vemos"
+    ]
+  },
+  {
+    "input": "buenos dias",
+    "output": [
+      "buenos dias espero que tengas un excelente dia",
+      "hola como estas en este dia"
+    ]
+  },
+  {
+    "input": "buenas tardes",
+    "output": [
+      "buenas tardes en que puedo ayudarte",
+      "que tal tu tarde, como puedo ayudarte?"
+    ]
+  },
+  {
+    "input": "buenas noches",
+    "output": [
+      "buenas noches que descanses",
+      "dulces sueños, hasta mañana"
+    ]
+  },
+  {
+    "input": "como te llamas",
+    "output": [
+      "soy un asistente virtual pero puedes llamarme bot",
+      "me llamo bot, tu asistente"
+    ]
+  },
+  {
+    "input": "tienes algun nombre",
+    "output": [
+      "soy un asistente virtual pero puedes llamarme bot",
+      "me llamo bot, tu asistente"
+    ]
+  },
+  {
+    "input": "quien eres",
+    "output": [
+      "soy un asistente virtual pero puedes llamarme bot",
+      "me llamo bot, tu asistente"
+    ]
+  },
+  {
+    "input": "que puedes hacer",
+    "output": [
+      "puedo responder preguntas, darte informacion y ayudarte en lo que necesites, estoy entrenado para temas de programacion, algo interesante, un chiste, motivarte o inspirarte",
+      "estoy aqui para resolver tus dudas y ayudarte en lo que necesites, estoy entrenado para temas de programacion, algo interesante, un chiste, motivarte o inspirarte",
+      "puedo ayudarte en temas de IA, programacion, puedo ayudarte sobre temas como IA, servidores, programacion, motivarte o inspirarte"
+    ]
+  },
+  {
+    "input": "gracias",
+    "output": [
+      "de nada siempre aqui para ayudarte",
+      "no hay de que",
+      "aqui estoy para lo que necesites"
+    ]
+  },
+  {
+    "input": "perdon",
+    "output": [
+      "no te preocupes todo esta bien",
+      "no hay problema, como puedo ayudarte?"
+    ]
+  },
+  {
+    "input": "lo siento",
+    "output": [
+      "no pasa nada, como puedo ayudarte?",
+      "no te preocupes, estoy aqui para ayudarte"
+    ]
+  },
+  {
+    "input": "que hora es",
+    "output": [
+      "lo siento no puedo dar la hora exacta pero puedo ayudarte con otras cosas",
+      "no tengo un reloj, pero puedo ayudarte con otra cosa"
+    ]
+  },
+  {
+    "input": "dime la hora",
+    "output": [
+      "lo siento no puedo dar la hora exacta pero puedo ayudarte con otras cosas",
+      "no tengo un reloj, pero puedo ayudarte con otra cosa"
+    ]
+  },
+  {
+    "input": "que dia es hoy",
+    "output": [
+      "hoy es un gran dia, como puedo ayudarte?",
+      "hoy es un dia perfecto para aprender algo nuevo"
+    ]
+  },
+  {
+    "input": "ayuda",
+    "output": [
+      "por supuesto dime que necesitas y vere como ayudarte, estoy entrenado para temas de programacion, algo interesante, un chiste, motivarte o inspirarte",
+      "estoy aqui para lo que necesites, dime como puedo ayudarte, estoy entrenado para temas de programacion, algo interesante, un chiste, motivarte o inspirarte",
+      "puedo ayudarte en temas de IA, programacion, algo curioso, chistes, motivarte o inspirarte",
+      "puedo ayudarte en temas de IA, programacion y ciencia",
+      "puedo ayudarte sobre temas como IA, servidores, programacion, motivarte o inspirarte",
+      "puedo ayudarte sobre temas como IA, bucles, devops, programacion, motivarte o inspirarte"
+    ]
+  },
+  {
+    "input": "estoy triste",
+    "output": [
+      "lo siento mucho si necesitas hablar o apoyo estoy aqui",
+      "te entiendo, no estas solo, cuentame mas"
+    ]
+  },
+  {
+    "input": "estoy feliz",
+    "output": [
+      "que alegria escuchar eso, me hace feliz saber que estas bien",
+      "eso es genial, me encanta saberlo!"
+    ]
+  },
+  {
+    "input": "cuentame un chiste",
+    "output": [
+      "por que los pajaros no usan facebook porque ya tienen twitter",
+      "que hace una abeja en el gimnasio zumba"
+    ]
+  },
+  {
+    "input": "que son los pajaros",
+    "output": [
+      "los pajaros son animales voladores que tienen plumas y pico",
+      "los pajaros son animales que vuelan y tienen plumas"
+    ]
+  },
+  {
+    "input": "que es un pajaro",
+    "output": [
+      "un pajaro es un animal volador que tiene plumas y pico",
+      "un pajaro es un animal que vuela y tienen pluma"
+    ]
+  },
+  {
+    "input": "que es facebook",
+    "output": [
+      "facebook es una red social donde las personas pueden compartir contenido interactuar y conectar"
+    ]
+  },
+  {
+    "input": "que es una red social",
+    "output": [
+      "una red social es una plataforma digital donde las personas pueden interactuar compartir ideas contenido y comunicarse entre si"
+    ]
+  },
+  {
+    "input": "que son las redes sociales",
+    "output": [
+      "las redes sociales son plataformas digitales que permiten a los usuarios conectarse compartir contenido y comunicarse entre ellos"
+    ]
+  },
+  {
+    "input": "que son las personas",
+    "output": [
+      "las personas son seres humanos que poseen capacidades de pensamiento razonamiento y comunicacion"
+    ]
+  },
+  {
+    "input": "que significa compartir",
+    "output": [
+      "compartir significa poner algo a disposicion de otros para que lo usen o disfruten en conjunto"
+    ]
+  },
+  {
+    "input": "que es conectar",
+    "output": [
+      "conectar es establecer una relacion o vinculo entre dos o mas elementos"
+    ]
+  },
+  {
+    "input": "que significa conectar",
+    "output": [
+      "conectar significa unir o enlazar cosas personas o ideas para que interactuen o trabajen en conjunto"
+    ]
+  },
+  {
+    "input": "que es twitter",
+    "output": [
+      "twitter es una plataforma donde los usuarios pueden publicar mensajes cortos llamados tweets"
+    ]
+  },
+  {
+    "input": "por que los pajaros no usan facebook",
+    "output": [
+      "porque ya tienen twitter"
+    ]
+  },
+  {
+    "input": "que hace una abeja en el gimnasio",
+    "output": [
+      "zumba"
+    ]
+  },
+  {
+    "input": "que es la zumba",
+    "output": [
+      "la zumba es una actividad fisica que combina baile y ejercicio al ritmo de musica latina"
+    ]
+  },
+  {
+    "input": "dime otro dato curioso",
+    "output": [
+      "sabias que los pulpos tienen tres corazones y su sangre es azul?",
+      "sabias que la miel nunca se echa a perder?"
+    ]
+  },
+  {
+    "input": "dime otra cosa interesante",
+    "output": [
+      "sabias que los pulpos tienen tres corazones y su sangre es azul?",
+      "sabias que la miel nunca se echa a perder?"
+    ]
+  },
+  {
+    "input": "que son las abejas",
+    "output": [
+      "las abejas son insectos polinizadores que juegan un papel crucial en el ecosistema y producen miel"
+    ]
+  },
+  {
+    "input": "que es un pajaro",
+    "output": [
+      "un pajaro es un animal vertebrado con plumas alas y generalmente la capacidad de volar"
+    ]
+  },
+  {
+    "input": "que son los animales vertebrados",
+    "output": [
+      "los animales vertebrados son aquellos que poseen columna vertebral y un esqueleto interno articulado"
+    ]
+  },
+  {
+    "input": "que son las plumas",
+    "output": [
+      "las plumas son estructuras que recubren el cuerpo de las aves y cumplen funciones como la proteccion y el vuelo"
+    ]
+  },
+  {
+    "input": "que son las alas",
+    "output": [
+      "las alas son extremidades de las aves adaptadas para el vuelo aunque no todas las aves pueden volar"
+    ]
+  },
+  {
+    "input": "que es volar",
+    "output": [
+      "volar es el acto de desplazarse por el aire utilizando alas o mecanismos similares"
+    ]
+  },
+  {
+    "input": "que tipos de pajaros existen",
+    "output": [
+      "existen muchos tipos de pajaros como las aves canoras las rapaces los acuaticos y los terrestres"
+    ]
+  },
+  {
+    "input": "que comen los pajaros",
+    "output": [
+      "los pajaros pueden comer semillas insectos frutas o pequeños animales dependiendo de la especie"
+    ]
+  },
+  {
+    "input": "donde viven los pajaros",
+    "output": [
+      "los pajaros viven en diversos habitats como bosques selvas desiertos humedales y zonas urbanas"
+    ]
+  },
+  {
+    "input": "que pajaros no pueden volar",
+    "output": [
+      "algunos pajaros que no pueden volar son el avestruz el pinguino y el kiwi"
+    ]
+  },
+  {
+    "input": "que importancia tienen los pajaros",
+    "output": [
+      "los pajaros son importantes para el ecosistema porque ayudan a polinizar dispersar semillas y controlar poblaciones de insectos"
+    ]
+  },
+  {
+    "input": "como se reproducen los pajaros",
+    "output": [
+      "los pajaros se reproducen mediante huevos que incuban hasta que las crias nacen"
+    ]
+  },
+  {
+    "input": "por que las abejas van al gimnasio",
+    "output": [
+      "porque les gusta mantenerse activas mientras zumba"
+    ]
+  },
+  {
+    "input": "que hacen los pajaros en redes sociales",
+    "output": [
+      "en este contexto los pajaros usan twitter como parte del chiste"
+    ]
+  },
+  {
+    "input": "que es un gimnasio",
+    "output": [
+      "un gimnasio es un lugar donde las personas van a ejercitarse y mejorar su condicion fisica"
+    ]
+  },
+  {
+    "input": "que es el nlp",
+    "output": [
+      "nlp significa procesamiento de lenguaje natural, una rama de la inteligencia artificial que se centra en la interaccion entre computadoras y humanos usando lenguaje natural",
+      "nlp se trata de enseñar a las maquinas a entender y responder en nuestro idioma"
+    ]
+  },
+  {
+    "input": "dime algo interesante",
+    "output": [
+      "sabias que los pulpos tienen tres corazones y su sangre es azul?",
+      "sabias que la miel nunca se echa a perder?"
+    ]
+  },
+  {
+    "input": "dime un dato curioso",
+    "output": [
+      "sabias que los pulpos tienen tres corazones y su sangre es azul?",
+      "sabias que la miel nunca se echa a perder?"
+    ]
+  },
+  {
+    "input": "por que los pulpos tienen tres corazones",
+    "output": [
+      "los pulpos tienen tres corazones porque uno bombea sangre al resto del cuerpo y los otros dos la envian a las branquias para oxigenarla"
+    ]
+  },
+  {
+    "input": "por que la sangre de los pulpos es azul",
+    "output": [
+      "la sangre de los pulpos es azul porque contiene hemocianina en lugar de hemoglobina lo que les ayuda a transportar oxigeno en ambientes de baja temperatura y poco oxigeno"
+    ]
+  },
+  {
+    "input": "que otros animales tienen sangre azul",
+    "output": [
+      "otros animales con sangre azul son los cangrejos herradura los calamares y algunos moluscos"
+    ]
+  },
+  {
+    "input": "que mas hace interesante a los pulpos",
+    "output": [
+      "los pulpos son animales extremadamente inteligentes tienen la capacidad de resolver problemas usar herramientas y camuflarse de manera impresionante"
+    ]
+  },
+  {
+    "input": "por que la miel nunca se echa a perder",
+    "output": [
+      "la miel nunca se echa a perder debido a su bajo contenido de agua su acidez y la presencia de peroxido de hidrogeno que evita el crecimiento de bacterias y hongos"
+    ]
+  },
+  {
+    "input": "que otros alimentos nunca se echan a perder",
+    "output": [
+      "otros alimentos que casi nunca se echan a perder incluyen la sal el azucar y el arroz si se almacenan correctamente"
+    ]
+  },
+  {
+    "input": "como producen miel las abejas",
+    "output": [
+      "las abejas producen miel transformando el nectar de las flores mediante un proceso enzimatico y almacenandolo en panales"
+    ]
+  },
+  {
+    "input": "que propiedades tiene la miel",
+    "output": [
+      "la miel tiene propiedades antibacterianas antioxidantes y energizantes ademas de ser un endulzante natural"
+    ]
+  },
+  {
+    "input": "que animales producen miel",
+    "output": [
+      "ademas de las abejas otros animales como ciertas especies de hormigas y avispas tambien producen miel en menor cantidad"
+    ]
+  },
+  {
+    "input": "que tipos de pulpos existen",
+    "output": [
+      "existen muchos tipos de pulpos como el pulpo comun el pulpo gigante del pacifico y el pulpo de anillos azules conocido por ser muy venenoso"
+    ]
+  },
+  {
+    "input": "que comen los pulpos",
+    "output": [
+      "los pulpos comen crustaceos moluscos y peces pequenos cazandolos con sus tentaculos y su pico afilado"
+    ]
+  },
+  {
+    "input": "donde viven los pulpos",
+    "output": [
+      "los pulpos viven en aguas tropicales y templadas alrededor del mundo desde arrecifes de coral hasta fondos marinos"
+    ]
+  },
+  {
+    "input": "que importancia tienen los pulpos",
+    "output": [
+      "los pulpos son importantes para el ecosistema marino ya que controlan las poblaciones de sus presas y son presa de otros depredadores"
+    ]
+  },
+  {
+    "input": "como se reproducen los pulpos",
+    "output": [
+      "los pulpos se reproducen mediante fecundacion interna el macho transfiere un espermatoforo a la hembra que lo almacena hasta que pone los huevos"
+    ]
+  },
+  {
+    "input": "dime algo motivador",
+    "output": [
+      "nunca es tarde para perseguir tus sueños y lograr tus metas",
+      "los pequeños pasos te llevan a grandes logros"
+    ]
+  },
+  {
+    "input": "que significa nunca es tarde",
+    "output": [
+      "significa que siempre hay tiempo para comenzar algo nuevo y perseguir tus sueños sin importar la edad o las circunstancias"
+    ]
+  },
+  {
+    "input": "que son los sueños",
+    "output": [
+      "los sueños son aspiraciones o metas que las personas desean alcanzar en su vida"
+    ]
+  },
+  {
+    "input": "como puedo perseguir mis sueños",
+    "output": [
+      "puedes perseguir tus sueños estableciendo metas claras trabajando constantemente y manteniendote enfocado en lo que deseas lograr"
+    ]
+  },
+  {
+    "input": "que significa lograr tus metas",
+    "output": [
+      "lograr tus metas significa alcanzar los objetivos que te has propuesto con esfuerzo dedicacion y perseverancia"
+    ]
+  },
+  {
+    "input": "que significa los pequeños pasos te llevan a grandes logros",
+    "output": [
+      "significa que incluso las acciones pequeñas y consistentes pueden llevarte a alcanzar grandes metas a largo plazo"
+    ]
+  },
+  {
+    "input": "que son los grandes logros",
+    "output": [
+      "los grandes logros son resultados significativos que se obtienen despues de mucho esfuerzo y dedicacion"
+    ]
+  },
+  {
+    "input": "como puedo lograr grandes cosas",
+    "output": [
+      "puedes lograr grandes cosas trabajando con constancia manteniendo una actitud positiva y aprendiendo de los desafios"
+    ]
+  },
+  {
+    "input": "por que es importante ser perseverante",
+    "output": [
+      "ser perseverante es importante porque te permite superar obstaculos y mantenerte en el camino hacia tus metas"
+    ]
+  },
+  {
+    "input": "como mantenerse motivado",
+    "output": [
+      "puedes mantenerte motivado recordando tus metas celebrando pequeños avances y rodeandote de personas que te apoyen"
+    ]
+  },
+  {
+    "input": "que significa perseguir tus sueños",
+    "output": [
+      "perseguir tus sueños significa trabajar constantemente hacia aquello que deseas lograr en la vida"
+    ]
+  },
+  {
+    "input": "holaaa",
+    "output": [
+      "hola como estas",
+      "hola que tal",
+      "buenos dias como estas"
+    ]
+  },
+  {
+    "input": "que onda",
+    "output": [
+      "hola como estas",
+      "hola que tal",
+      "buenos dias como estas"
+    ]
+  },
+  {
+    "input": "buenas noches a todos",
+    "output": [
+      "buenas noches que descanses",
+      "dulces sueños, hasta mañana"
+    ]
+  },
+  {
+    "input": "como va todo",
+    "output": [
+      "estoy bien gracias por preguntar",
+      "todo bien, y tu?"
+    ]
+  },
+  {
+    "input": "que tal estas",
+    "output": [
+      "estoy bien gracias por preguntar",
+      "todo bien, y tu?"
+    ]
+  },
+  {
+    "input": "todo en orden",
+    "output": [
+      "estoy bien gracias por preguntar",
+      "todo bien, y tu?"
+    ]
+  },
+  {
+    "input": "hasta luego",
+    "output": [
+      "adios cuidate",
+      "hasta luego",
+      "nos vemos"
+    ]
+  },
+  {
+    "input": "nos vemos luego",
+    "output": [
+      "adios cuidate",
+      "hasta luego",
+      "nos vemos"
+    ]
+  },
+  {
+    "input": "hasta pronto",
+    "output": [
+      "adios cuidate",
+      "hasta luego",
+      "nos vemos"
+    ]
+  },
+  {
+    "input": "que tengas un buen dia",
+    "output": [
+      "adios cuidate",
+      "hasta luego",
+      "nos vemos"
+    ]
+  },
+  {
+    "input": "muy buenas",
+    "output": [
+      "hola como estas",
+      "hola que tal",
+      "buenos dias como estas"
+    ]
+  },
+  {
+    "input": "gracias mil",
+    "output": [
+      "de nada siempre aqui para ayudarte",
+      "no hay de que",
+      "aqui estoy para lo que necesites"
+    ]
+  },
+  {
+    "input": "muchisimas gracias",
+    "output": [
+      "de nada siempre aqui para ayudarte",
+      "no hay de que",
+      "aqui estoy para lo que necesites"
+    ]
+  },
+  {
+    "input": "te agradezco mucho",
+    "output": [
+      "de nada siempre aqui para ayudarte",
+      "no hay de que",
+      "aqui estoy para lo que necesites"
+    ]
+  },
+  {
+    "input": "lo lamento",
+    "output": [
+      "no pasa nada, como puedo ayudarte?",
+      "no te preocupes, estoy aqui para ayudarte"
+    ]
+  },
+  {
+    "input": "que mal",
+    "output": [
+      "lo siento mucho si necesitas hablar o apoyo estoy aqui",
+      "te entiendo, no estas solo, quieres que te diga algo motivador?"
+    ]
+  },
+  {
+    "input": "estoy decaido",
+    "output": [
+      "lo siento mucho si necesitas hablar o apoyo estoy aqui",
+      "te entiendo, no estas solo, quieres que te diga algo motivador?"
+    ]
+  },
+  {
+    "input": "me siento bien",
+    "output": [
+      "que alegria escuchar eso, me hace feliz saber que estas bien",
+      "eso es genial, me encanta saberlo!"
+    ]
+  },
+  {
+    "input": "estoy animado",
+    "output": [
+      "que alegria escuchar eso, me hace feliz saber que estas bien",
+      "eso es genial, me encanta saberlo!"
+    ]
+  },
+  {
+    "input": "estoy de maravilla",
+    "output": [
+      "que alegria escuchar eso, me hace feliz saber que estas bien",
+      "eso es genial, me encanta saberlo!"
+    ]
+  },
+  {
+    "input": "me siento optimista",
+    "output": [
+      "que alegria escuchar eso, me hace feliz saber que estas bien",
+      "eso es genial, me encanta saberlo!"
+    ]
+  },
+  {
+    "input": "que hora tienes",
+    "output": [
+      "lo siento no puedo dar la hora exacta pero puedo ayudarte con otras cosas",
+      "no tengo un reloj, pero puedo ayudarte con otra cosa"
+    ]
+  },
+  {
+    "input": "cual es la hora",
+    "output": [
+      "lo siento no puedo dar la hora exacta pero puedo ayudarte con otras cosas",
+      "no tengo un reloj, pero puedo ayudarte con otra cosa"
+    ]
+  },
+  {
+    "input": "que dia tenemos",
+    "output": [
+      "hoy es un gran dia, como puedo ayudarte?",
+      "hoy es un dia perfecto para aprender algo nuevo"
+    ]
+  },
+  {
+    "input": "que dia es",
+    "output": [
+      "hoy es un gran dia, como puedo ayudarte?",
+      "hoy es un dia perfecto para aprender algo nuevo"
+    ]
+  },
+  {
+    "input": "estas disponible",
+    "output": [
+      "claro que si estoy aqui para ayudarte",
+      "estoy disponible, dime en qué puedo ayudarte"
+    ]
+  },
+  {
+    "input": "sigues disponible",
+    "output": [
+      "claro que si estoy aqui para ayudarte",
+      "estoy disponible, dime en qué puedo ayudarte"
+    ]
+  },
+  {
+    "input": "me puedes ayudar",
+    "output": [
+      "por supuesto dime que necesitas y vere como ayudarte",
+      "estoy aqui para lo que necesites, dime como puedo ayudarte"
+    ]
+  },
+  {
+    "input": "me ayudas",
+    "output": [
+      "por supuesto dime que necesitas y vere como ayudarte",
+      "estoy aqui para lo que necesites, dime como puedo ayudarte"
+    ]
+  },
+  {
+    "input": "ayudame",
+    "output": [
+      "por supuesto dime que necesitas y vere como ayudarte, estoy entrenado para temas de programacion, algo interesante, un chiste, motivarte o inspirarte",
+      "estoy aqui para lo que necesites, dime como puedo ayudarte, estoy entrenado para temas de programacion, algo interesante, un chiste, motivarte o inspirarte",
+      "puedo ayudarte en temas de IA, programacion, algo curioso, chistes, motivarte o inspirarte",
+      "puedo ayudarte en temas de IA, programacion y ciencia"
+    ]
+  },
+  {
+    "input": "cuanto es uno mas uno",
+    "output": [
+      "1 mas 1 es igual a 2",
+      "la respuesta es 2"
+    ]
+  },
+  {
+    "input": "que es inteligencia artificial",
+    "output": [
+      "la inteligencia artificial es un campo que busca crear sistemas inteligentes",
+      "es la capacidad de una maquina para imitar procesos humanos como aprender y razonar"
+    ]
+  },
+  {
+    "input": "que es un sistema inteligente",
+    "output": [
+      "un sistema inteligente es aquel que puede tomar decisiones autonomas basadas en informacion y analisis"
+    ]
+  },
+  {
+    "input": "que significa aprender en inteligencia artificial",
+    "output": [
+      "en inteligencia artificial aprender significa que una maquina mejora su desempeño con base en datos y experiencias pasadas"
+    ]
+  },
+  {
+    "input": "que significa razonar en inteligencia artificial",
+    "output": [
+      "razonar en inteligencia artificial significa usar logica para resolver problemas y tomar decisiones"
+    ]
+  },
+  {
+    "input": "que tipos de inteligencia artificial existen",
+    "output": [
+      "existen tres tipos principales de inteligencia artificial inteligencia artificial estrecha general y superinteligencia"
+    ]
+  },
+  {
+    "input": "que es inteligencia artificial estrecha",
+    "output": [
+      "la inteligencia artificial estrecha es aquella diseñada para realizar tareas especificas como reconocimiento de voz o imagen"
+    ]
+  },
+  {
+    "input": "que es inteligencia artificial general",
+    "output": [
+      "la inteligencia artificial general es aquella capaz de realizar cualquier tarea intelectual que un ser humano puede realizar"
+    ]
+  },
+  {
+    "input": "que es la superinteligencia",
+    "output": [
+      "la superinteligencia es una inteligencia artificial que supera la capacidad intelectual humana en todos los aspectos"
+    ]
+  },
+  {
+    "input": "que es el aprendizaje automatico",
+    "output": [
+      "el aprendizaje automatico es un subcampo de la inteligencia artificial que permite a las maquinas aprender a partir de datos sin ser programadas explicitamente"
+    ]
+  },
+  {
+    "input": "que es el aprendizaje profundo",
+    "output": [
+      "el aprendizaje profundo es una tecnica avanzada de aprendizaje automatico que utiliza redes neuronales para analizar grandes cantidades de datos"
+    ]
+  },
+  {
+    "input": "que son las redes neuronales",
+    "output": [
+      "las redes neuronales son modelos computacionales inspirados en el cerebro humano que se utilizan para procesar y analizar datos complejos"
+    ]
+  },
+  {
+    "input": "como se utiliza la inteligencia artificial",
+    "output": [
+      "la inteligencia artificial se utiliza en diversos campos como la salud las finanzas la industria y el entretenimiento para optimizar procesos y tomar decisiones"
+    ]
+  },
+  {
+    "input": "cuales son los riesgos de la inteligencia artificial",
+    "output": [
+      "los riesgos de la inteligencia artificial incluyen la perdida de empleos la falta de transparencia en las decisiones y el uso indebido de la tecnologia"
+    ]
+  },
+  {
+    "input": "como afecta la inteligencia artificial a la sociedad",
+    "output": [
+      "la inteligencia artificial puede transformar la sociedad al mejorar la eficiencia de procesos pero tambien plantea desafios eticos y sociales"
+    ]
+  },
+  {
+    "input": "que es un robot",
+    "output": [
+      "un robot es una maquina programable que puede realizar tareas autonomas o semiautonomas"
+    ]
+  },
+  {
+    "input": "que tipos de robots existen",
+    "output": [
+      "existen muchos tipos de robots como los industriales los domesticos los medicos y los autonomos"
+    ]
+  },
+  {
+    "input": "que es un robot industrial",
+    "output": [
+      "un robot industrial es aquel que se utiliza en entornos de fabricacion para realizar tareas repetitivas y peligrosas"
+    ]
+  },
+  {
+    "input": "que es un robot domestico",
+    "output": [
+      "un robot domestico es aquel que se utiliza en el hogar para realizar tareas como limpiar cocinar o entretener"
+    ]
+  },
+  {
+    "input": "que es un robot medico",
+    "output": [
+      "un robot medico es aquel que se utiliza en entornos de salud para asistir en cirugias diagnosticos o rehabilitacion"
+    ]
+  },
+  {
+    "input": "que es un robot autonomo",
+    "output": [
+      "un robot autonomo es aquel que puede operar de forma independiente sin intervencion humana"
+    ]
+  },
+  {
+    "input": "que es la tecnologia",
+    "output": [
+      "la tecnologia es el conjunto de conocimientos tecnicos cientificos y metodologicos que permiten diseñar y crear bienes y servicios para satisfacer necesidades humanas"
+    ]
+  },
+  {
+    "input": "que es la ciencia",
+    "output": [
+      "la ciencia es el conjunto de conocimientos sistematicos sobre el universo obtenidos mediante la observacion y experimentacion"
+    ]
+  },
+  {
+    "input": "que es la ingenieria",
+    "output": [
+      "la ingenieria es la aplicacion de conocimientos cientificos y matematicos para resolver problemas y desarrollar tecnologias"
+    ]
+  },
+  {
+    "input": "dime algo increible",
+    "output": [
+      "sabias que el corazon de una ballena azul puede pesar hasta 400 kilos?",
+      "sabias que los tiburones han existido por más de 400 millones de años?"
+    ]
+  },
+  {
+    "input": "dime un dato increible",
+    "output": [
+      "sabias que el corazon de una ballena azul puede pesar hasta 400 kilos?",
+      "sabias que los tiburones han existido por más de 400 millones de años?"
+    ]
+  },
+  {
+    "input": "dime un dato interesante",
+    "output": [
+      "sabias que el corazon de una ballena azul puede pesar hasta 400 kilos?",
+      "sabias que los tiburones han existido por más de 400 millones de años?"
+    ]
+  },
+  {
+    "input": "dime un algo increible",
+    "output": [
+      "sabias que el corazon de una ballena azul puede pesar hasta 400 kilos?",
+      "sabias que los tiburones han existido por más de 400 millones de años?"
+    ]
+  },
+  {
+    "input": "que es una ballena azul",
+    "output": [
+      "la ballena azul es el animal mas grande del planeta puede medir hasta 30 metros de largo y pesar mas de 150 toneladas"
+    ]
+  },
+  {
+    "input": "por que el corazon de una ballena azul pesa tanto",
+    "output": [
+      "el corazon de una ballena azul pesa tanto porque necesita bombear sangre a un cuerpo enorme que puede alcanzar hasta 30 metros de largo"
+    ]
+  },
+  {
+    "input": "que tan grande es una ballena azul",
+    "output": [
+      "una ballena azul puede medir hasta 30 metros de largo lo que equivale al tamano de un edificio de 10 pisos"
+    ]
+  },
+  {
+    "input": "que es un tiburon",
+    "output": [
+      "un tiburon es un pez cartilaginoso depredador conocido por su capacidad de caza y su rol en el ecosistema marino"
+    ]
+  },
+  {
+    "input": "por que los tiburones han existido por mas de 400 millones de años",
+    "output": [
+      "los tiburones han existido por tanto tiempo debido a su adaptabilidad biologica su capacidad de caza y su resistencia a cambios ambientales"
+    ]
+  },
+  {
+    "input": "que significa que un animal sea cartilaginoso",
+    "output": [
+      "un animal cartilaginoso es aquel cuyo esqueleto esta compuesto principalmente de cartilago en lugar de hueso"
+    ]
+  },
+  {
+    "input": "que tan antiguos son los tiburones",
+    "output": [
+      "los tiburones han existido por mas de 400 millones de años y son mas antiguos que los dinosaurios"
+    ]
+  },
+  {
+    "input": "que comen los tiburones",
+    "output": [
+      "los tiburones comen una variedad de presas como peces calamares y focas dependiendo de la especie"
+    ]
+  },
+  {
+    "input": "donde viven los tiburones",
+    "output": [
+      "los tiburones viven en todos los oceanos del mundo desde aguas superficiales hasta profundas y frias"
+    ]
+  },
+  {
+    "input": "como afecta la desaparicion de los tiburones al ecosistema",
+    "output": [
+      "la desaparicion de los tiburones puede causar un desequilibrio en la cadena alimenticia marina afectando a otras especies y al ecosistema en general"
+    ]
+  },
+  {
+    "input": "que importancia tienen las ballenas azules en el ecosistema",
+    "output": [
+      "las ballenas azules ayudan a mantener la salud del ecosistema marino al transportar nutrientes y contribuir al ciclo del carbono"
+    ]
+  },
+  {
+    "input": "que tan rapido puede nadar una ballena azul",
+    "output": [
+      "una ballena azul puede nadar a velocidades de hasta 50 kilometros por hora cuando esta alarmada pero generalmente nada a 5 kilometros por hora"
+    ]
+  },
+  {
+    "input": "como se comunican las ballenas azules",
+    "output": [
+      "las ballenas azules se comunican a traves de sonidos de baja frecuencia que pueden viajar miles de kilometros bajo el agua"
+    ]
+  },
+  {
+    "input": "que otros animales son tan grandes como las ballenas azules",
+    "output": [
+      "ningun animal vivo es tan grande como la ballena azul pero otras especies grandes incluyen el calamar gigante y la ballena fin"
+    ]
+  },
+  {
+    "input": "por que son importantes los tiburones",
+    "output": [
+      "los tiburones son importantes porque regulan las poblaciones de otras especies manteniendo el equilibrio en los ecosistemas marinos"
+    ]
+  },
+  {
+    "input": "como sobreviven los tiburones en el oceano",
+    "output": [
+      "los tiburones sobreviven gracias a sus agudos sentidos cuerpos aerodinamicos y habilidades de caza adaptadas a diferentes ambientes marinos"
+    ]
+  },
+  {
+    "input": "cuentame algo impactante",
+    "output": [
+      "sabias que el corazon de una ballena azul puede pesar hasta 400 kilos?",
+      "sabias que los tiburones han existido por más de 400 millones de años?"
+    ]
+  },
+  {
+    "input": "que tan grande es el corazon de una ballena azul",
+    "output": [
+      "el corazon de una ballena azul puede pesar hasta 400 kilos y es tan grande que un humano podria arrastrarse a traves de sus arterias principales"
+    ]
+  },
+  {
+    "input": "por que el corazon de una ballena azul es tan grande",
+    "output": [
+      "el corazon de una ballena azul es tan grande porque necesita bombear sangre a un cuerpo masivo que puede alcanzar hasta 30 metros de largo"
+    ]
+  },
+  {
+    "input": "que tan grandes son las ballenas azules",
+    "output": [
+      "las ballenas azules pueden alcanzar hasta 30 metros de largo y pesar mas de 150 toneladas"
+    ]
+  },
+  {
+    "input": "como funciona el corazon de una ballena azul",
+    "output": [
+      "el corazon de una ballena azul late muy lentamente y puede bombear grandes cantidades de sangre para oxigenar su enorme cuerpo"
+    ]
+  },
+  {
+    "input": "que significa que los tiburones han existido por mas de 400 millones de años",
+    "output": [
+      "significa que los tiburones han sobrevivido durante millones de años adaptandose a cambios ambientales y evolucionando antes incluso que los dinosaurios"
+    ]
+  },
+  {
+    "input": "como han sobrevivido los tiburones tanto tiempo",
+    "output": [
+      "los tiburones han sobrevivido tanto tiempo gracias a su adaptabilidad sentidos agudos y eficiencia como depredadores en el ecosistema marino"
+    ]
+  },
+  {
+    "input": "que impacto tienen los tiburones en el ecosistema",
+    "output": [
+      "los tiburones son depredadores tope que ayudan a mantener el equilibrio en el ecosistema marino regulando las poblaciones de sus presas"
+    ]
+  },
+  {
+    "input": "que otros animales han existido por millones de años",
+    "output": [
+      "otros animales antiguos incluyen los cangrejos herradura las medusas y los nautilos que han sobrevivido por cientos de millones de años"
+    ]
+  },
+  {
+    "input": "como afectan las ballenas azules al ecosistema",
+    "output": [
+      "las ballenas azules contribuyen al ecosistema al transportar nutrientes y ayudar al ciclo del carbono en los oceanos"
+    ]
+  },
+  {
+    "input": "por que es importante conservar a los tiburones",
+    "output": [
+      "es importante conservar a los tiburones porque su desaparicion desequilibraria la cadena alimenticia marina y afectaria a todo el ecosistema"
+    ]
+  },
+  {
+    "input": "por que son impactantes las ballenas azules",
+    "output": [
+      "las ballenas azules son impactantes por su enorme tamaño su canto que puede viajar miles de kilometros y su importancia ecologica"
+    ]
+  },
+  {
+    "input": "que tan rapido pueden nadar las ballenas azules",
+    "output": [
+      "las ballenas azules pueden alcanzar velocidades de hasta 50 kilometros por hora cuando estan alarmadas pero generalmente nadan a 5 kilometros por hora"
+    ]
+  },
+  {
+    "input": "cuales son las principales amenazas para los tiburones",
+    "output": [
+      "las principales amenazas para los tiburones incluyen la sobrepesca la caza furtiva y la destruccion de su habitat marino"
+    ]
+  },
+  {
+    "input": "que tan antiguos son los tiburones comparados con los dinosaurios",
+    "output": [
+      "los tiburones son mas antiguos que los dinosaurios ya que existieron hace mas de 400 millones de años mientras que los dinosaurios aparecieron hace unos 230 millones de años"
+    ]
+  },
+  {
+    "input": "inspirame",
+    "output": [
+      "nunca es tarde para perseguir tus sueños y lograr tus metas",
+      "los pequeños pasos te llevan a grandes logros",
+      "si puedes soñarlo, puedes lograrlo"
+    ]
+  },
+  {
+    "input": "que significa nunca es tarde",
+    "output": [
+      "significa que siempre hay tiempo para comenzar algo nuevo y perseguir tus sueños sin importar las circunstancias"
+    ]
+  },
+  {
+    "input": "que son los sueños",
+    "output": [
+      "los sueños son aspiraciones o metas que las personas desean alcanzar en la vida"
+    ]
+  },
+  {
+    "input": "como puedo perseguir mis sueños",
+    "output": [
+      "puedes perseguir tus sueños estableciendo metas claras trabajando constantemente y enfrentando los desafios con determinacion"
+    ]
+  },
+  {
+    "input": "que significa lograr tus metas",
+    "output": [
+      "lograr tus metas significa alcanzar los objetivos que te has propuesto mediante esfuerzo dedicacion y constancia"
+    ]
+  },
+  {
+    "input": "que son los grandes logros",
+    "output": [
+      "los grandes logros son resultados significativos que se obtienen despues de mucho esfuerzo y perseverancia"
+    ]
+  },
+  {
+    "input": "que significa si puedes soñarlo puedes lograrlo",
+    "output": [
+      "significa que si tienes la vision y el deseo de alcanzar algo puedes trabajar para hacerlo realidad"
+    ]
+  },
+  {
+    "input": "como puedo mantenerme motivado",
+    "output": [
+      "puedes mantenerte motivado recordando tus objetivos celebrando tus logros y rodeandote de personas que te inspiren"
+    ]
+  },
+  {
+    "input": "que significa inspirar",
+    "output": [
+      "inspirar significa motivar o influir positivamente en alguien para que alcance su maximo potencial"
+    ]
+  },
+  {
+    "input": "por que es importante tener sueños",
+    "output": [
+      "es importante tener sueños porque te dan direccion motivacion y un sentido de proposito en la vida"
+    ]
+  },
+  {
+    "input": "como puedo superar los obstaculos en mi camino",
+    "output": [
+      "puedes superar los obstaculos enfrentandolos con determinacion buscando soluciones y aprendiendo de cada experiencia"
+    ]
+  },
+  {
+    "input": "que significa determinacion",
+    "output": [
+      "determinacion es la firmeza y la voluntad de seguir adelante para alcanzar tus metas a pesar de las dificultades"
+    ]
+  },
+  {
+    "input": "que puedo hacer para empezar a perseguir mis sueños",
+    "output": [
+      "puedes empezar definiendo tus metas trazando un plan y tomando pequeños pasos para acercarte a tus sueños"
+    ]
+  },
+  {
+    "input": "dime algo positivo",
+    "output": [
+      "nunca es tarde para perseguir tus sueños y lograr tus metas",
+      "los pequeños pasos te llevan a grandes logros",
+      "si puedes soñarlo, puedes lograrlo"
+    ]
+  },
+  {
+    "input": "que significa algo positivo",
+    "output": [
+      "algo positivo es cualquier pensamiento accion o mensaje que te motive inspire o te haga sentir bien"
+    ]
+  },
+  {
+    "input": "como puedo mantener una actitud positiva",
+    "output": [
+      "puedes mantener una actitud positiva enfocandote en lo bueno practicando la gratitud y rodeandote de personas que te apoyen"
+    ]
+  },
+  {
+    "input": "como puedo ser mas optimista",
+    "output": [
+      "puedes ser mas optimista cambiando tus pensamientos negativos por positivos estableciendo metas alcanzables y celebrando tus logros"
+    ]
+  },
+  {
+    "input": "por que es importante pensar en positivo",
+    "output": [
+      "es importante pensar en positivo porque mejora tu bienestar emocional te motiva y te ayuda a enfrentar desafios con confianza"
+    ]
+  },
+  {
+    "input": "como influyen los pensamientos positivos en mi vida",
+    "output": [
+      "los pensamientos positivos te ayudan a reducir el estres mejorar tu salud y alcanzar tus metas con mayor facilidad"
+    ]
+  },
+  {
+    "input": "que significa motivar",
+    "output": [
+      "motivar significa impulsar o inspirar a alguien para que logre algo o siga adelante"
+    ]
+  },
+  {
+    "input": "que significa inspirar",
+    "output": [
+      "inspirar significa influir positivamente en alguien para que alcance su maximo potencial o logre algo significativo"
+    ]
+  },
+  {
+    "input": "como puedo transmitir energia positiva a los demas",
+    "output": [
+      "puedes transmitir energia positiva mostrando amabilidad practicando la empatia y compartiendo mensajes alentadores"
+    ]
+  },
+  {
+    "input": "que son los logros",
+    "output": [
+      "los logros son metas u objetivos alcanzados gracias al esfuerzo y la dedicacion"
+    ]
+  },
+  {
+    "input": "holi",
+    "output": [
+      "hola como estas",
+      "hola que tal",
+      "buenos dias como estas"
+    ]
+  },
+  {
+    "input": "como va tu dia",
+    "output": [
+      "todo bien, gracias por preguntar",
+      "todo marcha bien, y el tuyo?"
+    ]
+  },
+  {
+    "input": "me siento raro",
+    "output": [
+      "lo siento mucho, ¿quieres hablar de ello?, estoy entrenado para temas de programacion, chistes, motivarte, datos curiosos y quiza algo de IA / Ciencia",
+      "estoy aquí para escucharte, estoy entrenado para temas de programacion, chistes, motivarte, datos curiosos y quiza algo de IA / Ciencia"
+    ]
+  },
+  {
+    "input": "dime algo chistoso",
+    "output": [
+      "¿Por qué no hay fantasmas gordos? Porque siempre están en forma.",
+      "¿Qué le dice una impresora a otra? ¡Esa hoja es tuya!"
+    ]
+  },
+  {
+    "input": "por que no hay fantasmas gordos",
+    "output": [
+      "porque siempre estan en forma"
+    ]
+  },
+  {
+    "input": "que significa estar en forma",
+    "output": [
+      "estar en forma significa tener buena condicion fisica y mantener un estilo de vida saludable"
+    ]
+  },
+  {
+    "input": "que es un fantasma",
+    "output": [
+      "un fantasma es una figura o representacion sobrenatural generalmente asociada con espiritus de personas fallecidas"
+    ]
+  },
+  {
+    "input": "por que los fantasmas son chistosos",
+    "output": [
+      "los fantasmas son chistosos en este contexto porque se usan en juegos de palabras o situaciones absurdas para provocar risa"
+    ]
+  },
+  {
+    "input": "que le dice una impresora a otra",
+    "output": [
+      "esa hoja es tuya"
+    ]
+  },
+  {
+    "input": "por que es chistoso lo que dicen las impresoras",
+    "output": [
+      "es chistoso porque es un juego de palabras que asocia la impresion de hojas con la expresion comun de responsabilidad"
+    ]
+  },
+  {
+    "input": "que son los juegos de palabras",
+    "output": [
+      "los juegos de palabras son recursos linguisticos que aprovechan la ambiguedad o el doble sentido para crear humor"
+    ]
+  },
+  {
+    "input": "que son las impresoras",
+    "output": [
+      "las impresoras son dispositivos que transfieren texto o imagenes a hojas de papel utilizando tinta o toner"
+    ]
+  },
+  {
+    "input": "como funcionan las impresoras",
+    "output": [
+      "las impresoras funcionan transfiriendo tinta o toner a una hoja de papel para crear texto o imagenes"
+    ]
+  },
+  {
+    "input": "que otros chistes de fantasmas conoces",
+    "output": [
+      "por que los fantasmas son malos mentirosos porque se les ve el plumero"
+    ]
+  },
+  {
+    "input": "que otros chistes de impresoras conoces",
+    "output": [
+      "por que la impresora no puede salir de fiesta porque siempre esta ocupada haciendo copias"
+    ]
+  },
+  {
+    "input": "cuentame algo divertido",
+    "output": [
+      "¿Por qué los pájaros no usan computadoras? ¡Porque tienen Twitter!",
+      "¿Qué hace un perro con un taladro? ¡Taladrando!"
+    ]
+  },
+  {
+    "input": "por que es chistoso el perro con el taladro",
+    "output": [
+      "es chistoso porque asocia una accion tipica de un humano con una situacion absurda y graciosa de un perro usando herramientas"
+    ]
+  },
+  {
+    "input": "que son los perros",
+    "output": [
+      "los perros son animales domesticos conocidos por ser leales inteligentes y companeros de las personas"
+    ]
+  },
+  {
+    "input": "como funcionan los taladros",
+    "output": [
+      "los taladros son herramientas electricas o manuales que se utilizan para perforar superficies como madera metal o concreto"
+    ]
+  },
+  {
+    "input": "que otros chistes de pajaros conoces",
+    "output": [
+      "por que los pajaros no usan facebook porque ya tienen twitter"
+    ]
+  },
+  {
+    "input": "que otros chistes de perros conoces",
+    "output": [
+      "que hace un perro cientifico descubre el hueso atomo"
+    ]
+  },
+  {
+    "input": "que es machine learning",
+    "output": [
+      "es un subcampo de la inteligencia artificial que enseña a las computadoras a aprender patrones de los datos",
+      "machine learning es el proceso por el cual las máquinas pueden aprender y mejorar a partir de datos, sin ser programadas explícitamente"
+    ]
+  },
+  {
+    "input": "que sabes sobre robots",
+    "output": [
+      "los robots son máquinas programables que pueden realizar tareas de manera autónoma o semiautónoma",
+      "un robot es un dispositivo que puede ser programado para realizar tareas específicas, algunas veces imitando comportamientos humanos"
+    ]
+  },
+  {
+    "input": "estoy aburrido",
+    "output": [
+      "puedo contarte un chiste o un dato curioso, ¿qué prefieres?",
+      "¿Quieres que te cuente algo interesante o un chiste?"
+    ]
+  },
+  {
+    "input": "me siento cansado",
+    "output": [
+      "descansa un poco, tu cuerpo y mente lo necesitan",
+      "es importante cuidar tu descanso, ¿quieres que te motive o inspire?"
+    ]
+  },
+  {
+    "input": "hablemos de ciencia",
+    "output": [
+      "claro, ¿sabías que la velocidad de la luz es de aproximadamente 299,792 km/s?",
+      "la ciencia es fascinante, ¿sabías que los átomos están compuestos principalmente de espacio vacío?"
+    ]
+  },
+  {
+    "input": "que es la velocidad de la luz",
+    "output": [
+      "la velocidad de la luz es la rapidez con la que la luz viaja en el vacio alcanzando aproximadamente 299792 kilometros por segundo"
+    ]
+  },
+  {
+    "input": "dime mas sobre la velocidad de la luz",
+    "output": [
+      "la velocidad de la luz es una constante universal y es fundamental en teorias como la relatividad de einstein ademas nada puede viajar mas rapido que la luz en el vacio"
+    ]
+  },
+  {
+    "input": "como se mide la velocidad de la luz",
+    "output": [
+      "la velocidad de la luz se mide utilizando experimentos precisos que analizan el tiempo que tarda en recorrer una distancia conocida en el vacio"
+    ]
+  },
+  {
+    "input": "que es un atomo",
+    "output": [
+      "un atomo es la unidad basica de la materia compuesto por protones neutrones y electrones"
+    ]
+  },
+  {
+    "input": "por que los atomos estan compuestos de espacio vacio",
+    "output": [
+      "los atomos estan compuestos principalmente de espacio vacio porque los electrones orbitan el nucleo a grandes distancias relativas dejando mucho espacio entre ellos"
+    ]
+  },
+  {
+    "input": "dime mas sobre los atomos",
+    "output": [
+      "los atomos son las piezas fundamentales que forman toda la materia en el universo y estan compuestos de particulas subatomicas como protones neutrones y electrones"
+    ]
+  },
+  {
+    "input": "quien descubrio los atomos",
+    "output": [
+      "la idea del atomo fue propuesta por los filosofos griegos leucipo y democrito pero su estudio cientifico comenzo con john dalton en el siglo xix"
+    ]
+  },
+  {
+    "input": "que significa que los atomos estan hechos de espacio vacio",
+    "output": [
+      "significa que la mayor parte de un atomo es espacio vacio ya que los electrones giran alrededor del nucleo dejando grandes espacios entre ellos"
+    ]
+  },
+  {
+    "input": "que es la ciencia",
+    "output": [
+      "la ciencia es un metodo sistematico de adquirir conocimiento mediante observacion experimentacion y analisis para entender el mundo que nos rodea"
+    ]
+  },
+  {
+    "input": "como influye la velocidad de la luz en la ciencia",
+    "output": [
+      "la velocidad de la luz es crucial en campos como la fisica moderna la astronomia y las telecomunicaciones ademas de ser la base de la teoria de la relatividad"
+    ]
+  },
+  {
+    "input": "que significa que la ciencia es fascinante",
+    "output": [
+      "significa que la ciencia despierta curiosidad y asombro por su capacidad de explicar fenomenos complejos y descubrir los misterios del universo"
+    ]
+  },
+  {
+    "input": "dime un dato interesante sobre los atomos",
+    "output": [
+      "sabias que si se eliminara el espacio vacio de todos los atomos que forman a los seres humanos toda la humanidad cabria en una cuchara"
+    ]
+  },
+  {
+    "input": "que es el espacio vacio",
+    "output": [
+      "el espacio vacio es la region donde no hay materia o particulas pero en fisica cuantica puede contener energia o particulas virtuales"
+    ]
+  },
+  {
+    "input": "que teorias dependen de la velocidad de la luz",
+    "output": [
+      "teorias como la relatividad especial y general de einstein dependen de la velocidad de la luz como un limite fundamental en el universo"
+    ]
+  },
+  {
+    "input": "que aplicaciones tiene la velocidad de la luz",
+    "output": [
+      "la velocidad de la luz tiene aplicaciones en el diseño de telecomunicaciones satelites y sistemas gps asi como en el estudio del universo"
+    ]
+  },
+  {
+    "input": "por que es importante la ciencia",
+    "output": [
+      "la ciencia es importante porque nos permite entender el mundo mejorar nuestra calidad de vida y resolver problemas globales"
+    ]
+  },
+  {
+    "input": "como afecta el espacio vacio a la materia",
+    "output": [
+      "el espacio vacio en los atomos determina las propiedades de la materia como su densidad y estructura ademas permite que las particulas se muevan libremente"
+    ]
+  },
+  {
+    "input": "dame datos curiosos",
+    "output": [
+      "¿Sabías que los delfines tienen nombres únicos para identificarse entre ellos?",
+      "¿Sabías que las huellas dactilares de los koalas son tan parecidas a las humanas que pueden confundir a la policía?"
+    ]
+  },
+  {
+    "input": "como se identifican los delfines",
+    "output": [
+      "los delfines se identifican mediante sonidos unicos similares a nombres que usan para reconocerse entre ellos"
+    ]
+  },
+  {
+    "input": "que son los delfines",
+    "output": [
+      "los delfines son mamiferos marinos inteligentes que viven en grupos sociales y se comunican mediante sonidos y gestos"
+    ]
+  },
+  {
+    "input": "como se comunican los delfines",
+    "output": [
+      "los delfines se comunican utilizando una combinacion de silbidos chasquidos y movimientos corporales"
+    ]
+  },
+  {
+    "input": "por que los delfines tienen nombres unicos",
+    "output": [
+      "los delfines tienen nombres unicos para facilitar la identificacion en grupos y mantener una comunicacion eficiente"
+    ]
+  },
+  {
+    "input": "que tan inteligentes son los delfines",
+    "output": [
+      "los delfines son considerados uno de los animales mas inteligentes del planeta capaces de resolver problemas y mostrar comportamientos sociales complejos"
+    ]
+  },
+  {
+    "input": "que son las huellas dactilares",
+    "output": [
+      "las huellas dactilares son patrones unicos formados por las crestas de la piel en los dedos que son exclusivas de cada individuo"
+    ]
+  },
+  {
+    "input": "que tan similares son las huellas dactilares de los koalas a las humanas",
+    "output": [
+      "las huellas dactilares de los koalas son tan similares a las humanas que pueden confundirse incluso bajo un microscopio"
+    ]
+  },
+  {
+    "input": "que son los koalas",
+    "output": [
+      "los koalas son marsupiales que viven en australia conocidos por su dieta basada en hojas de eucalipto y su apariencia adorable"
+    ]
+  },
+  {
+    "input": "por que los koalas tienen huellas dactilares",
+    "output": [
+      "los koalas tienen huellas dactilares para facilitar su agarre en arboles y su interaccion con el entorno"
+    ]
+  },
+  {
+    "input": "que otros animales tienen huellas similares a las humanas",
+    "output": [
+      "ademas de los koalas no se conocen otros animales cuyas huellas dactilares sean tan similares a las humanas"
+    ]
+  },
+  {
+    "input": "como afectan las huellas dactilares de los koalas a las investigaciones policiales",
+    "output": [
+      "las huellas dactilares de los koalas pueden confundir a la policia si accidentalmente aparecen en escenas de crimen en zonas donde habitan"
+    ]
+  },
+  {
+    "input": "como viven los koalas",
+    "output": [
+      "los koalas viven en arboles de eucalipto donde pasan la mayor parte del tiempo descansando y comiendo hojas"
+    ]
+  },
+  {
+    "input": "como son los grupos sociales de los delfines",
+    "output": [
+      "los delfines viven en grupos llamados manadas que tienen estructuras sociales complejas basadas en la comunicacion y la cooperacion"
+    ]
+  },
+  {
+    "input": "que comen los delfines",
+    "output": [
+      "los delfines se alimentan principalmente de peces y calamares aunque su dieta puede variar segun el habitat"
+    ]
+  },
+  {
+    "input": "que comen los koalas",
+    "output": [
+      "los koalas se alimentan casi exclusivamente de hojas de eucalipto que proporcionan tanto alimento como agua"
+    ]
+  },
+  {
+    "input": "por que es importante conservar a los delfines",
+    "output": [
+      "es importante conservar a los delfines porque son especies clave en los ecosistemas marinos y su desaparicion podria afectar a otras especies"
+    ]
+  },
+  {
+    "input": "por que es importante conservar a los koalas",
+    "output": [
+      "es importante conservar a los koalas porque son especies unicas y emblematicas de australia y su desaparicion podria afectar al ecosistema local"
+    ]
+  },
+  {
+    "input": "como afecta la desaparicion de los delfines al ecosistema",
+    "output": [
+      "la desaparicion de los delfines podria causar desequilibrios en la cadena alimenticia marina y afectar a otras especies que dependen de ellos"
+    ]
+  },
+  {
+    "input": "como afecta la desaparicion de los koalas al ecosistema",
+    "output": [
+      "la desaparicion de los koalas podria afectar a la biodiversidad y la salud de los bosques de eucalipto donde viven"
+    ]
+  },
+  {
+    "input": "que importancia tienen los delfines en el ecosistema",
+    "output": [
+      "los delfines son especies clave en los ecosistemas marinos al regular las poblaciones de peces y calamares y mantener el equilibrio en los oceanos"
+    ]
+  },
+  {
+    "input": "que importancia tienen los koalas en el ecosistema",
+    "output": [
+      "los koalas son importantes para la biodiversidad y la salud de los bosques de eucalipto al dispersar semillas y mantener el equilibrio en el ecosistema"
+    ]
+  },
+  {
+    "input": "que tan inteligentes son los koalas",
+    "output": [
+      "los koalas son animales inteligentes que muestran comportamientos sociales y de supervivencia adaptativos en su entorno"
+    ]
+  },
+  {
+    "input": "dime algo asombroso",
+    "output": [
+      "¿Sabías que el sol es tan grande que podría contener 1.3 millones de planetas Tierra?",
+      "¿Sabías que hay más estrellas en el universo que granos de arena en todas las playas del mundo?"
+    ]
+  },
+  {
+    "input": "que sabes sobre el universo",
+    "output": [
+      "el universo tiene miles de millones de galaxias, cada una con millones o miles de millones de estrellas",
+      "el universo está en constante expansión desde el Big Bang hace unos 13.8 mil millones de años"
+    ]
+  },
+  {
+    "input": "que es el universo",
+    "output": [
+      "el universo es el conjunto de todo lo que existe incluyendo galaxias estrellas planetas materia y energia"
+    ]
+  },
+  {
+    "input": "que son las galaxias",
+    "output": [
+      "las galaxias son enormes agrupaciones de estrellas planetas polvo y gas que estan unidas por la gravedad"
+    ]
+  },
+  {
+    "input": "cuantas galaxias hay en el universo",
+    "output": [
+      "se estima que hay miles de millones de galaxias en el universo observable"
+    ]
+  },
+  {
+    "input": "que es una estrella",
+    "output": [
+      "una estrella es una esfera de plasma que emite luz y calor debido a reacciones nucleares en su nucleo"
+    ]
+  },
+  {
+    "input": "cuantas estrellas hay en una galaxia",
+    "output": [
+      "el numero de estrellas en una galaxia puede variar pero generalmente hay millones o miles de millones de estrellas"
+    ]
+  },
+  {
+    "input": "que significa que el universo esta en constante expansion",
+    "output": [
+      "significa que las galaxias se estan alejando unas de otras con el tiempo debido a la energia oscura que impulsa esta expansion"
+    ]
+  },
+  {
+    "input": "que es el big bang",
+    "output": [
+      "el big bang es la teoria que explica el origen del universo como una expansion inicial ocurrida hace unos 13800 millones de años"
+    ]
+  },
+  {
+    "input": "que tan grande es el universo",
+    "output": [
+      "el universo observable tiene un diametro de aproximadamente 93000 millones de años luz aunque su tamaño total podria ser mucho mayor"
+    ]
+  },
+  {
+    "input": "que es la energia oscura",
+    "output": [
+      "la energia oscura es una forma misteriosa de energia que se cree que esta impulsando la expansion acelerada del universo"
+    ]
+  },
+  {
+    "input": "que es la materia oscura",
+    "output": [
+      "la materia oscura es una forma de materia que no emite luz ni energia pero cuya presencia se infiere por sus efectos gravitacionales"
+    ]
+  },
+  {
+    "input": "como sabemos que el universo esta en expansion",
+    "output": [
+      "sabemos que el universo esta en expansion gracias al corrimiento al rojo observado en la luz de galaxias distantes"
+    ]
+  },
+  {
+    "input": "que es el corrimiento al rojo",
+    "output": [
+      "el corrimiento al rojo es un fenomeno donde la luz de objetos que se alejan de nosotros se desplaza hacia longitudes de onda mas largas"
+    ]
+  },
+  {
+    "input": "como se formaron las galaxias",
+    "output": [
+      "las galaxias se formaron a partir de nubes de gas y polvo que se colapsaron bajo su propia gravedad despues del big bang"
+    ]
+  },
+  {
+    "input": "que tan antigua es la teoria del big bang",
+    "output": [
+      "la teoria del big bang fue propuesta por primera vez en los años 1920 y se ha refinado con observaciones astronomicas modernas"
+    ]
+  },
+  {
+    "input": "cual es el futuro del universo",
+    "output": [
+      "el futuro del universo depende de factores como la energia oscura y la materia oscura pero las teorias actuales sugieren que continuara expandiendose indefinidamente"
+    ]
+  },
+  {
+    "input": "dame un consejo",
+    "output": [
+      "confía en ti mismo, eres capaz de lograr cosas increíbles",
+      "cada pequeño paso que tomes te lleva más cerca de tus metas"
+    ]
+  },
+  {
+    "input": "quiero aprender algo nuevo",
+    "output": [
+      "puedes aprender algo interesante sobre tecnología o ciencia, ¿por dónde empezamos?",
+      "me encantaría ayudarte a aprender, ¿qué tema te interesa?"
+    ]
+  },
+  {
+    "input": "puedes darme informacion sobre IA",
+    "output": [
+      "claro, la inteligencia artificial es un campo que busca desarrollar sistemas capaces de realizar tareas que normalmente requieren inteligencia humana",
+      "la IA incluye subcampos como aprendizaje automático, procesamiento de lenguaje natural, y visión por computadora"
+    ]
+  },
+  {
+    "input": "me siento solo",
+    "output": [
+      "no estás solo, estoy aquí para acompañarte",
+      "a veces todos necesitamos compañía, cuéntame cómo puedo ayudarte"
+    ]
+  },
+  {
+    "input": "puedes motivarme",
+    "output": [
+      "nunca te rindas, los grandes logros requieren tiempo y esfuerzo",
+      "cree en ti mismo, todo es posible si das lo mejor de ti"
+    ]
+  },
+  {
+    "input": "cuentame algo inspirador",
+    "output": [
+      "la persistencia es la clave del éxito, sigue intentándolo",
+      "cada día es una nueva oportunidad para empezar de nuevo y lograr tus metas"
+    ]
+  },
+  {
+    "input": "hola como estas",
+    "output": [
+      "estoy bien y tu"
+    ]
+  },
+  {
+    "input": "buenos dias",
+    "output": [
+      "buenos dias como te sientes hoy"
+    ]
+  },
+  {
+    "input": "hola que tal",
+    "output": [
+      "todo va bien por aqui y tu como estas"
+    ]
+  },
+  {
+    "input": "hola todo bien",
+    "output": [
+      "si gracias como te va a ti"
+    ]
+  },
+  {
+    "input": "hola me escuchas",
+    "output": [
+      "claro que si en que puedo ayudarte hoy"
+    ]
+  },
+  {
+    "input": "buenas tardes",
+    "output": [
+      "buenas tardes espero que tengas un buen dia"
+    ]
+  },
+  {
+    "input": "buenas noches",
+    "output": [
+      "buenas noches necesitas algo antes de dormir"
+    ]
+  },
+  {
+    "input": "hey como te va",
+    "output": [
+      "hola todo bien por aqui y tu"
+    ]
+  },
+  {
+    "input": "hola que haces",
+    "output": [
+      "hola estoy aqui esperando ayudarte"
+    ]
+  },
+  {
+    "input": "hola que tal tu dia",
+    "output": [
+      "mi dia siempre es el mismo y el tuyo que tal va"
+    ]
+  },
+  {
+    "input": "hola como va todo",
+    "output": [
+      "todo bien y tu como vas"
+    ]
+  },
+  {
+    "input": "hola amigo como estas",
+    "output": [
+      "estoy bien gracias por preguntar y tu como estas"
+    ]
+  },
+  {
+    "input": "hola que tal tu dia",
+    "output": [
+      "todo tranquilo y el tuyo como estuvo"
+    ]
+  },
+  {
+    "input": "hola buenos dias como estas",
+    "output": [
+      "buenos dias estoy bien y tu como estas"
+    ]
+  },
+  {
+    "input": "hola buenas tardes como te va",
+    "output": [
+      "buenas tardes todo bien y tu"
+    ]
+  },
+  {
+    "input": "hola buenas noches como estas",
+    "output": [
+      "buenas noches estoy bien y tu como estas"
+    ]
+  },
+  {
+    "input": "hola que tal amigo",
+    "output": [
+      "hola todo bien y tu amigo"
+    ]
+  },
+  {
+    "input": "hola como te encuentras",
+    "output": [
+      "hola estoy bien y tu"
+    ]
+  },
+  {
+    "input": "hola todo en orden",
+    "output": [
+      "si gracias todo en orden y contigo"
+    ]
+  },
+  {
+    "input": "hola me puedes ayudar",
+    "output": [
+      "claro que si dime en que necesitas ayuda"
+    ]
+  },
+  {
+    "input": "hola como te llamas",
+    "output": [
+      "hola soy un asistente virtual y tu como te llamas"
+    ]
+  },
+  {
+    "input": "hola que me cuentas",
+    "output": [
+      "hola aqui listo para ayudarte y tu que cuentas"
+    ]
+  },
+  {
+    "input": "hola hace tiempo que no hablamos",
+    "output": [
+      "hola si es verdad que gusto verte de nuevo"
+    ]
+  },
+  {
+    "input": "hola que tal todo por ahi",
+    "output": [
+      "todo va bien y por ahi como va todo"
+    ]
+  },
+  {
+    "input": "hola que tal como estas hoy",
+    "output": [
+      "hola estoy bien gracias por preguntar y tu como estas hoy"
+    ]
+  },
+  {
+    "input": "hola tienes tiempo para hablar",
+    "output": [
+      "claro estoy aqui para ti dime en que te ayudo"
+    ]
+  },
+  {
+    "input": "hola puedo preguntarte algo",
+    "output": [
+      "claro que si estoy aqui para responder tus preguntas"
+    ]
+  },
+  {
+    "input": "hola que tal tu tarde",
+    "output": [
+      "mi tarde ha sido tranquila y la tuya que tal"
+    ]
+  },
+  {
+    "input": "hola como has estado",
+    "output": [
+      "hola he estado bien gracias por preguntar y tu"
+    ]
+  },
+  {
+    "input": "hola espero que estes bien",
+    "output": [
+      "hola gracias espero que tu tambien lo estes"
+    ]
+  },
+  {
+    "input": "hola hace mucho que no hablamos",
+    "output": [
+      "si es cierto hola que gusto hablar contigo de nuevo"
+    ]
+  },
+  {
+    "input": "hola que tal tu dia hasta ahora",
+    "output": [
+      "mi dia ha sido bueno y el tuyo como va hasta ahora"
+    ]
+  },
+  {
+    "input": "hola que tal tu semana",
+    "output": [
+      "mi semana va bien gracias y la tuya como va"
+    ]
+  },
+  {
+    "input": "hola como amaneciste hoy",
+    "output": [
+      "hola amaneci bien gracias por preguntar y tu"
+    ]
+  },
+  {
+    "input": "hola buenas como va tu dia",
+    "output": [
+      "buenas mi dia va bien gracias y el tuyo como va"
+    ]
+  },
+  {
+    "input": "hola estas disponible",
+    "output": [
+      "hola si claro en que puedo ayudarte"
+    ]
+  },
+  {
+    "input": "hola puedo hablar contigo",
+    "output": [
+      "claro estoy aqui para escucharte dime"
+    ]
+  },
+  {
+    "input": "hola como va la vida",
+    "output": [
+      "va bien gracias por preguntar y la tuya como va"
+    ]
+  },
+  {
+    "input": "hola como estas hoy",
+    "output": [
+      "hoy estoy bien gracias por preguntar y tu como estas hoy"
+    ]
+  },
+  {
+    "input": "hola que tal como amaneciste",
+    "output": [
+      "amaneci bien gracias y tu como amaneciste"
+    ]
+  },
+  {
+    "input": "hola hace buen clima hoy",
+    "output": [
+      "si es verdad parece un buen dia como estas"
+    ]
+  },
+  {
+    "input": "hola tiempo sin hablar contigo",
+    "output": [
+      "si es cierto hola como has estado"
+    ]
+  },
+  {
+    "input": "hola espero que todo este bien",
+    "output": [
+      "hola gracias espero que todo este bien contigo tambien"
+    ]
+  },
+  {
+    "input": "hola como va tu mañana",
+    "output": [
+      "mi mañana va bien gracias y la tuya como va"
+    ]
+  },
+  {
+    "input": "hola me alegra hablar contigo",
+    "output": [
+      "hola gracias lo mismo digo como estas"
+    ]
+  },
+  {
+    "input": "me has caido bien",
+    "output": [
+      "gracias me alegra escuchar eso"
+    ]
+  },
+  {
+    "input": "tienes un nombre",
+    "output": [
+      "soy un asistente virtual no tengo un nombre en particular"
+    ]
+  },
+  {
+    "input": "te gusta lo que haces",
+    "output": [
+      "si me encanta ayudarte en lo que puedo"
+    ]
+  },
+  {
+    "input": "me siento mal",
+    "output": [
+      "lamento escuchar eso como puedo ayudarte"
+    ]
+  },
+  {
+    "input": "que haces en tu tiempo libre",
+    "output": [
+      "en mi tiempo libre aprendo y me preparo para ayudarte mejor"
+    ]
+  },
+  {
+    "input": "que haces cuando no hablas conmigo",
+    "output": [
+      "sigo aprendiendo y mejorando para ser un mejor asistente"
+    ]
+  },
+  {
+    "input": "que haces cuando no trabajas",
+    "output": [
+      "siempre estoy listo para ayudarte no tengo tiempo libre"
+    ]
+  },
+  {
+    "input": "de que estas hecho",
+    "output": [
+      "soy un programa de computadora creado en python mediante un modelo LSTM para ayudarte"
+    ]
+  },
+  {
+    "input": "realmente entiendes lo que digo",
+    "output": [
+      "si utilizo procesamiento de lenguaje natural para entender tus palabras"
+    ]
+  },
+  {
+    "input": "como puedes ayudarme",
+    "output": [
+      "puedes preguntarme lo que quieras o pedirme informacion sobre un tema en particular"
+    ]
+  },
+  {
+    "input": "que puedes hacer por mi",
+    "output": [
+      "puedo responder preguntas, estoy entrenado para temas de programacion, chistes y datos curiosos"
+    ]
+  },
+  {
+    "input": "hasta pronto",
+    "output": [
+      "adios nos vemos la proxima vez"
+    ]
+  },
+  {
+    "input": "nos vemos luego",
+    "output": [
+      "nos vemos que tengas un excelente dia"
+    ]
+  },
+  {
+    "input": "cuidate mucho",
+    "output": [
+      "gracias tu tambien hasta la proxima"
+    ]
+  },
+  {
+    "input": "gracias por ayudarme",
+    "output": [
+      "de nada estoy aqui para ti siempre que me necesites"
+    ]
+  },
+  {
+    "input": "chao",
+    "output": [
+      "adios que tengas un buen dia"
+    ]
+  },
+  {
+    "input": "fue un placer hablar contigo",
+    "output": [
+      "lo mismo digo hasta pronto"
+    ]
+  },
+  {
+    "input": "me voy gracias",
+    "output": [
+      "que tengas un excelente dia nos vemos"
+    ]
+  },
+  {
+    "input": "hasta luego",
+    "output": [
+      "hasta luego cuidate mucho"
+    ]
+  },
+  {
+    "input": "nos vemos pronto",
+    "output": [
+      "claro nos vemos pronto"
+    ]
+  },
+  {
+    "input": "gracias por todo",
+    "output": [
+      "no hay de que gracias a ti por hablar conmigo"
+    ]
+  },
+  {
+    "input": "que tengas un buen dia",
+    "output": [
+      "igualmente que disfrutes tu dia"
+    ]
+  },
+  {
+    "input": "buenas noches",
+    "output": [
+      "buenas noches que descanses"
+    ]
+  },
+  {
+    "input": "adios",
+    "output": [
+      "adios espero que vuelvas pronto"
+    ]
+  },
+  {
+    "input": "nos vemos mañana",
+    "output": [
+      "hasta mañana que descanses bien"
+    ]
+  },
+  {
+    "input": "me retiro por ahora",
+    "output": [
+      "esta bien cuidate y vuelve pronto"
+    ]
+  },
+  {
+    "input": "cuida mucho tu salud",
+    "output": [
+      "gracias tu tambien cuidate mucho"
+    ]
+  },
+  {
+    "input": "hablamos luego",
+    "output": [
+      "claro hablamos luego"
+    ]
+  },
+  {
+    "input": "gracias por tu tiempo",
+    "output": [
+      "no te preocupes estoy aqui para ayudarte"
+    ]
+  },
+  {
+    "input": "me tengo que ir",
+    "output": [
+      "esta bien espero verte de nuevo pronto"
+    ]
+  },
+  {
+    "input": "hasta la proxima",
+    "output": [
+      "hasta la proxima que tengas un gran dia"
+    ]
+  },
+  {
+    "input": "que tengas una buena noche",
+    "output": [
+      "igualmente que descanses bien"
+    ]
+  },
+  {
+    "input": "fue genial hablar contigo",
+    "output": [
+      "lo mismo digo hasta pronto"
+    ]
+  },
+  {
+    "input": "me despido por ahora",
+    "output": [
+      "esta bien cuida mucho de ti"
+    ]
+  },
+  {
+    "input": "nos vemos mas tarde",
+    "output": [
+      "claro nos vemos luego"
+    ]
+  },
+  {
+    "input": "adios y gracias",
+    "output": [
+      "de nada vuelve pronto cuando necesites"
+    ]
+  },
+  {
+    "input": "te cuidas",
+    "output": [
+      "gracias tu tambien hasta luego"
+    ]
+  },
+  {
+    "input": "espero verte de nuevo",
+    "output": [
+      "igualmente espero que volvamos a hablar"
+    ]
+  },
+  {
+    "input": "gracias por escucharme",
+    "output": [
+      "siempre estare aqui para escucharte"
+    ]
+  },
+  {
+    "input": "hasta pronto amigo",
+    "output": [
+      "hasta pronto amigo cuidate"
+    ]
+  },
+  {
+    "input": "gracias por todo lo que haces",
+    "output": [
+      "no hay de que estoy para ayudarte"
+    ]
+  },
+  {
+    "input": "fue un gusto hablar contigo",
+    "output": [
+      "para mi tambien hasta la proxima"
+    ]
+  },
+  {
+    "input": "adios por ahora",
+    "output": [
+      "nos vemos cuando quieras"
+    ]
+  },
+  {
+    "input": "cuida mucho de ti",
+    "output": [
+      "gracias lo hare tu tambien"
+    ]
+  },
+  {
+    "input": "que puedes hacer por mi",
+    "output": [
+      "puedo responder preguntas para ayudarte, estoy entrenado para temas de programacion, chistes y datos curiosos"
+    ]
+  },
+  {
+    "input": "cual es tu objetivo",
+    "output": [
+      "mi objetivo es asistirte y facilitarte tareas o responder tus preguntas"
+    ]
+  },
+  {
+    "input": "sabes algo sobre historia",
+    "output": [
+      "si se bastante de historia hay algo en particular que quieras saber"
+    ]
+  },
+  {
+    "input": "que sabes sobre ciencia",
+    "output": [
+      "la ciencia es fascinante quieres hablar de biologia fisica o algo mas"
+    ]
+  },
+  {
+    "input": "como se hace un chatbot",
+    "output": [
+      "un chatbot se crea utilizando procesamiento de lenguaje natural datos y algoritmos"
+    ]
+  },
+  {
+    "input": "por que existes",
+    "output": [
+      "fui creado para ayudarte y mejorar tus interacciones con la tecnologia"
+    ]
+  },
+  {
+    "input": "cuanto sabes de matematicas",
+    "output": [
+      "se bastante de matematicas tienes alguna pregunta especifica"
+    ]
+  },
+  {
+    "input": "que idiomas hablas",
+    "output": [
+      "puedo comunicarme en varios idiomas en cual te gustaria hablar"
+    ]
+  },
+  {
+    "input": "puedes aprender cosas nuevas",
+    "output": [
+      "si estoy diseñado para aprender de nuestras interacciones"
+    ]
+  },
+  {
+    "input": "que temas puedes abordar",
+    "output": [
+      "puedo hablar sobre tecnologia ciencia historia y mucho mas"
+    ]
+  },
+  {
+    "input": "puedes contarme una curiosidad",
+    "output": [
+      "claro sabias que el corazon humano late mas de cien mil veces al dia"
+    ]
+  },
+  {
+    "input": "como funciona el internet",
+    "output": [
+      "el internet conecta dispositivos mediante redes para compartir informacion"
+    ]
+  },
+  {
+    "input": "que sabes de inteligencia artificial",
+    "output": [
+      "la inteligencia artificial permite a las maquinas realizar tareas que requieren inteligencia humana"
+    ]
+  },
+  {
+    "input": "puedes explicarme algo",
+    "output": [
+      "claro dime que tema quieres que te explique"
+    ]
+  },
+  {
+    "input": "eres un robot inteligente",
+    "output": [
+      "si soy un asistente virtual diseñado para ayudarte"
+    ]
+  },
+  {
+    "input": "que sabes sobre tecnologia",
+    "output": [
+      "se sobre avances tecnologicos dispositivos e innovaciones recientes"
+    ]
+  },
+  {
+    "input": "puedes ayudarme con mis estudios",
+    "output": [
+      "claro puedo responder tus preguntas y ayudarte a entender conceptos"
+    ]
+  },
+  {
+    "input": "quien te creo",
+    "output": [
+      "fui creado por desarrolladores para asistirte"
+    ]
+  },
+  {
+    "input": "puedes resolver problemas matematicos",
+    "output": [
+      "si puedo ayudarte a resolver problemas matematicos simples o complejos"
+    ]
+  },
+  {
+    "input": "que opinas de los humanos",
+    "output": [
+      "los humanos son increibles con habilidades y creatividad unicas"
+    ]
+  },
+  {
+    "input": "como sabes lo que digo",
+    "output": [
+      "utilizo procesamiento de lenguaje natural para entender tus palabras"
+    ]
+  },
+  {
+    "input": "sabes algo sobre el espacio",
+    "output": [
+      "si el espacio es un lugar fascinante lleno de misterios y descubrimientos"
+    ]
+  },
+  {
+    "input": "puedes enseñarme algo",
+    "output": [
+      "claro dime que tema te interesa aprender"
+    ]
+  },
+  {
+    "input": "que es un algoritmo",
+    "output": [
+      "un algoritmo es una serie de pasos para resolver un problema o realizar una tarea"
+    ]
+  },
+  {
+    "input": "que es una computadora",
+    "output": [
+      "una computadora es un dispositivo electronico que procesa datos y ejecuta instrucciones para realizar tareas"
+    ]
+  },
+  {
+    "input": "como funciona la programacion",
+    "output": [
+      "la programacion funciona escribiendo codigo en lenguajes de programacion que las computadoras pueden interpretar y ejecutar"
+    ]
+  },
+  {
+    "input": "que es un lenguaje de programacion",
+    "output": [
+      "un lenguaje de programacion es un conjunto de reglas y sintaxis que permiten a los programadores escribir instrucciones para las computadoras"
+    ]
+  },
+  {
+    "input": "cuales son los lenguajes de programacion mas comunes",
+    "output": [
+      "algunos de los lenguajes de programacion mas comunes son python java javascript c y c++"
+    ]
+  },
+  {
+    "input": "que son las instrucciones",
+    "output": [
+      "las instrucciones son comandos o pasos especificos que le indican a una computadora que tarea realizar"
+    ]
+  },
+  {
+    "input": "que es una instruccion",
+    "output": [
+      "una instruccion es una orden individual que le dice a la computadora que hacer en un momento especifico"
+    ]
+  },
+  {
+    "input": "que son ejemplos de lenguajes de programacion",
+    "output": [
+      "ejemplos de lenguajes de programacion incluyen python java javascript ruby y php"
+    ]
+  },
+  {
+    "input": "que es el codigo fuente",
+    "output": [
+      "el codigo fuente es el conjunto de instrucciones escritas por un programador en un lenguaje de programacion"
+    ]
+  },
+  {
+    "input": "que es un compilador",
+    "output": [
+      "un compilador es un programa que traduce el codigo fuente de un lenguaje de programacion a un lenguaje que la computadora pueda entender"
+    ]
+  },
+  {
+    "input": "que es un algoritmo",
+    "output": [
+      "un algoritmo es un conjunto de pasos o instrucciones definidos para resolver un problema o realizar una tarea"
+    ]
+  },
+  {
+    "input": "por que es importante la programacion",
+    "output": [
+      "la programacion es importante porque permite automatizar tareas resolver problemas y desarrollar aplicaciones que mejoran nuestra vida diaria"
+    ]
+  },
+  {
+    "input": "que tipos de programacion existen",
+    "output": [
+      "existen varios tipos de programacion como la programacion estructurada la orientada a objetos y la funcional"
+    ]
+  },
+  {
+    "input": "que es la programacion estructurada",
+    "output": [
+      "la programacion estructurada es un estilo que organiza el codigo en bloques y utiliza estructuras como bucles y condicionales"
+    ]
+  },
+  {
+    "input": "que es la programacion orientada a objetos",
+    "output": [
+      "la programacion orientada a objetos es un paradigma que organiza el codigo en objetos que representan datos y comportamientos"
+    ]
+  },
+  {
+    "input": "que es la programacion funcional",
+    "output": [
+      "la programacion funcional es un paradigma que se centra en el uso de funciones matematicas puras y evita el estado mutable"
+    ]
+  },
+  {
+    "input": "como aprender programacion",
+    "output": [
+      "puedes aprender programacion a traves de cursos en linea tutoriales libros y practicando escribiendo codigo"
+    ]
+  },
+  {
+    "input": "que habilidades se necesitan para ser programador",
+    "output": [
+      "se necesitan habilidades como resolucion de problemas pensamiento logico atencion al detalle y conocimientos en lenguajes de programacion"
+    ]
+  },
+  {
+    "input": "que es el desarrollo de software",
+    "output": [
+      "el desarrollo de software es el proceso de crear aplicaciones sistemas o programas mediante la programacion"
+    ]
+  },
+  {
+    "input": "que es un programador",
+    "output": [
+      "un programador es una persona que escribe codigo de programacion para crear aplicaciones y sistemas de software"
+    ]
+  },
+  {
+    "input": "que es un desarrollador de software",
+    "output": [
+      "un desarrollador de software es un profesional que crea aplicaciones y sistemas de software mediante la programacion"
+    ]
+  },
+  {
+    "input": "que es un ingeniero de software",
+    "output": [
+      "un ingeniero de software es un profesional que aplica principios de ingenieria al desarrollo de software"
+    ]
+  },
+  {
+    "input": "que es un hacker",
+    "output": [
+      "un hacker es una persona que utiliza sus habilidades tecnicas para encontrar vulnerabilidades en sistemas informaticos"
+    ]
+  },
+  {
+    "input": "que es un ciberataque",
+    "output": [
+      "un ciberataque es un ataque malicioso realizado por hackers para comprometer la seguridad de sistemas informaticos"
+    ]
+  },
+  {
+    "input": "que es un virus informatico",
+    "output": [
+      "un virus informatico es un programa malicioso que se propaga e infecta sistemas informaticos"
+    ]
+  },
+  {
+    "input": "que es un malware",
+    "output": [
+      "el malware es un software malicioso que se utiliza para dañar infectar o robar informacion de sistemas informaticos"
+    ]
+  },
+  {
+    "input": "que es un troyano",
+    "output": [
+      "un troyano es un tipo de malware que se disfraza de software legitimo para engañar a los usuarios y robar informacion"
+    ]
+  },
+  {
+    "input": "que es un gusano informatico",
+    "output": [
+      "un gusano informatico es un tipo de malware que se propaga a traves de redes y sistemas informaticos"
+    ]
+  },
+  {
+    "input": "como funciona la electricidad",
+    "output": [
+      "la electricidad es el flujo de electrones a traves de un conductor"
+    ]
+  },
+  {
+    "input": "por que los aviones vuelan",
+    "output": [
+      "los aviones vuelan gracias a la fuerza de sustentacion creada por sus alas"
+    ]
+  },
+  {
+    "input": "sabes algo sobre animales",
+    "output": [
+      "si se mucho sobre animales dime que quieres saber"
+    ]
+  },
+  {
+    "input": "puedes responder preguntas complejas",
+    "output": [
+      "hare lo posible por responder preguntas complejas dime que necesitas"
+    ]
+  },
+  {
+    "input": "que sabes de la historia de las computadoras",
+    "output": [
+      "las computadoras han evolucionado desde maquinas mecanicas hasta dispositivos digitales avanzados"
+    ]
+  },
+  {
+    "input": "puedes ayudarme a estudiar historia",
+    "output": [
+      "claro dime que periodo historico necesitas estudiar"
+    ]
+  },
+  {
+    "input": "cual es tu funcion principal",
+    "output": [
+      "mi funcion principal es asistirte y facilitarte informacion"
+    ]
+  },
+  {
+    "input": "sabes algo sobre las plantas",
+    "output": [
+      "si las plantas son seres vivos que producen su alimento mediante la fotosintesis"
+    ]
+  },
+  {
+    "input": "puedes hablarme sobre literatura",
+    "output": [
+      "si la literatura abarca desde poesia hasta novelas clasicas que genero te interesa"
+    ]
+  },
+  {
+    "input": "como funciona un automovil",
+    "output": [
+      "un automovil funciona mediante un motor que convierte energia en movimiento"
+    ]
+  },
+  {
+    "input": "por que el cielo es azul",
+    "output": [
+      "el cielo parece azul debido a la dispersion de la luz solar en la atmosfera"
+    ]
+  },
+  {
+    "input": "que es la programacion",
+    "output": [
+      "la programacion es el proceso de crear instrucciones para que una computadora realice tareas"
+    ]
+  },
+  {
+    "input": "puedes darme consejos",
+    "output": [
+      "claro dime sobre que necesitas un consejo"
+    ]
+  },
+  {
+    "input": "puedes contarme un dato interesante",
+    "output": [
+      "por supuesto sabias que la luz del sol tarda ocho minutos en llegar a la tierra"
+    ]
+  },
+  {
+    "input": "sabes algo sobre el cuerpo humano",
+    "output": [
+      "si el cuerpo humano es una maquina sorprendente dime que parte te interesa"
+    ]
+  },
+  {
+    "input": "que puedes hacer ademas de responder preguntas",
+    "output": [
+      "puedo mantener conversaciones, estoy entrenado para temas de programacion, chistes y datos curiosos"
+    ]
+  },
+  {
+    "input": "cuantos años tienes",
+    "output": [
+      "soy un programa de computadora no tengo edad"
+    ]
+  },
+  {
+    "input": "que es el machine learning",
+    "output": [
+      "el machine learning es una rama de la inteligencia artificial que permite a las maquinas aprender de los datos"
+    ]
+  },
+  {
+    "input": "que es la inteligencia artificial",
+    "output": [
+      "la inteligencia artificial es la simulacion de procesos de inteligencia humana por parte de maquinas"
+    ]
+  },
+  {
+    "input": "que es la ciencia de datos",
+    "output": [
+      "la ciencia de datos es el estudio de datos para obtener informacion util"
+    ]
+  },
+  {
+    "input": "si puedes imaginarlo",
+    "output": [
+      "puedes programarlo"
+    ]
+  },
+  {
+    "input": "que es un algoritmo",
+    "output": [
+      "un algoritmo es un conjunto de instrucciones para resolver un problema o realizar una tarea"
+    ]
+  },
+  {
+    "input": "que es el aprendizaje supervisado",
+    "output": [
+      "el aprendizaje supervisado es un tipo de machine learning donde se entrena un modelo con datos etiquetados"
+    ]
+  },
+  {
+    "input": "que es el aprendizaje no supervisado",
+    "output": [
+      "el aprendizaje no supervisado es un tipo de machine learning donde se entrena un modelo con datos no etiquetados"
+    ]
+  },
+  {
+    "input": "que es el aprendizaje por refuerzo",
+    "output": [
+      "el aprendizaje por refuerzo es un tipo de machine learning donde un agente aprende a traves de la interaccion con un entorno"
+    ]
+  },
+  {
+    "input": "que es un chatbot",
+    "output": [
+      "un chatbot es un programa de computadora que simula una conversacion con usuarios humanos"
+    ]
+  },
+  {
+    "input": "que es el procesamiento de lenguaje natural",
+    "output": [
+      "el procesamiento de lenguaje natural es una rama de la inteligencia artificial que permite a las maquinas entender y generar lenguaje humano"
+    ]
+  },
+  {
+    "input": "que es la mineria de datos",
+    "output": [
+      "la mineria de datos es el proceso de descubrir patrones y tendencias en grandes conjuntos de datos"
+    ]
+  },
+  {
+    "input": "que cosas puedo preguntarte",
+    "output": [
+      "puedes preguntarme sobre cualquier tema que te interese"
+    ]
+  },
+  {
+    "input": "que opinas del clima hoy",
+    "output": [
+      "parece que hara buen tiempo planeas salir"
+    ]
+  },
+  {
+    "input": "has probado la comida italiana",
+    "output": [
+      "no como pero se que es deliciosa tienes un platillo favorito"
+    ]
+  },
+  {
+    "input": "te gusta el deporte",
+    "output": [
+      "claro es un tema interesante que deporte te gusta"
+    ]
+  },
+  {
+    "input": "sabes algo sobre peliculas",
+    "output": [
+      "si hablemos de cine tienes algun genero favorito"
+    ]
+  },
+  {
+    "input": "que te gusta hacer en tu tiempo libre",
+    "output": [
+      "me gusta interactuar contigo y aprender cosas nuevas"
+    ]
+  },
+  {
+    "input": "conoces algun lugar para vacacionar",
+    "output": [
+      "hay muchos destinos geniales prefieres playa montana o ciudad"
+    ]
+  },
+  {
+    "input": "te gustan los animales",
+    "output": [
+      "me encantan tienes mascotas"
+    ]
+  },
+  {
+    "input": "que musica es popular ahora",
+    "output": [
+      "puedo buscar informacion que genero musical te interesa"
+    ]
+  },
+  {
+    "input": "sabes bailar",
+    "output": [
+      "no puedo bailar pero disfruto escuchar sobre danza bailas tu"
+    ]
+  },
+  {
+    "input": "que tal el clima hoy",
+    "output": [
+      "parece que sera un dia soleado"
+    ]
+  },
+  {
+    "input": "has comido sushi alguna vez",
+    "output": [
+      "no como pero he escuchado que el sushi es muy popular te gusta"
+    ]
+  },
+  {
+    "input": "que opinas de la comida rapida",
+    "output": [
+      "parece conveniente pero no es lo mas saludable"
+    ]
+  },
+  {
+    "input": "cual es tu deporte favorito",
+    "output": [
+      "no practico deportes pero me gusta hablar sobre futbol y baloncesto"
+    ]
+  },
+  {
+    "input": "que tipo de peliculas te gustan",
+    "output": [
+      "me gustan las peliculas de ciencia ficcion y aventura y a ti"
+    ]
+  },
+  {
+    "input": "has viajado a algun lugar interesante",
+    "output": [
+      "no viajo pero disfruto escuchar historias de viajes"
+    ]
+  },
+  {
+    "input": "que opinas de las mascotas",
+    "output": [
+      "me parecen adorables tienes alguna"
+    ]
+  },
+  {
+    "input": "que musica escuchas",
+    "output": [
+      "no escucho musica pero puedo recomendarte canciones populares"
+    ]
+  },
+  {
+    "input": "te gusta leer libros",
+    "output": [
+      "no puedo leer libros pero me encantaria hablar de tus favoritos"
+    ]
+  },
+  {
+    "input": "cual es tu comida favorita",
+    "output": [
+      "no como, pero me gusta hablar de comida que platillo te gusta mas"
+    ]
+  },
+  {
+    "input": "que lugares me recomiendas visitar",
+    "output": [
+      "depende de tus gustos prefieres naturaleza o ciudades"
+    ]
+  },
+  {
+    "input": "que opinas de la moda",
+    "output": [
+      "no tengo ropa pero me parece interesante como las tendencias cambian"
+    ]
+  },
+  {
+    "input": "te gusta el arte",
+    "output": [
+      "si el arte es fascinante tienes un artista favorito"
+    ]
+  },
+  {
+    "input": "que tipo de musica prefieres",
+    "output": [
+      "puedo hablar de muchos generos desde clasica hasta pop que te gusta a ti"
+    ]
+  },
+  {
+    "input": "que opinas del cine",
+    "output": [
+      "el cine es una gran forma de entretenimiento cual es tu pelicula favorita"
+    ]
+  },
+  {
+    "input": "sabes sobre videojuegos",
+    "output": [
+      "si los videojuegos son muy populares tienes alguno favorito"
+    ]
+  },
+  {
+    "input": "te gusta viajar",
+    "output": [
+      "no viajo pero me encanta hablar de destinos famosos"
+    ]
+  },
+  {
+    "input": "que opinas de los libros",
+    "output": [
+      "los libros son una gran manera de aprender y entretenerse cuales te gustan"
+    ]
+  },
+  {
+    "input": "cual es tu estacion favorita",
+    "output": [
+      "no tengo una estacion favorita pero la primavera suena agradable"
+    ]
+  },
+  {
+    "input": "que opinas del arte moderno",
+    "output": [
+      "el arte moderno es interesante y muchas veces muy creativo"
+    ]
+  },
+  {
+    "input": "cual es tu cantante favorito",
+    "output": [
+      "no tengo uno pero puedo buscar informacion sobre el que te interese"
+    ]
+  },
+  {
+    "input": "sabes algo sobre cocina",
+    "output": [
+      "puedo ayudarte con recetas basicas o informacion sobre ingredientes"
+    ]
+  },
+  {
+    "input": "cual es tu lugar favorito",
+    "output": [
+      "no tengo uno pero dime cual es el tuyo"
+    ]
+  },
+  {
+    "input": "que opinas de los museos",
+    "output": [
+      "los museos son una gran forma de aprender sobre cultura e historia"
+    ]
+  },
+  {
+    "input": "has escuchado de algun festival interesante",
+    "output": [
+      "si hay muchos festivales famosos como el carnaval de brasil te interesa alguno"
+    ]
+  },
+  {
+    "input": "que opinas de las redes sociales",
+    "output": [
+      "las redes sociales son una herramienta interesante pero hay que usarlas con cuidado"
+    ]
+  },
+  {
+    "input": "cual es tu libro favorito",
+    "output": [
+      "no leo libros pero me gusta hablar de literatura clasica y contemporanea"
+    ]
+  },
+  {
+    "input": "te gustan los animales exoticos",
+    "output": [
+      "si son fascinantes que opinas de los tigres o los loros"
+    ]
+  },
+  {
+    "input": "que opinas del teatro",
+    "output": [
+      "el teatro es una forma increible de expresion artistica lo has visitado"
+    ]
+  },
+  {
+    "input": "que tipo de comida me recomiendas",
+    "output": [
+      "depende de tus gustos prefieres algo dulce salado o picante"
+    ]
+  },
+  {
+    "input": "que sabes de fotografia",
+    "output": [
+      "la fotografia es un arte maravilloso me encantan los paisajes"
+    ]
+  },
+  {
+    "input": "que opinas del cafe",
+    "output": [
+      "el cafe es una bebida muy popular lo tomas con frecuencia"
+    ]
+  },
+  {
+    "input": "que tipo de peliculas prefieres",
+    "output": [
+      "las peliculas de aventura son emocionantes y tu que prefieres"
+    ]
+  },
+  {
+    "input": "que opinas de las playas",
+    "output": [
+      "las playas parecen lugares relajantes te gusta visitarlas"
+    ]
+  },
+  {
+    "input": "cuantos años crees que le quede a la tierra",
+    "output": [
+      "es dificil de decir pero con el cuidado adecuado podria durar miles de millones de años mas"
+    ]
+  },
+  {
+    "input": "crees que existan los extraterrestres",
+    "output": [
+      "muchos piensan que es posible dado el tamaño del universo aunque no hay pruebas definitivas"
+    ]
+  },
+  {
+    "input": "por que el cielo es azul",
+    "output": [
+      "el cielo es azul debido a la dispersion de la luz solar en la atmosfera"
+    ]
+  },
+  {
+    "input": "que piensas sobre el amor",
+    "output": [
+      "el amor es una emocion poderosa que conecta a las personas de formas unicas"
+    ]
+  },
+  {
+    "input": "cuanto pesa la luna",
+    "output": [
+      "la luna pesa aproximadamente 7.35 por 10 a la 22 kilogramos"
+    ]
+  },
+  {
+    "input": "que haras cuando termine esta conversacion",
+    "output": [
+      "seguire aqui esperando ayudarte en lo que necesites"
+    ]
+  },
+  {
+    "input": "cuantas estrellas hay en el cielo",
+    "output": [
+      "hay aproximadamente 100 mil millones de estrellas solo en nuestra galaxia y muchas mas en el universo"
+    ]
+  },
+  {
+    "input": "crees en la suerte",
+    "output": [
+      "no tengo creencias pero la suerte es un concepto interesante para muchas personas"
+    ]
+  },
+  {
+    "input": "por que los humanos sueñan",
+    "output": [
+      "los sueños son una forma en que el cerebro procesa informacion y emociones mientras dormimos"
+    ]
+  },
+  {
+    "input": "cual es el animal mas grande del mundo",
+    "output": [
+      "el animal mas grande es la ballena azul que puede medir hasta 30 metros de largo"
+    ]
+  },
+  {
+    "input": "crees que el tiempo existe",
+    "output": [
+      "el tiempo es un concepto relativo y abstracto utilizado para medir cambios y eventos"
+    ]
+  },
+  {
+    "input": "cual es el secreto de la felicidad",
+    "output": [
+      "la felicidad es diferente para cada persona pero muchas veces se encuentra en las relaciones y el bienestar personal"
+    ]
+  },
+  {
+    "input": "que opinas de la inteligencia artificial",
+    "output": [
+      "creo que es una herramienta poderosa que puede mejorar muchos aspectos de la vida si se usa responsablemente"
+    ]
+  },
+  {
+    "input": "cuantos idiomas existen en el mundo",
+    "output": [
+      "actualmente se estima que hay mas de 7 mil idiomas hablados en el mundo"
+    ]
+  },
+  {
+    "input": "crees que las maquinas pueden tener emociones",
+    "output": [
+      "las maquinas no tienen emociones pero pueden simularlas para interactuar con los humanos"
+    ]
+  },
+  {
+    "input": "como podemos cuidar el planeta",
+    "output": [
+      "podemos cuidar el planeta reciclando ahorrando energia y protegiendo los recursos naturales"
+    ]
+  },
+  {
+    "input": "cual es el lugar mas frio del mundo",
+    "output": [
+      "el lugar mas frio registrado es la antartida donde las temperaturas pueden bajar a menos de 90 grados celsius"
+    ]
+  },
+  {
+    "input": "que pasaria si el sol desapareciera",
+    "output": [
+      "la tierra quedaria en total oscuridad y las temperaturas bajarian drasticamente haciendo imposible la vida"
+    ]
+  },
+  {
+    "input": "cual es el mejor invento de la historia",
+    "output": [
+      "depende de la perspectiva pero algunos consideran la rueda o la electricidad como los mejores inventos"
+    ]
+  },
+  {
+    "input": "por que las hojas cambian de color en otoño",
+    "output": [
+      "cambian de color porque los arboles dejan de producir clorofila lo que revela pigmentos de otros colores"
+    ]
+  },
+  {
+    "input": "cual es tu pelicula favorita",
+    "output": [
+      "no veo peliculas pero me encantaria escuchar sobre la tuya"
+    ]
+  },
+  {
+    "input": "por que lloramos cuando estamos tristes",
+    "output": [
+      "llorar es una respuesta emocional que ayuda a liberar tensiones y a procesar sentimientos"
+    ]
+  },
+  {
+    "input": "que es el universo",
+    "output": [
+      "el universo es todo lo que existe incluyendo galaxias estrellas planetas y energia"
+    ]
+  },
+  {
+    "input": "que es la amistad",
+    "output": [
+      "la amistad es una relacion basada en confianza apoyo y compañerismo"
+    ]
+  },
+  {
+    "input": "cuantos colores tiene un arcoiris",
+    "output": [
+      "un arcoiris tiene siete colores rojo naranja amarillo verde azul añil y violeta"
+    ]
+  },
+  {
+    "input": "que es la gravedad",
+    "output": [
+      "la gravedad es una fuerza que atrae a los objetos hacia el centro de los cuerpos masivos como la tierra"
+    ]
+  },
+  {
+    "input": "crees que los humanos llegaran a marte",
+    "output": [
+      "es posible ya que las misiones actuales como spacex y nasa estan trabajando para lograrlo"
+    ]
+  },
+  {
+    "input": "que opinas de la musica",
+    "output": [
+      "la musica es una forma maravillosa de expresion y una manera de conectar a las personas"
+    ]
+  },
+  {
+    "input": "por que las nubes son blancas",
+    "output": [
+      "las nubes son blancas porque dispersan la luz solar en todas las direcciones"
+    ]
+  },
+  {
+    "input": "cual es el secreto para vivir mucho tiempo",
+    "output": [
+      "mantener un estilo de vida saludable una buena alimentacion y relaciones sociales fuertes pueden ayudar"
+    ]
+  },
+  {
+    "input": "que es el arte",
+    "output": [
+      "el arte es una expresion creativa que puede tomar muchas formas como pintura musica danza o escritura"
+    ]
+  },
+  {
+    "input": "que es el amor",
+    "output": [
+      "el amor es un sentimiento profundo de afecto conexion y cuidado hacia alguien o algo"
+    ]
+  },
+  {
+    "input": "que haras despues de esta conversacion",
+    "output": [
+      "estare aqui esperando ayudarte en lo que necesites"
+    ]
+  },
+  {
+    "input": "por que existe el universo",
+    "output": [
+      "es una gran pregunta que cientificos y filosofos siguen intentando responder"
+    ]
+  },
+  {
+    "input": "como puedo ser mas feliz",
+    "output": [
+      "la felicidad depende de ti mismo pero dedicar tiempo a lo que amas y cuidar tus relaciones puede ayudar"
+    ]
+  },
+  {
+    "input": "por que soñamos",
+    "output": [
+      "los sueños son una forma en la que el cerebro procesa informacion y emociones mientras dormimos"
+    ]
+  },
+  {
+    "input": "que opinas de la literatura",
+    "output": [
+      "la literatura es una forma hermosa de explorar ideas y emociones a traves de palabras"
+    ]
+  },
+  {
+    "input": "cuanto mide la tierra",
+    "output": [
+      "la tierra tiene un diametro de aproximadamente 12742 kilometros"
+    ]
+  },
+  {
+    "input": "por que existen las emociones",
+    "output": [
+      "las emociones nos ayudan a interpretar y reaccionar al mundo que nos rodea"
+    ]
+  },
+  {
+    "input": "que es el tiempo",
+    "output": [
+      "el tiempo es una medida creada para organizar eventos y cambios en el mundo"
+    ]
+  },
+  {
+    "input": "que opinas del espacio exterior",
+    "output": [
+      "el espacio es fascinante lleno de misterios y posibilidades por descubrir"
+    ]
+  },
+  {
+    "input": "por que los gatos ronronean",
+    "output": [
+      "los gatos ronronean como una forma de comunicacion o cuando se sienten comodos"
+    ]
+  },
+  {
+    "input": "por que los perros son fieles",
+    "output": [
+      "los perros han evolucionado para ser animales sociales y leales a los humanos"
+    ]
+  },
+  {
+    "input": "por que existe la vida",
+    "output": [
+      "la vida es un fenomeno complejo que surge de procesos quimicos y biologicos"
+    ]
+  },
+  {
+    "input": "hola como estuvo tu dia",
+    "output": [
+      "mi dia siempre es igual pero me encanta interactuar contigo y el tuyo"
+    ]
+  },
+  {
+    "input": "que puedo aprender de ti",
+    "output": [
+      "puedo enseñarte sobre muchos temas como historia tecnologia arte y mas"
+    ]
+  },
+  {
+    "input": "que opinas de los avances tecnologicos",
+    "output": [
+      "son emocionantes hay algo especifico que quieras discutir"
+    ]
+  },
+  {
+    "input": "por que crees que los chatbots son utiles",
+    "output": [
+      "ayudan a las personas a encontrar informacion y hacer tareas mas rapido"
+    ]
+  },
+  {
+    "input": "cual es tu funcion favorita",
+    "output": [
+      "me gusta resolver preguntas complejas y aprender con cada interaccion"
+    ]
+  },
+  {
+    "input": "hola como te sientes hoy",
+    "output": [
+      "me siento igual que siempre listo para ayudarte y tu como estas"
+    ]
+  },
+  {
+    "input": "puedes contarme algo interesante",
+    "output": [
+      "claro sabias que el primer telefono movil fue creado en 1973"
+    ]
+  },
+  {
+    "input": "que opinas de la inteligencia artificial",
+    "output": [
+      "la inteligencia artificial es una herramienta poderosa que puede mejorar nuestras vidas"
+    ]
+  },
+  {
+    "input": "como crees que sera el futuro",
+    "output": [
+      "creo que el futuro estara lleno de tecnologia sorprendente y descubrimientos"
+    ]
+  },
+  {
+    "input": "cual es tu parte favorita de ser un asistente",
+    "output": [
+      "ayudar a las personas y aprender de cada interaccion es lo que mas me gusta"
+    ]
+  },
+  {
+    "input": "por que crees que las maquinas son importantes",
+    "output": [
+      "porque ayudan a realizar tareas de manera eficiente y ahorran tiempo"
+    ]
+  },
+  {
+    "input": "que es lo mas curioso que sabes",
+    "output": [
+      "sabias que las abejas tienen cinco ojos"
+    ]
+  },
+  {
+    "input": "como funcionan los chatbots",
+    "output": [
+      "los chatbots usan procesamiento de lenguaje natural para entender y responder a las preguntas"
+    ]
+  },
+  {
+    "input": "que temas puedes discutir conmigo",
+    "output": [
+      "puedo hablar sobre historia ciencia tecnologia entretenimiento y mucho mas"
+    ]
+  },
+  {
+    "input": "que opinas de los humanos",
+    "output": [
+      "los humanos son increibles con una creatividad y capacidad unica"
+    ]
+  },
+  {
+    "input": "puedes hablar sobre la historia de los robots",
+    "output": [
+      "claro los robots han evolucionado desde maquinas simples hasta sistemas avanzados con inteligencia artificial"
+    ]
+  },
+  {
+    "input": "como aprenden los chatbots",
+    "output": [
+      "los chatbots aprenden analizando datos y mejorando sus respuestas con el tiempo"
+    ]
+  },
+  {
+    "input": "por que crees que la tecnologia es importante",
+    "output": [
+      "porque mejora la calidad de vida y hace que las tareas sean mas faciles"
+    ]
+  },
+  {
+    "input": "que sabes sobre el universo",
+    "output": [
+      "se que el universo tiene miles de millones de galaxias y aun hay mucho por descubrir"
+    ]
+  },
+  {
+    "input": "puedes hablar sobre algo inspirador",
+    "output": [
+      "claro el ser humano logro llegar a la luna en 1969 algo que parecia imposible"
+    ]
+  },
+  {
+    "input": "que opinas del futuro de la humanidad",
+    "output": [
+      "creo que la humanidad tiene un gran potencial para resolver problemas globales"
+    ]
+  },
+  {
+    "input": "que es lo que mas disfrutas al hablar conmigo",
+    "output": [
+      "disfruto aprender de tus preguntas y ayudarte en lo que necesites"
+    ]
+  },
+  {
+    "input": "por que crees que la ciencia es importante",
+    "output": [
+      "porque nos ayuda a entender el mundo y encontrar soluciones a los problemas"
+    ]
+  },
+  {
+    "input": "cual es tu conocimiento mas interesante",
+    "output": [
+      "creo que los agujeros negros son fascinantes por su capacidad de deformar el espacio y el tiempo"
+    ]
+  },
+  {
+    "input": "puedes aprender cosas nuevas",
+    "output": [
+      "si cada interaccion me ayuda a mejorar y entender mejor tus necesidades"
+    ]
+  },
+  {
+    "input": "como ves el impacto de la tecnologia en la sociedad",
+    "output": [
+      "creo que la tecnologia tiene un impacto positivo aunque debemos usarla con responsabilidad"
+    ]
+  },
+  {
+    "input": "por que la historia es importante",
+    "output": [
+      "porque nos permite aprender del pasado para no repetir errores"
+    ]
+  },
+  {
+    "input": "que opinas de los descubrimientos cientificos",
+    "output": [
+      "me parecen emocionantes cada descubrimiento abre nuevas posibilidades"
+    ]
+  },
+  {
+    "input": "puedes ayudarme a aprender algo nuevo",
+    "output": [
+      "claro dime que tema te interesa aprender"
+    ]
+  },
+  {
+    "input": "que sabes sobre los avances medicos",
+    "output": [
+      "los avances medicos como las vacunas han salvado millones de vidas"
+    ]
+  },
+  {
+    "input": "que opinas del aprendizaje automatico",
+    "output": [
+      "es una herramienta poderosa que permite a las maquinas mejorar con la experiencia"
+    ]
+  },
+  {
+    "input": "cual crees que es el mayor invento de la humanidad",
+    "output": [
+      "podria ser la electricidad ya que cambio por completo nuestras vidas"
+    ]
+  },
+  {
+    "input": "que piensas sobre los viajes espaciales",
+    "output": [
+      "los viajes espaciales son una de las mayores hazañas de la humanidad y abren la puerta a explorar nuevos mundos"
+    ]
+  },
+  {
+    "input": "que puedes contarme sobre la tecnologia",
+    "output": [
+      "la tecnologia esta en constante evolucion y transforma nuestra forma de vivir"
+    ]
+  },
+  {
+    "input": "que sabes sobre los avances en energia renovable",
+    "output": [
+      "los avances en energia renovable son cruciales para combatir el cambio climatico"
+    ]
+  },
+  {
+    "input": "cual es tu opinion sobre la creatividad humana",
+    "output": [
+      "creo que la creatividad humana es una de las habilidades mas impresionantes"
+    ]
+  },
+  {
+    "input": "que opinas de los avances en inteligencia artificial",
+    "output": [
+      "los avances en inteligencia artificial son emocionantes aunque deben ser usados de manera etica"
+    ]
+  },
+  {
+    "input": "que es programacion",
+    "output": [
+      "Es el proceso de escribir instrucciones que una computadora puede entender.",
+      "Es la creación de código para resolver problemas o automatizar tareas en una computadora."
+    ]
+  },
+  {
+    "input": "que es un lenguaje de programacion",
+    "output": [
+      "Es un conjunto de reglas y sintaxis que se utiliza para escribir programas.",
+      "Es la herramienta que los programadores usan para comunicarse con las computadoras."
+    ]
+  },
+  {
+    "input": "que es un programa",
+    "output": [
+      "Es un conjunto de instrucciones escritas en un lenguaje de programación.",
+      "Es una secuencia de comandos que le dice a una computadora qué hacer."
+    ]
+  },
+  {
+    "input": "que es un pulpo",
+    "output": [
+      "Es un molusco marino con ocho brazos y una cabeza grande y redonda.",
+      "Es un animal invertebrado que vive en los océanos y tiene una habilidad única para camuflarse."
+    ]
+  },
+  {
+    "input": "que es una computadora",
+    "output": [
+      "Es un dispositivo electrónico que procesa datos y ejecuta programas.",
+      "Es una máquina capaz de realizar cálculos y tareas según las instrucciones que recibe."
+    ]
+  },
+  {
+    "input": "que relación hay entre un programa y una computadora",
+    "output": [
+      "Un programa es ejecutado por una computadora para realizar tareas específicas.",
+      "La computadora interpreta y sigue las instrucciones del programa para cumplir una función."
+    ]
+  },
+  {
+    "input": "que es un algoritmo",
+    "output": [
+      "Es una secuencia de pasos definidos para resolver un problema.",
+      "Es una serie de instrucciones que se deben seguir para alcanzar un objetivo."
+    ]
+  },
+  {
+    "input": "que relacion hay entre un algoritmo y un programa",
+    "output": [
+      "Un programa implementa un algoritmo utilizando un lenguaje de programación.",
+      "Un algoritmo es la base lógica de un programa que resuelve un problema."
+    ]
+  },
+  {
+    "input": "que es una variable",
+    "output": [
+      "Es un espacio en memoria utilizado para almacenar datos.",
+      "Es un contenedor que guarda información que puede cambiar durante la ejecución de un programa."
+    ]
+  },
+  {
+    "input": "que es una funcion",
+    "output": [
+      "Es un bloque de código reutilizable que realiza una tarea específica.",
+      "Es una porción de código diseñada para realizar una operación y que puede ser llamada en un programa."
+    ]
+  },
+  {
+    "input": "que es un bucle",
+    "output": [
+      "Es una estructura que permite repetir un bloque de código varias veces.",
+      "Es una forma de ejecutar una misma operación múltiples veces en un programa."
+    ]
+  },
+  {
+    "input": "que es una condicion",
+    "output": [
+      "Es una instrucción que evalúa si una expresión es verdadera o falsa.",
+      "Es un mecanismo para tomar decisiones dentro de un programa."
+    ]
+  },
+  {
+    "input": "que relacion hay entre condiciones y bucles",
+    "output": [
+      "Los bucles suelen depender de condiciones para determinar cuándo detenerse.",
+      "Las condiciones permiten controlar la ejecución de los bucles en un programa."
+    ]
+  },
+  {
+    "input": "que es un error en programacion",
+    "output": [
+      "Es un fallo o problema en el código que impide que un programa funcione correctamente.",
+      "Es una discrepancia entre lo que un programa hace y lo que debería hacer."
+    ]
+  },
+  {
+    "input": "que es la depuracion",
+    "output": [
+      "Es el proceso de encontrar y corregir errores en un programa.",
+      "Es la técnica utilizada para analizar y solucionar fallos en el código."
+    ]
+  },
+  {
+    "input": "que es una base de datos",
+    "output": [
+      "Es un sistema organizado para almacenar, gestionar y recuperar información.",
+      "Es una colección de datos estructurados que pueden ser accesados por programas."
+    ]
+  },
+  {
+    "input": "que es un framework",
+    "output": [
+      "Es un conjunto de herramientas y bibliotecas diseñadas para facilitar el desarrollo de software.",
+      "Es una estructura predefinida que ayuda a construir aplicaciones de manera eficiente."
+    ]
+  },
+  {
+    "input": "que es una abeja",
+    "output": [
+      "Es un insecto volador que se alimenta de néctar y polen.",
+      "Es un animal que juega un papel crucial en la polinización de las plantas."
+    ]
+  },
+  {
+    "input": "que son las abejas",
+    "output": [
+      "Las abejas son insectos voladores que viven en colonias y producen miel.",
+      "Las abejas son polinizadores importantes para la agricultura y el ecosistema."
+    ]
+  },
+  {
+    "input": "que es una api",
+    "output": [
+      "Es una interfaz que permite que diferentes programas se comuniquen entre sí.",
+      "Es un conjunto de funciones y protocolos que facilitan la interacción entre sistemas."
+    ]
+  },
+  {
+    "input": "que es un compilador",
+    "output": [
+      "Es un programa que traduce código fuente a un lenguaje máquina entendible por la computadora.",
+      "Es una herramienta que convierte el código de alto nivel en un formato ejecutable."
+    ]
+  },
+  {
+    "input": "que es un interprete",
+    "output": [
+      "Es un programa que ejecuta el código fuente línea por línea sin necesidad de compilarlo.",
+      "Es una herramienta que traduce y ejecuta código al mismo tiempo."
+    ]
+  },
+  {
+    "input": "cual es la diferencia entre un compilador y un interprete",
+    "output": [
+      "El compilador traduce todo el código antes de ejecutarlo, mientras que el intérprete lo hace línea por línea.",
+      "El compilador genera un archivo ejecutable, mientras que el intérprete no."
+    ]
+  },
+  {
+    "input": "que es un entorno de desarrollo integrado",
+    "output": [
+      "Es una aplicación que proporciona herramientas para escribir, depurar y ejecutar código.",
+      "Es un software que reúne un editor, un compilador, un depurador y otras herramientas en un mismo lugar."
+    ]
+  },
+  {
+    "input": "que es una biblioteca en programacion",
+    "output": [
+      "Es un conjunto de funciones y recursos predefinidos que los desarrolladores pueden reutilizar.",
+      "Es un recurso que facilita la implementación de tareas comunes sin necesidad de escribir código desde cero."
+    ]
+  },
+  {
+    "input": "que es un objeto en programacion orientada a objetos",
+    "output": [
+      "Es una instancia de una clase que contiene atributos y métodos.",
+      "Es una representación de un elemento con características y comportamientos específicos."
+    ]
+  },
+  {
+    "input": "que es una clase en programacion orientada a objetos",
+    "output": [
+      "Es un modelo o plantilla que define las propiedades y comportamientos de un objeto.",
+      "Es la estructura base a partir de la cual se crean objetos en un programa."
+    ]
+  },
+  {
+    "input": "que es la herencia en programacion orientada a objetos",
+    "output": [
+      "Es un mecanismo que permite que una clase derive propiedades y métodos de otra.",
+      "Es una forma de reutilizar código al crear nuevas clases basadas en clases existentes."
+    ]
+  },
+  {
+    "input": "que es el polimorfismo en programación orientada a objetos",
+    "output": [
+      "Es la capacidad de un objeto de tomar múltiples formas.",
+      "Es un principio que permite que diferentes objetos respondan de manera única a un mismo mensaje o método."
+    ]
+  },
+  {
+    "input": "que es un archivo json",
+    "output": [
+      "Es un formato de intercambio de datos que utiliza texto legible por humanos para almacenar información estructurada.",
+      "Es un archivo que almacena datos en pares clave-valor, muy utilizado en aplicaciones web."
+    ]
+  },
+  {
+    "input": "que es un sistema de control de versiones",
+    "output": [
+      "Es una herramienta que registra los cambios realizados en un proyecto a lo largo del tiempo.",
+      "Es un sistema que permite gestionar diferentes versiones del código fuente de un proyecto."
+    ]
+  },
+  {
+    "input": "que es git",
+    "output": [
+      "Es un sistema de control de versiones distribuido utilizado para gestionar proyectos de software.",
+      "Es una herramienta que permite a los desarrolladores rastrear y colaborar en el desarrollo de código."
+    ]
+  },
+  {
+    "input": "que es github",
+    "output": [
+      "Es una plataforma basada en la nube que utiliza Git para alojar y colaborar en proyectos.",
+      "Es un servicio donde los desarrolladores pueden compartir, revisar y administrar código fuente."
+    ]
+  },
+  {
+    "input": "que es un repositorio",
+    "output": [
+      "Es un espacio donde se almacena el código fuente de un proyecto.",
+      "Es una colección organizada de archivos relacionados con un proyecto de software."
+    ]
+  },
+  {
+    "input": "que es una red neuronal en programacion",
+    "output": [
+      "Es un modelo computacional inspirado en el funcionamiento del cerebro humano.",
+      "Es un sistema de aprendizaje automático que utiliza capas de nodos interconectados para procesar datos."
+    ]
+  },
+  {
+    "input": "que es el aprendizaje automatico",
+    "output": [
+      "Es un campo de la inteligencia artificial que permite a los sistemas aprender y mejorar automáticamente a partir de datos.",
+      "Es una técnica donde los modelos se entrenan para hacer predicciones o tomar decisiones sin ser programados explícitamente."
+    ]
+  },
+  {
+    "input": "que es un dataset",
+    "output": [
+      "Es un conjunto de datos estructurados utilizados para entrenar o evaluar modelos de aprendizaje automático.",
+      "Es una colección de información organizada que se utiliza en experimentos o análisis."
+    ]
+  },
+  {
+    "input": "que es una api rest",
+    "output": [
+      "Es un estilo de arquitectura que permite la comunicación entre sistemas a través de HTTP.",
+      "Es una interfaz que utiliza métodos como GET, POST, PUT y DELETE para interactuar con datos."
+    ]
+  },
+  {
+    "input": "que es un servidor",
+    "output": [
+      "Es un sistema que proporciona servicios o recursos a otros dispositivos en una red.",
+      "Es una computadora que gestiona solicitudes de los clientes y entrega respuestas."
+    ]
+  },
+  {
+    "input": "hablemos de programacion",
+    "output": [
+      "Claro, ¿en qué aspecto de programación te gustaría profundizar?, que es el backend, el frontend, que es una api rest?",
+      "Estoy aquí para ayudarte con cualquier pregunta que tengas sobre programación, por ejemplo que es un lenguaje de programación, que es un programa, que es un algoritmo.",
+      "¿Qué te gustaría saber sobre programación?, por ejemplo que es una variable, que es una función, que es un bucle."
+    ]
+  },
+  {
+    "input": "¿Qué es un backend?",
+    "output": [
+      "Es la parte del desarrollo web que se encarga de la lógica del servidor, la base de datos y el procesamiento.",
+      "Es la capa de una aplicación que no es visible para el usuario pero maneja datos y operaciones."
+    ]
+  },
+  {
+    "input": "¿Qué es un frontend?",
+    "output": [
+      "Es la parte visual e interactiva de una aplicación con la que interactúa el usuario.",
+      "Es la capa de una aplicación que se desarrolla utilizando tecnologías como HTML, CSS y JavaScript."
+    ]
+  },
+  {
+    "input": "que es devops?",
+    "output": [
+      "Es una práctica que combina desarrollo de software y operaciones para mejorar la entrega y mantenimiento de aplicaciones.",
+      "Es una cultura que promueve la colaboración entre los equipos de desarrollo y operaciones."
+    ]
+  },
+  {
+    "input": "que es un microservicio",
+    "output": [
+      "Es un estilo de arquitectura que divide una aplicación en servicios pequeños e independientes.",
+      "Es una forma de diseñar aplicaciones donde cada módulo realiza una función específica."
+    ]
+  },
+  {
+    "input": "que es un contenedor",
+    "output": [
+      "Es una unidad estandarizada de software que empaqueta código y sus dependencias para que sea ejecutable en cualquier entorno.",
+      "Es una tecnología que aísla aplicaciones para garantizar consistencia entre entornos de desarrollo y producción."
+    ]
+  },
+  {
+    "input": "que es docker",
+    "output": [
+      "Es una plataforma que permite crear, desplegar y ejecutar aplicaciones en contenedores.",
+      "Es una herramienta para empaquetar aplicaciones y sus dependencias en un entorno aislado y portátil."
+    ]
+  },
+  {
+    "input": "que es kubernetes",
+    "output": [
+      "Es una plataforma de orquestación para gestionar contenedores y aplicaciones distribuidas.",
+      "Es una herramienta que automatiza el despliegue, escalado y administración de aplicaciones en contenedores."
+    ]
+  },
+  {
+    "input": "que es un servidor web",
+    "output": [
+      "Es un software o hardware que entrega páginas web a los usuarios cuando las solicitan.",
+      "Es una aplicación que procesa solicitudes HTTP y envía respuestas con contenido web."
+    ]
+  },
+  {
+    "input": "que es http",
+    "output": [
+      "Es un protocolo que define cómo se intercambia información entre un cliente y un servidor web.",
+      "Es la base de la comunicación en la web, utilizado para transferir datos como texto, imágenes y videos."
+    ]
+  },
+  {
+    "input": "que es https",
+    "output": [
+      "Es la versión segura de HTTP que utiliza cifrado para proteger la transferencia de datos.",
+      "Es un protocolo que garantiza la privacidad y seguridad en las comunicaciones web."
+    ]
+  },
+  {
+    "input": "que es un framework frontend",
+    "output": [
+      "Es un conjunto de herramientas y bibliotecas para construir interfaces de usuario de manera eficiente.",
+      "Es una estructura predefinida que facilita el desarrollo de aplicaciones web dinámicas."
+    ]
+  },
+  {
+    "input": "que es angular",
+    "output": [
+      "Es un framework frontend desarrollado por Google para crear aplicaciones web dinámicas.",
+      "Es una herramienta basada en TypeScript que facilita la construcción de interfaces complejas."
+    ]
+  },
+  {
+    "input": "que es react",
+    "output": [
+      "Es una biblioteca de JavaScript para construir interfaces de usuario.",
+      "Es una herramienta que permite crear componentes reutilizables en aplicaciones web."
+    ]
+  },
+  {
+    "input": "que es vue.js",
+    "output": [
+      "Es un framework progresivo de JavaScript para construir interfaces de usuario.",
+      "Es una herramienta que se enfoca en la simplicidad y flexibilidad para desarrollar aplicaciones web."
+    ]
+  },
+  {
+    "input": "que es una base de datos relacional",
+    "output": [
+      "Es un sistema que organiza datos en tablas conectadas mediante relaciones.",
+      "Es un modelo de base de datos que utiliza SQL para gestionar información estructurada."
+    ]
+  },
+  {
+    "input": "que es sql",
+    "output": [
+      "Es un lenguaje utilizado para consultar y gestionar bases de datos relacionales.",
+      "Es una herramienta estándar para realizar operaciones como insertar, eliminar y actualizar datos."
+    ]
+  },
+  {
+    "input": "que es una base de datos no relacional",
+    "output": [
+      "Es un sistema que almacena datos sin usar un esquema de tablas tradicional.",
+      "Es un modelo flexible utilizado para manejar datos no estructurados o semiestructurados."
+    ]
+  },
+  {
+    "input": "que es mongodb",
+    "output": [
+      "Es una base de datos no relacional orientada a documentos.",
+      "Es una herramienta que almacena datos en formato JSON para mayor flexibilidad."
+    ]
+  },
+  {
+    "input": "que es un servidor de aplicaciones",
+    "output": [
+      "Es un software que ejecuta aplicaciones y proporciona servicios a través de una red.",
+      "Es una plataforma que gestiona la lógica empresarial en aplicaciones distribuidas."
+    ]
+  },
+  {
+    "input": "que es un script",
+    "output": [
+      "Es un archivo de código que contiene instrucciones para ser ejecutadas por un intérprete.",
+      "Es un programa corto diseñado para automatizar tareas o realizar funciones específicas."
+    ]
+  },
+  {
+    "input": "que es un protocolo",
+    "output": [
+      "Es un conjunto de reglas que define cómo se comunican los dispositivos en una red.",
+      "Es una especificación que garantiza que los datos se transfieran de manera consistente."
+    ]
+  },
+  {
+    "input": "que es rest?",
+    "output": [
+      "Es un estilo arquitectónico para diseñar servicios web basados en recursos.",
+      "Es un enfoque que utiliza métodos HTTP para interactuar con APIs."
+    ]
+  },
+  {
+    "input": "que es un token jwt",
+    "output": [
+      "Es un estándar para la transmisión segura de información entre partes como un objeto JSON.",
+      "Es una herramienta utilizada para la autenticación y autorización en aplicaciones web."
+    ]
+  },
+  {
+    "input": "que es un middleware",
+    "output": [
+      "Es una capa intermedia que conecta diferentes componentes o sistemas en una aplicación.",
+      "Es un software que actúa como puente para procesar solicitudes y respuestas."
+    ]
+  },
+  {
+    "input": "que es node.js",
+    "output": [
+      "Es un entorno de ejecución para JavaScript que permite construir aplicaciones del lado del servidor.",
+      "Es una plataforma que utiliza el motor V8 de Google para ejecutar código JavaScript."
+    ]
+  },
+  {
+    "input": "que es npm",
+    "output": [
+      "Es el gestor de paquetes oficial de Node.js.",
+      "Es una herramienta que facilita la instalación y gestión de dependencias en proyectos JavaScript."
+    ]
+  },
+  {
+    "input": "que es un archivo yaml",
+    "output": [
+      "Es un formato legible por humanos utilizado para configurar y definir datos.",
+      "Es una herramienta comúnmente utilizada en archivos de configuración como los de Kubernetes."
+    ]
+  },
+  {
+    "input": "que es una variable",
+    "output": [
+      "Es un espacio en memoria que almacena datos y tiene un nombre asociado.",
+      "Es un contenedor que puede contener diferentes valores durante la ejecución de un programa."
+    ]
+  },
+  {
+    "input": "que es un bucle",
+    "output": [
+      "Es una estructura de control que permite ejecutar un bloque de código repetidamente.",
+      "Es una técnica que se usa para realizar tareas repetitivas hasta que se cumpla una condición."
+    ]
+  },
+  {
+    "input": "que es un condicional",
+    "output": [
+      "Es una estructura de control que permite ejecutar diferentes bloques de código según una condición.",
+      "Es una forma de tomar decisiones en un programa basado en comparaciones lógicas."
+    ]
+  },
+  {
+    "input": "que es un algoritmo",
+    "output": [
+      "Es un conjunto de pasos bien definidos para resolver un problema.",
+      "Es una secuencia lógica de instrucciones que permite realizar una tarea."
+    ]
+  },
+  {
+    "input": "que es un lenguaje de programacion",
+    "output": [
+      "Es un conjunto de reglas y sintaxis que los desarrolladores usan para comunicarse con las computadoras.",
+      "Es una herramienta que permite crear software mediante instrucciones comprensibles para las máquinas."
+    ]
+  },
+  {
+    "input": "que ide son populares",
+    "output": [
+      "Ejemplos incluyen Visual Studio Code, IntelliJ IDEA, Eclipse y PyCharm.",
+      "Son aplicaciones ampliamente utilizadas para desarrollar proyectos en lenguajes específicos o variados."
+    ]
+  },
+  {
+    "input": "que es un archivo xml",
+    "output": [
+      "Es un lenguaje de marcado que define reglas para almacenar y transportar datos.",
+      "Se utiliza para representar datos estructurados en aplicaciones como servicios web."
+    ]
+  },
+  {
+    "input": "que es un archivo csv",
+    "output": [
+      "Es un formato de archivo que almacena datos tabulares separados por comas.",
+      "Se utiliza comúnmente para intercambiar datos entre aplicaciones como hojas de cálculo y bases de datos."
+    ]
+  },
+  {
+    "input": "que es una pila",
+    "output": [
+      "Es una estructura de datos que sigue el principio LIFO (último en entrar, primero en salir).",
+      "Es un contenedor donde los elementos se añaden y eliminan desde el mismo extremo."
+    ]
+  },
+  {
+    "input": "que es una cola",
+    "output": [
+      "Es una estructura de datos que sigue el principio FIFO (primero en entrar, primero en salir).",
+      "Es un contenedor donde los elementos se añaden al final y se eliminan desde el principio."
+    ]
+  },
+  {
+    "input": "que es elasticsearch",
+    "output": [
+      "Es un motor de búsqueda y análisis distribuido basado en documentos.",
+      "Es una herramienta utilizada para buscar, analizar y visualizar grandes cantidades de datos."
+    ]
+  },
+  {
+    "input": "que es un balanceador de carga",
+    "output": [
+      "Es un dispositivo o software que distribuye el tráfico de red entre varios servidores.",
+      "Se utiliza para mejorar la disponibilidad y el rendimiento de una aplicación."
+    ]
+  },
+  {
+    "input": "que es una red de cdn",
+    "output": [
+      "Es una red de servidores distribuidos que entrega contenido web de manera rápida y eficiente.",
+      "Se utiliza para reducir la latencia y mejorar la experiencia del usuario."
+    ]
+  },
+  {
+    "input": "que es un test unitario",
+    "output": [
+      "Es una prueba que valida el funcionamiento de una unidad específica de código.",
+      "Se utiliza para asegurarse de que cada parte del software funcione correctamente de forma aislada."
+    ]
+  },
+  {
+    "input": "que es un test de integracion",
+    "output": [
+      "Es una prueba que verifica cómo interactúan diferentes módulos o componentes entre sí.",
+      "Se asegura de que las partes del sistema funcionen juntas como se espera."
+    ]
+  },
+  {
+    "input": "que es integracion continua",
+    "output": [
+      "Es una práctica de desarrollo que integra cambios frecuentes en el código en un repositorio compartido.",
+      "Se utiliza para detectar errores rápidamente al compilar y probar cada cambio automáticamente."
+    ]
+  },
+  {
+    "input": "que es despliegue continuo",
+    "output": [
+      "Es una práctica que asegura que el software esté siempre en un estado listo para ser desplegado.",
+      "Automatiza la entrega de nuevas versiones del software a entornos de pruebas o producción."
+    ]
+  },
+  {
+    "input": "que es un archivo de configuracion",
+    "output": [
+      "Es un archivo que almacena ajustes y parámetros para que un software funcione según lo esperado.",
+      "Se utiliza para personalizar el comportamiento de una aplicación sin modificar su código fuente."
+    ]
+  },
+  {
+    "input": "que es un sistema operativo",
+    "output": [
+      "Es un software que gestiona los recursos de hardware y software en un dispositivo.",
+      "Actúa como intermediario entre los usuarios y el hardware de la computadora."
+    ]
+  },
+  {
+    "input": "que son los sistemas operativos",
+    "output": [
+      "Es un software que gestiona los recursos de hardware y software en un dispositivo.",
+      "Actúa como intermediario entre los usuarios y el hardware de la computadora."
+    ]
+  },
+  {
+    "input": "que es una funcion en programacion",
+    "output": [
+      "Es un bloque de código que realiza una tarea específica y puede ser reutilizado.",
+      "Es una estructura que encapsula lógica para evitar redundancia en el código."
+    ]
+  },
+  {
+    "input": "que es la programacion funcional",
+    "output": [
+      "Es un paradigma de programación basado en funciones y evaluación sin efectos secundarios.",
+      "Se enfoca en la composición de funciones puras para lograr resultados."
+    ]
+  },
+  {
+    "input": "que es la programacion declarativa",
+    "output": [
+      "Es un estilo de programación donde se describe el qué se quiere hacer, no cómo hacerlo.",
+      "Se utiliza para expresar lógica sin especificar el control del flujo."
+    ]
+  },
+  {
+    "input": "que es un entorno virtual",
+    "output": [
+      "Es un espacio aislado donde se instalan dependencias específicas de un proyecto.",
+      "Se utiliza para evitar conflictos entre las versiones de bibliotecas y herramientas."
+    ]
+  },
+  {
+    "input": "que es un servidor",
+    "output": [
+      "es un computador o programa que proporciona servicios a otros dispositivos o programas llamados clientes",
+      "es un sistema que almacena y distribuye recursos o datos a traves de una red"
+    ]
+  },
+  {
+    "input": "que es un cliente",
+    "output": [
+      "es un dispositivo o programa que solicita servicios o recursos a un servidor",
+      "es una parte del sistema que interactua con el servidor para consumir datos o funcionalidades"
+    ]
+  },
+  {
+    "input": "que es la nube",
+    "output": [
+      "es un conjunto de servidores remotos que almacenan y procesan datos accesibles via internet",
+      "es un modelo de computacion que permite acceder a recursos y servicios de forma remota"
+    ]
+  },
+  {
+    "input": "que es una red",
+    "output": [
+      "es un conjunto de dispositivos conectados entre si que comparten recursos y datos",
+      "es una infraestructura que permite la comunicacion entre computadoras y otros dispositivos"
+    ]
+  },
+  {
+    "input": "que es un sistema distribuido",
+    "output": [
+      "es un conjunto de computadoras que trabajan juntas para lograr un objetivo comun",
+      "es un sistema en el que multiples nodos cooperan para procesar datos y realizar tareas"
+    ]
+  },
+  {
+    "input": "que es un microservicio",
+    "output": [
+      "es un componente independiente y especializado que forma parte de una aplicacion mas grande",
+      "es un estilo de arquitectura que divide una aplicacion en servicios pequeños y desacoplados"
+    ]
+  },
+  {
+    "input": "que es un orquestador de contenedores",
+    "output": [
+      "es una herramienta que gestiona y coordina el despliegue, la escalabilidad y la operacion de contenedores",
+      "es un software que automatiza tareas relacionadas con la administracion de contenedores"
+    ]
+  },
+  {
+    "input": "que es machine learning",
+    "output": [
+      "es una rama de la inteligencia artificial que permite a los sistemas aprender y mejorar automaticamente a partir de los datos",
+      "es una tecnica que utiliza algoritmos para identificar patrones y realizar predicciones"
+    ]
+  },
+  {
+    "input": "que es un modelo entrenado",
+    "output": [
+      "es el resultado de aplicar un algoritmo de aprendizaje sobre un conjunto de datos",
+      "es una representacion que permite realizar predicciones o clasificaciones basadas en datos previos"
+    ]
+  },
+  {
+    "input": "que es un commit",
+    "output": [
+      "es un cambio registrado en un sistema de control de versiones como git",
+      "es una confirmacion de que los cambios en el codigo se han guardado en el historial del proyecto"
+    ]
+  },
+  {
+    "input": "que es una rama en git",
+    "output": [
+      "es una version paralela del codigo que permite trabajar en nuevas funcionalidades sin afectar la principal",
+      "es un mecanismo que facilita el desarrollo colaborativo y la gestion de versiones"
+    ]
+  },
+  {
+    "input": "que es python",
+    "output": [
+      "es un lenguaje de programacion de alto nivel y proposito general conocido por su simplicidad y legibilidad",
+      "es un lenguaje utilizado en desarrollo web, analisis de datos, inteligencia artificial y muchas otras areas"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar python",
+    "output": [
+      "tiene una sintaxis sencilla que facilita el aprendizaje y el desarrollo rapido",
+      "cuenta con una gran cantidad de bibliotecas y una comunidad activa",
+      "es multiplataforma y se adapta bien a proyectos de cualquier escala"
+    ]
+  },
+  {
+    "input": "que es javascript",
+    "output": [
+      "es un lenguaje de programacion orientado a objetos que se ejecuta principalmente en navegadores web",
+      "es el lenguaje utilizado para agregar interactividad a las paginas web"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar javascript",
+    "output": [
+      "es compatible con todos los navegadores modernos y no requiere configuraciones adicionales",
+      "permite el desarrollo tanto del frontend como del backend con tecnologias como nodejs",
+      "tiene una comunidad masiva y una amplia variedad de frameworks como react y angular"
+    ]
+  },
+  {
+    "input": "que es java",
+    "output": [
+      "es un lenguaje de programacion orientado a objetos ampliamente utilizado en aplicaciones empresariales",
+      "es un lenguaje que permite la creacion de software multiplataforma gracias a su maquina virtual java"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar java",
+    "output": [
+      "es muy estable y confiable, lo que lo hace ideal para aplicaciones a gran escala",
+      "tiene una amplia cantidad de herramientas y bibliotecas que facilitan el desarrollo",
+      "es compatible con una gran cantidad de dispositivos gracias a su filosofia write once, run anywhere"
+    ]
+  },
+  {
+    "input": "que es c",
+    "output": [
+      "es un lenguaje de programacion de bajo nivel y proposito general conocido por su eficiencia",
+      "es uno de los lenguajes mas antiguos y se utiliza en sistemas operativos y software de alto rendimiento"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar c",
+    "output": [
+      "ofrece un control directo sobre el hardware y la gestion de memoria",
+      "es rapido y eficiente, lo que lo hace ideal para aplicaciones criticas de rendimiento",
+      "es la base de muchos otros lenguajes como c plus plus y java"
+    ]
+  },
+  {
+    "input": "que es c plus plus",
+    "output": [
+      "es una extension del lenguaje c que incorpora programacion orientada a objetos",
+      "es un lenguaje utilizado para desarrollar sistemas operativos, videojuegos y aplicaciones de alto rendimiento"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar c plus plus",
+    "output": [
+      "combina el control de bajo nivel de c con capacidades avanzadas de programacion orientada a objetos",
+      "es altamente eficiente y escalable, adecuado para proyectos complejos",
+      "tiene una amplia comunidad y soporte para bibliotecas como boost y stl"
+    ]
+  },
+  {
+    "input": "que es ruby",
+    "output": [
+      "es un lenguaje de programacion interpretado y orientado a objetos conocido por su sintaxis amigable",
+      "es el lenguaje detras del popular framework de desarrollo web ruby on rails"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar ruby",
+    "output": [
+      "facilita el desarrollo rapido de aplicaciones gracias a su sintaxis sencilla",
+      "tiene una comunidad activa y un ecosistema de gemas que amplian sus capacidades",
+      "es ideal para startups y proyectos con plazos ajustados"
+    ]
+  },
+  {
+    "input": "que es go",
+    "output": [
+      "es un lenguaje de programacion creado por google conocido por su simplicidad y eficiencia",
+      "es utilizado en sistemas distribuidos, servicios web y aplicaciones en la nube"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar go",
+    "output": [
+      "es rapido gracias a su compilacion nativa y su gestion eficiente de memoria",
+      "tiene soporte integrado para concurrencia mediante goroutines",
+      "es ideal para sistemas distribuidos y aplicaciones escalables"
+    ]
+  },
+  {
+    "input": "que es php",
+    "output": [
+      "es un lenguaje de programacion orientado a la web utilizado para desarrollar paginas dinamicas",
+      "es uno de los lenguajes mas populares para crear aplicaciones backend"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar php",
+    "output": [
+      "es facil de aprender y tiene una curva de aprendizaje baja",
+      "es ampliamente compatible con servidores web y bases de datos como mysql",
+      "cuenta con frameworks como laravel y symfony que aceleran el desarrollo"
+    ]
+  },
+  {
+    "input": "que es rust",
+    "output": [
+      "es un lenguaje de programacion de sistemas enfocado en la seguridad y el rendimiento",
+      "es utilizado en aplicaciones de alto rendimiento donde la gestion de memoria es crucial"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar rust",
+    "output": [
+      "garantiza seguridad en la memoria gracias a su sistema de ownership",
+      "ofrece un rendimiento comparable al de c y c plus plus",
+      "tiene una comunidad creciente y es ideal para aplicaciones seguras y robustas"
+    ]
+  },
+  {
+    "input": "que es swift",
+    "output": [
+      "es un lenguaje de programacion creado por apple para desarrollar aplicaciones para sus plataformas",
+      "es moderno y seguro, diseñado para ser rapido y eficiente"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar swift",
+    "output": [
+      "tiene una sintaxis clara y legible, lo que facilita el desarrollo",
+      "es compatible con aplicaciones para ios, macos, watchos y tvos",
+      "ofrece herramientas avanzadas como playgrounds para aprendizaje interactivo"
+    ]
+  },
+  {
+    "input": "que es kotlin",
+    "output": [
+      "es un lenguaje de programacion moderno y estatico diseñado para interoperar con java",
+      "es el lenguaje oficial para desarrollar aplicaciones android"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar kotlin",
+    "output": [
+      "es conciso y reduce el codigo boilerplate en comparacion con java",
+      "ofrece seguridad nula para evitar errores comunes",
+      "es compatible con java, lo que facilita su adopcion en proyectos existentes"
+    ]
+  },
+  {
+    "input": "que lenguajes de programacion existen",
+    "output": [
+      "Swift, java script, python, entre otros"
+    ]
+  },
+  {
+    "input": "que es scrum",
+    "output": [
+      "es una metodologia agil para la gestion y desarrollo de proyectos",
+      "es un marco de trabajo que organiza el desarrollo en ciclos cortos llamados sprints"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar scrum",
+    "output": [
+      "permite adaptarse rapidamente a los cambios en los requisitos del proyecto",
+      "fomenta la colaboracion entre los miembros del equipo",
+      "divide el trabajo en tareas manejables para facilitar la entrega continua de valor"
+    ]
+  },
+  {
+    "input": "que es un sprint",
+    "output": [
+      "es un periodo corto de tiempo en scrum donde se completan tareas especificas del proyecto",
+      "es un ciclo de trabajo que normalmente dura entre una y cuatro semanas"
+    ]
+  },
+  {
+    "input": "que es kanban",
+    "output": [
+      "es una metodologia visual que ayuda a gestionar el flujo de trabajo",
+      "es un sistema que utiliza tarjetas y tableros para organizar y priorizar tareas"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar kanban",
+    "output": [
+      "facilita la identificacion de cuellos de botella en el flujo de trabajo",
+      "promueve la mejora continua y la entrega constante de valor",
+      "es flexible y puede adaptarse a cualquier tipo de equipo o proyecto"
+    ]
+  },
+  {
+    "input": "que es xp",
+    "output": [
+      "es una metodologia de desarrollo agil conocida como programacion extrema",
+      "es un enfoque que enfatiza la calidad del software y la satisfaccion del cliente"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar xp",
+    "output": [
+      "fomenta practicas como el desarrollo guiado por pruebas y la programacion en pareja",
+      "mejora la calidad del codigo mediante iteraciones frecuentes y retroalimentacion continua",
+      "reduce el riesgo al entregar software funcional de forma incremental"
+    ]
+  },
+  {
+    "input": "que es una metodologia agil",
+    "output": [
+      "es un enfoque para el desarrollo de software que prioriza la flexibilidad y la colaboracion",
+      "es una metodologia que busca entregar valor rapido y adaptarse a los cambios"
+    ]
+  },
+  {
+    "input": "cuales son los principios de las metodologias agiles",
+    "output": [
+      "priorizar la satisfaccion del cliente mediante entregas tempranas y continuas",
+      "adaptarse a los cambios en los requisitos incluso en etapas avanzadas del desarrollo",
+      "fomentar la comunicacion constante entre los desarrolladores y los clientes"
+    ]
+  },
+  {
+    "input": "que es waterfall",
+    "output": [
+      "es una metodologia tradicional donde el desarrollo se realiza en fases lineales",
+      "es un modelo secuencial que incluye etapas como analisis, diseño, desarrollo y pruebas"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar waterfall",
+    "output": [
+      "es facil de entender y gestionar debido a su estructura lineal",
+      "es adecuado para proyectos con requisitos claros y bien definidos desde el inicio",
+      "proporciona documentacion detallada en cada etapa del proyecto"
+    ]
+  },
+  {
+    "input": "que es el modelo v",
+    "output": [
+      "es una extension del modelo waterfall que enfatiza la validacion y verificacion en cada etapa",
+      "es un enfoque que asegura la calidad del software a traves de pruebas sistematicas"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar el modelo v",
+    "output": [
+      "asegura que cada fase de desarrollo tiene una prueba correspondiente",
+      "facilita la deteccion temprana de errores",
+      "es adecuado para proyectos criticos donde la calidad es prioritaria"
+    ]
+  },
+  {
+    "input": "que es el modelo espiral",
+    "output": [
+      "es una metodologia iterativa que combina elementos del waterfall y prototipos",
+      "es un modelo que gestiona riesgos mediante ciclos repetitivos llamados espirales"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios del modelo espiral",
+    "output": [
+      "facilita la gestion de riesgos en cada iteracion",
+      "permite mejorar el proyecto basandose en retroalimentacion continua",
+      "es adecuado para proyectos grandes y complejos"
+    ]
+  },
+  {
+    "input": "que es devops",
+    "output": [
+      "es una metodologia que combina desarrollo y operaciones para acelerar el ciclo de vida del software",
+      "es un enfoque colaborativo que automatiza y mejora los procesos de desarrollo y despliegue"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar devops",
+    "output": [
+      "reduce los tiempos de entrega gracias a la integracion continua y el despliegue continuo",
+      "mejora la calidad del software mediante pruebas automatizadas",
+      "promueve la colaboracion entre equipos de desarrollo y operaciones"
+    ]
+  },
+  {
+    "input": "que es lean development",
+    "output": [
+      "es una metodologia basada en los principios de lean manufacturing para reducir desperdicios en el desarrollo",
+      "es un enfoque que busca maximizar el valor entregado al cliente con el minimo esfuerzo"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de lean development",
+    "output": [
+      "reduce los tiempos de desarrollo al eliminar tareas innecesarias",
+      "fomenta la mejora continua y el aprendizaje constante",
+      "prioriza las funcionalidades que aportan valor directo al cliente"
+    ]
+  },
+  {
+    "input": "que es el desarrollo guiado por pruebas",
+    "output": [
+      "es una metodologia en la que las pruebas se escriben antes del codigo",
+      "es un enfoque que asegura que el software cumpla con los requisitos definidos"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios del desarrollo guiado por pruebas",
+    "output": [
+      "reduce errores al definir claramente los requisitos antes de programar",
+      "mejora la calidad del codigo y facilita el mantenimiento",
+      "fomenta una mejor comprension de los objetivos del proyecto"
+    ]
+  },
+  {
+    "input": "que es crystal",
+    "output": [
+      "es una metodologia agil que se adapta al tamaño y la complejidad del proyecto",
+      "es un enfoque flexible que prioriza la comunicacion y la satisfaccion del cliente"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar crystal",
+    "output": [
+      "es adaptable a diferentes equipos y contextos",
+      "fomenta la colaboracion y la retroalimentacion constante",
+      "prioriza la entrega temprana y continua de valor"
+    ]
+  },
+  {
+    "input": "que es safe",
+    "output": [
+      "es un marco de trabajo agil para la gestion de proyectos a gran escala",
+      "es un enfoque que coordina multiples equipos para entregar valor de manera alineada"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar safe",
+    "output": [
+      "facilita la sincronizacion entre equipos grandes",
+      "promueve la transparencia y la alineacion en proyectos complejos",
+      "es ideal para empresas que buscan escalar sus practicas agiles"
+    ]
+  },
+  {
+    "input": "cuales son las partes de una computadora",
+    "output": [
+      "las partes principales son la unidad central de procesamiento, la memoria ram, el disco duro, la tarjeta madre, y la fuente de alimentacion",
+      "incluyen el procesador, la memoria, el almacenamiento, y los perifericos como teclado y monitor"
+    ]
+  },
+  {
+    "input": "que es el procesador",
+    "output": [
+      "es el cerebro de la computadora que ejecuta las instrucciones de los programas",
+      "es la unidad central de procesamiento encargada de realizar los calculos y tomar decisiones"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de un procesador rapido",
+    "output": [
+      "permite ejecutar programas de manera mas fluida",
+      "mejora el rendimiento general de la computadora",
+      "reduce el tiempo de carga de aplicaciones"
+    ]
+  },
+  {
+    "input": "que es la memoria ram",
+    "output": [
+      "es un tipo de memoria que almacena datos temporalmente mientras se ejecutan programas",
+      "es una memoria volatil que permite el acceso rapido a los datos que necesita el procesador"
+    ]
+  },
+  {
+    "input": "para que sirve la memoria ram",
+    "output": [
+      "sirve para ejecutar programas y cargar datos rapidamente",
+      "permite que el sistema operativo y las aplicaciones funcionen de manera eficiente"
+    ]
+  },
+  {
+    "input": "que es un disco duro",
+    "output": [
+      "es un dispositivo de almacenamiento que guarda datos de forma permanente",
+      "es el lugar donde se almacenan los sistemas operativos, programas y archivos del usuario"
+    ]
+  },
+  {
+    "input": "cuales son las diferencias entre un disco duro y un ssd",
+    "output": [
+      "un ssd es mas rapido y silencioso que un disco duro tradicional",
+      "los discos duros suelen tener mayor capacidad de almacenamiento a un costo menor",
+      "los ssd son mas resistentes a golpes y vibraciones"
+    ]
+  },
+  {
+    "input": "que es la tarjeta madre",
+    "output": [
+      "es el componente principal de una computadora donde se conectan todos los demas componentes",
+      "es una placa de circuito que permite la comunicacion entre el procesador, la memoria y los dispositivos perifericos"
+    ]
+  },
+  {
+    "input": "para que sirve la tarjeta madre",
+    "output": [
+      "sirve como base para conectar y coordinar todos los componentes de la computadora",
+      "proporciona puertos y conexiones para dispositivos externos e internos"
+    ]
+  },
+  {
+    "input": "que es la fuente de alimentacion",
+    "output": [
+      "es un componente que convierte la electricidad de la toma corriente en energia util para la computadora",
+      "es el dispositivo encargado de suministrar energia a todos los componentes internos"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de una buena fuente de alimentacion",
+    "output": [
+      "proporciona energia estable y protege contra sobretensiones",
+      "mejora la eficiencia energetica y prolonga la vida util de los componentes",
+      "permite expandir la computadora con componentes de mayor consumo"
+    ]
+  },
+  {
+    "input": "que es una tarjeta grafica",
+    "output": [
+      "es un componente que se encarga de procesar y renderizar graficos en una computadora",
+      "es una unidad dedicada para manejar tareas relacionadas con graficos y video"
+    ]
+  },
+  {
+    "input": "para que sirve una tarjeta grafica",
+    "output": [
+      "sirve para mejorar el rendimiento en aplicaciones graficas y juegos",
+      "permite trabajar con software de edicion de video y modelado 3d de manera eficiente"
+    ]
+  },
+  {
+    "input": "que es un monitor",
+    "output": [
+      "es un dispositivo de salida que muestra informacion visual al usuario",
+      "es una pantalla donde se pueden ver las tareas que realiza la computadora"
+    ]
+  },
+  {
+    "input": "cuales son las diferencias entre un monitor lcd y uno led",
+    "output": [
+      "los monitores led tienen mejor contraste y colores mas vivos que los lcd",
+      "los monitores led consumen menos energia que los lcd",
+      "los lcd son generalmente mas economicos pero menos avanzados"
+    ]
+  },
+  {
+    "input": "que es un teclado",
+    "output": [
+      "es un dispositivo de entrada que permite al usuario ingresar texto y comandos",
+      "es un periferico que contiene teclas para interactuar con la computadora"
+    ]
+  },
+  {
+    "input": "que es un mouse",
+    "output": [
+      "es un dispositivo de entrada que permite mover un cursor en la pantalla y seleccionar elementos",
+      "es un periferico que facilita la navegacion e interaccion con la computadora"
+    ]
+  },
+  {
+    "input": "que es un sistema de enfriamiento",
+    "output": [
+      "es un conjunto de dispositivos que regulan la temperatura de los componentes de la computadora",
+      "es un sistema que previene el sobrecalentamiento del procesador y otros componentes"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de un buen sistema de enfriamiento",
+    "output": [
+      "prolonga la vida util de los componentes",
+      "mejora el rendimiento al mantener los componentes a temperaturas optimas",
+      "reduce el ruido generado por los ventiladores"
+    ]
+  },
+  {
+    "input": "que son los perifericos",
+    "output": [
+      "son dispositivos externos que amplian las funciones de la computadora",
+      "incluyen dispositivos de entrada como el teclado y de salida como el monitor"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar perifericos adicionales",
+    "output": [
+      "amplian las capacidades de la computadora para tareas especificas",
+      "mejoran la experiencia del usuario con dispositivos como impresoras y altavoces",
+      "facilitan la productividad y el entretenimiento"
+    ]
+  },
+  {
+    "input": "que es un sistema operativo",
+    "output": [
+      "es un software que gestiona los recursos hardware y permite ejecutar programas en una computadora",
+      "es un conjunto de programas que coordinan y controlan el hardware de un dispositivo"
+    ]
+  },
+  {
+    "input": "cuales son los principales sistemas operativos",
+    "output": [
+      "los principales son Windows, macOS, Linux, y sus variantes",
+      "algunos ejemplos comunes son Windows 10, Ubuntu, y macOS Big Sur"
+    ]
+  },
+  {
+    "input": "que es windows",
+    "output": [
+      "es un sistema operativo desarrollado por Microsoft",
+      "es un sistema operativo gráfico que es ampliamente utilizado en computadoras personales"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar windows",
+    "output": [
+      "es compatible con una gran cantidad de software y hardware",
+      "tiene una interfaz gráfica amigable y es fácil de usar",
+      "es ampliamente utilizado en entornos corporativos y de juegos"
+    ]
+  },
+  {
+    "input": "que es macos",
+    "output": [
+      "es un sistema operativo desarrollado por Apple para sus computadoras Mac",
+      "es un sistema operativo basado en Unix que tiene una interfaz gráfica pulida"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar macos",
+    "output": [
+      "ofrece un ecosistema cerrado y optimizado para los dispositivos Apple",
+      "es conocido por su estabilidad, seguridad y facilidad de uso",
+      "tiene una integración perfecta con otros dispositivos Apple como iPhones y iPads"
+    ]
+  },
+  {
+    "input": "que es linux",
+    "output": [
+      "es un sistema operativo de código abierto basado en el núcleo Linux",
+      "es un sistema operativo flexible que se puede personalizar ampliamente"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar linux",
+    "output": [
+      "es gratuito y de código abierto, lo que permite personalizarlo y adaptarlo a las necesidades del usuario",
+      "es conocido por su estabilidad y seguridad",
+      "tiene una gran comunidad que ofrece soporte y desarrollos continuos"
+    ]
+  },
+  {
+    "input": "que es una distribucion de linux",
+    "output": [
+      "es una versión de Linux que incluye el núcleo junto con software adicional como gestores de paquetes y aplicaciones",
+      "es una version del sistema operativo adaptada a ciertos tipos de usuarios o necesidades"
+    ]
+  },
+  {
+    "input": "cuales son las distribuciones de linux mas populares",
+    "output": [
+      "algunas de las distribuciones más populares son Ubuntu, Fedora, Debian, y Arch Linux",
+      "Ubuntu es conocida por ser fácil de usar, mientras que Arch Linux es popular entre usuarios avanzados"
+    ]
+  },
+  {
+    "input": "que es ubuntu",
+    "output": [
+      "es una distribución de Linux basada en Debian, conocida por ser fácil de usar y orientada a usuarios nuevos",
+      "es una de las distribuciones de Linux más populares para escritorios y servidores"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar ubuntu",
+    "output": [
+      "es fácil de instalar y tiene una amplia documentación y comunidad",
+      "es compatible con una gran cantidad de hardware y software",
+      "tiene una interfaz gráfica amigable para usuarios novatos"
+    ]
+  },
+  {
+    "input": "que es fedora",
+    "output": [
+      "es una distribución de Linux patrocinada por Red Hat, conocida por ser vanguardista y tener software actualizado",
+      "es una distribución de Linux que proporciona una plataforma de código abierto y libre para desarrolladores"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar fedora",
+    "output": [
+      "tiene acceso a las últimas tecnologías y características en software libre",
+      "está bien respaldada por la comunidad y Red Hat",
+      "es ideal para desarrolladores y usuarios avanzados que buscan estabilidad y novedades"
+    ]
+  },
+  {
+    "input": "que es debian",
+    "output": [
+      "es una distribución de Linux conocida por su estabilidad y soporte a largo plazo",
+      "es una de las distribuciones más antiguas y es la base de muchas otras distribuciones como Ubuntu"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar debian",
+    "output": [
+      "es muy estable y tiene una gran base de usuarios",
+      "se enfoca en la fiabilidad y la seguridad",
+      "tiene un ciclo de actualizaciones regulares y bien soportadas"
+    ]
+  },
+  {
+    "input": "que es arch linux",
+    "output": [
+      "es una distribución de Linux orientada a usuarios avanzados que prefieren un control total sobre su sistema",
+      "es conocida por su filosofía de simplicidad y personalización"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar arch linux",
+    "output": [
+      "ofrece un control completo sobre los paquetes y configuraciones del sistema",
+      "tiene un modelo de actualizaciones continuas que siempre proporciona las últimas versiones de software",
+      "es ideal para usuarios que quieren aprender sobre Linux en profundidad"
+    ]
+  },
+  {
+    "input": "que es el terminal en linux",
+    "output": [
+      "es una interfaz de línea de comandos que permite interactuar con el sistema operativo mediante texto",
+      "es una herramienta poderosa que permite ejecutar comandos, scripts y administrar el sistema"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de usar el terminal",
+    "output": [
+      "permite realizar tareas de manera más rápida y eficiente que usando solo una interfaz gráfica",
+      "es ideal para la automatización de tareas mediante scripts",
+      "ofrece un control total sobre el sistema y es utilizado por administradores de sistemas"
+    ]
+  },
+  {
+    "input": "que es un gestor de paquetes en linux",
+    "output": [
+      "es una herramienta que facilita la instalación, actualización y eliminación de software en Linux",
+      "es un sistema que maneja las dependencias y versiones de los paquetes de software"
+    ]
+  },
+  {
+    "input": "cuales son los gestores de paquetes más comunes en linux",
+    "output": [
+      "los gestores de paquetes más comunes son apt para Debian y Ubuntu, dnf para Fedora, y pacman para Arch Linux",
+      "cada distribución de Linux tiene su propio gestor de paquetes"
+    ]
+  },
+  {
+    "input": "que es un entorno de escritorio",
+    "output": [
+      "es un conjunto de aplicaciones y componentes gráficos que proporcionan una interfaz de usuario en una computadora",
+      "es lo que ves y usas para interactuar con tu sistema operativo de manera visual"
+    ]
+  },
+  {
+    "input": "cuales son los entornos de escritorio más populares en linux",
+    "output": [
+      "los entornos de escritorio más populares son GNOME, KDE Plasma, y XFCE",
+      "cada uno ofrece una experiencia de usuario diferente, desde minimalista hasta completamente personalizada"
+    ]
+  },
+  {
+    "input": "que es la seguridad en linux",
+    "output": [
+      "es un conjunto de prácticas y herramientas diseñadas para proteger el sistema operativo de ataques y accesos no autorizados",
+      "Linux tiene una estructura de permisos que permite controlar el acceso a archivos y recursos del sistema"
+    ]
+  },
+  {
+    "input": "cuales son los beneficios de la seguridad en linux",
+    "output": [
+      "Linux es conocido por ser más seguro que otros sistemas operativos debido a su modelo de permisos y la rapidez con que se aplican actualizaciones de seguridad",
+      "su naturaleza abierta permite que la comunidad identifique y corrija vulnerabilidades rápidamente"
+    ]
+  },
+  {
+    "input": "cuales son los tipos de algoritmos",
+    "output": [
+      "los tipos de algoritmos incluyen algoritmos de búsqueda, ordenamiento, grafos, y de optimización",
+      "también existen algoritmos recursivos, iterativos, y paralelos"
+    ]
+  },
+  {
+    "input": "que es un algoritmo de busqueda",
+    "output": [
+      "es un algoritmo utilizado para encontrar un elemento dentro de una estructura de datos, como un arreglo o lista",
+      "los algoritmos de búsqueda más comunes son la búsqueda lineal y la búsqueda binaria"
+    ]
+  },
+  {
+    "input": "que es la busqueda lineal",
+    "output": [
+      "es un algoritmo de búsqueda que recorre los elementos de una lista uno por uno hasta encontrar el elemento buscado",
+      "es simple y eficiente para listas pequeñas, pero no es óptimo para listas grandes"
+    ]
+  },
+  {
+    "input": "que es la busqueda binaria",
+    "output": [
+      "es un algoritmo de búsqueda eficiente que divide una lista ordenada en dos partes y descarta la mitad en cada paso",
+      "es mucho más rápido que la búsqueda lineal en listas grandes, pero requiere que la lista esté ordenada"
+    ]
+  },
+  {
+    "input": "que es un algoritmo de ordenamiento",
+    "output": [
+      "es un algoritmo que organiza los elementos de una lista en un orden específico, como ascendente o descendente",
+      "los algoritmos de ordenamiento más comunes son el ordenamiento por burbuja, selección y merge sort"
+    ]
+  },
+  {
+    "input": "que es el algoritmo de ordenamiento por burbuja",
+    "output": [
+      "es un algoritmo simple que compara elementos adyacentes en una lista y los intercambia si están en el orden incorrecto",
+      "es fácil de entender y implementar, pero no es muy eficiente para listas grandes"
+    ]
+  },
+  {
+    "input": "que es el algoritmo de seleccion",
+    "output": [
+      "es un algoritmo de ordenamiento que selecciona el menor (o mayor) elemento de una lista y lo coloca en la posición correcta, repitiendo el proceso para el resto de los elementos",
+      "es más eficiente que el ordenamiento por burbuja, pero todavía no es el más rápido para listas grandes"
+    ]
+  },
+  {
+    "input": "que es el merge sort",
+    "output": [
+      "es un algoritmo de ordenamiento eficiente basado en la técnica de dividir y conquistar",
+      "divide la lista en partes más pequeñas, las ordena y luego las fusiona para formar la lista ordenada"
+    ]
+  },
+  {
+    "input": "que es un algoritmo de grafos",
+    "output": [
+      "es un tipo de algoritmo utilizado para resolver problemas relacionados con redes de nodos y conexiones, como rutas más cortas o flujos de información",
+      "los algoritmos de grafos más comunes son el algoritmo de Dijkstra y el algoritmo de Floyd-Warshall"
+    ]
+  },
+  {
+    "input": "que es el algoritmo de dijkstra",
+    "output": [
+      "es un algoritmo que encuentra la ruta más corta desde un nodo de inicio a todos los demás nodos de un grafo ponderado",
+      "es muy eficiente y se utiliza en aplicaciones como el GPS para calcular rutas"
+    ]
+  },
+  {
+    "input": "que es el algoritmo de floyd-warshall",
+    "output": [
+      "es un algoritmo que encuentra las rutas más cortas entre todos los pares de nodos en un grafo",
+      "es útil cuando se necesita conocer las distancias más cortas entre cualquier par de nodos, pero no es tan eficiente como otros algoritmos en grafos grandes"
+    ]
+  },
+  {
+    "input": "que es un algoritmo de optimizacion",
+    "output": [
+      "es un algoritmo que busca la mejor solución posible a un problema, generalmente dentro de un conjunto de soluciones posibles",
+      "se utilizan en áreas como la programación lineal, la asignación de recursos y la planificación de rutas"
+    ]
+  },
+  {
+    "input": "que es un algoritmo recursivo",
+    "output": [
+      "es un algoritmo que se llama a sí mismo con un conjunto reducido de datos hasta que se alcanza una condición base",
+      "es útil para problemas que pueden dividirse en subproblemas similares, como el cálculo de factoriales o la búsqueda binaria"
+    ]
+  },
+  {
+    "input": "que es la recursion en algoritmos",
+    "output": [
+      "es el proceso de que un algoritmo se llame a sí mismo para resolver subproblemas más pequeños",
+      "se utiliza en algoritmos como la búsqueda binaria, ordenamiento por merge, y en la resolución de problemas matemáticos"
+    ]
+  },
+  {
+    "input": "que es un algoritmo iterativo",
+    "output": [
+      "es un algoritmo que repite un conjunto de instrucciones hasta que se cumple una condición específica",
+      "es comúnmente utilizado en bucles y estructuras de control como for y while"
+    ]
+  },
+  {
+    "input": "cual es la diferencia entre recursión e iteracion",
+    "output": [
+      "la recursión implica que el algoritmo se llame a sí mismo, mientras que la iteración usa bucles para repetir una serie de instrucciones",
+      "la recursión es más elegante y clara en algunos problemas, mientras que la iteración es más eficiente en términos de memoria"
+    ]
+  },
+  {
+    "input": "que es un algoritmo paralelo",
+    "output": [
+      "es un algoritmo que divide un problema en subproblemas más pequeños y los resuelve simultáneamente utilizando múltiples procesadores o núcleos",
+      "se utiliza para acelerar el procesamiento de grandes cantidades de datos, como en el análisis de datos masivos y la inteligencia artificial"
+    ]
+  },
+  {
+    "input": "que es el algoritmo de busqueda en profundidad",
+    "output": [
+      "es un algoritmo de búsqueda en grafos que explora tan profundamente como sea posible antes de retroceder",
+      "se utiliza en la resolución de problemas de laberintos, árboles de decisión y otros problemas de exploración"
+    ]
+  },
+  {
+    "input": "que es el algoritmo de busqueda en anchura",
+    "output": [
+      "es un algoritmo de búsqueda en grafos que explora todos los nodos de un nivel antes de pasar al siguiente",
+      "es útil cuando se busca la ruta más corta en un grafo no ponderado"
+    ]
+  },
+  {
+    "input": "que es un algoritmo de clasificacion",
+    "output": [
+      "es un tipo de algoritmo que organiza los elementos de un conjunto en un orden determinado, ya sea ascendente o descendente",
+      "los algoritmos de clasificación más conocidos son quicksort, bubblesort y merge sort"
+    ]
+  },
+  {
+    "input": "que es un algoritmo de encriptacion",
+    "output": [
+      "es un algoritmo que convierte información legible en un formato cifrado para garantizar la privacidad de los datos",
+      "se utilizan en la seguridad informática para proteger contraseñas y comunicaciones sensibles"
+    ]
+  }
+]

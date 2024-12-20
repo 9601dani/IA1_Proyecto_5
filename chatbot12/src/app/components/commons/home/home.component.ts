@@ -21,7 +21,7 @@ export class HomeComponent implements OnInit {
 
   async ngOnInit() {
     this.modelSelectionForm = this.fb.group({
-      model: ['intents'] // Valor predeterminado
+      model: ['Python INTENTS'] // Valor predeterminado
     });
     await this.chatbotService.loadModel();
     await this.chatTrying.trainChatbot()
@@ -36,8 +36,8 @@ export class HomeComponent implements OnInit {
 
     let data = '';
 
-    if(model === 'sequence-to-sequence') {
-      data = await this.chatbotService.decodeSequence(this.userInput);
+    if(model === 'Python INTENTS') {
+      data = await this.chatbotService.predict(this.userInput);
     } else {
       // TODO: add intents model
       data = await this.chatTrying.getResponse(this.userInput)
