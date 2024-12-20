@@ -7,140 +7,84 @@ import * as tf from '@tensorflow/tfjs';
 })
 export class ChatBotService {
 
-  encoderModel: tf.LayersModel;
-  decoderModel: tf.LayersModel;
-  tokenizer: any;
-  maxLenAnswers: number;
-  maxLenQuestions: number;
+  private model: tf.LayersModel | null = null;
+  private tokenizer: any = null;
+  private responsesMap: { [key: string]: string[] } | null = null;
 
   constructor() { }
 
   async loadModel() {
 
-    this.encoderModel = await tf.loadLayersModel('assets/encoder/model.json');
-    this.decoderModel = await tf.loadLayersModel('assets/decoder/model.json');
+    if (!this.model || !this.tokenizer || !this.responsesMap) {
+      try {
+        // Cargar el modelo
+        this.model = await tf.loadLayersModel('assets/intents_model/model.json');
 
-    const tokenizerData = await fetch('assets/tokenizer.json').then(m => m.json());
-    this.tokenizer = tokenizerData.tokenizer;
-    this.maxLenAnswers = tokenizerData.maxlen_answers;
-    this.maxLenQuestions = tokenizerData.maxlen_questions;
-  }
+        const tokenizerResponse = await fetch('assets/intents_model/chatbot_tokenizer.json');
+        this.tokenizer = await tokenizerResponse.json();
 
-  async createEncoderModel(model: tf.LayersModel): Promise<tf.LayersModel> {
-    const encoderInputs = model.input;
+        const intentsResponse = await fetch('assets/intents_model/data-programming.json');
+        const intentsData: any[] = await intentsResponse.json();
 
-    const lstmLayer = model.getLayer(null, 4);
-    const lstmOutputs = lstmLayer.output as tf.SymbolicTensor | tf.SymbolicTensor[];
+        // Crear el mapa de respuestas
+        this.responsesMap = {};
+        intentsData.forEach((intent) => {
+          this.responsesMap![intent.input] = intent.output;
+        });
 
-    if (Array.isArray(lstmOutputs)) {
-      const [encoderOutputs, stateH, stateC] = lstmOutputs;
-
-      const encoderModel = tf.model({
-        inputs: encoderInputs,
-        outputs: [stateH, stateC],
-      });
-
-      return encoderModel;
-    } else {
-      throw new Error('La capa LSTM no devolvió múltiples salidas.');
+        console.log('Modelo, tokenizer y respuestas cargados correctamente.');
+      } catch (error) {
+        console.error('Error al cargar el modelo o tokenizer:', error);
+      }
     }
   }
 
-  async createDecoderModel(model: tf.LayersModel): Promise<tf.LayersModel> {
-    const decoderInputs = tf.input({ shape: [null], name: "decoder_inputs" }); // input_1 en Python
-
-    const decoderStateInputH = tf.input({ shape: [200], name: "input_3" }); // h del estado inicial
-    const decoderStateInputC = tf.input({ shape: [200], name: "input_4" }); // c del estado inicial
-    const decoderStatesInputs = [decoderStateInputH, decoderStateInputC];
-
-    const decoderEmbeddingLayer = model.getLayer(null, 3); // Embedding layer
-    const decoderEmbedding = decoderEmbeddingLayer.apply(decoderInputs) as tf.SymbolicTensor;
-
-    const decoderLstmLayer = model.getLayer(null, 5); // LSTM layer
-    const lstmOutputs = decoderLstmLayer.apply([decoderEmbedding, ...decoderStatesInputs]) as tf.SymbolicTensor[];
-
-    const [decoderOutputs, stateH, stateC] = lstmOutputs;
-
-    const decoderDenseLayer = model.getLayer(null, 6); // Dense layer
-    const decoderOutputsFinal = decoderDenseLayer.apply(decoderOutputs) as tf.SymbolicTensor;
-
-    const decoderStates = [stateH, stateC];
-
-    const decoderModel = tf.model({
-      inputs: [decoderInputs, ...decoderStatesInputs], // Entradas: secuencia y estados iniciales
-      outputs: [decoderOutputsFinal, ...decoderStates], // Salidas: predicciones y nuevos estados
-    });
-
-    return decoderModel;
-  }
-
-  preprocessInput(inputSentence: string): tf.Tensor2D {
-    const tokens = inputSentence.toLowerCase().split(' ');
-
-    const tokensList = tokens.map(word => this.tokenizer.word_index[word] || 0);
-
-    const paddedTokens = new Array(this.maxLenQuestions).fill(0);
-    tokensList.slice(0, this.maxLenQuestions).forEach((token, index) => {
-      paddedTokens[index] = token;
-    });
-
-    return tf.tensor2d([paddedTokens], [1, this.maxLenQuestions]);
-  }
-
-  async decodeSequence(sentence: string): Promise<string> {
-    const inputTensor = this.preprocessInput(sentence);
-
-    const statesValues = this.encoderModel.predict(inputTensor) as tf.Tensor[];
-
-
-    let emptyTargetSeq = tf.tensor2d([[this.tokenizer.word_index['start']]], [1, 1]);
-
-    let paddedTargetSeq = tf.pad(emptyTargetSeq, [[0, 0], [0, this.maxLenAnswers - emptyTargetSeq.shape[1]]], 0);
-
-    let stopCondition = false;
-    let decodedTranslation = '';
-
-    while (!stopCondition) {
-      console.log('first padded ->', paddedTargetSeq)
-      const [decOutputs, stateH, stateC] = this.decoderModel.predict([paddedTargetSeq, ...statesValues]) as tf.Tensor2D[];
-
-      console.log('decoutputs ----->', decOutputs, stateH, stateC);
-      const sampledWordIndexArray = await decOutputs.argMax(-1).data();
-      console.log('array -------->', sampledWordIndexArray)
-      const sampledWordIndex = sampledWordIndexArray[0];
-
-      // Buscar la palabra correspondiente al índice más probable
-      let sampledWord = null;
-      for (const [word, index] of Object.entries(this.tokenizer.word_index)) {
-        if (sampledWordIndex === index) {
-          decodedTranslation += ` ${word}`;
-          sampledWord = word;
-          break; // Salir del bucle cuando se encuentra la palabra
-        }
-      }
-      console.log('sampled_word ->', sampledWord);
-
-      // Verificar la condición de parada
-      if (sampledWord === 'end' || decodedTranslation.split(' ').length > this.maxLenAnswers || sampledWordIndex === 0) {
-        stopCondition = true;
-      }
-
-      // Actualizar la secuencia de entrada del decodificador
-      emptyTargetSeq.dispose(); // Liberar el tensor anterior
-      emptyTargetSeq = tf.tensor2d([[sampledWordIndex]], [1, 1], 'int32');
-      paddedTargetSeq.dispose(); // Liberar el tensor anterior
-      paddedTargetSeq = tf.pad(emptyTargetSeq, [[0, 0], [0, this.maxLenAnswers - emptyTargetSeq.shape[1]]], 0);
-
-      // Actualizar los estados del decodificador
-      statesValues[0].dispose();
-      statesValues[1].dispose();
-      statesValues[0] = stateH;
-      statesValues[1] = stateC;
-
-      // Liberar tensores temporales
-      decOutputs.dispose();
+  async predict(input: string): Promise<string> {
+    if (!this.model || !this.tokenizer || !this.responsesMap) {
+      throw new Error('El modelo, tokenizer o mapa de respuestas no están cargados.');
     }
 
-    return decodedTranslation.replace(' end', '').trim();
+    // Procesar texto de entrada
+    const cleanedInput = this.cleanText(input);
+
+    // Convertir texto en secuencias
+    const wordIndex = this.tokenizer['config']['word_index'];
+    const sequenceInput = this.textToSequences([cleanedInput], wordIndex);
+
+    // Realizar padding
+    const maxLength = this.tokenizer['max_length'] || 20; // Valor predeterminado si no está definido
+    const paddedInput = this.padSequences(sequenceInput, maxLength);
+
+    // Crear tensor a partir de la secuencia
+    const tensorInput = tf.tensor2d(paddedInput);
+
+    // Realizar predicción
+    const prediction = this.model.predict(tensorInput) as tf.Tensor<tf.Rank>;
+    const predictedIndex = (await prediction.argMax(1).data())[0];
+
+    // Obtener el tag predicho y la respuesta correspondiente
+    const predictedTag = Object.keys(this.responsesMap)[predictedIndex];
+    const responses = this.responsesMap[predictedTag];
+    return responses[Math.floor(Math.random() * responses.length)] || 'No entendí la pregunta.';
+  }
+
+  // Método para limpiar texto de entrada
+  private cleanText(input: string): string {
+    return input.toLowerCase().replace(/[^\w\s]/gi, '');
+  }
+
+  // Método para convertir texto en secuencias
+  private textToSequences(input: string[], wordIndex: { [key: string]: number }): number[][] {
+    return input.map((text) =>
+      text.split(' ').map((word) => wordIndex[word] || 0)
+    );
+  }
+
+  // Método para realizar padding de secuencias
+  private padSequences(sequences: number[][], maxLength: number): number[][] {
+    return sequences.map((seq) => {
+      const padding = Array(Math.max(0, maxLength - seq.length)).fill(0);
+      return seq.concat(padding).slice(0, maxLength);
+    });
   }
 }

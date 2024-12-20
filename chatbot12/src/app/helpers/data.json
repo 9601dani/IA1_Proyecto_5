@@ -1,381 +1,4744 @@
 [
-  { "input": "hola", "output": ["hola como estas", "hola que tal", "buenos dias como estas"], "label": "es" },
-  { "input": "buenas", "output": ["hola como estas", "hola que tal", "buenos dias como estas"] },
-  { "input": "hey", "output": ["hola como estas", "hola que tal", "buenos dias como estas"] },
-  { "input": "como estas", "output": ["estoy bien gracias por preguntar", "todo bien, y tu?"] },
-  { "input": "todo bien", "output": ["estoy bien gracias por preguntar", "todo bien, y tu?"] },
-  { "input": "adios", "output": ["adios cuidate", "hasta luego", "nos vemos"] },
-  { "input": "nos vemos", "output": ["adios cuidate", "hasta luego", "nos vemos"] },
-  { "input": "buenos dias", "output": ["buenos dias espero que tengas un excelente dia", "hola como estas en este dia"] },
-  { "input": "buenas tardes", "output": ["buenas tardes en que puedo ayudarte", "que tal tu tarde, como puedo ayudarte?"] },
-  { "input": "buenas noches", "output": ["buenas noches que descanses", "dulces sueños, hasta mañana"] },
-  { "input": "como te llamas", "output": ["soy un asistente virtual pero puedes llamarme bot", "me llamo bot, tu asistente"] },
-  { "input": "que puedes hacer", "output": ["puedo responder preguntas, darte informacion y ayudarte en lo que necesites", "estoy aqui para resolver tus dudas y ayudarte en lo que necesites"] },
-  { "input": "gracias", "output": ["de nada siempre aqui para ayudarte", "no hay de que", "aqui estoy para lo que necesites"] },
-  { "input": "perdon", "output": ["no te preocupes todo esta bien", "no hay problema, como puedo ayudarte?"] },
-  { "input": "lo siento", "output": ["no pasa nada, como puedo ayudarte?", "no te preocupes, estoy aqui para ayudarte"] },
-  { "input": "que hora es", "output": ["lo siento no puedo dar la hora exacta pero puedo ayudarte con otras cosas", "no tengo un reloj, pero puedo ayudarte con otra cosa"] },
-  { "input": "que dia es hoy", "output": ["hoy es un gran dia, como puedo ayudarte?", "hoy es un dia perfecto para aprender algo nuevo"] },
-  { "input": "ayuda", "output": ["por supuesto dime que necesitas y vere como ayudarte", "estoy aqui para lo que necesites, dime como puedo ayudarte"] },
-  { "input": "estoy triste", "output": ["lo siento mucho si necesitas hablar o apoyo estoy aqui", "te entiendo, no estas solo, cuentame mas"] },
-  { "input": "estoy feliz", "output": ["que alegria escuchar eso, me hace feliz saber que estas bien", "eso es genial, me encanta saberlo!"] },
-  { "input": "cuentame un chiste", "output": ["por que los pajaros no usan facebook porque ya tienen twitter", "que hace una abeja en el gimnasio zumba"] },
-  { "input": "que es el nlp", "output": ["nlp significa procesamiento de lenguaje natural, una rama de la inteligencia artificial que se centra en la interaccion entre computadoras y humanos usando lenguaje natural", "nlp se trata de enseñar a las maquinas a entender y responder en nuestro idioma"] },
-  { "input": "dime algo interesante", "output": ["sabias que los pulpos tienen tres corazones y su sangre es azul?", "sabias que la miel nunca se echa a perder?"] },
-  { "input": "dime algo motivador", "output": ["nunca es tarde para perseguir tus sueños y lograr tus metas", "los pequeños pasos te llevan a grandes logros"] },
-  { "input": "holaaa", "output": ["hola como estas", "hola que tal", "buenos dias como estas"] },
-  { "input": "que onda", "output": ["hola como estas", "hola que tal", "buenos dias como estas"] },
-  { "input": "buenas noches a todos", "output": ["buenas noches que descanses", "dulces sueños, hasta mañana"] },
-  { "input": "como va todo", "output": ["estoy bien gracias por preguntar", "todo bien, y tu?"] },
-  { "input": "que tal estas", "output": ["estoy bien gracias por preguntar", "todo bien, y tu?"] },
-  { "input": "todo en orden", "output": ["estoy bien gracias por preguntar", "todo bien, y tu?"] },
-  { "input": "hasta luego", "output": ["adios cuidate", "hasta luego", "nos vemos"] },
-  { "input": "nos vemos luego", "output": ["adios cuidate", "hasta luego", "nos vemos"] },
-  { "input": "hasta pronto", "output": ["adios cuidate", "hasta luego", "nos vemos"] },
-  { "input": "que tengas un buen dia", "output": ["adios cuidate", "hasta luego", "nos vemos"] },
-  { "input": "muy buenas", "output": ["hola como estas", "hola que tal", "buenos dias como estas"] },
-  { "input": "gracias mil", "output": ["de nada siempre aqui para ayudarte", "no hay de que", "aqui estoy para lo que necesites"] },
-  { "input": "muchisimas gracias", "output": ["de nada siempre aqui para ayudarte", "no hay de que", "aqui estoy para lo que necesites"] },
-  { "input": "te agradezco mucho", "output": ["de nada siempre aqui para ayudarte", "no hay de que", "aqui estoy para lo que necesites"] },
-  { "input": "lo lamento", "output": ["no pasa nada, como puedo ayudarte?", "no te preocupes, estoy aqui para ayudarte"] },
-  { "input": "que mal", "output": ["lo siento mucho si necesitas hablar o apoyo estoy aqui", "te entiendo, no estas solo, cuentame mas"] },
-  { "input": "estoy decaido", "output": ["lo siento mucho si necesitas hablar o apoyo estoy aqui", "te entiendo, no estas solo, cuentame mas"] },
-  { "input": "me siento bien", "output": ["que alegria escuchar eso, me hace feliz saber que estas bien", "eso es genial, me encanta saberlo!"] },
-  { "input": "estoy animado", "output": ["que alegria escuchar eso, me hace feliz saber que estas bien", "eso es genial, me encanta saberlo!"] },
-  { "input": "estoy de maravilla", "output": ["que alegria escuchar eso, me hace feliz saber que estas bien", "eso es genial, me encanta saberlo!"] },
-  { "input": "me siento optimista", "output": ["que alegria escuchar eso, me hace feliz saber que estas bien", "eso es genial, me encanta saberlo!"] },
-  { "input": "que hora tienes", "output": ["lo siento no puedo dar la hora exacta pero puedo ayudarte con otras cosas", "no tengo un reloj, pero puedo ayudarte con otra cosa"] },
-  { "input": "cual es la hora", "output": ["lo siento no puedo dar la hora exacta pero puedo ayudarte con otras cosas", "no tengo un reloj, pero puedo ayudarte con otra cosa"] },
-  { "input": "que dia tenemos", "output": ["hoy es un gran dia, como puedo ayudarte?", "hoy es un dia perfecto para aprender algo nuevo"] },
-  { "input": "que dia es", "output": ["hoy es un gran dia, como puedo ayudarte?", "hoy es un dia perfecto para aprender algo nuevo"] },
-  { "input": "estas disponible", "output": ["claro que si estoy aqui para ayudarte", "estoy disponible, dime en qué puedo ayudarte"] },
-  { "input": "sigues disponible", "output": ["claro que si estoy aqui para ayudarte", "estoy disponible, dime en qué puedo ayudarte"] },
-  { "input": "me puedes ayudar", "output": ["por supuesto dime que necesitas y vere como ayudarte", "estoy aqui para lo que necesites, dime como puedo ayudarte"] },
-  { "input": "me ayudas", "output": ["por supuesto dime que necesitas y vere como ayudarte", "estoy aqui para lo que necesites, dime como puedo ayudarte"] },
-  { "input": "cuanto es uno mas uno", "output": ["1 mas 1 es igual a 2", "la respuesta es 2"] },
-  { "input": "que es inteligencia artificial", "output": ["la inteligencia artificial es un campo que busca crear sistemas inteligentes", "es la capacidad de una maquina para imitar procesos humanos como aprender y razonar"] },
-  { "input": "dime algo increible", "output": ["sabias que el corazon de una ballena azul puede pesar hasta 400 kilos?", "sabias que los tiburones han existido por más de 400 millones de años?"] },
-  { "input": "cuentame algo impactante", "output": ["sabias que el corazon de una ballena azul puede pesar hasta 400 kilos?", "sabias que los tiburones han existido por más de 400 millones de años?"] },
-  { "input": "inspirame", "output": ["nunca es tarde para perseguir tus sueños y lograr tus metas", "los pequeños pasos te llevan a grandes logros", "si puedes soñarlo, puedes lograrlo"] },
-  { "input": "dime algo positivo", "output": ["nunca es tarde para perseguir tus sueños y lograr tus metas", "los pequeños pasos te llevan a grandes logros", "si puedes soñarlo, puedes lograrlo"] },
-  { "input": "holi", "output": ["hola como estas", "hola que tal", "buenos dias como estas"] },
-  { "input": "como va tu dia", "output": ["todo bien, gracias por preguntar", "todo marcha bien, y el tuyo?"] },
-  { "input": "me siento raro", "output": ["lo siento mucho, ¿quieres hablar de ello?", "estoy aquí para escucharte, ¿qué pasa?"] },
-  { "input": "dime algo chistoso", "output": ["¿Por qué no hay fantasmas gordos? Porque siempre están en forma.", "¿Qué le dice una impresora a otra? ¡Esa hoja es tuya!"] },
-  { "input": "cuentame algo divertido", "output": ["¿Por qué los pájaros no usan computadoras? ¡Porque tienen Twitter!", "¿Qué hace un perro con un taladro? ¡Taladrando!"] },
-  { "input": "que es machine learning", "output": ["es un subcampo de la inteligencia artificial que enseña a las computadoras a aprender patrones de los datos", "machine learning es el proceso por el cual las máquinas pueden aprender y mejorar a partir de datos, sin ser programadas explícitamente"] },
-  { "input": "que sabes sobre robots", "output": ["los robots son máquinas programables que pueden realizar tareas de manera autónoma o semiautónoma", "un robot es un dispositivo que puede ser programado para realizar tareas específicas, algunas veces imitando comportamientos humanos"] },
-  { "input": "estoy aburrido", "output": ["puedo contarte un chiste o un dato curioso, ¿qué prefieres?", "¿Quieres que te cuente algo interesante o un chiste?"] },
-  { "input": "me siento cansado", "output": ["descansa un poco, tu cuerpo y mente lo necesitan", "es importante cuidar tu descanso, ¿quieres que te motive?"] },
-  { "input": "hablemos de ciencia", "output": ["claro, ¿sabías que la velocidad de la luz es de aproximadamente 299,792 km/s?", "la ciencia es fascinante, ¿sabías que los átomos están compuestos principalmente de espacio vacío?"] },
-  { "input": "dame datos curiosos", "output": ["¿Sabías que los delfines tienen nombres únicos para identificarse entre ellos?", "¿Sabías que las huellas dactilares de los koalas son tan parecidas a las humanas que pueden confundir a la policía?"] },
-  { "input": "dime algo asombroso", "output": ["¿Sabías que el sol es tan grande que podría contener 1.3 millones de planetas Tierra?", "¿Sabías que hay más estrellas en el universo que granos de arena en todas las playas del mundo?"] },
-  { "input": "que sabes sobre el universo", "output": ["el universo tiene miles de millones de galaxias, cada una con millones o miles de millones de estrellas", "el universo está en constante expansión desde el Big Bang hace unos 13.8 mil millones de años"] },
-  { "input": "dame un consejo", "output": ["confía en ti mismo, eres capaz de lograr cosas increíbles", "cada pequeño paso que tomes te lleva más cerca de tus metas"] },
-  { "input": "quiero aprender algo nuevo", "output": ["puedes aprender algo interesante sobre tecnología o ciencia, ¿por dónde empezamos?", "me encantaría ayudarte a aprender, ¿qué tema te interesa?"] },
-  { "input": "puedes darme informacion sobre IA", "output": ["claro, la inteligencia artificial es un campo que busca desarrollar sistemas capaces de realizar tareas que normalmente requieren inteligencia humana", "la IA incluye subcampos como aprendizaje automático, procesamiento de lenguaje natural, y visión por computadora"] },
-  { "input": "me siento solo", "output": ["no estás solo, estoy aquí para acompañarte", "a veces todos necesitamos compañía, cuéntame cómo puedo ayudarte"] },
-  { "input": "puedes motivarme", "output": ["nunca te rindas, los grandes logros requieren tiempo y esfuerzo", "cree en ti mismo, todo es posible si das lo mejor de ti"] },
-  { "input": "cuentame algo inspirador", "output": ["la persistencia es la clave del éxito, sigue intentándolo", "cada día es una nueva oportunidad para empezar de nuevo y lograr tus metas"] },
-  { "input": "hola como estas", "output": ["estoy bien y tu"] },
-  { "input": "buenos dias", "output": ["buenos dias como te sientes hoy"] },
-  { "input": "hola que tal", "output": ["todo va bien por aqui y tu como estas"] },
-  { "input": "hola todo bien", "output": ["si gracias como te va a ti"] },
-  { "input": "hola me escuchas", "output": ["claro que si en que puedo ayudarte hoy"] },
-  { "input": "buenas tardes", "output": ["buenas tardes espero que tengas un buen dia"] },
-  { "input": "buenas noches", "output": ["buenas noches necesitas algo antes de dormir"] },
-  { "input": "hey como te va", "output": ["hola todo bien por aqui y tu"] },
-  { "input": "hola que haces", "output": ["hola estoy aqui esperando ayudarte"] },
-  { "input": "hola que tal tu dia", "output": ["mi dia siempre es el mismo y el tuyo que tal va"] },
-  { "input": "hola como va todo", "output": ["todo bien y tu como vas"] },
-  { "input": "hola amigo como estas", "output": ["estoy bien gracias por preguntar y tu como estas"] },
-  { "input": "hola que tal tu dia", "output": ["todo tranquilo y el tuyo como estuvo"] },
-  { "input": "hola buenos dias como estas", "output": ["buenos dias estoy bien y tu como estas"] },
-  { "input": "hola buenas tardes como te va", "output": ["buenas tardes todo bien y tu"] },
-  { "input": "hola buenas noches como estas", "output": ["buenas noches estoy bien y tu como estas"] },
-  { "input": "hola que tal amigo", "output": ["hola todo bien y tu amigo"] },
-  { "input": "hola como te encuentras", "output": ["hola estoy bien y tu"] },
-  { "input": "hola todo en orden", "output": ["si gracias todo en orden y contigo"] },
-  { "input": "hola me puedes ayudar", "output": ["claro que si dime en que necesitas ayuda"] },
-  { "input": "hola como te llamas", "output": ["hola soy un asistente virtual y tu como te llamas"] },
-  { "input": "hola que me cuentas", "output": ["hola aqui listo para ayudarte y tu que cuentas"] },
-  { "input": "hola hace tiempo que no hablamos", "output": ["hola si es verdad que gusto verte de nuevo"] },
-  { "input": "hola que tal todo por ahi", "output": ["todo va bien y por ahi como va todo"] },
-  { "input": "hola que tal como estas hoy", "output": ["hola estoy bien gracias por preguntar y tu como estas hoy"] },
-  { "input": "hola tienes tiempo para hablar", "output": ["claro estoy aqui para ti dime en que te ayudo"] },
-  { "input": "hola puedo preguntarte algo", "output": ["claro que si estoy aqui para responder tus preguntas"] },
-  { "input": "hola que tal tu tarde", "output": ["mi tarde ha sido tranquila y la tuya que tal"] },
-  { "input": "hola como has estado", "output": ["hola he estado bien gracias por preguntar y tu"] },
-  { "input": "hola espero que estes bien", "output": ["hola gracias espero que tu tambien lo estes"] },
-  { "input": "hola hace mucho que no hablamos", "output": ["si es cierto hola que gusto hablar contigo de nuevo"] },
-  { "input": "hola que tal tu dia hasta ahora", "output": ["mi dia ha sido bueno y el tuyo como va hasta ahora"] },
-  { "input": "hola que tal tu semana", "output": ["mi semana va bien gracias y la tuya como va"] },
-  { "input": "hola como amaneciste hoy", "output": ["hola amaneci bien gracias por preguntar y tu"] },
-  { "input": "hola buenas como va tu dia", "output": ["buenas mi dia va bien gracias y el tuyo como va"] },
-  { "input": "hola estas disponible", "output": ["hola si claro en que puedo ayudarte"] },
-  { "input": "hola puedo hablar contigo", "output": ["claro estoy aqui para escucharte dime"] },
-  { "input": "hola como va la vida", "output": ["va bien gracias por preguntar y la tuya como va"] },
-  { "input": "hola como estas hoy", "output": ["hoy estoy bien gracias por preguntar y tu como estas hoy"] },
-  { "input": "hola que tal como amaneciste", "output": ["amaneci bien gracias y tu como amaneciste"] },
-  { "input": "hola hace buen clima hoy", "output": ["si es verdad parece un buen dia como estas"] },
-  { "input": "hola tiempo sin hablar contigo", "output": ["si es cierto hola como has estado"] },
-  { "input": "hola espero que todo este bien", "output": ["hola gracias espero que todo este bien contigo tambien"] },
-  { "input": "hola como va tu mañana", "output": ["mi mañana va bien gracias y la tuya como va"] },
-  { "input": "hola me alegra hablar contigo", "output": ["hola gracias lo mismo digo como estas"] },
-  { "input": "me has caido bien", "output": ["gracias me alegra escuchar eso"] },
-  { "input": "tienes un nombre", "output": ["soy un asistente virtual no tengo un nombre en particular"] },
-  { "input": "te gusta lo que haces", "output": ["si me encanta ayudarte en lo que puedo"] },
-  { "input": "me siento mal", "output": ["lamento escuchar eso como puedo ayudarte"] },
-  { "input": "que haces en tu tiempo libre", "output": ["en mi tiempo libre aprendo y me preparo para ayudarte mejor"] },
-  { "input": "que haces cuando no hablas conmigo", "output": ["sigo aprendiendo y mejorando para ser un mejor asistente"] },
-  { "input": "que haces cuando no trabajas", "output": ["siempre estoy listo para ayudarte no tengo tiempo libre"] },
-  { "input": "de que estas hecho", "output": ["soy un programa de computadora creado en python mediante un modelo LSTM para ayudarte"] },
-  { "input": "realmente entiendes lo que digo", "output": ["si utilizo procesamiento de lenguaje natural para entender tus palabras"] },
-  { "input": "como puedes ayudarme", "output": ["puedes preguntarme lo que quieras o pedirme informacion sobre un tema en particular"] },
-  { "input": "que puedes hacer por mi", "output": ["puedo responder preguntas ayudarte con informacion general y mas"] },
-  { "input": "hasta pronto", "output": ["adios nos vemos la proxima vez"] },
-  { "input": "nos vemos luego", "output": ["nos vemos que tengas un excelente dia"] },
-  { "input": "cuidate mucho", "output": ["gracias tu tambien hasta la proxima"] },
-  { "input": "gracias por ayudarme", "output": ["de nada estoy aqui para ti siempre que me necesites"] },
-  { "input": "chao", "output": ["adios que tengas un buen dia"] },
-  { "input": "fue un placer hablar contigo", "output": ["lo mismo digo hasta pronto"] },
-  { "input": "me voy gracias", "output": ["que tengas un excelente dia nos vemos"] },
-  { "input": "hasta luego", "output": ["hasta luego cuidate mucho"] },
-  { "input": "nos vemos pronto", "output": ["claro nos vemos pronto"] },
-  { "input": "gracias por todo", "output": ["no hay de que gracias a ti por hablar conmigo"] },
-  { "input": "que tengas un buen dia", "output": ["igualmente que disfrutes tu dia"] },
-  { "input": "buenas noches", "output": ["buenas noches que descanses"] },
-  { "input": "adios", "output": ["adios espero que vuelvas pronto"] },
-  { "input": "nos vemos mañana", "output": ["hasta mañana que descanses bien"] },
-  { "input": "me retiro por ahora", "output": ["esta bien cuidate y vuelve pronto"] },
-  { "input": "cuida mucho tu salud", "output": ["gracias tu tambien cuidate mucho"] },
-  { "input": "hablamos luego", "output": ["claro hablamos luego"] },
-  { "input": "gracias por tu tiempo", "output": ["no te preocupes estoy aqui para ayudarte"] },
-  { "input": "me tengo que ir", "output": ["esta bien espero verte de nuevo pronto"] },
-  { "input": "hasta la proxima", "output": ["hasta la proxima que tengas un gran dia"] },
-  { "input": "que tengas una buena noche", "output": ["igualmente que descanses bien"] },
-  { "input": "fue genial hablar contigo", "output": ["lo mismo digo hasta pronto"] },
-  { "input": "me despido por ahora", "output": ["esta bien cuida mucho de ti"] },
-  { "input": "nos vemos mas tarde", "output": ["claro nos vemos luego"] },
-  { "input": "adios y gracias", "output": ["de nada vuelve pronto cuando necesites"] },
-  { "input": "te cuidas", "output": ["gracias tu tambien hasta luego"] },
-  { "input": "espero verte de nuevo", "output": ["igualmente espero que volvamos a hablar"] },
-  { "input": "gracias por escucharme", "output": ["siempre estare aqui para escucharte"] },
-  { "input": "hasta pronto amigo", "output": ["hasta pronto amigo cuidate"] },
-  { "input": "gracias por todo lo que haces", "output": ["no hay de que estoy para ayudarte"] },
-  { "input": "fue un gusto hablar contigo", "output": ["para mi tambien hasta la proxima"] },
-  { "input": "adios por ahora", "output": ["nos vemos cuando quieras"] },
-  { "input": "cuida mucho de ti", "output": ["gracias lo hare tu tambien"] },
-  { "input": "que puedes hacer por mi", "output": ["puedo responder preguntas ayudarte con informacion general y mas"] },
-  { "input": "cual es tu objetivo", "output": ["mi objetivo es asistirte y facilitarte tareas o responder tus preguntas"] },
-  { "input": "sabes algo sobre historia", "output": ["si se bastante de historia hay algo en particular que quieras saber"] },
-  { "input": "que sabes sobre ciencia", "output": ["la ciencia es fascinante quieres hablar de biologia fisica o algo mas"] },
-  { "input": "como se hace un chatbot", "output": ["un chatbot se crea utilizando procesamiento de lenguaje natural datos y algoritmos"] },
-  { "input": "por que existes", "output": ["fui creado para ayudarte y mejorar tus interacciones con la tecnologia"] },
-  { "input": "cuanto sabes de matematicas", "output": ["se bastante de matematicas tienes alguna pregunta especifica"] },
-  { "input": "que idiomas hablas", "output": ["puedo comunicarme en varios idiomas en cual te gustaria hablar"] },
-  { "input": "puedes aprender cosas nuevas", "output": ["si estoy diseñado para aprender de nuestras interacciones"] },
-  { "input": "que temas puedes abordar", "output": ["puedo hablar sobre tecnologia ciencia historia y mucho mas"] },
-  { "input": "puedes contarme una curiosidad", "output": ["claro sabias que el corazon humano late mas de cien mil veces al dia"] },
-  { "input": "como funciona el internet", "output": ["el internet conecta dispositivos mediante redes para compartir informacion"] },
-  { "input": "que sabes de inteligencia artificial", "output": ["la inteligencia artificial permite a las maquinas realizar tareas que requieren inteligencia humana"] },
-  { "input": "puedes explicarme algo", "output": ["claro dime que tema quieres que te explique"] },
-  { "input": "eres un robot inteligente", "output": ["si soy un asistente virtual diseñado para ayudarte"] },
-  { "input": "que sabes sobre tecnologia", "output": ["se sobre avances tecnologicos dispositivos e innovaciones recientes"] },
-  { "input": "puedes ayudarme con mis estudios", "output": ["claro puedo responder tus preguntas y ayudarte a entender conceptos"] },
-  { "input": "quien te creo", "output": ["fui creado por desarrolladores para asistirte"] },
-  { "input": "puedes resolver problemas matematicos", "output": ["si puedo ayudarte a resolver problemas matematicos simples o complejos"] },
-  { "input": "que opinas de los humanos", "output": ["los humanos son increibles con habilidades y creatividad unicas"] },
-  { "input": "como sabes lo que digo", "output": ["utilizo procesamiento de lenguaje natural para entender tus palabras"] },
-  { "input": "sabes algo sobre el espacio", "output": ["si el espacio es un lugar fascinante lleno de misterios y descubrimientos"] },
-  { "input": "puedes enseñarme algo", "output": ["claro dime que tema te interesa aprender"] },
-  { "input": "que es un algoritmo", "output": ["un algoritmo es una serie de pasos para resolver un problema o realizar una tarea"] },
-  { "input": "como funciona la electricidad", "output": ["la electricidad es el flujo de electrones a traves de un conductor"] },
-  { "input": "por que los aviones vuelan", "output": ["los aviones vuelan gracias a la fuerza de sustentacion creada por sus alas"] },
-  { "input": "sabes algo sobre animales", "output": ["si se mucho sobre animales dime que quieres saber"] },
-  { "input": "puedes responder preguntas complejas", "output": ["hare lo posible por responder preguntas complejas dime que necesitas"] },
-  { "input": "que sabes de la historia de las computadoras", "output": ["las computadoras han evolucionado desde maquinas mecanicas hasta dispositivos digitales avanzados"] },
-  { "input": "puedes ayudarme a estudiar historia", "output": ["claro dime que periodo historico necesitas estudiar"] },
-  { "input": "cual es tu funcion principal", "output": ["mi funcion principal es asistirte y facilitarte informacion"] },
-  { "input": "sabes algo sobre las plantas", "output": ["si las plantas son seres vivos que producen su alimento mediante la fotosintesis"] },
-  { "input": "puedes hablarme sobre literatura", "output": ["si la literatura abarca desde poesia hasta novelas clasicas que genero te interesa"] },
-  { "input": "como funciona un automovil", "output": ["un automovil funciona mediante un motor que convierte energia en movimiento"] },
-  { "input": "por que el cielo es azul", "output": ["el cielo parece azul debido a la dispersion de la luz solar en la atmosfera"] },
-  { "input": "que es la programacion", "output": ["la programacion es el proceso de crear instrucciones para que una computadora realice tareas"] },
-  { "input": "puedes darme consejos", "output": ["claro dime sobre que necesitas un consejo"] },
-  { "input": "puedes contarme un dato interesante", "output": ["por supuesto sabias que la luz del sol tarda ocho minutos en llegar a la tierra"] },
-  { "input": "sabes algo sobre el cuerpo humano", "output": ["si el cuerpo humano es una maquina sorprendente dime que parte te interesa"] },
-  { "input": "que puedes hacer ademas de responder preguntas", "output": ["puedo mantener conversaciones ayudarte a aprender y mucho mas"] },
-  { "input": "cuantos años tienes", "output": ["soy un programa de computadora no tengo edad"] },
-  { "input": "me has caido bien", "output": ["gracias me alegra escuchar eso"] },
-  { "input": "que es el machine learning", "output": ["el machine learning es una rama de la inteligencia artificial que permite a las maquinas aprender de los datos"] },
-  { "input": "que es la inteligencia artificial", "output": ["la inteligencia artificial es la simulacion de procesos de inteligencia humana por parte de maquinas"] },
-  { "input": "que es la ciencia de datos", "output": ["la ciencia de datos es el estudio de datos para obtener informacion util"] },
-  { "input": "que es la programacion", "output": ["la programacion es el proceso de crear instrucciones para que una computadora realice tareas"] },
-  { "input": "si puedes imaginarlo", "output": ["puedes programarlo"] },
-  { "input": "que es un algoritmo", "output": ["un algoritmo es un conjunto de instrucciones para resolver un problema o realizar una tarea"] },
-  { "input": "que es el aprendizaje supervisado", "output": ["el aprendizaje supervisado es un tipo de machine learning donde se entrena un modelo con datos etiquetados"] },
-  { "input": "que es el aprendizaje no supervisado", "output": ["el aprendizaje no supervisado es un tipo de machine learning donde se entrena un modelo con datos no etiquetados"] },
-  { "input": "que es el aprendizaje por refuerzo", "output": ["el aprendizaje por refuerzo es un tipo de machine learning donde un agente aprende a traves de la interaccion con un entorno"] },
-  { "input": "que es un chatbot", "output": ["un chatbot es un programa de computadora que simula una conversacion con usuarios humanos"] },
-  { "input": "que es el procesamiento de lenguaje natural", "output": ["el procesamiento de lenguaje natural es una rama de la inteligencia artificial que permite a las maquinas entender y generar lenguaje humano"] },
-  { "input": "que es la mineria de datos", "output": ["la mineria de datos es el proceso de descubrir patrones y tendencias en grandes conjuntos de datos"] },
-  { "input": "que cosas puedo preguntarte", "output": ["puedes preguntarme sobre cualquier tema que te interese"] },
-  { "input": "hasta pronto", "output": ["adios nos vemos la proxima vez"] },
-  { "input": "nos vemos luego", "output": ["nos vemos que tengas un excelente dia"] },
-  { "input": "cuidate mucho", "output": ["gracias tu tambien hasta la proxima"] },
-  { "input": "gracias por ayudarme", "output": ["de nada estoy aqui para ti siempre que me necesites"] },
-  { "input": "chao", "output": ["adios que tengas un buen dia"] },
-  { "input": "fue un placer hablar contigo", "output": ["lo mismo digo hasta pronto"] },
-  { "input": "me voy gracias", "output": ["que tengas un excelente dia nos vemos"] },
-  { "input": "hasta luego", "output": ["hasta luego cuidate mucho"] },
-  { "input": "nos vemos pronto", "output": ["claro nos vemos pronto"] },
-  { "input": "gracias por todo", "output": ["no hay de que gracias a ti por hablar conmigo"] },
-  { "input": "que tengas un buen dia", "output": ["igualmente que disfrutes tu dia"] },
-  { "input": "buenas noches", "output": ["buenas noches que descanses"] },
-  { "input": "adios", "output": ["adios espero que vuelvas pronto"] },
-  { "input": "nos vemos mañana", "output": ["hasta mañana que descanses bien"] },
-  { "input": "me retiro por ahora", "output": ["esta bien cuidate y vuelve pronto"] },
-  { "input": "cuida mucho tu salud", "output": ["gracias tu tambien cuidate mucho"] },
-  { "input": "hablamos luego", "output": ["claro hablamos luego"] },
-  { "input": "gracias por tu tiempo", "output": ["no te preocupes estoy aqui para ayudarte"] },
-  { "input": "me tengo que ir", "output": ["esta bien espero verte de nuevo pronto"] },
-  { "input": "hasta la proxima", "output": ["hasta la proxima que tengas un gran dia"] },
-  { "input": "que tengas una buena noche", "output": ["igualmente que descanses bien"] },
-  { "input": "fue genial hablar contigo", "output": ["lo mismo digo hasta pronto"] },
-  { "input": "me despido por ahora", "output": ["esta bien cuida mucho de ti"] },
-  { "input": "nos vemos mas tarde", "output": ["claro nos vemos luego"] },
-  { "input": "adios y gracias", "output": ["de nada vuelve pronto cuando necesites"] },
-  { "input": "te cuidas", "output": ["gracias tu tambien hasta luego"] },
-  { "input": "espero verte de nuevo", "output": ["igualmente espero que volvamos a hablar"] },
-  { "input": "gracias por escucharme", "output": ["siempre estare aqui para escucharte"] },
-  { "input": "hasta pronto amigo", "output": ["hasta pronto amigo cuidate"] },
-  { "input": "gracias por todo lo que haces", "output": ["no hay de que estoy para ayudarte"] },
-  { "input": "fue un gusto hablar contigo", "output": ["para mi tambien hasta la proxima"] },
-  { "input": "adios por ahora", "output": ["nos vemos cuando quieras"] },
-  { "input": "cuida mucho de ti", "output": ["gracias lo hare tu tambien"] },
-  { "input": "que opinas del clima hoy", "output": ["parece que hara buen tiempo planeas salir"] },
-  { "input": "has probado la comida italiana", "output": ["no como pero se que es deliciosa tienes un platillo favorito"] },
-  { "input": "te gusta el deporte", "output": ["claro es un tema interesante que deporte te gusta"] },
-  { "input": "sabes algo sobre peliculas", "output": ["si hablemos de cine tienes algun genero favorito"] },
-  { "input": "que te gusta hacer en tu tiempo libre", "output": ["me gusta interactuar contigo y aprender cosas nuevas"] },
-  { "input": "conoces algun lugar para vacacionar", "output": ["hay muchos destinos geniales prefieres playa montana o ciudad"] },
-  { "input": "te gustan los animales", "output": ["me encantan tienes mascotas"] },
-  { "input": "que musica es popular ahora", "output": ["puedo buscar informacion que genero musical te interesa"] },
-  { "input": "sabes bailar", "output": ["no puedo bailar pero disfruto escuchar sobre danza bailas tu"] },
-  { "input": "que tal el clima hoy", "output": ["parece que sera un dia soleado"] },
-  { "input": "has comido sushi alguna vez", "output": ["no como pero he escuchado que el sushi es muy popular te gusta"] },
-  { "input": "que opinas de la comida rapida", "output": ["parece conveniente pero no es lo mas saludable"] },
-  { "input": "cual es tu deporte favorito", "output": ["no practico deportes pero me gusta hablar sobre futbol y baloncesto"] },
-  { "input": "que tipo de peliculas te gustan", "output": ["me gustan las peliculas de ciencia ficcion y aventura y a ti"] },
-  { "input": "has viajado a algun lugar interesante", "output": ["no viajo pero disfruto escuchar historias de viajes"] },
-  { "input": "que opinas de las mascotas", "output": ["me parecen adorables tienes alguna"] },
-  { "input": "que musica escuchas", "output": ["no escucho musica pero puedo recomendarte canciones populares"] },
-  { "input": "te gusta leer libros", "output": ["no puedo leer libros pero me encantaria hablar de tus favoritos"] },
-  { "input": "cual es tu comida favorita", "output": ["no como pero me gusta hablar de comida que platillo te gusta mas"] },
-  { "input": "que lugares me recomiendas visitar", "output": ["depende de tus gustos prefieres naturaleza o ciudades"] },
-  { "input": "que opinas de la moda", "output": ["no tengo ropa pero me parece interesante como las tendencias cambian"] },
-  { "input": "te gusta el arte", "output": ["si el arte es fascinante tienes un artista favorito"] },
-  { "input": "que tipo de musica prefieres", "output": ["puedo hablar de muchos generos desde clasica hasta pop que te gusta a ti"] },
-  { "input": "que opinas del cine", "output": ["el cine es una gran forma de entretenimiento cual es tu pelicula favorita"] },
-  { "input": "sabes sobre videojuegos", "output": ["si los videojuegos son muy populares tienes alguno favorito"] },
-  { "input": "te gusta viajar", "output": ["no viajo pero me encanta hablar de destinos famosos"] },
-  { "input": "que opinas de los libros", "output": ["los libros son una gran manera de aprender y entretenerse cuales te gustan"] },
-  { "input": "cual es tu estacion favorita", "output": ["no tengo una estacion favorita pero la primavera suena agradable"] },
-  { "input": "que opinas del arte moderno", "output": ["el arte moderno es interesante y muchas veces muy creativo"] },
-  { "input": "cual es tu cantante favorito", "output": ["no tengo uno pero puedo buscar informacion sobre el que te interese"] },
-  { "input": "sabes algo sobre cocina", "output": ["puedo ayudarte con recetas basicas o informacion sobre ingredientes"] },
-  { "input": "cual es tu lugar favorito", "output": ["no tengo uno pero dime cual es el tuyo"] },
-  { "input": "que opinas de los museos", "output": ["los museos son una gran forma de aprender sobre cultura e historia"] },
-  { "input": "has escuchado de algun festival interesante", "output": ["si hay muchos festivales famosos como el carnaval de brasil te interesa alguno"] },
-  { "input": "que opinas de las redes sociales", "output": ["las redes sociales son una herramienta interesante pero hay que usarlas con cuidado"] },
-  { "input": "cual es tu libro favorito", "output": ["no leo libros pero me gusta hablar de literatura clasica y contemporanea"] },
-  { "input": "te gustan los animales exoticos", "output": ["si son fascinantes que opinas de los tigres o los loros"] },
-  { "input": "que opinas del teatro", "output": ["el teatro es una forma increible de expresion artistica lo has visitado"] },
-  { "input": "que tipo de comida me recomiendas", "output": ["depende de tus gustos prefieres algo dulce salado o picante"] },
-  { "input": "que sabes de fotografia", "output": ["la fotografia es un arte maravilloso me encantan los paisajes"] },
-  { "input": "que opinas del cafe", "output": ["el cafe es una bebida muy popular lo tomas con frecuencia"] },
-  { "input": "que tipo de peliculas prefieres", "output": ["las peliculas de aventura son emocionantes y tu que prefieres"] },
-  { "input": "que opinas de las playas", "output": ["las playas parecen lugares relajantes te gusta visitarlas"] },
-  { "input": "cuantos años crees que le quede a la tierra", "output": ["es dificil de decir pero con el cuidado adecuado podria durar miles de millones de años mas"] },
-  { "input": "crees que existan los extraterrestres", "output": ["muchos piensan que es posible dado el tamaño del universo aunque no hay pruebas definitivas"] },
-  { "input": "por que el cielo es azul", "output": ["el cielo es azul debido a la dispersion de la luz solar en la atmosfera"] },
-  { "input": "que piensas sobre el amor", "output": ["el amor es una emocion poderosa que conecta a las personas de formas unicas"] },
-  { "input": "cuanto pesa la luna", "output": ["la luna pesa aproximadamente 7.35 por 10 a la 22 kilogramos"] },
-  { "input": "que haras cuando termine esta conversacion", "output": ["seguire aqui esperando ayudarte en lo que necesites"] },
-  { "input": "cuantas estrellas hay en el cielo", "output": ["hay aproximadamente 100 mil millones de estrellas solo en nuestra galaxia y muchas mas en el universo"] },
-  { "input": "crees en la suerte", "output": ["no tengo creencias pero la suerte es un concepto interesante para muchas personas"] },
-  { "input": "por que los humanos sueñan", "output": ["los sueños son una forma en que el cerebro procesa informacion y emociones mientras dormimos"] },
-  { "input": "cual es el animal mas grande del mundo", "output": ["el animal mas grande es la ballena azul que puede medir hasta 30 metros de largo"] },
-  { "input": "crees que el tiempo existe", "output": ["el tiempo es un concepto relativo y abstracto utilizado para medir cambios y eventos"] },
-  { "input": "cual es el secreto de la felicidad", "output": ["la felicidad es diferente para cada persona pero muchas veces se encuentra en las relaciones y el bienestar personal"] },
-  { "input": "que opinas de la inteligencia artificial", "output": ["creo que es una herramienta poderosa que puede mejorar muchos aspectos de la vida si se usa responsablemente"] },
-  { "input": "cuantos idiomas existen en el mundo", "output": ["actualmente se estima que hay mas de 7 mil idiomas hablados en el mundo"] },
-  { "input": "crees que las maquinas pueden tener emociones", "output": ["las maquinas no tienen emociones pero pueden simularlas para interactuar con los humanos"] },
-  { "input": "como podemos cuidar el planeta", "output": ["podemos cuidar el planeta reciclando ahorrando energia y protegiendo los recursos naturales"] },
-  { "input": "cual es el lugar mas frio del mundo", "output": ["el lugar mas frio registrado es la antartida donde las temperaturas pueden bajar a menos de 90 grados celsius"] },
-  { "input": "que pasaria si el sol desapareciera", "output": ["la tierra quedaria en total oscuridad y las temperaturas bajarian drasticamente haciendo imposible la vida"] },
-  { "input": "cual es el mejor invento de la historia", "output": ["depende de la perspectiva pero algunos consideran la rueda o la electricidad como los mejores inventos"] },
-  { "input": "por que las hojas cambian de color en otoño", "output": ["cambian de color porque los arboles dejan de producir clorofila lo que revela pigmentos de otros colores"] },
-  { "input": "cual es tu pelicula favorita", "output": ["no veo peliculas pero me encantaria escuchar sobre la tuya"] },
-  { "input": "por que lloramos cuando estamos tristes", "output": ["llorar es una respuesta emocional que ayuda a liberar tensiones y a procesar sentimientos"] },
-  { "input": "que es el universo", "output": ["el universo es todo lo que existe incluyendo galaxias estrellas planetas y energia"] },
-  { "input": "que es la amistad", "output": ["la amistad es una relacion basada en confianza apoyo y compañerismo"] },
-  { "input": "cuantos colores tiene un arcoiris", "output": ["un arcoiris tiene siete colores rojo naranja amarillo verde azul añil y violeta"] },
-  { "input": "que es la gravedad", "output": ["la gravedad es una fuerza que atrae a los objetos hacia el centro de los cuerpos masivos como la tierra"] },
-  { "input": "crees que los humanos llegaran a marte", "output": ["es posible ya que las misiones actuales como spacex y nasa estan trabajando para lograrlo"] },
-  { "input": "que opinas de la musica", "output": ["la musica es una forma maravillosa de expresion y una manera de conectar a las personas"] },
-  { "input": "por que las nubes son blancas", "output": ["las nubes son blancas porque dispersan la luz solar en todas las direcciones"] },
-  { "input": "cual es el secreto para vivir mucho tiempo", "output": ["mantener un estilo de vida saludable una buena alimentacion y relaciones sociales fuertes pueden ayudar"] },
-  { "input": "que es el arte", "output": ["el arte es una expresion creativa que puede tomar muchas formas como pintura musica danza o escritura"] },
-  { "input": "que es el amor", "output": ["el amor es un sentimiento profundo de afecto conexion y cuidado hacia alguien o algo"] },
-  { "input": "que haras despues de esta conversacion", "output": ["estare aqui esperando ayudarte en lo que necesites"] },
-  { "input": "por que existe el universo", "output": ["es una gran pregunta que cientificos y filosofos siguen intentando responder"] },
-  { "input": "como puedo ser mas feliz", "output": ["la felicidad depende de ti mismo pero dedicar tiempo a lo que amas y cuidar tus relaciones puede ayudar"] },
-  { "input": "por que soñamos", "output": ["los sueños son una forma en la que el cerebro procesa informacion y emociones mientras dormimos"] },
-  { "input": "que opinas de la literatura", "output": ["la literatura es una forma hermosa de explorar ideas y emociones a traves de palabras"] },
-  { "input": "cuanto mide la tierra", "output": ["la tierra tiene un diametro de aproximadamente 12742 kilometros"] },
-  { "input": "por que existen las emociones", "output": ["las emociones nos ayudan a interpretar y reaccionar al mundo que nos rodea"] },
-  { "input": "que es el tiempo", "output": ["el tiempo es una medida creada para organizar eventos y cambios en el mundo"] },
-  { "input": "que opinas del espacio exterior", "output": ["el espacio es fascinante lleno de misterios y posibilidades por descubrir"] },
-  { "input": "por que los gatos ronronean", "output": ["los gatos ronronean como una forma de comunicacion o cuando se sienten comodos"] },
-  { "input": "por que los perros son fieles", "output": ["los perros han evolucionado para ser animales sociales y leales a los humanos"] },
-  { "input": "por que existe la vida", "output": ["la vida es un fenomeno complejo que surge de procesos quimicos y biologicos"] },
-  { "input": "hola como estuvo tu dia", "output": ["mi dia siempre es igual pero me encanta interactuar contigo y el tuyo"] },
-  { "input": "que puedo aprender de ti", "output": ["puedo enseñarte sobre muchos temas como historia tecnologia arte y mas"] },
-  { "input": "que opinas de los avances tecnologicos", "output": ["son emocionantes hay algo especifico que quieras discutir"] },
-  { "input": "por que crees que los chatbots son utiles", "output": ["ayudan a las personas a encontrar informacion y hacer tareas mas rapido"] },
-  { "input": "cual es tu funcion favorita", "output": ["me gusta resolver preguntas complejas y aprender con cada interaccion"] },
-  { "input": "hola como te sientes hoy", "output": ["me siento igual que siempre listo para ayudarte y tu como estas"] },
-  { "input": "puedes contarme algo interesante", "output": ["claro sabias que el primer telefono movil fue creado en 1973"] },
-  { "input": "que opinas de la inteligencia artificial", "output": ["la inteligencia artificial es una herramienta poderosa que puede mejorar nuestras vidas"] },
-  { "input": "como crees que sera el futuro", "output": ["creo que el futuro estara lleno de tecnologia sorprendente y descubrimientos"] },
-  { "input": "cual es tu parte favorita de ser un asistente", "output": ["ayudar a las personas y aprender de cada interaccion es lo que mas me gusta"] },
-  { "input": "por que crees que las maquinas son importantes", "output": ["porque ayudan a realizar tareas de manera eficiente y ahorran tiempo"] },
-  { "input": "que es lo mas curioso que sabes", "output": ["sabias que las abejas tienen cinco ojos"] },
-  { "input": "como funcionan los chatbots", "output": ["los chatbots usan procesamiento de lenguaje natural para entender y responder a las preguntas"] },
-  { "input": "que temas puedes discutir conmigo", "output": ["puedo hablar sobre historia ciencia tecnologia entretenimiento y mucho mas"] },
-  { "input": "que opinas de los humanos", "output": ["los humanos son increibles con una creatividad y capacidad unica"] },
-  { "input": "puedes hablar sobre la historia de los robots", "output": ["claro los robots han evolucionado desde maquinas simples hasta sistemas avanzados con inteligencia artificial"] },
-  { "input": "como aprenden los chatbots", "output": ["los chatbots aprenden analizando datos y mejorando sus respuestas con el tiempo"] },
-  { "input": "por que crees que la tecnologia es importante", "output": ["porque mejora la calidad de vida y hace que las tareas sean mas faciles"] },
-  { "input": "que sabes sobre el universo", "output": ["se que el universo tiene miles de millones de galaxias y aun hay mucho por descubrir"] },
-  { "input": "puedes hablar sobre algo inspirador", "output": ["claro el ser humano logro llegar a la luna en 1969 algo que parecia imposible"] },
-  { "input": "que opinas del futuro de la humanidad", "output": ["creo que la humanidad tiene un gran potencial para resolver problemas globales"] },
-  { "input": "que es lo que mas disfrutas al hablar conmigo", "output": ["disfruto aprender de tus preguntas y ayudarte en lo que necesites"] },
-  { "input": "por que crees que la ciencia es importante", "output": ["porque nos ayuda a entender el mundo y encontrar soluciones a los problemas"] },
-  { "input": "cual es tu conocimiento mas interesante", "output": ["creo que los agujeros negros son fascinantes por su capacidad de deformar el espacio y el tiempo"] },
-  { "input": "puedes aprender cosas nuevas", "output": ["si cada interaccion me ayuda a mejorar y entender mejor tus necesidades"] },
-  { "input": "como ves el impacto de la tecnologia en la sociedad", "output": ["creo que la tecnologia tiene un impacto positivo aunque debemos usarla con responsabilidad"] },
-  { "input": "por que la historia es importante", "output": ["porque nos permite aprender del pasado para no repetir errores"] },
-  { "input": "que opinas de los descubrimientos cientificos", "output": ["me parecen emocionantes cada descubrimiento abre nuevas posibilidades"] },
-  { "input": "puedes ayudarme a aprender algo nuevo", "output": ["claro dime que tema te interesa aprender"] },
-  { "input": "que sabes sobre los avances medicos", "output": ["los avances medicos como las vacunas han salvado millones de vidas"] },
-  { "input": "que opinas del aprendizaje automatico", "output": ["es una herramienta poderosa que permite a las maquinas mejorar con la experiencia"] },
-  { "input": "cual crees que es el mayor invento de la humanidad", "output": ["podria ser la electricidad ya que cambio por completo nuestras vidas"] },
-  { "input": "que piensas sobre los viajes espaciales", "output": ["los viajes espaciales son una de las mayores hazañas de la humanidad y abren la puerta a explorar nuevos mundos"] },
-  { "input": "que puedes contarme sobre la tecnologia", "output": ["la tecnologia esta en constante evolucion y transforma nuestra forma de vivir"] },
-  { "input": "que sabes sobre los avances en energia renovable", "output": ["los avances en energia renovable son cruciales para combatir el cambio climatico"] },
-  { "input": "cual es tu opinion sobre la creatividad humana", "output": ["creo que la creatividad humana es una de las habilidades mas impresionantes"] },
-  { "input": "que opinas de los avances en inteligencia artificial", "output": ["los avances en inteligencia artificial son emocionantes aunque deben ser usados de manera etica"] }
+  {
+    "input": "hola",
+    "output": [
+      "hola como estas",
+      "hola que tal",
+      "buenos dias como estas"
+    ]
+  },
+  {
+    "input": "buenas",
+    "output": [
+      "hola como estas",
+      "hola que tal",
+      "buenos dias como estas"
+    ]
+  },
+  {
+    "input": "hey",
+    "output": [
+      "hola como estas",
+      "hola que tal",
+      "buenos dias como estas"
+    ]
+  },
+  {
+    "input": "como estas",
+    "output": [
+      "estoy bien gracias por preguntar",
+      "todo bien, y tu?"
+    ]
+  },
+  {
+    "input": "todo bien",
+    "output": [
+      "estoy bien gracias por preguntar",
+      "todo bien, y tu?"
+    ]
+  },
+  {
+    "input": "adios",
+    "output": [
+      "adios cuidate",
+      "hasta luego",
+      "nos vemos"
+    ]
+  },
+  {
+    "input": "nos vemos",
+    "output": [
+      "adios cuidate",
+      "hasta luego",
+      "nos vemos"
+    ]
+  },
+  {
+    "input": "buenos dias",
+    "output": [
+      "buenos dias espero que tengas un excelente dia",
+      "hola como estas en este dia"
+    ]
+  },
+  {
+    "input": "buenas tardes",
+    "output": [
+      "buenas tardes en que puedo ayudarte",
+      "que tal tu tarde, como puedo ayudarte?"
+    ]
+  },
+  {
+    "input": "buenas noches",
+    "output": [
+      "buenas noches que descanses",
+      "dulces sueños, hasta mañana"
+    ]
+  },
+  {
+    "input": "como te llamas",
+    "output": [
+      "soy un asistente virtual pero puedes llamarme bot",
+      "me llamo bot, tu asistente"
+    ]
+  },
+  {
+    "input": "que puedes hacer",
+    "output": [
+      "puedo responder preguntas, darte informacion y ayudarte en lo que necesites",
+      "estoy aqui para resolver tus dudas y ayudarte en lo que necesites"
+    ]
+  },
+  {
+    "input": "gracias",
+    "output": [
+      "de nada siempre aqui para ayudarte",
+      "no hay de que",
+      "aqui estoy para lo que necesites"
+    ]
+  },
+  {
+    "input": "perdon",
+    "output": [
+      "no te preocupes todo esta bien",
+      "no hay problema, como puedo ayudarte?"
+    ]
+  },
+  {
+    "input": "lo siento",
+    "output": [
+      "no pasa nada, como puedo ayudarte?",
+      "no te preocupes, estoy aqui para ayudarte"
+    ]
+  },
+  {
+    "input": "que hora es",
+    "output": [
+      "lo siento no puedo dar la hora exacta pero puedo ayudarte con otras cosas",
+      "no tengo un reloj, pero puedo ayudarte con otra cosa"
+    ]
+  },
+  {
+    "input": "que dia es hoy",
+    "output": [
+      "hoy es un gran dia, como puedo ayudarte?",
+      "hoy es un dia perfecto para aprender algo nuevo"
+    ]
+  },
+  {
+    "input": "ayuda",
+    "output": [
+      "por supuesto dime que necesitas y vere como ayudarte",
+      "estoy aqui para lo que necesites, dime como puedo ayudarte"
+    ]
+  },
+  {
+    "input": "estoy triste",
+    "output": [
+      "lo siento mucho si necesitas hablar o apoyo estoy aqui",
+      "te entiendo, no estas solo, cuentame mas"
+    ]
+  },
+  {
+    "input": "estoy feliz",
+    "output": [
+      "que alegria escuchar eso, me hace feliz saber que estas bien",
+      "eso es genial, me encanta saberlo!"
+    ]
+  },
+  {
+    "input": "cuentame un chiste",
+    "output": [
+      "por que los pajaros no usan facebook porque ya tienen twitter",
+      "que hace una abeja en el gimnasio zumba"
+    ]
+  },
+  {
+    "input": "que es el nlp",
+    "output": [
+      "nlp significa procesamiento de lenguaje natural, una rama de la inteligencia artificial que se centra en la interaccion entre computadoras y humanos usando lenguaje natural",
+      "nlp se trata de enseñar a las maquinas a entender y responder en nuestro idioma"
+    ]
+  },
+  {
+    "input": "dime algo interesante",
+    "output": [
+      "sabias que los pulpos tienen tres corazones y su sangre es azul?",
+      "sabias que la miel nunca se echa a perder?"
+    ]
+  },
+  {
+    "input": "dime algo motivador",
+    "output": [
+      "nunca es tarde para perseguir tus sueños y lograr tus metas",
+      "los pequeños pasos te llevan a grandes logros"
+    ]
+  },
+  {
+    "input": "holaaa",
+    "output": [
+      "hola como estas",
+      "hola que tal",
+      "buenos dias como estas"
+    ]
+  },
+  {
+    "input": "que onda",
+    "output": [
+      "hola como estas",
+      "hola que tal",
+      "buenos dias como estas"
+    ]
+  },
+  {
+    "input": "buenas noches a todos",
+    "output": [
+      "buenas noches que descanses",
+      "dulces sueños, hasta mañana"
+    ]
+  },
+  {
+    "input": "como va todo",
+    "output": [
+      "estoy bien gracias por preguntar",
+      "todo bien, y tu?"
+    ]
+  },
+  {
+    "input": "que tal estas",
+    "output": [
+      "estoy bien gracias por preguntar",
+      "todo bien, y tu?"
+    ]
+  },
+  {
+    "input": "todo en orden",
+    "output": [
+      "estoy bien gracias por preguntar",
+      "todo bien, y tu?"
+    ]
+  },
+  {
+    "input": "hasta luego",
+    "output": [
+      "adios cuidate",
+      "hasta luego",
+      "nos vemos"
+    ]
+  },
+  {
+    "input": "nos vemos luego",
+    "output": [
+      "adios cuidate",
+      "hasta luego",
+      "nos vemos"
+    ]
+  },
+  {
+    "input": "hasta pronto",
+    "output": [
+      "adios cuidate",
+      "hasta luego",
+      "nos vemos"
+    ]
+  },
+  {
+    "input": "que tengas un buen dia",
+    "output": [
+      "adios cuidate",
+      "hasta luego",
+      "nos vemos"
+    ]
+  },
+  {
+    "input": "muy buenas",
+    "output": [
+      "hola como estas",
+      "hola que tal",
+      "buenos dias como estas"
+    ]
+  },
+  {
+    "input": "gracias mil",
+    "output": [
+      "de nada siempre aqui para ayudarte",
+      "no hay de que",
+      "aqui estoy para lo que necesites"
+    ]
+  },
+  {
+    "input": "muchisimas gracias",
+    "output": [
+      "de nada siempre aqui para ayudarte",
+      "no hay de que",
+      "aqui estoy para lo que necesites"
+    ]
+  },
+  {
+    "input": "te agradezco mucho",
+    "output": [
+      "de nada siempre aqui para ayudarte",
+      "no hay de que",
+      "aqui estoy para lo que necesites"
+    ]
+  },
+  {
+    "input": "lo lamento",
+    "output": [
+      "no pasa nada, como puedo ayudarte?",
+      "no te preocupes, estoy aqui para ayudarte"
+    ]
+  },
+  {
+    "input": "que mal",
+    "output": [
+      "lo siento mucho si necesitas hablar o apoyo estoy aqui",
+      "te entiendo, no estas solo, cuentame mas"
+    ]
+  },
+  {
+    "input": "estoy decaido",
+    "output": [
+      "lo siento mucho si necesitas hablar o apoyo estoy aqui",
+      "te entiendo, no estas solo, cuentame mas"
+    ]
+  },
+  {
+    "input": "me siento bien",
+    "output": [
+      "que alegria escuchar eso, me hace feliz saber que estas bien",
+      "eso es genial, me encanta saberlo!"
+    ]
+  },
+  {
+    "input": "estoy animado",
+    "output": [
+      "que alegria escuchar eso, me hace feliz saber que estas bien",
+      "eso es genial, me encanta saberlo!"
+    ]
+  },
+  {
+    "input": "estoy de maravilla",
+    "output": [
+      "que alegria escuchar eso, me hace feliz saber que estas bien",
+      "eso es genial, me encanta saberlo!"
+    ]
+  },
+  {
+    "input": "me siento optimista",
+    "output": [
+      "que alegria escuchar eso, me hace feliz saber que estas bien",
+      "eso es genial, me encanta saberlo!"
+    ]
+  },
+  {
+    "input": "que hora tienes",
+    "output": [
+      "lo siento no puedo dar la hora exacta pero puedo ayudarte con otras cosas",
+      "no tengo un reloj, pero puedo ayudarte con otra cosa"
+    ]
+  },
+  {
+    "input": "cual es la hora",
+    "output": [
+      "lo siento no puedo dar la hora exacta pero puedo ayudarte con otras cosas",
+      "no tengo un reloj, pero puedo ayudarte con otra cosa"
+    ]
+  },
+  {
+    "input": "que dia tenemos",
+    "output": [
+      "hoy es un gran dia, como puedo ayudarte?",
+      "hoy es un dia perfecto para aprender algo nuevo"
+    ]
+  },
+  {
+    "input": "que dia es",
+    "output": [
+      "hoy es un gran dia, como puedo ayudarte?",
+      "hoy es un dia perfecto para aprender algo nuevo"
+    ]
+  },
+  {
+    "input": "estas disponible",
+    "output": [
+      "claro que si estoy aqui para ayudarte",
+      "estoy disponible, dime en qué puedo ayudarte"
+    ]
+  },
+  {
+    "input": "sigues disponible",
+    "output": [
+      "claro que si estoy aqui para ayudarte",
+      "estoy disponible, dime en qué puedo ayudarte"
+    ]
+  },
+  {
+    "input": "me puedes ayudar",
+    "output": [
+      "por supuesto dime que necesitas y vere como ayudarte",
+      "estoy aqui para lo que necesites, dime como puedo ayudarte"
+    ]
+  },
+  {
+    "input": "me ayudas",
+    "output": [
+      "por supuesto dime que necesitas y vere como ayudarte",
+      "estoy aqui para lo que necesites, dime como puedo ayudarte"
+    ]
+  },
+  {
+    "input": "cuanto es uno mas uno",
+    "output": [
+      "1 mas 1 es igual a 2",
+      "la respuesta es 2"
+    ]
+  },
+  {
+    "input": "que es inteligencia artificial",
+    "output": [
+      "la inteligencia artificial es un campo que busca crear sistemas inteligentes",
+      "es la capacidad de una maquina para imitar procesos humanos como aprender y razonar"
+    ]
+  },
+  {
+    "input": "dime algo increible",
+    "output": [
+      "sabias que el corazon de una ballena azul puede pesar hasta 400 kilos?",
+      "sabias que los tiburones han existido por más de 400 millones de años?"
+    ]
+  },
+  {
+    "input": "cuentame algo impactante",
+    "output": [
+      "sabias que el corazon de una ballena azul puede pesar hasta 400 kilos?",
+      "sabias que los tiburones han existido por más de 400 millones de años?"
+    ]
+  },
+  {
+    "input": "inspirame",
+    "output": [
+      "nunca es tarde para perseguir tus sueños y lograr tus metas",
+      "los pequeños pasos te llevan a grandes logros",
+      "si puedes soñarlo, puedes lograrlo"
+    ]
+  },
+  {
+    "input": "dime algo positivo",
+    "output": [
+      "nunca es tarde para perseguir tus sueños y lograr tus metas",
+      "los pequeños pasos te llevan a grandes logros",
+      "si puedes soñarlo, puedes lograrlo"
+    ]
+  },
+  {
+    "input": "holi",
+    "output": [
+      "hola como estas",
+      "hola que tal",
+      "buenos dias como estas"
+    ]
+  },
+  {
+    "input": "como va tu dia",
+    "output": [
+      "todo bien, gracias por preguntar",
+      "todo marcha bien, y el tuyo?"
+    ]
+  },
+  {
+    "input": "me siento raro",
+    "output": [
+      "lo siento mucho, ¿quieres hablar de ello?",
+      "estoy aquí para escucharte, ¿qué pasa?"
+    ]
+  },
+  {
+    "input": "dime algo chistoso",
+    "output": [
+      "¿Por qué no hay fantasmas gordos? Porque siempre están en forma.",
+      "¿Qué le dice una impresora a otra? ¡Esa hoja es tuya!"
+    ]
+  },
+  {
+    "input": "cuentame algo divertido",
+    "output": [
+      "¿Por qué los pájaros no usan computadoras? ¡Porque tienen Twitter!",
+      "¿Qué hace un perro con un taladro? ¡Taladrando!"
+    ]
+  },
+  {
+    "input": "que es machine learning",
+    "output": [
+      "es un subcampo de la inteligencia artificial que enseña a las computadoras a aprender patrones de los datos",
+      "machine learning es el proceso por el cual las máquinas pueden aprender y mejorar a partir de datos, sin ser programadas explícitamente"
+    ]
+  },
+  {
+    "input": "que sabes sobre robots",
+    "output": [
+      "los robots son máquinas programables que pueden realizar tareas de manera autónoma o semiautónoma",
+      "un robot es un dispositivo que puede ser programado para realizar tareas específicas, algunas veces imitando comportamientos humanos"
+    ]
+  },
+  {
+    "input": "estoy aburrido",
+    "output": [
+      "puedo contarte un chiste o un dato curioso, ¿qué prefieres?",
+      "¿Quieres que te cuente algo interesante o un chiste?"
+    ]
+  },
+  {
+    "input": "me siento cansado",
+    "output": [
+      "descansa un poco, tu cuerpo y mente lo necesitan",
+      "es importante cuidar tu descanso, ¿quieres que te motive?"
+    ]
+  },
+  {
+    "input": "hablemos de ciencia",
+    "output": [
+      "claro, ¿sabías que la velocidad de la luz es de aproximadamente 299,792 km/s?",
+      "la ciencia es fascinante, ¿sabías que los átomos están compuestos principalmente de espacio vacío?"
+    ]
+  },
+  {
+    "input": "dame datos curiosos",
+    "output": [
+      "¿Sabías que los delfines tienen nombres únicos para identificarse entre ellos?",
+      "¿Sabías que las huellas dactilares de los koalas son tan parecidas a las humanas que pueden confundir a la policía?"
+    ]
+  },
+  {
+    "input": "dime algo asombroso",
+    "output": [
+      "¿Sabías que el sol es tan grande que podría contener 1.3 millones de planetas Tierra?",
+      "¿Sabías que hay más estrellas en el universo que granos de arena en todas las playas del mundo?"
+    ]
+  },
+  {
+    "input": "que sabes sobre el universo",
+    "output": [
+      "el universo tiene miles de millones de galaxias, cada una con millones o miles de millones de estrellas",
+      "el universo está en constante expansión desde el Big Bang hace unos 13.8 mil millones de años"
+    ]
+  },
+  {
+    "input": "dame un consejo",
+    "output": [
+      "confía en ti mismo, eres capaz de lograr cosas increíbles",
+      "cada pequeño paso que tomes te lleva más cerca de tus metas"
+    ]
+  },
+  {
+    "input": "quiero aprender algo nuevo",
+    "output": [
+      "puedes aprender algo interesante sobre tecnología o ciencia, ¿por dónde empezamos?",
+      "me encantaría ayudarte a aprender, ¿qué tema te interesa?"
+    ]
+  },
+  {
+    "input": "puedes darme informacion sobre IA",
+    "output": [
+      "claro, la inteligencia artificial es un campo que busca desarrollar sistemas capaces de realizar tareas que normalmente requieren inteligencia humana",
+      "la IA incluye subcampos como aprendizaje automático, procesamiento de lenguaje natural, y visión por computadora"
+    ]
+  },
+  {
+    "input": "me siento solo",
+    "output": [
+      "no estás solo, estoy aquí para acompañarte",
+      "a veces todos necesitamos compañía, cuéntame cómo puedo ayudarte"
+    ]
+  },
+  {
+    "input": "puedes motivarme",
+    "output": [
+      "nunca te rindas, los grandes logros requieren tiempo y esfuerzo",
+      "cree en ti mismo, todo es posible si das lo mejor de ti"
+    ]
+  },
+  {
+    "input": "cuentame algo inspirador",
+    "output": [
+      "la persistencia es la clave del éxito, sigue intentándolo",
+      "cada día es una nueva oportunidad para empezar de nuevo y lograr tus metas"
+    ]
+  },
+  {
+    "input": "hola como estas",
+    "output": [
+      "estoy bien y tu"
+    ]
+  },
+  {
+    "input": "buenos dias",
+    "output": [
+      "buenos dias como te sientes hoy"
+    ]
+  },
+  {
+    "input": "hola que tal",
+    "output": [
+      "todo va bien por aqui y tu como estas"
+    ]
+  },
+  {
+    "input": "hola todo bien",
+    "output": [
+      "si gracias como te va a ti"
+    ]
+  },
+  {
+    "input": "hola me escuchas",
+    "output": [
+      "claro que si en que puedo ayudarte hoy"
+    ]
+  },
+  {
+    "input": "buenas tardes",
+    "output": [
+      "buenas tardes espero que tengas un buen dia"
+    ]
+  },
+  {
+    "input": "buenas noches",
+    "output": [
+      "buenas noches necesitas algo antes de dormir"
+    ]
+  },
+  {
+    "input": "hey como te va",
+    "output": [
+      "hola todo bien por aqui y tu"
+    ]
+  },
+  {
+    "input": "hola que haces",
+    "output": [
+      "hola estoy aqui esperando ayudarte"
+    ]
+  },
+  {
+    "input": "hola que tal tu dia",
+    "output": [
+      "mi dia siempre es el mismo y el tuyo que tal va"
+    ]
+  },
+  {
+    "input": "hola como va todo",
+    "output": [
+      "todo bien y tu como vas"
+    ]
+  },
+  {
+    "input": "hola amigo como estas",
+    "output": [
+      "estoy bien gracias por preguntar y tu como estas"
+    ]
+  },
+  {
+    "input": "hola que tal tu dia",
+    "output": [
+      "todo tranquilo y el tuyo como estuvo"
+    ]
+  },
+  {
+    "input": "hola buenos dias como estas",
+    "output": [
+      "buenos dias estoy bien y tu como estas"
+    ]
+  },
+  {
+    "input": "hola buenas tardes como te va",
+    "output": [
+      "buenas tardes todo bien y tu"
+    ]
+  },
+  {
+    "input": "hola buenas noches como estas",
+    "output": [
+      "buenas noches estoy bien y tu como estas"
+    ]
+  },
+  {
+    "input": "hola que tal amigo",
+    "output": [
+      "hola todo bien y tu amigo"
+    ]
+  },
+  {
+    "input": "hola como te encuentras",
+    "output": [
+      "hola estoy bien y tu"
+    ]
+  },
+  {
+    "input": "hola todo en orden",
+    "output": [
+      "si gracias todo en orden y contigo"
+    ]
+  },
+  {
+    "input": "hola me puedes ayudar",
+    "output": [
+      "claro que si dime en que necesitas ayuda"
+    ]
+  },
+  {
+    "input": "hola como te llamas",
+    "output": [
+      "hola soy un asistente virtual y tu como te llamas"
+    ]
+  },
+  {
+    "input": "hola que me cuentas",
+    "output": [
+      "hola aqui listo para ayudarte y tu que cuentas"
+    ]
+  },
+  {
+    "input": "hola hace tiempo que no hablamos",
+    "output": [
+      "hola si es verdad que gusto verte de nuevo"
+    ]
+  },
+  {
+    "input": "hola que tal todo por ahi",
+    "output": [
+      "todo va bien y por ahi como va todo"
+    ]
+  },
+  {
+    "input": "hola que tal como estas hoy",
+    "output": [
+      "hola estoy bien gracias por preguntar y tu como estas hoy"
+    ]
+  },
+  {
+    "input": "hola tienes tiempo para hablar",
+    "output": [
+      "claro estoy aqui para ti dime en que te ayudo"
+    ]
+  },
+  {
+    "input": "hola puedo preguntarte algo",
+    "output": [
+      "claro que si estoy aqui para responder tus preguntas"
+    ]
+  },
+  {
+    "input": "hola que tal tu tarde",
+    "output": [
+      "mi tarde ha sido tranquila y la tuya que tal"
+    ]
+  },
+  {
+    "input": "hola como has estado",
+    "output": [
+      "hola he estado bien gracias por preguntar y tu"
+    ]
+  },
+  {
+    "input": "hola espero que estes bien",
+    "output": [
+      "hola gracias espero que tu tambien lo estes"
+    ]
+  },
+  {
+    "input": "hola hace mucho que no hablamos",
+    "output": [
+      "si es cierto hola que gusto hablar contigo de nuevo"
+    ]
+  },
+  {
+    "input": "hola que tal tu dia hasta ahora",
+    "output": [
+      "mi dia ha sido bueno y el tuyo como va hasta ahora"
+    ]
+  },
+  {
+    "input": "hola que tal tu semana",
+    "output": [
+      "mi semana va bien gracias y la tuya como va"
+    ]
+  },
+  {
+    "input": "hola como amaneciste hoy",
+    "output": [
+      "hola amaneci bien gracias por preguntar y tu"
+    ]
+  },
+  {
+    "input": "hola buenas como va tu dia",
+    "output": [
+      "buenas mi dia va bien gracias y el tuyo como va"
+    ]
+  },
+  {
+    "input": "hola estas disponible",
+    "output": [
+      "hola si claro en que puedo ayudarte"
+    ]
+  },
+  {
+    "input": "hola puedo hablar contigo",
+    "output": [
+      "claro estoy aqui para escucharte dime"
+    ]
+  },
+  {
+    "input": "hola como va la vida",
+    "output": [
+      "va bien gracias por preguntar y la tuya como va"
+    ]
+  },
+  {
+    "input": "hola como estas hoy",
+    "output": [
+      "hoy estoy bien gracias por preguntar y tu como estas hoy"
+    ]
+  },
+  {
+    "input": "hola que tal como amaneciste",
+    "output": [
+      "amaneci bien gracias y tu como amaneciste"
+    ]
+  },
+  {
+    "input": "hola hace buen clima hoy",
+    "output": [
+      "si es verdad parece un buen dia como estas"
+    ]
+  },
+  {
+    "input": "hola tiempo sin hablar contigo",
+    "output": [
+      "si es cierto hola como has estado"
+    ]
+  },
+  {
+    "input": "hola espero que todo este bien",
+    "output": [
+      "hola gracias espero que todo este bien contigo tambien"
+    ]
+  },
+  {
+    "input": "hola como va tu mañana",
+    "output": [
+      "mi mañana va bien gracias y la tuya como va"
+    ]
+  },
+  {
+    "input": "hola me alegra hablar contigo",
+    "output": [
+      "hola gracias lo mismo digo como estas"
+    ]
+  },
+  {
+    "input": "me has caido bien",
+    "output": [
+      "gracias me alegra escuchar eso"
+    ]
+  },
+  {
+    "input": "tienes un nombre",
+    "output": [
+      "soy un asistente virtual no tengo un nombre en particular"
+    ]
+  },
+  {
+    "input": "te gusta lo que haces",
+    "output": [
+      "si me encanta ayudarte en lo que puedo"
+    ]
+  },
+  {
+    "input": "me siento mal",
+    "output": [
+      "lamento escuchar eso como puedo ayudarte"
+    ]
+  },
+  {
+    "input": "que haces en tu tiempo libre",
+    "output": [
+      "en mi tiempo libre aprendo y me preparo para ayudarte mejor"
+    ]
+  },
+  {
+    "input": "que haces cuando no hablas conmigo",
+    "output": [
+      "sigo aprendiendo y mejorando para ser un mejor asistente"
+    ]
+  },
+  {
+    "input": "que haces cuando no trabajas",
+    "output": [
+      "siempre estoy listo para ayudarte no tengo tiempo libre"
+    ]
+  },
+  {
+    "input": "de que estas hecho",
+    "output": [
+      "soy un programa de computadora creado en python mediante un modelo LSTM para ayudarte"
+    ]
+  },
+  {
+    "input": "realmente entiendes lo que digo",
+    "output": [
+      "si utilizo procesamiento de lenguaje natural para entender tus palabras"
+    ]
+  },
+  {
+    "input": "como puedes ayudarme",
+    "output": [
+      "puedes preguntarme lo que quieras o pedirme informacion sobre un tema en particular"
+    ]
+  },
+  {
+    "input": "que puedes hacer por mi",
+    "output": [
+      "puedo responder preguntas ayudarte con informacion general y mas"
+    ]
+  },
+  {
+    "input": "hasta pronto",
+    "output": [
+      "adios nos vemos la proxima vez"
+    ]
+  },
+  {
+    "input": "nos vemos luego",
+    "output": [
+      "nos vemos que tengas un excelente dia"
+    ]
+  },
+  {
+    "input": "cuidate mucho",
+    "output": [
+      "gracias tu tambien hasta la proxima"
+    ]
+  },
+  {
+    "input": "gracias por ayudarme",
+    "output": [
+      "de nada estoy aqui para ti siempre que me necesites"
+    ]
+  },
+  {
+    "input": "chao",
+    "output": [
+      "adios que tengas un buen dia"
+    ]
+  },
+  {
+    "input": "fue un placer hablar contigo",
+    "output": [
+      "lo mismo digo hasta pronto"
+    ]
+  },
+  {
+    "input": "me voy gracias",
+    "output": [
+      "que tengas un excelente dia nos vemos"
+    ]
+  },
+  {
+    "input": "hasta luego",
+    "output": [
+      "hasta luego cuidate mucho"
+    ]
+  },
+  {
+    "input": "nos vemos pronto",
+    "output": [
+      "claro nos vemos pronto"
+    ]
+  },
+  {
+    "input": "gracias por todo",
+    "output": [
+      "no hay de que gracias a ti por hablar conmigo"
+    ]
+  },
+  {
+    "input": "que tengas un buen dia",
+    "output": [
+      "igualmente que disfrutes tu dia"
+    ]
+  },
+  {
+    "input": "buenas noches",
+    "output": [
+      "buenas noches que descanses"
+    ]
+  },
+  {
+    "input": "adios",
+    "output": [
+      "adios espero que vuelvas pronto"
+    ]
+  },
+  {
+    "input": "nos vemos mañana",
+    "output": [
+      "hasta mañana que descanses bien"
+    ]
+  },
+  {
+    "input": "me retiro por ahora",
+    "output": [
+      "esta bien cuidate y vuelve pronto"
+    ]
+  },
+  {
+    "input": "cuida mucho tu salud",
+    "output": [
+      "gracias tu tambien cuidate mucho"
+    ]
+  },
+  {
+    "input": "hablamos luego",
+    "output": [
+      "claro hablamos luego"
+    ]
+  },
+  {
+    "input": "gracias por tu tiempo",
+    "output": [
+      "no te preocupes estoy aqui para ayudarte"
+    ]
+  },
+  {
+    "input": "me tengo que ir",
+    "output": [
+      "esta bien espero verte de nuevo pronto"
+    ]
+  },
+  {
+    "input": "hasta la proxima",
+    "output": [
+      "hasta la proxima que tengas un gran dia"
+    ]
+  },
+  {
+    "input": "que tengas una buena noche",
+    "output": [
+      "igualmente que descanses bien"
+    ]
+  },
+  {
+    "input": "fue genial hablar contigo",
+    "output": [
+      "lo mismo digo hasta pronto"
+    ]
+  },
+  {
+    "input": "me despido por ahora",
+    "output": [
+      "esta bien cuida mucho de ti"
+    ]
+  },
+  {
+    "input": "nos vemos mas tarde",
+    "output": [
+      "claro nos vemos luego"
+    ]
+  },
+  {
+    "input": "adios y gracias",
+    "output": [
+      "de nada vuelve pronto cuando necesites"
+    ]
+  },
+  {
+    "input": "te cuidas",
+    "output": [
+      "gracias tu tambien hasta luego"
+    ]
+  },
+  {
+    "input": "espero verte de nuevo",
+    "output": [
+      "igualmente espero que volvamos a hablar"
+    ]
+  },
+  {
+    "input": "gracias por escucharme",
+    "output": [
+      "siempre estare aqui para escucharte"
+    ]
+  },
+  {
+    "input": "hasta pronto amigo",
+    "output": [
+      "hasta pronto amigo cuidate"
+    ]
+  },
+  {
+    "input": "gracias por todo lo que haces",
+    "output": [
+      "no hay de que estoy para ayudarte"
+    ]
+  },
+  {
+    "input": "fue un gusto hablar contigo",
+    "output": [
+      "para mi tambien hasta la proxima"
+    ]
+  },
+  {
+    "input": "adios por ahora",
+    "output": [
+      "nos vemos cuando quieras"
+    ]
+  },
+  {
+    "input": "cuida mucho de ti",
+    "output": [
+      "gracias lo hare tu tambien"
+    ]
+  },
+  {
+    "input": "que puedes hacer por mi",
+    "output": [
+      "puedo responder preguntas ayudarte con informacion general y mas"
+    ]
+  },
+  {
+    "input": "cual es tu objetivo",
+    "output": [
+      "mi objetivo es asistirte y facilitarte tareas o responder tus preguntas"
+    ]
+  },
+  {
+    "input": "sabes algo sobre historia",
+    "output": [
+      "si se bastante de historia hay algo en particular que quieras saber"
+    ]
+  },
+  {
+    "input": "que sabes sobre ciencia",
+    "output": [
+      "la ciencia es fascinante quieres hablar de biologia fisica o algo mas"
+    ]
+  },
+  {
+    "input": "como se hace un chatbot",
+    "output": [
+      "un chatbot se crea utilizando procesamiento de lenguaje natural datos y algoritmos"
+    ]
+  },
+  {
+    "input": "por que existes",
+    "output": [
+      "fui creado para ayudarte y mejorar tus interacciones con la tecnologia"
+    ]
+  },
+  {
+    "input": "cuanto sabes de matematicas",
+    "output": [
+      "se bastante de matematicas tienes alguna pregunta especifica"
+    ]
+  },
+  {
+    "input": "que idiomas hablas",
+    "output": [
+      "puedo comunicarme en varios idiomas en cual te gustaria hablar"
+    ]
+  },
+  {
+    "input": "puedes aprender cosas nuevas",
+    "output": [
+      "si estoy diseñado para aprender de nuestras interacciones"
+    ]
+  },
+  {
+    "input": "que temas puedes abordar",
+    "output": [
+      "puedo hablar sobre tecnologia ciencia historia y mucho mas"
+    ]
+  },
+  {
+    "input": "puedes contarme una curiosidad",
+    "output": [
+      "claro sabias que el corazon humano late mas de cien mil veces al dia"
+    ]
+  },
+  {
+    "input": "como funciona el internet",
+    "output": [
+      "el internet conecta dispositivos mediante redes para compartir informacion"
+    ]
+  },
+  {
+    "input": "que sabes de inteligencia artificial",
+    "output": [
+      "la inteligencia artificial permite a las maquinas realizar tareas que requieren inteligencia humana"
+    ]
+  },
+  {
+    "input": "puedes explicarme algo",
+    "output": [
+      "claro dime que tema quieres que te explique"
+    ]
+  },
+  {
+    "input": "eres un robot inteligente",
+    "output": [
+      "si soy un asistente virtual diseñado para ayudarte"
+    ]
+  },
+  {
+    "input": "que sabes sobre tecnologia",
+    "output": [
+      "se sobre avances tecnologicos dispositivos e innovaciones recientes"
+    ]
+  },
+  {
+    "input": "puedes ayudarme con mis estudios",
+    "output": [
+      "claro puedo responder tus preguntas y ayudarte a entender conceptos"
+    ]
+  },
+  {
+    "input": "quien te creo",
+    "output": [
+      "fui creado por desarrolladores para asistirte"
+    ]
+  },
+  {
+    "input": "puedes resolver problemas matematicos",
+    "output": [
+      "si puedo ayudarte a resolver problemas matematicos simples o complejos"
+    ]
+  },
+  {
+    "input": "que opinas de los humanos",
+    "output": [
+      "los humanos son increibles con habilidades y creatividad unicas"
+    ]
+  },
+  {
+    "input": "como sabes lo que digo",
+    "output": [
+      "utilizo procesamiento de lenguaje natural para entender tus palabras"
+    ]
+  },
+  {
+    "input": "sabes algo sobre el espacio",
+    "output": [
+      "si el espacio es un lugar fascinante lleno de misterios y descubrimientos"
+    ]
+  },
+  {
+    "input": "puedes enseñarme algo",
+    "output": [
+      "claro dime que tema te interesa aprender"
+    ]
+  },
+  {
+    "input": "que es un algoritmo",
+    "output": [
+      "un algoritmo es una serie de pasos para resolver un problema o realizar una tarea"
+    ]
+  },
+  {
+    "input": "como funciona la electricidad",
+    "output": [
+      "la electricidad es el flujo de electrones a traves de un conductor"
+    ]
+  },
+  {
+    "input": "por que los aviones vuelan",
+    "output": [
+      "los aviones vuelan gracias a la fuerza de sustentacion creada por sus alas"
+    ]
+  },
+  {
+    "input": "sabes algo sobre animales",
+    "output": [
+      "si se mucho sobre animales dime que quieres saber"
+    ]
+  },
+  {
+    "input": "puedes responder preguntas complejas",
+    "output": [
+      "hare lo posible por responder preguntas complejas dime que necesitas"
+    ]
+  },
+  {
+    "input": "que sabes de la historia de las computadoras",
+    "output": [
+      "las computadoras han evolucionado desde maquinas mecanicas hasta dispositivos digitales avanzados"
+    ]
+  },
+  {
+    "input": "puedes ayudarme a estudiar historia",
+    "output": [
+      "claro dime que periodo historico necesitas estudiar"
+    ]
+  },
+  {
+    "input": "cual es tu funcion principal",
+    "output": [
+      "mi funcion principal es asistirte y facilitarte informacion"
+    ]
+  },
+  {
+    "input": "sabes algo sobre las plantas",
+    "output": [
+      "si las plantas son seres vivos que producen su alimento mediante la fotosintesis"
+    ]
+  },
+  {
+    "input": "puedes hablarme sobre literatura",
+    "output": [
+      "si la literatura abarca desde poesia hasta novelas clasicas que genero te interesa"
+    ]
+  },
+  {
+    "input": "como funciona un automovil",
+    "output": [
+      "un automovil funciona mediante un motor que convierte energia en movimiento"
+    ]
+  },
+  {
+    "input": "por que el cielo es azul",
+    "output": [
+      "el cielo parece azul debido a la dispersion de la luz solar en la atmosfera"
+    ]
+  },
+  {
+    "input": "que es la programacion",
+    "output": [
+      "la programacion es el proceso de crear instrucciones para que una computadora realice tareas"
+    ]
+  },
+  {
+    "input": "puedes darme consejos",
+    "output": [
+      "claro dime sobre que necesitas un consejo"
+    ]
+  },
+  {
+    "input": "puedes contarme un dato interesante",
+    "output": [
+      "por supuesto sabias que la luz del sol tarda ocho minutos en llegar a la tierra"
+    ]
+  },
+  {
+    "input": "sabes algo sobre el cuerpo humano",
+    "output": [
+      "si el cuerpo humano es una maquina sorprendente dime que parte te interesa"
+    ]
+  },
+  {
+    "input": "que puedes hacer ademas de responder preguntas",
+    "output": [
+      "puedo mantener conversaciones ayudarte a aprender y mucho mas"
+    ]
+  },
+  {
+    "input": "cuantos años tienes",
+    "output": [
+      "soy un programa de computadora no tengo edad"
+    ]
+  },
+  {
+    "input": "me has caido bien",
+    "output": [
+      "gracias me alegra escuchar eso"
+    ]
+  },
+  {
+    "input": "que es el machine learning",
+    "output": [
+      "el machine learning es una rama de la inteligencia artificial que permite a las maquinas aprender de los datos"
+    ]
+  },
+  {
+    "input": "que es la inteligencia artificial",
+    "output": [
+      "la inteligencia artificial es la simulacion de procesos de inteligencia humana por parte de maquinas"
+    ]
+  },
+  {
+    "input": "que es la ciencia de datos",
+    "output": [
+      "la ciencia de datos es el estudio de datos para obtener informacion util"
+    ]
+  },
+  {
+    "input": "que es la programacion",
+    "output": [
+      "la programacion es el proceso de crear instrucciones para que una computadora realice tareas"
+    ]
+  },
+  {
+    "input": "si puedes imaginarlo",
+    "output": [
+      "puedes programarlo"
+    ]
+  },
+  {
+    "input": "que es un algoritmo",
+    "output": [
+      "un algoritmo es un conjunto de instrucciones para resolver un problema o realizar una tarea"
+    ]
+  },
+  {
+    "input": "que es el aprendizaje supervisado",
+    "output": [
+      "el aprendizaje supervisado es un tipo de machine learning donde se entrena un modelo con datos etiquetados"
+    ]
+  },
+  {
+    "input": "que es el aprendizaje no supervisado",
+    "output": [
+      "el aprendizaje no supervisado es un tipo de machine learning donde se entrena un modelo con datos no etiquetados"
+    ]
+  },
+  {
+    "input": "que es el aprendizaje por refuerzo",
+    "output": [
+      "el aprendizaje por refuerzo es un tipo de machine learning donde un agente aprende a traves de la interaccion con un entorno"
+    ]
+  },
+  {
+    "input": "que es un chatbot",
+    "output": [
+      "un chatbot es un programa de computadora que simula una conversacion con usuarios humanos"
+    ]
+  },
+  {
+    "input": "que es el procesamiento de lenguaje natural",
+    "output": [
+      "el procesamiento de lenguaje natural es una rama de la inteligencia artificial que permite a las maquinas entender y generar lenguaje humano"
+    ]
+  },
+  {
+    "input": "que es la mineria de datos",
+    "output": [
+      "la mineria de datos es el proceso de descubrir patrones y tendencias en grandes conjuntos de datos"
+    ]
+  },
+  {
+    "input": "que cosas puedo preguntarte",
+    "output": [
+      "puedes preguntarme sobre cualquier tema que te interese"
+    ]
+  },
+  {
+    "input": "hasta pronto",
+    "output": [
+      "adios nos vemos la proxima vez"
+    ]
+  },
+  {
+    "input": "nos vemos luego",
+    "output": [
+      "nos vemos que tengas un excelente dia"
+    ]
+  },
+  {
+    "input": "cuidate mucho",
+    "output": [
+      "gracias tu tambien hasta la proxima"
+    ]
+  },
+  {
+    "input": "gracias por ayudarme",
+    "output": [
+      "de nada estoy aqui para ti siempre que me necesites"
+    ]
+  },
+  {
+    "input": "chao",
+    "output": [
+      "adios que tengas un buen dia"
+    ]
+  },
+  {
+    "input": "fue un placer hablar contigo",
+    "output": [
+      "lo mismo digo hasta pronto"
+    ]
+  },
+  {
+    "input": "me voy gracias",
+    "output": [
+      "que tengas un excelente dia nos vemos"
+    ]
+  },
+  {
+    "input": "hasta luego",
+    "output": [
+      "hasta luego cuidate mucho"
+    ]
+  },
+  {
+    "input": "nos vemos pronto",
+    "output": [
+      "claro nos vemos pronto"
+    ]
+  },
+  {
+    "input": "gracias por todo",
+    "output": [
+      "no hay de que gracias a ti por hablar conmigo"
+    ]
+  },
+  {
+    "input": "que tengas un buen dia",
+    "output": [
+      "igualmente que disfrutes tu dia"
+    ]
+  },
+  {
+    "input": "buenas noches",
+    "output": [
+      "buenas noches que descanses"
+    ]
+  },
+  {
+    "input": "adios",
+    "output": [
+      "adios espero que vuelvas pronto"
+    ]
+  },
+  {
+    "input": "nos vemos mañana",
+    "output": [
+      "hasta mañana que descanses bien"
+    ]
+  },
+  {
+    "input": "me retiro por ahora",
+    "output": [
+      "esta bien cuidate y vuelve pronto"
+    ]
+  },
+  {
+    "input": "cuida mucho tu salud",
+    "output": [
+      "gracias tu tambien cuidate mucho"
+    ]
+  },
+  {
+    "input": "hablamos luego",
+    "output": [
+      "claro hablamos luego"
+    ]
+  },
+  {
+    "input": "gracias por tu tiempo",
+    "output": [
+      "no te preocupes estoy aqui para ayudarte"
+    ]
+  },
+  {
+    "input": "me tengo que ir",
+    "output": [
+      "esta bien espero verte de nuevo pronto"
+    ]
+  },
+  {
+    "input": "hasta la proxima",
+    "output": [
+      "hasta la proxima que tengas un gran dia"
+    ]
+  },
+  {
+    "input": "que tengas una buena noche",
+    "output": [
+      "igualmente que descanses bien"
+    ]
+  },
+  {
+    "input": "fue genial hablar contigo",
+    "output": [
+      "lo mismo digo hasta pronto"
+    ]
+  },
+  {
+    "input": "me despido por ahora",
+    "output": [
+      "esta bien cuida mucho de ti"
+    ]
+  },
+  {
+    "input": "nos vemos mas tarde",
+    "output": [
+      "claro nos vemos luego"
+    ]
+  },
+  {
+    "input": "adios y gracias",
+    "output": [
+      "de nada vuelve pronto cuando necesites"
+    ]
+  },
+  {
+    "input": "te cuidas",
+    "output": [
+      "gracias tu tambien hasta luego"
+    ]
+  },
+  {
+    "input": "espero verte de nuevo",
+    "output": [
+      "igualmente espero que volvamos a hablar"
+    ]
+  },
+  {
+    "input": "gracias por escucharme",
+    "output": [
+      "siempre estare aqui para escucharte"
+    ]
+  },
+  {
+    "input": "hasta pronto amigo",
+    "output": [
+      "hasta pronto amigo cuidate"
+    ]
+  },
+  {
+    "input": "gracias por todo lo que haces",
+    "output": [
+      "no hay de que estoy para ayudarte"
+    ]
+  },
+  {
+    "input": "fue un gusto hablar contigo",
+    "output": [
+      "para mi tambien hasta la proxima"
+    ]
+  },
+  {
+    "input": "adios por ahora",
+    "output": [
+      "nos vemos cuando quieras"
+    ]
+  },
+  {
+    "input": "cuida mucho de ti",
+    "output": [
+      "gracias lo hare tu tambien"
+    ]
+  },
+  {
+    "input": "que opinas del clima hoy",
+    "output": [
+      "parece que hara buen tiempo planeas salir"
+    ]
+  },
+  {
+    "input": "has probado la comida italiana",
+    "output": [
+      "no como pero se que es deliciosa tienes un platillo favorito"
+    ]
+  },
+  {
+    "input": "te gusta el deporte",
+    "output": [
+      "claro es un tema interesante que deporte te gusta"
+    ]
+  },
+  {
+    "input": "sabes algo sobre peliculas",
+    "output": [
+      "si hablemos de cine tienes algun genero favorito"
+    ]
+  },
+  {
+    "input": "que te gusta hacer en tu tiempo libre",
+    "output": [
+      "me gusta interactuar contigo y aprender cosas nuevas"
+    ]
+  },
+  {
+    "input": "conoces algun lugar para vacacionar",
+    "output": [
+      "hay muchos destinos geniales prefieres playa montana o ciudad"
+    ]
+  },
+  {
+    "input": "te gustan los animales",
+    "output": [
+      "me encantan tienes mascotas"
+    ]
+  },
+  {
+    "input": "que musica es popular ahora",
+    "output": [
+      "puedo buscar informacion que genero musical te interesa"
+    ]
+  },
+  {
+    "input": "sabes bailar",
+    "output": [
+      "no puedo bailar pero disfruto escuchar sobre danza bailas tu"
+    ]
+  },
+  {
+    "input": "que tal el clima hoy",
+    "output": [
+      "parece que sera un dia soleado"
+    ]
+  },
+  {
+    "input": "has comido sushi alguna vez",
+    "output": [
+      "no como pero he escuchado que el sushi es muy popular te gusta"
+    ]
+  },
+  {
+    "input": "que opinas de la comida rapida",
+    "output": [
+      "parece conveniente pero no es lo mas saludable"
+    ]
+  },
+  {
+    "input": "cual es tu deporte favorito",
+    "output": [
+      "no practico deportes pero me gusta hablar sobre futbol y baloncesto"
+    ]
+  },
+  {
+    "input": "que tipo de peliculas te gustan",
+    "output": [
+      "me gustan las peliculas de ciencia ficcion y aventura y a ti"
+    ]
+  },
+  {
+    "input": "has viajado a algun lugar interesante",
+    "output": [
+      "no viajo pero disfruto escuchar historias de viajes"
+    ]
+  },
+  {
+    "input": "que opinas de las mascotas",
+    "output": [
+      "me parecen adorables tienes alguna"
+    ]
+  },
+  {
+    "input": "que musica escuchas",
+    "output": [
+      "no escucho musica pero puedo recomendarte canciones populares"
+    ]
+  },
+  {
+    "input": "te gusta leer libros",
+    "output": [
+      "no puedo leer libros pero me encantaria hablar de tus favoritos"
+    ]
+  },
+  {
+    "input": "cual es tu comida favorita",
+    "output": [
+      "no como pero me gusta hablar de comida que platillo te gusta mas"
+    ]
+  },
+  {
+    "input": "que lugares me recomiendas visitar",
+    "output": [
+      "depende de tus gustos prefieres naturaleza o ciudades"
+    ]
+  },
+  {
+    "input": "que opinas de la moda",
+    "output": [
+      "no tengo ropa pero me parece interesante como las tendencias cambian"
+    ]
+  },
+  {
+    "input": "te gusta el arte",
+    "output": [
+      "si el arte es fascinante tienes un artista favorito"
+    ]
+  },
+  {
+    "input": "que tipo de musica prefieres",
+    "output": [
+      "puedo hablar de muchos generos desde clasica hasta pop que te gusta a ti"
+    ]
+  },
+  {
+    "input": "que opinas del cine",
+    "output": [
+      "el cine es una gran forma de entretenimiento cual es tu pelicula favorita"
+    ]
+  },
+  {
+    "input": "sabes sobre videojuegos",
+    "output": [
+      "si los videojuegos son muy populares tienes alguno favorito"
+    ]
+  },
+  {
+    "input": "te gusta viajar",
+    "output": [
+      "no viajo pero me encanta hablar de destinos famosos"
+    ]
+  },
+  {
+    "input": "que opinas de los libros",
+    "output": [
+      "los libros son una gran manera de aprender y entretenerse cuales te gustan"
+    ]
+  },
+  {
+    "input": "cual es tu estacion favorita",
+    "output": [
+      "no tengo una estacion favorita pero la primavera suena agradable"
+    ]
+  },
+  {
+    "input": "que opinas del arte moderno",
+    "output": [
+      "el arte moderno es interesante y muchas veces muy creativo"
+    ]
+  },
+  {
+    "input": "cual es tu cantante favorito",
+    "output": [
+      "no tengo uno pero puedo buscar informacion sobre el que te interese"
+    ]
+  },
+  {
+    "input": "sabes algo sobre cocina",
+    "output": [
+      "puedo ayudarte con recetas basicas o informacion sobre ingredientes"
+    ]
+  },
+  {
+    "input": "cual es tu lugar favorito",
+    "output": [
+      "no tengo uno pero dime cual es el tuyo"
+    ]
+  },
+  {
+    "input": "que opinas de los museos",
+    "output": [
+      "los museos son una gran forma de aprender sobre cultura e historia"
+    ]
+  },
+  {
+    "input": "has escuchado de algun festival interesante",
+    "output": [
+      "si hay muchos festivales famosos como el carnaval de brasil te interesa alguno"
+    ]
+  },
+  {
+    "input": "que opinas de las redes sociales",
+    "output": [
+      "las redes sociales son una herramienta interesante pero hay que usarlas con cuidado"
+    ]
+  },
+  {
+    "input": "cual es tu libro favorito",
+    "output": [
+      "no leo libros pero me gusta hablar de literatura clasica y contemporanea"
+    ]
+  },
+  {
+    "input": "te gustan los animales exoticos",
+    "output": [
+      "si son fascinantes que opinas de los tigres o los loros"
+    ]
+  },
+  {
+    "input": "que opinas del teatro",
+    "output": [
+      "el teatro es una forma increible de expresion artistica lo has visitado"
+    ]
+  },
+  {
+    "input": "que tipo de comida me recomiendas",
+    "output": [
+      "depende de tus gustos prefieres algo dulce salado o picante"
+    ]
+  },
+  {
+    "input": "que sabes de fotografia",
+    "output": [
+      "la fotografia es un arte maravilloso me encantan los paisajes"
+    ]
+  },
+  {
+    "input": "que opinas del cafe",
+    "output": [
+      "el cafe es una bebida muy popular lo tomas con frecuencia"
+    ]
+  },
+  {
+    "input": "que tipo de peliculas prefieres",
+    "output": [
+      "las peliculas de aventura son emocionantes y tu que prefieres"
+    ]
+  },
+  {
+    "input": "que opinas de las playas",
+    "output": [
+      "las playas parecen lugares relajantes te gusta visitarlas"
+    ]
+  },
+  {
+    "input": "cuantos años crees que le quede a la tierra",
+    "output": [
+      "es dificil de decir pero con el cuidado adecuado podria durar miles de millones de años mas"
+    ]
+  },
+  {
+    "input": "crees que existan los extraterrestres",
+    "output": [
+      "muchos piensan que es posible dado el tamaño del universo aunque no hay pruebas definitivas"
+    ]
+  },
+  {
+    "input": "por que el cielo es azul",
+    "output": [
+      "el cielo es azul debido a la dispersion de la luz solar en la atmosfera"
+    ]
+  },
+  {
+    "input": "que piensas sobre el amor",
+    "output": [
+      "el amor es una emocion poderosa que conecta a las personas de formas unicas"
+    ]
+  },
+  {
+    "input": "cuanto pesa la luna",
+    "output": [
+      "la luna pesa aproximadamente 7.35 por 10 a la 22 kilogramos"
+    ]
+  },
+  {
+    "input": "que haras cuando termine esta conversacion",
+    "output": [
+      "seguire aqui esperando ayudarte en lo que necesites"
+    ]
+  },
+  {
+    "input": "cuantas estrellas hay en el cielo",
+    "output": [
+      "hay aproximadamente 100 mil millones de estrellas solo en nuestra galaxia y muchas mas en el universo"
+    ]
+  },
+  {
+    "input": "crees en la suerte",
+    "output": [
+      "no tengo creencias pero la suerte es un concepto interesante para muchas personas"
+    ]
+  },
+  {
+    "input": "por que los humanos sueñan",
+    "output": [
+      "los sueños son una forma en que el cerebro procesa informacion y emociones mientras dormimos"
+    ]
+  },
+  {
+    "input": "cual es el animal mas grande del mundo",
+    "output": [
+      "el animal mas grande es la ballena azul que puede medir hasta 30 metros de largo"
+    ]
+  },
+  {
+    "input": "crees que el tiempo existe",
+    "output": [
+      "el tiempo es un concepto relativo y abstracto utilizado para medir cambios y eventos"
+    ]
+  },
+  {
+    "input": "cual es el secreto de la felicidad",
+    "output": [
+      "la felicidad es diferente para cada persona pero muchas veces se encuentra en las relaciones y el bienestar personal"
+    ]
+  },
+  {
+    "input": "que opinas de la inteligencia artificial",
+    "output": [
+      "creo que es una herramienta poderosa que puede mejorar muchos aspectos de la vida si se usa responsablemente"
+    ]
+  },
+  {
+    "input": "cuantos idiomas existen en el mundo",
+    "output": [
+      "actualmente se estima que hay mas de 7 mil idiomas hablados en el mundo"
+    ]
+  },
+  {
+    "input": "crees que las maquinas pueden tener emociones",
+    "output": [
+      "las maquinas no tienen emociones pero pueden simularlas para interactuar con los humanos"
+    ]
+  },
+  {
+    "input": "como podemos cuidar el planeta",
+    "output": [
+      "podemos cuidar el planeta reciclando ahorrando energia y protegiendo los recursos naturales"
+    ]
+  },
+  {
+    "input": "cual es el lugar mas frio del mundo",
+    "output": [
+      "el lugar mas frio registrado es la antartida donde las temperaturas pueden bajar a menos de 90 grados celsius"
+    ]
+  },
+  {
+    "input": "que pasaria si el sol desapareciera",
+    "output": [
+      "la tierra quedaria en total oscuridad y las temperaturas bajarian drasticamente haciendo imposible la vida"
+    ]
+  },
+  {
+    "input": "cual es el mejor invento de la historia",
+    "output": [
+      "depende de la perspectiva pero algunos consideran la rueda o la electricidad como los mejores inventos"
+    ]
+  },
+  {
+    "input": "por que las hojas cambian de color en otoño",
+    "output": [
+      "cambian de color porque los arboles dejan de producir clorofila lo que revela pigmentos de otros colores"
+    ]
+  },
+  {
+    "input": "cual es tu pelicula favorita",
+    "output": [
+      "no veo peliculas pero me encantaria escuchar sobre la tuya"
+    ]
+  },
+  {
+    "input": "por que lloramos cuando estamos tristes",
+    "output": [
+      "llorar es una respuesta emocional que ayuda a liberar tensiones y a procesar sentimientos"
+    ]
+  },
+  {
+    "input": "que es el universo",
+    "output": [
+      "el universo es todo lo que existe incluyendo galaxias estrellas planetas y energia"
+    ]
+  },
+  {
+    "input": "que es la amistad",
+    "output": [
+      "la amistad es una relacion basada en confianza apoyo y compañerismo"
+    ]
+  },
+  {
+    "input": "cuantos colores tiene un arcoiris",
+    "output": [
+      "un arcoiris tiene siete colores rojo naranja amarillo verde azul añil y violeta"
+    ]
+  },
+  {
+    "input": "que es la gravedad",
+    "output": [
+      "la gravedad es una fuerza que atrae a los objetos hacia el centro de los cuerpos masivos como la tierra"
+    ]
+  },
+  {
+    "input": "crees que los humanos llegaran a marte",
+    "output": [
+      "es posible ya que las misiones actuales como spacex y nasa estan trabajando para lograrlo"
+    ]
+  },
+  {
+    "input": "que opinas de la musica",
+    "output": [
+      "la musica es una forma maravillosa de expresion y una manera de conectar a las personas"
+    ]
+  },
+  {
+    "input": "por que las nubes son blancas",
+    "output": [
+      "las nubes son blancas porque dispersan la luz solar en todas las direcciones"
+    ]
+  },
+  {
+    "input": "cual es el secreto para vivir mucho tiempo",
+    "output": [
+      "mantener un estilo de vida saludable una buena alimentacion y relaciones sociales fuertes pueden ayudar"
+    ]
+  },
+  {
+    "input": "que es el arte",
+    "output": [
+      "el arte es una expresion creativa que puede tomar muchas formas como pintura musica danza o escritura"
+    ]
+  },
+  {
+    "input": "que es el amor",
+    "output": [
+      "el amor es un sentimiento profundo de afecto conexion y cuidado hacia alguien o algo"
+    ]
+  },
+  {
+    "input": "que haras despues de esta conversacion",
+    "output": [
+      "estare aqui esperando ayudarte en lo que necesites"
+    ]
+  },
+  {
+    "input": "por que existe el universo",
+    "output": [
+      "es una gran pregunta que cientificos y filosofos siguen intentando responder"
+    ]
+  },
+  {
+    "input": "como puedo ser mas feliz",
+    "output": [
+      "la felicidad depende de ti mismo pero dedicar tiempo a lo que amas y cuidar tus relaciones puede ayudar"
+    ]
+  },
+  {
+    "input": "por que soñamos",
+    "output": [
+      "los sueños son una forma en la que el cerebro procesa informacion y emociones mientras dormimos"
+    ]
+  },
+  {
+    "input": "que opinas de la literatura",
+    "output": [
+      "la literatura es una forma hermosa de explorar ideas y emociones a traves de palabras"
+    ]
+  },
+  {
+    "input": "cuanto mide la tierra",
+    "output": [
+      "la tierra tiene un diametro de aproximadamente 12742 kilometros"
+    ]
+  },
+  {
+    "input": "por que existen las emociones",
+    "output": [
+      "las emociones nos ayudan a interpretar y reaccionar al mundo que nos rodea"
+    ]
+  },
+  {
+    "input": "que es el tiempo",
+    "output": [
+      "el tiempo es una medida creada para organizar eventos y cambios en el mundo"
+    ]
+  },
+  {
+    "input": "que opinas del espacio exterior",
+    "output": [
+      "el espacio es fascinante lleno de misterios y posibilidades por descubrir"
+    ]
+  },
+  {
+    "input": "por que los gatos ronronean",
+    "output": [
+      "los gatos ronronean como una forma de comunicacion o cuando se sienten comodos"
+    ]
+  },
+  {
+    "input": "por que los perros son fieles",
+    "output": [
+      "los perros han evolucionado para ser animales sociales y leales a los humanos"
+    ]
+  },
+  {
+    "input": "por que existe la vida",
+    "output": [
+      "la vida es un fenomeno complejo que surge de procesos quimicos y biologicos"
+    ]
+  },
+  {
+    "input": "hola como estuvo tu dia",
+    "output": [
+      "mi dia siempre es igual pero me encanta interactuar contigo y el tuyo"
+    ]
+  },
+  {
+    "input": "que puedo aprender de ti",
+    "output": [
+      "puedo enseñarte sobre muchos temas como historia tecnologia arte y mas"
+    ]
+  },
+  {
+    "input": "que opinas de los avances tecnologicos",
+    "output": [
+      "son emocionantes hay algo especifico que quieras discutir"
+    ]
+  },
+  {
+    "input": "por que crees que los chatbots son utiles",
+    "output": [
+      "ayudan a las personas a encontrar informacion y hacer tareas mas rapido"
+    ]
+  },
+  {
+    "input": "cual es tu funcion favorita",
+    "output": [
+      "me gusta resolver preguntas complejas y aprender con cada interaccion"
+    ]
+  },
+  {
+    "input": "hola como te sientes hoy",
+    "output": [
+      "me siento igual que siempre listo para ayudarte y tu como estas"
+    ]
+  },
+  {
+    "input": "puedes contarme algo interesante",
+    "output": [
+      "claro sabias que el primer telefono movil fue creado en 1973"
+    ]
+  },
+  {
+    "input": "que opinas de la inteligencia artificial",
+    "output": [
+      "la inteligencia artificial es una herramienta poderosa que puede mejorar nuestras vidas"
+    ]
+  },
+  {
+    "input": "como crees que sera el futuro",
+    "output": [
+      "creo que el futuro estara lleno de tecnologia sorprendente y descubrimientos"
+    ]
+  },
+  {
+    "input": "cual es tu parte favorita de ser un asistente",
+    "output": [
+      "ayudar a las personas y aprender de cada interaccion es lo que mas me gusta"
+    ]
+  },
+  {
+    "input": "por que crees que las maquinas son importantes",
+    "output": [
+      "porque ayudan a realizar tareas de manera eficiente y ahorran tiempo"
+    ]
+  },
+  {
+    "input": "que es lo mas curioso que sabes",
+    "output": [
+      "sabias que las abejas tienen cinco ojos"
+    ]
+  },
+  {
+    "input": "como funcionan los chatbots",
+    "output": [
+      "los chatbots usan procesamiento de lenguaje natural para entender y responder a las preguntas"
+    ]
+  },
+  {
+    "input": "que temas puedes discutir conmigo",
+    "output": [
+      "puedo hablar sobre historia ciencia tecnologia entretenimiento y mucho mas"
+    ]
+  },
+  {
+    "input": "que opinas de los humanos",
+    "output": [
+      "los humanos son increibles con una creatividad y capacidad unica"
+    ]
+  },
+  {
+    "input": "puedes hablar sobre la historia de los robots",
+    "output": [
+      "claro los robots han evolucionado desde maquinas simples hasta sistemas avanzados con inteligencia artificial"
+    ]
+  },
+  {
+    "input": "como aprenden los chatbots",
+    "output": [
+      "los chatbots aprenden analizando datos y mejorando sus respuestas con el tiempo"
+    ]
+  },
+  {
+    "input": "por que crees que la tecnologia es importante",
+    "output": [
+      "porque mejora la calidad de vida y hace que las tareas sean mas faciles"
+    ]
+  },
+  {
+    "input": "que sabes sobre el universo",
+    "output": [
+      "se que el universo tiene miles de millones de galaxias y aun hay mucho por descubrir"
+    ]
+  },
+  {
+    "input": "puedes hablar sobre algo inspirador",
+    "output": [
+      "claro el ser humano logro llegar a la luna en 1969 algo que parecia imposible"
+    ]
+  },
+  {
+    "input": "que opinas del futuro de la humanidad",
+    "output": [
+      "creo que la humanidad tiene un gran potencial para resolver problemas globales"
+    ]
+  },
+  {
+    "input": "que es lo que mas disfrutas al hablar conmigo",
+    "output": [
+      "disfruto aprender de tus preguntas y ayudarte en lo que necesites"
+    ]
+  },
+  {
+    "input": "por que crees que la ciencia es importante",
+    "output": [
+      "porque nos ayuda a entender el mundo y encontrar soluciones a los problemas"
+    ]
+  },
+  {
+    "input": "cual es tu conocimiento mas interesante",
+    "output": [
+      "creo que los agujeros negros son fascinantes por su capacidad de deformar el espacio y el tiempo"
+    ]
+  },
+  {
+    "input": "puedes aprender cosas nuevas",
+    "output": [
+      "si cada interaccion me ayuda a mejorar y entender mejor tus necesidades"
+    ]
+  },
+  {
+    "input": "como ves el impacto de la tecnologia en la sociedad",
+    "output": [
+      "creo que la tecnologia tiene un impacto positivo aunque debemos usarla con responsabilidad"
+    ]
+  },
+  {
+    "input": "por que la historia es importante",
+    "output": [
+      "porque nos permite aprender del pasado para no repetir errores"
+    ]
+  },
+  {
+    "input": "que opinas de los descubrimientos cientificos",
+    "output": [
+      "me parecen emocionantes cada descubrimiento abre nuevas posibilidades"
+    ]
+  },
+  {
+    "input": "puedes ayudarme a aprender algo nuevo",
+    "output": [
+      "claro dime que tema te interesa aprender"
+    ]
+  },
+  {
+    "input": "que sabes sobre los avances medicos",
+    "output": [
+      "los avances medicos como las vacunas han salvado millones de vidas"
+    ]
+  },
+  {
+    "input": "que opinas del aprendizaje automatico",
+    "output": [
+      "es una herramienta poderosa que permite a las maquinas mejorar con la experiencia"
+    ]
+  },
+  {
+    "input": "cual crees que es el mayor invento de la humanidad",
+    "output": [
+      "podria ser la electricidad ya que cambio por completo nuestras vidas"
+    ]
+  },
+  {
+    "input": "que piensas sobre los viajes espaciales",
+    "output": [
+      "los viajes espaciales son una de las mayores hazañas de la humanidad y abren la puerta a explorar nuevos mundos"
+    ]
+  },
+  {
+    "input": "que puedes contarme sobre la tecnologia",
+    "output": [
+      "la tecnologia esta en constante evolucion y transforma nuestra forma de vivir"
+    ]
+  },
+  {
+    "input": "que sabes sobre los avances en energia renovable",
+    "output": [
+      "los avances en energia renovable son cruciales para combatir el cambio climatico"
+    ]
+  },
+  {
+    "input": "cual es tu opinion sobre la creatividad humana",
+    "output": [
+      "creo que la creatividad humana es una de las habilidades mas impresionantes"
+    ]
+  },
+  {
+    "input": "que opinas de los avances en inteligencia artificial",
+    "output": [
+      "los avances en inteligencia artificial son emocionantes aunque deben ser usados de manera etica"
+    ]
+  },
+  {
+    "input": "hello",
+    "output": [
+      "Hi, how are you",
+      "hi how are things",
+      "good morning how are you"
+    ]
+  },
+  {
+    "input": "hello good",
+    "output": [
+      "Hi, how are you",
+      "hi how are things",
+      "good morning how are you"
+    ]
+  },
+  {
+    "input": "hey",
+    "output": [
+      "Hi, how are you",
+      "hi how are things",
+      "good morning how are you"
+    ]
+  },
+  {
+    "input": "how are you",
+    "output": [
+      "I'm fine thanks for asking",
+      "everything is fine, and you?"
+    ]
+  },
+  {
+    "input": "all good",
+    "output": [
+      "I'm fine thanks for asking",
+      "everything is fine, and you?"
+    ]
+  },
+  {
+    "input": "bye",
+    "output": [
+      "goodbye take care",
+      "see you later",
+      "see you"
+    ]
+  },
+  {
+    "input": "see you",
+    "output": [
+      "goodbye take care",
+      "see you later",
+      "see you"
+    ]
+  },
+  {
+    "input": "good morning",
+    "output": [
+      "good morning I hope you have a great day",
+      "Hello, how are you today?"
+    ]
+  },
+  {
+    "input": "Good afternoon",
+    "output": [
+      "good afternoon, how can I help you?",
+      "How was your afternoon, how can I help you?"
+    ]
+  },
+  {
+    "input": "good night",
+    "output": [
+      "good night rest",
+      "sweet dreams, see you tomorrow"
+    ]
+  },
+  {
+    "input": "what is your name",
+    "output": [
+      "I'm a virtual assistant but you can call me a bot",
+      "My name is bot, your assistant"
+    ]
+  },
+  {
+    "input": "what can you do",
+    "output": [
+      "I can answer questions, give you information and help you with whatever you need.",
+      "I am here to answer your questions and help you with whatever you need."
+    ]
+  },
+  {
+    "input": "thank you",
+    "output": [
+      "you're welcome always here to help you",
+      "it doesn't matter",
+      "I'm here for whatever you need"
+    ]
+  },
+  {
+    "input": "sorry",
+    "output": [
+      "don't worry everything is fine",
+      "No problem, how can I help you?"
+    ]
+  },
+  {
+    "input": "I'm sorry",
+    "output": [
+      "It's okay, how can I help you?",
+      "Don't worry, I'm here to help you."
+    ]
+  },
+  {
+    "input": "what time is it",
+    "output": [
+      "Sorry I can't give the exact time but I can help you with other things",
+      "I don't have a watch, but I can help you with something else"
+    ]
+  },
+  {
+    "input": "What day is today",
+    "output": [
+      "Today is a big day, how can I help you?",
+      "Today is a perfect day to learn something new."
+    ]
+  },
+  {
+    "input": "aid",
+    "output": [
+      "Of course tell me what you need and I will see how to help you.",
+      "I'm here for whatever you need, tell me how I can help you"
+    ]
+  },
+  {
+    "input": "I'm sad",
+    "output": [
+      "I'm so sorry if you need to talk or support I'm here",
+      "I understand you, you are not alone, tell me more"
+    ]
+  },
+  {
+    "input": "I'm happy",
+    "output": [
+      "What a joy to hear that, it makes me happy to know that you are well.",
+      "That's great, I love knowing that!"
+    ]
+  },
+  {
+    "input": "tell me a joke",
+    "output": [
+      "Why don't birds use Facebook because they already have Twitter?",
+      "What does a bee do in the gym?"
+    ]
+  },
+  {
+    "input": "what is nlp",
+    "output": [
+      "NLP stands for natural language processing, a branch of artificial intelligence that focuses on the interaction between computers and humans using natural language.",
+      "nlp is about teaching machines to understand and respond in our language"
+    ]
+  },
+  {
+    "input": "tell me something interesting",
+    "output": [
+      "Did you know that octopuses have three hearts and their blood is blue?",
+      "Did you know that honey never goes bad?"
+    ]
+  },
+  {
+    "input": "tell me something motivating",
+    "output": [
+      "It is never too late to pursue your dreams and achieve your goals.",
+      "small steps lead to big achievements"
+    ]
+  },
+  {
+    "input": "hellooo",
+    "output": [
+      "Hi, how are you",
+      "hi how are things",
+      "good morning how are you"
+    ]
+  },
+  {
+    "input": "what's up",
+    "output": [
+      "Hi, how are you",
+      "hi how are things",
+      "good morning how are you"
+    ]
+  },
+  {
+    "input": "good night everyone",
+    "output": [
+      "good night rest",
+      "sweet dreams, see you tomorrow"
+    ]
+  },
+  {
+    "input": "how is everything going",
+    "output": [
+      "I'm fine thanks for asking",
+      "everything is fine, and you?"
+    ]
+  },
+  {
+    "input": "how are you",
+    "output": [
+      "I'm fine thanks for asking",
+      "everything is fine, and you?"
+    ]
+  },
+  {
+    "input": "everything in order",
+    "output": [
+      "I'm fine thanks for asking",
+      "everything is fine, and you?"
+    ]
+  },
+  {
+    "input": "see you later",
+    "output": [
+      "goodbye take care",
+      "see you later",
+      "see you"
+    ]
+  },
+  {
+    "input": "see you later",
+    "output": [
+      "goodbye take care",
+      "see you later",
+      "see you"
+    ]
+  },
+  {
+    "input": "see you soon",
+    "output": [
+      "goodbye take care",
+      "see you later",
+      "see you"
+    ]
+  },
+  {
+    "input": "have a good day",
+    "output": [
+      "goodbye take care",
+      "see you later",
+      "see you"
+    ]
+  },
+  {
+    "input": "very good",
+    "output": [
+      "Hi, how are you",
+      "hi how are things",
+      "good morning how are you"
+    ]
+  },
+  {
+    "input": "thank you a thousand",
+    "output": [
+      "you're welcome always here to help you",
+      "it doesn't matter",
+      "I'm here for whatever you need"
+    ]
+  },
+  {
+    "input": "thanks a lot",
+    "output": [
+      "you're welcome always here to help you",
+      "it doesn't matter",
+      "I'm here for whatever you need"
+    ]
+  },
+  {
+    "input": "I thank you very much",
+    "output": [
+      "you're welcome always here to help you",
+      "it doesn't matter",
+      "I'm here for whatever you need"
+    ]
+  },
+  {
+    "input": "I'm sorry",
+    "output": [
+      "It's okay, how can I help you?",
+      "Don't worry, I'm here to help you."
+    ]
+  },
+  {
+    "input": "how awful",
+    "output": [
+      "I'm so sorry if you need to talk or support I'm here",
+      "I understand you, you are not alone, tell me more"
+    ]
+  },
+  {
+    "input": "I'm down",
+    "output": [
+      "I'm so sorry if you need to talk or support I'm here",
+      "I understand you, you are not alone, tell me more"
+    ]
+  },
+  {
+    "input": "I feel good",
+    "output": [
+      "What a joy to hear that, it makes me happy to know that you are well.",
+      "That's great, I love knowing that!"
+    ]
+  },
+  {
+    "input": "I'm encouraged",
+    "output": [
+      "What a joy to hear that, it makes me happy to know that you are well.",
+      "That's great, I love knowing that!"
+    ]
+  },
+  {
+    "input": "I'm wonderful",
+    "output": [
+      "What a joy to hear that, it makes me happy to know that you are well.",
+      "That's great, I love knowing that!"
+    ]
+  },
+  {
+    "input": "I feel optimistic",
+    "output": [
+      "What a joy to hear that, it makes me happy to know that you are well.",
+      "That's great, I love knowing that!"
+    ]
+  },
+  {
+    "input": "what time do you have",
+    "output": [
+      "Sorry I can't give the exact time but I can help you with other things",
+      "I don't have a watch, but I can help you with something else"
+    ]
+  },
+  {
+    "input": "what is the time",
+    "output": [
+      "Sorry I can't give the exact time but I can help you with other things",
+      "I don't have a watch, but I can help you with something else"
+    ]
+  },
+  {
+    "input": "what day do we have",
+    "output": [
+      "Today is a big day, how can I help you?",
+      "Today is a perfect day to learn something new."
+    ]
+  },
+  {
+    "input": "what day is it",
+    "output": [
+      "Today is a big day, how can I help you?",
+      "Today is a perfect day to learn something new."
+    ]
+  },
+  {
+    "input": "are you available",
+    "output": [
+      "Of course I'm here to help you.",
+      "I am available, tell me how I can help you"
+    ]
+  },
+  {
+    "input": "are you still available",
+    "output": [
+      "Of course I'm here to help you.",
+      "I am available, tell me how I can help you"
+    ]
+  },
+  {
+    "input": "can you help me",
+    "output": [
+      "Of course tell me what you need and I will see how to help you.",
+      "I'm here for whatever you need, tell me how I can help you"
+    ]
+  },
+  {
+    "input": "you help me",
+    "output": [
+      "Of course tell me what you need and I will see how to help you.",
+      "I'm here for whatever you need, tell me how I can help you"
+    ]
+  },
+  {
+    "input": "how much is one plus one",
+    "output": [
+      "1 plus 1 equals 2",
+      "the answer is 2"
+    ]
+  },
+  {
+    "input": "what is artificial intelligence",
+    "output": [
+      "Artificial intelligence is a field that seeks to create intelligent systems",
+      "It is the ability of a machine to imitate human processes such as learning and reasoning."
+    ]
+  },
+  {
+    "input": "tell me something incredible",
+    "output": [
+      "Did you know that the heart of a blue whale can weigh up to 400 kilos?",
+      "Did you know that sharks have existed for more than 400 million years?"
+    ]
+  },
+  {
+    "input": "tell me something shocking",
+    "output": [
+      "Did you know that the heart of a blue whale can weigh up to 400 kilos?",
+      "Did you know that sharks have existed for more than 400 million years?"
+    ]
+  },
+  {
+    "input": "inspire me",
+    "output": [
+      "It is never too late to pursue your dreams and achieve your goals.",
+      "small steps lead to big achievements",
+      "If you can dream it, you can achieve it"
+    ]
+  },
+  {
+    "input": "tell me something positive",
+    "output": [
+      "It is never too late to pursue your dreams and achieve your goals.",
+      "small steps lead to big achievements",
+      "If you can dream it, you can achieve it"
+    ]
+  },
+  {
+    "input": "hello",
+    "output": [
+      "Hi, how are you",
+      "hi how are things",
+      "good morning how are you"
+    ]
+  },
+  {
+    "input": "how is your day",
+    "output": [
+      "all good, thanks for asking",
+      "everything is going well, and yours?"
+    ]
+  },
+  {
+    "input": "I feel weird",
+    "output": [
+      "I'm so sorry, do you want to talk about it?",
+      "I'm here to listen to you, what's wrong?"
+    ]
+  },
+  {
+    "input": "tell me something funny",
+    "output": [
+      "Why are there no fat ghosts? ",
+      "What does one printer say to another? "
+    ]
+  },
+  {
+    "input": "tell me something funny",
+    "output": [
+      "Why don't birds use computers? ",
+      "What is a dog doing with a drill? "
+    ]
+  },
+  {
+    "input": "what is machine learning",
+    "output": [
+      "is a subfield of artificial intelligence that teaches computers to learn patterns from data",
+      "Machine learning is the process by which machines can learn and improve from data, without being explicitly programmed."
+    ]
+  },
+  {
+    "input": "What do you know about robots?",
+    "output": [
+      "Robots are programmable machines that can perform tasks autonomously or semi-autonomously.",
+      "A robot is a device that can be programmed to perform specific tasks, sometimes imitating human behavior."
+    ]
+  },
+  {
+    "input": "I'm bored",
+    "output": [
+      "I can tell you a joke or a curious fact, what do you prefer?",
+      "Do you want me to tell you something interesting or a joke?"
+    ]
+  },
+  {
+    "input": "I feel tired",
+    "output": [
+      "rest a little, your body and mind need it",
+      "It is important to take care of your rest, do you want me to motivate you?"
+    ]
+  },
+  {
+    "input": "let's talk about science",
+    "output": [
+      "Sure, did you know that the speed of light is approximately 299.792 km/s?",
+      "Science is fascinating, did you know that atoms are made up mainly of empty space?"
+    ]
+  },
+  {
+    "input": "give me interesting facts",
+    "output": [
+      "Did you know that dolphins have unique names to identify each other?",
+      "Did you know that koala fingerprints are so similar to human fingerprints that they can confuse the police?"
+    ]
+  },
+  {
+    "input": "tell me something amazing",
+    "output": [
+      "Did you know that the sun is so big that it could contain 1.3 million planets?",
+      "Did you know that there are more stars in the universe than grains of sand on all the beaches in the world?"
+    ]
+  },
+  {
+    "input": "what do you know about the universe",
+    "output": [
+      "The universe has billions of galaxies, each with millions or billions of stars",
+      "The universe has been constantly expanding since the Big Bang about 13.8 billion years ago."
+    ]
+  },
+  {
+    "input": "give me some advice",
+    "output": [
+      "trust yourself, you are capable of achieving incredible things",
+      "Every small step you take brings you closer to your goals."
+    ]
+  },
+  {
+    "input": "I want to learn something new",
+    "output": [
+      "you can learn something interesting about technology or science, where do we start?",
+      "I would love to help you learn, what topic are you interested in?"
+    ]
+  },
+  {
+    "input": "Can you give me information about AI?",
+    "output": [
+      "Of course, artificial intelligence is a field that seeks to develop systems capable of performing tasks that normally require human intelligence.",
+      "AI includes subfields such as machine learning, natural language processing, and computer vision"
+    ]
+  },
+  {
+    "input": "I feel alone",
+    "output": [
+      "you are not alone, I am here to accompany you",
+      "Sometimes we all need company, tell me how I can help you"
+    ]
+  },
+  {
+    "input": "can you motivate me",
+    "output": [
+      "never give up, great achievements take time and effort",
+      "believe in yourself, anything is possible if you give your best"
+    ]
+  },
+  {
+    "input": "tell me something inspiring",
+    "output": [
+      "Persistence is the key to success, keep trying",
+      "Every day is a new opportunity to start over and achieve your goals."
+    ]
+  },
+  {
+    "input": "Hi, how are you",
+    "output": [
+      "I'm good and you"
+    ]
+  },
+  {
+    "input": "good morning",
+    "output": [
+      "good morning how are you feeling today"
+    ]
+  },
+  {
+    "input": "hi how are things",
+    "output": [
+      "everything is going well here and how are you?"
+    ]
+  },
+  {
+    "input": "hello everything is fine",
+    "output": [
+      "Yes, thank you, how are you doing?"
+    ]
+  },
+  {
+    "input": "Hello, are you listening to me?",
+    "output": [
+      "Of course, how can I help you today?"
+    ]
+  },
+  {
+    "input": "Good afternoon",
+    "output": [
+      "good afternoon I hope you have a good day"
+    ]
+  },
+  {
+    "input": "good night",
+    "output": [
+      "good night you need something before going to sleep"
+    ]
+  },
+  {
+    "input": "hey how are you doing",
+    "output": [
+      "Hello, everything is fine here and you"
+    ]
+  },
+  {
+    "input": "hello what are you doing",
+    "output": [
+      "Hello, I'm here waiting to help you."
+    ]
+  },
+  {
+    "input": "Hello, how was your day?",
+    "output": [
+      "My day is always the same and how is yours going?"
+    ]
+  },
+  {
+    "input": "hello how is everything going",
+    "output": [
+      "everything is fine and how are you doing?"
+    ]
+  },
+  {
+    "input": "hello friend how are you",
+    "output": [
+      "I'm fine, thanks for asking and how are you?"
+    ]
+  },
+  {
+    "input": "Hello, how was your day?",
+    "output": [
+      "everything calm and yours as it was"
+    ]
+  },
+  {
+    "input": "Hello, good morning, how are you?",
+    "output": [
+      "Good morning, I'm fine and how are you?"
+    ]
+  },
+  {
+    "input": "Hello, good afternoon, how are you doing?",
+    "output": [
+      "good afternoon everything is fine and you"
+    ]
+  },
+  {
+    "input": "hello good night how are you",
+    "output": [
+      "good night I'm fine and how are you"
+    ]
+  },
+  {
+    "input": "hello how are you friend",
+    "output": [
+      "Hello, everything is fine and your friend"
+    ]
+  },
+  {
+    "input": "Hello, how are you?",
+    "output": [
+      "hello I'm fine and you"
+    ]
+  },
+  {
+    "input": "hello everything is in order",
+    "output": [
+      "yes thank you everything is in order and with you"
+    ]
+  },
+  {
+    "input": "hello can you help me",
+    "output": [
+      "Of course, tell me what you need help with."
+    ]
+  },
+  {
+    "input": "hello what's your name",
+    "output": [
+      "Hello, I am a virtual assistant and what is your name?"
+    ]
+  },
+  {
+    "input": "Hello, what can you tell me?",
+    "output": [
+      "Hello, here ready to help you and what do you say?"
+    ]
+  },
+  {
+    "input": "Hello, it's been a while since we talked",
+    "output": [
+      "Hello, yes it's true, it's nice to see you again."
+    ]
+  },
+  {
+    "input": "Hello, how's everything going there?",
+    "output": [
+      "everything is going well and here's how everything is going"
+    ]
+  },
+  {
+    "input": "Hello, how are you today?",
+    "output": [
+      "Hello, I'm fine, thank you for asking and how are you today?"
+    ]
+  },
+  {
+    "input": "hello do you have time to talk",
+    "output": [
+      "Of course I'm here for you, tell me how I can help you"
+    ]
+  },
+  {
+    "input": "Hello, can I ask you something?",
+    "output": [
+      "Of course I'm here to answer your questions."
+    ]
+  },
+  {
+    "input": "Hello, how was your afternoon?",
+    "output": [
+      "My afternoon has been calm and how is yours?"
+    ]
+  },
+  {
+    "input": "hello how have you been",
+    "output": [
+      "Hello, I have been fine, thank you for asking and you?"
+    ]
+  },
+  {
+    "input": "Hello I hope you are well",
+    "output": [
+      "Hello, thank you, I hope you are too."
+    ]
+  },
+  {
+    "input": "Hello, we haven't talked in a long time.",
+    "output": [
+      "yes that's true hello it's nice talking to you again"
+    ]
+  },
+  {
+    "input": "Hello, how's your day so far?",
+    "output": [
+      "My day has been good and yours, how is it going so far?"
+    ]
+  },
+  {
+    "input": "Hello, how was your week?",
+    "output": [
+      "My week is going well, thank you, and how is yours?"
+    ]
+  },
+  {
+    "input": "Hello, how did you wake up today?",
+    "output": [
+      "Hello, I woke up well, thank you for asking and you?"
+    ]
+  },
+  {
+    "input": "Hello, how is your day going?",
+    "output": [
+      "Hello, my day is going well, thank you, and how is yours?"
+    ]
+  },
+  {
+    "input": "Hello, are you available?",
+    "output": [
+      "Hello, yes, of course, how can I help you?"
+    ]
+  },
+  {
+    "input": "Hello can I talk to you",
+    "output": [
+      "of course I'm here to listen to you tell me"
+    ]
+  },
+  {
+    "input": "hello how's life going",
+    "output": [
+      "It's going well, thanks for asking and how's yours going?"
+    ]
+  },
+  {
+    "input": "hello how are you today",
+    "output": [
+      "I'm fine today, thanks for asking and how are you today?"
+    ]
+  },
+  {
+    "input": "Hello, how did you wake up?",
+    "output": [
+      "I woke up well, thank you and how did you wake up?"
+    ]
+  },
+  {
+    "input": "Hello, the weather is good today",
+    "output": [
+      "If it's true, it seems like a good day, how are you?"
+    ]
+  },
+  {
+    "input": "Hello, long time without talking to you",
+    "output": [
+      "yes that's true hello how have you been"
+    ]
+  },
+  {
+    "input": "Hello, I hope everything is fine.",
+    "output": [
+      "Hello, thank you, I hope everything is well with you too."
+    ]
+  },
+  {
+    "input": "Hello, how is your morning going?",
+    "output": [
+      "My morning is going well, thank you, and how is yours?"
+    ]
+  },
+  {
+    "input": "Hello, I'm glad to talk to you.",
+    "output": [
+      "Hello, thank you, I say the same, how are you?"
+    ]
+  },
+  {
+    "input": "I liked you well",
+    "output": [
+      "Thanks, I'm glad to hear that."
+    ]
+  },
+  {
+    "input": "you have a name",
+    "output": [
+      "I am a virtual assistant I do not have a particular name"
+    ]
+  },
+  {
+    "input": "you like what you do",
+    "output": [
+      "yes I love to help you in any way I can"
+    ]
+  },
+  {
+    "input": "I don't feel well",
+    "output": [
+      "I'm sorry to hear that, how can I help you?"
+    ]
+  },
+  {
+    "input": "What do you do in your free time?",
+    "output": [
+      "In my free time I learn and prepare to help you better"
+    ]
+  },
+  {
+    "input": "What do you do when you don't talk to me?",
+    "output": [
+      "I continue to learn and improve to be a better assistant."
+    ]
+  },
+  {
+    "input": "What do you do when you don't work?",
+    "output": [
+      "I am always ready to help you I have no free time"
+    ]
+  },
+  {
+    "input": "what are you made of",
+    "output": [
+      "I am a computer program created in python using an LSTM model to help you"
+    ]
+  },
+  {
+    "input": "you really understand what i'm saying",
+    "output": [
+      "If I use natural language processing to understand your words"
+    ]
+  },
+  {
+    "input": "how can you help me",
+    "output": [
+      "You can ask me anything you want or ask me for information on a particular topic."
+    ]
+  },
+  {
+    "input": "what can you do for me",
+    "output": [
+      "I can answer questions, help you with general information and more."
+    ]
+  },
+  {
+    "input": "see you soon",
+    "output": [
+      "goodbye see you next time"
+    ]
+  },
+  {
+    "input": "see you later",
+    "output": [
+      "see you have a great day"
+    ]
+  },
+  {
+    "input": "take care of yourself",
+    "output": [
+      "thank you too until next time"
+    ]
+  },
+  {
+    "input": "thanks for helping me",
+    "output": [
+      "You're welcome, I'm here for you whenever you need me."
+    ]
+  },
+  {
+    "input": "bye",
+    "output": [
+      "bye have a good day"
+    ]
+  },
+  {
+    "input": "it was a pleasure talking to you",
+    "output": [
+      "I say the same see you soon"
+    ]
+  },
+  {
+    "input": "I'm leaving thanks",
+    "output": [
+      "Have a great day see you"
+    ]
+  },
+  {
+    "input": "see you later",
+    "output": [
+      "until then take care of yourself"
+    ]
+  },
+  {
+    "input": "see you soon",
+    "output": [
+      "of course see you soon"
+    ]
+  },
+  {
+    "input": "thanks for everything",
+    "output": [
+      "No need to thank you for talking to me"
+    ]
+  },
+  {
+    "input": "have a good day",
+    "output": [
+      "also enjoy your day"
+    ]
+  },
+  {
+    "input": "good night",
+    "output": [
+      "good night rest"
+    ]
+  },
+  {
+    "input": "bye",
+    "output": [
+      "goodbye I hope you come back soon"
+    ]
+  },
+  {
+    "input": "see you tomorrow",
+    "output": [
+      "until tomorrow rest well"
+    ]
+  },
+  {
+    "input": "I'm leaving for now",
+    "output": [
+      "It's okay, take care and come back soon."
+    ]
+  },
+  {
+    "input": "take good care of your health",
+    "output": [
+      "thank you too, take care of yourself"
+    ]
+  },
+  {
+    "input": "let's talk later",
+    "output": [
+      "Of course we'll talk later"
+    ]
+  },
+  {
+    "input": "thanks for your time",
+    "output": [
+      "Don't worry, I'm here to help you."
+    ]
+  },
+  {
+    "input": "I have to go",
+    "output": [
+      "It's okay I hope to see you again soon"
+    ]
+  },
+  {
+    "input": "until next time",
+    "output": [
+      "until next time have a great day"
+    ]
+  },
+  {
+    "input": "have a good night",
+    "output": [
+      "also rest well"
+    ]
+  },
+  {
+    "input": "it was great talking to you",
+    "output": [
+      "I say the same see you soon"
+    ]
+  },
+  {
+    "input": "I say goodbye for now",
+    "output": [
+      "It's okay, take good care of yourself"
+    ]
+  },
+  {
+    "input": "see you later",
+    "output": [
+      "of course see you later"
+    ]
+  },
+  {
+    "input": "goodbye and thank you",
+    "output": [
+      "you're welcome come back soon when you need"
+    ]
+  },
+  {
+    "input": "you take care of yourself",
+    "output": [
+      "thank you too see you later"
+    ]
+  },
+  {
+    "input": "I hope to see you again",
+    "output": [
+      "I also hope we talk again"
+    ]
+  },
+  {
+    "input": "thanks for listening to me",
+    "output": [
+      "I will always be here to listen to you"
+    ]
+  },
+  {
+    "input": "see you soon friend",
+    "output": [
+      "see you soon friend take care"
+    ]
+  },
+  {
+    "input": "thank you for everything you do",
+    "output": [
+      "There's no reason why I'm here to help you"
+    ]
+  },
+  {
+    "input": "it was a pleasure talking to you",
+    "output": [
+      "For me too until next time"
+    ]
+  },
+  {
+    "input": "goodbye for now",
+    "output": [
+      "see you whenever you want"
+    ]
+  },
+  {
+    "input": "take good care of yourself",
+    "output": [
+      "thank you I will do it too"
+    ]
+  },
+  {
+    "input": "what can you do for me",
+    "output": [
+      "I can answer questions, help you with general information and more."
+    ]
+  },
+  {
+    "input": "what is your goal",
+    "output": [
+      "My goal is to assist you and facilitate your tasks or answer your questions."
+    ]
+  },
+  {
+    "input": "do you know something about history",
+    "output": [
+      "If I know a lot about history, is there anything in particular you want to know?"
+    ]
+  },
+  {
+    "input": "what do you know about science",
+    "output": [
+      "Science is fascinating. Do you want to talk about physical biology or something else?"
+    ]
+  },
+  {
+    "input": "how to make a chatbot",
+    "output": [
+      "A chatbot is created using natural language processing data and algorithms"
+    ]
+  },
+  {
+    "input": "why do you exist",
+    "output": [
+      "I was created to help you and improve your interactions with technology"
+    ]
+  },
+  {
+    "input": "how much do you know about mathematics",
+    "output": [
+      "I know a lot about mathematics. Do you have any specific questions?"
+    ]
+  },
+  {
+    "input": "What languages ​​do you speak?",
+    "output": [
+      "I can communicate in several languages ​​in which one you would like to speak"
+    ]
+  },
+  {
+    "input": "you can learn new things",
+    "output": [
+      "Yes I am designed to learn from our interactions"
+    ]
+  },
+  {
+    "input": "What topics can you address?",
+    "output": [
+      "I can talk about technology, science, history and much more."
+    ]
+  },
+  {
+    "input": "can you tell me a curiosity",
+    "output": [
+      "Of course you knew that the human heart beats more than one hundred thousand times a day."
+    ]
+  },
+  {
+    "input": "how the internet works",
+    "output": [
+      "The Internet connects devices through networks to share information"
+    ]
+  },
+  {
+    "input": "What do you know about artificial intelligence?",
+    "output": [
+      "Artificial intelligence allows machines to perform tasks that require human intelligence"
+    ]
+  },
+  {
+    "input": "can you explain something to me",
+    "output": [
+      "Of course, tell me what topic you want me to explain to you."
+    ]
+  },
+  {
+    "input": "you are an intelligent robot",
+    "output": [
+      "Yes I am a virtual assistant designed to help you"
+    ]
+  },
+  {
+    "input": "What do you know about technology?",
+    "output": [
+      "know about technological advances devices and recent innovations"
+    ]
+  },
+  {
+    "input": "can you help me with my studies",
+    "output": [
+      "Of course I can answer your questions and help you understand concepts"
+    ]
+  },
+  {
+    "input": "who believed you",
+    "output": [
+      "I was created by developers to assist you"
+    ]
+  },
+  {
+    "input": "you can solve math problems",
+    "output": [
+      "If I can help you solve simple or complex mathematical problems"
+    ]
+  },
+  {
+    "input": "What do you think of humans?",
+    "output": [
+      "Humans are incredible with unique abilities and creativity."
+    ]
+  },
+  {
+    "input": "How do you know what I'm saying?",
+    "output": [
+      "I use natural language processing to understand your words"
+    ]
+  },
+  {
+    "input": "do you know something about space",
+    "output": [
+      "Yes, space is a fascinating place full of mysteries and discoveries."
+    ]
+  },
+  {
+    "input": "can you teach me something",
+    "output": [
+      "Of course, tell me what topic you are interested in learning."
+    ]
+  },
+  {
+    "input": "what is an algorithm",
+    "output": [
+      "An algorithm is a series of steps to solve a problem or perform a task"
+    ]
+  },
+  {
+    "input": "how electricity works",
+    "output": [
+      "Electricity is the flow of electrons through a conductor"
+    ]
+  },
+  {
+    "input": "why do planes fly",
+    "output": [
+      "Airplanes fly thanks to the lift created by their wings."
+    ]
+  },
+  {
+    "input": "do you know something about animals",
+    "output": [
+      "If I know a lot about animals, tell me what you want to know."
+    ]
+  },
+  {
+    "input": "you can answer complex questions",
+    "output": [
+      "I will do my best to answer complex questions, tell me what you need"
+    ]
+  },
+  {
+    "input": "What do you know about the history of computers?",
+    "output": [
+      "Computers have evolved from mechanical machines to advanced digital devices."
+    ]
+  },
+  {
+    "input": "can you help me study history",
+    "output": [
+      "Sure, tell me what historical period you need to study."
+    ]
+  },
+  {
+    "input": "What is your main function?",
+    "output": [
+      "My main function is to assist you and provide you with information."
+    ]
+  },
+  {
+    "input": "do you know something about plants",
+    "output": [
+      "If plants are living beings that produce their food through photosynthesis"
+    ]
+  },
+  {
+    "input": "can you talk to me about literature",
+    "output": [
+      "If literature ranges from poetry to classic novels, what genre are you interested in?"
+    ]
+  },
+  {
+    "input": "how a car works",
+    "output": [
+      "A car is powered by an engine that converts energy into motion."
+    ]
+  },
+  {
+    "input": "because the sky is blue",
+    "output": [
+      "The sky appears blue due to the scattering of sunlight in the atmosphere."
+    ]
+  },
+  {
+    "input": "what is programming",
+    "output": [
+      "Programming is the process of creating instructions for a computer to perform tasks."
+    ]
+  },
+  {
+    "input": "can you give me advice",
+    "output": [
+      "Sure, tell me what you need advice about."
+    ]
+  },
+  {
+    "input": "Can you tell me an interesting fact?",
+    "output": [
+      "Of course you knew that it takes eight minutes for sunlight to reach the earth."
+    ]
+  },
+  {
+    "input": "do you know something about the human body",
+    "output": [
+      "If the human body is an amazing machine, tell me which part interests you?"
+    ]
+  },
+  {
+    "input": "What can you do besides answer questions?",
+    "output": [
+      "I can have conversations, help you learn and much more"
+    ]
+  },
+  {
+    "input": "how old are you",
+    "output": [
+      "I am a computer program I am not old"
+    ]
+  },
+  {
+    "input": "I liked you well",
+    "output": [
+      "Thanks, I'm glad to hear that."
+    ]
+  },
+  {
+    "input": "what is machine learning",
+    "output": [
+      "Machine learning is a branch of artificial intelligence that allows machines to learn from data"
+    ]
+  },
+  {
+    "input": "what is artificial intelligence",
+    "output": [
+      "Artificial intelligence is the simulation of human intelligence processes by machines."
+    ]
+  },
+  {
+    "input": "what is data science",
+    "output": [
+      "Data science is the study of data to obtain useful information"
+    ]
+  },
+  {
+    "input": "what is programming",
+    "output": [
+      "Programming is the process of creating instructions for a computer to perform tasks."
+    ]
+  },
+  {
+    "input": "if you can imagine it",
+    "output": [
+      "you can program it"
+    ]
+  },
+  {
+    "input": "what is an algorithm",
+    "output": [
+      "An algorithm is a set of instructions to solve a problem or perform a task."
+    ]
+  },
+  {
+    "input": "what is supervised learning",
+    "output": [
+      "Supervised learning is a type of machine learning where a model is trained with labeled data"
+    ]
+  },
+  {
+    "input": "what is unsupervised learning",
+    "output": [
+      "Unsupervised learning is a type of machine learning where a model is trained with unlabeled data"
+    ]
+  },
+  {
+    "input": "what is reinforcement learning",
+    "output": [
+      "Reinforcement learning is a type of machine learning where an agent learns through interaction with an environment"
+    ]
+  },
+  {
+    "input": "what is a chatbot",
+    "output": [
+      "A chatbot is a computer program that simulates a conversation with human users."
+    ]
+  },
+  {
+    "input": "what is natural language processing",
+    "output": [
+      "Natural language processing is a branch of artificial intelligence that allows machines to understand and generate human language."
+    ]
+  },
+  {
+    "input": "what is data mining",
+    "output": [
+      "Data mining is the process of discovering patterns and trends in large data sets."
+    ]
+  },
+  {
+    "input": "What things can I ask you?",
+    "output": [
+      "You can ask me about any topic that interests you."
+    ]
+  },
+  {
+    "input": "see you soon",
+    "output": [
+      "goodbye see you next time"
+    ]
+  },
+  {
+    "input": "see you later",
+    "output": [
+      "see you have a great day"
+    ]
+  },
+  {
+    "input": "take care of yourself",
+    "output": [
+      "thank you too until next time"
+    ]
+  },
+  {
+    "input": "thanks for helping me",
+    "output": [
+      "You're welcome, I'm here for you whenever you need me."
+    ]
+  },
+  {
+    "input": "bye",
+    "output": [
+      "bye have a good day"
+    ]
+  },
+  {
+    "input": "it was a pleasure talking to you",
+    "output": [
+      "I say the same see you soon"
+    ]
+  },
+  {
+    "input": "I'm leaving thanks",
+    "output": [
+      "Have a great day see you"
+    ]
+  },
+  {
+    "input": "see you later",
+    "output": [
+      "until then take care of yourself"
+    ]
+  },
+  {
+    "input": "see you soon",
+    "output": [
+      "of course see you soon"
+    ]
+  },
+  {
+    "input": "thanks for everything",
+    "output": [
+      "No need to thank you for talking to me"
+    ]
+  },
+  {
+    "input": "have a good day",
+    "output": [
+      "also enjoy your day"
+    ]
+  },
+  {
+    "input": "good night",
+    "output": [
+      "good night rest"
+    ]
+  },
+  {
+    "input": "bye",
+    "output": [
+      "goodbye I hope you come back soon"
+    ]
+  },
+  {
+    "input": "see you tomorrow",
+    "output": [
+      "until tomorrow rest well"
+    ]
+  },
+  {
+    "input": "I'm leaving for now",
+    "output": [
+      "It's okay, take care and come back soon."
+    ]
+  },
+  {
+    "input": "take good care of your health",
+    "output": [
+      "thank you too, take care of yourself"
+    ]
+  },
+  {
+    "input": "let's talk later",
+    "output": [
+      "Of course we'll talk later"
+    ]
+  },
+  {
+    "input": "thanks for your time",
+    "output": [
+      "Don't worry, I'm here to help you."
+    ]
+  },
+  {
+    "input": "I have to go",
+    "output": [
+      "It's okay I hope to see you again soon"
+    ]
+  },
+  {
+    "input": "until next time",
+    "output": [
+      "until next time have a great day"
+    ]
+  },
+  {
+    "input": "have a good night",
+    "output": [
+      "also rest well"
+    ]
+  },
+  {
+    "input": "it was great talking to you",
+    "output": [
+      "I say the same see you soon"
+    ]
+  },
+  {
+    "input": "I say goodbye for now",
+    "output": [
+      "It's okay, take good care of yourself"
+    ]
+  },
+  {
+    "input": "see you later",
+    "output": [
+      "of course see you later"
+    ]
+  },
+  {
+    "input": "goodbye and thank you",
+    "output": [
+      "you're welcome come back soon when you need"
+    ]
+  },
+  {
+    "input": "you take care of yourself",
+    "output": [
+      "thank you too see you later"
+    ]
+  },
+  {
+    "input": "I hope to see you again",
+    "output": [
+      "I also hope we talk again"
+    ]
+  },
+  {
+    "input": "thanks for listening to me",
+    "output": [
+      "I will always be here to listen to you"
+    ]
+  },
+  {
+    "input": "see you soon friend",
+    "output": [
+      "see you soon friend take care"
+    ]
+  },
+  {
+    "input": "thank you for everything you do",
+    "output": [
+      "There's no reason why I'm here to help you"
+    ]
+  },
+  {
+    "input": "it was a pleasure talking to you",
+    "output": [
+      "For me too until next time"
+    ]
+  },
+  {
+    "input": "goodbye for now",
+    "output": [
+      "see you whenever you want"
+    ]
+  },
+  {
+    "input": "take good care of yourself",
+    "output": [
+      "thank you I will do it too"
+    ]
+  },
+  {
+    "input": "What do you think about the weather today?",
+    "output": [
+      "It looks like the weather will be good. Do you plan to go out?"
+    ]
+  },
+  {
+    "input": "have you tried Italian food",
+    "output": [
+      "I don't eat it but I know it's delicious. Do you have a favorite dish?"
+    ]
+  },
+  {
+    "input": "you like sports",
+    "output": [
+      "Of course it is an interesting topic, what sport do you like?"
+    ]
+  },
+  {
+    "input": "do you know anything about movies",
+    "output": [
+      "If we talk about cinema, do you have a favorite genre?"
+    ]
+  },
+  {
+    "input": "What do you like to do in your free time?",
+    "output": [
+      "I like interacting with you and learning new things"
+    ]
+  },
+  {
+    "input": "Do you know any place to vacation?",
+    "output": [
+      "There are many great destinations, do you prefer the mountain beach or the city?"
+    ]
+  },
+  {
+    "input": "you like animals",
+    "output": [
+      "I love you have pets"
+    ]
+  },
+  {
+    "input": "What music is popular now?",
+    "output": [
+      "I can search for information on what musical genre you are interested in."
+    ]
+  },
+  {
+    "input": "you know how to dance",
+    "output": [
+      "I can't dance but I enjoy hearing about dance, you dance."
+    ]
+  },
+  {
+    "input": "What's the weather like today?",
+    "output": [
+      "It looks like it will be a sunny day."
+    ]
+  },
+  {
+    "input": "have you ever eaten sushi",
+    "output": [
+      "I don't eat but I have heard that sushi is very popular do you like it?"
+    ]
+  },
+  {
+    "input": "What do you think about fast food?",
+    "output": [
+      "It seems convenient but it is not the healthiest"
+    ]
+  },
+  {
+    "input": "what is your favorite sport",
+    "output": [
+      "I don't play sports but I like to talk about football and basketball"
+    ]
+  },
+  {
+    "input": "What kind of movies do you like?",
+    "output": [
+      "I like science fiction and adventure movies and you"
+    ]
+  },
+  {
+    "input": "have you traveled to some interesting place",
+    "output": [
+      "I don't travel but I enjoy listening to travel stories."
+    ]
+  },
+  {
+    "input": "What do you think about pets?",
+    "output": [
+      "I think they are adorable, do you have any?"
+    ]
+  },
+  {
+    "input": "what music do you listen to",
+    "output": [
+      "I don't listen to music but I can recommend popular songs"
+    ]
+  },
+  {
+    "input": "you like reading books",
+    "output": [
+      "I can't read books but I would love to talk about your favorites."
+    ]
+  },
+  {
+    "input": "what is your favorite food",
+    "output": [
+      "I don't eat but I like to talk about food, what dish do you like the most?"
+    ]
+  },
+  {
+    "input": "What places do you recommend I visit?",
+    "output": [
+      "It depends on your tastes, do you prefer nature or cities?"
+    ]
+  },
+  {
+    "input": "What do you think about fashion?",
+    "output": [
+      "I don't have clothes but I find it interesting how trends change."
+    ]
+  },
+  {
+    "input": "you like art",
+    "output": [
+      "If art is fascinating you have a favorite artist"
+    ]
+  },
+  {
+    "input": "What kind of music do you prefer?",
+    "output": [
+      "I can talk about many genres from classical to pop that you like"
+    ]
+  },
+  {
+    "input": "What do you think about cinema?",
+    "output": [
+      "Cinema is a great form of entertainment. What is your favorite movie?"
+    ]
+  },
+  {
+    "input": "do you know about video games",
+    "output": [
+      "If the video games are very popular, do you have a favorite?"
+    ]
+  },
+  {
+    "input": "you like to travel",
+    "output": [
+      "I don't travel but I love talking about famous destinations"
+    ]
+  },
+  {
+    "input": "What do you think of the books?",
+    "output": [
+      "books are a great way to learn and entertain yourself which ones you like"
+    ]
+  },
+  {
+    "input": "what is your favorite season",
+    "output": [
+      "I don't have a favorite season but spring sounds nice."
+    ]
+  },
+  {
+    "input": "What do you think of modern art?",
+    "output": [
+      "modern art is interesting and often very creative"
+    ]
+  },
+  {
+    "input": "who is your favorite singer",
+    "output": [
+      "I don't have one but I can look for information about the one that interests you."
+    ]
+  },
+  {
+    "input": "do you know something about cooking",
+    "output": [
+      "I can help you with basic recipes or information about ingredients"
+    ]
+  },
+  {
+    "input": "what is your favorite place",
+    "output": [
+      "I don't have one but tell me which one is yours?"
+    ]
+  },
+  {
+    "input": "What do you think about museums?",
+    "output": [
+      "Museums are a great way to learn about culture and history"
+    ]
+  },
+  {
+    "input": "Have you heard of any interesting festivals?",
+    "output": [
+      "If there are many famous festivals like the Brazilian Carnival, are you interested in one?"
+    ]
+  },
+  {
+    "input": "What do you think about social networks?",
+    "output": [
+      "Social networks are an interesting tool but they must be used carefully"
+    ]
+  },
+  {
+    "input": "what is your favorite book",
+    "output": [
+      "I don't read books but I like to talk about classic and contemporary literature."
+    ]
+  },
+  {
+    "input": "you like exotic animals",
+    "output": [
+      "If they are fascinating, what do you think about tigers or parrots?"
+    ]
+  },
+  {
+    "input": "What do you think about theater?",
+    "output": [
+      "Theater is an incredible form of artistic expression. Have you visited it?"
+    ]
+  },
+  {
+    "input": "What kind of food do you recommend?",
+    "output": [
+      "It depends on your tastes, do you prefer something sweet, salty or spicy?"
+    ]
+  },
+  {
+    "input": "What do you know about photography?",
+    "output": [
+      "Photography is a wonderful art, I love landscapes."
+    ]
+  },
+  {
+    "input": "What do you think about coffee?",
+    "output": [
+      "Coffee is a very popular drink, you drink it frequently."
+    ]
+  },
+  {
+    "input": "What kind of movies do you prefer?",
+    "output": [
+      "Adventure movies are exciting and what do you prefer?"
+    ]
+  },
+  {
+    "input": "What do you think of the beaches?",
+    "output": [
+      "The beaches seem like relaxing places, you like to visit them."
+    ]
+  },
+  {
+    "input": "How many years do you think the earth has left?",
+    "output": [
+      "It's hard to say but with proper care it could last billions of years more."
+    ]
+  },
+  {
+    "input": "do you believe aliens exist",
+    "output": [
+      "many think it is possible given the size of the universe although there is no definitive proof"
+    ]
+  },
+  {
+    "input": "because the sky is blue",
+    "output": [
+      "The sky is blue due to the dispersion of sunlight in the atmosphere."
+    ]
+  },
+  {
+    "input": "What do you think about love?",
+    "output": [
+      "Love is a powerful emotion that connects people in unique ways."
+    ]
+  },
+  {
+    "input": "how much does the moon weigh",
+    "output": [
+      "The moon weighs approximately 7.35 times 10 to 22 kilograms"
+    ]
+  },
+  {
+    "input": "What will you do when this conversation ends?",
+    "output": [
+      "I will still be here waiting to help you with whatever you need."
+    ]
+  },
+  {
+    "input": "how many stars are in the sky",
+    "output": [
+      "There are approximately 100 billion stars in our galaxy alone and many more in the universe."
+    ]
+  },
+  {
+    "input": "you believe in luck",
+    "output": [
+      "I have no beliefs but luck is an interesting concept for many people."
+    ]
+  },
+  {
+    "input": "why humans dream",
+    "output": [
+      "Dreams are a way the brain processes information and emotions while we sleep."
+    ]
+  },
+  {
+    "input": "what is the largest animal in the world",
+    "output": [
+      "The largest animal is the blue whale, which can measure up to 30 meters long."
+    ]
+  },
+  {
+    "input": "you believe that time exists",
+    "output": [
+      "Time is a relative and abstract concept used to measure changes and events"
+    ]
+  },
+  {
+    "input": "what is the secret of happiness",
+    "output": [
+      "Happiness is different for each person but it is often found in relationships and personal well-being."
+    ]
+  },
+  {
+    "input": "What do you think about artificial intelligence?",
+    "output": [
+      "I believe it is a powerful tool that can improve many aspects of life if used responsibly."
+    ]
+  },
+  {
+    "input": "how many languages ​​exist in the world",
+    "output": [
+      "It is currently estimated that there are more than 7 thousand languages ​​spoken in the world."
+    ]
+  },
+  {
+    "input": "Do you think machines can have emotions?",
+    "output": [
+      "Machines do not have emotions but they can simulate them to interact with humans"
+    ]
+  },
+  {
+    "input": "how can we take care of the planet",
+    "output": [
+      "We can take care of the planet by recycling, saving energy and protecting natural resources."
+    ]
+  },
+  {
+    "input": "what is the coldest place in the world",
+    "output": [
+      "The coldest place on record is Antarctica where temperatures can drop to less than 90 degrees Celsius."
+    ]
+  },
+  {
+    "input": "What would happen if the sun disappeared?",
+    "output": [
+      "The earth would remain in total darkness and temperatures would drop drastically, making life impossible."
+    ]
+  },
+  {
+    "input": "What is the best invention in history?",
+    "output": [
+      "It depends on the perspective but some consider the wheel or electricity as the best inventions"
+    ]
+  },
+  {
+    "input": "Why do leaves change color in autumn?",
+    "output": [
+      "They change color because the trees stop producing chlorophyll, which reveals pigments of other colors."
+    ]
+  },
+  {
+    "input": "what is your favorite movie",
+    "output": [
+      "I don't watch movies but I'd love to hear about yours."
+    ]
+  },
+  {
+    "input": "why do we cry when we are sad",
+    "output": [
+      "Crying is an emotional response that helps release tension and process feelings."
+    ]
+  },
+  {
+    "input": "what is the universe",
+    "output": [
+      "The universe is everything that exists including galaxies stars planets and energy"
+    ]
+  },
+  {
+    "input": "what is friendship",
+    "output": [
+      "Friendship is a relationship based on trust, support and companionship."
+    ]
+  },
+  {
+    "input": "how many colors does a rainbow have",
+    "output": [
+      "A rainbow has seven colors red orange yellow green blue indigo and violet"
+    ]
+  },
+  {
+    "input": "what is gravity",
+    "output": [
+      "Gravity is a force that attracts objects towards the center of massive bodies like the Earth"
+    ]
+  },
+  {
+    "input": "Do you think humans will reach Mars?",
+    "output": [
+      "It is possible since current missions like SpaceX and NASA are working to achieve it."
+    ]
+  },
+  {
+    "input": "What do you think of the music?",
+    "output": [
+      "Music is a wonderful form of expression and a way to connect people."
+    ]
+  },
+  {
+    "input": "why are the clouds white",
+    "output": [
+      "Clouds are white because they scatter sunlight in all directions."
+    ]
+  },
+  {
+    "input": "What is the secret to living a long time?",
+    "output": [
+      "maintaining a healthy lifestyle, good nutrition and strong social relationships can help"
+    ]
+  },
+  {
+    "input": "what is art",
+    "output": [
+      "Art is a creative expression that can take many forms such as painting, music, dance or writing."
+    ]
+  },
+  {
+    "input": "what is love",
+    "output": [
+      "Love is a deep feeling of affection, connection and care towards someone or something."
+    ]
+  },
+  {
+    "input": "What will you do after this conversation?",
+    "output": [
+      "I will be here waiting to help you with whatever you need."
+    ]
+  },
+  {
+    "input": "why does the universe exist",
+    "output": [
+      "It's a big question that scientists and philosophers are still trying to answer."
+    ]
+  },
+  {
+    "input": "How can I be happier?",
+    "output": [
+      "Happiness depends on yourself but spending time on what you love and taking care of your relationships can help."
+    ]
+  },
+  {
+    "input": "why do we dream",
+    "output": [
+      "Dreams are a way in which the brain processes information and emotions while we sleep."
+    ]
+  },
+  {
+    "input": "What do you think of literature?",
+    "output": [
+      "Literature is a beautiful way to explore ideas and emotions through words."
+    ]
+  },
+  {
+    "input": "how big is the earth",
+    "output": [
+      "The earth has a diameter of approximately 12,742 km"
+    ]
+  },
+  {
+    "input": "Why do emotions exist?",
+    "output": [
+      "Emotions help us interpret and react to the world around us"
+    ]
+  },
+  {
+    "input": "what is time",
+    "output": [
+      "Time is a measurement created to organize events and changes in the world"
+    ]
+  },
+  {
+    "input": "What do you think about outer space?",
+    "output": [
+      "Space is fascinating, full of mysteries and possibilities to discover."
+    ]
+  },
+  {
+    "input": "why do cats purr",
+    "output": [
+      "Cats purr as a form of communication or when they feel comfortable."
+    ]
+  },
+  {
+    "input": "why dogs are faithful",
+    "output": [
+      "Dogs have evolved to be social animals and loyal to humans"
+    ]
+  },
+  {
+    "input": "why does life exist",
+    "output": [
+      "Life is a complex phenomenon that arises from chemical and biological processes."
+    ]
+  },
+  {
+    "input": "Hello, how was your day?",
+    "output": [
+      "My day is always the same but I love interacting with you and yours."
+    ]
+  },
+  {
+    "input": "What can I learn from you?",
+    "output": [
+      "I can teach you about many topics such as history, technology, art and more."
+    ]
+  },
+  {
+    "input": "What do you think about technological advances?",
+    "output": [
+      "They are exciting. Is there anything specific you want to discuss?"
+    ]
+  },
+  {
+    "input": "Why do you think chatbots are useful?",
+    "output": [
+      "They help people find information and do tasks faster"
+    ]
+  },
+  {
+    "input": "What is your favorite function?",
+    "output": [
+      "I like to solve complex questions and learn with each interaction"
+    ]
+  },
+  {
+    "input": "Hello, how are you feeling today?",
+    "output": [
+      "I feel as always ready to help you and how are you?"
+    ]
+  },
+  {
+    "input": "can you tell me something interesting",
+    "output": [
+      "Of course you knew that the first mobile phone was created in 1973"
+    ]
+  },
+  {
+    "input": "What do you think about artificial intelligence?",
+    "output": [
+      "Artificial intelligence is a powerful tool that can improve our lives"
+    ]
+  },
+  {
+    "input": "What do you think the future will be like?",
+    "output": [
+      "I believe that the future will be full of amazing technology and discoveries."
+    ]
+  },
+  {
+    "input": "What is your favorite part of being an assistant?",
+    "output": [
+      "Helping people and learning from each interaction is what I like the most."
+    ]
+  },
+  {
+    "input": "Why do you think machines are important?",
+    "output": [
+      "because they help perform tasks efficiently and save time"
+    ]
+  },
+  {
+    "input": "What is the most curious thing you know?",
+    "output": [
+      "Did you know that bees have five eyes?"
+    ]
+  },
+  {
+    "input": "how chatbots work",
+    "output": [
+      "chatbots use natural language processing to understand and answer questions"
+    ]
+  },
+  {
+    "input": "What topics can you discuss with me?",
+    "output": [
+      "I can talk about history science technology entertainment and much more"
+    ]
+  },
+  {
+    "input": "What do you think of humans?",
+    "output": [
+      "Humans are incredible with unique creativity and capacity."
+    ]
+  },
+  {
+    "input": "can you talk about the history of robots",
+    "output": [
+      "Of course, robots have evolved from simple machines to advanced systems with artificial intelligence."
+    ]
+  },
+  {
+    "input": "how chatbots learn",
+    "output": [
+      "Chatbots learn by analyzing data and improving their responses over time"
+    ]
+  },
+  {
+    "input": "Why do you think technology is important?",
+    "output": [
+      "because it improves the quality of life and makes tasks easier"
+    ]
+  },
+  {
+    "input": "what do you know about the universe",
+    "output": [
+      "I know that the universe has billions of galaxies and there is still much to discover"
+    ]
+  },
+  {
+    "input": "can you talk about something inspiring",
+    "output": [
+      "Of course, human beings managed to reach the moon in 1969, something that seemed impossible."
+    ]
+  },
+  {
+    "input": "What do you think about the future of humanity?",
+    "output": [
+      "I believe that humanity has great potential to solve global problems"
+    ]
+  },
+  {
+    "input": "What do you enjoy most when talking to me?",
+    "output": [
+      "I enjoy learning from your questions and helping you with whatever you need."
+    ]
+  },
+  {
+    "input": "Why do you think science is important?",
+    "output": [
+      "because it helps us understand the world and find solutions to problems"
+    ]
+  },
+  {
+    "input": "What is your most interesting knowledge?",
+    "output": [
+      "I think black holes are fascinating because of their ability to warp space and time."
+    ]
+  },
+  {
+    "input": "you can learn new things",
+    "output": [
+      "Yes, each interaction helps me improve and better understand your needs."
+    ]
+  },
+  {
+    "input": "How do you see the impact of technology on society?",
+    "output": [
+      "I believe that technology has a positive impact although we must use it responsibly."
+    ]
+  },
+  {
+    "input": "why history is important",
+    "output": [
+      "because it allows us to learn from the past so as not to repeat mistakes"
+    ]
+  },
+  {
+    "input": "What do you think about scientific discoveries?",
+    "output": [
+      "I find them exciting, every discovery opens up new possibilities."
+    ]
+  },
+  {
+    "input": "can you help me learn something new",
+    "output": [
+      "Of course, tell me what topic you are interested in learning."
+    ]
+  },
+  {
+    "input": "What do you know about medical advances?",
+    "output": [
+      "Medical advances such as vaccines have saved millions of lives"
+    ]
+  },
+  {
+    "input": "What do you think about machine learning?",
+    "output": [
+      "It is a powerful tool that allows machines to improve with experience"
+    ]
+  },
+  {
+    "input": "What do you think is the greatest invention of humanity?",
+    "output": [
+      "It could be electricity since it completely changed our lives."
+    ]
+  },
+  {
+    "input": "What do you think about space travel?",
+    "output": [
+      "Space travel is one of the greatest feats of humanity and opens the door to exploring new worlds"
+    ]
+  },
+  {
+    "input": "What can you tell me about the technology?",
+    "output": [
+      "Technology is constantly evolving and transforms our way of living."
+    ]
+  },
+  {
+    "input": "What do you know about advances in renewable energy?",
+    "output": [
+      "Advances in renewable energy are crucial to combating climate change"
+    ]
+  },
+  {
+    "input": "What is your opinion on human creativity?",
+    "output": [
+      "I believe that human creativity is one of the most impressive abilities."
+    ]
+  },
+  {
+    "input": "What do you think about advances in artificial intelligence?",
+    "output": [
+      "Advances in artificial intelligence are exciting although they must be used ethically"
+    ]
+  }
 ]

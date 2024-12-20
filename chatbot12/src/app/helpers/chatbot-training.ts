@@ -1,24 +1,41 @@
 import * as tf from '@tensorflow/tfjs';
-import trainingData from './data.json';
+import trainingData from './data-programming.json';
 
-// Preprocesar la entrada
-function preprocessInput(input: string, vocabulary: string[]): number[] {
-  const words = input.toLowerCase().split(' ');
+function preprocessInput(input, vocabulary) {
+  const connectors = [
+    "y", "que", "o", "u", "pero", "porque", "aunque", "si", "cuando", 
+    "como", "por", "a", "de", "en", "con", "para", "el", "la", "los", "las", 
+    "un", "una", "unos", "unas", "al", "del"
+  ];
+
+
+  function cleanText(text) {
+    return text
+      .normalize("NFD") 
+      .replace(/[\u0300-\u036f]/g, '') 
+      .replace(/[^\w\s]/g, '') 
+      .toLowerCase(); 
+  }
+
+  const cleanInput = cleanText(input);
+  const words = cleanInput.split(' ');
+  
+  const filteredWords = words.filter(word => !connectors.includes(word));
+
   const vector = new Array(vocabulary.length).fill(0);
-
-  words.forEach((word) => {
+  filteredWords.forEach((word) => {
     const index = vocabulary.indexOf(word);
     if (index !== -1) {
       vector[index] = 1;
     } else {
-      console.warn(`Palabra desconocida: ${word}`);
+      console.warn(`Unknown word: ${word}`);
     }
   });
 
   return vector;
 }
 
-// Seleccionar random
+// Seleccionar respuesta al azar
 function getRandomResponse(responses: string[]): string {
   const randomIndex = Math.floor(Math.random() * responses.length);
   return responses[randomIndex];
@@ -42,12 +59,16 @@ function createModel(vocabularyLength: number, outputLength: number): tf.Sequent
   model.compile({
     optimizer: 'adam',
     loss: 'categoricalCrossentropy',
-    metrics: ['accuracy'],
+    metrics: [],
   });
+  
+  
+  
 
   return model;
 }
 
+// Entrenar el modelo
 async function trainModel(): Promise<void> {
   const vocabulary = generateVocabulary(trainingData);
   const model = createModel(vocabulary.length, trainingData.length);
@@ -65,16 +86,16 @@ async function trainModel(): Promise<void> {
 
   // Entrenar el modelo
   await model.fit(xs, ys, {
-    epochs: 200,
-    batchSize: 15,
+    epochs: 190,
+    batchSize: 35,
     shuffle: true,
   });
-
 
   await model.save('localstorage://chatbot-model');
   console.log('Modelo entrenado y guardado.');
 }
 
+// Predecir la respuesta
 async function predictResponse(input: string): Promise<string> {
   const vocabulary = generateVocabulary(trainingData);
   const model = await tf.loadLayersModel('localstorage://chatbot-model');
