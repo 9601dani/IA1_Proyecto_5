@@ -3,10 +3,33 @@ import trainingData from './data-programming.json';
 
 function preprocessInput(input, vocabulary) {
   const connectors = [
-    "y", "que", "o", "u", "pero", "porque", "aunque", "si", "cuando", 
-    "como", "por", "a", "de", "en", "con", "para", "el", "la", "los", "las", 
-    "un", "una", "unos", "unas", "al", "del"
-  ];
+    "y", "and", 
+    "que", "that", 
+    "o", "or", 
+    "u", "or", 
+    "pero", "but", 
+    "porque", "because", 
+    "aunque", "although", 
+    "si", "if", 
+    "cuando", "when", 
+    "como", "how", 
+    "por", "for", 
+    "a", "to", 
+    "de", "of", 
+    "en", "in", 
+    "con", "with", 
+    "para", "for", 
+    "el", "the", 
+    "la", "the", 
+    "los", "the", 
+    "las", "the", 
+    "un", "a", 
+    "una", "a", 
+    "unos", "some", 
+    "unas", "some", 
+    "al", "to the", 
+    "del", "of the"
+  ];  
 
 
   function cleanText(text) {
