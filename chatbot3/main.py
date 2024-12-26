@@ -9,7 +9,7 @@ window.geometry("600x700")
 window.configure(bg="#f8f9fa")
 
 # Crear un marco para el título
-title_frame = tk.Frame(window, bg="#4a148c", height=60)  # Color púrpura oscuro
+title_frame = tk.Frame(window, bg="#4a148c", height=60)
 title_frame.pack(side="top", fill="x")
 
 title = tk.Label(title_frame, text="Chatbot Grupo 5 - Chatbot12", bg="#4a148c", fg="white", font=("Helvetica", 18, "bold"))
