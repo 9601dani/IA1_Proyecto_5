@@ -58,14 +58,11 @@ def insert_bubble(text, sender="user"):
 def send_message(event=None):
     message = input_text.get()
     if message.strip():
-        # Mostrar mensaje del usuario
         insert_bubble(message, sender="user")
         input_text.delete(0, "end")
 
-        # Obtener respuesta del bot
         respuesta = proccess_input(message)
 
-        # Mostrar respuesta del bot
         insert_bubble(respuesta, sender="bot")
 
 # Configuración de estilos para las burbujas
