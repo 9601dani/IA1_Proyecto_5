@@ -70,6 +70,482 @@
                 "Uso Python y TensorFlow para funcionar.",
                 "La programación es la forma de hablar con las computadoras."
             ]
-        }
+        },
+        {
+            "tag": "variables",
+            "patterns": [
+                "¿Qué es una variable en programación?",
+                "Explícame qué significa una variable.",
+                "¿Para qué sirven las variables?",
+                "¿Puedes definir una variable?",
+                "¿Cómo se utilizan las variables en un programa?"
+            ],
+            "responses": [
+                "Una variable es un contenedor para almacenar datos que pueden cambiar durante la ejecución del programa.",
+                "En programación, una variable es un nombre que se asigna a un espacio en memoria para guardar valores.",
+                "Las variables permiten a los desarrolladores almacenar, modificar y reutilizar información dentro de un programa.",
+                "Es un identificador que se utiliza para guardar información temporalmente y que puede ser manipulada según se necesite.",
+                "Piensa en una variable como una etiqueta que te ayuda a organizar y acceder a diferentes tipos de datos en un programa."
+            ]
+        },
+        {
+            "tag": "constantes",
+            "patterns": [
+                "¿Qué es una constante en programación?",
+                "¿Cómo se define una constante?",
+                "¿Para qué sirven las constantes?",
+                "¿Qué diferencia hay entre una variable y una constante?",
+                "Explícame qué significa constante en un programa."
+            ],
+            "responses": [
+                "Una constante es un valor que no cambia durante la ejecución de un programa.",
+                "Se utiliza una constante para representar valores fijos, como el número pi o una configuración específica.",
+                "A diferencia de las variables, las constantes mantienen su valor sin modificaciones después de ser declaradas.",
+                "Definir una constante ayuda a mejorar la legibilidad y prevenir errores accidentales en un programa.",
+                "En muchos lenguajes, las constantes se declaran con palabras clave especiales, como 'const' o 'final'."
+            ]
+        },
+        {
+            "tag": "funciones",
+            "patterns": [
+                "¿Qué es una función en programación?",
+                "Explícame cómo funcionan las funciones.",
+                "¿Para qué sirven las funciones en un programa?",
+                "¿Qué tipos de funciones existen?",
+                "Dame un ejemplo de cómo se usa una función."
+            ],
+            "responses": [
+                "Una función es un bloque de código reutilizable diseñado para realizar una tarea específica.",
+                "Las funciones ayudan a estructurar el código, evitar duplicación y mejorar la mantenibilidad.",
+                "Pueden recibir parámetros de entrada y devolver un resultado como salida.",
+                "Existen funciones predefinidas en los lenguajes y funciones personalizadas creadas por los desarrolladores.",
+                "Piensa en una función como una receta: recibe ingredientes (parámetros) y devuelve un plato final (resultado)."
+            ]
+        },
+        {
+            "tag": "clases",
+            "patterns": [
+                "¿Qué es una clase en programación?",
+                "Explícame qué significa clase en la POO.",
+                "¿Para qué sirven las clases en un programa?",
+                "¿Qué define una clase?",
+                "Dame un ejemplo de cómo se utiliza una clase."
+            ],
+            "responses": [
+                "Una clase es un modelo o plantilla que define las propiedades y comportamientos de un objeto.",
+                "En la programación orientada a objetos, las clases son fundamentales para organizar el código.",
+                "Se utilizan para crear instancias de objetos, cada una con sus propios atributos y métodos.",
+                "Una clase contiene atributos (datos) y métodos (funciones) que representan el estado y el comportamiento de un objeto.",
+                "Por ejemplo, una clase 'Coche' puede tener atributos como 'color' y 'modelo', y métodos como 'acelerar' o 'frenar'."
+            ]
+        },
+        {
+            "tag": "metodos",
+            "patterns": [
+                "¿Qué es un método en programación?",
+                "Explícame cómo funcionan los métodos.",
+                "¿Cuál es la diferencia entre una función y un método?",
+                "¿Qué tipos de métodos existen?",
+                "Dame un ejemplo de un método en una clase."
+            ],
+            "responses": [
+                "Un método es una función asociada a un objeto o clase en programación orientada a objetos.",
+                "Los métodos permiten realizar operaciones específicas sobre los datos de un objeto.",
+                "A diferencia de una función general, un método siempre pertenece a un objeto o clase.",
+                "Por ejemplo, un método 'caminar()' podría ser parte de una clase 'Persona'.",
+                "Existen métodos estáticos, de instancia y especiales, como el constructor."
+            ]
+        },
+        {
+            "tag": "programacion_funcional",
+            "patterns": [
+                "¿Qué es la programación funcional?",
+                "Explícame los principios de la programación funcional.",
+                "¿Qué características tiene la programación funcional?",
+                "¿Cuáles son las ventajas de programar de forma funcional?",
+                "¿Qué lenguajes utilizan programación funcional?"
+            ],
+            "responses": [
+                "La programación funcional es un paradigma que trata la computación como la evaluación de funciones matemáticas.",
+                "Se centra en funciones puras, inmutabilidad de datos y evita el uso de estados globales.",
+                "En este paradigma, las funciones son ciudadanos de primera clase y pueden ser pasadas como argumentos o devueltas como resultados.",
+                "Lenguajes como Haskell, Lisp y Scala son ejemplos destacados de programación funcional.",
+                "Entre sus ventajas están la facilidad para depurar, la modularidad y la capacidad de paralelizar procesos."
+            ]
+        },
+        {
+            "tag": "paradigmas_de_programacion",
+            "patterns": [
+                "¿Qué son los paradigmas de programación?",
+                "¿Cuáles son los principales paradigmas de programación?",
+                "Explícame qué es un paradigma de programación.",
+                "¿Para qué sirven los paradigmas en programación?",
+                "Dame ejemplos de paradigmas de programación."
+            ],
+            "responses": [
+                "Un paradigma de programación es un enfoque o estilo para resolver problemas mediante código.",
+                "Entre los paradigmas más conocidos están la programación estructurada, orientada a objetos y funcional.",
+                "Cada paradigma tiene ventajas y desventajas dependiendo del problema a resolver.",
+                "Por ejemplo, la programación orientada a objetos organiza el código en torno a objetos, mientras que la funcional se centra en funciones.",
+                "Los paradigmas ayudan a estructurar mejor el código y elegir herramientas adecuadas para cada tarea."
+            ]
+        },
+        {
+            "tag": "expresiones_lambda",
+            "patterns": [
+                "¿Qué es una expresión lambda?",
+                "Explícame cómo funcionan las expresiones lambda.",
+                "¿Para qué sirven las expresiones lambda?",
+                "Dame un ejemplo de una función lambda.",
+                "¿Qué características tienen las funciones lambda?"
+            ],
+            "responses": [
+                "Una expresión lambda es una función anónima que puede definirse en una sola línea de código.",
+                "Son útiles para tareas simples y cuando no es necesario nombrar la función.",
+                "En Python, por ejemplo, puedes escribir: lambda x: x * 2, que duplica un número.",
+                "Las funciones lambda son comunes en programación funcional y para operaciones rápidas como filtros y mapas.",
+                "Son una herramienta poderosa para escribir código conciso y claro."
+            ]
+        },
+        {
+            "tag": "programacion_orientada_a_objetos",
+            "patterns": [
+                "¿Qué es la programación orientada a objetos?",
+                "Explícame los principios de la programación orientada a objetos.",
+                "¿Qué ventajas tiene la POO?",
+                "¿Cuáles son los pilares de la programación orientada a objetos?",
+                "¿Qué lenguajes usan POO?"
+            ],
+            "responses": [
+                "La programación orientada a objetos organiza el código en torno a objetos que contienen datos y comportamientos.",
+                "Sus pilares fundamentales son la encapsulación, herencia, polimorfismo y abstracción.",
+                "La POO facilita el mantenimiento del código, la reutilización y la escalabilidad.",
+                "Lenguajes como Java, Python y C++ son populares para desarrollar con este paradigma.",
+                "Es ideal para modelar problemas del mundo real en términos de objetos y relaciones."
+            ]
+        },
+        {
+            "tag": "ciclos",
+            "patterns": [
+                "¿Qué son los ciclos en programación?",
+                "Explícame cómo funcionan los bucles.",
+                "¿Qué tipos de ciclos existen?",
+                "¿Para qué sirven los ciclos?",
+                "Dame un ejemplo de un ciclo en código."
+            ],
+            "responses": [
+                "Los ciclos permiten repetir un bloque de código mientras se cumple una condición.",
+                "Existen ciclos como for, while y do while, dependiendo del lenguaje y la necesidad.",
+                "Son esenciales para tareas repetitivas, como iterar sobre listas o realizar cálculos.",
+                "Un ejemplo en Python: for i in range(5): print(i), que imprime números del 0 al 4.",
+                "Los ciclos son fundamentales para la eficiencia en programación."
+            ]
+        },
+        {
+            "tag": "ciclo_for",
+            "patterns": [
+                "¿Qué es un ciclo for?",
+                "Explícame cómo funciona un bucle for.",
+                "¿Para qué se utiliza el for?",
+                "Dame un ejemplo de un ciclo for.",
+                "¿Qué características tiene un bucle for?"
+            ],
+            "responses": [
+                "Un ciclo for itera sobre una secuencia de elementos, como una lista o un rango.",
+                "Es útil para recorrer colecciones de datos o repetir acciones un número conocido de veces.",
+                "Un ejemplo en Python: for x in [1, 2, 3]: print(x), que imprime cada elemento de la lista.",
+                "El ciclo for simplifica el manejo de estructuras iterables en programación.",
+                "Se utiliza ampliamente para manipular listas, cadenas y rangos numéricos."
+            ]
+        },
+        {
+            "tag": "ciclo_while",
+            "patterns": [
+                "¿Qué es un ciclo while?",
+                "Explícame cómo funciona un bucle while.",
+                "¿Cuándo se utiliza un while?",
+                "Dame un ejemplo de un ciclo while.",
+                "¿Qué ventajas tiene un ciclo while?"
+            ],
+            "responses": [
+                "Un ciclo while ejecuta un bloque de código mientras se cumpla una condición.",
+                "Es útil cuando no se conoce de antemano cuántas iteraciones se necesitarán.",
+                "Un ejemplo en Python: while x < 5: print(x); x += 1.",
+                "El while es ideal para bucles dependientes de eventos o condiciones dinámicas.",
+                "Se debe tener cuidado de no crear ciclos infinitos al usar while."
+            ]
+        },
+        {
+            "tag": "ciclo_do_while",
+            "patterns": [
+                "¿Qué es un ciclo do while?",
+                "Explícame cómo funciona un bucle do while.",
+                "¿Cuándo se utiliza un do while?",
+                "Dame un ejemplo de un ciclo do while.",
+                "¿Qué diferencia tiene el do while respecto al while?"
+            ],
+            "responses": [
+                "Un ciclo do while ejecuta al menos una vez el bloque de código antes de verificar la condición.",
+                "Es útil cuando necesitas asegurarte de que el código se ejecute al menos una vez.",
+                "Un ejemplo en C++: do { cout << x; x++; } while (x < 5);",
+                "A diferencia de while, el do while garantiza una ejecución inicial antes de evaluar la condición.",
+                "Es ideal para tareas en las que el bloque debe ejecutarse al menos una vez, como menús interactivos."
+            ]
+        },
+        {
+            "tag": "ejemplos_de_declaracion_de_variables_en_javascript",
+            "patterns": [
+                "Dame ejemplos de cómo declarar variables en JavaScript.",
+                "¿Cómo se declaran variables en JavaScript?",
+                "Enséñame ejemplos de declaración de variables en JavaScript.",
+                "Quiero ver cómo se declaran variables con var, let y const.",
+                "¿Puedes darme un ejemplo de una variable en JavaScript?"
+            ],
+            "responses": [
+                "Aquí tienes un ejemplo básico:\n\tvar nombre = 'Juan';\n\tlet edad = 25;\n\tconst PI = 3.14;",
+                "Puedes declarar variables así:\n\tlet ciudad = 'Madrid';\n\tconst pais = 'España';",
+                "Con var puedes hacer esto:\n\tvar mensaje = 'Hola, mundo';\nSin embargo, se recomienda usar let o const.",
+                "Ejemplo con let y const:\n\tlet numero = 42;\n\tconst texto = 'JavaScript es genial';",
+                "Para declarar una variable que cambia:\n\tlet contador = 0;\nY para valores constantes:\n\tconst maximo = 100;"
+            ]
+        },
+        {
+            "tag": "ejemplos_de_declaracion_de_constantes_en_javascript",
+            "patterns": [
+                "Dame ejemplos de cómo declarar constantes en JavaScript.",
+                "¿Cómo se declaran constantes en JavaScript?",
+                "Enséñame ejemplos de declaración de constantes en JavaScript.",
+                "Quiero ver cómo se usan las constantes en JavaScript.",
+                "¿Puedes darme ejemplos de constantes en JavaScript?"
+            ],
+            "responses": [
+                "Para declarar una constante:\n\tconst PI = 3.14;",
+                "Ejemplo de constante de texto:\n\tconst nombre = 'Carlos';",
+                "Para trabajar con objetos:\n\tconst configuracion = {\n\t\ttema: 'oscuro'\n\t};",
+                "Aquí tienes otro ejemplo:\n\tconst URL = 'https://api.example.com';",
+                "Las constantes no cambian:\n\tconst GRAVEDAD = 9.8;\nAsegúrate de asignarles un valor al declararlas."
+            ]
+        },
+        {
+            "tag": "ejemplos_de_ciclo_for_en_javascript",
+            "patterns": [
+                "Dame ejemplos de un ciclo for en JavaScript.",
+                "¿Cómo se usa un ciclo for en JavaScript?",
+                "Enséñame ejemplos de bucles for en JavaScript.",
+                "Quiero ver un ejemplo práctico de un for en JavaScript.",
+                "¿Puedes mostrarme cómo se usa un for en JavaScript?"
+            ],
+            "responses": [
+                "Un ejemplo básico:\n\tfor (let i = 0; i < 5; i++) {\n\t\tconsole.log(i);\n\t}",
+                "Para recorrer un array:\n\tlet numeros = [1, 2, 3];\n\tfor (let i = 0; i < numeros.length; i++) {\n\t\tconsole.log(numeros[i]);\n\t}",
+                "Usando for con objetos:\n\tfor (let key in objeto) {\n\t\tconsole.log(objeto[key]);\n\t}",
+                "Recorriendo caracteres de una cadena:\n\tfor (let letra of 'JavaScript') {\n\t\tconsole.log(letra);\n\t}",
+                "Un ciclo regresivo:\n\tfor (let i = 10; i > 0; i--) {\n\t\tconsole.log('Cuenta regresiva: ' + i);\n\t}"
+            ]
+        },
+        {
+            "tag": "ejemplos_de_ciclo_while_en_javascript",
+            "patterns": [
+                "Dame ejemplos de un ciclo while en JavaScript.",
+                "¿Cómo se usa un ciclo while en JavaScript?",
+                "Enséñame ejemplos de bucles while en JavaScript.",
+                "Quiero ver un ejemplo práctico de un while en JavaScript.",
+                "¿Puedes mostrarme cómo se usa un while en JavaScript?"
+            ],
+            "responses": [
+                "Un ejemplo básico:\n\tlet i = 0;\n\twhile (i < 5) {\n\t\tconsole.log(i);\n\t\ti++;\n\t}",
+                "Para iterar hasta que se cumpla una condición:\n\twhile (sigueCorriendo) {\n\t\tejecutarTarea();\n\t}",
+                "Para contar hacia atrás:\n\tlet i = 10;\n\twhile (i > 0) {\n\t\tconsole.log(i);\n\t\ti--;\n\t}",
+                "Para recorrer arrays:\n\tlet numeros = [1, 2, 3];\n\tlet i = 0;\n\twhile (i < numeros.length) {\n\t\tconsole.log(numeros[i]);\n\t\ti++;\n\t}",
+                "Para detenerte al encontrar un valor:\n\tlet x = 0;\n\twhile (x !== 100) {\n\t\tx = obtenerNumero();\n\t\tconsole.log(x);\n\t}"
+            ]
+        },
+        {
+            "tag": "ejemplos_de_ciclo_do_while_en_javascript",
+            "patterns": [
+                "Dame ejemplos de un ciclo do while en JavaScript.",
+                "¿Cómo se usa un ciclo do while en JavaScript?",
+                "Enséñame ejemplos de bucles do while en JavaScript.",
+                "Quiero ver un ejemplo práctico de un do while en JavaScript.",
+                "¿Puedes mostrarme cómo se usa un do while en JavaScript?"
+            ],
+            "responses": [
+                "Un ejemplo básico:\n\tlet i = 0;\n\tdo {\n\t\tconsole.log(i);\n\t\ti++;\n\t} while (i < 5);",
+                "Se usa cuando necesitas ejecutar al menos una vez:\n\tlet clave;\n\tdo {\n\t\tclave = pedirClave();\n\t} while (!esClaveCorrecta(clave));",
+                "Contar hacia atrás:\n\tlet x = 10;\n\tdo {\n\t\tconsole.log(x);\n\t\tx--;\n\t} while (x > 0);",
+                "Leer datos de un array:\n\tlet i = 0;\n\tlet datos = [1, 2, 3];\n\tdo {\n\t\tconsole.log(datos[i]);\n\t\ti++;\n\t} while (i < datos.length);",
+                "Detenerse según una condición:\n\tlet seguir = true;\n\tdo {\n\t\tconsole.log('Ejecutando...');\n\t\tseguir = comprobarEstado();\n\t} while (seguir);"
+            ]
+        },
+        {
+            "tag": "ejemplos_de_declaracion_de_metodos_en_javascript",
+            "patterns": [
+                "Dame ejemplos de cómo declarar métodos en JavaScript.",
+                "¿Cómo se crean métodos en JavaScript?",
+                "Enséñame ejemplos de métodos en JavaScript.",
+                "Quiero ver cómo se declaran métodos en objetos.",
+                "¿Puedes mostrarme ejemplos de métodos en JavaScript?"
+            ],
+            "responses": [
+                "Un método dentro de un objeto:\n\tconst persona = {\n\t\tsaludar: function() {\n\t\t\tconsole.log('Hola');\n\t\t}\n\t};",
+                "Usando sintaxis abreviada:\n\tconst coche = {\n\t\tarrancar() {\n\t\t\tconsole.log('Vrum!');\n\t\t}\n\t};",
+                "Métodos con parámetros:\n\tconst calculadora = {\n\t\tsumar(a, b) {\n\t\t\treturn a + b;\n\t\t}\n\t};",
+                "Métodos en clases:\n\tclass Animal {\n\t\tcaminar() {\n\t\t\tconsole.log('Caminando');\n\t\t}\n\t}",
+                "Método usando this:\n\tconst usuario = {\n\t\tnombre: 'Juan',\n\t\tpresentarse() {\n\t\t\tconsole.log('Hola, soy ' + this.nombre);\n\t\t}\n\t};"
+            ]
+        },
+        {
+            "tag": "ejemplos_de_declaracion_de_funciones_en_javascript",
+            "patterns": [
+                "Dame ejemplos de cómo declarar funciones en JavaScript.",
+                "¿Cómo se crean funciones en JavaScript?",
+                "Enséñame ejemplos de funciones en JavaScript.",
+                "Quiero ver cómo se declaran funciones en JavaScript.",
+                "¿Puedes mostrarme ejemplos de funciones en JavaScript?"
+            ],
+            "responses": [
+                "Función clásica:\n\tfunction saludar() {\n\t\tconsole.log('Hola, mundo');\n\t}",
+                "Función con parámetros:\n\tfunction sumar(a, b) {\n\t\treturn a + b;\n\t}",
+                "Función anónima asignada a una variable:\n\tconst multiplicar = function(x, y) {\n\t\treturn x * y;\n\t};",
+                "Función flecha:\n\tconst dividir = (a, b) => {\n\t\treturn a / b;\n\t};",
+                "Función de una sola línea con flecha:\n\tconst cuadrado = n => n * n;"
+            ]
+        },
+        {
+            "tag": "ejemplos_de_declaracion_de_variables_en_python",
+            "patterns": [
+                "Dame ejemplos de cómo declarar variables en Python.",
+                "¿Cómo se declaran variables en Python?",
+                "Enséñame ejemplos de declaración de variables en Python.",
+                "Quiero ver cómo se declaran variables en Python.",
+                "¿Puedes darme un ejemplo de una variable en Python?"
+            ],
+            "responses": [
+                "Declaración básica:\n\tnombre = 'Juan'\n\tedad = 25\n\tpi = 3.14",
+                "Puedes declarar múltiples variables en una línea:\n\tx, y, z = 1, 2, 3",
+                "Variables de texto y números:\n\ttexto = 'Hola, mundo'\n\tnumero = 42",
+                "Usando listas:\n\tfrutas = ['manzana', 'pera', 'plátano']",
+                "Declaración de un diccionario:\n\tpersona = {'nombre': 'Carlos', 'edad': 30}"
+            ]
+        },
+        {
+            "tag": "ejemplos_de_declaracion_de_constantes_en_python",
+            "patterns": [
+                "Dame ejemplos de cómo declarar constantes en Python.",
+                "¿Cómo se declaran constantes en Python?",
+                "Enséñame ejemplos de declaración de constantes en Python.",
+                "Quiero ver cómo se usan las constantes en Python.",
+                "¿Puedes darme ejemplos de constantes en Python?"
+            ],
+            "responses": [
+                "En Python, no hay constantes estrictas, pero por convención se usan mayúsculas:\n\tPI = 3.14\n\tGRAVEDAD = 9.8",
+                "Puedes definir constantes en un módulo separado para mantener orden:\n\t# constantes.py\n\tURL_BASE = 'https://api.example.com'",
+                "Otro ejemplo:\n\tMAXIMO_USUARIOS = 1000",
+                "Constantes de cadena:\n\tBIENVENIDA = 'Bienvenido al sistema'",
+                "Constantes booleanas:\n\tES_ACTIVO = True\n\tES_ADMIN = False"
+            ]
+        },
+        {
+            "tag": "ejemplos_de_ciclo_for_en_python",
+            "patterns": [
+                "Dame ejemplos de un ciclo for en Python.",
+                "¿Cómo se usa un ciclo for en Python?",
+                "Enséñame ejemplos de bucles for en Python.",
+                "Quiero ver un ejemplo práctico de un for en Python.",
+                "¿Puedes mostrarme cómo se usa un for en Python?"
+            ],
+            "responses": [
+                "Un ejemplo básico:\n\tfor i in range(5):\n\t\tprint(i)",
+                "Para recorrer una lista:\n\tfrutas = ['manzana', 'pera', 'plátano']\n\tfor fruta in frutas:\n\t\tprint(fruta)",
+                "Usando for con diccionarios:\n\tpersona = {'nombre': 'Juan', 'edad': 25}\n\tfor clave, valor in persona.items():\n\t\tprint(clave, ':', valor)",
+                "Recorriendo una cadena:\n\tfor letra in 'Python':\n\t\tprint(letra)",
+                "Para iterar de forma descendente:\n\tfor i in range(10, 0, -1):\n\t\tprint(i)"
+            ]
+        },
+        {
+            "tag": "ejemplos_de_ciclo_while_en_python",
+            "patterns": [
+                "Dame ejemplos de un ciclo while en Python.",
+                "¿Cómo se usa un ciclo while en Python?",
+                "Enséñame ejemplos de bucles while en Python.",
+                "Quiero ver un ejemplo práctico de un while en Python.",
+                "¿Puedes mostrarme cómo se usa un while en Python?"
+            ],
+            "responses": [
+                "Un ejemplo básico:\n\ti = 0\n\twhile i < 5:\n\t\tprint(i)\n\t\ti += 1",
+                "Para salir cuando se cumpla una condición:\n\twhile not listo:\n\t\thacer_algo()",
+                "Contando hacia atrás:\n\ti = 10\n\twhile i > 0:\n\t\tprint(i)\n\t\ti -= 1",
+                "Para procesar elementos de una lista:\n\tfrutas = ['manzana', 'pera', 'plátano']\n\twhile frutas:\n\t\tprint(frutas.pop())",
+                "Ciclo infinito (con break para salir):\n\twhile True:\n\t\tcomando = input('>> ')\n\t\tif comando == 'salir':\n\t\t\tbreak"
+            ]
+        },
+        {
+            "tag": "ejemplos_de_ciclo_do_while_en_python",
+            "patterns": [
+                "Dame ejemplos de un ciclo do while en Python.",
+                "¿Cómo se usa un ciclo do while en Python?",
+                "Enséñame ejemplos de bucles do while en Python.",
+                "Quiero ver un ejemplo práctico de un do while en Python.",
+                "¿Puedes mostrarme cómo se usa un do while en Python?"
+            ],
+            "responses": [
+                "En Python no existe do while, pero puedes simularlo así:\n\twhile True:\n\t\tprint('Ejecutando')\n\t\tif condicion:\n\t\t\tbreak",
+                "Otro ejemplo:\n\ti = 0\n\twhile True:\n\t\tprint(i)\n\t\ti += 1\n\t\tif i >= 5:\n\t\t\tbreak",
+                "Simulación para leer datos:\n\twhile True:\n\t\tnumero = int(input('Introduce un número: '))\n\t\tif numero == 0:\n\t\t\tbreak",
+                "Ejecutar al menos una vez:\n\twhile True:\n\t\tprocesar()\n\t\tif esta_listo():\n\t\t\tbreak",
+                "Contador descendente:\n\ti = 10\n\twhile True:\n\t\tprint(i)\n\t\ti -= 1\n\t\tif i == 0:\n\t\t\tbreak"
+            ]
+        },
+        {
+            "tag": "ejemplos_de_declaracion_de_funciones_en_python",
+            "patterns": [
+                "Dame ejemplos de cómo declarar funciones en Python.",
+                "¿Cómo se crean funciones en Python?",
+                "Enséñame ejemplos de funciones en Python.",
+                "Quiero ver cómo se declaran funciones en Python.",
+                "¿Puedes mostrarme ejemplos de funciones en Python?"
+            ],
+            "responses": [
+                "Función básica:\n\tdef saludar():\n\t\tprint('Hola, mundo')",
+                "Función con parámetros:\n\tdef sumar(a, b):\n\t\treturn a + b",
+                "Función con valores por defecto:\n\tdef presentar(nombre='Anónimo'):\n\t\tprint(f'Hola, {nombre}')",
+                "Función lambda:\n\tcuadrado = lambda x: x * x",
+                "Función recursiva:\n\tdef factorial(n):\n\t\tif n == 0:\n\t\t\treturn 1\n\t\telse:\n\t\t\treturn n * factorial(n-1)"
+            ]
+        },
+        {
+            "tag": "ejemplos_de_declaracion_de_metodos_en_python",
+            "patterns": [
+                "Dame ejemplos de cómo declarar métodos en Python.",
+                "¿Cómo se crean métodos en Python?",
+                "Enséñame ejemplos de métodos en Python.",
+                "Quiero ver cómo se declaran métodos en clases.",
+                "¿Puedes mostrarme ejemplos de métodos en Python?"
+            ],
+            "responses": [
+                "Método básico:\n\tclass Persona:\n\t\tdef saludar(self):\n\t\t\tprint('Hola')",
+                "Método con parámetros:\n\tclass Calculadora:\n\t\tdef sumar(self, a, b):\n\t\t\treturn a + b",
+                "Método con inicializador:\n\tclass Persona:\n\t\tdef __init__(self, nombre):\n\t\t\tself.nombre = nombre",
+                "Método que usa atributos:\n\tclass Animal:\n\t\tdef __init__(self, especie):\n\t\t\tself.especie = especie\n\t\tdef info(self):\n\t\t\tprint(f'Soy un {self.especie}')",
+                "Método estático:\n\tclass Matematica:\n\t\t@staticmethod\n\t\tdef sumar(a, b):\n\t\t\treturn a + b"
+            ]
+        },
+        {
+            "tag": "ejemplos_de_creacion_de_clases_en_python",
+            "patterns": [
+                "Dame ejemplos de cómo crear clases en Python.",
+                "¿Cómo se crean clases en Python?",
+                "Enséñame ejemplos de clases en Python.",
+                "Quiero ver cómo se declaran clases en Python.",
+                "¿Puedes mostrarme ejemplos de clases en Python?"
+            ],
+            "responses": [
+                "Clase básica:\n\tclass Persona:\n\t\tpass",
+                "Clase con atributos:\n\tclass Persona:\n\t\tdef __init__(self, nombre, edad):\n\t\t\tself.nombre = nombre\n\t\t\tself.edad = edad",
+                "Clase con métodos:\n\tclass Persona:\n\t\tdef __init__(self, nombre):\n\t\t\tself.nombre = nombre\n\t\tdef saludar(self):\n\t\t\tprint(f'Hola, soy {self.nombre}')",
+                "Clase con herencia:\n\tclass Estudiante(Persona):\n\t\tdef __init__(self, nombre, grado):\n\t\t\tsuper().__init__(nombre)\n\t\t\tself.grado = grado",
+                "Clase con método estático:\n\tclass Utilidad:\n\t\t@staticmethod\n\t\tdef sumar(a, b):\n\t\t\treturn a + b"
+            ]
+        }                                                                 
     ]
 }
