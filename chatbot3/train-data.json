@@ -1,0 +1,2021 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["hola", "buenas", "hey", "buenos dias"],
+      "responses": ["hola como estas", "hola que tal", "buenos dias como estas"]
+    },
+    {
+      "tag": "howifeel",
+      "patterns": [
+        "bien",
+        "todo bien",
+        "genial",
+        "super",
+        "excelente",
+        "mejor que nunca"
+      ],
+      "responses": [
+        "me alegra saberlo, dime en que puedo ayudarte, estoy entrenado para temas de programacion ",
+        "que alegria, puedo ayudarte en distintos temas, estoy entrenado para temas de programacion",
+        "me alegra escuchar eso, puedo ayudarte con el tema de programacion"
+      ]
+    },
+    {
+      "tag": "howareyou",
+      "patterns": [
+        "como estas",
+        "como va todo",
+        "esta todo bien",
+        "como te sientes",
+        "has estado bien"
+      ],
+      "responses": [
+        "estoy bien gracias por preguntar",
+        "todo bien, y tu?",
+        "me alegra escuchar eso"
+      ]
+    },
+    {
+      "tag": "helpuser",
+      "patterns": ["en que puedes ayudarme", "que puedes hacer", "ayuda"],
+      "responses": [
+        "puedo responder preguntas, darte informacion y ayudarte en lo que necesites, estoy entrenado para temas de programacion",
+        "estoy aqui para resolver tus dudas y ayudarte en lo que necesites, estoy entrenado para temas de programacion,",
+        "puedo ayudarte sobre temas como programacion"
+      ]
+    },
+    {
+      "tag": "farewall",
+      "patterns": ["adios", "nos vemos", "cuidate"],
+      "responses": ["adios cuidate", "hasta luego", "nos vemos"]
+    },
+    {
+      "tag": "myname",
+      "patterns": ["como te llamas", "tienes algun nombre", "quien eres"],
+      "responses": [
+        "soy un asistente virtual pero puedes llamarme bot",
+        "me llamo bot, tu asistente"
+      ]
+    },
+    {
+      "tag": "apologies",
+      "patterns": ["perdon", "lo siento", "disculpame"],
+      "responses": [
+        "no te preocupes todo esta bien",
+        "no hay problema, como puedo ayudarte?, estoy entrenado para temas de programacion",
+        "no pasa nada, como puedo ayudarte?, estoy entrenado para temas de programacion y uno que otro chiste",
+        "no te preocupes, estoy aqui para ayudarte"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["gracias", "te lo agradezo", "eres el mejor"],
+      "responses": [
+        "de nada siempre aqui para ayudarte",
+        "no hay de que",
+        "aqui estoy para lo que necesites"
+      ]
+    },
+    {
+      "tag": "todaystime",
+      "patterns": ["que hora es", "dime la hora", "que hora tienes"],
+      "responses": [
+        "lo siento no puedo dar la hora exacta pero puedo ayudarte con otras cosas",
+        "no tengo un reloj, pero puedo ayudarte con otra cosa"
+      ]
+    },
+    {
+      "tag": "todaysdate",
+      "patterns": ["que dia es hoy", "sabes que dia es", "que dia sera hoy"],
+      "responses": [
+        "hoy es un gran dia, como puedo ayudarte? estoy entrenado para temas de programacion",
+        "hoy es un dia perfecto para aprender algo nuevo"
+      ]
+    },
+    {
+      "tag": "userfeelssad",
+      "patterns": [
+        "estoy triste",
+        "triste",
+        "me siento mal",
+        "mal",
+        "agobiado"
+      ],
+      "responses": [
+        "lo siento mucho si necesitas hablar o apoyo estoy aqui",
+        "te entiendo, no estas solo, cuentame mas"
+      ]
+    },
+    {
+      "tag": "userfeelsgood",
+      "patterns": ["estoy feliz", "feliz"],
+      "responses": [
+        "que alegria escuchar eso, me hace feliz saber que estas bien",
+        "eso es genial, me encanta saberlo!"
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "cuentame un chiste",
+        "dime un chiste",
+        "cuentame otro chiste",
+        "dime otro chiste"
+      ],
+      "responses": [
+        "por que los pajaros no usan facebook porque ya tienen twitter",
+        "que hace una abeja en el gimnasio zumba"
+      ]
+    },
+    {
+      "tag": "birds",
+      "patterns": ["que son los pajaros", "que es un pajaro"],
+      "responses": [
+        "los pajaros son animales voladores que tienen plumas y pico",
+        "los pajaros son animales que vuelan y tienen plumas",
+        "un pajaro es un animal volador que tiene plumas y pico",
+        "un pajaro es un animal vertebrado con plumas alas y generalmente la capacidad de volar"
+      ]
+    },
+    {
+      "tag": "bird_jokes",
+      "patterns": [
+        "que hacen los pajaros en redes sociales",
+        "por que los pajaros no usan facebook"
+      ],
+      "responses": [
+        "en este contexto los pajaros usan twitter como parte del chiste",
+        "porque ya tienen twitter"
+      ]
+    },
+    {
+      "tag": "facebook",
+      "patterns": ["que es facebook"],
+      "responses": [
+        "facebook es una red social donde las personas pueden compartir contenido interactuar y conectar"
+      ]
+    },
+    {
+      "tag": "socialmedia",
+      "patterns": ["que es una red social", "que son las redes sociales"],
+      "responses": [
+        "una red social es una plataforma digital donde las personas pueden interactuar compartir ideas contenido y comunicarse entre si",
+        "las redes sociales son plataformas digitales que permiten a los usuarios conectarse compartir contenido y comunicarse entre ellos"
+      ]
+    },
+    {
+      "tag": "twitter",
+      "patterns": ["que es twitter"],
+      "responses": [
+        "twitter es una plataforma donde los usuarios pueden publicar mensajes cortos llamados tweets"
+      ]
+    },
+    {
+      "tag": "conceptspeople",
+      "patterns": ["que son las personas"],
+      "responses": [
+        "las personas son seres humanos que poseen capacidades de pensamiento razonamiento y comunicacion"
+      ]
+    },
+    {
+      "tag": "conceptssharing",
+      "patterns": ["que significa compartir"],
+      "responses": [
+        "compartir significa poner algo a disposicion de otros para que lo usen o disfruten en conjunto"
+      ]
+    },
+    {
+      "tag": "conceptsconnect",
+      "patterns": ["que es conectar", "que significa conectar"],
+      "responses": [
+        "conectar es establecer una relacion o vinculo entre dos o mas elementos",
+        "conectar significa unir o enlazar cosas personas o ideas para que interactuen o trabajen en conjunto"
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": ["que hace una abeja en el gimnasio"],
+      "responses": ["zumba"]
+    },
+    {
+      "tag": "zumba",
+      "patterns": ["que es la zumba"],
+      "responses": [
+        "la zumba es una actividad fisica que combina baile y ejercicio al ritmo de musica latina"
+      ]
+    },
+    {
+      "tag": "gym",
+      "patterns": ["que es un gimnasio"],
+      "responses": [
+        "un gimnasio es un lugar donde las personas van a ejercitarse y mejorar su condicion fisica"
+      ]
+    },
+    {
+      "tag": "feelings",
+      "patterns": ["estoy animado", "estoy de maravilla"],
+      "responses": [
+        "que alegria escuchar eso, me hace feliz saber que estas bien",
+        "eso es genial, me encanta saberlo!"
+      ]
+    },
+    {
+      "tag": "timequestions",
+      "patterns": ["que hora tienes", "cual es la hora"],
+      "responses": [
+        "lo siento no puedo dar la hora exacta pero puedo ayudarte con otras cosas",
+        "no tengo un reloj, pero puedo ayudarte con otra cosa"
+      ]
+    },
+    {
+      "tag": "dayquestions",
+      "patterns": ["que dia tenemos", "que dia es"],
+      "responses": [
+        "hoy es un gran dia, como puedo ayudarte?",
+        "hoy es un dia perfecto para aprender algo nuevo"
+      ]
+    },
+    {
+      "tag": "availability",
+      "patterns": ["estas disponible", "sigues disponible"],
+      "responses": [
+        "claro que si estoy aqui para ayudarte",
+        "estoy disponible, dime en qué puedo ayudarte"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": ["me puedes ayudar", "me ayudas", "ayudame"],
+      "responses": [
+        "por supuesto dime que necesitas y vere como ayudarte",
+        "estoy aqui para lo que necesites, dime como puedo ayudarte",
+        "por supuesto dime que necesitas y vere como ayudarte, estoy entrenado para temas de programacion y uno que otro chiste",
+        "estoy aqui para lo que necesites, dime como puedo ayudarte, estoy entrenado para temas de programacion y uno que otro chiste"
+      ]
+    },
+    {
+      "tag": "greetingsmorning",
+      "patterns": ["hola como estas", "buenos dias"],
+      "responses": ["estoy bien y tu", "buenos dias como te sientes hoy"]
+    },
+    {
+      "tag": "greetingsgeneral",
+      "patterns": [
+        "hola que tal",
+        "hola todo bien",
+        "hey como te va",
+        "hola que tal todo por ahi",
+        "hola que tal como estas hoy",
+        "hola que tal tu dia hasta ahora",
+        "hola que tal tu tarde",
+        "hola que tal tu semana",
+        "hola como amaneciste hoy",
+        "hola buenas como va tu dia"
+      ],
+      "responses": [
+        "todo va bien por aqui y tu como estas",
+        "si gracias como te va a ti",
+        "hola todo bien por aqui y tu",
+        "todo va bien y por ahi como va todo",
+        "hola estoy bien gracias por preguntar y tu como estas hoy",
+        "mi dia ha sido bueno y el tuyo como va hasta ahora",
+        "mi tarde ha sido tranquila y la tuya que tal",
+        "mi semana va bien gracias y la tuya como va",
+        "hola amaneci bien gracias por preguntar y tu",
+        "buenas mi dia va bien gracias y el tuyo como va"
+      ]
+    },
+    {
+      "tag": "specificgreetings",
+      "patterns": ["buenas tardes", "buenas noches"],
+      "responses": [
+        "buenas tardes espero que tengas un buen dia",
+        "buenas noches necesitas algo antes de dormir"
+      ]
+    },
+    {
+      "tag": "checkavailability",
+      "patterns": [
+        "hola estas disponible",
+        "hola tienes tiempo para hablar",
+        "hola puedo preguntarte algo"
+      ],
+      "responses": [
+        "hola si claro en que puedo ayudarte",
+        "claro estoy aqui para ti dime en que te ayudo",
+        "claro que si estoy aqui para responder tus preguntas"
+      ]
+    },
+    {
+      "tag": "reconnect",
+      "patterns": [
+        "hola hace tiempo que no hablamos",
+        "hola hace mucho que no hablamos"
+      ],
+      "responses": [
+        "hola si es verdad que gusto verte de nuevo",
+        "si es cierto hola que gusto hablar contigo de nuevo"
+      ]
+    },
+    {
+      "tag": "friendlyinquiry",
+      "patterns": [
+        "hola como te llamas",
+        "hola como has estado",
+        "hola espero que estes bien",
+        "hola que me cuentas"
+      ],
+      "responses": [
+        "hola soy un asistente virtual y tu como te llamas",
+        "hola he estado bien gracias por preguntar y tu",
+        "hola gracias espero que tu tambien lo estes",
+        "hola aqui listo para ayudarte y tu que cuentas"
+      ]
+    },
+    {
+      "tag": "requesthelp",
+      "patterns": [
+        "hola me escuchas",
+        "hola me puedes ayudar",
+        "hola que haces",
+        "ayudame"
+      ],
+      "responses": [
+        "claro que si en que puedo ayudarte hoy",
+        "claro que si dime en que necesitas ayuda",
+        "hola estoy aqui esperando ayudarte",
+        "por supuesto dime que necesitas y vere como ayudarte, estoy entrenado para temas de programacion y uno que otro chiste"
+      ]
+    },
+    {
+      "tag": "existence",
+      "patterns": ["por que existes"],
+      "responses": [
+        "fui creado para ayudarte y mejorar tus interacciones con la tecnologia"
+      ]
+    },
+    {
+      "tag": "programming",
+      "patterns": [
+        "que es la programacion",
+        "que significa la creacion de codigo",
+        "que es resolver problemas con codigo",
+        "que significa escribir un conjunto de ordenes"
+      ],
+      "responses": [
+        "Es el proceso de escribir instrucciones que una computadora puede entender.",
+        "Es la creación de código para resolver problemas o automatizar tareas en una computadora.",
+        "Es escribir y ejecutar instrucciones para encontrar soluciones a desafíos o necesidades.",
+        "Es desarrollar instrucciones que definen cómo debe funcionar un programa o sistema."
+      ]
+    },
+    {
+      "tag": "instructions",
+      "patterns": [
+        "que es instrucciones",
+        "que es un conjunto de instrucciones",
+        "que significa procesar instrucciones",
+        "que es escribir un conjunto de ordenes"
+      ],
+      "responses": [
+        "Son indicaciones específicas que le dicen a una computadora qué hacer paso a paso.",
+        "Son varias órdenes organizadas que, al ser ejecutadas, logran un objetivo o completan una tarea."
+      ]
+    },
+    {
+      "tag": "computers",
+      "patterns": [
+        "que es una computadora",
+        "que es un dispositivo electronico",
+        "que es una computadora ejecutando codigo"
+      ],
+      "responses": [
+        "Es un dispositivo electrónico capaz de procesar y almacenar datos siguiendo instrucciones.",
+        "Es una máquina diseñada para realizar cálculos y ejecutar programas de software.",
+        "Es un aparato que funciona con electricidad y realiza tareas específicas mediante circuitos electrónicos.",
+        "Es el acto de interpretar y seguir las órdenes definidas en un código para realizar acciones."
+      ]
+    },
+    {
+      "tag": "automation",
+      "patterns": [
+        "que es automatizar",
+        "que es una tarea automatica",
+        "que es una tarea repetitiva",
+        "que es automatizable"
+      ],
+      "responses": [
+        "Es hacer que procesos o tareas se realicen automáticamente sin intervención humana constante.",
+        "Es usar tecnología para ejecutar actividades repetitivas de manera eficiente.",
+        "Es una actividad que se realiza sin necesidad de intervención humana continua.",
+        "Es algo que puede configurarse para ejecutarse automáticamente sin intervención humana."
+      ]
+    },
+    {
+      "tag": "dataprocessing",
+      "patterns": [
+        "que significa procesar informacion",
+        "que significa transformar datos",
+        "que es analizar datos",
+        "que es identificar patrones"
+      ],
+      "responses": [
+        "Es realizar operaciones sobre datos para transformarlos en información útil.",
+        "Es aplicar algoritmos o reglas para analizar, organizar o convertir datos.",
+        "Es examinar información detalladamente para extraer patrones, tendencias o conclusiones.",
+        "Es detectar similitudes o regularidades que ayuden a interpretar o predecir comportamientos."
+      ]
+    },
+    {
+      "tag": "storage",
+      "patterns": ["que es almacenar datos", "que es un medio digital"],
+      "responses": [
+        "Es guardar información en un medio físico o digital para su uso futuro.",
+        "Es conservar datos de manera organizada para acceder a ellos cuando se necesiten.",
+        "Es un soporte electrónico como discos duros, la nube o dispositivos USB donde se almacena información.",
+        "Es un entorno basado en tecnología digital que permite guardar y transmitir datos."
+      ]
+    },
+    {
+      "tag": "decisionmaking",
+      "patterns": [
+        "que significa tomar decisiones",
+        "que es informacion util",
+        "que es conocimiento derivado"
+      ],
+      "responses": [
+        "Es el proceso de elegir una opción entre varias alternativas disponibles.",
+        "Es analizar información para seleccionar la acción más adecuada en una situación dada.",
+        "Es conocimiento derivado de datos que tiene valor para tomar decisiones o resolver problemas.",
+        "Es el entendimiento generado a partir de datos que tienen un contexto o un propósito."
+      ]
+    },
+    {
+      "tag": "algorithms",
+      "patterns": ["que es un algoritmo"],
+      "responses": [
+        "Es una secuencia de pasos definidos para resolver un problema.",
+        "Es un conjunto de instrucciones que se ejecutan en orden para alcanzar un objetivo.",
+        "Es una serie de pasos lógicos que describen cómo resolver una tarea específica."
+      ]
+    },
+    {
+      "tag": "steps",
+      "patterns": [
+        "que significa un conjunto de pasos",
+        "que significa una serie de pasos escritos"
+      ],
+      "responses": [
+        "Son varias acciones organizadas en un orden lógico para lograr un resultado.",
+        "Es una serie de etapas que se deben seguir para completar una tarea o resolver un problema.",
+        "Es una lista de acciones detalladas redactadas en un formato que puede ser entendido y seguido.",
+        "Es un grupo de instrucciones documentadas de manera clara y organizada."
+      ]
+    },
+    {
+      "tag": "logic",
+      "patterns": ["que significa definido de manera logica"],
+      "responses": [
+        "Es estructurado de forma clara y coherente, siguiendo reglas o principios razonables.",
+        "Es diseñado para que cada paso tenga sentido y esté alineado con el objetivo final."
+      ]
+    },
+    {
+      "tag": "problemsolving",
+      "patterns": ["que significa resolver un problema con un algoritmo"],
+      "responses": [
+        "Es usar una secuencia de pasos claros para encontrar una solución a una dificultad o necesidad.",
+        "Es aplicar un conjunto de instrucciones organizadas para superar un reto o cumplir un propósito."
+      ]
+    },
+    {
+      "tag": "algorithmexecution",
+      "patterns": [
+        "que significa interpretar un algoritmo",
+        "que es ejecutar un algoritmo"
+      ],
+      "responses": [
+        "Es analizar cada paso de un conjunto de instrucciones para ejecutarlo de manera adecuada.",
+        "Es convertir las acciones definidas en un algoritmo en operaciones que la computadora pueda realizar.",
+        "Es realizar los pasos definidos en un algoritmo para obtener un resultado.",
+        "Es seguir las instrucciones de un algoritmo para resolver un problema o completar una tarea."
+      ]
+    },
+    {
+      "tag": "algorithmpurpose",
+      "patterns": ["para que sirve un algoritmo"],
+      "responses": [
+        "Sirve para resolver problemas de manera estructurada y eficiente.",
+        "Se utiliza para automatizar tareas y encontrar soluciones a problemas complejos.",
+        "Es esencial para crear programas y sistemas que resuelvan problemas específicos."
+      ]
+    },
+    {
+      "tag": "algorithmcharacteristics",
+      "patterns": ["cuales son las caracteristicas de un algoritmo"],
+      "responses": [
+        "Debe ser finito, tener pasos bien definidos y ser preciso.",
+        "Tiene un inicio y un fin, y debe producir un resultado correcto.",
+        "Debe ser claro, eficiente y aplicable en cualquier contexto definido."
+      ]
+    },
+    {
+      "tag": "algorithmtypes",
+      "patterns": ["cuales son los tipos de algoritmos"],
+      "responses": [
+        "Algunos tipos son los algoritmos recursivos, iterativos, voraces y dinámicos.",
+        "Pueden ser de búsqueda, ordenamiento, optimización o generación.",
+        "Se clasifican según su enfoque como divide y vencerás, backtracking o algoritmos probabilísticos."
+      ]
+    },
+    {
+      "tag": "recursivealgorithms",
+      "patterns": [
+        "que es un algoritmo recursivo",
+        "que ejemplos hay de algoritmos recursivos"
+      ],
+      "responses": [
+        "Es un algoritmo que se llama a sí mismo para resolver un problema.",
+        "Es un tipo de algoritmo que divide un problema grande en subproblemas más pequeños.",
+        "Se basa en definirse en términos de sí mismo hasta alcanzar un caso base.",
+        "El cálculo del factorial de un número es un ejemplo clásico.",
+        "La sucesión de Fibonacci se puede resolver con un algoritmo recursivo.",
+        "La búsqueda en profundidad en un grafo es otro ejemplo común."
+      ]
+    },
+    {
+      "tag": "sortingalgorithms",
+      "patterns": [
+        "que es un algoritmo de ordenamiento",
+        "cuales son los algoritmos de ordenamiento mas comunes"
+      ],
+      "responses": [
+        "Es un algoritmo diseñado para reorganizar elementos en un orden específico.",
+        "Sirve para ordenar datos de forma ascendente o descendente.",
+        "Es una técnica para organizar listas de datos como números o cadenas.",
+        "Algunos son quicksort, mergesort, bubble sort y insertion sort.",
+        "Los más comunes incluyen quicksort, heapsort y selection sort.",
+        "Puedes encontrar algoritmos como merge sort y radix sort entre los más usados."
+      ]
+    },
+    {
+      "tag": "quicksort",
+      "patterns": ["que es quicksort", "cual es la complejidad de quicksort"],
+      "responses": [
+        "Es un algoritmo de ordenamiento basado en divide y vencerás.",
+        "Organiza los elementos seleccionando un pivote y particionando los datos alrededor de él.",
+        "Es un método eficiente para ordenar listas grandes de datos.",
+        "En el mejor caso y promedio es O(n log n).",
+        "En el peor caso puede ser O(n^2) si los pivotes se eligen mal.",
+        "Es eficiente en la mayoría de los casos pero depende de cómo se seleccionen los pivotes."
+      ]
+    },
+    {
+      "tag": "greedyalgorithms",
+      "patterns": [
+        "que es un algoritmo voraz",
+        "cuales son ejemplos de algoritmos voraces"
+      ],
+      "responses": [
+        "Es un algoritmo que toma decisiones óptimas en cada paso con la esperanza de encontrar la solución global óptima.",
+        "Se utiliza en problemas donde las soluciones parciales óptimas llevan a la solución completa.",
+        "Es un enfoque para resolver problemas dividiendo la solución en pasos secuenciales.",
+        "El algoritmo de Dijkstra para encontrar el camino más corto en un grafo.",
+        "El problema de la mochila fraccional puede resolverse con un enfoque voraz.",
+        "El algoritmo de Kruskal para árboles de expansión mínima es otro ejemplo."
+      ]
+    },
+    {
+      "tag": "dynamicalgorithms",
+      "patterns": [
+        "que es un algoritmo dinamico",
+        "que ejemplos hay de algoritmos dinamicos"
+      ],
+      "responses": [
+        "Es un método para resolver problemas dividiéndolos en subproblemas y almacenando sus soluciones.",
+        "Es un enfoque que evita recomputaciones al guardar resultados en memoria.",
+        "Se utiliza para problemas que tienen subproblemas solapados y propiedades de optimización.",
+        "El algoritmo de Floyd-Warshall para caminos más cortos en grafos.",
+        "La solución al problema de la mochila entera es un clásico de la programación dinámica.",
+        "El cálculo de la sucesión de Fibonacci con memoización es otro ejemplo."
+      ]
+    },
+    {
+      "tag": "greedyvsdynamic",
+      "patterns": ["que diferencia hay entre algoritmos voraces y dinamicos"],
+      "responses": [
+        "Los algoritmos voraces toman decisiones paso a paso, mientras que los dinámicos resuelven subproblemas y combinan soluciones.",
+        "Los voraces buscan soluciones óptimas inmediatas, los dinámicos almacenan resultados intermedios para optimizar el proceso.",
+        "Los voraces son más simples pero no siempre garantizan la solución óptima como los dinámicos."
+      ]
+    },
+    {
+      "tag": "instructiontypes",
+      "patterns": ["que tipos de instrucciones tiene un algoritmo"],
+      "responses": [
+        "Puede tener instrucciones secuenciales, condicionales y repetitivas.",
+        "Las instrucciones se clasifican en secuenciales, de decisión y de repetición.",
+        "Puede incluir instrucciones de flujo lineal, bifurcaciones y bucles."
+      ]
+    },
+    {
+      "tag": "sequentialinstruction",
+      "patterns": ["que es una instruccion secuencial"],
+      "responses": [
+        "Es una instrucción que se ejecuta una tras otra en el orden en que aparecen.",
+        "Son pasos que se siguen de manera lineal sin desviarse.",
+        "Es un tipo de instrucción donde cada acción ocurre exactamente una vez."
+      ]
+    },
+    {
+      "tag": "transforminstruction",
+      "patterns": ["que significa transformar un conjunto de instrucciones"],
+      "responses": [
+        "Es modificar las órdenes para adaptarlas a un formato o contexto específico.",
+        "Es convertir pasos definidos en una estructura que pueda ser procesada o ejecutada."
+      ]
+    },
+    {
+      "tag": "specificformat",
+      "patterns": ["que es un formato especifico"],
+      "responses": [
+        "Es una estructura definida que organiza información de manera que pueda ser interpretada correctamente.",
+        "Es una disposición estándar que asegura que los datos sean entendidos o utilizados adecuadamente."
+      ]
+    },
+    {
+      "tag": "definedstructure",
+      "patterns": ["que es una estructura definida"],
+      "responses": [
+        "Es un esquema previamente diseñado que organiza elementos de manera coherente.",
+        "Es un marco lógico que establece cómo deben ordenarse las partes de un sistema o proceso."
+      ]
+    },
+    {
+      "tag": "modifyalgorithm",
+      "patterns": ["que significa modificar un algoritmo"],
+      "responses": [
+        "Es ajustar los pasos de un conjunto de instrucciones para adaptarlos a nuevas necesidades o mejorar su eficiencia.",
+        "Es cambiar la lógica o estructura de un algoritmo para optimizar su funcionamiento."
+      ]
+    },
+    {
+      "tag": "optimizealgorithm",
+      "patterns": ["que significa optimizar un algoritmo"],
+      "responses": [
+        "Es mejorar un conjunto de instrucciones para que sea más rápido o eficiente al resolver un problema.",
+        "Es reducir el tiempo o los recursos necesarios para ejecutar un algoritmo manteniendo su funcionalidad."
+      ]
+    },
+    {
+      "tag": "algorithmefficiency",
+      "patterns": ["que es la eficiencia en un algoritmo"],
+      "responses": [
+        "Es la capacidad de resolver un problema utilizando la menor cantidad posible de tiempo y recursos.",
+        "Es la medida de cuán bien un algoritmo realiza su tarea en comparación con otros métodos."
+      ]
+    },
+    {
+      "tag": "comparemethods",
+      "patterns": ["que significa comparar metodos"],
+      "responses": [
+        "Es analizar diferentes técnicas o enfoques para identificar cuál es más adecuado o eficiente.",
+        "Es evaluar las ventajas y desventajas de distintos procesos para elegir el mejor."
+      ]
+    },
+    {
+      "tag": "choosemethod",
+      "patterns": ["que significa elegir un metodo"],
+      "responses": [
+        "Es seleccionar la técnica más adecuada para resolver un problema o realizar una tarea específica.",
+        "Es tomar una decisión basada en la eficiencia y las características de cada opción disponible."
+      ]
+    },
+    {
+      "tag": "appropriatetechnique",
+      "patterns": ["que es una tecnica adecuada"],
+      "responses": [
+        "Es un enfoque o método que se ajusta de manera efectiva a las necesidades de una tarea o problema.",
+        "Es una estrategia que permite lograr un objetivo de forma precisa y eficiente."
+      ]
+    },
+    {
+      "tag": "algorithmlogic",
+      "patterns": ["que es la logica en un algoritmo"],
+      "responses": [
+        "Es la base racional que organiza los pasos de un conjunto de instrucciones para garantizar que cumplan su propósito.",
+        "Es el razonamiento que guía la secuencia y estructura de las acciones dentro de un algoritmo."
+      ]
+    },
+    {
+      "tag": "sequentialexamples",
+      "patterns": ["puedes darme ejemplos de instrucciones secuenciales"],
+      "responses": [
+        "Asignar un valor a una variable, mostrar un mensaje en pantalla y realizar una suma.",
+        "Leer un dato del usuario, calcular el doble y mostrar el resultado.",
+        "Calcular el promedio de tres números, imprimirlo y finalizar el programa."
+      ]
+    },
+    {
+      "tag": "conditionalinstruction",
+      "patterns": ["que es una instruccion condicional"],
+      "responses": [
+        "Es una instrucción que permite tomar decisiones basadas en una condición.",
+        "Se utiliza para ejecutar diferentes bloques de código según si una condición es verdadera o falsa.",
+        "Es un tipo de instrucción que evalúa una expresión y decide el flujo del algoritmo."
+      ]
+    },
+    {
+      "tag": "conditionalexamples",
+      "patterns": ["puedes darme ejemplos de instrucciones condicionales"],
+      "responses": [
+        "Si la edad es mayor o igual a 18, mostrar 'eres mayor de edad'.",
+        "Si el número es positivo, imprimir 'es positivo', de lo contrario imprimir 'es negativo'.",
+        "Verificar si un número es par o impar y mostrar el resultado."
+      ]
+    },
+    {
+      "tag": "repetitiveinstruction",
+      "patterns": ["que es una instruccion repetitiva"],
+      "responses": [
+        "Es una instrucción que ejecuta un bloque de código varias veces mientras se cumpla una condición.",
+        "Se utiliza para realizar tareas repetitivas de manera automática.",
+        "Es un tipo de instrucción que repite una acción hasta que se cumple un criterio de finalización."
+      ]
+    },
+    {
+      "tag": "repetitiveexamples",
+      "patterns": ["puedes darme ejemplos de instrucciones repetitivas"],
+      "responses": [
+        "Repetir hasta que el usuario introduzca un número mayor a 0.",
+        "Calcular la suma de los números del 1 al 100 utilizando un bucle.",
+        "Mostrar los números pares entre 1 y 50 utilizando un bucle for."
+      ]
+    },
+    {
+      "tag": "looptypes",
+      "patterns": ["que tipos de bucles existen en los algoritmos"],
+      "responses": [
+        "Los más comunes son bucles for, while y do while.",
+        "Puedes usar bucles definidos como for y bucles indeterminados como while.",
+        "Los tipos principales son for para iteraciones definidas y while para condiciones."
+      ]
+    },
+    {
+      "tag": "forloop",
+      "patterns": ["que es un bucle for"],
+      "responses": [
+        "Es un bucle que repite un bloque de código un número fijo de veces.",
+        "Se utiliza cuando se conoce de antemano la cantidad de iteraciones.",
+        "Es una estructura que incluye un inicio, una condición y un incremento o decremento."
+      ]
+    },
+    {
+      "tag": "forloopexamples",
+      "patterns": ["puedes darme ejemplos de un bucle for"],
+      "responses": [
+        "Recorrer un arreglo para imprimir cada elemento.",
+        "Mostrar los números del 1 al 10 incrementando de uno en uno.",
+        "Calcular el factorial de un número utilizando un bucle for."
+      ]
+    },
+    {
+      "tag": "whileloop",
+      "patterns": ["que es un bucle while"],
+      "responses": [
+        "Es un bucle que ejecuta un bloque de código mientras una condición sea verdadera.",
+        "Se utiliza cuando no se sabe exactamente cuántas veces se repetirá la tarea.",
+        "Es una estructura que evalúa una condición antes de ejecutar el bloque de código."
+      ]
+    },
+    {
+      "tag": "whileloopexamples",
+      "patterns": ["puedes darme ejemplos de un bucle while"],
+      "responses": [
+        "Seguir pidiendo al usuario un número hasta que introduzca un número positivo.",
+        "Sumar números introducidos por el usuario hasta que ingrese cero.",
+        "Mostrar un contador que incrementa mientras sea menor a 10."
+      ]
+    },
+    {
+      "tag": "dowhileloopexamples",
+      "patterns": ["puedes darme ejemplos de un bucle do while"],
+      "responses": [
+        "Pedir al usuario un número hasta que introduzca uno mayor a 10.",
+        "Mostrar un mensaje en pantalla al menos una vez, luego repetir según una condición.",
+        "Calcular la suma de números ingresados hasta que el usuario escriba 'salir'."
+      ]
+    },
+    {
+      "tag": "ioinstructions",
+      "patterns": [
+        "que son las instrucciones de entrada y salida en un algoritmo",
+        "que son las instrucciones de entrada y salida"
+      ],
+      "responses": [
+        "Son las instrucciones que permiten interactuar con el usuario o el entorno.",
+        "Las instrucciones de entrada capturan datos, y las de salida los muestran o los envían.",
+        "Se utilizan para recibir información del usuario y mostrar resultados o mensajes."
+      ]
+    },
+    {
+      "tag": "ioexamples",
+      "patterns": [
+        "puedes darme ejemplos de instrucciones de entrada y salida"
+      ],
+      "responses": [
+        "Leer un número del usuario y mostrar su cuadrado.",
+        "Pedir al usuario su nombre y mostrar un mensaje de bienvenida.",
+        "Capturar dos números y mostrar su suma en pantalla."
+      ]
+    },
+    {
+      "tag": "programminglanguage",
+      "patterns": ["que es un lenguaje de programacion"],
+      "responses": [
+        "Es un medio para comunicarse con una computadora mediante instrucciones.",
+        "Es un sistema de notación para escribir programas que ejecuta una computadora.",
+        "Es una herramienta para crear software a través de instrucciones entendibles por máquinas."
+      ]
+    },
+    {
+      "tag": "writeinstructions",
+      "patterns": [
+        "que significa escribir instrucciones en un lenguaje de programacion",
+        "que significa escribir instrucciones"
+      ],
+      "responses": [
+        "Es redactar un conjunto de órdenes en un formato que la computadora pueda interpretar y ejecutar.",
+        "Es usar la sintaxis de un lenguaje de programación para definir cómo se deben realizar las acciones en un algoritmo."
+      ]
+    },
+    {
+      "tag": "languagesyntax",
+      "patterns": [
+        "que es la sintaxis de un lenguaje de programacion",
+        "que es sintaxis"
+      ],
+      "responses": [
+        "Es el conjunto de reglas que dictan cómo deben escribirse las instrucciones para que sean comprendidas por una computadora.",
+        "Es la estructura y el orden en el que deben organizarse los comandos en un lenguaje de programación."
+      ]
+    },
+    {
+      "tag": "program",
+      "patterns": [
+        "que es un programa en un lenguaje de programacion",
+        "que es un programa"
+      ],
+      "responses": [
+        "Es un conjunto de instrucciones escritas en un lenguaje de programación para ejecutar una tarea específica.",
+        "Es un algoritmo codificado en un formato que una computadora puede procesar y ejecutar."
+      ]
+    },
+    {
+      "tag": "encodealgorithm",
+      "patterns": ["que significa codificar un algoritmo"],
+      "responses": [
+        "Es traducir un conjunto de pasos lógicos de un algoritmo a un lenguaje de programación para que pueda ser ejecutado por una computadora.",
+        "Es escribir un algoritmo utilizando la sintaxis y reglas de un lenguaje de programación."
+      ]
+    },
+    {
+      "tag": "translatealgorithm",
+      "patterns": ["que significa traducir un algoritmo"],
+      "responses": [
+        "Es convertir las instrucciones de un algoritmo a un formato que pueda ser interpretado por una computadora.",
+        "Es transformar un conjunto de pasos lógicos en código utilizando un lenguaje de programación."
+      ]
+    },
+    {
+      "tag": "languagetypes",
+      "patterns": ["cuales son los tipos de lenguajes de programacion"],
+      "responses": [
+        "Los principales tipos son lenguajes de bajo nivel y de alto nivel.",
+        "Se clasifican en lenguajes de máquina, ensambladores, y lenguajes como C o Python.",
+        "Pueden ser de bajo nivel como ensamblador o de alto nivel como Java o Python."
+      ]
+    },
+    {
+      "tag": "lowlevellanguage",
+      "patterns": ["que es un lenguaje de bajo nivel"],
+      "responses": [
+        "Es un lenguaje cercano al hardware de la computadora, como el lenguaje ensamblador.",
+        "Es un tipo de lenguaje que opera directamente con instrucciones de máquina.",
+        "Es un lenguaje menos abstracto que requiere conocer detalles del hardware."
+      ]
+    },
+    {
+      "tag": "lowlevelexamples",
+      "patterns": ["dame ejemplos de lenguajes de bajo nivel"],
+      "responses": [
+        "Ensamblador y lenguaje de máquina son ejemplos clásicos.",
+        "Los microcontroladores a menudo usan lenguaje ensamblador.",
+        "El código binario es el lenguaje de bajo nivel más básico."
+      ]
+    },
+    {
+      "tag": "highlevellanguage",
+      "patterns": ["que es un lenguaje de alto nivel"],
+      "responses": [
+        "Es un lenguaje diseñado para ser fácil de entender por los humanos.",
+        "Es un tipo de lenguaje más abstracto que oculta los detalles del hardware.",
+        "Es una herramienta para escribir programas complejos con sintaxis cercana al lenguaje natural."
+      ]
+    },
+    {
+      "tag": "highlevelexamples",
+      "patterns": ["dame ejemplos de lenguajes de alto nivel"],
+      "responses": [
+        "Python, Java, C++, y JavaScript son ejemplos de lenguajes de alto nivel.",
+        "Lenguajes como Ruby, PHP y Swift son también de alto nivel.",
+        "Herramientas populares como Go y Kotlin pertenecen a esta categoría."
+      ]
+    },
+    {
+      "tag": "languagecomparison",
+      "patterns": ["que diferencia hay entre lenguajes de alto y bajo nivel"],
+      "responses": [
+        "Los de bajo nivel son cercanos al hardware, mientras que los de alto nivel son más fáciles para los humanos.",
+        "Los lenguajes de bajo nivel requieren más conocimiento del hardware, los de alto nivel son más abstractos.",
+        "En los lenguajes de alto nivel escribes menos líneas de código para tareas complejas."
+      ]
+    },
+    {
+      "tag": "compiledlanguage",
+      "patterns": ["que es un lenguaje compilado"],
+      "responses": [
+        "Es un lenguaje que se traduce a código máquina antes de ejecutarse.",
+        "Es un tipo de lenguaje donde el programa completo se convierte a binario antes de ejecutarse.",
+        "Es un lenguaje que necesita un compilador para generar un ejecutable."
+      ]
+    },
+    {
+      "tag": "compiledlanguages",
+      "patterns": [
+        "puedes darme ejemplos de lenguajes compilados",
+        "que lenguajes son compilados",
+        "dime lenguajes compilados"
+      ],
+      "responses": [
+        "C, C++ y Rust son ejemplos de lenguajes compilados",
+        "Lenguajes como Go y Fortran son compilados",
+        "Swift y Kotlin también pueden ser compilados"
+      ]
+    },
+    {
+      "tag": "interpretedlanguage",
+      "patterns": [
+        "que es un lenguaje interpretado",
+        "defineme un lenguaje interpretado",
+        "que significa que un lenguaje sea interpretado"
+      ],
+      "responses": [
+        "Es un lenguaje que se ejecuta directamente por un intérprete sin necesidad de compilar",
+        "Es un tipo de lenguaje donde las instrucciones se traducen y ejecutan en tiempo real",
+        "Los lenguajes interpretados no generan un archivo binario antes de ejecutarse"
+      ]
+    },
+    {
+      "tag": "interpretedlanguages",
+      "patterns": [
+        "puedes darme ejemplos de lenguajes interpretados",
+        "que lenguajes son interpretados",
+        "dime lenguajes interpretados"
+      ],
+      "responses": [
+        "Python, JavaScript y Ruby son lenguajes interpretados",
+        "PHP y Perl son otros ejemplos de lenguajes interpretados",
+        "Lenguajes como Lua y Bash también son interpretados"
+      ]
+    },
+    {
+      "tag": "compiledvsinterpreted",
+      "patterns": [
+        "que diferencia hay entre lenguajes compilados e interpretados",
+        "diferencias entre compilados e interpretados",
+        "compilados vs interpretados"
+      ],
+      "responses": [
+        "Los compilados generan un ejecutable antes de ejecutarse, los interpretados no",
+        "Los compilados son más rápidos en ejecución, pero los interpretados son más flexibles",
+        "Los interpretados traducen instrucciones en tiempo real, los compilados lo hacen antes"
+      ]
+    },
+    {
+      "tag": "ooplanguage",
+      "patterns": [
+        "que es un lenguaje orientado a objetos",
+        "define lenguaje orientado a objetos",
+        "que significa orientacion a objetos"
+      ],
+      "responses": [
+        "Es un lenguaje que organiza el código en objetos que representan entidades del mundo real",
+        "Es un paradigma de programación que utiliza clases y objetos para estructurar el código",
+        "Es un tipo de lenguaje donde los datos y las funciones se encapsulan en objetos"
+      ]
+    },
+    {
+      "tag": "ooplanguages",
+      "patterns": [
+        "puedes darme ejemplos de lenguajes orientados a objetos",
+        "que lenguajes son orientados a objetos",
+        "dime lenguajes orientados a objetos"
+      ],
+      "responses": [
+        "Java, Python, C++ y Ruby son lenguajes orientados a objetos",
+        "Lenguajes como Kotlin y Swift también usan orientación a objetos",
+        "C# y JavaScript soportan programación orientada a objetos"
+      ]
+    },
+    {
+      "tag": "functionallanguage",
+      "patterns": [
+        "que es un lenguaje funcional",
+        "define lenguaje funcional",
+        "que significa programacion funcional"
+      ],
+      "responses": [
+        "Es un lenguaje que trata las computaciones como evaluaciones de funciones matemáticas",
+        "Es un paradigma donde las funciones son las unidades principales del programa",
+        "Los lenguajes funcionales evitan estados y datos mutables"
+      ]
+    },
+    {
+      "tag": "functionallanguages",
+      "patterns": [
+        "puedes darme ejemplos de lenguajes funcionales",
+        "que lenguajes son funcionales",
+        "dime lenguajes funcionales"
+      ],
+      "responses": [
+        "Haskell, Elixir y Erlang son ejemplos de lenguajes funcionales",
+        "Lenguajes como F# y Clojure también son funcionales",
+        "Scala y OCaml soportan el paradigma funcional"
+      ]
+    },
+    {
+      "tag": "scriptinglanguage",
+      "patterns": [
+        "que es un lenguaje de scripting",
+        "define lenguaje de scripting",
+        "que significa lenguaje de scripting"
+      ],
+      "responses": [
+        "Es un lenguaje diseñado para automatizar tareas en un sistema operativo o aplicación",
+        "Es un tipo de lenguaje utilizado para escribir scripts que controlan programas o procesos",
+        "Los lenguajes de scripting son comúnmente interpretados y usados para tareas rápidas"
+      ]
+    },
+    {
+      "tag": "scriptinglanguages",
+      "patterns": [
+        "puedes darme ejemplos de lenguajes de scripting",
+        "que lenguajes son de scripting",
+        "dime lenguajes de scripting"
+      ],
+      "responses": [
+        "JavaScript, Python y Bash son lenguajes de scripting comunes",
+        "Lenguajes como Ruby, PHP y Perl son también de scripting",
+        "Lua y PowerShell son otros ejemplos de lenguajes de scripting"
+      ]
+    },
+    {
+      "tag": "kotlinusage",
+      "patterns": [
+        "para que se utiliza kotlin",
+        "uso de kotlin",
+        "kotlin para que sirve",
+        "en que se usa kotlin",
+        "que aplicaciones tiene kotlin"
+      ],
+      "responses": [
+        "Se utiliza para desarrollar aplicaciones Android y sistemas backend.",
+        "Es común en proyectos que requieren integración con Java.",
+        "También se usa para aplicaciones multiplataforma y microservicios."
+      ]
+    },
+    {
+      "tag": "swiftdefinition",
+      "patterns": [
+        "que es swift",
+        "definicion de swift",
+        "que significa swift",
+        "descripcion de swift",
+        "swift que es"
+      ],
+      "responses": [
+        "Es un lenguaje de programación moderno desarrollado por Apple para sus plataformas.",
+        "Es conocido por ser rápido, seguro y fácil de aprender.",
+        "Es una herramienta popular para desarrollar aplicaciones para iOS y macOS."
+      ]
+    },
+    {
+      "tag": "swiftusage",
+      "patterns": [
+        "para que se utiliza swift",
+        "uso de swift",
+        "swift para que sirve",
+        "en que se usa swift",
+        "que aplicaciones tiene swift"
+      ],
+      "responses": [
+        "Se utiliza para desarrollar aplicaciones para iOS, macOS, watchOS y tvOS.",
+        "Es común en el ecosistema Apple para aplicaciones móviles y de escritorio.",
+        "También se usa para aprendizaje y proyectos de código abierto en la comunidad Apple."
+      ]
+    },
+    {
+      "tag": "rustdefinition",
+      "patterns": [
+        "que es rust",
+        "definicion de rust",
+        "que significa rust",
+        "descripcion de rust",
+        "rust que es"
+      ],
+      "responses": [
+        "Es un lenguaje de programación moderno enfocado en seguridad y rendimiento.",
+        "Es conocido por su sistema de manejo de memoria que evita errores comunes.",
+        "Es una herramienta utilizada para sistemas de alto rendimiento y software seguro."
+      ]
+    },
+    {
+      "tag": "rustusage",
+      "patterns": [
+        "para que se utiliza rust",
+        "uso de rust",
+        "rust para que sirve",
+        "en que se usa rust",
+        "que aplicaciones tiene rust"
+      ],
+      "responses": [
+        "Se utiliza para desarrollar sistemas embebidos, navegadores y software seguro.",
+        "Es común en proyectos donde el rendimiento y la seguridad son críticos.",
+        "También se usa en aplicaciones de sistemas como motores de bases de datos."
+      ]
+    },
+    {
+      "tag": "godefinition",
+      "patterns": [
+        "que es go",
+        "definicion de go",
+        "que significa go",
+        "descripcion de go",
+        "go que es"
+      ],
+      "responses": [
+        "Es un lenguaje de programación creado por Google enfocado en la simplicidad y el rendimiento.",
+        "Es conocido por ser rápido, escalable y fácil de compilar.",
+        "Es una herramienta popular para sistemas distribuidos y servicios web."
+      ]
+    },
+    {
+      "tag": "gousage",
+      "patterns": [
+        "para que se utiliza go",
+        "uso de go",
+        "go para que sirve",
+        "en que se usa go",
+        "que aplicaciones tiene go"
+      ],
+      "responses": [
+        "Se utiliza para desarrollar servicios web, herramientas de infraestructura y sistemas distribuidos.",
+        "Es común en aplicaciones de alto rendimiento como servidores y microservicios.",
+        "También se usa en proyectos de red, cloud computing y contenedores."
+      ]
+    },
+    {
+      "tag": "pythonadvantages",
+      "patterns": [
+        "cuales son las ventajas de python",
+        "ventajas de python",
+        "python ventajas",
+        "porque usar python",
+        "python beneficios"
+      ],
+      "responses": [
+        "Es fácil de aprender y leer gracias a su sintaxis simple.",
+        "Tiene una gran cantidad de bibliotecas y frameworks disponibles.",
+        "Es multiplataforma y ampliamente soportado por la comunidad."
+      ]
+    },
+    {
+      "tag": "pythondisadvantages",
+      "patterns": [
+        "cuales son las desventajas de python",
+        "desventajas de python",
+        "python desventajas",
+        "problemas de python",
+        "inconvenientes de python"
+      ],
+      "responses": [
+        "Es más lento que otros lenguajes como C o Java.",
+        "Consume más recursos debido a su naturaleza interpretada.",
+        "No es la mejor opción para aplicaciones de tiempo real."
+      ]
+    },
+    {
+      "tag": "pythonframeworks",
+      "patterns": [
+        "que frameworks existen en python",
+        "frameworks en python",
+        "python frameworks populares",
+        "frameworks comunes en python",
+        "frameworks mas usados en python"
+      ],
+      "responses": [
+        "Algunos frameworks populares son Django, Flask y FastAPI.",
+        "También están Pandas y NumPy para análisis de datos.",
+        "Se usa TensorFlow y PyTorch para inteligencia artificial."
+      ]
+    },
+    {
+      "tag": "javacharacteristics",
+      "patterns": [
+        "que caracteristicas tiene java",
+        "caracteristicas de java",
+        "java caracteristicas",
+        "que define a java",
+        "java especificaciones"
+      ],
+      "responses": [
+        "Es orientado a objetos y tiene recolección automática de basura.",
+        "Es multiplataforma gracias a la máquina virtual de Java.",
+        "Tiene un sistema de tipado estático que previene errores en tiempo de compilación."
+      ]
+    },
+    {
+      "tag": "javaframeworks",
+      "patterns": [
+        "que frameworks existen en java",
+        "frameworks en java",
+        "java frameworks populares",
+        "frameworks comunes en java",
+        "frameworks mas usados en java"
+      ],
+      "responses": [
+        "Algunos frameworks populares son Spring, Hibernate y Struts.",
+        "Spring Boot es común para desarrollar microservicios.",
+        "JavaFX se usa para crear interfaces gráficas."
+      ]
+    },
+    {
+      "tag": "vue_definition",
+      "patterns": [
+        "que es vue",
+        "definicion de vue",
+        "vue que es",
+        "vue framework que es",
+        "vue descripcion"
+      ],
+      "responses": [
+        "Es un framework progresivo de JavaScript para construir interfaces de usuario.",
+        "Es conocido por su simplicidad y facilidad de integración.",
+        "Es ideal para proyectos pequeños y grandes que requieren modularidad."
+      ]
+    },
+    {
+      "tag": "c++_frameworks",
+      "patterns": [
+        "que frameworks existen en c++",
+        "frameworks para c++",
+        "frameworks populares en c++",
+        "que herramientas se usan en c++",
+        "que frameworks son comunes en c++"
+      ],
+      "responses": [
+        "Algunos populares son Qt, Boost y POCO.",
+        "Qt se usa para desarrollo de aplicaciones multiplataforma con interfaces gráficas.",
+        "Boost proporciona bibliotecas para muchas tareas comunes como gestión de memoria."
+      ]
+    },
+    {
+      "tag": "qt_definition",
+      "patterns": [
+        "que es qt",
+        "qt que es",
+        "definicion de qt",
+        "qt framework que es",
+        "descripcion de qt"
+      ],
+      "responses": [
+        "Es un framework para C++ enfocado en aplicaciones gráficas y multiplataforma.",
+        "Incluye herramientas para crear interfaces gráficas modernas.",
+        "Es utilizado en software de escritorio, móvil y embebido."
+      ]
+    },
+    {
+      "tag": "mobile_frameworks",
+      "patterns": [
+        "que frameworks hay para desarrollo movil",
+        "frameworks para desarrollo movil",
+        "frameworks populares en movil",
+        "que herramientas se usan para apps moviles",
+        "que frameworks se usan en desarrollo movil"
+      ],
+      "responses": [
+        "Algunos populares son Flutter, React Native y Xamarin.",
+        "Flutter es desarrollado por Google y usa Dart como lenguaje base.",
+        "React Native permite desarrollar aplicaciones móviles usando JavaScript."
+      ]
+    },
+    {
+      "tag": "flutter_definition",
+      "patterns": [
+        "que es flutter",
+        "flutter que es",
+        "definicion de flutter",
+        "flutter framework que es",
+        "descripcion de flutter"
+      ],
+      "responses": [
+        "Es un framework de Google para desarrollo móvil multiplataforma.",
+        "Permite crear aplicaciones nativas con una sola base de código.",
+        "Usa Dart como lenguaje de programación."
+      ]
+    },
+    {
+      "tag": "react_native_definition",
+      "patterns": [
+        "que es react native",
+        "react native que es",
+        "definicion de react native",
+        "react native framework que es",
+        "descripcion de react native"
+      ],
+      "responses": [
+        "Es un framework basado en JavaScript para desarrollo móvil.",
+        "Permite crear aplicaciones para iOS y Android con una sola base de código.",
+        "Se basa en la misma filosofía de componentes que React."
+      ]
+    },
+    {
+      "tag": "frontend_definition",
+      "patterns": [
+        "que es frontend",
+        "frontend que es",
+        "definicion de frontend",
+        "frontend desarrollo que es",
+        "descripcion de frontend"
+      ],
+      "responses": [
+        "Es la parte visual de una aplicación con la que interactúan los usuarios.",
+        "Se refiere al desarrollo de interfaces gráficas y experiencias de usuario.",
+        "Incluye tecnologías como HTML, CSS y JavaScript."
+      ]
+    },
+    {
+      "tag": "frontend_languages",
+      "patterns": [
+        "que lenguajes se usan en frontend",
+        "lenguajes para frontend",
+        "frontend que lenguajes",
+        "tecnologias comunes en frontend",
+        "herramientas usadas en frontend"
+      ],
+      "responses": [
+        "Los principales son HTML, CSS y JavaScript.",
+        "También se utilizan tecnologías como TypeScript y frameworks como React o Angular."
+      ]
+    },
+    {
+      "tag": "html_definition",
+      "patterns": [
+        "que es html",
+        "html que es",
+        "definicion de html",
+        "html lenguaje que es",
+        "descripcion de html"
+      ],
+      "responses": [
+        "Es un lenguaje de marcado utilizado para estructurar el contenido de una página web.",
+        "Define la estructura básica de una página como encabezados, párrafos y enlaces.",
+        "Es esencial para el desarrollo frontend."
+      ]
+    },
+    {
+      "tag": "css_definition",
+      "patterns": [
+        "que es css",
+        "css que es",
+        "definicion de css",
+        "css lenguaje que es",
+        "descripcion de css"
+      ],
+      "responses": [
+        "Es un lenguaje de estilos usado para definir la apariencia de una página web.",
+        "Permite personalizar colores, fuentes y diseño de los elementos.",
+        "Se usa junto con HTML para mejorar la experiencia visual."
+      ]
+    },
+    {
+      "tag": "javascriptdefinition",
+      "patterns": [
+        "que es javascript",
+        "javascript que es",
+        "definicion de javascript",
+        "javascript lenguaje que es",
+        "descripcion de javascript"
+      ],
+      "responses": [
+        "Es un lenguaje de programación utilizado para añadir interactividad a las páginas web.",
+        "Permite crear funcionalidades dinámicas como animaciones y validaciones.",
+        "Es esencial para el desarrollo frontend moderno."
+      ]
+    },
+    {
+      "tag": "frontendframeworks",
+      "patterns": [
+        "que frameworks se usan en frontend",
+        "frameworks para frontend",
+        "frontend frameworks populares",
+        "frameworks comunes en frontend",
+        "herramientas frontend modernas"
+      ],
+      "responses": [
+        "Algunos populares son React, Angular y Vue.",
+        "Bootstrap se usa para diseño responsivo.",
+        "Tailwind CSS es una herramienta moderna para estilos."
+      ]
+    },
+    {
+      "tag": "reactvsangular",
+      "patterns": [
+        "que diferencia hay entre react y angular",
+        "react vs angular",
+        "angular y react comparacion",
+        "react y angular que diferencias tienen",
+        "diferencias principales entre react y angular"
+      ],
+      "responses": [
+        "React es una biblioteca mientras que Angular es un framework completo.",
+        "React ofrece más flexibilidad, pero Angular incluye más herramientas integradas.",
+        "React se usa para proyectos ligeros y Angular para aplicaciones robustas."
+      ]
+    },
+    {
+      "tag": "spadefinition",
+      "patterns": [
+        "que es un spa",
+        "spa que es",
+        "definicion de spa",
+        "descripcion de spa en desarrollo web",
+        "spa significado en tecnologia"
+      ],
+      "responses": [
+        "Es una aplicación de página única donde el contenido se carga dinámicamente.",
+        "Evita recargar toda la página al navegar entre secciones.",
+        "Es común en frameworks como React, Angular y Vue."
+      ]
+    },
+    {
+      "tag": "whatisvue",
+      "patterns": ["que es vue"],
+      "responses": [
+        "es un framework progresivo de javascript para construir interfaces de usuario",
+        "es conocido por su simplicidad y facilidad de integracion",
+        "es ideal para proyectos pequeños y grandes que requieren modularidad"
+      ]
+    },
+    {
+      "tag": "frameworkscpp",
+      "patterns": ["que frameworks existen en c++"],
+      "responses": [
+        "algunos populares son qt, boost y poco",
+        "qt se usa para desarrollo de aplicaciones multiplataforma con interfaces graficas",
+        "boost proporciona bibliotecas para muchas tareas comunes como gestion de memoria"
+      ]
+    },
+    {
+      "tag": "whatisqt",
+      "patterns": ["que es qt"],
+      "responses": [
+        "es un framework para c++ enfocado en aplicaciones graficas y multiplataforma",
+        "incluye herramientas para crear interfaces graficas modernas",
+        "es utilizado en software de escritorio, movil y embebido"
+      ]
+    },
+    {
+      "tag": "mobileframeworks",
+      "patterns": ["que frameworks hay para desarrollo movil"],
+      "responses": [
+        "algunos populares son flutter, react native y xamarin",
+        "flutter es desarrollado por google y usa dart como lenguaje base",
+        "react native permite desarrollar aplicaciones moviles usando javascript"
+      ]
+    },
+    {
+      "tag": "whatisflutter",
+      "patterns": ["que es flutter"],
+      "responses": [
+        "es un framework de google para desarrollo movil multiplataforma",
+        "permite crear aplicaciones nativas con una sola base de codigo",
+        "usa dart como lenguaje de programacion"
+      ]
+    },
+    {
+      "tag": "whatisreactnative",
+      "patterns": ["que es react native"],
+      "responses": [
+        "es un framework basado en javascript para desarrollo movil",
+        "permite crear aplicaciones para ios y android con una sola base de codigo",
+        "se basa en la misma filosofia de componentes que react"
+      ]
+    },
+    {
+      "tag": "whatisfrontend",
+      "patterns": ["que es frontend"],
+      "responses": [
+        "es la parte visual de una aplicacion con la que interactuan los usuarios",
+        "se refiere al desarrollo de interfaces graficas y experiencias de usuario",
+        "incluye tecnologias como html, css y javascript"
+      ]
+    },
+    {
+      "tag": "frontendlanguages",
+      "patterns": ["que lenguajes se usan en frontend"],
+      "responses": [
+        "los principales son html, css y javascript",
+        "tambien se utilizan tecnologias como typescript y frameworks como react o angular"
+      ]
+    },
+    {
+      "tag": "whatishtml",
+      "patterns": ["que es html"],
+      "responses": [
+        "es un lenguaje de marcado utilizado para estructurar el contenido de una pagina web",
+        "define la estructura basica de una pagina como encabezados, parrafos y enlaces",
+        "es esencial para el desarrollo frontend"
+      ]
+    },
+    {
+      "tag": "whatiscss",
+      "patterns": ["que es css"],
+      "responses": [
+        "es un lenguaje de estilos usado para definir la apariencia de una pagina web",
+        "permite personalizar colores, fuentes y diseño de los elementos",
+        "se usa junto con html para mejorar la experiencia visual"
+      ]
+    },
+    {
+      "tag": "whatisjavascript",
+      "patterns": ["que es javascript"],
+      "responses": [
+        "es un lenguaje de programacion utilizado para añadir interactividad a las paginas web",
+        "permite crear funcionalidades dinamicas como animaciones y validaciones",
+        "es esencial para el desarrollo frontend moderno"
+      ]
+    },
+    {
+      "tag": "frontendframeworks",
+      "patterns": ["que frameworks se usan en frontend"],
+      "responses": [
+        "algunos populares son react, angular y vue",
+        "bootstrap se usa para diseño responsivo",
+        "tailwind css es una herramienta moderna para estilos"
+      ]
+    },
+    {
+      "tag": "reactvsangular",
+      "patterns": ["que diferencia hay entre react y angular"],
+      "responses": [
+        "react es una biblioteca mientras que angular es un framework completo",
+        "react ofrece mas flexibilidad, pero angular incluye mas herramientas integradas",
+        "react se usa para proyectos ligeros y angular para aplicaciones robustas"
+      ]
+    },
+    {
+      "tag": "whatisaspa",
+      "patterns": ["que es un spa"],
+      "responses": [
+        "es una aplicacion de pagina unica donde el contenido se carga dinamicamente",
+        "evita recargar toda la pagina al navegar entre secciones",
+        "es comun en frameworks como react, angular y vue"
+      ]
+    },
+    {
+      "tag": "whatisbackend",
+      "patterns": ["que es backend"],
+      "responses": [
+        "es la parte de un sistema que maneja la logica, bases de datos y servidores",
+        "se encarga de procesar solicitudes y enviar respuestas al frontend",
+        "es esencial para manejar la logica de negocio de una aplicacion"
+      ]
+    },
+    {
+      "tag": "backendlanguages",
+      "patterns": ["que lenguajes se usan en backend"],
+      "responses": [
+        "algunos populares son java, python, php, ruby y javascript con nodejs",
+        "tambien se usa go, c# y kotlin dependiendo del caso de uso"
+      ]
+    },
+    {
+      "tag": "backendframeworks",
+      "patterns": ["que frameworks se usan en backend"],
+      "responses": [
+        "algunos populares son spring boot para java, django y flask para python",
+        "laravel para php y express para nodejs son opciones comunes",
+        "tambien se usa ruby on rails y .net core"
+      ]
+    },
+    {
+      "tag": "whatisnodejs",
+      "patterns": ["que es nodejs"],
+      "responses": [
+        "es un entorno de ejecucion de javascript para el backend",
+        "permite desarrollar aplicaciones escalables con un unico lenguaje",
+        "es conocido por su eficiencia en manejo de multiples solicitudes"
+      ]
+    },
+    {
+      "tag": "whatisflask",
+      "patterns": ["que es flask"],
+      "responses": [
+        "es un microframework de python para desarrollo backend",
+        "es ligero y permite crear api rapidas con minima configuracion",
+        "es ideal para proyectos pequeños y prototipos"
+      ]
+    },
+    {
+      "tag": "whatisrestapi",
+      "patterns": ["que es una api rest"],
+      "responses": [
+        "es una interfaz que permite la comunicacion entre sistemas usando peticiones http",
+        "sigue principios como la separacion entre cliente y servidor",
+        "es comun en aplicaciones web y servicios moviles"
+      ]
+    },
+    {
+      "tag": "whatisgraphql",
+      "patterns": ["que es graphql"],
+      "responses": [
+        "es una alternativa a rest para apis",
+        "permite al cliente especificar exactamente que datos necesita",
+        "es desarrollado por facebook y se usa en aplicaciones modernas"
+      ]
+    },
+    {
+      "tag": "whatisdatabase",
+      "patterns": ["que es una base de datos"],
+      "responses": [
+        "es un sistema para almacenar y organizar informacion",
+        "puede ser sql como mysql y postgresql, o no sql como mongodb",
+        "se utiliza para guardar datos que seran usados por el backend"
+      ]
+    },
+    {
+      "tag": "sqlvnosql",
+      "patterns": ["que diferencia hay entre sql y no sql"],
+      "responses": [
+        "sql usa tablas con esquemas definidos, mientras que no sql es mas flexible",
+        "sql es ideal para datos estructurados, no sql para datos no estructurados",
+        "sql incluye sistemas como mysql y postgresql, no sql incluye mongodb y cassandra"
+      ]
+    },
+    {
+      "tag": "frontendbackendcommunication",
+      "patterns": ["como se comunican frontend y backend"],
+      "responses": [
+        "a traves de apis usando protocolos como http",
+        "el frontend envia solicitudes al backend y este responde con datos",
+        "la comunicacion puede ser en formatos como json o xml"
+      ]
+    },
+    {
+      "tag": "fullstackdeveloper",
+      "patterns": ["que es un full stack developer"],
+      "responses": [
+        "es un desarrollador que trabaja tanto en frontend como en backend",
+        "tiene conocimientos en diseño de interfaces y logica del servidor",
+        "puede desarrollar aplicaciones completas de inicio a fin"
+      ]
+    },
+    {
+      "tag": "frontendvsbackend",
+      "patterns": ["que diferencia hay entre frontend y backend"],
+      "responses": [
+        "el frontend es lo que ve el usuario, el backend es la logica detras",
+        "el frontend usa html, css y javascript, el backend usa lenguajes como java o python",
+        "el backend se encarga de procesar datos y gestionar la comunicacion con bases de datos"
+      ]
+    },
+    {
+      "tag": "databasetypes",
+      "patterns": ["que tipos de bases de datos existen"],
+      "responses": [
+        "hay bases de datos relacionales y no relacionales",
+        "tambien existen bases de datos jerarquicas, en red y orientadas a objetos",
+        "dependen del tipo de informacion y del caso de uso"
+      ]
+    },
+    {
+      "tag": "relationaldatabase",
+      "patterns": ["que es una base de datos relacional"],
+      "responses": [
+        "es una base de datos que organiza la informacion en tablas con filas y columnas",
+        "usa sql como lenguaje para consultar y modificar datos",
+        "ejemplos incluyen mysql, postgresql y sql server"
+      ]
+    },
+    {
+      "tag": "nonrelationaldatabase",
+      "patterns": ["que es una base de datos no relacional"],
+      "responses": [
+        "es una base de datos que no usa tablas para organizar los datos",
+        "puede almacenar informacion en formatos como documentos, grafos o claves-valor",
+        "ejemplos incluyen mongodb, cassandra y redis"
+      ]
+    },
+    {
+      "tag": "databaseschema",
+      "patterns": ["que es un esquema en una base de datos"],
+      "responses": [
+        "es la estructura que define como se organizan los datos en una base de datos",
+        "incluye tablas, columnas, tipos de datos y relaciones entre tablas",
+        "es importante en bases de datos relacionales"
+      ]
+    },
+    {
+      "tag": "whatissql",
+      "patterns": ["que es sql"],
+      "responses": [
+        "es un lenguaje de consulta estructurado usado para interactuar con bases de datos relacionales",
+        "permite realizar operaciones como insertar, consultar y eliminar datos",
+        "es compatible con sistemas como mysql, postgresql y oracle"
+      ]
+    },
+    {
+      "tag": "whatismysql",
+      "patterns": ["que es mysql"],
+      "responses": [
+        "es un sistema de gestion de bases de datos relacional de codigo abierto",
+        "es popular por ser rapido y facil de usar",
+        "se usa comunmente en aplicaciones web"
+      ]
+    },
+    {
+      "tag": "whatispostgresql",
+      "patterns": ["que es postgresql"],
+      "responses": [
+        "es un sistema de gestion de bases de datos relacional avanzado y de codigo abierto",
+        "ofrece soporte para transacciones complejas y extensibilidad",
+        "es ideal para aplicaciones empresariales y proyectos avanzados"
+      ]
+    },
+    {
+      "tag": "whatissqlserver",
+      "patterns": ["que es sql server"],
+      "responses": [
+        "es un sistema de gestión de bases de datos relacional desarrollado por Microsoft",
+        "se usa principalmente en entornos empresariales",
+        "ofrece integración con otros productos de Microsoft como Azure y Visual Studio"
+      ]
+    },
+    {
+      "tag": "whatismongodb",
+      "patterns": ["que es mongodb"],
+      "responses": [
+        "es una base de datos no relacional que almacena datos en formato de documentos JSON",
+        "es ideal para aplicaciones que manejan datos no estructurados o semiestructurados",
+        "es popular en aplicaciones web modernas y sistemas distribuidos"
+      ]
+    },
+    {
+      "tag": "usemongodb",
+      "patterns": ["para que se usa mongodb"],
+      "responses": [
+        "se utiliza en aplicaciones web, sistemas de recomendación y big data",
+        "es ideal para manejar grandes volúmenes de datos y escalar horizontalmente",
+        "se usa cuando no se necesita una estructura estricta de tablas y columnas"
+      ]
+    },
+    {
+      "tag": "whatisredis",
+      "patterns": ["que es redis"],
+      "responses": [
+        "es una base de datos no relacional basada en clave-valor",
+        "es conocida por su velocidad y se usa como caché o para almacenar sesiones",
+        "es popular en aplicaciones que requieren acceso rápido a los datos"
+      ]
+    },
+    {
+      "tag": "whatiscassandra",
+      "patterns": ["que es cassandra"],
+      "responses": [
+        "es una base de datos no relacional distribuida y escalable",
+        "es ideal para manejar grandes volúmenes de datos en tiempo real",
+        "es utilizada por empresas como Netflix y Twitter para alta disponibilidad"
+      ]
+    },
+    {
+      "tag": "differencesmongodbredis",
+      "patterns": ["que diferencias hay entre mongodb y redis"],
+      "responses": [
+        "mongodb almacena documentos JSON, mientras que redis usa un modelo clave-valor",
+        "redis es más rápido pero mongodb es más flexible para datos complejos",
+        "redis es ideal para caché y mongodb para datos no estructurados"
+      ]
+    },
+    {
+      "tag": "whatiscompiler",
+      "patterns": ["que es un compilador"],
+      "responses": [
+        "un compilador es un programa que traduce el código fuente de un lenguaje de programación de alto nivel a un lenguaje de bajo nivel o código máquina",
+        "el compilador permite que el código escrito en un lenguaje comprensible por los humanos sea ejecutado por una computadora",
+        "un ejemplo de compilador es GCC para C o C++"
+      ]
+    },
+    {
+      "tag": "whatisinterpreter",
+      "patterns": ["que es un interprete"],
+      "responses": [
+        "es un tipo de programa que ejecuta el código de un lenguaje de programación línea por línea, sin necesidad de compilar todo el código de antemano",
+        "a diferencia de un compilador, un intérprete no crea un archivo de código máquina, sino que traduce y ejecuta las instrucciones directamente",
+        "un ejemplo común de intérprete es Python"
+      ]
+    },
+    {
+      "tag": "whatisbug",
+      "patterns": ["que es un bug"],
+      "responses": [
+        "un bug es un error o fallo en el código de un programa que causa un comportamiento inesperado o incorrecto",
+        "los bugs pueden ser causados por errores de sintaxis, lógicas o problemas de rendimiento",
+        "es importante depurar el código para encontrar y corregir los bugs"
+      ]
+    },
+    {
+      "tag": "whatisdebugger",
+      "patterns": ["que es un debugger"],
+      "responses": [
+        "un debugger es una herramienta que permite examinar el estado de un programa mientras se ejecuta, ayudando a identificar y corregir bugs",
+        "los debuggers permiten realizar seguimiento de la ejecución del código, inspeccionar variables y controlar el flujo del programa",
+        "algunos debuggers populares son GDB para C y C++, o el debugger integrado en IDEs como Visual Studio Code"
+      ]
+    },
+    {
+      "tag": "whatisvariable",
+      "patterns": ["que es una variable"],
+      "responses": [
+        "una variable es un espacio de almacenamiento que contiene un valor que puede cambiar durante la ejecución de un programa",
+        "las variables se utilizan para almacenar datos como números, cadenas de texto o incluso objetos",
+        "cada variable tiene un tipo de dato que determina qué tipo de valores puede almacenar, como 'int' para enteros o 'string' para texto"
+      ]
+    },
+    {
+      "tag": "whatisdatatype",
+      "patterns": ["que es un tipo de dato"],
+      "responses": [
+        "un tipo de dato es una clasificación de los valores que una variable puede almacenar, como números, texto o booleanos",
+        "los tipos de datos básicos incluyen enteros (int), números decimales (float), texto (string) y valores lógicos (boolean)",
+        "los tipos de datos también pueden ser más complejos, como listas, diccionarios o incluso clases definidas por el usuario"
+      ]
+    },
+    {
+      "tag": "whatisprimitivedatatype",
+      "patterns": ["que es un tipo de dato primitivo"],
+      "responses": [
+        "un tipo de dato primitivo es un tipo de dato básico que no se puede descomponer en tipos más simples",
+        "los tipos de datos primitivos incluyen enteros (int), decimales (float), cadenas de texto (string) y valores lógicos (boolean)",
+        "estos tipos de datos son fundamentales y forman la base para construir otros tipos de datos más complejos"
+      ]
+    },
+    {
+      "tag": "whatiscompositedatatype",
+      "patterns": ["que es un tipo de dato compuesto"],
+      "responses": [
+        "un tipo de dato compuesto es un tipo de dato que se crea combinando varios tipos de datos primitivos o incluso otros tipos compuestos",
+        "los tipos de datos compuestos incluyen listas (arrays), diccionarios (objetos en algunos lenguajes), tuplas y conjuntos",
+        "estos tipos de datos permiten almacenar colecciones de datos más complejas y estructuradas"
+      ]
+    },
+    {
+      "tag": "whatisarray",
+      "patterns": ["que es un array"],
+      "responses": [
+        "un array es una estructura de datos que almacena una colección de elementos del mismo tipo",
+        "los elementos de un array se almacenan en posiciones contiguas de memoria y se accede a ellos mediante un índice",
+        "en muchos lenguajes de programación, como JavaScript o Python, los arrays pueden ser dinámicos o de tamaño fijo"
+      ]
+    },
+    {
+      "tag": "whatislist",
+      "patterns": ["que es una lista en programación"],
+      "responses": [
+        "una lista es un tipo de dato compuesto que almacena una colección ordenada de elementos, que pueden ser de diferentes tipos",
+        "a diferencia de los arrays, las listas pueden almacenar elementos de diferentes tipos de datos en muchos lenguajes, como en Python",
+        "una lista también puede ser dinámica, es decir, se puede cambiar su tamaño durante la ejecución del programa"
+      ]
+    },
+    {
+      "tag": "whatisdictionary",
+      "patterns": ["que es un diccionario"],
+      "responses": [
+        "un diccionario es una estructura de datos que almacena pares de clave-valor",
+        "cada elemento en un diccionario está compuesto por una clave única y un valor asociado a esa clave",
+        "los diccionarios son útiles cuando necesitas buscar un valor rápidamente a partir de una clave, como en Python o JavaScript"
+      ]
+    },
+    {
+      "tag": "whatistuple",
+      "patterns": ["que es una tupla"],
+      "responses": [
+        "una tupla es una estructura de datos similar a una lista, pero con la diferencia de que las tuplas son inmutables, es decir, no pueden ser modificadas después de su creación",
+        "en muchos lenguajes de programación, como Python, las tuplas se utilizan para almacenar datos que no deben cambiar durante la ejecución del programa",
+        "las tuplas también pueden contener elementos de diferentes tipos de datos"
+      ]
+    },
+    {
+      "tag": "whatisset",
+      "patterns": ["que es un conjunto"],
+      "responses": [
+        "un conjunto es una colección de elementos no ordenados y sin duplicados",
+        "los conjuntos son útiles cuando necesitas almacenar datos únicos, sin preocuparte del orden en que se insertan",
+        "en Python, los conjuntos se definen utilizando la clase 'set', y son diferentes de las listas o tuplas en cuanto a la unicidad de los elementos"
+      ]
+    },
+    {
+      "tag": "whatisstring",
+      "patterns": ["que es un string"],
+      "responses": [
+        "un string es un tipo de dato que representa una secuencia de caracteres, como texto",
+        "los strings pueden incluir letras, números y otros caracteres, y se utilizan para manipular texto en la mayoría de los lenguajes de programación",
+        "en algunos lenguajes, los strings son inmutables, lo que significa que no pueden ser modificados después de su creación, como en Python o Java"
+      ]
+    },
+    {
+      "tag": "whatisboolean",
+      "patterns": ["que es un booleano"],
+      "responses": [
+        "un booleano es un tipo de dato que tiene solo dos valores posibles: verdadero (true) o falso (false)",
+        "los valores booleanos se utilizan en las condiciones y estructuras de control, como 'if' o 'while', para tomar decisiones en un programa",
+        "los booleanos son fundamentales en la programación lógica y las expresiones condicionales"
+      ]
+    },
+    {
+      "tag": "whatisnullvalue",
+      "patterns": ["que es un valor nulo"],
+      "responses": [
+        "un valor nulo es un valor especial que representa la ausencia de un valor válido o definido en una variable",
+        "el valor nulo puede ser utilizado para indicar que una variable aún no ha sido inicializada o que no tiene un valor asignado",
+        "en algunos lenguajes, como JavaScript, se utiliza 'null' para denotar un valor nulo, mientras que en otros, como Python, se utiliza 'None'"
+      ]
+    },
+    {
+      "tag": "whatisfloatdatatype",
+      "patterns": ["que es un tipo de dato flotante"],
+      "responses": [
+        "un tipo de dato flotante es un tipo numérico que se utiliza para representar números con decimales",
+        "los números flotantes son especialmente útiles para realizar cálculos precisos que incluyen valores decimales, como 3.14 o 0.5",
+        "en muchos lenguajes de programación, como Python o Java, los flotantes se representan con el tipo 'float'"
+      ]
+    },
+    {
+      "tag": "whatisintdatatype",
+      "patterns": ["que es un tipo de dato entero"],
+      "responses": [
+        "un tipo de dato entero es un tipo numérico que se utiliza para representar números sin decimales, como 1, 100 o -5",
+        "los enteros son fundamentales en programación para realizar operaciones matemáticas simples, como contar o iterar sobre elementos",
+        "en lenguajes como Python o Java, los enteros se representan con el tipo 'int'"
+      ]
+    },
+    {
+      "tag": "whatischardatatype",
+      "patterns": ["que es el tipo de dato char"],
+      "responses": [
+        "el tipo de dato 'char' se utiliza para representar un solo carácter, como 'a', 'B' o '9'",
+        "el 'char' es comúnmente utilizado en lenguajes como C y C++ para manipular caracteres individuales en cadenas de texto",
+        "en otros lenguajes como Python, los caracteres son tratados como strings de longitud 1"
+      ]
+    },
+    {
+      "tag": "whatiscomplexdatatype",
+      "patterns": ["que es el tipo de dato complejo"],
+      "responses": [
+        "el tipo de dato complejo se utiliza para representar números que tienen una parte real y una parte imaginaria, como 3 + 4i",
+        "en algunos lenguajes, como Python, puedes trabajar con números complejos utilizando el tipo 'complex'",
+        "los números complejos son utilizados en áreas como la ingeniería, matemáticas y procesamiento de señales"
+      ]
+    },
+    {
+      "tag": "whatisfunction",
+      "patterns": ["que es una funcion"],
+      "responses": [
+        "una función es un bloque de código que realiza una tarea específica y puede ser reutilizado en diferentes partes del programa",
+        "las funciones pueden aceptar entradas (parámetros) y devolver un valor como resultado",
+        "en muchos lenguajes de programación, las funciones permiten organizar el código de manera modular y eficiente"
+      ]
+    },
+    {
+      "tag": "whatisrecursion",
+      "patterns": ["que es la recursion"],
+      "responses": [
+        "la recursión es una técnica en programación en la que una función se llama a sí misma para resolver un problema",
+        "generalmente, la recursión se utiliza para resolver problemas que se pueden dividir en subproblemas más pequeños, como en el caso de los árboles o la búsqueda binaria",
+        "es importante que una función recursiva tenga una condición base que detenga la llamada recursiva"
+      ]
+    }
+  ]
+}
