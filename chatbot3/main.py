@@ -1,6 +1,9 @@
 import tkinter as tk
 from tkinter import ttk
-from train import proccess_input
+from process_input import process_input, load_chatbot_resources
+
+# Cargar el modelo
+model, tokenizer, max_length, responses_map, label_encoder = load_chatbot_resources()
 
 # Crear la ventana principal
 window = tk.Tk()
@@ -61,7 +64,7 @@ def send_message(event=None):
         insert_bubble(message, sender="user")
         input_text.delete(0, "end")
 
-        respuesta = proccess_input(message)
+        respuesta = process_input(message, model, tokenizer, max_length, responses_map, label_encoder)
 
         insert_bubble(respuesta, sender="bot")
 
