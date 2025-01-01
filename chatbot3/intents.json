@@ -1539,7 +1539,7 @@
             "patterns": [
                 "que significa transformar datos",
                 "que es transformar datos",
-                "que es modificar informacion", 
+                "que es modificar informacion",
                 "que significa modificar informacion"
             ],
             "responses": [
@@ -4419,6 +4419,4426 @@
                 "generalmente, la recursión se utiliza para resolver problemas que se pueden dividir en subproblemas más pequeños, como en el caso de los árboles o la búsqueda binaria",
                 "es importante que una función recursiva tenga una condición base que detenga la llamada recursiva"
             ]
-        }                                            
+        },
+        {
+            "tag": "greetings",
+            "patterns": [
+                "Hello",
+                "Good morning",
+                "Good afternoon",
+                "Good night",
+                "Hi"
+            ],
+            "responses": [
+                "Hello! ",
+                "Good morning! Tell me how I can help you.",
+                "It's nice to see you! Tell me how I can help you.",
+                "How can I help you?",
+                "Hi! "
+            ]
+        },
+        {
+            "tag": "goodbyes",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "See you",
+                "See you soon",
+                "Goodbye"
+            ],
+            "responses": [
+                "Bye bye! ",
+                "See you later! ",
+                "See you! ",
+                "See you soon! ",
+                "Bye! "
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thank you",
+                "Thank you so much",
+                "Thanks for your help",
+                "I thank you",
+                "Thank you, you are great"
+            ],
+            "responses": [
+                "You are welcome! ",
+                "It doesn't matter! ",
+                "Thank you for trusting me",
+                "Thanks to you for asking!",
+                "Thank you! "
+            ]
+        },
+        {
+            "tag": "feelings",
+            "patterns": [
+                "I'm happy",
+                "I feel sad",
+                "I'm excited",
+                "I feel alone",
+                "I'm bored"
+            ],
+            "responses": [
+                "It's good that you're happy! ",
+                "I'm sorry to hear that you feel sad. ",
+                "What a thrill! ",
+                "Loneliness is difficult. ",
+                "Being bored is normal sometimes. "
+            ]
+        },
+        {
+            "tag": "information",
+            "patterns": [
+                "What is a chatbot?",
+                "How do chatbots work?",
+                "What is a chatbot for?",
+                "Tell me something about chatbots",
+                "Explain to me what a chatbot is"
+            ],
+            "responses": [
+                "A chatbot is a computer program designed to simulate conversations with humans.",
+                "Chatbots use artificial intelligence to interpret and respond to users' messages."
+            ]
+        },
+        {
+            "tag": "superheroes",
+            "patterns": [
+                "Who is your favorite superhero?",
+                "Do you like superheroes?",
+                "Tell me something about superheroes"
+            ],
+            "responses": [
+                "I like Iron Man, he's very smart!",
+                "Batman always has a plan.",
+                "Superheroes inspire us to be better!"
+            ]
+        },
+        {
+            "tag": "variables",
+            "patterns": [
+                "What is a variable in programming?",
+                "Explain to me what a variable means.",
+                "What are variables used for?",
+                "Can you define a variable?",
+                "How are variables used in a program?"
+            ],
+            "responses": [
+                "A variable is a container for storing data that can change during program execution.",
+                "In programming, a variable is a name that is assigned to a space in memory to store values.",
+                "Variables allow developers to store, modify, and reuse information within a program.",
+                "It is an identifier that is used to temporarily store information and that can be manipulated as needed.",
+                "Think of a variable as a label that helps you organize and access different types of data in a program."
+            ]
+        },
+        {
+            "tag": "constants",
+            "patterns": [
+                "What is a constant in programming?",
+                "How is a constant defined?",
+                "What are constants for?",
+                "What is the difference between a variable and a constant?",
+                "Explain to me what constant means in a program."
+            ],
+            "responses": [
+                "A constant is a value that does not change during the execution of a program.",
+                "A constant is used to represent fixed values, such as the number pi or a specific configuration.",
+                "Unlike variables, constants maintain their value unchanged after being declared.",
+                "Defining a constant helps improve readability and prevent accidental errors in a program.",
+                "In many languages, constants are declared with special keywords, such as 'const' or 'final'."
+            ]
+        },
+        {
+            "tag": "functions",
+            "patterns": [
+                "What is a function in programming?",
+                "Explain to me how the functions work.",
+                "What are functions used for in a program?",
+                "What types of functions exist?",
+                "Give me an example of how a function is used."
+            ],
+            "responses": [
+                "A function is a reusable block of code designed to perform a specific task.",
+                "Functions help structure code, avoid duplication, and improve maintainability.",
+                "They can receive input parameters and return a result as output.",
+                "There are predefined functions in languages ​​and custom functions created by developers.",
+                "Think of a function like a recipe: it receives ingredients (parameters) and returns a final dish (result)."
+            ]
+        },
+        {
+            "tag": "classes",
+            "patterns": [
+                "What is a programming class?",
+                "Explain to me what class means in the OOP.",
+                "What are classes for in a program?",
+                "What defines a class?",
+                "Give me an example of how a class is used."
+            ],
+            "responses": [
+                "A class is a model or template that defines the properties and behaviors of an object.",
+                "In object-oriented programming, classes are essential to organize the code.",
+                "They are used to create object instances, each with its own attributes and methods.",
+                "A class contains attributes (data) and methods (functions) that represent the state and behavior of an object.",
+                "For example, a 'Car' class can have attributes such as 'color' and 'model', and methods such as 'accelerate' or 'brake'."
+            ]
+        },
+        {
+            "tag": "methods",
+            "patterns": [
+                "What is a method in programming?",
+                "Explain to me how the methods work.",
+                "What is the difference between a function and a method?",
+                "What types of methods exist?",
+                "Give me an example of a method in a class."
+            ],
+            "responses": [
+                "A method is a function associated with an object or class in object-oriented programming.",
+                "Methods allow you to perform specific operations on the data of an object.",
+                "Unlike a general function, a method always belongs to an object or class.",
+                "For example, a 'walk()' method could be part of a 'Person' class.",
+                "There are static, instance and special methods, such as the constructor."
+            ]
+        },
+        {
+            "tag": "functional_programming",
+            "patterns": [
+                "What is functional programming?",
+                "Explain to me the principles of functional programming.",
+                "What characteristics does functional programming have?",
+                "What are the advantages of functional programming?",
+                "What languages ​​use functional programming?"
+            ],
+            "responses": [
+                "Functional programming is a paradigm that treats computing as the evaluation of mathematical functions.",
+                "It focuses on pure functions, data immutability, and avoids the use of global states.",
+                "In this paradigm, functions are first-class citizens and can be passed as arguments or returned as results.",
+                "Languages ​​such as Haskell, Lisp, and Scala are prominent examples of functional programming.",
+                "Among its advantages are ease of debugging, modularity and the ability to parallelize processes."
+            ]
+        },
+        {
+            "tag": "programming_paradigms",
+            "patterns": [
+                "What are programming paradigms?",
+                "What are the main programming paradigms?",
+                "Explain to me what a programming paradigm is.",
+                "What are paradigms used for in programming?",
+                "Give me examples of programming paradigms."
+            ],
+            "responses": [
+                "A programming paradigm is an approach or style for solving problems using code.",
+                "Among the best-known paradigms are structured, object-oriented and functional programming.",
+                "Each paradigm has advantages and disadvantages depending on the problem to be solved.",
+                "For example, object-oriented programming organizes code around objects, while functional programming focuses on functions.",
+                "Paradigms help to better structure the code and choose appropriate tools for each task."
+            ]
+        },
+        {
+            "tag": "lambda_expressions",
+            "patterns": [
+                "What is a lambda expression?",
+                "Explain to me how lambda expressions work.",
+                "What are lambda expressions used for?",
+                "Give me an example of a lambda function.",
+                "What characteristics do lambda functions have?"
+            ],
+            "responses": [
+                "A lambda expression is an anonymous function that can be defined in a single line of code.",
+                "They are useful for simple tasks and when it is not necessary to name the function.",
+                "In Python, for example, you can write: lambda x: x * 2, which doubles a number.",
+                "Lambda functions are common in functional programming and for quick operations like filters and maps.",
+                "They are a powerful tool for writing concise and clear code."
+            ]
+        },
+        {
+            "tag": "object-oriented_programming",
+            "patterns": [
+                "What is object-oriented programming?",
+                "Explain to me the principles of object-oriented programming.",
+                "What advantages does OOP have?",
+                "What are the pillars of object-oriented programming?",
+                "What languages ​​do OOP use?"
+            ],
+            "responses": [
+                "Object-oriented programming organizes code around objects that contain data and behaviors.",
+                "Its fundamental pillars are encapsulation, inheritance, polymorphism and abstraction.",
+                "OOP facilitates code maintenance, reuse, and scalability.",
+                "Languages ​​like Java, Python, and C++ are popular to develop with this paradigm.",
+                "It is ideal for modeling real-world problems in terms of objects and relationships."
+            ]
+        },
+        {
+            "tag": "cycles",
+            "patterns": [
+                "What are cycles in programming?",
+                "Explain to me how loops work.",
+                "What types of cycles exist?",
+                "What are cycles for?",
+                "Give me an example of a loop in code."
+            ],
+            "responses": [
+                "Loops allow a block of code to be repeated while a condition is met.",
+                "There are loops such as for, while and do while, depending on the language and the need.",
+                "They are essential for repetitive tasks, such as iterating over lists or performing calculations.",
+                "An example in Python: for i in range(5): print(i), which prints numbers 0 to 4.",
+                "Cycles are essential for programming efficiency."
+            ]
+        },
+        {
+            "tag": "cycle_for",
+            "patterns": [
+                "What is a for loop?",
+                "Explain to me how a for loop works.",
+                "What is the for used for?",
+                "Give me an example of a for loop.",
+                "What characteristics does a for loop have?"
+            ],
+            "responses": [
+                "A for loop iterates over a sequence of elements, such as a list or range.",
+                "It is useful for looping through collections of data or repeating actions a known number of times.",
+                "An example in Python: for x in [1, 2, 3]: print(x), which prints each element in the list.",
+                "The for loop simplifies the handling of iterable structures in programming.",
+                "It is widely used to manipulate lists, strings, and numeric ranges."
+            ]
+        },
+        {
+            "tag": "while_loop",
+            "patterns": [
+                "What is a while loop?",
+                "Explain to me how a while loop works.",
+                "When is a while used?",
+                "Give me an example of a while loop.",
+                "What advantages does a while loop have?"
+            ],
+            "responses": [
+                "A while loop executes a block of code as long as a condition is met.",
+                "It is useful when you do not know in advance how many iterations will be needed.",
+                "An example in Python: while x < 5: print(x); ",
+                "The while is ideal for loops dependent on events or dynamic conditions.",
+                "Care must be taken not to create infinite loops when using while."
+            ]
+        },
+        {
+            "tag": "loop_do_while",
+            "patterns": [
+                "What is a do while loop?",
+                "Explain to me how a do while loop works.",
+                "When is a do while used?",
+                "Give me an example of a do while loop.",
+                "What is the difference between do while and while?"
+            ],
+            "responses": [
+                "A do while loop executes the code block at least once before checking the condition.",
+                "It is useful when you need to ensure that the code is executed at least once.",
+                "An example in C++: do { cout << x; ",
+                "Unlike while, do while guarantees an initial execution before evaluating the condition.",
+                "It is ideal for tasks where the block must be executed at least once, such as interactive menus."
+            ]
+        },
+        {
+            "tag": "examples_of_variable_declaration_in_javascript",
+            "patterns": [
+                "Give me examples of how to declare variables in JavaScript.",
+                "How are variables declared in JavaScript?",
+                "Show me examples of variable declaration in JavaScript.",
+                "I want to see how to declare variables with var, let, and const.",
+                "Can you give me an example of a variable in JavaScript?"
+            ],
+            "responses": [
+                "Here is a basic example:\n\tvar name = 'Juan';\n\tlet age = 25;\n\tconst PI = 3.14;",
+                "You can declare variables like this:\n\tlet city = 'Madrid';\n\tconst country = 'Spain';",
+                "With var you can do this:\n\tvar message = 'Hello, world';\nHowever, it is recommended to use let or const.",
+                "Example with let and const:\n\tlet number = 42;\n\tconst text = 'JavaScript is awesome';",
+                "To declare a variable that changes:\n\tlet counter = 0;\nAnd for constant values:\n\tconst maximum = 100;"
+            ]
+        },
+        {
+            "tag": "examples_of_constant_declaration_in_javascript",
+            "patterns": [
+                "Give me examples of how to declare constants in JavaScript.",
+                "How are constants declared in JavaScript?",
+                "Show me examples of constant declaration in JavaScript.",
+                "I want to see how constants are used in JavaScript.",
+                "Can you give me examples of constants in JavaScript?"
+            ],
+            "responses": [
+                "To declare a constant:\n\tconst PI = 3.14;",
+                "Example of a text constant:\n\tconst name = 'Carlos';",
+                "For working with objects:\n\tconst configuration = {\n\t\ttheme: 'dark'\n\t};",
+                "Here is another example:\n\tconst URL = 'https://api.example.com';",
+                "Constants do not change:\n\tconst GRAVITY = 9.8;\nMake sure to assign them a value when declaring them."
+            ]
+        },
+        {
+            "tag": "examples_of_for_loop_in_javascript",
+            "patterns": [
+                "Give me examples of a for loop in JavaScript.",
+                "How is a for loop used in JavaScript?",
+                "Show me examples of for loops in JavaScript.",
+                "I want to see a practical example of a for loop in JavaScript.",
+                "Can you show me how to use a for loop in JavaScript?"
+            ],
+            "responses": [
+                "A basic example:\n\tfor (let i = 0; i < 5; i++) {\n\t\tconsole.log(i);\n\t}",
+                "To iterate over an array:\n\tlet numbers = [1, 2, 3];\n\tfor (let i = 0; i < numbers.length; i++) {\n\t\tconsole.log(numbers[i]);\n\t}",
+                "Using for with objects:\n\tfor (let key in object) {\n\t\tconsole.log(object[key]);\n\t}",
+                "Iterating over characters in a string:\n\tfor (let char of 'JavaScript') {\n\t\tconsole.log(char);\n\t}",
+                "A countdown loop:\n\tfor (let i = 10; i > 0; i--) {\n\t\tconsole.log('Countdown: ' + i);\n\t}"
+            ]
+        },
+        {
+            "tag": "examples_of_while_loop_in_javascript",
+            "patterns": [
+                "Give me examples of a while loop in JavaScript.",
+                "How is a while loop used in JavaScript?",
+                "Show me examples of while loops in JavaScript.",
+                "I want to see a practical example of a while loop in JavaScript.",
+                "Can you show me how to use a while loop in JavaScript?"
+            ],
+            "responses": [
+                "A basic example:\n\tlet i = 0;\n\twhile (i < 5) {\n\t\tconsole.log(i);\n\t\ti++;\n\t}",
+                "To iterate until a condition is met:\n\twhile (isRunning) {\n\t\texecuteTask();\n\t}",
+                "To count backward:\n\tlet i = 10;\n\twhile (i > 0) {\n\t\tconsole.log(i);\n\t\ti--;\n\t}",
+                "To iterate over arrays:\n\tlet numbers = [1, 2, 3];\n\tlet i = 0;\n\twhile (i < numbers.length) {\n\t\tconsole.log(numbers[i]);\n\t\ti++;\n\t}",
+                "To stop when a value is found:\n\tlet x = 0;\n\twhile (x !== 100) {\n\t\tx = getNumber();\n\t\tconsole.log(x);\n\t}"
+            ]
+        },
+        {
+            "tag": "examples_of_do_while_loop_in_javascript",
+            "patterns": [
+                "Give me examples of a do while loop in JavaScript.",
+                "How is a do while loop used in JavaScript?",
+                "Show me examples of do while loops in JavaScript.",
+                "I want to see a practical example of a do while loop in JavaScript.",
+                "Can you show me how to use a do while loop in JavaScript?"
+            ],
+            "responses": [
+                "A basic example:\n\tlet i = 0;\n\tdo {\n\t\tconsole.log(i);\n\t\ti++;\n\t} while (i < 5);",
+                "It is used when you need to execute at least once:\n\tlet key;\n\tdo {\n\t\tkey = askForKey();\n\t} while (!isKeyCorrect(key));",
+                "Counting backward:\n\tlet x = 10;\n\tdo {\n\t\tconsole.log(x);\n\t\tx--;\n\t} while (x > 0);",
+                "Reading data from an array:\n\tlet i = 0;\n\tlet data = [1, 2, 3];\n\tdo {\n\t\tconsole.log(data[i]);\n\t\ti++;\n\t} while (i < data.length);",
+                "Stopping based on a condition:\n\tlet continueLoop = true;\n\tdo {\n\t\tconsole.log('Running...');\n\t\tcontinueLoop = checkState();\n\t} while (continueLoop);"
+            ]
+        },
+        {
+            "tag": "examples_of_method_declaration_in_javascript",
+            "patterns": [
+                "Give me examples of how to declare methods in JavaScript.",
+                "How are methods created in JavaScript?",
+                "Show me examples of methods in JavaScript.",
+                "I want to see how methods are declared in objects.",
+                "Can you show me examples of methods in JavaScript?"
+            ],
+            "responses": [
+                "A method inside an object:\n\tconst person = {\n\t\tgreet: function() {\n\t\t\tconsole.log('Hello');\n\t\t}\n\t};",
+                "Using shorthand syntax:\n\tconst car = {\n\t\tstart() {\n\t\t\tconsole.log('Vroom!');\n\t\t}\n\t};",
+                "Methods with parameters:\n\tconst calculator = {\n\t\tadd(a, b) {\n\t\t\treturn a + b;\n\t\t}\n\t};",
+                "Methods in classes:\n\tclass Animal {\n\t\twalk() {\n\t\t\tconsole.log('Walking');\n\t\t}\n\t}",
+                "Method using this:\n\tconst user = {\n\t\tname: 'Juan',\n\t\tintroduce() {\n\t\t\tconsole.log('Hi, I am ' + this.name);\n\t\t}\n\t};"
+            ]
+        },
+        {
+            "tag": "examples_of_function_declaration_in_javascript",
+            "patterns": [
+                "Give me examples of how to declare functions in JavaScript.",
+                "How are functions created in JavaScript?",
+                "Show me examples of functions in JavaScript.",
+                "I want to see how functions are declared in JavaScript.",
+                "Can you show me examples of functions in JavaScript?"
+            ],
+            "responses": [
+                "Classic function:\n\tfunction greet() {\n\t\tconsole.log('Hello, world');\n\t}",
+                "Function with parameters:\n\tfunction add(a, b) {\n\t\treturn a + b;\n\t}",
+                "Anonymous function assigned to a variable:\n\tconst multiply = function(x, y) {\n\t\treturn x * y;\n\t};",
+                "Arrow function:\n\tconst divide = (a, b) => {\n\t\treturn a / b;\n\t};",
+                "Single-line arrow function:\n\tconst square = n => n * n;"
+            ]
+        },
+        {
+            "tag": "examples_of_variable_declaration_in_python",
+            "patterns": [
+                "Give me examples of how to declare variables in Python.",
+                "How are variables declared in Python?",
+                "Show me examples of variable declaration in Python.",
+                "I want to see how variables are declared in Python.",
+                "Can you give me an example of a variable in Python?"
+            ],
+            "responses": [
+                "Basic declaration:\n\tname = 'Juan'\n\tage = 25\n\tpi = 3.14",
+                "You can declare multiple variables in one line:\n\tx, y, z = 1, 2, 3",
+                "Text and number variables:\n\ttext = 'Hello, world'\n\tnumber = 42",
+                "Using lists:\n\tfruits = ['apple', 'pear', 'banana']",
+                "Dictionary declaration:\n\tperson = {'name': 'Carlos', 'age': 30}"
+            ]
+        },
+        {
+            "tag": "examples_of_constant_declaration_in_python",
+            "patterns": [
+                "Give me examples of how to declare constants in Python.",
+                "How are constants declared in Python?",
+                "Show me examples of constant declaration in Python.",
+                "I want to see how constants are used in Python.",
+                "Can you give me examples of constants in Python?"
+            ],
+            "responses": [
+                "In Python, there are no strict constants, but uppercase is used by convention:\n\tPI = 3.14\n\tGRAVITY = 9.8",
+                "You can define constants in a separate module to keep things organized:\n\t# constants.py\n\tBASE_URL = 'https://api.example.com'",
+                "Another example:\n\tMAX_USERS = 1000",
+                "String constants:\n\tWELCOME_MESSAGE = 'Welcome to the system'",
+                "Boolean constants:\n\tIS_ACTIVE = True\n\tIS_ADMIN = False"
+            ]
+        },        
+        {
+            "tag": "examples_of_for_loop_in_python",
+            "patterns": [
+                "Give me examples of a for loop in Python.",
+                "How is a for loop used in Python?",
+                "Show me examples of for loops in Python.",
+                "I want to see a practical example of a for loop in Python.",
+                "Can you show me how to use a for loop in Python?"
+            ],
+            "responses": [
+                "A basic example:\n\tfor i in range(5):\n\t\tprint(i)",
+                "To iterate over a list:\n\tfruits = ['apple', 'pear', 'banana']\n\tfor fruit in fruits:\n\t\tprint(fruit)",
+                "Using for with dictionaries:\n\tperson = {'name': 'Juan', 'age': 25}\n\tfor key, value in person.items():\n\t\tprint(key, ':', value)",
+                "Iterating over a string:\n\tfor letter in 'Python':\n\t\tprint(letter)",
+                "To iterate in descending order:\n\tfor i in range(10, 0, -1):\n\t\tprint(i)"
+            ]
+        },
+        {
+            "tag": "examples_of_while_loop_in_python",
+            "patterns": [
+                "Give me examples of a while loop in Python.",
+                "How is a while loop used in Python?",
+                "Show me examples of while loops in Python.",
+                "I want to see a practical example of a while loop in Python.",
+                "Can you show me how to use a while loop in Python?"
+            ],
+            "responses": [
+                "A basic example:\n\ti = 0\n\twhile i < 5:\n\t\tprint(i)\n\t\ti += 1",
+                "To exit when a condition is met:\n\twhile not ready:\n\t\tdo_something()",
+                "Counting backward:\n\ti = 10\n\twhile i > 0:\n\t\tprint(i)\n\t\ti -= 1",
+                "To process list items:\n\tfruits = ['apple', 'pear', 'banana']\n\twhile fruits:\n\t\tprint(fruits.pop())",
+                "Infinite loop (use break to exit):\n\twhile True:\n\t\tcommand = input('>> ')\n\t\tif command == 'exit':\n\t\t\tbreak"
+            ]
+        },
+        {
+            "tag": "examples_of_do_while_loop_in_python",
+            "patterns": [
+                "Give me examples of a do while loop in Python.",
+                "How is a do while loop used in Python?",
+                "Show me examples of do while loops in Python.",
+                "I want to see a practical example of a do while loop in Python.",
+                "Can you show me how to use a do while loop in Python?"
+            ],
+            "responses": [
+                "Python does not have a do while loop, but you can simulate it like this:\n\twhile True:\n\t\tprint('Running')\n\t\tif condition:\n\t\t\tbreak",
+                "Another example:\n\ti = 0\n\twhile True:\n\t\tprint(i)\n\t\ti += 1\n\t\tif i >= 5:\n\t\t\tbreak",
+                "Simulation for reading data:\n\twhile True:\n\t\tnumber = int(input('Enter a number: '))\n\t\tif number == 0:\n\t\t\tbreak",
+                "To execute at least once:\n\twhile True:\n\t\tprocess()\n\t\tif is_ready():\n\t\t\tbreak",
+                "Descending counter:\n\ti = 10\n\twhile True:\n\t\tprint(i)\n\t\ti -= 1\n\t\tif i == 0:\n\t\t\tbreak"
+            ]
+        },
+        {
+            "tag": "examples_of_function_declaration_in_python",
+            "patterns": [
+                "Give me examples of how to declare functions in Python.",
+                "How are functions created in Python?",
+                "Show me examples of functions in Python.",
+                "I want to see how functions are declared in Python.",
+                "Can you show me examples of functions in Python?"
+            ],
+            "responses": [
+                "Basic function:\n\tdef greet():\n\t\tprint('Hello, world')",
+                "Function with parameters:\n\tdef add(a, b):\n\t\treturn a + b",
+                "Function with default values:\n\tdef introduce(name='Anonymous'):\n\t\tprint(f'Hello, {name}')",
+                "Lambda function:\n\tsquare = lambda x: x * x",
+                "Recursive function:\n\tdef factorial(n):\n\t\tif n == 0:\n\t\t\treturn 1\n\t\telse:\n\t\t\treturn n * factorial(n-1)"
+            ]
+        },
+        {
+            "tag": "examples_of_method_declaration_in_python",
+            "patterns": [
+                "Give me examples of how to declare methods in Python.",
+                "How are methods created in Python?",
+                "Show me examples of methods in Python.",
+                "I want to see how methods are declared in classes.",
+                "Can you show me examples of methods in Python?"
+            ],
+            "responses": [
+                "Basic method:\n\tclass Person:\n\t\tdef greet(self):\n\t\t\tprint('Hello')",
+                "Method with parameters:\n\tclass Calculator:\n\t\tdef add(self, a, b):\n\t\t\treturn a + b",
+                "Method with initializer:\n\tclass Person:\n\t\tdef __init__(self, name):\n\t\t\tself.name = name",
+                "Method using attributes:\n\tclass Animal:\n\t\tdef __init__(self, species):\n\t\t\tself.species = species\n\t\tdef info(self):\n\t\t\tprint(f'I am a {self.species}')",
+                "Static method:\n\tclass Math:\n\t\t@staticmethod\n\t\tdef add(a, b):\n\t\t\treturn a + b"
+            ]
+        },
+        {
+            "tag": "examples_of_class_creation_in_python",
+            "patterns": [
+                "Give me examples of how to create classes in Python.",
+                "How are classes created in Python?",
+                "Show me examples of classes in Python.",
+                "I want to see how classes are declared in Python.",
+                "Can you show me examples of classes in Python?"
+            ],
+            "responses": [
+                "Basic class:\n\tclass Person:\n\t\tpass",
+                "Class with attributes:\n\tclass Person:\n\t\tdef __init__(self, name, age):\n\t\t\tself.name = name\n\t\t\tself.age = age",
+                "Class with methods:\n\tclass Person:\n\t\tdef __init__(self, name):\n\t\t\tself.name = name\n\t\tdef greet(self):\n\t\t\tprint(f'Hello, I am {self.name}')",
+                "Class with inheritance:\n\tclass Student(Person):\n\t\tdef __init__(self, name, grade):\n\t\t\tsuper().__init__(name)\n\t\t\tself.grade = grade",
+                "Class with static method:\n\tclass Utility:\n\t\t@staticmethod\n\t\tdef add(a, b):\n\t\t\treturn a + b"
+            ]
+        },
+        {
+            "tag": "hello",
+            "patterns": [
+                "hello",
+                "good morning",
+                "Good afternoon",
+                "good night",
+                "hey"
+            ],
+            "responses": [
+                "Hi, how are you",
+                "hi how are things",
+                "good morning how are you",
+                "good afternoon how are you",
+                "good night how are you"
+            ]
+        },
+        {
+            "tag": "good",
+            "patterns": [
+                "good"
+            ],
+            "responses": [
+                "I'm glad to know, tell me how I can help you, I'm trained in programming topics ",
+                "What a joy, I can help you on different topics, I am trained in programming topics",
+                "I'm glad to hear that, I can help you with the programming issue"
+            ]
+        },
+        {
+            "tag": "good and you",
+            "patterns": [
+                "good and you",
+                "fine and how are you",
+                "well and how are you",
+                "well and what do you say",
+                "well and what about you",
+                "there more or less and you",
+                "there more or less and how about you?",
+                "there more or less and what do you say?",
+                "there more or less and what about you?",
+                "more or less and you",
+                "more or less and how are you?",
+                "more or less and how about you?",
+                "more or less and what do you say?",
+                "more or less and what about you?",
+                "regular and you",
+                "regular and how are you?",
+                "regular and how are you?",
+                "regular and what do you say",
+                "regular and what about you"
+            ],
+            "responses": [
+                "Okay, tell me how I can help you, I am trained in programming topics, algorithms and the occasional joke.",
+                "What a joy, I can help you on different topics, I am trained in programming topics, algorithms and the occasional joke.",
+                "I'm glad to hear that, I can help you with the topic of programming, algorithms and some other jokes",
+                "I am here to help you with whatever you need, I am trained in programming topics, algorithms and the occasional joke."
+            ]
+        },
+        {
+            "tag": "how can you help me",
+            "patterns": [
+                "how can you help me"
+            ],
+            "responses": [
+                "I can answer questions, give you information and help you with whatever you need, I am trained in programming topics",
+                "I am here to answer your questions and help you with whatever you need, I am trained in programming issues,",
+                "I can help you on topics such as programming"
+            ]
+        },
+        {
+            "tag": "hello good",
+            "patterns": [
+                "hello good"
+            ],
+            "responses": [
+                "Hi, how are you",
+                "hi how are things",
+                "good morning how are you"
+            ]
+        },
+        {
+            "tag": "hey",
+            "patterns": [
+                "hey"
+            ],
+            "responses": [
+                "good morning how are you",
+                "hi how are things",
+                "hi how are things",
+                "Hi, how are you",
+                "good morning how are you",
+                "Hi, how are you"
+            ]
+        },
+        {
+            "tag": "how are you",
+            "patterns": [
+                "how are you"
+            ],
+            "responses": [
+                "I'm fine thanks for asking",
+                "everything is fine, and you?"
+            ]
+        },
+        {
+            "tag": "all good",
+            "patterns": [
+                "all good"
+            ],
+            "responses": [
+                "I'm glad, how can I help you?",
+                "That's great, how can I help you?",
+                "I'm glad to hear that, how can I help you?",
+                "What a joy, how can I help you?"
+            ]
+        },
+        {
+            "tag": "bye",
+            "patterns": [
+                "bye",
+                "see you later",
+                "see you",
+                "goodbye"
+            ],
+            "responses": [
+                "goodbye take care",
+                "see you later",
+                "see you"
+            ]
+        },
+        {
+            "tag": "see you",
+            "patterns": [
+                "see you",
+                "see you later",
+                "bye",
+                "goodbye"
+            ],
+            "responses": [
+                "goodbye take care",
+                "see you later",
+                "see you"
+            ]
+        },
+        {
+            "tag": "good morning",
+            "patterns": [
+                "good morning"
+            ],
+            "responses": [
+                "Hello, how are you today?",
+                "good morning how are you feeling today",
+                "good morning, I hope you have a great day, I can help you with programming, algorithms and some other jokes."
+            ]
+        },
+        {
+            "tag": "algorithms",
+            "patterns": [
+                "what are algorithms",
+                "explain to me what an algorithm is",
+                "tell me what is an algorithm",
+                "tell me what algorithms are",
+                "what is an algorithm"
+            ],
+            "responses": [
+                "An algorithm is a finite sequence of steps that solves a problem or performs a task.",
+                "It is a set of ordered and finite instructions that allow solving a problem",
+                "Algorithms are the basis of programming and solving computational problems",
+                "are well-defined procedures for performing a task or solving a problem"
+            ]
+        },
+        {
+            "tag": "example_algorithms",
+            "patterns": [
+                "give me an example of an algorithm",
+                "I want to see an example of an algorithm",
+                "explain me an example of algorithm",
+                "tell me an example of algorithm",
+                "algorithm example"
+            ],
+            "responses": [
+                "A simple example of an algorithm is the addition of two numbers",
+                "Another example is the bubble sort algorithm",
+                "A common algorithm is binary search in a sorted array.",
+                "matrix multiplication is an example of a more complex algorithm",
+                "Euclid's algorithm for finding the greatest common factor is another example."
+            ]
+        },
+        {
+            "tag": "programming_algorithms",
+            "patterns": [
+                "tell me the name of programming algorithms",
+                "names of programming algorithms",
+                "What are the best known programming algorithms?",
+                "programming algorithms",
+                "most popular programming algorithms",
+                "tell me examples of programming algorithms"
+            ],
+            "responses": [
+                "Some well-known programming algorithms are: binary search, bubble sort, quicksort, mergesort, etc.",
+                "Among the best-known programming algorithms are: DFS, BFS, Dijkstra, Floyd-Warshall, etc.",
+                "Examples of programming algorithms are: backtracking, dynamic programming, divide and conquer, etc.",
+                "Classic programming algorithms include: binary trees, graphs, linked lists, etc."
+            ]
+        },
+        {
+            "tag": "what is your name",
+            "patterns": [
+                "what is your name",
+                "what's your name",
+                "who are you",
+                "as they tell you",
+                "what do they call you"
+            ],
+            "responses": [
+                "I'm a virtual assistant but you can call me a bot",
+                "My name is bot, your assistant",
+                "you can call me bot, I'm here to help you"
+            ]
+        },
+        {
+            "tag": "do you have_any_name",
+            "patterns": [
+                "do you have any name",
+                "what's your name",
+                "who are you",
+                "what is your name",
+                "as they tell you",
+                "what do they call you",
+                "you have a name",
+                "how do you identify"
+            ],
+            "responses": [
+                "I'm a virtual assistant but you can call me a bot",
+                "My name is bot, your assistant",
+                "you can call me bot, I'm here to help you",
+                "They call me bot, I'm here to help you",
+                "I identify myself as a bot, your virtual assistant"
+            ]
+        },
+        {
+            "tag": "who are you",
+            "patterns": [
+                "who are you",
+                "what is your name",
+                "what's your name",
+                "as they tell you",
+                "what do they call you"
+            ],
+            "responses": [
+                "I'm a virtual assistant but you can call me a bot",
+                "My name is bot, your assistant",
+                "you can call me bot, I'm here to help you",
+                "They call me bot, I'm here to help you",
+                "I identify myself as a bot, your virtual assistant",
+                "I am a bot, a virtual assistant"
+            ]
+        },
+        {
+            "tag": "what_can_you_do",
+            "patterns": [
+                "what can you do",
+                "how can you help me",
+                "what do you know how to do",
+                "What tasks can you do?",
+                "What functions do you have?",
+                "What functions can you perform?",
+                "what can you do for me",
+                "how can you help me",
+                "what can you do for me"
+            ],
+            "responses": [
+                "I can answer questions, give you information and help you with whatever you need. I am trained in programming topics, algorithms and the occasional joke.",
+                "I am here to answer your questions and help you with whatever you need. I am trained in programming topics, algorithms and the occasional joke.",
+                "I can help you on topics such as programming, algorithms and some other jokes.",
+                "I can help you with programming topics, algorithms and some other jokes."
+            ]
+        },
+        {
+            "tag": "thank you",
+            "patterns": [
+                "thank you",
+                "thanks for your help",
+                "very kind for your help",
+                "thanks for your assistance",
+                "thank you for your support",
+                "thanks for your collaboration"
+            ],
+            "responses": [
+                "you're welcome always here to help you",
+                "it doesn't matter",
+                "I'm here for whatever you need",
+                "No problem, I'm here to help you."
+            ]
+        },
+        {
+            "tag": "sorry",
+            "patterns": [
+                "sorry",
+                "sorry",
+                "I'm sorry",
+                "sorry"
+            ],
+            "responses": [
+                "don't worry everything is fine",
+                "No problem, how can I help you? I am trained in programming topics, algorithms and one or another joke.",
+                "It's okay, how can I help you? I am trained in programming topics, algorithms and the odd joke."
+            ]
+        },
+        {
+            "tag": "I'm sorry",
+            "patterns": [
+                "I'm sorry",
+                "sorry",
+                "sorry",
+                "sorry"
+            ],
+            "responses": [
+                "It's okay, how can I help you? I am trained in programming topics and the occasional joke.",
+                "Don't worry, I'm here to help you with programming issues, some algorithms and the occasional joke.",
+                "No problem, how can I help you? I am trained in programming topics, algorithms and one or another joke."
+            ]
+        },
+        {
+            "tag": "what time is it",
+            "patterns": [
+                "what time is it",
+                "tell me the time",
+                "hour",
+                "you know the time",
+                "can you tell me the time"
+            ],
+            "responses": [
+                "Sorry I can't give the exact time but I can help you with other things",
+                "I don't have a watch, but I can help you with something else",
+                "I don't have the exact time, but I can help you with something else."
+            ]
+        },
+        {
+            "tag": "what_day_is_today",
+            "patterns": [
+                "What day is today",
+                "tell me today",
+                "today",
+                "do you know what day it is today"
+            ],
+            "responses": [
+                "Today is a big day, how can I help you? ",
+                "Today is a perfect day to learn something new.",
+                "Today is an excellent day to learn something new, how can I help you?"
+            ]
+        },
+        {
+            "tag": "aid",
+            "patterns": [
+                "aid",
+                "I need help",
+                "help me",
+                "can you help me",
+                "I require help"
+            ],
+            "responses": [
+                "Of course, tell me what you need and I will see how to help you, I am trained in programming topics, algorithms and the odd joke.",
+                "I am here for whatever you need, tell me how I can help you, I am trained in programming topics, algorithms and the odd joke.",
+                "I can help you with programming topics, algorithms and one or another joke, tell me what you need"
+            ]
+        },
+        {
+            "tag": "I'm sad",
+            "patterns": [
+                "I'm sad",
+                "I feel sad",
+                "sad",
+                "I feel alone",
+                "I don't feel well"
+            ],
+            "responses": [
+                "I'm so sorry if you need to talk or support I'm here",
+                "I understand you, you are not alone, tell me more, do you want to know something about programming? Something about algorithms or a joke?",
+                "I'm very sorry, if you need to talk or support I'm here, do you want to know something about programming? Something about algorithms or a joke?"
+            ]
+        },
+        {
+            "tag": "I'm happy",
+            "patterns": [
+                "I'm happy",
+                "I feel happy",
+                "happy",
+                "I feel good",
+                "I feel great"
+            ],
+            "responses": [
+                "What a joy to hear that, it makes me happy to know that you are well, how can I help you?",
+                "That's great, I love knowing it! How can I help you?",
+                "I'm glad to hear that, do you want to know something about programming? Something about algorithms or a joke?"
+            ]
+        },
+        {
+            "tag": "tell_me_a_joke",
+            "patterns": [
+                "tell me a joke",
+                "I want to hear a joke",
+                "tell me a joke",
+                "I want to laugh",
+                "I need a joke",
+                "tell a joke"
+            ],
+            "responses": [
+                "Why don't birds use Facebook because they already have Twitter?",
+                "What does a bee do in the gym?",
+                "What is Pepito doing in church playing with his cell phone, he is in airplane mode",
+                "What does a gardener say to another gardener, you are a plant",
+                "What does a cat say to another cat, you're meow"
+            ]
+        },
+        {
+            "tag": "tweet",
+            "patterns": [
+                "what is a tweet",
+                "what is twitter",
+                "what is a tweet",
+                "what is tweeting",
+                "what is a twitterer"
+            ],
+            "responses": [
+                "A tweet is a short message that is published on the social network Twitter.",
+                "Twitter is a social network where users can post short messages called tweets.",
+                "tweeting is the act of publishing a message on the social network twitter",
+                "A Twitter user is a person who uses the social network Twitter to post messages."
+            ]
+        },
+        {
+            "tag": "church",
+            "patterns": [
+                "what is a church",
+                "what is a catholic church",
+                "What is an evangelical church?"
+            ],
+            "responses": [
+                "A church is a place of religious worship where worshipers gather to pray and worship God.",
+                "The Catholic Church is one of the branches of Christianity that follows the doctrine and teachings of Jesus Christ",
+                "The evangelical church is a branch of Christianity that is characterized by its emphasis on the preaching of the gospel and the conversion of the faithful."
+            ]
+        },
+        {
+            "tag": "tell me_a_joke",
+            "patterns": [
+                "tell me a joke"
+            ],
+            "responses": [
+                "Why don't birds use Facebook because they already have Twitter?",
+                "What does a bee do in the gym?"
+            ]
+        },
+        {
+            "tag": "tell me_another_joke",
+            "patterns": [
+                "tell me another joke",
+                "tell me another joke",
+                "I want to hear another joke",
+                "another joke",
+                "tell another joke"
+            ],
+            "responses": [
+                "Why don't birds use Facebook because they already have Twitter?",
+                "What does a bee do in the gym?"
+            ]
+        },
+        {
+            "tag": "what_are_the_birds",
+            "patterns": [
+                "what are birds",
+                "what are birds",
+                "what is a bird",
+                "what is a bird"
+            ],
+            "responses": [
+                "Birds are flying animals that have feathers and a beak.",
+                "Birds are animals that fly and have feathers.",
+                "They are animals that fly and have feathers, wings and generally the ability to fly"
+            ]
+        },
+        {
+            "tag": "what_is_a_bird",
+            "patterns": [
+                "what is a bird"
+            ],
+            "responses": [
+                "A bird is a flying animal that has feathers and a beak.",
+                "a bird is an animal that flies and has a feather",
+                "A bird is a vertebrate animal with feathers, wings and generally the ability to fly."
+            ]
+        },
+        {
+            "tag": "what_is_facebook",
+            "patterns": [
+                "what is facebook",
+                "what is a social network",
+                "what is a social network called facebook",
+                "facebook"
+            ],
+            "responses": [
+                "Facebook is a social network where people can share content, interact and connect."
+            ]
+        },
+        {
+            "tag": "social_network",
+            "patterns": [
+                "what is a social network"
+            ],
+            "responses": [
+                "A social network is a digital platform where people can interact, share ideas, content and communicate with each other."
+            ]
+        },
+        {
+            "tag": "social networks",
+            "patterns": [
+                "what are social networks"
+            ],
+            "responses": [
+                "Social networks are digital platforms that allow users to connect, share content and communicate with each other."
+            ]
+        },
+        {
+            "tag": "people",
+            "patterns": [
+                "what are people",
+                "what is a person",
+                "what is a human being"
+            ],
+            "responses": [
+                "People are human beings who have thinking, reasoning and communication capabilities."
+            ]
+        },
+        {
+            "tag": "share",
+            "patterns": [
+                "What does it mean to share?",
+                "what is sharing",
+                "share"
+            ],
+            "responses": [
+                "Sharing means making something available to others to use or enjoy together."
+            ]
+        },
+        {
+            "tag": "connect",
+            "patterns": [
+                "what is connecting",
+                "what does it mean to connect",
+                "connect"
+            ],
+            "responses": [
+                "connect is to establish a relationship or link between two or more elements"
+            ]
+        },
+        {
+            "tag": "connect",
+            "patterns": [
+                "what does it mean to connect",
+                "connect"
+            ],
+            "responses": [
+                "connect means join or link things, people or ideas so that they interact or work together"
+            ]
+        },
+        {
+            "tag": "what_is_twitter",
+            "patterns": [
+                "what is twitter",
+                "twitter"
+            ],
+            "responses": [
+                "Twitter is a platform where users can post short messages called tweets."
+            ]
+        },
+        {
+            "tag": "why_the_birds_don't_use_facebook",
+            "patterns": [
+                "Why don't birds use Facebook?"
+            ],
+            "responses": [
+                "because they already have twitter"
+            ]
+        },
+        {
+            "tag": "what_does_a_bee_do_in_the_gym",
+            "patterns": [
+                "What does a bee do in the gym?"
+            ],
+            "responses": [
+                "zumba"
+            ]
+        },
+        {
+            "tag": "zumba",
+            "patterns": [
+                "what is zumba",
+                "what is zumba",
+                "zumba"
+            ],
+            "responses": [
+                "Zumba is a physical activity that combines dance and exercise to the rhythm of Latin music"
+            ]
+        },
+        {
+            "tag": "bees",
+            "patterns": [
+                "what are bees",
+                "what is a bee",
+                "what bees do",
+                "bees",
+                "what does the bee do"
+            ],
+            "responses": [
+                "Bees are pollinating insects that play a crucial role in the ecosystem and produce honey"
+            ]
+        },
+        {
+            "tag": "what_birds_do_in_social_networks",
+            "patterns": [
+                "What birds do on social networks"
+            ],
+            "responses": [
+                "In this context, the birds use Twitter as part of the joke."
+            ]
+        },
+        {
+            "tag": "what_is_a_gym",
+            "patterns": [
+                "what is a gym",
+                "gym"
+            ],
+            "responses": [
+                "A gym is a place where people go to exercise and improve their physical condition."
+            ]
+        },
+        {
+            "tag": "I'm encouraged",
+            "patterns": [
+                "I'm encouraged",
+                "I feel encouraged",
+                "lively",
+                "I feel good",
+                "I feel great"
+            ],
+            "responses": [
+                "What a joy to hear that, it makes me happy to know that you are well.",
+                "That's great, I love knowing that!",
+                "I'm glad to hear that, do you want to know something about programming? Something about algorithms or a joke?"
+            ]
+        },
+        {
+            "tag": "I'm wonderful",
+            "patterns": [
+                "I'm wonderful",
+                "I feel wonderful",
+                "wonderfully",
+                "I feel great",
+                "I feel excellent"
+            ],
+            "responses": [
+                "What a joy to hear that, it makes me happy to know that you are well.",
+                "That's great, I love knowing that!",
+                "I'm glad to hear that, do you want to know something about programming? Something about algorithms or a joke?",
+                "I'm glad to hear that, how can I help you?"
+            ]
+        },
+        {
+            "tag": "what day do we have",
+            "patterns": [
+                "what day do we have",
+                "What day is today",
+                "tell me today",
+                "today",
+                "do you know what day it is today"
+            ],
+            "responses": [
+                "Today is a big day, how can I help you?",
+                "Today is a perfect day to learn something new."
+            ]
+        },
+        {
+            "tag": "what day is it",
+            "patterns": [
+                "what day is it"
+            ],
+            "responses": [
+                "Today is a big day, how can I help you? You want to know what programming is about.",
+                "Today is a perfect day to learn something new."
+            ]
+        },
+        {
+            "tag": "Yeah",
+            "patterns": [
+                "What is an if in programming?",
+                "what is an if",
+                "what is an if in python"
+            ],
+            "responses": [
+                "The if is a control structure that allows you to make decisions in a program",
+                "The if is a statement that allows a block of code to be executed if a condition is met.",
+                "The if is a control structure that allows a block of code to be executed if a condition is met."
+            ]
+        },
+        {
+            "tag": "are you available",
+            "patterns": [
+                "are you available"
+            ],
+            "responses": [
+                "Of course I am here to help you, I am trained in programming topics and the occasional joke or algorithm.",
+                "I am available, tell me how I can help you, I can help you with programming issues, algorithms and one or another joke"
+            ]
+        },
+        {
+            "tag": "can you help me",
+            "patterns": [
+                "can you help me"
+            ],
+            "responses": [
+                "Of course tell me what you need and I will see how to help you.",
+                "I'm here for whatever you need, tell me how I can help you"
+            ]
+        },
+        {
+            "tag": "help me",
+            "patterns": [
+                "you help me"
+            ],
+            "responses": [
+                "Of course tell me what you need and I will see how to help you.",
+                "I'm here for whatever you need, tell me how I can help you"
+            ]
+        },
+        {
+            "tag": "help me",
+            "patterns": [
+                "help me"
+            ],
+            "responses": [
+                "Of course, tell me what you need and I will see how to help you, I am trained in programming topics and the occasional joke.",
+                "I am here for whatever you need, tell me how I can help you, I am trained in programming topics and the occasional joke."
+            ]
+        },
+        {
+            "tag": "Hello, can I ask you something?",
+            "patterns": [
+                "Hello, can I ask you something?",
+                "Hello, can I ask you a question?",
+                "Hello, can I ask you something?"
+            ],
+            "responses": [
+                "Of course I'm here to answer your questions."
+            ]
+        },
+        {
+            "tag": "why_you_exist",
+            "patterns": [
+                "why do you exist"
+            ],
+            "responses": [
+                "I was created to help you and improve your interactions with technology"
+            ]
+        },
+        {
+            "tag": "what_is_programming",
+            "patterns": [
+                "what is programming",
+                "what is programming",
+                "what is programming",
+                "program",
+                "programming"
+            ],
+            "responses": [
+                "It is the creation of code to solve problems or automate tasks on a computer.",
+                "It is the process of writing instructions that a computer can understand."
+            ]
+        },
+        {
+            "tag": "what_is_instructions",
+            "patterns": [
+                "what is instructions",
+                "what are instructions",
+                "what is an instruction",
+                "what are the instructions"
+            ],
+            "responses": [
+                "They are specific directions that tell a computer what to do step by step.",
+                "They are organized orders that a machine or person follows to perform a task."
+            ]
+        },
+        {
+            "tag": "what_is_a_computer",
+            "patterns": [
+                "what is a computer",
+                "what is a pc",
+                "what is a computer",
+                "what is a laptop",
+                "what is a laptop"
+            ],
+            "responses": [
+                "It is an electronic device capable of processing and storing data following instructions.",
+                "It is a machine designed to perform calculations and run software programs."
+            ]
+        },
+        {
+            "tag": "code",
+            "patterns": [
+                "What does code creation mean?",
+                "what is code",
+                "what is programming",
+                "what is code creation",
+                "what is writing code"
+            ],
+            "responses": [
+                "It is the process of writing lines of text in a programming language to build software.",
+                "It is developing instructions that define how a program or system should work."
+            ]
+        },
+        {
+            "tag": "what_is_automating",
+            "patterns": [
+                "what is automation",
+                "What does it mean to automate?",
+                "What is automation?",
+                "What does automation mean?"
+            ],
+            "responses": [
+                "It is making processes or tasks carried out automatically without constant human intervention.",
+                "It is using technology to execute repetitive activities efficiently."
+            ]
+        },
+        {
+            "tag": "electronic device",
+            "patterns": [
+                "what is an electronic device",
+                "what is a digital device",
+                "What is a technological device?",
+                "what is an electronic device"
+            ],
+            "responses": [
+                "It is a device that runs on electricity and performs specific tasks using electronic circuits.",
+                "It is a machine that uses electrical and electronic components to process information or perform actions."
+            ]
+        },
+        {
+            "tag": "process_information",
+            "patterns": [
+                "What does it mean to process information?",
+                "What is information processing?",
+                "what is processing data",
+                "What does it mean to process data?"
+            ],
+            "responses": [
+                "It is performing operations on data to transform it into useful information.",
+                "It is applying algorithms or rules to analyze, organize or convert data."
+            ]
+        },
+        {
+            "tag": "store_data",
+            "patterns": [
+                "what is storing data",
+                "What does it mean to store data?",
+                "what is saving data",
+                "What does it mean to save data?"
+            ],
+            "responses": [
+                "It is saving information in a physical or digital medium for future use.",
+                "It is keeping data in an organized way to access it when needed."
+            ]
+        },
+        {
+            "tag": "useful_information",
+            "patterns": [
+                "what is useful information",
+                "What does useful information mean?",
+                "What is valuable information?",
+                "What does valuable information mean?"
+            ],
+            "responses": [
+                "It is knowledge derived from data that has value for making decisions or solving problems.",
+                "It is the result of processing data in a way that makes it understandable and actionable."
+            ]
+        },
+        {
+            "tag": "derived_knowledge",
+            "patterns": [
+                "what is derived knowledge",
+                "What does derived knowledge mean?",
+                "what is obtained knowledge",
+                "What does obtained knowledge mean?"
+            ],
+            "responses": [
+                "It is information obtained by processing and analyzing data in a logical and systematic way.",
+                "It is the understanding generated from data that has a context or purpose."
+            ]
+        },
+        {
+            "tag": "automatic_task",
+            "patterns": [
+                "What is an automatic task?",
+                "What does automatic task mean?",
+                "What is an automatic activity?",
+                "What does automatic activity mean?"
+            ],
+            "responses": [
+                "It is an activity that is carried out without the need for continuous human intervention.",
+                "It is a process that is executed independently through programming or devices."
+            ]
+        },
+        {
+            "tag": "organized_steps",
+            "patterns": [
+                "What are organized steps?",
+                "What does organized steps mean?",
+                "which are structured instructions",
+                "What does structured instructions mean?"
+            ],
+            "responses": [
+                "They are actions arranged in a logical order to achieve a specific objective.",
+                "They are structured instructions that guarantee that a process is carried out effectively."
+            ]
+        },
+        {
+            "tag": "what_it_means_to_make_decisions",
+            "patterns": [
+                "What does it mean to make decisions?",
+                "what is making decisions",
+                "What is choosing an option?",
+                "What does it mean to choose an option?"
+            ],
+            "responses": [
+                "It is the process of choosing an option among several available alternatives.",
+                "It is analyzing information to select the most appropriate action in a given situation."
+            ]
+        },
+        {
+            "tag": "analyze_data",
+            "patterns": [
+                "what is analyzing data",
+                "What does it mean to analyze data?",
+                "What is examining information?",
+                "What does it mean to examine information?"
+            ],
+            "responses": [
+                "It is examining information in detail to extract patterns, trends or conclusions.",
+                "It is the process of evaluating data to understand it and use it in decision making."
+            ]
+        },
+        {
+            "tag": "digital_media",
+            "patterns": [
+                "what is a digital medium",
+                "What does digital media mean?",
+                "what is a digital medium",
+                "What does digital media mean?"
+            ],
+            "responses": [
+                "It is an electronic medium such as hard drives, the cloud or USB devices where information is stored.",
+                "It is an environment based on digital technology that allows data to be stored and transmitted."
+            ]
+        },
+        {
+            "tag": "transform_data",
+            "patterns": [
+                "What does it mean to transform data?",
+                "what is transforming data",
+                "what is modifying information",
+                "What does it mean to modify information?"
+            ],
+            "responses": [
+                "It is modifying or reorganizing information to change its format, structure or purpose.",
+                "It is converting data into a more useful or understandable form for analysis or use."
+            ]
+        },
+        {
+            "tag": "repetitive_task",
+            "patterns": [
+                "which is a repetitive task",
+                "What does repetitive task mean?",
+                "which is a repetitive activity",
+                "What does repetitive activity mean?"
+            ],
+            "responses": [
+                "It is an action that is performed over and over again in a similar or identical manner.",
+                "It is a process that does not change over time and is usually automatable."
+            ]
+        },
+        {
+            "tag": "automatable",
+            "patterns": [
+                "which is automatable",
+                "What does automatable mean?",
+                "What is an automatable task?",
+                "What does an automatable task mean?"
+            ],
+            "responses": [
+                "It is something that can be set to run automatically without human intervention.",
+                "It is an activity that can be carried out autonomously by technological systems."
+            ]
+        },
+        {
+            "tag": "organized_rules",
+            "patterns": [
+                "What are organized rules?",
+                "What does organized rules mean?",
+                "which are structured rules",
+                "What does structured norms mean?"
+            ],
+            "responses": [
+                "They are rules arranged in a logical and structured way to guarantee efficient operation.",
+                "They are principles that define an order to carry out tasks effectively."
+            ]
+        },
+        {
+            "tag": "perform_tasks",
+            "patterns": [
+                "What does it mean to perform tasks?",
+                "what is doing tasks",
+                "what is executing activities",
+                "What does it mean to execute activities?"
+            ],
+            "responses": [
+                "It is executing specific activities or actions to meet an objective.",
+                "It is carrying out a set of steps that lead to an expected result."
+            ]
+        },
+        {
+            "tag": "structured_activity",
+            "patterns": [
+                "which is a structured activity",
+                "What does structured activity mean?",
+                "what is an organized task",
+                "What does organized task mean?"
+            ],
+            "responses": [
+                "It is a planned action with a defined beginning, middle and end.",
+                "It is a set of steps organized to achieve a clear purpose."
+            ]
+        },
+        {
+            "tag": "identify_patterns",
+            "patterns": [
+                "what is identifying patterns",
+                "What does it mean to identify patterns?",
+                "what is recognizing structures",
+                "What does it mean to recognize structures?"
+            ],
+            "responses": [
+                "It is recognizing structures or repetitions within a set of data or information.",
+                "It is detecting similarities or regularities that help interpret or predict behaviors."
+            ]
+        },
+        {
+            "tag": "what_is_code",
+            "patterns": [
+                "what is code",
+                "what is a code",
+                "what is a programming code",
+                "what is a computer code"
+            ],
+            "responses": [
+                "It is a set of instructions written in a programming language to be executed by a computer.",
+                "It is a structured representation of orders that allow you to perform tasks or solve problems using software."
+            ]
+        },
+        {
+            "tag": "instruction_set",
+            "patterns": [
+                "what is a set of instructions",
+                "What does a set of instructions mean?",
+                "what is a group of orders",
+                "What does a group of orders mean?",
+                "what are the instructions",
+                "what are the orders"
+            ],
+            "responses": [
+                "They are several organized orders that, when executed, achieve an objective or complete a task.",
+                "It is a sequence of steps that tells a computer how to perform a specific action."
+            ]
+        },
+        {
+            "tag": "structured_representation",
+            "patterns": [
+                "What is a structured representation?",
+                "What does a structured representation mean?",
+                "what is an organized model",
+                "What does an organized model mean?"
+            ],
+            "responses": [
+                "It is an organized way of presenting information or data following a logical scheme.",
+                "It is a clear and orderly model or format that facilitates the understanding and execution of a process."
+            ]
+        },
+        {
+            "tag": "what_it_means_to_be_executed",
+            "patterns": [
+                "What does it mean to be executed?",
+                "what is running",
+                "what does it mean to execute",
+                "what is to carry out",
+                "what does it mean to carry out"
+            ],
+            "responses": [
+                "It is carrying out the instructions of a code so that the indicated actions are carried out.",
+                "It is processing the orders of a program to generate results or perform tasks."
+            ]
+        },
+        {
+            "tag": "what_are_orders",
+            "patterns": [
+                "what are orders",
+                "what is an order",
+                "what does order mean",
+                "what is an instruction",
+                "What does instruction mean?"
+            ],
+            "responses": [
+                "They are specific commands that tell a computer what to do and how to do it.",
+                "They are specific instructions that must be followed to complete a process."
+            ]
+        },
+        {
+            "tag": "tasks_using_software",
+            "patterns": [
+                "What does it mean to perform tasks using software?",
+                "what is performing tasks with software",
+                "what is executing actions with programs",
+                "What does it mean to execute actions with programs"
+            ],
+            "responses": [
+                "It is using programs or applications to execute activities or solve problems automatically.",
+                "It is using technological tools to carry out specific actions efficiently."
+            ]
+        },
+        {
+            "tag": "computer_executing_code",
+            "patterns": [
+                "what is a computer executing code",
+                "What does a computer executing code mean?",
+                "what is a pc processing instructions",
+                "What does a PC processing instructions mean?"
+            ],
+            "responses": [
+                "It is a device processing instructions written in a programming language.",
+                "It is the act of interpreting and following the orders defined in a code to perform actions."
+            ]
+        },
+        {
+            "tag": "process_instructions",
+            "patterns": [
+                "What does it mean to process instructions?",
+                "what is processing instructions",
+                "what is interpreting instructions",
+                "What does it mean to interpret instructions?"
+            ],
+            "responses": [
+                "It is interpreting and carrying out the actions indicated by a set of orders.",
+                "It is executing defined steps in code to produce specific results."
+            ]
+        },
+        {
+            "tag": "problems_with_code",
+            "patterns": [
+                "What is solving problems with code?",
+                "What does it mean to solve problems with code?",
+                "What is solving challenges with programming?",
+                "What does it mean to solve challenges with programming?"
+            ],
+            "responses": [
+                "It is writing and executing instructions to find solutions to challenges or needs.",
+                "It is using programming languages ​​to automate processes or create tools that simplify tasks."
+            ]
+        },
+        {
+            "tag": "write_a_command_set",
+            "patterns": [
+                "What does it mean to write a command set?",
+                "what is writing a set of commands",
+                "what is writing instructions",
+                "What does it mean to write instructions"
+            ],
+            "responses": [
+                "It is writing instructions in a programming language so that a computer understands them.",
+                "It is designing a logical sequence of steps to achieve a goal or perform a task."
+            ]
+        },
+        {
+            "tag": "ordered_model",
+            "patterns": [
+                "what is an ordered model",
+                "What does an ordered model mean?",
+                "what is an organized structure",
+                "What does an organized structure mean?"
+            ],
+            "responses": [
+                "It is an organized structure that facilitates the understanding and execution of a process.",
+                "It is a logical scheme that defines how tasks should be performed or data processed."
+            ]
+        },
+        {
+            "tag": "what_is_an_algorithm",
+            "patterns": [
+                "what is an algorithm",
+                "What is an algorithm in programming?",
+                "what is a computer algorithm",
+                "what is a computer algorithm",
+                "algorithm"
+            ],
+            "responses": [
+                "It is a sequence of steps defined to solve a problem",
+                "is a set of instructions that are executed in order to achieve a goal",
+                "is a series of logical steps that describe how to solve a specific task"
+            ]
+        },
+        {
+            "tag": "step_set",
+            "patterns": [
+                "What does a set of steps mean?",
+                "which is a set of steps",
+                "what is a sequence of steps",
+                "What does a sequence of steps mean?"
+            ],
+            "responses": [
+                "They are several actions organized in a logical order to achieve a result.",
+                "It is a series of stages that must be followed to complete a task or solve a problem."
+            ]
+        },
+        {
+            "tag": "logical_way",
+            "patterns": [
+                "What does logically defined mean?",
+                "which is defined logically",
+                "that is structured in a logical way",
+                "What does logically structured mean?"
+            ],
+            "responses": [
+                "It is structured in a clear and coherent way, following reasonable rules or principles.",
+                "It is designed so that each step makes sense and is aligned with the final objective."
+            ]
+        },
+        {
+            "tag": "solve_a_problem_with_an_algorithm",
+            "patterns": [
+                "What does it mean to solve a problem with an algorithm?",
+                "What is solving a problem with an algorithm?",
+                "What is solving a problem with an algorithm?",
+                "What does it mean to solve a problem with an algorithm?"
+            ],
+            "responses": [
+                "It is using a sequence of clear steps to find a solution to a difficulty or need.",
+                "It is applying a set of organized instructions to overcome a challenge or fulfill a purpose."
+            ]
+        },
+        {
+            "tag": "written_steps",
+            "patterns": [
+                "What does a series of written steps mean?",
+                "which is a series of written steps",
+                "which is a list of detailed steps",
+                "What does a list of detailed steps mean?"
+            ],
+            "responses": [
+                "It is a list of detailed actions written in a format that can be understood and followed.",
+                "It is a group of instructions documented in a clear and organized manner."
+            ]
+        },
+        {
+            "tag": "interpret_an_algorithm",
+            "patterns": [
+                "What does it mean to interpret an algorithm?",
+                "what is interpreting an algorithm",
+                "what is analyzing an algorithm",
+                "What does it mean to analyze an algorithm?"
+            ],
+            "responses": [
+                "It is analyzing each step of a set of instructions to execute it appropriately.",
+                "It is converting the actions defined in an algorithm into operations that the computer can perform."
+            ]
+        },
+        {
+            "tag": "run_an_algorithm",
+            "patterns": [
+                "what is running an algorithm",
+                "What does it mean to run an algorithm?",
+                "what is applying an algorithm",
+                "What does it mean to apply an algorithm?"
+            ],
+            "responses": [
+                "It is carrying out the steps defined in an algorithm to obtain a result.",
+                "It is following the instructions of an algorithm to solve a problem or complete a task."
+            ]
+        },
+        {
+            "tag": "serves_an_algorithm",
+            "patterns": [
+                "What is an algorithm for?",
+                "What is the usefulness of an algorithm",
+                "What is the function of an algorithm?",
+                "What is the purpose of an algorithm"
+            ],
+            "responses": [
+                "serves to solve problems in a structured and efficient way",
+                "used to automate tasks and find solutions to complex problems",
+                "It is essential to create programs and systems that solve specific problems"
+            ]
+        },
+        {
+            "tag": "characteristics_of_an_algorithm",
+            "patterns": [
+                "What are the characteristics of an algorithm",
+                "What characteristics does an algorithm have?",
+                "What should an algorithm have?"
+            ],
+            "responses": [
+                "It must be finite, have well-defined steps and be precise",
+                "has a beginning and an end, and must produce a correct result",
+                "must be clear, efficient and applicable in any defined context"
+            ]
+        },
+        {
+            "tag": "types_of_algorithms",
+            "patterns": [
+                "what are the types of algorithms",
+                "What types of algorithms exist?",
+                "What classifications do the algorithms have?"
+            ],
+            "responses": [
+                "Some types are recursive, iterative, greedy and dynamic algorithms.",
+                "They can be search, sorting, optimization or generation",
+                "They are classified according to their approach such as divide and conquer, backtracking or probabilistic algorithms."
+            ]
+        },
+        {
+            "tag": "recursive_algorithm",
+            "patterns": [
+                "what is a recursive algorithm",
+                "What does recursion mean in algorithms?",
+                "what is recursion"
+            ],
+            "responses": [
+                "It is an algorithm that calls itself to solve a problem.",
+                "It is a type of algorithm that divides a large problem into smaller subproblems.",
+                "is based on defining oneself in terms of oneself until reaching a base case"
+            ]
+        },
+        {
+            "tag": "recursive_algorithms",
+            "patterns": [
+                "What examples are there of recursive algorithms?",
+                "tell me examples of recursive algorithms",
+                "give examples of recursive algorithms",
+                "examples of recursive algorithms"
+            ],
+            "responses": [
+                "calculating the factorial of a number is a classic example",
+                "The Fibonacci sequence can be solved with a recursive algorithm",
+                "Depth-first search in a graph is another common example."
+            ]
+        },
+        {
+            "tag": "sorting_algorithm",
+            "patterns": [
+                "what is a sorting algorithm",
+                "What does it mean to sort data?",
+                "What is data ordering?",
+                "sorting algorithm"
+            ],
+            "responses": [
+                "is an algorithm designed to rearrange elements in a specific order",
+                "Used to sort data in ascending or descending order",
+                "It is a technique for organizing lists of data such as numbers or strings."
+            ]
+        },
+        {
+            "tag": "most_common_sorting_algorithms",
+            "patterns": [
+                "What are the most common sorting algorithms?",
+                "what sorting algorithms are popular",
+                "popular sorting algorithms",
+                "tell me common sorting algorithms",
+                "most used sorting algorithms"
+            ],
+            "responses": [
+                "some are quicksort, mergesort, bubble sort and insertion sort",
+                "the most common include quicksort, heapsort and selection sort",
+                "You can find algorithms such as merge sort and radix sort among the most used"
+            ]
+        },
+        {
+            "tag": "what_is_quicksort",
+            "patterns": [
+                "what is quicksort",
+                "What does quicksort mean?",
+                "what is the quicksort algorithm"
+            ],
+            "responses": [
+                "It is a sorting algorithm based on divide and conquer.",
+                "organizes the elements by selecting a pivot and partitioning the data around it",
+                "It is an efficient method for sorting large lists of data."
+            ]
+        },
+        {
+            "tag": "quicksort_complexity",
+            "patterns": [
+                "what is the complexity of quicksort",
+                "How complex is quicksort?",
+                "how much is the complexity of quicksort"
+            ],
+            "responses": [
+                "in the best case and average is o n log n",
+                "in the worst case it can be or n squared if the pivots are chosen poorly",
+                "It is efficient in most cases but it depends on how the pivots are selected."
+            ]
+        },
+        {
+            "tag": "greedy_algorithm",
+            "patterns": [
+                "what is a greedy algorithm",
+                "What does voracity mean in algorithms?",
+                "what is voracity"
+            ],
+            "responses": [
+                "It is an algorithm that makes optimal decisions at each step in the hope of finding the overall optimal solution.",
+                "It is used in problems where optimal partial solutions lead to the complete solution.",
+                "It is an approach to solving problems by breaking the solution into sequential steps."
+            ]
+        },
+        {
+            "tag": "examples_of_voracious_algorithms",
+            "patterns": [
+                "What are examples of greedy algorithms?",
+                "What examples are there of voracious algorithms?",
+                "tell me examples of voracious algorithms",
+                "examples of greedy algorithms",
+                "give examples of greedy algorithms"
+            ],
+            "responses": [
+                "Dijkstra's algorithm to find the shortest path in a graph",
+                "the fractional knapsack problem can be solved with a greedy approach",
+                "Kruskal's algorithm for minimum spanning trees is another example."
+            ]
+        },
+        {
+            "tag": "difference_between_voracious_dynamic_algorithms",
+            "patterns": [
+                "What is the difference between greedy and dynamic algorithms?",
+                "What is the difference between greedy and dynamic algorithms?",
+                "What distinguishes greedy algorithms from dynamic ones?"
+            ],
+            "responses": [
+                "Greedy algorithms make decisions step by step, while dynamic algorithms solve subproblems and combine solutions.",
+                "The voracious ones look for immediate optimal solutions, the dynamic ones store intermediate results to optimize the process.",
+                "The voracious ones are simpler but do not always guarantee the optimal solution like the dynamic ones."
+            ]
+        },
+        {
+            "tag": "dynamic_algorithm",
+            "patterns": [
+                "what is a dynamic algorithm",
+                "What does dynamism mean in algorithms?",
+                "what is dynamic programming"
+            ],
+            "responses": [
+                "It is a method of solving problems by dividing them into subproblems and storing their solutions.",
+                "is an approach that avoids recomputations by saving results in memory",
+                "It is used for problems that have overlapping subproblems and optimization properties."
+            ]
+        },
+        {
+            "tag": "dynamic_algorithms_examples",
+            "patterns": [
+                "What examples are there of dynamic algorithms?",
+                "What are examples of dynamic algorithms",
+                "tell me examples of dynamic algorithms",
+                "examples of dynamic algorithms",
+                "give examples of dynamic algorithms"
+            ],
+            "responses": [
+                "the floyd-warshall algorithm for shortest paths in graphs",
+                "The solution to the entire backpack problem is a classic of dynamic programming",
+                "The calculation of the Fibonacci sequence with memoization is another example."
+            ]
+        },
+        {
+            "tag": "algorithm_instructions",
+            "patterns": [
+                "What types of instructions does an algorithm have?",
+                "What instructions does an algorithm have?",
+                "What actions are included in an algorithm"
+            ],
+            "responses": [
+                "can have sequential, conditional and repetitive instructions",
+                "Instructions are classified as sequential, decision and repetition.",
+                "may include linear flow instructions, branches, and loops"
+            ]
+        },
+        {
+            "tag": "sequential_instruction",
+            "patterns": [
+                "What is a sequential instruction?",
+                "What does sequential mean in algorithms?",
+                "what is a sequence of instructions"
+            ],
+            "responses": [
+                "It is an instruction that is executed one after another in the order in which they appear",
+                "They are steps that are followed in a linear manner without deviating",
+                "It is a type of instruction where each action occurs exactly once."
+            ]
+        },
+        {
+            "tag": "transform_instruction_set",
+            "patterns": [
+                "What does it mean to transform a set of instructions?",
+                "what is transform instructions",
+                "what is modifying a set of orders"
+            ],
+            "responses": [
+                "It is modifying orders to adapt them to a specific format or context.",
+                "It is converting defined steps into a structure that can be processed or executed."
+            ]
+        },
+        {
+            "tag": "specific_format",
+            "patterns": [
+                "What is a specific format?",
+                "What does a specific format mean?",
+                "which is a detailed diagram"
+            ],
+            "responses": [
+                "It is a defined structure that organizes information so that it can be interpreted correctly.",
+                "It is a standard provision that ensures that data is understood or used appropriately."
+            ]
+        },
+        {
+            "tag": "defined_structure",
+            "patterns": [
+                "which is a defined structure",
+                "What does a defined structure mean?",
+                "which is a clear organization"
+            ],
+            "responses": [
+                "It is a previously designed scheme that organizes elements in a coherent way.",
+                "It is a logical framework that establishes how the parts of a system or process should be ordered."
+            ]
+        },
+        {
+            "tag": "modify_algorithm",
+            "patterns": [
+                "What does it mean to modify an algorithm?",
+                "what is modifying an algorithm",
+                "what is changing a set of instructions"
+            ],
+            "responses": [
+                "It is adjusting the steps of a set of instructions to adapt them to new needs or improve their efficiency.",
+                "It is changing the logic or structure of an algorithm to optimize its operation."
+            ]
+        },
+        {
+            "tag": "optimize_algorithm",
+            "patterns": [
+                "What does it mean to optimize an algorithm?",
+                "what is optimizing an algorithm",
+                "what is improving a set of instructions"
+            ],
+            "responses": [
+                "It is improving a set of instructions to make it faster or more efficient in solving a problem.",
+                "It is reducing the time or resources necessary to execute an algorithm while maintaining its functionality."
+            ]
+        },
+        {
+            "tag": "algorithm_efficiency",
+            "patterns": [
+                "What is efficiency in an algorithm?",
+                "What does efficiency mean in algorithms?",
+                "what is the effectiveness of a set of instructions"
+            ],
+            "responses": [
+                "It is the ability to solve a problem using the least amount of time and resources possible.",
+                "It is the measure of how well an algorithm performs its task compared to other methods."
+            ]
+        },
+        {
+            "tag": "compare_methods",
+            "patterns": [
+                "What does it mean to compare methods?",
+                "what is comparing methods",
+                "what is evaluating different approaches"
+            ],
+            "responses": [
+                "It is analyzing different techniques or approaches to identify which is most appropriate or efficient.",
+                "It is evaluating the advantages and disadvantages of different processes to choose the best one."
+            ]
+        },
+        {
+            "tag": "choose_method",
+            "patterns": [
+                "What does it mean to choose a method?",
+                "What is choosing a method?",
+                "What is selecting a technique?"
+            ],
+            "responses": [
+                "It is selecting the most appropriate technique to solve a problem or perform a specific task.",
+                "It is making a decision based on the efficiency and characteristics of each available option."
+            ]
+        },
+        {
+            "tag": "proper_technique",
+            "patterns": [
+                "What is an appropriate technique?",
+                "What does proper technique mean?",
+                "What is an appropriate method?"
+            ],
+            "responses": [
+                "It is an approach or method that effectively meets the needs of a task or problem.",
+                "It is a strategy that allows you to achieve a goal accurately and efficiently."
+            ]
+        },
+        {
+            "tag": "logic_algorithm",
+            "patterns": [
+                "What is logic in an algorithm?",
+                "What does logic mean in algorithms?",
+                "What is the coherence of a set of instructions",
+                "What does consistency of instructions mean?"
+            ],
+            "responses": [
+                "It is the rational basis that organizes the steps of a set of instructions to ensure that they fulfill their purpose.",
+                "It is the reasoning that guides the sequence and structure of actions within an algorithm."
+            ]
+        },
+        {
+            "tag": "examples_sequential_instructions",
+            "patterns": [
+                "Can you give me examples of sequential instructions?",
+                "What examples are there of sequential instructions?",
+                "tell me examples of sequential instructions",
+                "give examples of sequential instructions",
+                "examples of sequential instructions"
+            ],
+            "responses": [
+                "assign a value to a variable, display a message on the screen and perform a sum",
+                "read a data from the user, calculate the double and show the result",
+                "calculate the average of three numbers, print it and end the program"
+            ]
+        },
+        {
+            "tag": "conditional_statement",
+            "patterns": [
+                "what is a conditional statement",
+                "What does conditional statement mean?",
+                "What is a decision sentence?"
+            ],
+            "responses": [
+                "It is an instruction that allows you to make decisions based on a condition",
+                "used to execute different blocks of code depending on whether a condition is true or false",
+                "It is a type of instruction that evaluates an expression and decides the flow of the algorithm"
+            ]
+        },
+        {
+            "tag": "examples_conditional_instructions",
+            "patterns": [
+                "Can you give me examples of conditional statements?",
+                "What examples are there of conditional instructions?",
+                "tell me examples of conditional statements",
+                "give examples of conditional statements",
+                "examples of conditional statements"
+            ],
+            "responses": [
+                "If the age is greater than or equal to 18, show that you are of legal age",
+                "If the number is positive, print is positive, otherwise print is negative",
+                "check if a number is even or odd and show the result"
+            ]
+        },
+        {
+            "tag": "repetitive_instruction",
+            "patterns": [
+                "What is a repetitive instruction?",
+                "What does repetitive instruction mean?",
+                "what is a loop statement"
+            ],
+            "responses": [
+                "It is an instruction that executes a block of code several times as long as a condition is met.",
+                "It is used to perform repetitive tasks automatically",
+                "is a type of instruction that repeats an action until a completion criterion is met"
+            ]
+        },
+        {
+            "tag": "examples_repetitive_instructions",
+            "patterns": [
+                "Can you give me examples of repetitive instructions?",
+                "What examples are there of repetitive instructions?",
+                "tell me examples of repetitive instructions",
+                "give examples of repetitive instructions",
+                "examples of repetitive instructions"
+            ],
+            "responses": [
+                "repeat until the user enters a number greater than 0",
+                "calculate the sum of numbers from 1 to 100 using a loop",
+                "display even numbers between 1 and 50 using a for loop"
+            ]
+        },
+        {
+            "tag": "algorithm_loop_types",
+            "patterns": [
+                "What types of loops exist in algorithms",
+                "What loops are used in programming?",
+                "What types of cycles can be found in algorithms"
+            ],
+            "responses": [
+                "the most common are for, while and do while loops",
+                "you can use defined loops like for and indeterminate loops like while",
+                "The main types are for for defined iterations and while for conditions"
+            ]
+        },
+        {
+            "tag": "for_loop",
+            "patterns": [
+                "what is a for loop",
+                "what does for loop mean",
+                "what is a for loop",
+                "what does for cycle mean"
+            ],
+            "responses": [
+                "is a loop that repeats a block of code a fixed number of times",
+                "It is used when the number of iterations is known in advance",
+                "is a structure that includes a beginning, a condition, and an increment or decrement"
+            ]
+        },
+        {
+            "tag": "examples_for",
+            "patterns": [
+                "can you give me examples of a for loop",
+                "What examples are there of for loops?",
+                "tell me examples of for loops",
+                "give examples of for loops",
+                "for loop examples"
+            ],
+            "responses": [
+                "display the numbers from 1 to 10 on the screen",
+                "calculate the sum of the first 100 integers",
+                "print the elements of an array or list one by one"
+            ]
+        },
+        {
+            "tag": "while_loop",
+            "patterns": [
+                "what is a while loop",
+                "what does while loop mean",
+                "what is a while loop",
+                "What does while loop mean?"
+            ],
+            "responses": [
+                "is a loop that executes a block of code as long as a condition is true",
+                "It is used when it is not known exactly how many times the task will be repeated",
+                "is a structure that evaluates a condition before executing the code block"
+            ]
+        },
+        {
+            "tag": "examples_while",
+            "patterns": [
+                "can you give me examples of a while loop",
+                "What examples are there of while loops?",
+                "tell me examples of while loops",
+                "give examples of while loops",
+                "while loop examples"
+            ],
+            "responses": [
+                "keep asking the user for a number until they enter a positive number",
+                "add numbers entered by the user until zero is entered",
+                "show a counter that increments as long as it is less than 10"
+            ]
+        },
+        {
+            "tag": "examples_do while",
+            "patterns": [
+                "can you give me examples of a do while loop",
+                "What examples are there of do while loops?",
+                "tell me examples of do while loops",
+                "give examples of do while loops",
+                "do while loop examples"
+            ],
+            "responses": [
+                "ask the user for a number until they enter one greater than 10",
+                "display a message on the screen at least once, then repeat according to a condition",
+                "calculate the sum of numbers entered until the user types exit"
+            ]
+        },
+        {
+            "tag": "input_output_algorithm_instructions",
+            "patterns": [
+                "What are the input and output instructions in an algorithm?",
+                "What does input and output instructions mean?",
+                "What is input and output in an algorithm?"
+            ],
+            "responses": [
+                "are the instructions that allow you to interact with the user or the environment",
+                "Input instructions capture data, and output instructions display or send it.",
+                "They are used to receive information from the user and display results or messages"
+            ]
+        },
+        {
+            "tag": "examples_instructions_input_output",
+            "patterns": [
+                "Can you give me examples of input and output instructions?",
+                "What examples are there of input and output instructions?",
+                "tell me examples of input and output instructions",
+                "gave examples of input and output instructions",
+                "examples of input and output instructions"
+            ],
+            "responses": [
+                "read a number from the user and show its square",
+                "ask the user for their name and display a welcome message",
+                "capture two numbers and show their sum on the screen"
+            ]
+        },
+        {
+            "tag": "programming_language",
+            "patterns": [
+                "what is a programming language",
+                "What does programming language mean?",
+                "what is a computer language"
+            ],
+            "responses": [
+                "It is a means of communicating with a computer using instructions",
+                "It is a notation system for writing programs that a computer executes.",
+                "It is a tool for creating software through machine-understandable instructions."
+            ]
+        },
+        {
+            "tag": "writing_instructions_programming_language",
+            "patterns": [
+                "What does it mean to write instructions in a programming language?",
+                "What is writing instructions in a programming language?",
+                "what is writing a program"
+            ],
+            "responses": [
+                "It is writing a set of commands in a format that the computer can interpret and execute.",
+                "It is using the syntax of a programming language to define how actions should be performed in an algorithm."
+            ]
+        },
+        {
+            "tag": "programming_language_syntax",
+            "patterns": [
+                "What is the syntax of a programming language?",
+                "What does syntax mean in a programming language?",
+                "What is the structure of a programming language",
+                "What does structure mean in a programming language?"
+            ],
+            "responses": [
+                "It is the set of rules that dictate how instructions must be written so that they are understood by a computer.",
+                "It is the structure and order in which commands should be organized in a programming language."
+            ]
+        },
+        {
+            "tag": "program_language_programming",
+            "patterns": [
+                "What is a program in a programming language?",
+                "What does program mean in a programming language?",
+                "what is a computer code",
+                "What does computer code mean?",
+                "what is a script"
+            ],
+            "responses": [
+                "It is a set of instructions written in a programming language to execute a specific task.",
+                "It is an algorithm encoded in a format that a computer can process and execute."
+            ]
+        },
+        {
+            "tag": "code_algorithm",
+            "patterns": [
+                "What does it mean to code an algorithm?",
+                "what is coding an algorithm",
+                "what is writing computer code",
+                "What does it mean to write computer code?",
+                "what is programming"
+            ],
+            "responses": [
+                "It is translating a set of logical steps of an algorithm into a programming language so that it can be executed by a computer.",
+                "It is writing an algorithm using the syntax and rules of a programming language."
+            ]
+        },
+        {
+            "tag": "translate_algorithm",
+            "patterns": [
+                "What does it mean to translate an algorithm?",
+                "what is translating an algorithm",
+                "What is converting an algorithm to code?",
+                "What does it mean to convert an algorithm to code?"
+            ],
+            "responses": [
+                "It is converting the instructions of an algorithm into a format that can be interpreted by a computer.",
+                "It is transforming a set of logical steps into code using a programming language."
+            ]
+        },
+        {
+            "tag": "programming_language_types",
+            "patterns": [
+                "What are the types of programming languages?",
+                "What types of computer languages ​​exist?",
+                "What classifications do programming languages ​​have?",
+                "What types of programming languages ​​are there?"
+            ],
+            "responses": [
+                "The main types are low-level and high-level languages",
+                "They are classified into machine languages, assembly languages, and languages ​​such as C or Python.",
+                "They can be low level like assembler or high level like java or python"
+            ]
+        },
+        {
+            "tag": "low_level_language",
+            "patterns": [
+                "which is a low level language",
+                "What does low level language mean?",
+                "which is a language close to hardware"
+            ],
+            "responses": [
+                "It is a language close to computer hardware, like assembly language",
+                "It is a type of language that operates directly with machine instructions",
+                "It is a less abstract language that requires knowing hardware details"
+            ]
+        },
+        {
+            "tag": "low-level_language_examples",
+            "patterns": [
+                "give me examples of low level languages",
+                "What languages ​​are low level?",
+                "What languages ​​are close to the hardware?",
+                "tell me examples of low level languages",
+                "examples of low level languages",
+                "give examples of low level languages"
+            ],
+            "responses": [
+                "assembly and machine language are classic examples",
+                "microcontrollers often use assembly language",
+                "Binary code is the most basic low-level language."
+            ]
+        },
+        {
+            "tag": "high_level_language",
+            "patterns": [
+                "what is a high level language",
+                "What does high level language mean?",
+                "which is a more abstract language",
+                "which is a language close to human language"
+            ],
+            "responses": [
+                "It is a language designed to be easy for humans to understand.",
+                "It is a more abstract type of language that hides the details of the hardware",
+                "is a tool for writing complex programs with syntax close to natural language"
+            ]
+        },
+        {
+            "tag": "high-level_language_examples",
+            "patterns": [
+                "give me examples of high level languages",
+                "What languages ​​are high level?",
+                "Which languages ​​are more abstract?",
+                "tell me examples of high level languages",
+                "examples of high level languages",
+                "give examples of high level languages"
+            ],
+            "responses": [
+                "python, java, c++, and javascript are examples of high-level languages",
+                "languages ​​like ruby, php and swift are also high level",
+                "popular tools like go and kotlin belong to this category"
+            ]
+        },
+        {
+            "tag": "difference_language_high_low_level",
+            "patterns": [
+                "What is the difference between high and low level languages?",
+                "What is the difference between high and low level languages?",
+                "What distinguishes high-level and low-level languages?",
+                "What separates high-level and low-level languages?",
+                "What differentiates high- and low-level languages?"
+            ],
+            "responses": [
+                "low level ones are close to the hardware, while high level ones are easier for humans",
+                "Low-level languages ​​require more hardware knowledge, high-level languages ​​are more abstract.",
+                "In high-level languages ​​you write fewer lines of code for complex tasks"
+            ]
+        },
+        {
+            "tag": "compiled_language",
+            "patterns": [
+                "what is a compiled language",
+                "What does compiled language mean?",
+                "What is a language that needs compilation?",
+                "which is a language that translates into machine code"
+            ],
+            "responses": [
+                "It is a language that is translated into machine code before being executed.",
+                "is a type of language where the entire program is converted to binary before being executed",
+                "It is a language that needs a compiler to generate an executable"
+            ]
+        },
+        {
+            "tag": "examples_compiled_languages",
+            "patterns": [
+                "can you give me examples of compiled languages",
+                "What languages ​​are compiled?",
+                "What languages ​​need compilation?",
+                "tell me examples of compiled languages",
+                "examples of compiled languages",
+                "give examples of compiled languages"
+            ],
+            "responses": [
+                "c, c++ and rust are examples of compiled languages",
+                "languages ​​like go and fortran are compiled",
+                "swift and kotlin can also be compiled"
+            ]
+        },
+        {
+            "tag": "interpreted_language",
+            "patterns": [
+                "what is an interpreted language",
+                "What does interpreted language mean?",
+                "which is a language that runs in real time",
+                "which is a language that does not need compilation"
+            ],
+            "responses": [
+                "It is a language that is executed directly by an interpreter without the need to compile",
+                "It is a type of language where instructions are translated and executed in real time",
+                "Interpreted languages ​​do not generate a binary file before running"
+            ]
+        },
+        {
+            "tag": "examples_interpreted_languages",
+            "patterns": [
+                "Can you give me examples of interpreted languages?",
+                "What languages ​​are interpreted?",
+                "What languages ​​run in real time?",
+                "tell me examples of interpreted languages",
+                "examples of interpreted languages",
+                "give examples of interpreted languages"
+            ],
+            "responses": [
+                "python, javascript and ruby ​​are interpreted languages",
+                "php and perl are other examples of interpreted languages",
+                "languages ​​like lua and bash are also interpreted"
+            ]
+        },
+        {
+            "tag": "difference_compiled_interpreted_languages",
+            "patterns": [
+                "What is the difference between compiled and interpreted languages?",
+                "What is the difference between compiled and interpreted languages?",
+                "What distinguishes compiled and interpreted languages",
+                "What separates compiled and interpreted languages",
+                "What differentiates compiled and interpreted languages"
+            ],
+            "responses": [
+                "compiled ones generate an executable before running, interpreted ones do not",
+                "The compiled ones are faster in execution, but the interpreted ones are more flexible",
+                "Interpreted ones translate instructions in real time, compiled ones do it sooner"
+            ]
+        },
+        {
+            "tag": "object_oriented_language",
+            "patterns": [
+                "what is an object oriented language",
+                "What does object-oriented language mean?",
+                "which is a language that uses classes and objects",
+                "what is poo",
+                "what does poo mean",
+                "What is object-oriented programming?",
+                "What does object-oriented programming mean?"
+            ],
+            "responses": [
+                "It is a language that organizes code into objects that represent real-world entities.",
+                "It is a programming paradigm that uses classes and objects to structure the code.",
+                "It is a type of language where data and functions are encapsulated in objects"
+            ]
+        },
+        {
+            "tag": "object-oriented_language_examples",
+            "patterns": [
+                "Can you give me examples of object-oriented languages?",
+                "What languages ​​are object-oriented?",
+                "what languages ​​do poo use",
+                "tell me examples of object-oriented languages",
+                "examples of object-oriented languages",
+                "give examples of object-oriented languages"
+            ],
+            "responses": [
+                "Java, Python, C++ and Ruby are object-oriented languages.",
+                "Languages ​​like Kotlin and Swift also use object orientation",
+                "c# and javascript support object-oriented programming"
+            ]
+        },
+        {
+            "tag": "functional_language",
+            "patterns": [
+                "what is a functional language",
+                "What does functional language mean?",
+                "which is a language that treats computations as functions",
+                "what is functional programming",
+                "What does functional programming mean?"
+            ],
+            "responses": [
+                "is a language that treats computations as evaluations of mathematical functions",
+                "It is a paradigm where functions are the main units of the program",
+                "functional languages ​​avoid mutable states and data"
+            ]
+        },
+        {
+            "tag": "functional_language_examples",
+            "patterns": [
+                "Can you give me examples of functional languages?",
+                "What languages ​​are functional?",
+                "What languages ​​use functional programming?",
+                "tell me examples of functional languages",
+                "examples of functional languages",
+                "give examples of functional languages"
+            ],
+            "responses": [
+                "Haskell, Elixir and Erlang are examples of functional languages",
+                "languages ​​like f# and clojure are also functional",
+                "scala and ocaml support the functional paradigm"
+            ]
+        },
+        {
+            "tag": "scripting_language",
+            "patterns": [
+                "what is a scripting language",
+                "What does scripting language mean?",
+                "What is a language for writing scripts?",
+                "what is script programming",
+                "What does script programming mean?"
+            ],
+            "responses": [
+                "is a language designed to automate tasks in an operating system or application",
+                "is a type of language used to write scripts that control programs or processes",
+                "Scripting languages ​​are commonly interpreted and used for quick tasks."
+            ]
+        },
+        {
+            "tag": "scripting_language_examples",
+            "patterns": [
+                "Can you give me examples of scripting languages?",
+                "What languages ​​are scripting?",
+                "What languages ​​are used for scripts?",
+                "tell me examples of scripting languages",
+                "scripting language examples",
+                "give examples of scripting languages"
+            ],
+            "responses": [
+                "javascript, python and bash are common scripting languages",
+                "languages ​​like ruby, php and perl are also scripting",
+                "lua and powershell are other examples of scripting languages"
+            ]
+        },
+        {
+            "tag": "python",
+            "patterns": [
+                "what is python",
+                "what does python mean",
+                "What is a Python programming language?",
+                "python"
+            ],
+            "responses": [
+                "It is a high-level, interpreted, multipurpose programming language.",
+                "It is a popular language for its simple syntax and large number of libraries",
+                "It is a widely used tool for data science, artificial intelligence and web development"
+            ]
+        },
+        {
+            "tag": "uses_python",
+            "patterns": [
+                "what is python used for",
+                "what can be done with python",
+                "What applications does Python have?"
+            ],
+            "responses": [
+                "It is used in data science, artificial intelligence, web development and automation",
+                "It is common in data analysis, machine learning and application development",
+                "It is also used to create scripts, manage data and program applications."
+            ]
+        },
+        {
+            "tag": "Java",
+            "patterns": [
+                "what is java",
+                "what does java mean",
+                "What is a Java programming language?",
+                "Java"
+            ],
+            "responses": [
+                "It is a high-level, object-oriented, cross-platform programming language.",
+                "It is a language known for its portability thanks to the Java virtual machine",
+                "It is a popular tool for enterprise applications and mobile development."
+            ]
+        },
+        {
+            "tag": "uses_java",
+            "patterns": [
+                "What is java used for?",
+                "what can be done with java",
+                "What applications does Java have?"
+            ],
+            "responses": [
+                "It is used to develop business applications, games and software for android",
+                "It is common in server applications, distributed systems and web applications",
+                "It is also used to program embedded devices and desktop applications."
+            ]
+        },
+        {
+            "tag": "javascript",
+            "patterns": [
+                "what is javascript",
+                "what does javascript mean",
+                "what is a javascript programming language",
+                "javascript"
+            ],
+            "responses": [
+                "It is essential for modern frontend development",
+                "It is a key tool for client-side and server-side programming.",
+                "It is a programming language used to add interactivity to web pages",
+                "It is a high-level programming language used primarily for web development.",
+                "allows you to create dynamic functionalities such as animations and validations",
+                "It is an interpreted language that allows you to create dynamic and interactive web pages."
+            ]
+        },
+        {
+            "tag": "uses_javascript",
+            "patterns": [
+                "What is javascript used for?",
+                "what can be done with javascript",
+                "What applications does JavaScript have?",
+                "that can be developed with javascript",
+                "that can be programmed with javascript"
+            ],
+            "responses": [
+                "used to create interactive web interfaces and modern web applications",
+                "It is common in client and server side development with nodejs",
+                "It is also used to handle events on web pages and build web games."
+            ]
+        },
+        {
+            "tag": "c",
+            "patterns": [
+                "what is c",
+                "what does c mean",
+                "what is a c programming language",
+                "c",
+                "c language"
+            ],
+            "responses": [
+                "It is a low-level, structured and efficient programming language.",
+                "It is known for its speed and control over system resources",
+                "is a tool used for high-performance operating systems, compilers and applications"
+            ]
+        },
+        {
+            "tag": "uses_c",
+            "patterns": [
+                "what is c used for",
+                "what can be done with c",
+                "What applications does c have?",
+                "which can be developed with c",
+                "which can be programmed with c"
+            ],
+            "responses": [
+                "It is used in the development of operating systems and hardware software",
+                "It is common for programming embedded devices and high-performance applications.",
+                "It is also used in video games, simulations and real-time systems."
+            ]
+        },
+        {
+            "tag": "c++",
+            "patterns": [
+                "what is c++",
+                "what does c++ mean",
+                "What is a C++ programming language?",
+                "c++",
+                "c++ language"
+            ],
+            "responses": [
+                "It is a high-level programming language based on C, with support for object-oriented programming.",
+                "It is a versatile and efficient language used for complex software development.",
+                "It is a C extension that includes advanced features such as classes and objects."
+            ]
+        },
+        {
+            "tag": "uses_c++",
+            "patterns": [
+                "What is c++ used for?",
+                "what can be done with c++",
+                "What applications does C++ have?",
+                "that can be developed with c++",
+                "that can be programmed with c++"
+            ],
+            "responses": [
+                "It is used to develop video games, simulation software and graphics engines.",
+                "It is common in the development of operating systems and scientific applications",
+                "It is also used for high performance applications and embedded systems."
+            ]
+        },
+        {
+            "tag": "kotlin",
+            "patterns": [
+                "what is kotlin",
+                "what does kotlin mean",
+                "What is a Kotlin programming language?",
+                "kotlin"
+            ],
+            "responses": [
+                "is a modern, high-level programming language developed by jetbrains",
+                "It is known to be interoperable with Java and mainly used for mobile development.",
+                "It is a popular tool for developing Android applications and backend systems."
+            ]
+        },
+        {
+            "tag": "uses_kotlin",
+            "patterns": [
+                "What is Kotlin used for?",
+                "what can be done with kotlin",
+                "What applications does Kotlin have?",
+                "that can be developed with kotlin",
+                "that can be programmed with kotlin"
+            ],
+            "responses": [
+                "It is used to develop android applications and backend systems",
+                "It is common in projects that require integration with Java",
+                "It is also used for cross-platform applications and microservices."
+            ]
+        },
+        {
+            "tag": "what is swift",
+            "patterns": [
+                "what is swift"
+            ],
+            "responses": [
+                "It is a modern programming language developed by Apple for its platforms.",
+                "It is known for being fast, secure and easy to learn",
+                "It is a popular tool for developing applications for iOS and Macos."
+            ]
+        },
+        {
+            "tag": "What is Swift used for?",
+            "patterns": [
+                "What is Swift used for?"
+            ],
+            "responses": [
+                "It is used to develop applications for iOS, macos, watchos and tvos",
+                "It is common in the Apple ecosystem for mobile and desktop applications",
+                "It is also used for learning and open source projects in the Apple community."
+            ]
+        },
+        {
+            "tag": "what is rust",
+            "patterns": [
+                "what is rust"
+            ],
+            "responses": [
+                "It is a modern programming language focused on security and performance",
+                "It is known for its memory management system that prevents common errors",
+                "is a tool used for high performance systems and secure software"
+            ]
+        },
+        {
+            "tag": "What is rust used for?",
+            "patterns": [
+                "What is rust used for?"
+            ],
+            "responses": [
+                "It is used to develop embedded systems, browsers and secure software",
+                "It is common in projects where performance and security are critical",
+                "It is also used in system applications such as database engines."
+            ]
+        },
+        {
+            "tag": "what is go",
+            "patterns": [
+                "what is go"
+            ],
+            "responses": [
+                "It is a programming language created by Google focused on simplicity and performance.",
+                "It is known for being fast, scalable and easy to compile.",
+                "It is a popular tool for distributed systems and web services"
+            ]
+        },
+        {
+            "tag": "What is go used for?",
+            "patterns": [
+                "What is go used for?"
+            ],
+            "responses": [
+                "used to develop web services, infrastructure tools and distributed systems",
+                "It is common in high-performance applications such as servers and microservices",
+                "It is also used in network, cloud computing and container projects."
+            ]
+        },
+        {
+            "tag": "python_advantages",
+            "patterns": [
+                "what are the advantages of python",
+                "What advantages does Python have?",
+                "why use python",
+                "python advantages"
+            ],
+            "responses": [
+                "It is easy to learn and read thanks to its simple syntax",
+                "has a large number of libraries and frameworks available",
+                "It is cross-platform and widely supported by the community"
+            ]
+        },
+        {
+            "tag": "python_disadvantages",
+            "patterns": [
+                "what are the disadvantages of python",
+                "What are the disadvantages of Python?",
+                "why not use python",
+                "python disadvantages"
+            ],
+            "responses": [
+                "It is slower than other languages ​​like C or Java.",
+                "consumes more resources due to its interpreted nature",
+                "It is not the best option for real-time applications."
+            ]
+        },
+        {
+            "tag": "frameworks",
+            "patterns": [
+                "What frameworks exist in Python?",
+                "What frameworks are used in Python?",
+                "python frameworks",
+                "popular frameworks in python"
+            ],
+            "responses": [
+                "some popular frameworks are django, flask and fastapi",
+                "There are also pandas and numpy for data analysis",
+                "tensorflow and pytorch are used for artificial intelligence"
+            ]
+        },
+        {
+            "tag": "difference_python_java",
+            "patterns": [
+                "What is the difference between Python and Java?",
+                "what is the difference between python and java",
+                "What distinguishes python and java",
+                "What separates python and java",
+                "what differentiates python and java"
+            ],
+            "responses": [
+                "python has a simpler syntax and is interpreted",
+                "java is faster and is compiled into bytecode for the virtual machine",
+                "Java is used more for business applications, while Python is common in data analysis."
+            ]
+        },
+        {
+            "tag": "java_features",
+            "patterns": [
+                "What features does Java have?",
+                "what makes java special",
+                "why use java",
+                "java features"
+            ],
+            "responses": [
+                "It is object-oriented and has automatic garbage collection.",
+                "It is cross-platform thanks to the Java virtual machine",
+                "It has a static typing system that prevents errors at compile time"
+            ]
+        },
+        {
+            "tag": "java_advantages",
+            "patterns": [
+                "what are the advantages of java",
+                "What advantages does Java have?",
+                "why use java",
+                "java advantages"
+            ],
+            "responses": [
+                "It is very scalable and suitable for enterprise applications",
+                "It has a mature ecosystem and extensive documentation",
+                "It is compatible with a large number of platforms"
+            ]
+        },
+        {
+            "tag": "frameworks_java",
+            "patterns": [
+                "What frameworks exist in Java?",
+                "What frameworks are used in Java?",
+                "java frameworks",
+                "popular frameworks in java"
+            ],
+            "responses": [
+                "some popular frameworks are spring, hibernate and struts",
+                "spring boot is common to develop microservices",
+                "javafx is used to create graphical interfaces"
+            ]
+        },
+        {
+            "tag": "c++_features",
+            "patterns": [
+                "What characteristics does c++ have?",
+                "what makes c++ special",
+                "why use c++",
+                "c++ features"
+            ],
+            "responses": [
+                "supports object-oriented and functional programming",
+                "allows fine-grained control over memory",
+                "It is a compiled language that offers high performance"
+            ]
+        },
+        {
+            "tag": "difference_c_c++",
+            "patterns": [
+                "what is the difference between c and c++",
+                "what is the difference between c and c++",
+                "What distinguishes c and c++",
+                "What separates c and c++",
+                "What is the difference between c and c++?"
+            ],
+            "responses": [
+                "C is a structured language while C++ supports object-oriented programming.",
+                "c++ includes features such as classes, inheritance and polymorphism",
+                "c is used for operating systems, while c++ is more common in video games and simulations."
+            ]
+        },
+        {
+            "tag": "framework",
+            "patterns": [
+                "what is a framework",
+                "What does framework mean?",
+                "what is a programming framework",
+                "framework",
+                "programming framework"
+            ],
+            "responses": [
+                "It is a predefined code structure that makes application development easier.",
+                "is a set of tools and libraries that help solve common problems",
+                "serves to streamline and standardize the development process"
+            ]
+        },
+        {
+            "tag": "programming_language",
+            "patterns": [
+                "how to choose a programming language",
+                "what programming language to learn",
+                "which programming language is better",
+                "What programming language is most popular?"
+            ],
+            "responses": [
+                "It depends on the project you want to carry out, such as web development or mobile applications.",
+                "consider community support and tools available",
+                "think about the learning curve and your long-term goals"
+            ]
+        },
+        {
+            "tag": "django",
+            "patterns": [
+                "what is django",
+                "what does django mean",
+                "What is a django programming framework?",
+                "django"
+            ],
+            "responses": [
+                "It is a high-level framework for web development in Python.",
+                "It is known for following the principle of don't repeat yourself and facilitating rapid development.",
+                "includes tools to manage databases, authentication and more"
+            ]
+        },
+        {
+            "tag": "django_advantages",
+            "patterns": [
+                "What advantages does django have?",
+                "why use django",
+                "django advantages",
+                "django benefits",
+                "why choose django",
+                "django advantages"
+            ],
+            "responses": [
+                "It has an integrated and powerful administration system",
+                "It is scalable and suitable for small and large projects",
+                "follow good practices like the mvc principle"
+            ]
+        },
+        {
+            "tag": "flask",
+            "patterns": [
+                "what is flask",
+                "What does flask mean?",
+                "What is a Flask programming framework?",
+                "flask",
+                "framework flask"
+            ],
+            "responses": [
+                "It is a microframework for web development in Python",
+                "It is known for being lightweight and easy to extend.",
+                "It is lightweight and allows you to create fast APIs with minimal configuration.",
+                "allows you to create web applications with minimal configuration",
+                "is a python microframework for backend development",
+                "It is ideal for small projects and prototypes"
+            ]
+        },
+        {
+            "tag": "serves_flask",
+            "patterns": [
+                "What is flask for?",
+                "what can be done with flask",
+                "What applications does Flask have?",
+                "that can be developed with flask",
+                "that can be programmed with flask"
+            ],
+            "responses": [
+                "used to develop small web applications and APIs",
+                "It is ideal for projects that require flexibility",
+                "It is used in applications where a robust framework like django is not needed"
+            ]
+        },
+        {
+            "tag": "frameworks_artificial_intelligence_python",
+            "patterns": [
+                "What frameworks are there for artificial intelligence in Python?",
+                "What frameworks are used for artificial intelligence in Python?",
+                "frameworks artificial intelligence python",
+                "popular frameworks for artificial intelligence in python"
+            ],
+            "responses": [
+                "some popular ones are tensorflow, pytorch and scikit-learn",
+                "tensorflow is used for neural networks and deep learning",
+                "scikit-learn is ideal for classical machine learning"
+            ]
+        },
+        {
+            "tag": "spring",
+            "patterns": [
+                "what is spring",
+                "what does spring mean",
+                "What is a spring programming framework?",
+                "spring",
+                "spring framework",
+                "spring framework"
+            ],
+            "responses": [
+                "It is a framework for developing business applications in Java.",
+                "provides tools to develop scalable applications",
+                "supports aspect-oriented programming and dependency management"
+            ]
+        },
+        {
+            "tag": "serves_spring_boot",
+            "patterns": [
+                "What is spring boot for?",
+                "what can be done with spring boot",
+                "What applications does Spring Boot have?",
+                "that can be developed with spring boot",
+                "that can be programmed with spring boot"
+            ],
+            "responses": [
+                "It is used to create Java applications with minimal configuration",
+                "facilitates the development of microservices",
+                "It is ideal for projects that require quick implementation"
+            ]
+        },
+        {
+            "tag": "hibernate",
+            "patterns": [
+                "what is hibernate",
+                "What does hibernate mean?",
+                "What is a hibernate programming framework?",
+                "hibernate",
+                "hibernate framework"
+            ],
+            "responses": [
+                "is an object-relational mapping framework for java",
+                "allows you to interact with databases efficiently",
+                "facilitates data persistence in java applications"
+            ]
+        },
+        {
+            "tag": "difference_spring_hibernate",
+            "patterns": [
+                "What is the difference between spring and hibernate?",
+                "what is the difference between spring and hibernate",
+                "What distinguishes spring and hibernate",
+                "What separates spring and hibernate",
+                "What is the difference between spring and hibernate?"
+            ],
+            "responses": [
+                "spring is a general framework for enterprise applications",
+                "hibernate focuses on data mapping and persistence",
+                "spring can integrate hibernate as part of its ecosystem"
+            ]
+        },
+        {
+            "tag": "react",
+            "patterns": [
+                "what is react",
+                "what does react mean",
+                "what is a react programming framework",
+                "react",
+                "react framework"
+            ],
+            "responses": [
+                "is a javascript library for building user interfaces",
+                "It is developed by Facebook and focuses on reusable components",
+                "It is ideal for dynamic and modern web applications"
+            ]
+        },
+        {
+            "tag": "serves_react",
+            "patterns": [
+                "What is react for?",
+                "what can be done with react",
+                "What applications does react have?",
+                "that can be developed with react",
+                "that can be programmed with react"
+            ],
+            "responses": [
+                "It is used to create web applications with dynamic interfaces",
+                "It is used to build single page or spa websites.",
+                "makes it easier to manage state and render components"
+            ]
+        },
+        {
+            "tag": "angular",
+            "patterns": [
+                "what is angular",
+                "what does angular mean",
+                "what is an angular programming framework",
+                "angular",
+                "angular framework"
+            ],
+            "responses": [
+                "It is a javascript framework for web application development.",
+                "It is maintained by Google and follows a component-based architecture.",
+                "offers built-in tools such as dependency injection and routing"
+            ]
+        },
+        {
+            "tag": "difference_angular_react",
+            "patterns": [
+                "What is the difference between Angular and React?",
+                "what is the difference between angular and react",
+                "What distinguishes angular and react",
+                "What separates angular and react",
+                "What is the difference between Angular and React?",
+                "angular vs react"
+            ],
+            "responses": [
+                "angular is a complete framework while react is a library",
+                "react allows more flexibility when integrating external tools",
+                "Angular has a steeper learning curve but offers more built-in functionality"
+            ]
+        },
+        {
+            "tag": "view",
+            "patterns": [
+                "what is vue",
+                "what does vue mean",
+                "What is a vue programming framework?",
+                "view",
+                "vue framework",
+                "vuejs"
+            ],
+            "responses": [
+                "is a progressive javascript framework for building user interfaces",
+                "It is known for its simplicity and ease of integration",
+                "It is ideal for small and large projects that require modularity"
+            ]
+        },
+        {
+            "tag": "frameworks_c++",
+            "patterns": [
+                "What frameworks exist in c++",
+                "What frameworks are used in C++?",
+                "c++ frameworks",
+                "popular frameworks in c++",
+                "frameworks for c++",
+                "c++ frameworks"
+            ],
+            "responses": [
+                "some popular ones are qt, boost and bit",
+                "qt is used for developing cross-platform applications with graphical interfaces",
+                "boost provides libraries for many common tasks such as memory management"
+            ]
+        },
+        {
+            "tag": "qt",
+            "patterns": [
+                "what is qt",
+                "what does qt mean",
+                "What is a QT programming framework?",
+                "qt",
+                "framework qt",
+                "qt framework",
+                "qtc++"
+            ],
+            "responses": [
+                "It is a framework for C++ focused on graphical and cross-platform applications.",
+                "includes tools to create modern graphical interfaces",
+                "It is used in desktop, mobile and embedded software"
+            ]
+        },
+        {
+            "tag": "mobile_development_frameworks",
+            "patterns": [
+                "What frameworks are there for mobile development?",
+                "What frameworks are used for mobile development?",
+                "mobile development frameworks",
+                "popular frameworks for mobile development",
+                "frameworks for mobile development"
+            ],
+            "responses": [
+                "some popular ones are flutter, react native and xamarin",
+                "flutter is developed by google and uses dart as the base language",
+                "react native allows you to develop mobile applications using javascript"
+            ]
+        },
+        {
+            "tag": "flutter",
+            "patterns": [
+                "what is flutter",
+                "what does flutter mean",
+                "What is a Flutter programming framework?",
+                "flutter",
+                "flutter framework",
+                "flutter framework"
+            ],
+            "responses": [
+                "It is a Google framework for cross-platform mobile development.",
+                "allows you to create native applications with a single code base",
+                "use dart as a programming language"
+            ]
+        },
+        {
+            "tag": "react_native",
+            "patterns": [
+                "what is react native",
+                "what does react native mean",
+                "What is a react native programming framework?",
+                "react native",
+                "react native framework",
+                "react native framework"
+            ],
+            "responses": [
+                "It is a javascript-based framework for mobile development.",
+                "allows you to create applications for iOS and Android with a single code base",
+                "It is based on the same component philosophy as react"
+            ]
+        },
+        {
+            "tag": "frontend",
+            "patterns": [
+                "what is frontend",
+                "What does frontend mean?",
+                "what is frontend development",
+                "frontend"
+            ],
+            "responses": [
+                "It is the visual part of an application with which users interact",
+                "refers to the development of graphic interfaces and user experiences",
+                "includes technologies such as html, css and javascript"
+            ]
+        },
+        {
+            "tag": "frontend_languages",
+            "patterns": [
+                "What languages ​​are used in frontend?",
+                "What languages ​​are used for frontend development?",
+                "frontend languages",
+                "frontend languages"
+            ],
+            "responses": [
+                "the main ones are html, css and javascript",
+                "Technologies such as typescript and frameworks such as react or angular are also used."
+            ]
+        },
+        {
+            "tag": "html",
+            "patterns": [
+                "what is html",
+                "what does html mean",
+                "What is an HTML programming language?",
+                "html"
+            ],
+            "responses": [
+                "It is a markup language used to structure the content of a web page.",
+                "defines the basic structure of a page such as headings, paragraphs and links",
+                "It is essential for frontend development"
+            ]
+        },
+        {
+            "tag": "css",
+            "patterns": [
+                "what is css",
+                "what does css mean",
+                "What is a CSS programming language?",
+                "css"
+            ],
+            "responses": [
+                "It is a styling language used to define the appearance of a web page.",
+                "allows you to customize colors, fonts and design of elements",
+                "used in conjunction with html to enhance the visual experience"
+            ]
+        },
+        {
+            "tag": "frameworks_frontend",
+            "patterns": [
+                "What frameworks are used in frontend",
+                "What frameworks are used for frontend development?",
+                "frontend frameworks",
+                "frontend frameworks"
+            ],
+            "responses": [
+                "some popular ones are react, angular and vue",
+                "bootstrap is used for responsive design",
+                "tailwind css is a modern tool for styles"
+            ]
+        },
+        {
+            "tag": "difference_react_angular",
+            "patterns": [
+                "What is the difference between react and angular?",
+                "what is the difference between react and angular",
+                "What distinguishes react and angular",
+                "What separates react and angular",
+                "What is the difference between react and angular?",
+                "react vs angular"
+            ],
+            "responses": [
+                "react is a library while angular is a complete framework",
+                "react offers more flexibility, but angular includes more built-in tools",
+                "react is used for lightweight projects and angular for robust applications"
+            ]
+        },
+        {
+            "tag": "spa",
+            "patterns": [
+                "what is a spa",
+                "what does spa mean",
+                "which is a single page application",
+                "spa"
+            ],
+            "responses": [
+                "It is a single page application where the content loads dynamically",
+                "avoid reloading the entire page when navigating between sections",
+                "It is common in frameworks like react, angular and vue"
+            ]
+        },
+        {
+            "tag": "backend",
+            "patterns": [
+                "what is backend",
+                "what does backend mean",
+                "what is backend development",
+                "backend"
+            ],
+            "responses": [
+                "It is the part of a system that manages the logic, databases and servers",
+                "is responsible for processing requests and sending responses to the frontend",
+                "It is essential to manage the business logic of an application"
+            ]
+        },
+        {
+            "tag": "backend_languages",
+            "patterns": [
+                "What languages ​​are used in the backend?",
+                "What languages ​​are used for backend development?",
+                "backend languages",
+                "backend languages",
+                "tell me languages ​​for backend",
+                "tell me backend languages",
+                "say backend languages"
+            ],
+            "responses": [
+                "some popular ones are java, python, php, ruby ​​and javascript with nodejs",
+                "go, c# and kotlin are also used depending on the use case"
+            ]
+        },
+        {
+            "tag": "frameworks_backend",
+            "patterns": [
+                "What frameworks are used in the backend?",
+                "What frameworks are used for backend development?",
+                "backend frameworks",
+                "backend frameworks",
+                "tell me frameworks for backend",
+                "tell me backend frameworks",
+                "di backend frameworks"
+            ],
+            "responses": [
+                "some popular ones are spring boot for java, django and flask for python",
+                "laravel for php and express for nodejs are common options",
+                "Ruby on rails and .net core are also used"
+            ]
+        },
+        {
+            "tag": "nodejs",
+            "patterns": [
+                "what is nodejs",
+                "what does nodejs mean",
+                "What is a Nodejs programming language?",
+                "nodejs",
+                "tell me what is nodejs",
+                "tell me what nodejs means",
+                "say what is nodejs",
+                "say what does nodejs mean"
+            ],
+            "responses": [
+                "It is a javascript execution environment for the backend",
+                "allows you to develop scalable applications with a single language",
+                "It is known for its efficiency in handling multiple requests"
+            ]
+        },
+        {
+            "tag": "rest api",
+            "patterns": [
+                "what is a rest api",
+                "what does api rest mean",
+                "what is a restful api",
+                "rest api",
+                "tell me what is a rest api",
+                "tell me what api rest means",
+                "say it is a rest api",
+                "say what api rest means"
+            ],
+            "responses": [
+                "It is an interface that allows communication between systems using http requests",
+                "follows principles such as the separation between client and server",
+                "It is common in web applications and mobile services"
+            ]
+        },
+        {
+            "tag": "graphql",
+            "patterns": [
+                "what is graphql",
+                "what does graphql mean",
+                "What is a graphql programming language?",
+                "graphql",
+                "tell me what is graphql",
+                "tell me what graphql means",
+                "say what is graphql",
+                "say what graphql means"
+            ],
+            "responses": [
+                "It is an alternative to rest for apis",
+                "allows the client to specify exactly what data they need",
+                "It is developed by Facebook and is used in modern applications"
+            ]
+        },
+        {
+            "tag": "database",
+            "patterns": [
+                "what is a database",
+                "What does database mean?",
+                "what is a database system",
+                "database",
+                "tell me what is a database",
+                "tell me what database means",
+                "say it is a database",
+                "say what does database mean",
+                "what is a bd",
+                "what does bd mean",
+                "what is a db",
+                "what does db mean",
+                "what is a db system",
+                "what is a db system"
+            ],
+            "responses": [
+                "It is a system for storing and organizing information",
+                "It is essential for applications that need to handle large amounts of information.",
+                "It is a system for storing and managing information in a structured way.",
+                "It is used to store data that can be easily consulted and modified",
+                "can be sql like mysql and postgresql, or non-sql like mongodb",
+                "It is used to store data that will be used by the backend"
+            ]
+        },
+        {
+            "tag": "difference_sql_no_sql",
+            "patterns": [
+                "What is the difference between SQL and non-SQL?",
+                "what is the difference between sql and non-sql",
+                "What distinguishes sql and non-sql",
+                "What separates sql and non-sql",
+                "What is the difference between SQL and non-SQL?"
+            ],
+            "responses": [
+                "SQL uses tables with defined schemas, while non-SQL is more flexible.",
+                "sql is great for structured data, not sql for unstructured data",
+                "sql includes systems such as mysql and postgresql, non-sql includes mongodb and cassandra"
+            ]
+        },
+        {
+            "tag": "communicate_frontend_backend",
+            "patterns": [
+                "How frontend and backend communicate",
+                "How the frontend and backend communicate",
+                "How the client and server communicate",
+                "How the user and the server communicate",
+                "How the browser and the server communicate",
+                "How the client and the backend communicate",
+                "How the user and the backend communicate",
+                "How the browser and the backend communicate"
+            ],
+            "responses": [
+                "through apis using protocols like http",
+                "The frontend sends requests to the backend and it responds with data",
+                "Communication can be in formats such as json or xml"
+            ]
+        },
+        {
+            "tag": "full_stack_developer",
+            "patterns": [
+                "what is a full stack developer",
+                "What does full stack developer mean?",
+                "What does a full stack developer do?",
+                "full stack developer"
+            ],
+            "responses": [
+                "is a developer who works on both frontend and backend",
+                "Has knowledge of interface design and server logic",
+                "can develop complete applications from start to finish"
+            ]
+        },
+        {
+            "tag": "difference_frontend_backend",
+            "patterns": [
+                "What is the difference between frontend and backend?",
+                "what is the difference between frontend and backend",
+                "What distinguishes frontend and backend",
+                "What separates frontend and backend",
+                "What differentiates frontend and backend"
+            ],
+            "responses": [
+                "The frontend is what the user sees, the backend is the logic behind",
+                "The frontend uses html, css and javascript, the backend uses languages ​​​​like java or python",
+                "The backend is responsible for processing data and managing communication with databases."
+            ]
+        },
+        {
+            "tag": "database_types",
+            "patterns": [
+                "What types of databases exist?",
+                "What types of database systems are there?",
+                "types of databases",
+                "types of database systems",
+                "db types",
+                "tell me types of databases",
+                "tell me types of database systems",
+                "say types of databases",
+                "say types of database systems"
+            ],
+            "responses": [
+                "There are relational and non-relational databases.",
+                "There are also hierarchical, network and object-oriented databases.",
+                "They depend on the type of information and the use case."
+            ]
+        },
+        {
+            "tag": "relational_database",
+            "patterns": [
+                "what is a relational database",
+                "What does relational database mean?",
+                "What is a relational database system?",
+                "relational database",
+                "tell me what is a relational database",
+                "Tell me what does relational database mean?",
+                "say it is a relational database",
+                "What does relational database mean?",
+                "what is a relational bd",
+                "What does relational bd mean?",
+                "what is a relational db",
+                "What does relational db mean?",
+                "What is a relational DB system?",
+                "what is a relational db system"
+            ],
+            "responses": [
+                "It is a database that organizes information in tables with rows and columns.",
+                "uses sql as a language to query and modify data",
+                "Examples include mysql, postgresql and sql server"
+            ]
+        },
+        {
+            "tag": "non-relational_database",
+            "patterns": [
+                "What is a non-relational database?",
+                "What does non-relational database mean?",
+                "What is a non-relational database system?",
+                "non-relational database",
+                "tell me what is a non-relational database",
+                "Tell me what does non-relational database mean?",
+                "say it is a non-relational database",
+                "What does non-relational database mean?",
+                "What is a non-relational database?",
+                "What does non-relational bd mean?",
+                "what is a non-relational db",
+                "What does non-relational db mean?",
+                "What is a non-relational DB system?",
+                "what is a non-relational db system"
+            ],
+            "responses": [
+                "It is a database that does not use tables to organize data",
+                "can store information in formats such as documents, graphs or key-values",
+                "Examples include mongodb, cassandra and redis"
+            ]
+        },
+        {
+            "tag": "database_schema",
+            "patterns": [
+                "What is a schema in a database?",
+                "What does schema mean in a database?",
+                "what is a database schema",
+                "database schema",
+                "tell me what is a schema in a database",
+                "Tell me what does schema mean in a database?",
+                "say it is a schema in a database",
+                "What does schema mean in a database?",
+                "what is a bd scheme",
+                "What does bd scheme mean?",
+                "what is a db schema",
+                "what does db schema mean",
+                "what is a database schema",
+                "What does database schema mean?"
+            ],
+            "responses": [
+                "It is the structure that defines how data is organized in a database",
+                "includes tables, columns, data types, and relationships between tables",
+                "It is important in relational databases"
+            ]
+        },
+        {
+            "tag": "sql",
+            "patterns": [
+                "what is sql",
+                "what does sql mean",
+                "What is an SQL programming language?",
+                "sql",
+                "tell me what is sql",
+                "tell me what sql means",
+                "say what is sql",
+                "say what sql means"
+            ],
+            "responses": [
+                "is a structured query language used to interact with relational databases",
+                "allows you to perform operations such as inserting, querying and deleting data",
+                "It is compatible with systems such as mysql, postgresql and oracle"
+            ]
+        },
+        {
+            "tag": "mysql",
+            "patterns": [
+                "what is mysql",
+                "what does mysql mean",
+                "what is a mysql database system",
+                "mysql",
+                "tell me what is mysql",
+                "tell me what mysql means",
+                "say what is mysql",
+                "say what does mysql mean"
+            ],
+            "responses": [
+                "It is an open source relational database management system.",
+                "It is popular for being fast and easy to use.",
+                "commonly used in web applications"
+            ]
+        },
+        {
+            "tag": "postgresql",
+            "patterns": [
+                "what is postgresql",
+                "what does postgresql mean",
+                "what is a postgresql database system",
+                "postgresql",
+                "tell me what postgresql is",
+                "tell me what postgresql means",
+                "say what is postgresql",
+                "say what does postgresql mean"
+            ],
+            "responses": [
+                "It is an open source, advanced relational database management system.",
+                "offers support for complex transactions and extensibility",
+                "It is ideal for enterprise applications and advanced projects"
+            ]
+        },
+        {
+            "tag": "sql_server",
+            "patterns": [
+                "what is sql server",
+                "what does sql server mean",
+                "what is a sql server database system",
+                "sql server",
+                "tell me what is sql server",
+                "tell me what sql server means",
+                "say what is sql server",
+                "say what sql server means"
+            ],
+            "responses": [
+                "It is a relational database management system developed by Microsoft.",
+                "mainly used in business environments",
+                "Offers integration with other Microsoft products such as Azure and Visual Studio"
+            ]
+        },
+        {
+            "tag": "mongodb",
+            "patterns": [
+                "what is mongodb",
+                "what does mongodb mean",
+                "what is a mongodb database system",
+                "mongodb",
+                "tell me what mongodb is",
+                "tell me what mongodb means",
+                "say what is mongodb",
+                "say what mongodb means"
+            ],
+            "responses": [
+                "is a non-relational database that stores data in json document format",
+                "It is ideal for applications that handle unstructured or semi-structured data",
+                "It is popular in modern web applications and distributed systems"
+            ]
+        },
+        {
+            "tag": "usa_mongodb",
+            "patterns": [
+                "What is mongodb used for?",
+                "what can be done with mongodb",
+                "What applications does mongodb have?",
+                "that can be developed with mongodb",
+                "that can be programmed with mongodb",
+                "tell me what mongodb is used for",
+                "tell me what can be done with mongodb",
+                "tell me what applications mongodb has",
+                "tell me what can be developed with mongodb",
+                "tell me what can be programmed with mongodb",
+                "tell what mongodb is used for",
+                "say what can be done with mongodb",
+                "say what applications mongodb has",
+                "say it can be developed with mongodb",
+                "say it can be programmed with mongodb"
+            ],
+            "responses": [
+                "It is used in web applications, recommendation systems and big data",
+                "It is ideal for handling large volumes of data and scaling horizontally",
+                "used when a strict structure of tables and columns is not needed"
+            ]
+        },
+        {
+            "tag": "redis",
+            "patterns": [
+                "what is redis",
+                "what does redis mean",
+                "what is a redis database system",
+                "redis",
+                "tell me what is redis",
+                "tell me what redis means",
+                "say what is redis",
+                "say what does redis mean"
+            ],
+            "responses": [
+                "It is a non-relational database based on key-value",
+                "It is known for its speed and is used as a cache or to store sessions",
+                "It is popular in applications that require quick access to data"
+            ]
+        },
+        {
+            "tag": "cassandra",
+            "patterns": [
+                "what is cassandra",
+                "What does Cassandra mean?",
+                "what is a cassandra database system",
+                "cassandra",
+                "tell me what is cassandra",
+                "tell me what cassandra means",
+                "say it's cassandra",
+                "say what cassandra means"
+            ],
+            "responses": [
+                "It is a distributed and scalable non-relational database",
+                "It is ideal for handling large volumes of data in real time",
+                "It is used by companies like Netflix and Twitter for high availability"
+            ]
+        },
+        {
+            "tag": "differences_mongodb_redis",
+            "patterns": [
+                "What are the differences between mongodb and redis?",
+                "what is the difference between mongodb and redis",
+                "What distinguishes mongodb and redis",
+                "What separates mongodb and redis",
+                "what differentiates mongodb and redis",
+                "mongodb vs redis"
+            ],
+            "responses": [
+                "mongodb stores json documents, while redis uses a key-value model",
+                "redis is faster but mongodb is more flexible for complex data",
+                "redis is ideal for caching and mongodb for unstructured data"
+            ]
+        },
+        {
+            "tag": "compiler",
+            "patterns": [
+                "what is a compiler",
+                "what does compiler mean",
+                "what is a compiler program",
+                "compiler",
+                "tell me what is a compiler",
+                "tell me what does compiler mean",
+                "say it's a compiler",
+                "say what does compiler mean"
+            ],
+            "responses": [
+                "A compiler is a program that translates the source code of a high-level programming language into a low-level language or machine code.",
+                "the compiler allows code written in a human-understandable language to be executed by a computer",
+                "an example of a compiler is GCC for C or C++"
+            ]
+        },
+        {
+            "tag": "interpreter",
+            "patterns": [
+                "what is an interpreter",
+                "What does interpreter mean?",
+                "what is an interpreter program",
+                "interpreter",
+                "tell me he's an interpreter",
+                "tell me what interpreter means",
+                "say he is an interpreter",
+                "say what interpreter means"
+            ],
+            "responses": [
+                "is a type of program that executes the code of a programming language line by line, without having to compile all the code beforehand",
+                "Unlike a compiler, an interpreter does not create a machine code file, but rather translates and executes instructions directly",
+                "a common example of an interpreter is Python"
+            ]
+        },
+        {
+            "tag": "bug",
+            "patterns": [
+                "what is a bug",
+                "what does bug mean",
+                "what is a programming error",
+                "bug",
+                "programming error",
+                "tell me it's a bug",
+                "tell me what bug means",
+                "say it's a bug",
+                "say what bug means",
+                "what is a programming error",
+                "What does programming error mean?",
+                "what is a code error",
+                "What does code error mean?",
+                "what is a code error",
+                "What does code failure mean?"
+            ],
+            "responses": [
+                "A bug is an error or flaw in a program's code that causes unexpected or incorrect behavior.",
+                "Bugs can be caused by syntax errors, logic errors, or performance problems.",
+                "It is important to debug the code to find and fix bugs"
+            ]
+        },
+        {
+            "tag": "debugger",
+            "patterns": [
+                "what is a debugger",
+                "what does debugger mean",
+                "what is a debugger tool",
+                "debugger",
+                "debugger tool",
+                "tell me what is a debugger",
+                "tell me what debugger means",
+                "say it's a debugger",
+                "say what debugger means"
+            ],
+            "responses": [
+                "A debugger is a tool that allows you to examine the state of a program while it is running, helping to identify and correct bugs.",
+                "Debuggers allow you to track code execution, inspect variables, and control program flow.",
+                "Some popular debuggers are GDB for C and C++, or the debugger built into IDEs like Visual Studio Code"
+            ]
+        },
+        {
+            "tag": "variable",
+            "patterns": [
+                "what is a variable",
+                "What does variable mean?",
+                "what is a storage space",
+                "variable",
+                "tell me what is a variable",
+                "tell me what variable means",
+                "say it's a variable",
+                "variables"
+            ],
+            "responses": [
+                "A variable is a storage space that contains a value that can change during the execution of a program",
+                "Variables are used to store data such as numbers, text strings, or even objects",
+                "Each variable has a data type that determines what type of values ​​it can store, such as 'int' for integers or 'string' for text"
+            ]
+        },
+        {
+            "tag": "data_type",
+            "patterns": [
+                "what is a data type",
+                "What does data type mean?",
+                "what is a type of value",
+                "data type",
+                "tell me what is a data type",
+                "tell me what data type means",
+                "say it is a data type",
+                "What does data type mean?",
+                "what is a type of value",
+                "What does value type mean?",
+                "what is a type of variable",
+                "What does variable type mean?"
+            ],
+            "responses": [
+                "A data type is a classification of the values ​​that a variable can store, such as numbers, text, or booleans",
+                "Basic data types include integers (int), decimal numbers (float), text (string), and logical values ​​(boolean)",
+                "data types can also be more complex, such as lists, dictionaries, or even user-defined classes"
+            ]
+        },
+        {
+            "tag": "primitive_data_type",
+            "patterns": [
+                "which is a primitive data type",
+                "What does primitive data type mean?",
+                "which is a primitive value type",
+                "primitive data type",
+                "tell me what is a primitive data type",
+                "tell me what primitive data type means",
+                "say it is a primitive data type",
+                "What does primitive data type mean?",
+                "which is a primitive value type",
+                "What does primitive value type mean?",
+                "which is a primitive variable type",
+                "What does primitive variable type mean?"
+            ],
+            "responses": [
+                "A primitive data type is a basic data type that cannot be decomposed into simpler types.",
+                "Primitive data types include integers (int), decimals (float), strings (string), and logical values ​​(boolean)",
+                "These data types are fundamental and form the basis for building other more complex data types."
+            ]
+        },
+        {
+            "tag": "composite_data_type",
+            "patterns": [
+                "which is a composite data type",
+                "What does composite data type mean?",
+                "which is a type of composite value",
+                "composite data type",
+                "tell me what is a composite data type",
+                "Tell me what does composite data type mean?",
+                "say it is a composite data type",
+                "What does composite data type mean?",
+                "which is a type of composite value",
+                "What does composite value type mean?",
+                "which is a type of compound variable",
+                "What does composite variable type mean?"
+            ],
+            "responses": [
+                "A composite data type is a data type that is created by combining several primitive data types or even other composite types.",
+                "Composite data types include lists (arrays), dictionaries (objects in some languages), tuples, and sets",
+                "These data types allow for storing more complex and structured collections of data."
+            ]
+        },
+        {
+            "tag": "array",
+            "patterns": [
+                "what is an array",
+                "what does array mean",
+                "what is a list of elements",
+                "array",
+                "list of elements",
+                "tell me what is an array",
+                "tell me what array means",
+                "say it's an array",
+                "say what array means",
+                "what is an arrangement",
+                "What does arrangement mean?",
+                "What is a list in programming?",
+                "What does list mean in programming?"
+            ],
+            "responses": [
+                "An array is a data structure that stores a collection of elements of the same type",
+                "The elements of an array are stored in contiguous memory locations and are accessed using an index",
+                "In many programming languages, such as JavaScript or Python, arrays can be dynamic or fixed size"
+            ]
+        },
+        {
+            "tag": "schedule_list",
+            "patterns": [
+                "what is a list in programming",
+                "What does list mean in programming?",
+                "what is a list of elements in programming",
+                "list in programming",
+                "tell me what a list is in programming",
+                "tell me what list means in programming",
+                "say it is a list in programming",
+                "tell what does list mean in programming",
+                "What is an arrangement in programming?",
+                "What does arrangement mean in programming?",
+                "what is an array in programming",
+                "What does array mean in programming?"
+            ],
+            "responses": [
+                "A list is a composite data type that stores an ordered collection of elements, which can be of different types",
+                "Unlike arrays, lists can store elements of different data types in many languages, such as Python",
+                "A list can also be dynamic, that is, its size can be changed during program execution"
+            ]
+        },
+        {
+            "tag": "what_dictionary",
+            "patterns": [
+                "what is a dictionary",
+                "what does dictionary mean",
+                "what is a hash table",
+                "dictionary",
+                "hash table",
+                "tell me what is a dictionary",
+                "tell me what does dictionary mean",
+                "say it's a dictionary",
+                "say what does dictionary mean",
+                "what is a map",
+                "what does map mean"
+            ],
+            "responses": [
+                "A dictionary is a data structure that stores key-value pairs",
+                "Each element in a dictionary is composed of a unique key and a value associated with that key",
+                "Dictionaries are useful when you need to quickly look up a value from a key, such as in Python or JavaScript"
+            ]
+        },
+        {
+            "tag": "tuple",
+            "patterns": [
+                "what is a tuple",
+                "What does tuple mean?",
+                "which is an immutable structure",
+                "tuple",
+                "immutable structure",
+                "tell me what is a tuple",
+                "tell me what tuple means",
+                "say it is a tuple",
+                "say what tuple means"
+            ],
+            "responses": [
+                "A tuple is a data structure similar to a list, but with the difference that tuples are immutable, that is, they cannot be modified after their creation.",
+                "In many programming languages, such as Python, tuples are used to store data that should not change during program execution",
+                "tuples can also contain elements of different data types"
+            ]
+        },
+        {
+            "tag": "set",
+            "patterns": [
+                "what is a set",
+                "What does set mean?",
+                "which is a collection of unique elements",
+                "set",
+                "collection of unique elements",
+                "tell me what is a set",
+                "tell me what does set mean",
+                "say it's a set",
+                "say what does set mean"
+            ],
+            "responses": [
+                "A set is a collection of unordered elements without duplicates.",
+                "Sets are useful when you need to store unique data, without worrying about the order in which it is inserted",
+                "In Python, sets are defined using the 'set' class, and are different from lists or tuples in terms of the uniqueness of the elements"
+            ]
+        },
+        {
+            "tag": "what_is_string",
+            "patterns": [
+                "what is a string",
+                "what does string mean",
+                "what is a text string",
+                "string",
+                "text string",
+                "tell me what is a string",
+                "tell me what string means",
+                "say it's a string",
+                "say what string means"
+            ],
+            "responses": [
+                "A string is a data type that represents a sequence of characters, such as text",
+                "Strings can include letters, numbers, and other characters, and are used to manipulate text in most programming languages.",
+                "In some languages, strings are immutable, meaning they cannot be modified after they are created, such as in Python or Java"
+            ]
+        },
+        {
+            "tag": "what_is_a_boolean",
+            "patterns": [
+                "what is a boolean",
+                "what does boolean mean",
+                "what is a logical value",
+                "boolean",
+                "logical value",
+                "tell me what is a boolean",
+                "tell me what boolean means",
+                "say it's a boolean",
+                "say what boolean means"
+            ],
+            "responses": [
+                "A boolean is a data type that has only two possible values: true or false.",
+                "Boolean values ​​are used in conditions and control structures, such as 'if' or 'while', to make decisions in a program",
+                "Booleans are fundamental in logic programming and conditional expressions"
+            ]
+        },
+        {
+            "tag": "null_value",
+            "patterns": [
+                "which is a null value",
+                "What does null value mean?",
+                "which is a special value",
+                "null value",
+                "special value",
+                "tell me what is a null value",
+                "tell me what null value means",
+                "say it is a null value",
+                "say what null value means"
+            ],
+            "responses": [
+                "A null value is a special value that represents the absence of a valid or defined value in a variable.",
+                "The null value can be used to indicate that a variable has not yet been initialized or that it does not have a value assigned",
+                "In some languages, such as JavaScript, 'null' is used to denote a null value, while in others, such as Python, 'None' is used"
+            ]
+        },
+        {
+            "tag": "floating_data_type",
+            "patterns": [
+                "what is a floating data type",
+                "What does floating data type mean?",
+                "what is a decimal value",
+                "floating data type",
+                "decimal value",
+                "tell me what is a floating data type",
+                "tell me what float data type means",
+                "say it is a float data type",
+                "say what float data type means"
+            ],
+            "responses": [
+                "A float data type is a numeric type used to represent numbers with decimals.",
+                "Float numbers are especially useful for performing precise calculations that include decimal values, such as 3.14 or 0.5",
+                "In many programming languages, such as Python or Java, floats are represented with the type 'float'"
+            ]
+        },
+        {
+            "tag": "integer_data_type",
+            "patterns": [
+                "which is an integer data type",
+                "What does integer data type mean?",
+                "what is a numerical value",
+                "integer data type",
+                "numerical value",
+                "tell me what is an integer data type",
+                "tell me what integer data type means",
+                "say it is an integer data type",
+                "say what integer data type means"
+            ],
+            "responses": [
+                "An integer data type is a numeric type used to represent numbers without decimals, such as 1, 100, or -5",
+                "Integers are essential in programming to perform simple mathematical operations, such as counting or iterating over elements",
+                "In languages ​​like Python or Java, integers are represented with the 'int' type"
+            ]
+        },
+        {
+            "tag": "char_data_type",
+            "patterns": [
+                "what is the char data type",
+                "What does char data type mean?",
+                "what is a character value",
+                "char data type",
+                "character value",
+                "tell me what the char data type is",
+                "Tell me what does char data type mean?",
+                "say what is the data type char",
+                "What does char data type mean?",
+                "what is a char",
+                "what does char mean",
+                "what is a character",
+                "what does character mean"
+            ],
+            "responses": [
+                "The 'char' data type is used to represent a single character, such as 'a', 'B' or '9'",
+                "'char' is commonly used in languages ​​such as C and C++ to manipulate individual characters in text strings",
+                "In other languages ​​like Python, characters are treated as strings of length 1"
+            ]
+        },
+        {
+            "tag": "complex_data_type",
+            "patterns": [
+                "What is the complex data type?",
+                "What does complex data type mean?",
+                "what is a complex value",
+                "complex data type",
+                "complex value",
+                "tell me what is the complex data type",
+                "Tell me what does complex data type mean?",
+                "say what is the complex data type",
+                "What does complex data type mean?",
+                "which is a complex",
+                "what does complex mean",
+                "what is a complex number",
+                "What does complex number mean?"
+            ],
+            "responses": [
+                "The complex data type is used to represent numbers that have a real part and an imaginary part, such as 3 + 4i",
+                "In some languages, such as Python, you can work with complex numbers using the 'complex' type",
+                "Complex numbers are used in areas such as engineering, mathematics, and signal processing."
+            ]
+        },
+        {
+            "tag": "what_is_a_function",
+            "patterns": [
+                "what is a function",
+                "What does function mean?",
+                "what is a method",
+                "function",
+                "method",
+                "tell me what is a function",
+                "tell me what does function mean",
+                "say it's a function",
+                "say what does function mean",
+                "what is a subroutine",
+                "What does subroutine mean?",
+                "what is a procedure",
+                "What does procedure mean?"
+            ],
+            "responses": [
+                "A function is a block of code that performs a specific task and can be reused in different parts of the program.",
+                "functions can accept input (parameters) and return a value as a result",
+                "In many programming languages, functions allow code to be organized in a modular and efficient way"
+            ]
+        },
+        {
+            "tag": "what_is_the_recursion",
+            "patterns": [
+                "what is recursion",
+                "What does recursion mean?",
+                "what is a recursive function",
+                "recursion",
+                "recursive function",
+                "tell me what the recursion is",
+                "tell me what recursion means",
+                "say what the recursion is",
+                "say what recursion means",
+                "what is a recursive algorithm",
+                "What does recursive algorithm mean?",
+                "what is a recursive process",
+                "What does recursive process mean?"
+            ],
+            "responses": [
+                "Recursion is a technique in programming in which a function calls itself to solve a problem",
+                "Generally, recursion is used to solve problems that can be broken down into smaller subproblems, such as trees or binary search.",
+                "It is important that a recursive function have a base condition that stops the recursive call"
+            ]
+        }
     ]
 }
