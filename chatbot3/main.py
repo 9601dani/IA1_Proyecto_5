@@ -31,7 +31,7 @@ scrollbar = ttk.Scrollbar(frame_chat, command=text_area.yview)
 scrollbar.pack(side="right", fill="y")
 text_area["yscrollcommand"] = scrollbar.set
 
-# Crear un marco para la entrada de texto y el botón
+# Crear un marco para la entrada de texto y los botones
 frame_input = tk.Frame(window, bg="#f8f9fa")
 frame_input.pack(side="bottom", fill="x", padx=15, pady=(0, 15))
 
@@ -43,17 +43,35 @@ input_text.pack(side="left", fill="x", expand=True, padx=(0, 10), ipady=8)
 button_send = tk.Button(frame_input, text="Enviar", bg="#4a148c", fg="white", font=("Helvetica", 14, "bold"), width=12, relief="flat")
 button_send.pack(side="right")
 
-# Función para crear burbujas de chat
+# Botón de limpiar
+button_clear = tk.Button(frame_input, text="Limpiar", bg="#dc3545", fg="white", font=("Helvetica", 14, "bold"), width=12, relief="flat")
+button_clear.pack(side="right", padx=(0, 10))
+
+# Configuración de estilos mejorados sin padx ni pady
+text_area.tag_configure("user", foreground="black", justify="right",
+                        font=("Helvetica", 14, "normal"), lmargin1=50, rmargin=10,
+                        spacing1=10, spacing3=10, background="#d1e7ff", borderwidth=2,
+                        relief="solid")
+text_area.tag_configure("bot", foreground="black", justify="left",
+                        font=("Helvetica", 14, "normal"), lmargin1=10, rmargin=50,
+                        spacing1=10, spacing3=10, background="#e9ecef", borderwidth=2,
+                        relief="solid")
+
+# Función para insertar burbujas con padding simulado
 def insert_bubble(text, sender="user"):
     text_area.config(state="normal")
 
+    # Agregar padding simulado con espacios
+    padded_text = f"   {text}   "  # Espacios antes y después del texto
+
     if sender == "user":
         text_area.insert("end", "\n", "right_padding")
-        text_area.insert("end", f"{text}\n", "user")
+        text_area.insert("end", f"{padded_text}\n", "user")  # Burbuja del usuario
     else:
         text_area.insert("end", "\n", "left_padding")
-        text_area.insert("end", f"{text}\n", "bot")
+        text_area.insert("end", f"{padded_text}\n", "bot")  # Burbuja del bot
 
+    text_area.insert("end", "\n\n")  # Espaciado entre mensajes
     text_area.config(state="disabled")
     text_area.see("end")
 
@@ -68,15 +86,16 @@ def send_message(event=None):
 
         insert_bubble(respuesta, sender="bot")
 
-# Configuración de estilos para las burbujas
-text_area.tag_configure("user", foreground="black",justify="right", font=("Helvetica", 16, "normal"), lmargin1=50, rmargin=10, spacing1=5, spacing3=5)
-text_area.tag_configure("bot", foreground="black", justify="left", font=("Helvetica", 16, "normal"), lmargin1=10, rmargin=50, spacing1=5, spacing3=5)
-text_area.tag_configure("right_padding", justify="right", spacing1=5, spacing3=5)
-text_area.tag_configure("left_padding", justify="left", spacing1=5, spacing3=5)
+# Función para limpiar el área de texto
+def clear_text_area():
+    text_area.config(state="normal")
+    text_area.delete("1.0", "end")
+    text_area.config(state="disabled")
 
 # Asignar el evento Enter para enviar mensajes
 window.bind("<Return>", send_message)
 button_send.config(command=send_message)
+button_clear.config(command=clear_text_area)
 
 # Mostrar la ventana
 window.mainloop()

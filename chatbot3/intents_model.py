@@ -49,7 +49,7 @@ def train_model():
         responses_map[tag] = responses
 
     # Tokenización
-    tokenizer = Tokenizer(num_words=3000, oov_token="<OOV>")
+    tokenizer = Tokenizer(num_words=5000, oov_token="<OOV>")
     tokenizer.fit_on_texts(all_inputs)
     sequences = tokenizer.texts_to_sequences(all_inputs)
     x_data = pad_sequences(sequences)
