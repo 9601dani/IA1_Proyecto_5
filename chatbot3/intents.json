@@ -3582,9 +3582,9 @@
                 "algoritmos de busqueda y ordenamiento mas recomendados"
             ],
             "responses": [
-                "se estos: \n-busqueda secuencial \n-⁠búsqueda binaria \n-⁠ordenamiento burbuja \n-⁠quick sort /n-⁠merge sort \n-⁠Fibonacci \n-⁠búsqueda en profundidad \n-⁠heap sort",
-                "puedo ayudar con: \n-busqueda secuencial \n-⁠búsqueda binaria \n-⁠ordenamiento burbuja \n-⁠quick sort /n-⁠merge sort \n-⁠Fibonacci \n-⁠búsqueda en profundidad \n-⁠heap sort",
-                "conozco estos: \n-busqueda secuencial \n-⁠búsqueda binaria \n-⁠ordenamiento burbuja \n-⁠quick sort /n-⁠merge sort \n-⁠Fibonacci \n-⁠búsqueda en profundidad \n-⁠heap sort"
+                "se estos: \n-busqueda secuencial \n-⁠búsqueda binaria \n-⁠ordenamiento burbuja \n-⁠quick sort \n-⁠merge sort \n-⁠Fibonacci \n-⁠búsqueda en profundidad \n-⁠heap sort",
+                "puedo ayudar con: \n-busqueda secuencial \n-⁠búsqueda binaria \n-⁠ordenamiento burbuja \n-⁠quick sort \n-⁠merge sort \n-⁠Fibonacci \n-⁠búsqueda en profundidad \n-⁠heap sort",
+                "conozco estos: \n-busqueda secuencial \n-⁠búsqueda binaria \n-⁠ordenamiento burbuja \n-⁠quick sort \n-⁠merge sort \n-⁠Fibonacci \n-⁠búsqueda en profundidad \n-⁠heap sort"
             ]
         },
         {
@@ -8927,7 +8927,7 @@
                 "dame un ejemplo de un ciclo for en js"
             ],
             "responses": [
-                "Aquí tienes un ejemplo básico de un ciclo for en JavaScrip:\n\tfor (let i = 0; i < 5; i++) {\n\t\tconsole.log(i);\n\t}",
+                "Aquí tienes un ejemplo básico de un ciclo for en JavaScript:\n\tfor (let i = 0; i < 5; i++) {\n\t\tconsole.log(i);\n\t}",
                 "Puedes usar un for para iterar sobre un arreglo:\n\tconst numeros = [1, 2, 3, 4];\n\tfor (let i = 0; i < numeros.length; i++) {\n\t\tconsole.log('Elemento:', numeros[i]);\n\t}"
             ]
         },
@@ -9856,7 +9856,7 @@
                 "quiero entender la busqueda secuencial paso a paso"
             ],
             "responses": [
-                "Aquí tienes el algoritmo de búsqueda secuencial explicado paso a paso:\n\n1. **Definimos la función**:\n```javascript\nfunction busquedaSecuencial(arreglo, valorBuscado) {\n```\nEsta función recibe un arreglo y el valor que queremos buscar.\n\n2. **Recorremos el arreglo usando un bucle**:\n```javascript\nfor (let i = 0; i < arreglo.length; i++) {\n```\nIteramos sobre cada elemento del arreglo, usando el índice `i` para acceder a los valores.\n\n3. **Verificamos si el valor actual es el buscado**:\n```javascript\nif (arreglo[i] === valorBuscado) {\n    return i; // Devuelve el índice si lo encuentra\n}\n```\nComparamos el valor actual con el valor buscado. Si coinciden, devolvemos el índice.\n\n4. **Devolvemos -1 si no encontramos el valor**:\n```javascript\nreturn -1; // Si no se encuentra el valor\n```\nEsto indica que el valor no está en el arreglo.\n\n5. **Ejemplo completo**:\n```javascript\nconst numeros = [4, 2, 7, 9, 5];\nconst resultado = busquedaSecuencial(numeros, 7);\nconsole.log(resultado); // Salida: 2\n```"
+                "Aquí tienes el algoritmo de búsqueda secuencial explicado paso a paso:\n\n1. **Definimos la función**:\n\nfunction busquedaSecuencial(arreglo, valorBuscado) {\n\nEsta función recibe un arreglo y el valor que queremos buscar.\n\n2. **Recorremos el arreglo usando un bucle**:\n\nfor (let i = 0; i < arreglo.length; i++) {\n\nIteramos sobre cada elemento del arreglo, usando el índice `i` para acceder a los valores.\n\n3. **Verificamos si el valor actual es el buscado**:\n\nif (arreglo[i] === valorBuscado) {\n    return i; // Devuelve el índice si lo encuentra\n}\n\nComparamos el valor actual con el valor buscado. Si coinciden, devolvemos el índice.\n\n4. **Devolvemos -1 si no encontramos el valor**:\n\nreturn -1; // Si no se encuentra el valor\n\nEsto indica que el valor no está en el arreglo.\n\n5. **Ejemplo completo**:\n\nconst numeros = [4, 2, 7, 9, 5];\nconst resultado = busquedaSecuencial(numeros, 7);\nconsole.log(resultado); // Salida: 2\n"
             ]
         },
         {
@@ -9866,10 +9866,10 @@
                 "puedes darme solo el ciclo for del algoritmo de busqueda secuencial en js",
                 "como recorre el arreglo la busqueda secuencial en js",
                 "quiero ver el bucle de la busqueda secuencial en js",
-                "dame la parte del ciclo for de la busqueda secuencialen en js"
+                "dame la parte del ciclo for de la busqueda secuencial en js"
             ],
             "responses": [
-                "El ciclo for en la búsqueda secuencial recorre el arreglo elemento por elemento:\n\n```javascript\nfor (let i = 0; i < arreglo.length; i++) {\n    // Aquí se evalúan los elementos uno por uno\n}\n```"
+                "El ciclo for en la búsqueda secuencial recorre el arreglo elemento por elemento:\n\n\nfor (let i = 0; i < arreglo.length; i++) {\n    // Aquí se evalúan los elementos uno por uno\n}\n"
             ]
         },
         {
@@ -9882,7 +9882,7 @@
                 "dame la parte del if en la busqueda secuencial en js"
             ],
             "responses": [
-                "El condicional if verifica si el valor actual es el buscado:\n\n```javascript\nif (arreglo[i] === valorBuscado) {\n    return i; // Devuelve el índice si lo encuentra\n}\n```"
+                "El condicional if verifica si el valor actual es el buscado:\n\n\nif (arreglo[i] === valorBuscado) {\n    return i; // Devuelve el índice si lo encuentra\n}\n"
             ]
         },
         {
@@ -9895,7 +9895,7 @@
                 "dame la parte donde no encuentra el valor en la busqueda secuencial en js"
             ],
             "responses": [
-                "Si el valor no se encuentra, el algoritmo devuelve -1:\n\n```javascript\nreturn -1; // Si no se encuentra el valor\n```"
+                "Si el valor no se encuentra, el algoritmo devuelve -1:\n\n\nreturn -1; // Si no se encuentra el valor\n"
             ]
         },
         {
@@ -9908,7 +9908,7 @@
                 "dame la parte donde se define la funcion en busqueda secuencial en js"
             ],
             "responses": [
-                "La función de búsqueda secuencial se define así:\n\n```javascript\nfunction busquedaSecuencial(arreglo, valorBuscado) {\n    // Aquí va el cuerpo del algoritmo\n}\n```"
+                "La función de búsqueda secuencial se define así:\n\n\nfunction busquedaSecuencial(arreglo, valorBuscado) {\n    // Aquí va el cuerpo del algoritmo\n}\n"
             ]
         },
         {
@@ -9921,7 +9921,7 @@
                 "dame los argumentos de la busqueda secuencial en js"
             ],
             "responses": [
-                "La función de búsqueda secuencial recibe dos argumentos:\n\n1. **arreglo**: Es el arreglo que será recorrido.\n2. **valorBuscado**: Es el valor que queremos encontrar.\n\nEjemplo:\n```javascript\nbusquedaSecuencial([4, 2, 7, 9], 7);\n```"
+                "La función de búsqueda secuencial recibe dos argumentos:\n\n1. **arreglo**: Es el arreglo que será recorrido.\n2. **valorBuscado**: Es el valor que queremos encontrar.\n\nEjemplo:\n\nbusquedaSecuencial([4, 2, 7, 9], 7);\n"
             ]
         },
         {
@@ -9934,7 +9934,7 @@
                 "dame la parte donde retorna el indice en busqueda secuencial en js"
             ],
             "responses": [
-                "Cuando el valor buscado es encontrado, la función devuelve el índice:\n\n```javascript\nreturn i; // Devuelve el índice donde se encontró el valor\n```"
+                "Cuando el valor buscado es encontrado, la función devuelve el índice:\n\n\nreturn i; // Devuelve el índice donde se encontró el valor\n"
             ]
         },
         {
@@ -9947,7 +9947,7 @@
                 "dame un ejemplo de uso de busqueda secuencial en js"
             ],
             "responses": [
-                "Aquí tienes un ejemplo práctico del uso de la búsqueda secuencial:\n\n```javascript\nconst numeros = [1, 3, 5, 7, 9];\nconst valorBuscado = 7;\nconst resultado = busquedaSecuencial(numeros, valorBuscado);\n\nif (resultado !== -1) {\n    console.log(`Valor encontrado en el índice ${resultado}`);\n} else {\n    console.log('Valor no encontrado');\n}\n```\nEsto muestra si el valor fue encontrado y su índice, o indica que no está presente."
+                "Aquí tienes un ejemplo práctico del uso de la búsqueda secuencial:\n\n\nconst numeros = [1, 3, 5, 7, 9];\nconst valorBuscado = 7;\nconst resultado = busquedaSecuencial(numeros, valorBuscado);\n\nif (resultado !== -1) {\n    console.log(`Valor encontrado en el índice ${resultado}`);\n} else {\n    console.log('Valor no encontrado');\n}\n\nEsto muestra si el valor fue encontrado y su índice, o indica que no está presente."
             ]
         },
         {
@@ -9973,7 +9973,7 @@
                 "como implemento la busqueda binaria en javascript"
             ],
             "responses": [
-                "La búsqueda binaria es un algoritmo eficiente para encontrar un elemento en un arreglo ordenado. Se divide el rango de búsqueda a la mitad en cada paso. Aquí tienes el código básico en javascript:\n\n```javascript\nfunction busquedaBinaria(arreglo, valorBuscado) {\n    let inicio = 0;\n    let fin = arreglo.length - 1;\n\n    while (inicio <= fin) {\n        let medio = Math.floor((inicio + fin) / 2);\n\n        if (arreglo[medio] === valorBuscado) {\n            return medio; // Devuelve el índice si encuentra el valor\n        } else if (arreglo[medio] < valorBuscado) {\n            inicio = medio + 1; // Ajusta el inicio\n        } else {\n            fin = medio - 1; // Ajusta el final\n        }\n    }\n\n    return -1; // Retorna -1 si el valor no está presente\n}\n\n// Ejemplo de uso\nconst numeros = [1, 3, 5, 7, 9];\nconst resultado = busquedaBinaria(numeros, 7);\nconsole.log(resultado); // Salida: 3\n```"
+                "La búsqueda binaria es un algoritmo eficiente para encontrar un elemento en un arreglo ordenado. Se divide el rango de búsqueda a la mitad en cada paso. Aquí tienes el código básico en javascript:\n\n\nfunction busquedaBinaria(arreglo, valorBuscado) {\n    let inicio = 0;\n    let fin = arreglo.length - 1;\n\n    while (inicio <= fin) {\n        let medio = Math.floor((inicio + fin) / 2);\n\n        if (arreglo[medio] === valorBuscado) {\n            return medio; // Devuelve el índice si encuentra el valor\n        } else if (arreglo[medio] < valorBuscado) {\n            inicio = medio + 1; // Ajusta el inicio\n        } else {\n            fin = medio - 1; // Ajusta el final\n        }\n    }\n\n    return -1; // Retorna -1 si el valor no está presente\n}\n\n// Ejemplo de uso\nconst numeros = [1, 3, 5, 7, 9];\nconst resultado = busquedaBinaria(numeros, 7);\nconsole.log(resultado); // Salida: 3\n"
             ]
         },
         {
@@ -9986,7 +9986,7 @@
                 "dame la parte donde se define la funcion en la busqueda binaria en js"
             ],
             "responses": [
-                "La función de búsqueda binaria en javascript se define así:\n\n```javascript\nfunction busquedaBinaria(arreglo, valorBuscado) {\n    // Aquí va el cuerpo del algoritmo\n}\n```"
+                "La función de búsqueda binaria en javascript se define así:\n\n\nfunction busquedaBinaria(arreglo, valorBuscado) {\n    // Aquí va el cuerpo del algoritmo\n}\n"
             ]
         },
         {
@@ -9999,7 +9999,7 @@
                 "dame la parte donde se inicializan las variables en la busqueda binaria en js"
             ],
             "responses": [
-                "En la búsqueda binaria, las variables se inicializan de la siguiente manera:\n\n```javascript\nlet inicio = 0;\nlet fin = arreglo.length - 1;\nlet medio = Math.floor((inicio + fin) / 2);\n```"
+                "En la búsqueda binaria, las variables se inicializan de la siguiente manera:\n\n\nlet inicio = 0;\nlet fin = arreglo.length - 1;\nlet medio = Math.floor((inicio + fin) / 2);\n"
             ]
         },
         {
@@ -10012,7 +10012,7 @@
                 "dame la condicion del bucle en la busqueda binaria en js"
             ],
             "responses": [
-                "El bucle while controla la búsqueda dividiendo el rango a la mitad:\n\n```javascript\nwhile (inicio <= fin) {\n    // Aquí va el código para evaluar y ajustar los límites\n}\n```"
+                "El bucle while controla la búsqueda dividiendo el rango a la mitad:\n\n\nwhile (inicio <= fin) {\n    // Aquí va el código para evaluar y ajustar los límites\n}\n"
             ]
         },
         {
@@ -10025,7 +10025,7 @@
                 "dame la parte del if en la busqueda binaria en js"
             ],
             "responses": [
-                "El condicional `if` verifica si el valor buscado es igual al valor en el índice medio:\n\n```javascript\nif (arreglo[medio] === valorBuscado) {\n    return medio; // Devuelve el índice si encuentra el valor\n}\n```"
+                "El condicional `if` verifica si el valor buscado es igual al valor en el índice medio:\n\n\nif (arreglo[medio] === valorBuscado) {\n    return medio; // Devuelve el índice si encuentra el valor\n}\n"
             ]
         },
         {
@@ -10038,7 +10038,7 @@
                 "dame la parte donde se ajustan los limites en la busqueda binaria en js"
             ],
             "responses": [
-                "En la búsqueda binaria, los límites se ajustan dependiendo del valor comparado:\n\n```javascript\nif (arreglo[medio] < valorBuscado) {\n    inicio = medio + 1; // Ajusta el inicio\n} else {\n    fin = medio - 1; // Ajusta el final\n}\n```"
+                "En la búsqueda binaria, los límites se ajustan dependiendo del valor comparado:\n\n\nif (arreglo[medio] < valorBuscado) {\n    inicio = medio + 1; // Ajusta el inicio\n} else {\n    fin = medio - 1; // Ajusta el final\n}\n"
             ]
         },
         {
@@ -10051,7 +10051,7 @@
                 "dame la parte donde no encuentra el valor en la busqueda binaria en js"
             ],
             "responses": [
-                "Si el valor no se encuentra, la función devuelve -1:\n\n```javascript\nreturn -1; // Retorna -1 si el valor no está presente\n```"
+                "Si el valor no se encuentra, la función devuelve -1:\n\n\nreturn -1; // Retorna -1 si el valor no está presente\n"
             ]
         },
         {
@@ -10086,7 +10086,7 @@
                 "como se implementa el ordenamiento burbuja en js"
             ],
             "responses": [
-                "El ordenamiento por burbuja es un algoritmo que compara elementos adyacentes en un arreglo y los intercambia si están en el orden incorrecto. Esto se repite hasta que el arreglo esté completamente ordenado. Aquí tienes el código en javascript:\n\n```javascript\nfunction ordenamientoBurbuja(arr) {\n    let n = arr.length;\n    for (let i = 0; i < n - 1; i++) {\n        for (let j = 0; j < n - i - 1; j++) {\n            if (arr[j] > arr[j + 1]) {\n                // Intercambio de elementos\n                let temp = arr[j];\n                arr[j] = arr[j + 1];\n                arr[j + 1] = temp;\n            }\n        }\n    }\n    return arr;\n}\n\n// Ejemplo de uso\nconst numeros = [64, 34, 25, 12, 22, 11, 90];\nconsole.log(ordenamientoBurbuja(numeros));\n// Salida: [11, 12, 22, 25, 34, 64, 90]\n```"
+                "El ordenamiento por burbuja es un algoritmo que compara elementos adyacentes en un arreglo y los intercambia si están en el orden incorrecto. Esto se repite hasta que el arreglo esté completamente ordenado. Aquí tienes el código en javascript:\n\n\nfunction ordenamientoBurbuja(arr) {\n    let n = arr.length;\n    for (let i = 0; i < n - 1; i++) {\n        for (let j = 0; j < n - i - 1; j++) {\n            if (arr[j] > arr[j + 1]) {\n                // Intercambio de elementos\n                let temp = arr[j];\n                arr[j] = arr[j + 1];\n                arr[j + 1] = temp;\n            }\n        }\n    }\n    return arr;\n}\n\n// Ejemplo de uso\nconst numeros = [64, 34, 25, 12, 22, 11, 90];\nconsole.log(ordenamientoBurbuja(numeros));\n// Salida: [11, 12, 22, 25, 34, 64, 90]\n"
             ]
         },
         {
@@ -10099,7 +10099,7 @@
                 "dame la parte donde se define la funcion en el algoritmo de burbuja en js"
             ],
             "responses": [
-                "La función del ordenamiento burbuja en javascript se define así:\n\n```javascript\nfunction ordenamientoBurbuja(arr) {\n    // Aquí va el cuerpo del algoritmo\n}\n```"
+                "La función del ordenamiento burbuja en javascript se define así:\n\n\nfunction ordenamientoBurbuja(arr) {\n    // Aquí va el cuerpo del algoritmo\n}\n"
             ]
         },
         {
@@ -10112,7 +10112,7 @@
                 "dame la parte donde se inicializa n en el algoritmo de burbuja en js"
             ],
             "responses": [
-                "La variable `n` se inicializa con la longitud del arreglo:\n\n```javascript\nlet n = arr.length;\n```"
+                "La variable `n` se inicializa con la longitud del arreglo:\n\n\nlet n = arr.length;\n"
             ]
         },
         {
@@ -10125,7 +10125,7 @@
                 "dame la parte de los ciclos en el algoritmo de burbuja en js"
             ],
             "responses": [
-                "El algoritmo utiliza un bucle anidado para recorrer el arreglo:\n\n```javascript\nfor (let i = 0; i < n - 1; i++) {\n    for (let j = 0; j < n - i - 1; j++) {\n        // Comparación e intercambio aquí\n    }\n}\n```"
+                "El algoritmo utiliza un bucle anidado para recorrer el arreglo:\n\n\nfor (let i = 0; i < n - 1; i++) {\n    for (let j = 0; j < n - i - 1; j++) {\n        // Comparación e intercambio aquí\n    }\n}\n"
             ]
         },
         {
@@ -10138,7 +10138,7 @@
                 "dame la parte del if en el algoritmo de burbuja en js"
             ],
             "responses": [
-                "La condición `if` verifica si el elemento actual es mayor que el siguiente:\n\n```javascript\nif (arr[j] > arr[j + 1]) {\n    // Intercambio de elementos\n}\n```"
+                "La condición `if` verifica si el elemento actual es mayor que el siguiente:\n\n\nif (arr[j] > arr[j + 1]) {\n    // Intercambio de elementos\n}\n"
             ]
         },
         {
@@ -10151,7 +10151,7 @@
                 "dame la parte del intercambio en el algoritmo de burbuja en js"
             ],
             "responses": [
-                "El intercambio de elementos se realiza con una variable temporal:\n\n```javascript\nlet temp = arr[j];\narr[j] = arr[j + 1];\narr[j + 1] = temp;\n```"
+                "El intercambio de elementos se realiza con una variable temporal:\n\n\nlet temp = arr[j];\narr[j] = arr[j + 1];\narr[j + 1] = temp;\n"
             ]
         },
         {
@@ -10177,7 +10177,7 @@
                 "como implemento el quick sort en javascript"
             ],
             "responses": [
-                "El Quick Sort es un algoritmo de ordenamiento que utiliza el enfoque de dividir y conquistar. Divide el arreglo en subarreglos usando un elemento como pivote, colocando los elementos menores a la izquierda y los mayores a la derecha. Luego aplica recursividad para ordenar las partes. Aquí tienes el código completo en javascript:\n\n```javascript\nfunction quickSort(arr) {\n    if (arr.length <= 1) {\n        return arr;\n    }\n    const pivot = arr[arr.length - 1];\n    const left = [];\n    const right = [];\n    for (let i = 0; i < arr.length - 1; i++) {\n        if (arr[i] < pivot) {\n            left.push(arr[i]);\n        } else {\n            right.push(arr[i]);\n        }\n    }\n    return [...quickSort(left), pivot, ...quickSort(right)];\n}\n\n// Ejemplo de uso\nconst numeros = [34, 7, 23, 32, 5, 62];\nconsole.log(quickSort(numeros));\n// Salida: [5, 7, 23, 32, 34, 62]\n```\n"
+                "El Quick Sort es un algoritmo de ordenamiento que utiliza el enfoque de dividir y conquistar. Divide el arreglo en subarreglos usando un elemento como pivote, colocando los elementos menores a la izquierda y los mayores a la derecha. Luego aplica recursividad para ordenar las partes. Aquí tienes el código completo en javascript:\n\n\nfunction quickSort(arr) {\n    if (arr.length <= 1) {\n        return arr;\n    }\n    const pivot = arr[arr.length - 1];\n    const left = [];\n    const right = [];\n    for (let i = 0; i < arr.length - 1; i++) {\n        if (arr[i] < pivot) {\n            left.push(arr[i]);\n        } else {\n            right.push(arr[i]);\n        }\n    }\n    return [...quickSort(left), pivot, ...quickSort(right)];\n}\n\n// Ejemplo de uso\nconst numeros = [34, 7, 23, 32, 5, 62];\nconsole.log(quickSort(numeros));\n// Salida: [5, 7, 23, 32, 34, 62]\n\n"
             ]
         },
         {
@@ -10190,7 +10190,7 @@
                 "dame la parte donde se define la funcion en el quick sort en js"
             ],
             "responses": [
-                "La definición de la función Quick Sort en javascript es esta:\n\n```javascript\nfunction quickSort(arr) {\n    // Aquí va el cuerpo del algoritmo\n}\n```\n"
+                "La definición de la función Quick Sort en javascript es esta:\n\n\nfunction quickSort(arr) {\n    // Aquí va el cuerpo del algoritmo\n}\n\n"
             ]
         },
         {
@@ -10203,7 +10203,7 @@
                 "dame la parte donde se establece la condicion base en el quick sort en js"
             ],
             "responses": [
-                "La condición base del Quick Sort verifica si el arreglo tiene uno o ningún elemento, para detener la recursión:\n\n```javascript\nif (arr.length <= 1) {\n    return arr;\n}\n```\n"
+                "La condición base del Quick Sort verifica si el arreglo tiene uno o ningún elemento, para detener la recursión:\n\n\nif (arr.length <= 1) {\n    return arr;\n}\n\n"
             ]
         },
         {
@@ -10216,7 +10216,7 @@
                 "dame la parte del particionamiento en el quick sort en js"
             ],
             "responses": [
-                "El particionamiento del Quick Sort divide el arreglo en dos subarreglos con base en un pivote:\n\n```javascript\nconst pivot = arr[arr.length - 1];\nconst left = [];\nconst right = [];\nfor (let i = 0; i < arr.length - 1; i++) {\n    if (arr[i] < pivot) {\n        left.push(arr[i]);\n    } else {\n        right.push(arr[i]);\n    }\n}\n```\n"
+                "El particionamiento del Quick Sort divide el arreglo en dos subarreglos con base en un pivote:\n\n\nconst pivot = arr[arr.length - 1];\nconst left = [];\nconst right = [];\nfor (let i = 0; i < arr.length - 1; i++) {\n    if (arr[i] < pivot) {\n        left.push(arr[i]);\n    } else {\n        right.push(arr[i]);\n    }\n}\n\n"
             ]
         },
         {
@@ -10229,7 +10229,7 @@
                 "dame la parte de la combinacion en el quick sort en js"
             ],
             "responses": [
-                "La combinación de los subarreglos con el pivote se realiza así:\n\n```javascript\nreturn [...quickSort(left), pivot, ...quickSort(right)];\n```\n"
+                "La combinación de los subarreglos con el pivote se realiza así:\n\n\nreturn [...quickSort(left), pivot, ...quickSort(right)];\n\n"
             ]
         },
         {
@@ -10255,7 +10255,7 @@
                 "dame la parte del pivote en el quick sort en js"
             ],
             "responses": [
-                "El pivote se selecciona como el último elemento del arreglo:\n\n```javascript\nconst pivot = arr[arr.length - 1];\n```\n"
+                "El pivote se selecciona como el último elemento del arreglo:\n\n\nconst pivot = arr[arr.length - 1];\n\n"
             ]
         },
         {
@@ -10268,7 +10268,7 @@
                 "dame la parte de los subarreglos en el quick sort en js"
             ],
             "responses": [
-                "Los elementos se separan en los subarreglos izquierdo y derecho en base al pivote:\n\n```javascript\nconst left = [];\nconst right = [];\nfor (let i = 0; i < arr.length - 1; i++) {\n    if (arr[i] < pivot) {\n        left.push(arr[i]);\n    } else {\n        right.push(arr[i]);\n    }\n}\n```\n"
+                "Los elementos se separan en los subarreglos izquierdo y derecho en base al pivote:\n\n\nconst left = [];\nconst right = [];\nfor (let i = 0; i < arr.length - 1; i++) {\n    if (arr[i] < pivot) {\n        left.push(arr[i]);\n    } else {\n        right.push(arr[i]);\n    }\n}\n\n"
             ]
         },
         {
@@ -10281,7 +10281,7 @@
                 "dame la parte de la recursion en el quick sort en js"
             ],
             "responses": [
-                "La recursión se aplica al ordenar los subarreglos izquierdo y derecho:\n\n```javascript\nreturn [...quickSort(left), pivot, ...quickSort(right)];\n```\n"
+                "La recursión se aplica al ordenar los subarreglos izquierdo y derecho:\n\n\nreturn [...quickSort(left), pivot, ...quickSort(right)];\n\n"
             ]
         },
         {
@@ -10294,7 +10294,7 @@
                 "como implemento el merge sort en javascript"
             ],
             "responses": [
-                "El Merge Sort es un algoritmo de ordenamiento que utiliza el enfoque de dividir y conquistar. Divide el arreglo en partes más pequeñas, las ordena y luego las combina. Aquí tienes el código completo en javascript:\n\n```javascript\nfunction mergeSort(arr) {\n    if (arr.length <= 1) {\n        return arr;\n    }\n    const mid = Math.floor(arr.length / 2);\n    const left = arr.slice(0, mid);\n    const right = arr.slice(mid);\n    return merge(mergeSort(left), mergeSort(right));\n}\n\nfunction merge(left, right) {\n    const result = [];\n    while (left.length && right.length) {\n        if (left[0] < right[0]) {\n            result.push(left.shift());\n        } else {\n            result.push(right.shift());\n        }\n    }\n    return [...result, ...left, ...right];\n}\n\n// Ejemplo de uso\nconst numeros = [38, 27, 43, 3, 9, 82, 10];\nconsole.log(mergeSort(numeros));\n// Salida: [3, 9, 10, 27, 38, 43, 82]\n```\n"
+                "El Merge Sort es un algoritmo de ordenamiento que utiliza el enfoque de dividir y conquistar. Divide el arreglo en partes más pequeñas, las ordena y luego las combina. Aquí tienes el código completo en javascript:\n\n\nfunction mergeSort(arr) {\n    if (arr.length <= 1) {\n        return arr;\n    }\n    const mid = Math.floor(arr.length / 2);\n    const left = arr.slice(0, mid);\n    const right = arr.slice(mid);\n    return merge(mergeSort(left), mergeSort(right));\n}\n\nfunction merge(left, right) {\n    const result = [];\n    while (left.length && right.length) {\n        if (left[0] < right[0]) {\n            result.push(left.shift());\n        } else {\n            result.push(right.shift());\n        }\n    }\n    return [...result, ...left, ...right];\n}\n\n// Ejemplo de uso\nconst numeros = [38, 27, 43, 3, 9, 82, 10];\nconsole.log(mergeSort(numeros));\n// Salida: [3, 9, 10, 27, 38, 43, 82]\n\n"
             ]
         },
         {
@@ -10307,7 +10307,7 @@
                 "dame la parte donde se define la funcion en el merge sort en js"
             ],
             "responses": [
-                "La función principal del Merge Sort se define así:\n\n```javascript\nfunction mergeSort(arr) {\n    // Aquí va el cuerpo del algoritmo\n}\n```\n"
+                "La función principal del Merge Sort se define así:\n\n\nfunction mergeSort(arr) {\n    // Aquí va el cuerpo del algoritmo\n}\n\n"
             ]
         },
         {
@@ -10320,7 +10320,7 @@
                 "dame la parte donde se establece la condicion base en el merge sort en js"
             ],
             "responses": [
-                "La condición base del Merge Sort verifica si el arreglo tiene uno o ningún elemento, para detener la recursión:\n\n```javascript\nif (arr.length <= 1) {\n    return arr;\n}\n```\n"
+                "La condición base del Merge Sort verifica si el arreglo tiene uno o ningún elemento, para detener la recursión:\n\n\nif (arr.length <= 1) {\n    return arr;\n}\n\n"
             ]
         },
         {
@@ -10333,7 +10333,7 @@
                 "dame la parte de la division en el merge sort en js"
             ],
             "responses": [
-                "El arreglo se divide en mitades utilizando el índice medio:\n\n```javascript\nconst mid = Math.floor(arr.length / 2);\nconst left = arr.slice(0, mid);\nconst right = arr.slice(mid);\n```\n"
+                "El arreglo se divide en mitades utilizando el índice medio:\n\n\nconst mid = Math.floor(arr.length / 2);\nconst left = arr.slice(0, mid);\nconst right = arr.slice(mid);\n\n"
             ]
         },
         {
@@ -10346,7 +10346,7 @@
                 "dame la parte de la recursion en el merge sort en js"
             ],
             "responses": [
-                "La recursión se aplica al ordenar las mitades izquierda y derecha:\n\n```javascript\nreturn merge(mergeSort(left), mergeSort(right));\n```\n"
+                "La recursión se aplica al ordenar las mitades izquierda y derecha:\n\n\nreturn merge(mergeSort(left), mergeSort(right));\n\n"
             ]
         },
         {
@@ -10359,7 +10359,7 @@
                 "dame la parte donde se define la funcion merge en el merge sort en js"
             ],
             "responses": [
-                "La función merge combina dos subarreglos ordenados en uno solo:\n\n```javascript\nfunction merge(left, right) {\n    // Aquí va el cuerpo de la función merge\n}\n```\n"
+                "La función merge combina dos subarreglos ordenados en uno solo:\n\n\nfunction merge(left, right) {\n    // Aquí va el cuerpo de la función merge\n}\n\n"
             ]
         },
         {
@@ -10372,7 +10372,7 @@
                 "dame la parte de la comparacion en el merge sort en js"
             ],
             "responses": [
-                "Los elementos se comparan para determinar cuál agregar al resultado:\n\n```javascript\nif (left[0] < right[0]) {\n    result.push(left.shift());\n} else {\n    result.push(right.shift());\n}\n```\n"
+                "Los elementos se comparan para determinar cuál agregar al resultado:\n\n\nif (left[0] < right[0]) {\n    result.push(left.shift());\n} else {\n    result.push(right.shift());\n}\n\n"
             ]
         },
         {
@@ -10385,7 +10385,7 @@
                 "dame la parte de la combinacion de restos en el merge sort en js"
             ],
             "responses": [
-                "Los elementos restantes de las mitades se combinan al resultado final:\n\n```javascript\nreturn [...result, ...left, ...right];\n```\n"
+                "Los elementos restantes de las mitades se combinan al resultado final:\n\n\nreturn [...result, ...left, ...right];\n\n"
             ]
         },
         {
@@ -10411,7 +10411,7 @@
                 "como implemento la serie de fibonacci en javascript"
             ],
             "responses": [
-                "El algoritmo de Fibonacci genera una secuencia donde cada número es la suma de los dos anteriores. Aquí tienes el código básico para calcular la serie de Fibonacci hasta un número n:\n\n```javascript\nfunction fibonacci(n) {\n    if (n <= 1) {\n        return n;\n    }\n    return fibonacci(n - 1) + fibonacci(n - 2);\n}\n\n// Ejemplo de uso\nconsole.log(fibonacci(10)); // Salida: 55 (décimo número de Fibonacci)\n```\n"
+                "El algoritmo de Fibonacci genera una secuencia donde cada número es la suma de los dos anteriores. Aquí tienes el código básico para calcular la serie de Fibonacci hasta un número n:\n\n\nfunction fibonacci(n) {\n    if (n <= 1) {\n        return n;\n    }\n    return fibonacci(n - 1) + fibonacci(n - 2);\n}\n\n// Ejemplo de uso\nconsole.log(fibonacci(10)); // Salida: 55 (décimo número de Fibonacci)\n\n"
             ]
         },
         {
@@ -10424,7 +10424,7 @@
                 "dame la parte donde se define la funcion fibonacci en js"
             ],
             "responses": [
-                "La función de Fibonacci se define así:\n\n```javascript\nfunction fibonacci(n) {\n    // Aquí va el cuerpo del algoritmo\n}\n```\n"
+                "La función de Fibonacci se define así:\n\n\nfunction fibonacci(n) {\n    // Aquí va el cuerpo del algoritmo\n}\n\n"
             ]
         },
         {
@@ -10437,7 +10437,7 @@
                 "dame la parte de la condicion base en fibonacci en js"
             ],
             "responses": [
-                "La condición base del algoritmo de Fibonacci es:\n\n```javascript\nif (n <= 1) {\n    return n;\n}\n```\nEsto asegura que el cálculo termine cuando n sea 0 o 1."
+                "La condición base del algoritmo de Fibonacci es:\n\n\nif (n <= 1) {\n    return n;\n}\n\nEsto asegura que el cálculo termine cuando n sea 0 o 1."
             ]
         },
         {
@@ -10450,7 +10450,7 @@
                 "dame la parte de la recursion en fibonacci en js"
             ],
             "responses": [
-                "La recursión en Fibonacci se realiza llamando a la función con valores decrecientes:\n\n```javascript\nreturn fibonacci(n - 1) + fibonacci(n - 2);\n```\nEsto calcula la suma de los dos números anteriores en la serie."
+                "La recursión en Fibonacci se realiza llamando a la función con valores decrecientes:\n\n\nreturn fibonacci(n - 1) + fibonacci(n - 2);\n\nEsto calcula la suma de los dos números anteriores en la serie."
             ]
         },
         {
@@ -10463,7 +10463,7 @@
                 "dame una implementacion iterativa de fibonacci en js"
             ],
             "responses": [
-                "Aquí tienes una versión iterativa del algoritmo de Fibonacci, que es más eficiente en términos de memoria y rendimiento:\n\n```javascript\nfunction fibonacciIterativo(n) {\n    if (n <= 1) {\n        return n;\n    }\n    let a = 0, b = 1;\n    for (let i = 2; i <= n; i++) {\n        const temp = a + b;\n        a = b;\n        b = temp;\n    }\n    return b;\n}\n\n// Ejemplo de uso\nconsole.log(fibonacciIterativo(10)); // Salida: 55\n```\n"
+                "Aquí tienes una versión iterativa del algoritmo de Fibonacci, que es más eficiente en términos de memoria y rendimiento:\n\n\nfunction fibonacciIterativo(n) {\n    if (n <= 1) {\n        return n;\n    }\n    let a = 0, b = 1;\n    for (let i = 2; i <= n; i++) {\n        const temp = a + b;\n        a = b;\n        b = temp;\n    }\n    return b;\n}\n\n// Ejemplo de uso\nconsole.log(fibonacciIterativo(10)); // Salida: 55\n\n"
             ]
         },
         {
@@ -10476,7 +10476,7 @@
                 "dame un algoritmo optimizado de fibonacci con almacenamiento en javascript"
             ],
             "responses": [
-                "El almacenamiento (memoization) se utiliza para guardar cálculos previos y mejorar la eficiencia del algoritmo. Aquí tienes una implementación optimizada de Fibonacci con memoization:\n\n```javascript\nfunction fibonacciMemoization(n, memo = {}) {\n    if (n in memo) {\n        return memo[n];\n    }\n    if (n <= 1) {\n        return n;\n    }\n    memo[n] = fibonacciMemoization(n - 1, memo) + fibonacciMemoization(n - 2, memo);\n    return memo[n];\n}\n\n// Ejemplo de uso\nconsole.log(fibonacciMemoization(10)); // Salida: 55\n```\n"
+                "El almacenamiento (memoization) se utiliza para guardar cálculos previos y mejorar la eficiencia del algoritmo. Aquí tienes una implementación optimizada de Fibonacci con memoization:\n\n\nfunction fibonacciMemoization(n, memo = {}) {\n    if (n in memo) {\n        return memo[n];\n    }\n    if (n <= 1) {\n        return n;\n    }\n    memo[n] = fibonacciMemoization(n - 1, memo) + fibonacciMemoization(n - 2, memo);\n    return memo[n];\n}\n\n// Ejemplo de uso\nconsole.log(fibonacciMemoization(10)); // Salida: 55\n\n"
             ]
         },
         {
@@ -10515,7 +10515,7 @@
                 "como implemento la busqueda en profundidad en javascript"
             ],
             "responses": [
-                "La búsqueda en profundidad (DFS) es un algoritmo que explora tanto como sea posible por un camino antes de retroceder. Aquí tienes una implementación básica en javascript:\n\n```javascript\nfunction dfs(graph, start, visited = new Set()) {\n    console.log(start);\n    visited.add(start);\n\n    for (const neighbor of graph[start]) {\n        if (!visited.has(neighbor)) {\n            dfs(graph, neighbor, visited);\n        }\n    }\n}\n\n// Ejemplo de uso\nconst graph = {\n    A: ['B', 'C'],\n    B: ['D', 'E'],\n    C: ['F'],\n    D: [],\n    E: ['F'],\n    F: []\n};\ndfs(graph, 'A');\n```\nEste código imprimirá los nodos visitados en el orden DFS."
+                "La búsqueda en profundidad (DFS) es un algoritmo que explora tanto como sea posible por un camino antes de retroceder. Aquí tienes una implementación básica en javascript:\n\n\nfunction dfs(graph, start, visited = new Set()) {\n    console.log(start);\n    visited.add(start);\n\n    for (const neighbor of graph[start]) {\n        if (!visited.has(neighbor)) {\n            dfs(graph, neighbor, visited);\n        }\n    }\n}\n\n// Ejemplo de uso\nconst graph = {\n    A: ['B', 'C'],\n    B: ['D', 'E'],\n    C: ['F'],\n    D: [],\n    E: ['F'],\n    F: []\n};\ndfs(graph, 'A');\n\nEste código imprimirá los nodos visitados en el orden DFS."
             ]
         },
         {
@@ -10528,7 +10528,7 @@
                 "dame la parte donde se define la funcion de busqueda en profundidad en js"
             ],
             "responses": [
-                "La función principal de DFS en javascript se define así:\n\n```javascript\nfunction dfs(graph, start, visited = new Set()) {\n    // Cuerpo del algoritmo aquí\n}\n```\n"
+                "La función principal de DFS en javascript se define así:\n\n\nfunction dfs(graph, start, visited = new Set()) {\n    // Cuerpo del algoritmo aquí\n}\n\n"
             ]
         },
         {
@@ -10541,7 +10541,7 @@
                 "dame la parte donde se registra un nodo como visitado en dfs en js"
             ],
             "responses": [
-                "Un nodo se marca como visitado agregándolo a un conjunto:\n\n```javascript\nvisited.add(start);\n```\nEsto evita visitar el mismo nodo más de una vez."
+                "Un nodo se marca como visitado agregándolo a un conjunto:\n\n\nvisited.add(start);\n\nEsto evita visitar el mismo nodo más de una vez."
             ]
         },
         {
@@ -10554,7 +10554,7 @@
                 "dame la parte donde se recorren los vecinos en dfs en js"
             ],
             "responses": [
-                "El recorrido de vecinos se realiza con un bucle for:\n\n```javascript\nfor (const neighbor of graph[start]) {\n    if (!visited.has(neighbor)) {\n        dfs(graph, neighbor, visited);\n    }\n}\n```\nEsto garantiza que todos los nodos adyacentes sean explorados."
+                "El recorrido de vecinos se realiza con un bucle for:\n\n\nfor (const neighbor of graph[start]) {\n    if (!visited.has(neighbor)) {\n        dfs(graph, neighbor, visited);\n    }\n}\n\nEsto garantiza que todos los nodos adyacentes sean explorados."
             ]
         },
         {
@@ -10567,7 +10567,7 @@
                 "dame un ejemplo de grafo para dfs en js"
             ],
             "responses": [
-                "Un grafo para DFS se representa típicamente como un objeto donde las claves son nodos y los valores son listas de nodos adyacentes. Ejemplo:\n\n```javascript\nconst graph = {\n    A: ['B', 'C'],\n    B: ['D', 'E'],\n    C: ['F'],\n    D: [],\n    E: ['F'],\n    F: []\n};\n```\nEsto permite representar la conectividad entre los nodos."
+                "Un grafo para DFS se representa típicamente como un objeto donde las claves son nodos y los valores son listas de nodos adyacentes. Ejemplo:\n\n\nconst graph = {\n    A: ['B', 'C'],\n    B: ['D', 'E'],\n    C: ['F'],\n    D: [],\n    E: ['F'],\n    F: []\n};\n\nEsto permite representar la conectividad entre los nodos."
             ]
         },
         {
@@ -10580,7 +10580,7 @@
                 "dame una implementacion iterativa de dfs en js"
             ],
             "responses": [
-                "Aquí tienes una implementación iterativa del DFS utilizando una pila:\n\n```javascript\nfunction dfsIterativo(graph, start) {\n    const stack = [start];\n    const visited = new Set();\n\n    while (stack.length > 0) {\n        const node = stack.pop();\n\n        if (!visited.has(node)) {\n            console.log(node);\n            visited.add(node);\n            for (const neighbor of graph[node]) {\n                stack.push(neighbor);\n            }\n        }\n    }\n}\n\n// Ejemplo de uso\ndfsIterativo(graph, 'A');\n```\nEsto utiliza una pila en lugar de la recursión para controlar el flujo del algoritmo."
+                "Aquí tienes una implementación iterativa del DFS utilizando una pila:\n\n\nfunction dfsIterativo(graph, start) {\n    const stack = [start];\n    const visited = new Set();\n\n    while (stack.length > 0) {\n        const node = stack.pop();\n\n        if (!visited.has(node)) {\n            console.log(node);\n            visited.add(node);\n            for (const neighbor of graph[node]) {\n                stack.push(neighbor);\n            }\n        }\n    }\n}\n\n// Ejemplo de uso\ndfsIterativo(graph, 'A');\n\nEsto utiliza una pila en lugar de la recursión para controlar el flujo del algoritmo."
             ]
         },
         {
@@ -10606,7 +10606,7 @@
                 "dame la parte donde se inicializa la pila en dfs iterativo en js"
             ],
             "responses": [
-                "En la implementación iterativa de DFS, la pila se inicializa con el nodo inicial:\n\n```javascript\nconst stack = [start];\n```\nEsto establece el punto de partida para explorar el grafo."
+                "En la implementación iterativa de DFS, la pila se inicializa con el nodo inicial:\n\n\nconst stack = [start];\n\nEsto establece el punto de partida para explorar el grafo."
             ]
         },
         {
@@ -10619,7 +10619,7 @@
                 "dame la parte donde se verifica si un nodo ya fue visitado en dfs en js"
             ],
             "responses": [
-                "Para garantizar que un nodo no sea visitado dos veces, se utiliza la función `has` del conjunto de nodos visitados:\n\n```javascript\nif (!visited.has(node)) {\n    // Procesar el nodo\n}\n```\nEsto asegura que cada nodo se procese una sola vez."
+                "Para garantizar que un nodo no sea visitado dos veces, se utiliza la función `has` del conjunto de nodos visitados:\n\n\nif (!visited.has(node)) {\n    // Procesar el nodo\n}\n\nEsto asegura que cada nodo se procese una sola vez."
             ]
         },
         {
@@ -10632,7 +10632,7 @@
                 "dame la parte donde se añaden los nodos vecinos a la pila en dfs en js"
             ],
             "responses": [
-                "En la versión iterativa de DFS, los vecinos del nodo actual se agregan a la pila con el bucle:\n\n```javascript\nfor (const neighbor of graph[node]) {\n    stack.push(neighbor);\n}\n```\nEsto asegura que los nodos conectados sean explorados en futuras iteraciones."
+                "En la versión iterativa de DFS, los vecinos del nodo actual se agregan a la pila con el bucle:\n\n\nfor (const neighbor of graph[node]) {\n    stack.push(neighbor);\n}\n\nEsto asegura que los nodos conectados sean explorados en futuras iteraciones."
             ]
         },
         {
@@ -10645,7 +10645,7 @@
                 "dame la parte donde se imprimen los nodos en dfs en js"
             ],
             "responses": [
-                "Los nodos visitados se imprimen utilizando la función `console.log` justo después de ser marcados como visitados:\n\n```javascript\nconsole.log(node);\n```\nEsto registra cada nodo visitado en el orden de exploración."
+                "Los nodos visitados se imprimen utilizando la función `console.log` justo después de ser marcados como visitados:\n\n\nconsole.log(node);\n\nEsto registra cada nodo visitado en el orden de exploración."
             ]
         },
         {
@@ -10658,7 +10658,7 @@
                 "dame la parte donde se explica el uso del set para nodos visitados en dfs en js"
             ],
             "responses": [
-                "El `Set` se utiliza para almacenar los nodos visitados porque permite comprobar si un nodo ya fue visitado de manera eficiente:\n\n```javascript\nvisited.add(node);\nif (!visited.has(neighbor)) {\n    // Procesar el vecino\n}\n```\nEsta estructura tiene operaciones de inserción y verificación en tiempo constante."
+                "El `Set` se utiliza para almacenar los nodos visitados porque permite comprobar si un nodo ya fue visitado de manera eficiente:\n\n\nvisited.add(node);\nif (!visited.has(neighbor)) {\n    // Procesar el vecino\n}\n\nEsta estructura tiene operaciones de inserción y verificación en tiempo constante."
             ]
         },
         {
@@ -10671,7 +10671,7 @@
                 "como implemento el heap sort en javascript"
             ],
             "responses": [
-                "El algoritmo de Heap Sort es un algoritmo de ordenamiento que utiliza la estructura de datos de un heap (montículo). Primero construye un heap máximo a partir del arreglo, luego intercambia el primer elemento (el máximo) con el último, reduce el tamaño del heap y aplica heapify nuevamente. Aquí tienes el código completo en javascript:\n\n```javascript\nfunction heapSort(arr) {\n\tlet n = arr.length;\n\n\t// Construir un heap máximo\n\tfor (let i = Math.floor(n / 2) - 1; i >= 0; i--) {\n\t\theapify(arr, n, i);\n\t}\n\n\t// Extraer elementos del heap uno por uno\n\tfor (let i = n - 1; i > 0; i--) {\n\t\t// Mover el máximo actual al final\n\t\t[arr[0], arr[i]] = [arr[i], arr[0]];\n\n\t\t// Aplicar heapify al heap reducido\n\t\theapify(arr, i, 0);\n\t}\n\n\treturn arr;\n}\n\nfunction heapify(arr, n, i) {\n\tlet largest = i;\n\tconst left = 2 * i + 1;\n\tconst right = 2 * i + 2;\n\n\t// Si el hijo izquierdo es más grande que el nodo raíz\n\tif (left < n && arr[left] > arr[largest]) {\n\t\tlargest = left;\n\t}\n\n\t// Si el hijo derecho es más grande que el nodo raíz\n\tif (right < n && arr[right] > arr[largest]) {\n\t\tlargest = right;\n\t}\n\n\t// Si el nodo raíz no es el más grande\n\tif (largest !== i) {\n\t\t[arr[i], arr[largest]] = [arr[largest], arr[i]];\n\t\theapify(arr, n, largest);\n\t}\n}\n\n// Ejemplo de uso\nconst numeros = [12, 11, 13, 5, 6, 7];\nconsole.log(heapSort(numeros));\n// Salida: [5, 6, 7, 11, 12, 13]\n```"
+                "El algoritmo de Heap Sort es un algoritmo de ordenamiento que utiliza la estructura de datos de un heap (montículo). Primero construye un heap máximo a partir del arreglo, luego intercambia el primer elemento (el máximo) con el último, reduce el tamaño del heap y aplica heapify nuevamente. Aquí tienes el código completo en javascript:\n\n\nfunction heapSort(arr) {\n\tlet n = arr.length;\n\n\t// Construir un heap máximo\n\tfor (let i = Math.floor(n / 2) - 1; i >= 0; i--) {\n\t\theapify(arr, n, i);\n\t}\n\n\t// Extraer elementos del heap uno por uno\n\tfor (let i = n - 1; i > 0; i--) {\n\t\t// Mover el máximo actual al final\n\t\t[arr[0], arr[i]] = [arr[i], arr[0]];\n\n\t\t// Aplicar heapify al heap reducido\n\t\theapify(arr, i, 0);\n\t}\n\n\treturn arr;\n}\n\nfunction heapify(arr, n, i) {\n\tlet largest = i;\n\tconst left = 2 * i + 1;\n\tconst right = 2 * i + 2;\n\n\t// Si el hijo izquierdo es más grande que el nodo raíz\n\tif (left < n && arr[left] > arr[largest]) {\n\t\tlargest = left;\n\t}\n\n\t// Si el hijo derecho es más grande que el nodo raíz\n\tif (right < n && arr[right] > arr[largest]) {\n\t\tlargest = right;\n\t}\n\n\t// Si el nodo raíz no es el más grande\n\tif (largest !== i) {\n\t\t[arr[i], arr[largest]] = [arr[largest], arr[i]];\n\t\theapify(arr, n, largest);\n\t}\n}\n\n// Ejemplo de uso\nconst numeros = [12, 11, 13, 5, 6, 7];\nconsole.log(heapSort(numeros));\n// Salida: [5, 6, 7, 11, 12, 13]\n"
             ]
         },
         {
@@ -10684,7 +10684,7 @@
                 "dame la parte donde se construye el heap maximo en heap sort en js"
             ],
             "responses": [
-                "El heap máximo se construye aplicando la función `heapify` desde la mitad del arreglo hacia atrás:\n\n```javascript\nfor (let i = Math.floor(arr.length / 2) - 1; i >= 0; i--) {\n\theapify(arr, arr.length, i);\n}\n```"
+                "El heap máximo se construye aplicando la función `heapify` desde la mitad del arreglo hacia atrás:\n\n\nfor (let i = Math.floor(arr.length / 2) - 1; i >= 0; i--) {\n\theapify(arr, arr.length, i);\n}\n"
             ]
         },
         {
@@ -10697,7 +10697,7 @@
                 "dame la parte del intercambio en heap sort en js"
             ],
             "responses": [
-                "En Heap Sort, el máximo (primer elemento) se intercambia con el último:\n\n```javascript\n[arr[0], arr[i]] = [arr[i], arr[0]];\n```\nEsto mueve el elemento más grande al final del arreglo ordenado."
+                "En Heap Sort, el máximo (primer elemento) se intercambia con el último:\n\n\n[arr[0], arr[i]] = [arr[i], arr[0]];\n\nEsto mueve el elemento más grande al final del arreglo ordenado."
             ]
         },
         {
@@ -10723,7 +10723,7 @@
                 "dame el fragmento donde se define la funcion principal de heap sort en js"
             ],
             "responses": [
-                "La definición de la función principal de Heap Sort es la siguiente:\n\n```javascript\nfunction heapSort(arr) {\n\t// Aquí empieza el cuerpo del algoritmo\n}\n```"
+                "La definición de la función principal de Heap Sort es la siguiente:\n\n\nfunction heapSort(arr) {\n\t// Aquí empieza el cuerpo del algoritmo\n}\n"
             ]
         },
         {
@@ -10736,7 +10736,7 @@
                 "dame la parte donde se construye el heap maximo en heap sort en js"
             ],
             "responses": [
-                "La iteración para construir el Heap máximo en el algoritmo Heap Sort es la siguiente:\n\n```javascript\nfor (let i = Math.floor(arr.length / 2) - 1; i >= 0; i--) {\n\theapify(arr, arr.length, i);\n}\n```"
+                "La iteración para construir el Heap máximo en el algoritmo Heap Sort es la siguiente:\n\n\nfor (let i = Math.floor(arr.length / 2) - 1; i >= 0; i--) {\n\theapify(arr, arr.length, i);\n}\n"
             ]
         },
         {
@@ -10749,7 +10749,7 @@
                 "como se intercambian los elementos en heap sort en js"
             ],
             "responses": [
-                "El intercambio de elementos en Heap Sort se realiza de la siguiente manera:\n\n```javascript\n[arr[0], arr[i]] = [arr[i], arr[0]];\n```"
+                "El intercambio de elementos en Heap Sort se realiza de la siguiente manera:\n\n\n[arr[0], arr[i]] = [arr[i], arr[0]];\n"
             ]
         },
         {
@@ -10762,7 +10762,7 @@
                 "como se usa el algoritmo heap sort en js"
             ],
             "responses": [
-                "Aquí tienes un ejemplo de uso del Heap Sort en javascript:\n\n```javascript\nconst numeros = [12, 11, 13, 5, 6, 7];\nconsole.log(heapSort(numeros));\n// Salida: [5, 6, 7, 11, 12, 13]\n```"
+                "Aquí tienes un ejemplo de uso del Heap Sort en javascript:\n\n\nconst numeros = [12, 11, 13, 5, 6, 7];\nconsole.log(heapSort(numeros));\n// Salida: [5, 6, 7, 11, 12, 13]\n"
             ]
         },
         {
@@ -10775,7 +10775,7 @@
                 "dame la parte donde se obtiene el tamaño del arreglo en heap sort en js"
             ],
             "responses": [
-                "El tamaño del arreglo se obtiene así:\n\n```javascript\nlet n = arr.length;\n```"
+                "El tamaño del arreglo se obtiene así:\n\n\nlet n = arr.length;\n"
             ]
         },
         {
@@ -11716,7 +11716,7 @@
                 "quiero entender la busqueda secuencial paso a paso"
             ],
             "responses": [
-                "Aquí tienes el algoritmo de búsqueda secuencial explicado paso a paso:\n\n1. **Definimos la función**:\n```javascript\nfunction busquedaSecuencial(arreglo, valorBuscado) {\n```\nEsta función recibe un arreglo y el valor que queremos buscar.\n\n2. **Recorremos el arreglo usando un bucle**:\n```javascript\nfor (let i = 0; i < arreglo.length; i++) {\n```\nIteramos sobre cada elemento del arreglo, usando el índice `i` para acceder a los valores.\n\n3. **Verificamos si el valor actual es el buscado**:\n```javascript\nif (arreglo[i] === valorBuscado) {\n    return i; // Devuelve el índice si lo encuentra\n}\n```\nComparamos el valor actual con el valor buscado. Si coinciden, devolvemos el índice.\n\n4. **Devolvemos -1 si no encontramos el valor**:\n```javascript\nreturn -1; // Si no se encuentra el valor\n```\nEsto indica que el valor no está en el arreglo.\n\n5. **Ejemplo completo**:\n```javascript\nconst numeros = [4, 2, 7, 9, 5];\nconst resultado = busquedaSecuencial(numeros, 7);\nconsole.log(resultado); // Salida: 2\n```"
+                "Aquí tienes el algoritmo de búsqueda secuencial explicado paso a paso:\n\n1. **Definimos la función**:\n\nfunction busquedaSecuencial(arreglo, valorBuscado) {\n\nEsta función recibe un arreglo y el valor que queremos buscar.\n\n2. **Recorremos el arreglo usando un bucle**:\n\nfor (let i = 0; i < arreglo.length; i++) {\n\nIteramos sobre cada elemento del arreglo, usando el índice `i` para acceder a los valores.\n\n3. **Verificamos si el valor actual es el buscado**:\n\nif (arreglo[i] === valorBuscado) {\n    return i; // Devuelve el índice si lo encuentra\n}\n\nComparamos el valor actual con el valor buscado. Si coinciden, devolvemos el índice.\n\n4. **Devolvemos -1 si no encontramos el valor**:\n\nreturn -1; // Si no se encuentra el valor\n\nEsto indica que el valor no está en el arreglo.\n\n5. **Ejemplo completo**:\n\nconst numeros = [4, 2, 7, 9, 5];\nconst resultado = busquedaSecuencial(numeros, 7);\nconsole.log(resultado); // Salida: 2\n"
             ]
         },
         {
@@ -11729,7 +11729,7 @@
                 "dame la parte del ciclo for de la busqueda secuencialen en js"
             ],
             "responses": [
-                "El ciclo for en la búsqueda secuencial recorre el arreglo elemento por elemento:\n\n```javascript\nfor (let i = 0; i < arreglo.length; i++) {\n    // Aquí se evalúan los elementos uno por uno\n}\n```"
+                "El ciclo for en la búsqueda secuencial recorre el arreglo elemento por elemento:\n\n\nfor (let i = 0; i < arreglo.length; i++) {\n    // Aquí se evalúan los elementos uno por uno\n}\n"
             ]
         },
         {
@@ -11742,7 +11742,7 @@
                 "dame la parte del if en la busqueda secuencial en js"
             ],
             "responses": [
-                "El condicional if verifica si el valor actual es el buscado:\n\n```javascript\nif (arreglo[i] === valorBuscado) {\n    return i; // Devuelve el índice si lo encuentra\n}\n```"
+                "El condicional if verifica si el valor actual es el buscado:\n\n\nif (arreglo[i] === valorBuscado) {\n    return i; // Devuelve el índice si lo encuentra\n}\n"
             ]
         },
         {
@@ -11755,7 +11755,7 @@
                 "dame la parte donde no encuentra el valor en la busqueda secuencial en js"
             ],
             "responses": [
-                "Si el valor no se encuentra, el algoritmo devuelve -1:\n\n```javascript\nreturn -1; // Si no se encuentra el valor\n```"
+                "Si el valor no se encuentra, el algoritmo devuelve -1:\n\n\nreturn -1; // Si no se encuentra el valor\n"
             ]
         },
         {
@@ -11768,7 +11768,7 @@
                 "dame la parte donde se define la funcion en busqueda secuencial en js"
             ],
             "responses": [
-                "La función de búsqueda secuencial se define así:\n\n```javascript\nfunction busquedaSecuencial(arreglo, valorBuscado) {\n    // Aquí va el cuerpo del algoritmo\n}\n```"
+                "La función de búsqueda secuencial se define así:\n\n\nfunction busquedaSecuencial(arreglo, valorBuscado) {\n    // Aquí va el cuerpo del algoritmo\n}\n"
             ]
         },
         {
@@ -11781,7 +11781,7 @@
                 "dame los argumentos de la busqueda secuencial en js"
             ],
             "responses": [
-                "La función de búsqueda secuencial recibe dos argumentos:\n\n1. **arreglo**: Es el arreglo que será recorrido.\n2. **valorBuscado**: Es el valor que queremos encontrar.\n\nEjemplo:\n```javascript\nbusquedaSecuencial([4, 2, 7, 9], 7);\n```"
+                "La función de búsqueda secuencial recibe dos argumentos:\n\n1. **arreglo**: Es el arreglo que será recorrido.\n2. **valorBuscado**: Es el valor que queremos encontrar.\n\nEjemplo:\n\nbusquedaSecuencial([4, 2, 7, 9], 7);\n"
             ]
         },
         {
@@ -11794,7 +11794,7 @@
                 "dame la parte donde retorna el indice en busqueda secuencial en js"
             ],
             "responses": [
-                "Cuando el valor buscado es encontrado, la función devuelve el índice:\n\n```javascript\nreturn i; // Devuelve el índice donde se encontró el valor\n```"
+                "Cuando el valor buscado es encontrado, la función devuelve el índice:\n\n\nreturn i; // Devuelve el índice donde se encontró el valor\n"
             ]
         },
         {
@@ -11807,7 +11807,7 @@
                 "dame un ejemplo de uso de busqueda secuencial en js"
             ],
             "responses": [
-                "Aquí tienes un ejemplo práctico del uso de la búsqueda secuencial:\n\n```javascript\nconst numeros = [1, 3, 5, 7, 9];\nconst valorBuscado = 7;\nconst resultado = busquedaSecuencial(numeros, valorBuscado);\n\nif (resultado !== -1) {\n    console.log(`Valor encontrado en el índice ${resultado}`);\n} else {\n    console.log('Valor no encontrado');\n}\n```\nEsto muestra si el valor fue encontrado y su índice, o indica que no está presente."
+                "Aquí tienes un ejemplo práctico del uso de la búsqueda secuencial:\n\n\nconst numeros = [1, 3, 5, 7, 9];\nconst valorBuscado = 7;\nconst resultado = busquedaSecuencial(numeros, valorBuscado);\n\nif (resultado !== -1) {\n    console.log(`Valor encontrado en el índice ${resultado}`);\n} else {\n    console.log('Valor no encontrado');\n}\n\nEsto muestra si el valor fue encontrado y su índice, o indica que no está presente."
             ]
         },
         {
@@ -11833,7 +11833,7 @@
                 "como implemento la busqueda binaria en javascript"
             ],
             "responses": [
-                "La búsqueda binaria es un algoritmo eficiente para encontrar un elemento en un arreglo ordenado. Se divide el rango de búsqueda a la mitad en cada paso. Aquí tienes el código básico en javascript:\n\n```javascript\nfunction busquedaBinaria(arreglo, valorBuscado) {\n    let inicio = 0;\n    let fin = arreglo.length - 1;\n\n    while (inicio <= fin) {\n        let medio = Math.floor((inicio + fin) / 2);\n\n        if (arreglo[medio] === valorBuscado) {\n            return medio; // Devuelve el índice si encuentra el valor\n        } else if (arreglo[medio] < valorBuscado) {\n            inicio = medio + 1; // Ajusta el inicio\n        } else {\n            fin = medio - 1; // Ajusta el final\n        }\n    }\n\n    return -1; // Retorna -1 si el valor no está presente\n}\n\n// Ejemplo de uso\nconst numeros = [1, 3, 5, 7, 9];\nconst resultado = busquedaBinaria(numeros, 7);\nconsole.log(resultado); // Salida: 3\n```"
+                "La búsqueda binaria es un algoritmo eficiente para encontrar un elemento en un arreglo ordenado. Se divide el rango de búsqueda a la mitad en cada paso. Aquí tienes el código básico en javascript:\n\n\nfunction busquedaBinaria(arreglo, valorBuscado) {\n    let inicio = 0;\n    let fin = arreglo.length - 1;\n\n    while (inicio <= fin) {\n        let medio = Math.floor((inicio + fin) / 2);\n\n        if (arreglo[medio] === valorBuscado) {\n            return medio; // Devuelve el índice si encuentra el valor\n        } else if (arreglo[medio] < valorBuscado) {\n            inicio = medio + 1; // Ajusta el inicio\n        } else {\n            fin = medio - 1; // Ajusta el final\n        }\n    }\n\n    return -1; // Retorna -1 si el valor no está presente\n}\n\n// Ejemplo de uso\nconst numeros = [1, 3, 5, 7, 9];\nconst resultado = busquedaBinaria(numeros, 7);\nconsole.log(resultado); // Salida: 3\n"
             ]
         },
         {
@@ -11846,7 +11846,7 @@
                 "dame la parte donde se define la funcion en la busqueda binaria en js"
             ],
             "responses": [
-                "La función de búsqueda binaria en javascript se define así:\n\n```javascript\nfunction busquedaBinaria(arreglo, valorBuscado) {\n    // Aquí va el cuerpo del algoritmo\n}\n```"
+                "La función de búsqueda binaria en javascript se define así:\n\n\nfunction busquedaBinaria(arreglo, valorBuscado) {\n    // Aquí va el cuerpo del algoritmo\n}\n"
             ]
         },
         {
@@ -11859,7 +11859,7 @@
                 "dame la parte donde se inicializan las variables en la busqueda binaria en js"
             ],
             "responses": [
-                "En la búsqueda binaria, las variables se inicializan de la siguiente manera:\n\n```javascript\nlet inicio = 0;\nlet fin = arreglo.length - 1;\nlet medio = Math.floor((inicio + fin) / 2);\n```"
+                "En la búsqueda binaria, las variables se inicializan de la siguiente manera:\n\n\nlet inicio = 0;\nlet fin = arreglo.length - 1;\nlet medio = Math.floor((inicio + fin) / 2);\n"
             ]
         },
         {
@@ -11872,7 +11872,7 @@
                 "dame la condicion del bucle en la busqueda binaria en js"
             ],
             "responses": [
-                "El bucle while controla la búsqueda dividiendo el rango a la mitad:\n\n```javascript\nwhile (inicio <= fin) {\n    // Aquí va el código para evaluar y ajustar los límites\n}\n```"
+                "El bucle while controla la búsqueda dividiendo el rango a la mitad:\n\n\nwhile (inicio <= fin) {\n    // Aquí va el código para evaluar y ajustar los límites\n}\n"
             ]
         },
         {
@@ -11885,7 +11885,7 @@
                 "dame la parte del if en la busqueda binaria en js"
             ],
             "responses": [
-                "El condicional `if` verifica si el valor buscado es igual al valor en el índice medio:\n\n```javascript\nif (arreglo[medio] === valorBuscado) {\n    return medio; // Devuelve el índice si encuentra el valor\n}\n```"
+                "El condicional `if` verifica si el valor buscado es igual al valor en el índice medio:\n\n\nif (arreglo[medio] === valorBuscado) {\n    return medio; // Devuelve el índice si encuentra el valor\n}\n"
             ]
         },
         {
@@ -11898,7 +11898,7 @@
                 "dame la parte donde se ajustan los limites en la busqueda binaria en js"
             ],
             "responses": [
-                "En la búsqueda binaria, los límites se ajustan dependiendo del valor comparado:\n\n```javascript\nif (arreglo[medio] < valorBuscado) {\n    inicio = medio + 1; // Ajusta el inicio\n} else {\n    fin = medio - 1; // Ajusta el final\n}\n```"
+                "En la búsqueda binaria, los límites se ajustan dependiendo del valor comparado:\n\n\nif (arreglo[medio] < valorBuscado) {\n    inicio = medio + 1; // Ajusta el inicio\n} else {\n    fin = medio - 1; // Ajusta el final\n}\n"
             ]
         },
         {
@@ -11911,7 +11911,7 @@
                 "dame la parte donde no encuentra el valor en la busqueda binaria en js"
             ],
             "responses": [
-                "Si el valor no se encuentra, la función devuelve -1:\n\n```javascript\nreturn -1; // Retorna -1 si el valor no está presente\n```"
+                "Si el valor no se encuentra, la función devuelve -1:\n\n\nreturn -1; // Retorna -1 si el valor no está presente\n"
             ]
         },
         {
@@ -11937,7 +11937,7 @@
                 "como implemento el algoritmo de burbuja en javascript"
             ],
             "responses": [
-                "El ordenamiento por burbuja es un algoritmo que compara elementos adyacentes en un arreglo y los intercambia si están en el orden incorrecto. Esto se repite hasta que el arreglo esté completamente ordenado. Aquí tienes el código en javascript:\n\n```javascript\nfunction ordenamientoBurbuja(arr) {\n    let n = arr.length;\n    for (let i = 0; i < n - 1; i++) {\n        for (let j = 0; j < n - i - 1; j++) {\n            if (arr[j] > arr[j + 1]) {\n                // Intercambio de elementos\n                let temp = arr[j];\n                arr[j] = arr[j + 1];\n                arr[j + 1] = temp;\n            }\n        }\n    }\n    return arr;\n}\n\n// Ejemplo de uso\nconst numeros = [64, 34, 25, 12, 22, 11, 90];\nconsole.log(ordenamientoBurbuja(numeros));\n// Salida: [11, 12, 22, 25, 34, 64, 90]\n```"
+                "El ordenamiento por burbuja es un algoritmo que compara elementos adyacentes en un arreglo y los intercambia si están en el orden incorrecto. Esto se repite hasta que el arreglo esté completamente ordenado. Aquí tienes el código en javascript:\n\n\nfunction ordenamientoBurbuja(arr) {\n    let n = arr.length;\n    for (let i = 0; i < n - 1; i++) {\n        for (let j = 0; j < n - i - 1; j++) {\n            if (arr[j] > arr[j + 1]) {\n                // Intercambio de elementos\n                let temp = arr[j];\n                arr[j] = arr[j + 1];\n                arr[j + 1] = temp;\n            }\n        }\n    }\n    return arr;\n}\n\n// Ejemplo de uso\nconst numeros = [64, 34, 25, 12, 22, 11, 90];\nconsole.log(ordenamientoBurbuja(numeros));\n// Salida: [11, 12, 22, 25, 34, 64, 90]\n"
             ]
         },
         {
@@ -11950,7 +11950,7 @@
                 "dame la parte donde se define la funcion en el algoritmo de burbuja en js"
             ],
             "responses": [
-                "La función del ordenamiento burbuja en javascript se define así:\n\n```javascript\nfunction ordenamientoBurbuja(arr) {\n    // Aquí va el cuerpo del algoritmo\n}\n```"
+                "La función del ordenamiento burbuja en javascript se define así:\n\n\nfunction ordenamientoBurbuja(arr) {\n    // Aquí va el cuerpo del algoritmo\n}\n"
             ]
         },
         {
@@ -11963,7 +11963,7 @@
                 "dame la parte donde se inicializa n en el algoritmo de burbuja en js"
             ],
             "responses": [
-                "La variable `n` se inicializa con la longitud del arreglo:\n\n```javascript\nlet n = arr.length;\n```"
+                "La variable `n` se inicializa con la longitud del arreglo:\n\n\nlet n = arr.length;\n"
             ]
         },
         {
@@ -11976,7 +11976,7 @@
                 "dame la parte de los ciclos en el algoritmo de burbuja en js"
             ],
             "responses": [
-                "El algoritmo utiliza un bucle anidado para recorrer el arreglo:\n\n```javascript\nfor (let i = 0; i < n - 1; i++) {\n    for (let j = 0; j < n - i - 1; j++) {\n        // Comparación e intercambio aquí\n    }\n}\n```"
+                "El algoritmo utiliza un bucle anidado para recorrer el arreglo:\n\n\nfor (let i = 0; i < n - 1; i++) {\n    for (let j = 0; j < n - i - 1; j++) {\n        // Comparación e intercambio aquí\n    }\n}\n"
             ]
         },
         {
@@ -11989,7 +11989,7 @@
                 "dame la parte del if en el algoritmo de burbuja en js"
             ],
             "responses": [
-                "La condición `if` verifica si el elemento actual es mayor que el siguiente:\n\n```javascript\nif (arr[j] > arr[j + 1]) {\n    // Intercambio de elementos\n}\n```"
+                "La condición `if` verifica si el elemento actual es mayor que el siguiente:\n\n\nif (arr[j] > arr[j + 1]) {\n    // Intercambio de elementos\n}\n"
             ]
         },
         {
@@ -12002,7 +12002,7 @@
                 "dame la parte del intercambio en el algoritmo de burbuja en js"
             ],
             "responses": [
-                "El intercambio de elementos se realiza con una variable temporal:\n\n```javascript\nlet temp = arr[j];\narr[j] = arr[j + 1];\narr[j + 1] = temp;\n```"
+                "El intercambio de elementos se realiza con una variable temporal:\n\n\nlet temp = arr[j];\narr[j] = arr[j + 1];\narr[j + 1] = temp;\n"
             ]
         },
         {
@@ -12028,7 +12028,7 @@
                 "como implemento el quick sort en javascript"
             ],
             "responses": [
-                "El Quick Sort es un algoritmo de ordenamiento que utiliza el enfoque de dividir y conquistar. Divide el arreglo en subarreglos usando un elemento como pivote, colocando los elementos menores a la izquierda y los mayores a la derecha. Luego aplica recursividad para ordenar las partes. Aquí tienes el código completo en javascript:\n\n```javascript\nfunction quickSort(arr) {\n    if (arr.length <= 1) {\n        return arr;\n    }\n    const pivot = arr[arr.length - 1];\n    const left = [];\n    const right = [];\n    for (let i = 0; i < arr.length - 1; i++) {\n        if (arr[i] < pivot) {\n            left.push(arr[i]);\n        } else {\n            right.push(arr[i]);\n        }\n    }\n    return [...quickSort(left), pivot, ...quickSort(right)];\n}\n\n// Ejemplo de uso\nconst numeros = [34, 7, 23, 32, 5, 62];\nconsole.log(quickSort(numeros));\n// Salida: [5, 7, 23, 32, 34, 62]\n```\n"
+                "El Quick Sort es un algoritmo de ordenamiento que utiliza el enfoque de dividir y conquistar. Divide el arreglo en subarreglos usando un elemento como pivote, colocando los elementos menores a la izquierda y los mayores a la derecha. Luego aplica recursividad para ordenar las partes. Aquí tienes el código completo en javascript:\n\n\nfunction quickSort(arr) {\n    if (arr.length <= 1) {\n        return arr;\n    }\n    const pivot = arr[arr.length - 1];\n    const left = [];\n    const right = [];\n    for (let i = 0; i < arr.length - 1; i++) {\n        if (arr[i] < pivot) {\n            left.push(arr[i]);\n        } else {\n            right.push(arr[i]);\n        }\n    }\n    return [...quickSort(left), pivot, ...quickSort(right)];\n}\n\n// Ejemplo de uso\nconst numeros = [34, 7, 23, 32, 5, 62];\nconsole.log(quickSort(numeros));\n// Salida: [5, 7, 23, 32, 34, 62]\n\n"
             ]
         },
         {
@@ -12041,7 +12041,7 @@
                 "dame la parte donde se define la funcion en el quick sort en js"
             ],
             "responses": [
-                "La definición de la función Quick Sort en javascript es esta:\n\n```javascript\nfunction quickSort(arr) {\n    // Aquí va el cuerpo del algoritmo\n}\n```\n"
+                "La definición de la función Quick Sort en javascript es esta:\n\n\nfunction quickSort(arr) {\n    // Aquí va el cuerpo del algoritmo\n}\n\n"
             ]
         },
         {
@@ -12054,7 +12054,7 @@
                 "dame la parte donde se establece la condicion base en el quick sort en js"
             ],
             "responses": [
-                "La condición base del Quick Sort verifica si el arreglo tiene uno o ningún elemento, para detener la recursión:\n\n```javascript\nif (arr.length <= 1) {\n    return arr;\n}\n```\n"
+                "La condición base del Quick Sort verifica si el arreglo tiene uno o ningún elemento, para detener la recursión:\n\n\nif (arr.length <= 1) {\n    return arr;\n}\n\n"
             ]
         },
         {
@@ -12067,7 +12067,7 @@
                 "dame la parte del particionamiento en el quick sort en js"
             ],
             "responses": [
-                "El particionamiento del Quick Sort divide el arreglo en dos subarreglos con base en un pivote:\n\n```javascript\nconst pivot = arr[arr.length - 1];\nconst left = [];\nconst right = [];\nfor (let i = 0; i < arr.length - 1; i++) {\n    if (arr[i] < pivot) {\n        left.push(arr[i]);\n    } else {\n        right.push(arr[i]);\n    }\n}\n```\n"
+                "El particionamiento del Quick Sort divide el arreglo en dos subarreglos con base en un pivote:\n\n\nconst pivot = arr[arr.length - 1];\nconst left = [];\nconst right = [];\nfor (let i = 0; i < arr.length - 1; i++) {\n    if (arr[i] < pivot) {\n        left.push(arr[i]);\n    } else {\n        right.push(arr[i]);\n    }\n}\n\n"
             ]
         },
         {
@@ -12080,7 +12080,7 @@
                 "dame la parte de la combinacion en el quick sort en js"
             ],
             "responses": [
-                "La combinación de los subarreglos con el pivote se realiza así:\n\n```javascript\nreturn [...quickSort(left), pivot, ...quickSort(right)];\n```\n"
+                "La combinación de los subarreglos con el pivote se realiza así:\n\n\nreturn [...quickSort(left), pivot, ...quickSort(right)];\n\n"
             ]
         },
         {
@@ -12106,7 +12106,7 @@
                 "dame la parte del pivote en el quick sort en js"
             ],
             "responses": [
-                "El pivote se selecciona como el último elemento del arreglo:\n\n```javascript\nconst pivot = arr[arr.length - 1];\n```\n"
+                "El pivote se selecciona como el último elemento del arreglo:\n\n\nconst pivot = arr[arr.length - 1];\n\n"
             ]
         },
         {
@@ -12119,7 +12119,7 @@
                 "dame la parte de los subarreglos en el quick sort en js"
             ],
             "responses": [
-                "Los elementos se separan en los subarreglos izquierdo y derecho en base al pivote:\n\n```javascript\nconst left = [];\nconst right = [];\nfor (let i = 0; i < arr.length - 1; i++) {\n    if (arr[i] < pivot) {\n        left.push(arr[i]);\n    } else {\n        right.push(arr[i]);\n    }\n}\n```\n"
+                "Los elementos se separan en los subarreglos izquierdo y derecho en base al pivote:\n\n\nconst left = [];\nconst right = [];\nfor (let i = 0; i < arr.length - 1; i++) {\n    if (arr[i] < pivot) {\n        left.push(arr[i]);\n    } else {\n        right.push(arr[i]);\n    }\n}\n\n"
             ]
         },
         {
@@ -12132,7 +12132,7 @@
                 "dame la parte de la recursion en el quick sort en js"
             ],
             "responses": [
-                "La recursión se aplica al ordenar los subarreglos izquierdo y derecho:\n\n```javascript\nreturn [...quickSort(left), pivot, ...quickSort(right)];\n```\n"
+                "La recursión se aplica al ordenar los subarreglos izquierdo y derecho:\n\n\nreturn [...quickSort(left), pivot, ...quickSort(right)];\n\n"
             ]
         },
         {
@@ -12145,7 +12145,7 @@
                 "como implemento el merge sort en javascript"
             ],
             "responses": [
-                "El Merge Sort es un algoritmo de ordenamiento que utiliza el enfoque de dividir y conquistar. Divide el arreglo en partes más pequeñas, las ordena y luego las combina. Aquí tienes el código completo en javascript:\n\n```javascript\nfunction mergeSort(arr) {\n    if (arr.length <= 1) {\n        return arr;\n    }\n    const mid = Math.floor(arr.length / 2);\n    const left = arr.slice(0, mid);\n    const right = arr.slice(mid);\n    return merge(mergeSort(left), mergeSort(right));\n}\n\nfunction merge(left, right) {\n    const result = [];\n    while (left.length && right.length) {\n        if (left[0] < right[0]) {\n            result.push(left.shift());\n        } else {\n            result.push(right.shift());\n        }\n    }\n    return [...result, ...left, ...right];\n}\n\n// Ejemplo de uso\nconst numeros = [38, 27, 43, 3, 9, 82, 10];\nconsole.log(mergeSort(numeros));\n// Salida: [3, 9, 10, 27, 38, 43, 82]\n```\n"
+                "El Merge Sort es un algoritmo de ordenamiento que utiliza el enfoque de dividir y conquistar. Divide el arreglo en partes más pequeñas, las ordena y luego las combina. Aquí tienes el código completo en javascript:\n\n\nfunction mergeSort(arr) {\n    if (arr.length <= 1) {\n        return arr;\n    }\n    const mid = Math.floor(arr.length / 2);\n    const left = arr.slice(0, mid);\n    const right = arr.slice(mid);\n    return merge(mergeSort(left), mergeSort(right));\n}\n\nfunction merge(left, right) {\n    const result = [];\n    while (left.length && right.length) {\n        if (left[0] < right[0]) {\n            result.push(left.shift());\n        } else {\n            result.push(right.shift());\n        }\n    }\n    return [...result, ...left, ...right];\n}\n\n// Ejemplo de uso\nconst numeros = [38, 27, 43, 3, 9, 82, 10];\nconsole.log(mergeSort(numeros));\n// Salida: [3, 9, 10, 27, 38, 43, 82]\n\n"
             ]
         },
         {
@@ -12158,7 +12158,7 @@
                 "dame la parte donde se define la funcion en el merge sort en js"
             ],
             "responses": [
-                "La función principal del Merge Sort se define así:\n\n```javascript\nfunction mergeSort(arr) {\n    // Aquí va el cuerpo del algoritmo\n}\n```\n"
+                "La función principal del Merge Sort se define así:\n\n\nfunction mergeSort(arr) {\n    // Aquí va el cuerpo del algoritmo\n}\n\n"
             ]
         },
         {
@@ -12171,7 +12171,7 @@
                 "dame la parte donde se establece la condicion base en el merge sort en js"
             ],
             "responses": [
-                "La condición base del Merge Sort verifica si el arreglo tiene uno o ningún elemento, para detener la recursión:\n\n```javascript\nif (arr.length <= 1) {\n    return arr;\n}\n```\n"
+                "La condición base del Merge Sort verifica si el arreglo tiene uno o ningún elemento, para detener la recursión:\n\n\nif (arr.length <= 1) {\n    return arr;\n}\n\n"
             ]
         },
         {
@@ -12184,7 +12184,7 @@
                 "dame la parte de la division en el merge sort en js"
             ],
             "responses": [
-                "El arreglo se divide en mitades utilizando el índice medio:\n\n```javascript\nconst mid = Math.floor(arr.length / 2);\nconst left = arr.slice(0, mid);\nconst right = arr.slice(mid);\n```\n"
+                "El arreglo se divide en mitades utilizando el índice medio:\n\n\nconst mid = Math.floor(arr.length / 2);\nconst left = arr.slice(0, mid);\nconst right = arr.slice(mid);\n\n"
             ]
         },
         {
@@ -12197,7 +12197,7 @@
                 "dame la parte de la recursion en el merge sort en js"
             ],
             "responses": [
-                "La recursión se aplica al ordenar las mitades izquierda y derecha:\n\n```javascript\nreturn merge(mergeSort(left), mergeSort(right));\n```\n"
+                "La recursión se aplica al ordenar las mitades izquierda y derecha:\n\n\nreturn merge(mergeSort(left), mergeSort(right));\n\n"
             ]
         },
         {
@@ -12210,7 +12210,7 @@
                 "dame la parte donde se define la funcion merge en el merge sort en js"
             ],
             "responses": [
-                "La función merge combina dos subarreglos ordenados en uno solo:\n\n```javascript\nfunction merge(left, right) {\n    // Aquí va el cuerpo de la función merge\n}\n```\n"
+                "La función merge combina dos subarreglos ordenados en uno solo:\n\n\nfunction merge(left, right) {\n    // Aquí va el cuerpo de la función merge\n}\n\n"
             ]
         },
         {
@@ -12223,7 +12223,7 @@
                 "dame la parte de la comparacion en el merge sort en js"
             ],
             "responses": [
-                "Los elementos se comparan para determinar cuál agregar al resultado:\n\n```javascript\nif (left[0] < right[0]) {\n    result.push(left.shift());\n} else {\n    result.push(right.shift());\n}\n```\n"
+                "Los elementos se comparan para determinar cuál agregar al resultado:\n\n\nif (left[0] < right[0]) {\n    result.push(left.shift());\n} else {\n    result.push(right.shift());\n}\n\n"
             ]
         },
         {
@@ -12236,7 +12236,7 @@
                 "dame la parte de la combinacion de restos en el merge sort en js"
             ],
             "responses": [
-                "Los elementos restantes de las mitades se combinan al resultado final:\n\n```javascript\nreturn [...result, ...left, ...right];\n```\n"
+                "Los elementos restantes de las mitades se combinan al resultado final:\n\n\nreturn [...result, ...left, ...right];\n\n"
             ]
         },
         {
@@ -12262,7 +12262,7 @@
                 "como implemento la serie de fibonacci en javascript"
             ],
             "responses": [
-                "El algoritmo de Fibonacci genera una secuencia donde cada número es la suma de los dos anteriores. Aquí tienes el código básico para calcular la serie de Fibonacci hasta un número n:\n\n```javascript\nfunction fibonacci(n) {\n    if (n <= 1) {\n        return n;\n    }\n    return fibonacci(n - 1) + fibonacci(n - 2);\n}\n\n// Ejemplo de uso\nconsole.log(fibonacci(10)); // Salida: 55 (décimo número de Fibonacci)\n```\n"
+                "El algoritmo de Fibonacci genera una secuencia donde cada número es la suma de los dos anteriores. Aquí tienes el código básico para calcular la serie de Fibonacci hasta un número n:\n\n\nfunction fibonacci(n) {\n    if (n <= 1) {\n        return n;\n    }\n    return fibonacci(n - 1) + fibonacci(n - 2);\n}\n\n// Ejemplo de uso\nconsole.log(fibonacci(10)); // Salida: 55 (décimo número de Fibonacci)\n\n"
             ]
         },
         {
@@ -12275,7 +12275,7 @@
                 "dame la parte donde se define la funcion fibonacci en js"
             ],
             "responses": [
-                "La función de Fibonacci se define así:\n\n```javascript\nfunction fibonacci(n) {\n    // Aquí va el cuerpo del algoritmo\n}\n```\n"
+                "La función de Fibonacci se define así:\n\n\nfunction fibonacci(n) {\n    // Aquí va el cuerpo del algoritmo\n}\n\n"
             ]
         },
         {
@@ -12288,7 +12288,7 @@
                 "dame la parte de la condicion base en fibonacci en js"
             ],
             "responses": [
-                "La condición base del algoritmo de Fibonacci es:\n\n```javascript\nif (n <= 1) {\n    return n;\n}\n```\nEsto asegura que el cálculo termine cuando n sea 0 o 1."
+                "La condición base del algoritmo de Fibonacci es:\n\n\nif (n <= 1) {\n    return n;\n}\n\nEsto asegura que el cálculo termine cuando n sea 0 o 1."
             ]
         },
         {
@@ -12301,7 +12301,7 @@
                 "dame la parte de la recursion en fibonacci en js"
             ],
             "responses": [
-                "La recursión en Fibonacci se realiza llamando a la función con valores decrecientes:\n\n```javascript\nreturn fibonacci(n - 1) + fibonacci(n - 2);\n```\nEsto calcula la suma de los dos números anteriores en la serie."
+                "La recursión en Fibonacci se realiza llamando a la función con valores decrecientes:\n\n\nreturn fibonacci(n - 1) + fibonacci(n - 2);\n\nEsto calcula la suma de los dos números anteriores en la serie."
             ]
         },
         {
@@ -12314,7 +12314,7 @@
                 "dame una implementacion iterativa de fibonacci en js"
             ],
             "responses": [
-                "Aquí tienes una versión iterativa del algoritmo de Fibonacci, que es más eficiente en términos de memoria y rendimiento:\n\n```javascript\nfunction fibonacciIterativo(n) {\n    if (n <= 1) {\n        return n;\n    }\n    let a = 0, b = 1;\n    for (let i = 2; i <= n; i++) {\n        const temp = a + b;\n        a = b;\n        b = temp;\n    }\n    return b;\n}\n\n// Ejemplo de uso\nconsole.log(fibonacciIterativo(10)); // Salida: 55\n```\n"
+                "Aquí tienes una versión iterativa del algoritmo de Fibonacci, que es más eficiente en términos de memoria y rendimiento:\n\n\nfunction fibonacciIterativo(n) {\n    if (n <= 1) {\n        return n;\n    }\n    let a = 0, b = 1;\n    for (let i = 2; i <= n; i++) {\n        const temp = a + b;\n        a = b;\n        b = temp;\n    }\n    return b;\n}\n\n// Ejemplo de uso\nconsole.log(fibonacciIterativo(10)); // Salida: 55\n\n"
             ]
         },
         {
@@ -12327,7 +12327,7 @@
                 "dame un algoritmo optimizado de fibonacci con almacenamiento en javascript"
             ],
             "responses": [
-                "El almacenamiento (memoization) se utiliza para guardar cálculos previos y mejorar la eficiencia del algoritmo. Aquí tienes una implementación optimizada de Fibonacci con memoization:\n\n```javascript\nfunction fibonacciMemoization(n, memo = {}) {\n    if (n in memo) {\n        return memo[n];\n    }\n    if (n <= 1) {\n        return n;\n    }\n    memo[n] = fibonacciMemoization(n - 1, memo) + fibonacciMemoization(n - 2, memo);\n    return memo[n];\n}\n\n// Ejemplo de uso\nconsole.log(fibonacciMemoization(10)); // Salida: 55\n```\n"
+                "El almacenamiento (memoization) se utiliza para guardar cálculos previos y mejorar la eficiencia del algoritmo. Aquí tienes una implementación optimizada de Fibonacci con memoization:\n\n\nfunction fibonacciMemoization(n, memo = {}) {\n    if (n in memo) {\n        return memo[n];\n    }\n    if (n <= 1) {\n        return n;\n    }\n    memo[n] = fibonacciMemoization(n - 1, memo) + fibonacciMemoization(n - 2, memo);\n    return memo[n];\n}\n\n// Ejemplo de uso\nconsole.log(fibonacciMemoization(10)); // Salida: 55\n\n"
             ]
         },
         {
@@ -12366,7 +12366,7 @@
                 "como implemento la busqueda en profundidad en javascript"
             ],
             "responses": [
-                "La búsqueda en profundidad (DFS) es un algoritmo que explora tanto como sea posible por un camino antes de retroceder. Aquí tienes una implementación básica en javascript:\n\n```javascript\nfunction dfs(graph, start, visited = new Set()) {\n    console.log(start);\n    visited.add(start);\n\n    for (const neighbor of graph[start]) {\n        if (!visited.has(neighbor)) {\n            dfs(graph, neighbor, visited);\n        }\n    }\n}\n\n// Ejemplo de uso\nconst graph = {\n    A: ['B', 'C'],\n    B: ['D', 'E'],\n    C: ['F'],\n    D: [],\n    E: ['F'],\n    F: []\n};\ndfs(graph, 'A');\n```\nEste código imprimirá los nodos visitados en el orden DFS."
+                "La búsqueda en profundidad (DFS) es un algoritmo que explora tanto como sea posible por un camino antes de retroceder. Aquí tienes una implementación básica en javascript:\n\n\nfunction dfs(graph, start, visited = new Set()) {\n    console.log(start);\n    visited.add(start);\n\n    for (const neighbor of graph[start]) {\n        if (!visited.has(neighbor)) {\n            dfs(graph, neighbor, visited);\n        }\n    }\n}\n\n// Ejemplo de uso\nconst graph = {\n    A: ['B', 'C'],\n    B: ['D', 'E'],\n    C: ['F'],\n    D: [],\n    E: ['F'],\n    F: []\n};\ndfs(graph, 'A');\n\nEste código imprimirá los nodos visitados en el orden DFS."
             ]
         },
         {
@@ -12379,7 +12379,7 @@
                 "dame la parte donde se define la funcion de busqueda en profundidad en js"
             ],
             "responses": [
-                "La función principal de DFS en javascript se define así:\n\n```javascript\nfunction dfs(graph, start, visited = new Set()) {\n    // Cuerpo del algoritmo aquí\n}\n```\n"
+                "La función principal de DFS en javascript se define así:\n\n\nfunction dfs(graph, start, visited = new Set()) {\n    // Cuerpo del algoritmo aquí\n}\n\n"
             ]
         },
         {
@@ -12392,7 +12392,7 @@
                 "dame la parte donde se registra un nodo como visitado en dfs en js"
             ],
             "responses": [
-                "Un nodo se marca como visitado agregándolo a un conjunto:\n\n```javascript\nvisited.add(start);\n```\nEsto evita visitar el mismo nodo más de una vez."
+                "Un nodo se marca como visitado agregándolo a un conjunto:\n\n\nvisited.add(start);\n\nEsto evita visitar el mismo nodo más de una vez."
             ]
         },
         {
@@ -12405,7 +12405,7 @@
                 "dame la parte donde se recorren los vecinos en dfs en js"
             ],
             "responses": [
-                "El recorrido de vecinos se realiza con un bucle for:\n\n```javascript\nfor (const neighbor of graph[start]) {\n    if (!visited.has(neighbor)) {\n        dfs(graph, neighbor, visited);\n    }\n}\n```\nEsto garantiza que todos los nodos adyacentes sean explorados."
+                "El recorrido de vecinos se realiza con un bucle for:\n\n\nfor (const neighbor of graph[start]) {\n    if (!visited.has(neighbor)) {\n        dfs(graph, neighbor, visited);\n    }\n}\n\nEsto garantiza que todos los nodos adyacentes sean explorados."
             ]
         },
         {
@@ -12418,7 +12418,7 @@
                 "dame un ejemplo de grafo para dfs en js"
             ],
             "responses": [
-                "Un grafo para DFS se representa típicamente como un objeto donde las claves son nodos y los valores son listas de nodos adyacentes. Ejemplo:\n\n```javascript\nconst graph = {\n    A: ['B', 'C'],\n    B: ['D', 'E'],\n    C: ['F'],\n    D: [],\n    E: ['F'],\n    F: []\n};\n```\nEsto permite representar la conectividad entre los nodos."
+                "Un grafo para DFS se representa típicamente como un objeto donde las claves son nodos y los valores son listas de nodos adyacentes. Ejemplo:\n\n\nconst graph = {\n    A: ['B', 'C'],\n    B: ['D', 'E'],\n    C: ['F'],\n    D: [],\n    E: ['F'],\n    F: []\n};\n\nEsto permite representar la conectividad entre los nodos."
             ]
         },
         {
@@ -12431,7 +12431,7 @@
                 "dame una implementacion iterativa de dfs en js"
             ],
             "responses": [
-                "Aquí tienes una implementación iterativa del DFS utilizando una pila:\n\n```javascript\nfunction dfsIterativo(graph, start) {\n    const stack = [start];\n    const visited = new Set();\n\n    while (stack.length > 0) {\n        const node = stack.pop();\n\n        if (!visited.has(node)) {\n            console.log(node);\n            visited.add(node);\n            for (const neighbor of graph[node]) {\n                stack.push(neighbor);\n            }\n        }\n    }\n}\n\n// Ejemplo de uso\ndfsIterativo(graph, 'A');\n```\nEsto utiliza una pila en lugar de la recursión para controlar el flujo del algoritmo."
+                "Aquí tienes una implementación iterativa del DFS utilizando una pila:\n\n\nfunction dfsIterativo(graph, start) {\n    const stack = [start];\n    const visited = new Set();\n\n    while (stack.length > 0) {\n        const node = stack.pop();\n\n        if (!visited.has(node)) {\n            console.log(node);\n            visited.add(node);\n            for (const neighbor of graph[node]) {\n                stack.push(neighbor);\n            }\n        }\n    }\n}\n\n// Ejemplo de uso\ndfsIterativo(graph, 'A');\n\nEsto utiliza una pila en lugar de la recursión para controlar el flujo del algoritmo."
             ]
         },
         {
@@ -12457,7 +12457,7 @@
                 "dame la parte donde se inicializa la pila en dfs iterativo en js"
             ],
             "responses": [
-                "En la implementación iterativa de DFS, la pila se inicializa con el nodo inicial:\n\n```javascript\nconst stack = [start];\n```\nEsto establece el punto de partida para explorar el grafo."
+                "En la implementación iterativa de DFS, la pila se inicializa con el nodo inicial:\n\n\nconst stack = [start];\n\nEsto establece el punto de partida para explorar el grafo."
             ]
         },
         {
@@ -12470,7 +12470,7 @@
                 "dame la parte donde se verifica si un nodo ya fue visitado en dfs en js"
             ],
             "responses": [
-                "Para garantizar que un nodo no sea visitado dos veces, se utiliza la función `has` del conjunto de nodos visitados:\n\n```javascript\nif (!visited.has(node)) {\n    // Procesar el nodo\n}\n```\nEsto asegura que cada nodo se procese una sola vez."
+                "Para garantizar que un nodo no sea visitado dos veces, se utiliza la función `has` del conjunto de nodos visitados:\n\n\nif (!visited.has(node)) {\n    // Procesar el nodo\n}\n\nEsto asegura que cada nodo se procese una sola vez."
             ]
         },
         {
@@ -12483,7 +12483,7 @@
                 "dame la parte donde se añaden los nodos vecinos a la pila en dfs en js"
             ],
             "responses": [
-                "En la versión iterativa de DFS, los vecinos del nodo actual se agregan a la pila con el bucle:\n\n```javascript\nfor (const neighbor of graph[node]) {\n    stack.push(neighbor);\n}\n```\nEsto asegura que los nodos conectados sean explorados en futuras iteraciones."
+                "En la versión iterativa de DFS, los vecinos del nodo actual se agregan a la pila con el bucle:\n\n\nfor (const neighbor of graph[node]) {\n    stack.push(neighbor);\n}\n\nEsto asegura que los nodos conectados sean explorados en futuras iteraciones."
             ]
         },
         {
@@ -12496,7 +12496,7 @@
                 "dame la parte donde se imprimen los nodos en dfs en js"
             ],
             "responses": [
-                "Los nodos visitados se imprimen utilizando la función `console.log` justo después de ser marcados como visitados:\n\n```javascript\nconsole.log(node);\n```\nEsto registra cada nodo visitado en el orden de exploración."
+                "Los nodos visitados se imprimen utilizando la función `console.log` justo después de ser marcados como visitados:\n\n\nconsole.log(node);\n\nEsto registra cada nodo visitado en el orden de exploración."
             ]
         },
         {
@@ -12509,7 +12509,7 @@
                 "dame la parte donde se explica el uso del set para nodos visitados en dfs en js"
             ],
             "responses": [
-                "El `Set` se utiliza para almacenar los nodos visitados porque permite comprobar si un nodo ya fue visitado de manera eficiente:\n\n```javascript\nvisited.add(node);\nif (!visited.has(neighbor)) {\n    // Procesar el vecino\n}\n```\nEsta estructura tiene operaciones de inserción y verificación en tiempo constante."
+                "El `Set` se utiliza para almacenar los nodos visitados porque permite comprobar si un nodo ya fue visitado de manera eficiente:\n\n\nvisited.add(node);\nif (!visited.has(neighbor)) {\n    // Procesar el vecino\n}\n\nEsta estructura tiene operaciones de inserción y verificación en tiempo constante."
             ]
         },
         {
@@ -12522,7 +12522,7 @@
                 "como implemento el heap sort en javascript"
             ],
             "responses": [
-                "El algoritmo de Heap Sort es un algoritmo de ordenamiento que utiliza la estructura de datos de un heap (montículo). Primero construye un heap máximo a partir del arreglo, luego intercambia el primer elemento (el máximo) con el último, reduce el tamaño del heap y aplica heapify nuevamente. Aquí tienes el código completo en javascript:\n\n```javascript\nfunction heapSort(arr) {\n\tlet n = arr.length;\n\n\t// Construir un heap máximo\n\tfor (let i = Math.floor(n / 2) - 1; i >= 0; i--) {\n\t\theapify(arr, n, i);\n\t}\n\n\t// Extraer elementos del heap uno por uno\n\tfor (let i = n - 1; i > 0; i--) {\n\t\t// Mover el máximo actual al final\n\t\t[arr[0], arr[i]] = [arr[i], arr[0]];\n\n\t\t// Aplicar heapify al heap reducido\n\t\theapify(arr, i, 0);\n\t}\n\n\treturn arr;\n}\n\nfunction heapify(arr, n, i) {\n\tlet largest = i;\n\tconst left = 2 * i + 1;\n\tconst right = 2 * i + 2;\n\n\t// Si el hijo izquierdo es más grande que el nodo raíz\n\tif (left < n && arr[left] > arr[largest]) {\n\t\tlargest = left;\n\t}\n\n\t// Si el hijo derecho es más grande que el nodo raíz\n\tif (right < n && arr[right] > arr[largest]) {\n\t\tlargest = right;\n\t}\n\n\t// Si el nodo raíz no es el más grande\n\tif (largest !== i) {\n\t\t[arr[i], arr[largest]] = [arr[largest], arr[i]];\n\t\theapify(arr, n, largest);\n\t}\n}\n\n// Ejemplo de uso\nconst numeros = [12, 11, 13, 5, 6, 7];\nconsole.log(heapSort(numeros));\n// Salida: [5, 6, 7, 11, 12, 13]\n```"
+                "El algoritmo de Heap Sort es un algoritmo de ordenamiento que utiliza la estructura de datos de un heap (montículo). Primero construye un heap máximo a partir del arreglo, luego intercambia el primer elemento (el máximo) con el último, reduce el tamaño del heap y aplica heapify nuevamente. Aquí tienes el código completo en javascript:\n\n\nfunction heapSort(arr) {\n\tlet n = arr.length;\n\n\t// Construir un heap máximo\n\tfor (let i = Math.floor(n / 2) - 1; i >= 0; i--) {\n\t\theapify(arr, n, i);\n\t}\n\n\t// Extraer elementos del heap uno por uno\n\tfor (let i = n - 1; i > 0; i--) {\n\t\t// Mover el máximo actual al final\n\t\t[arr[0], arr[i]] = [arr[i], arr[0]];\n\n\t\t// Aplicar heapify al heap reducido\n\t\theapify(arr, i, 0);\n\t}\n\n\treturn arr;\n}\n\nfunction heapify(arr, n, i) {\n\tlet largest = i;\n\tconst left = 2 * i + 1;\n\tconst right = 2 * i + 2;\n\n\t// Si el hijo izquierdo es más grande que el nodo raíz\n\tif (left < n && arr[left] > arr[largest]) {\n\t\tlargest = left;\n\t}\n\n\t// Si el hijo derecho es más grande que el nodo raíz\n\tif (right < n && arr[right] > arr[largest]) {\n\t\tlargest = right;\n\t}\n\n\t// Si el nodo raíz no es el más grande\n\tif (largest !== i) {\n\t\t[arr[i], arr[largest]] = [arr[largest], arr[i]];\n\t\theapify(arr, n, largest);\n\t}\n}\n\n// Ejemplo de uso\nconst numeros = [12, 11, 13, 5, 6, 7];\nconsole.log(heapSort(numeros));\n// Salida: [5, 6, 7, 11, 12, 13]\n"
             ]
         },
         {
@@ -12535,7 +12535,7 @@
                 "dame la parte donde se construye el heap maximo en heap sort en js"
             ],
             "responses": [
-                "El heap máximo se construye aplicando la función `heapify` desde la mitad del arreglo hacia atrás:\n\n```javascript\nfor (let i = Math.floor(arr.length / 2) - 1; i >= 0; i--) {\n\theapify(arr, arr.length, i);\n}\n```"
+                "El heap máximo se construye aplicando la función `heapify` desde la mitad del arreglo hacia atrás:\n\n\nfor (let i = Math.floor(arr.length / 2) - 1; i >= 0; i--) {\n\theapify(arr, arr.length, i);\n}\n"
             ]
         },
         {
@@ -12548,7 +12548,7 @@
                 "dame la parte del intercambio en heap sort en js"
             ],
             "responses": [
-                "En Heap Sort, el máximo (primer elemento) se intercambia con el último:\n\n```javascript\n[arr[0], arr[i]] = [arr[i], arr[0]];\n```\nEsto mueve el elemento más grande al final del arreglo ordenado."
+                "En Heap Sort, el máximo (primer elemento) se intercambia con el último:\n\n\n[arr[0], arr[i]] = [arr[i], arr[0]];\n\nEsto mueve el elemento más grande al final del arreglo ordenado."
             ]
         },
         {
@@ -12574,7 +12574,7 @@
                 "dame el fragmento donde se define la funcion principal de heap sort en js"
             ],
             "responses": [
-                "La definición de la función principal de Heap Sort es la siguiente:\n\n```javascript\nfunction heapSort(arr) {\n\t// Aquí empieza el cuerpo del algoritmo\n}\n```"
+                "La definición de la función principal de Heap Sort es la siguiente:\n\n\nfunction heapSort(arr) {\n\t// Aquí empieza el cuerpo del algoritmo\n}\n"
             ]
         },
         {
@@ -12587,7 +12587,7 @@
                 "dame la parte donde se construye el heap maximo en heap sort en js"
             ],
             "responses": [
-                "La iteración para construir el Heap máximo en el algoritmo Heap Sort es la siguiente:\n\n```javascript\nfor (let i = Math.floor(arr.length / 2) - 1; i >= 0; i--) {\n\theapify(arr, arr.length, i);\n}\n```"
+                "La iteración para construir el Heap máximo en el algoritmo Heap Sort es la siguiente:\n\n\nfor (let i = Math.floor(arr.length / 2) - 1; i >= 0; i--) {\n\theapify(arr, arr.length, i);\n}\n"
             ]
         },
         {
@@ -12600,7 +12600,7 @@
                 "como se intercambian los elementos en heap sort en js"
             ],
             "responses": [
-                "El intercambio de elementos en Heap Sort se realiza de la siguiente manera:\n\n```javascript\n[arr[0], arr[i]] = [arr[i], arr[0]];\n```"
+                "El intercambio de elementos en Heap Sort se realiza de la siguiente manera:\n\n\n[arr[0], arr[i]] = [arr[i], arr[0]];\n"
             ]
         },
         {
@@ -12613,7 +12613,7 @@
                 "como se usa el algoritmo heap sort en js"
             ],
             "responses": [
-                "Aquí tienes un ejemplo de uso del Heap Sort en javascript:\n\n```javascript\nconst numeros = [12, 11, 13, 5, 6, 7];\nconsole.log(heapSort(numeros));\n// Salida: [5, 6, 7, 11, 12, 13]\n```"
+                "Aquí tienes un ejemplo de uso del Heap Sort en javascript:\n\n\nconst numeros = [12, 11, 13, 5, 6, 7];\nconsole.log(heapSort(numeros));\n// Salida: [5, 6, 7, 11, 12, 13]\n"
             ]
         },
         {
@@ -12626,7 +12626,7 @@
                 "dame la parte donde se obtiene el tamaño del arreglo en heap sort en js"
             ],
             "responses": [
-                "El tamaño del arreglo se obtiene así:\n\n```javascript\nlet n = arr.length;\n```"
+                "El tamaño del arreglo se obtiene así:\n\n\nlet n = arr.length;\n"
             ]
         },
         {
@@ -12638,8 +12638,8 @@
                 "dame un ejemplo de un bucle for en python"
             ],
             "responses": [
-                "Aquí tienes un ejemplo básico de un ciclo for en Python:\n\n```python\nfor i in range(5):\n    print(i)\n```",
-                "Puedes usar un for para iterar sobre una lista:\n\n```python\nnumeros = [1, 2, 3, 4]\nfor numero in numeros:\n    print(f'Elemento: {numero}')\n```"
+                "Aquí tienes un ejemplo básico de un ciclo for en Python:\n\n\nfor i in range(5):\n    print(i)\n",
+                "Puedes usar un for para iterar sobre una lista:\n\n\nnumeros = [1, 2, 3, 4]\nfor numero in numeros:\n    print(f'Elemento: {numero}')\n"
             ]
         },
         {
@@ -12651,8 +12651,8 @@
                 "dame un ejemplo de un ciclo for con la variable declarada en el encabezado"
             ],
             "responses": [
-                "En Python, la variable se declara automáticamente en el encabezado del ciclo:\n\n```python\nfor i in range(5):\n    print(i)\n```",
-                "Un ejemplo donde la variable se declara en el encabezado del ciclo for:\n\n```python\nfor numero in range(1, 6):\n    print(f'Número actual: {numero}')\n```"
+                "En Python, la variable se declara automáticamente en el encabezado del ciclo:\n\n\nfor i in range(5):\n    print(i)\n",
+                "Un ejemplo donde la variable se declara en el encabezado del ciclo for:\n\n\nfor numero in range(1, 6):\n    print(f'Número actual: {numero}')\n"
             ]
         },
         {
@@ -12665,8 +12665,8 @@
                 "como uso una condicional en un ciclo for en python"
             ],
             "responses": [
-                "Puedes usar una condicional dentro del ciclo for. Ejemplo:\n\n```python\nfor i in range(5):\n    if i % 2 == 0:\n        print(f'{i} es un número par')\n```",
-                "Un ejemplo con condicional en un ciclo for:\n\n```python\nnumeros = [1, 2, 3, 4, 5]\nfor numero in numeros:\n    if numero > 3:\n        print(f'Número mayor que 3: {numero}')\n```"
+                "Puedes usar una condicional dentro del ciclo for. Ejemplo:\n\n\nfor i in range(5):\n    if i % 2 == 0:\n        print(f'{i} es un número par')\n",
+                "Un ejemplo con condicional en un ciclo for:\n\n\nnumeros = [1, 2, 3, 4, 5]\nfor numero in numeros:\n    if numero > 3:\n        print(f'Número mayor que 3: {numero}')\n"
             ]
         },
         {
@@ -12679,8 +12679,8 @@
                 "ejemplo de ciclo for que incremente en cada iteracion"
             ],
             "responses": [
-                "En Python, puedes especificar el incremento en el ciclo for con `range`:\n\n```python\nfor i in range(0, 10, 2):\n    print(i)\n```",
-                "Un ejemplo de incremento en un ciclo for:\n\n```python\nfor numero in range(1, 6):\n    print(f'Número: {numero}')\n```"
+                "En Python, puedes especificar el incremento en el ciclo for con `range`:\n\n\nfor i in range(0, 10, 2):\n    print(i)\n",
+                "Un ejemplo de incremento en un ciclo for:\n\n\nfor numero in range(1, 6):\n    print(f'Número: {numero}')\n"
             ]
         },
         {
@@ -12693,8 +12693,8 @@
                 "ejemplo de ciclo for que decremente en cada iteracion"
             ],
             "responses": [
-                "Para decrementar, usa un paso negativo en `range`:\n\n```python\nfor i in range(10, 0, -1):\n    print(i)\n```",
-                "Un ciclo que decremente en pasos de 2:\n\n```python\nfor i in range(20, 0, -2):\n    print(i)\n```"
+                "Para decrementar, usa un paso negativo en `range`:\n\n\nfor i in range(10, 0, -1):\n    print(i)\n",
+                "Un ciclo que decremente en pasos de 2:\n\n\nfor i in range(20, 0, -2):\n    print(i)\n"
             ]
         },
         {
@@ -13133,59 +13133,59 @@
                 "quiero entender la busqueda secuencial paso a paso"
             ],
             "responses": [
-                "aqui tienes el algoritmo de busqueda secuencial explicado paso a paso:\n\n1. **definimos la funcion**:\n```javascript\nfunction busquedaSecuencial(arreglo, valorBuscado) {\n```\nesta funcion recibe un arreglo y el valor que queremos buscar.\n\n2. **recorremos el arreglo usando un bucle**:\n```javascript\nfor (let i = 0; i < arreglo.length; i++) {\n```\niteramos sobre cada elemento del arreglo, usando el indice `i` para acceder a los valores.\n\n3. **verificamos si el valor actual es el buscado**:\n```javascript\nif (arreglo[i] === valorBuscado) {\n    return i; // devuelve el indice si lo encuentra\n}\n```\ncomparamos el valor actual con el valor buscado. si coinciden, devolvemos el indice.\n\n4. **devolvemos -1 si no encontramos el valor**:\n```javascript\nreturn -1; // si no se encuentra el valor\n```\nesto indica que el valor no esta en el arreglo.\n\n5. **ejemplo completo**:\n```javascript\nconst numeros = [4, 2, 7, 9, 5];\nconst resultado = busquedaSecuencial(numeros, 7);\nconsole.log(resultado); // salida: 2\n```"
+                "aqui tienes el algoritmo de busqueda secuencial explicado paso a paso:\n\n1. **definimos la funcion**:\n\nfunction busquedaSecuencial(arreglo, valorBuscado) {\n\nesta funcion recibe un arreglo y el valor que queremos buscar.\n\n2. **recorremos el arreglo usando un bucle**:\n\nfor (let i = 0; i < arreglo.length; i++) {\n\niteramos sobre cada elemento del arreglo, usando el indice `i` para acceder a los valores.\n\n3. **verificamos si el valor actual es el buscado**:\n\nif (arreglo[i] === valorBuscado) {\n    return i; // devuelve el indice si lo encuentra\n}\n\ncomparamos el valor actual con el valor buscado. si coinciden, devolvemos el indice.\n\n4. **devolvemos -1 si no encontramos el valor**:\n\nreturn -1; // si no se encuentra el valor\n\nesto indica que el valor no esta en el arreglo.\n\n5. **ejemplo completo**:\n\nconst numeros = [4, 2, 7, 9, 5];\nconst resultado = busquedaSecuencial(numeros, 7);\nconsole.log(resultado); // salida: 2\n"
             ]
         },
         {
             "tag": "ciclo_for_busqueda_secuencial_python",
             "patterns": [
-                "como se implementa el ciclo for en la busqueda secuencial en js",
-                "puedes darme solo el ciclo for del algoritmo de busqueda secuencial en js",
-                "como recorre el arreglo la busqueda secuencial en js",
-                "quiero ver el bucle de la busqueda secuencial en js",
-                "dame la parte del ciclo for de la busqueda secuencial en js"
+                "como se implementa el ciclo for en la busqueda secuencial en python",
+                "puedes darme solo el ciclo for del algoritmo de busqueda secuencial en python",
+                "como recorre el arreglo la busqueda secuencial en python",
+                "quiero ver el bucle de la busqueda secuencial en python",
+                "dame la parte del ciclo for de la busqueda secuencial en python"
             ],
             "responses": [
-                "el ciclo for en la busqueda secuencial recorre el arreglo elemento por elemento:\n\n```javascript\nfor (let i = 0; i < arreglo.length; i++) {\n    // aqui se evaluan los elementos uno por uno\n}\n```"
+                "el ciclo for en la busqueda secuencial recorre el arreglo elemento por elemento:\n\n\nfor (let i = 0; i < arreglo.length; i++) {\n    // aqui se evaluan los elementos uno por uno\n}\n"
             ]
         },
         {
             "tag": "condicional_if_busqueda_secuencial_python",
             "patterns": [
-                "como funciona el condicional if en la busqueda secuencial en js",
-                "puedes darme el condicional if del algoritmo de busqueda secuencial en js",
-                "como verifica si el valor es el buscado en la busqueda secuencial en js",
-                "quiero ver la condicion if de la busqueda secuencial en js",
-                "dame la parte del if en la busqueda secuencial en js"
+                "como funciona el condicional if en la busqueda secuencial en python",
+                "puedes darme el condicional if del algoritmo de busqueda secuencial en python",
+                "como verifica si el valor es el buscado en la busqueda secuencial en python",
+                "quiero ver la condicion if de la busqueda secuencial en python",
+                "dame la parte del if en la busqueda secuencial en python"
             ],
             "responses": [
-                "el condicional if verifica si el valor actual es el buscado:\n\n```javascript\nif (arreglo[i] === valorBuscado) {\n    return i; // devuelve el indice si lo encuentra\n}\n```"
+                "el condicional if verifica si el valor actual es el buscado:\n\n\nif (arreglo[i] === valorBuscado) {\n    return i; // devuelve el indice si lo encuentra\n}\n"
             ]
         },
         {
             "tag": "retorno_no_encontrado_busqueda_secuencial_python",
             "patterns": [
-                "que pasa si no se encuentra el valor en la busqueda secuencial en js",
-                "puedes darme la parte donde no encuentra el valor en js",
-                "como retorna -1 en la busqueda secuencial en js",
-                "quiero ver la devolucion de -1 en el algoritmo de busqueda secuencial en js",
-                "dame la parte donde no encuentra el valor en la busqueda secuencial en js"
+                "que pasa si no se encuentra el valor en la busqueda secuencial en python",
+                "puedes darme la parte donde no encuentra el valor en python",
+                "como retorna -1 en la busqueda secuencial en python",
+                "quiero ver la devolucion de -1 en el algoritmo de busqueda secuencial en python",
+                "dame la parte donde no encuentra el valor en la busqueda secuencial en python"
             ],
             "responses": [
-                "si el valor no se encuentra, el algoritmo devuelve -1:\n\n```javascript\nreturn -1; // si no se encuentra el valor\n```"
+                "si el valor no se encuentra, el algoritmo devuelve -1:\n\n\nreturn -1; // si no se encuentra el valor\n"
             ]
         },
         {
             "tag": "definicion_funcion_busqueda_secuencial_python",
             "patterns": [
-                "como se define la funcion en la busqueda secuencial en js",
-                "puedes darme solo la parte donde se define la funcion en js",
-                "como empieza la busqueda secuencial en js",
-                "quiero ver la cabecera de la funcion de busqueda secuencial en js",
-                "dame la parte donde se define la funcion en busqueda secuencial en js"
+                "como se define la funcion en la busqueda secuencial en python",
+                "puedes darme solo la parte donde se define la funcion en python",
+                "como empieza la busqueda secuencial en python",
+                "quiero ver la cabecera de la funcion de busqueda secuencial en python",
+                "dame la parte donde se define la funcion en busqueda secuencial en python"
             ],
             "responses": [
-                "la funcion de busqueda secuencial se define asi:\n\n```javascript\nfunction busquedaSecuencial(arreglo, valorBuscado) {\n    // aqui va el cuerpo del algoritmo\n}\n```"
+                "la funcion de busqueda secuencial se define asi:\n\n\nfunction busquedaSecuencial(arreglo, valorBuscado) {\n    // aqui va el cuerpo del algoritmo\n}\n"
             ]
         },
         {
@@ -13198,7 +13198,7 @@
                 "dame los argumentos de la busqueda secuencial en python"
             ],
             "responses": [
-                "la funcion de busqueda secuencial recibe dos argumentos:\n\n1. **arreglo**: es la lista que sera recorrida.\n2. **valor_buscado**: es el valor que queremos encontrar.\n\nejemplo:\n```python\nbusqueda_secuencial([4, 2, 7, 9], 7)\n```"
+                "la funcion de busqueda secuencial recibe dos argumentos:\n\n1. **arreglo**: es la lista que sera recorrida.\n2. **valor_buscado**: es el valor que queremos encontrar.\n\nejemplo:\n\nbusqueda_secuencial([4, 2, 7, 9], 7)\n"
             ]
         },
         {
@@ -13211,7 +13211,7 @@
                 "dame la parte donde retorna el indice en busqueda secuencial en python"
             ],
             "responses": [
-                "cuando el valor buscado es encontrado, la funcion devuelve el indice:\n\n```python\nreturn i  # devuelve el indice donde se encontro el valor\n```"
+                "cuando el valor buscado es encontrado, la funcion devuelve el indice:\n\n\nreturn i  # devuelve el indice donde se encontro el valor\n"
             ]
         },
         {
@@ -13224,7 +13224,7 @@
                 "dame un ejemplo de uso de busqueda secuencial en python"
             ],
             "responses": [
-                "aqui tienes un ejemplo practico del uso de la busqueda secuencial:\n\n```python\ndef busqueda_secuencial(lista, valor_buscado):\n    for i in range(len(lista)):\n        if lista[i] == valor_buscado:\n            return i\n    return -1\n\nnumeros = [1, 3, 5, 7, 9]\nvalor_buscado = 7\nresultado = busqueda_secuencial(numeros, valor_buscado)\n\nif resultado != -1:\n    print(f'valor encontrado en el indice {resultado}')\nelse:\n    print('valor no encontrado')\n```"
+                "aqui tienes un ejemplo practico del uso de la busqueda secuencial:\n\n\ndef busqueda_secuencial(lista, valor_buscado):\n    for i in range(len(lista)):\n        if lista[i] == valor_buscado:\n            return i\n    return -1\n\nnumeros = [1, 3, 5, 7, 9]\nvalor_buscado = 7\nresultado = busqueda_secuencial(numeros, valor_buscado)\n\nif resultado != -1:\n    print(f'valor encontrado en el indice {resultado}')\nelse:\n    print('valor no encontrado')\n"
             ]
         },
         {
@@ -13250,46 +13250,46 @@
                 "como implemento la busqueda binaria en python"
             ],
             "responses": [
-                "la busqueda binaria es un algoritmo eficiente para encontrar un elemento en una lista ordenada. se divide el rango de busqueda a la mitad en cada paso. aqui tienes el codigo basico en python:\n\n```python\ndef busqueda_binaria(lista, valor_buscado):\n    inicio = 0\n    fin = len(lista) - 1\n\n    while inicio <= fin:\n        medio = (inicio + fin) // 2\n\n        if lista[medio] == valor_buscado:\n            return medio  # devuelve el indice si encuentra el valor\n        elif lista[medio] < valor_buscado:\n            inicio = medio + 1  # ajusta el inicio\n        else:\n            fin = medio - 1  # ajusta el final\n\n    return -1  # retorna -1 si el valor no esta presente\n\n# ejemplo de uso\nnumeros = [1, 3, 5, 7, 9]\nresultado = busqueda_binaria(numeros, 7)\nprint(resultado)  # salida: 3\n```"
+                "la busqueda binaria es un algoritmo eficiente para encontrar un elemento en una lista ordenada. se divide el rango de busqueda a la mitad en cada paso. aqui tienes el codigo basico en python:\n\n\ndef busqueda_binaria(lista, valor_buscado):\n    inicio = 0\n    fin = len(lista) - 1\n\n    while inicio <= fin:\n        medio = (inicio + fin) // 2\n\n        if lista[medio] == valor_buscado:\n            return medio  # devuelve el indice si encuentra el valor\n        elif lista[medio] < valor_buscado:\n            inicio = medio + 1  # ajusta el inicio\n        else:\n            fin = medio - 1  # ajusta el final\n\n    return -1  # retorna -1 si el valor no esta presente\n\n# ejemplo de uso\nnumeros = [1, 3, 5, 7, 9]\nresultado = busqueda_binaria(numeros, 7)\nprint(resultado)  # salida: 3\n"
             ]
         },
         {
             "tag": "definicion_funcion_busqueda_binaria_python",
             "patterns": [
                 "como se define la funcion en la busqueda binaria en python",
-                "puedes darme solo la parte donde se define la funcion en busqueda binaria",
+                "puedes darme solo la parte donde se define la funcion en busqueda binaria en python",
                 "como empieza la busqueda binaria en python",
                 "quiero ver la cabecera de la funcion de busqueda binaria en python",
                 "dame la parte donde se define la funcion en la busqueda binaria en python"
             ],
             "responses": [
-                "La función de búsqueda binaria en Python se define así:\n\n```python\ndef busqueda_binaria(lista, valor_buscado):\n    # Aquí va el cuerpo del algoritmo\n    pass\n```"
+                "La función de búsqueda binaria en Python se define así:\n\n\ndef busqueda_binaria(lista, valor_buscado):\n    # Aquí va el cuerpo del algoritmo\n    pass\n"
             ]
         },
         {
             "tag": "inicializacion_variables_busqueda_binaria_python",
             "patterns": [
                 "como se inicializan las variables en la busqueda binaria en python",
-                "puedes darme la parte donde se inicializan las variables en busqueda binaria",
-                "como se establecen las variables inicio, fin y medio en busqueda binaria",
+                "puedes darme la parte donde se inicializan las variables en busqueda binaria en python",
+                "como se establecen las variables inicio, fin y medio en busqueda binaria en python",
                 "quiero ver la inicializacion de variables en busqueda binaria en python",
                 "dame la parte donde se inicializan las variables en la busqueda binaria en python"
             ],
             "responses": [
-                "En la búsqueda binaria, las variables se inicializan de la siguiente manera:\n\n```python\ninicio = 0\nfin = len(lista) - 1\nmedio = (inicio + fin) // 2\n```"
+                "En la búsqueda binaria, las variables se inicializan de la siguiente manera:\n\n\ninicio = 0\nfin = len(lista) - 1\nmedio = (inicio + fin) // 2\n"
             ]
         },
         {
             "tag": "condicion_bucle_busqueda_binaria_python",
             "patterns": [
                 "como se implementa el bucle while en la busqueda binaria en python",
-                "puedes darme solo la parte del bucle while en busqueda binaria",
+                "puedes darme solo la parte del bucle while en busqueda binaria en python",
                 "como funciona el ciclo while en busqueda binaria en python",
                 "quiero ver el bucle while de la busqueda binaria en python",
                 "dame la condicion del bucle en la busqueda binaria en python"
             ],
             "responses": [
-                "El bucle while controla la búsqueda dividiendo el rango a la mitad:\n\n```python\nwhile inicio <= fin:\n    # Aquí va el código para evaluar y ajustar los límites\n    pass\n```"
+                "El bucle while controla la búsqueda dividiendo el rango a la mitad:\n\n\nwhile inicio <= fin:\n    # Aquí va el código para evaluar y ajustar los límites\n    pass\n"
             ]
         },
         {
@@ -13302,33 +13302,33 @@
                 "dame la parte del if en la busqueda binaria en python"
             ],
             "responses": [
-                "El condicional `if` verifica si el valor buscado es igual al valor en el índice medio:\n\n```python\nif lista[medio] == valor_buscado:\n    return medio  # Devuelve el índice si encuentra el valor\n```"
+                "El condicional `if` verifica si el valor buscado es igual al valor en el índice medio:\n\n\nif lista[medio] == valor_buscado:\n    return medio  # Devuelve el índice si encuentra el valor\n"
             ]
         },
         {
             "tag": "ajuste_limites_busqueda_binaria_python",
             "patterns": [
                 "como se ajustan los limites en la busqueda binaria en python",
-                "puedes darme la parte donde se ajustan inicio y fin en busqueda binaria",
+                "puedes darme la parte donde se ajustan inicio y fin en busqueda binaria en python",
                 "como se modifican los limites en busqueda binaria en python",
                 "quiero ver el ajuste de inicio y fin en busqueda binaria en python",
                 "dame la parte donde se ajustan los limites en la busqueda binaria en python"
             ],
             "responses": [
-                "En la búsqueda binaria, los límites se ajustan dependiendo del valor comparado:\n\n```python\nif lista[medio] < valor_buscado:\n    inicio = medio + 1  # Ajusta el inicio\nelse:\n    fin = medio - 1  # Ajusta el final\n```"
+                "En la búsqueda binaria, los límites se ajustan dependiendo del valor comparado:\n\n\nif lista[medio] < valor_buscado:\n    inicio = medio + 1  # Ajusta el inicio\nelse:\n    fin = medio - 1  # Ajusta el final\n"
             ]
         },
         {
             "tag": "retorno_no_encontrado_busqueda_binaria_python",
             "patterns": [
                 "que pasa si no se encuentra el valor en busqueda binaria en python",
-                "puedes darme la parte donde no encuentra el valor en busqueda binaria",
+                "puedes darme la parte donde no encuentra el valor en busqueda binaria en python",
                 "como retorna -1 en la busqueda binaria en python",
                 "quiero ver como indica que no encontro el valor en busqueda binaria en python",
                 "dame la parte donde no encuentra el valor en la busqueda binaria en python"
             ],
             "responses": [
-                "Si el valor no se encuentra, la función devuelve -1:\n\n```python\nreturn -1  # Retorna -1 si el valor no está presente\n```"
+                "Si el valor no se encuentra, la función devuelve -1:\n\n\nreturn -1  # Retorna -1 si el valor no está presente\n"
             ]
         },
         {
@@ -13354,7 +13354,7 @@
                 "dame la parte donde se define la funcion en el algoritmo de burbuja en python"
             ],
             "responses": [
-                "La función del ordenamiento burbuja en Python se define así:\n\n```python\ndef ordenamiento_burbuja(arr):\n    # Aquí va el cuerpo del algoritmo\n```"
+                "La función del ordenamiento burbuja en Python se define así:\n\n\ndef ordenamiento_burbuja(arr):\n    # Aquí va el cuerpo del algoritmo\n"
             ]
         },
         {
@@ -13367,7 +13367,7 @@
                 "como implemento el ordenamiento burbuja en python"
             ],
             "responses": [
-                "El ordenamiento burbuja es un algoritmo simple que compara pares de elementos adyacentes y los intercambia si están en el orden incorrecto. Aquí tienes el código básico en Python:\n\n```python\ndef ordenamiento_burbuja(arr):\n    n = len(arr)\n    for i in range(n - 1):\n        for j in range(n - i - 1):\n            if arr[j] > arr[j + 1]:\n                temp = arr[j]\n                arr[j] = arr[j + 1]\n                arr[j + 1] = temp\n```"
+                "El ordenamiento burbuja es un algoritmo simple que compara pares de elementos adyacentes y los intercambia si están en el orden incorrecto. Aquí tienes el código básico en Python:\n\n\ndef ordenamiento_burbuja(arr):\n    n = len(arr)\n    for i in range(n - 1):\n        for j in range(n - i - 1):\n            if arr[j] > arr[j + 1]:\n                temp = arr[j]\n                arr[j] = arr[j + 1]\n                arr[j + 1] = temp\n"
                 
             ]
         },
@@ -13381,7 +13381,7 @@
                 "dame la parte donde se inicializa n en el algoritmo de burbuja en python"
             ],
             "responses": [
-                "La variable `n` se inicializa con la longitud del arreglo:\n\n```python\nn = len(arr)\n```"
+                "La variable `n` se inicializa con la longitud del arreglo:\n\n\nn = len(arr)\n"
             ]
         },
         {
@@ -13394,7 +13394,7 @@
                 "dame la parte de los ciclos en el algoritmo de burbuja en python"
             ],
             "responses": [
-                "El algoritmo utiliza un bucle anidado para recorrer el arreglo:\n\n```python\nfor i in range(n - 1):\n    for j in range(n - i - 1):\n        # Comparación e intercambio aquí\n```"
+                "El algoritmo utiliza un bucle anidado para recorrer el arreglo:\n\n\nfor i in range(n - 1):\n    for j in range(n - i - 1):\n        # Comparación e intercambio aquí\n"
             ]
         },
         {
@@ -13407,7 +13407,7 @@
                 "dame la parte del if en el algoritmo de burbuja en python"
             ],
             "responses": [
-                "La condición `if` verifica si el elemento actual es mayor que el siguiente:\n\n```python\nif arr[j] > arr[j + 1]:\n    # Intercambio de elementos\n```"
+                "La condición `if` verifica si el elemento actual es mayor que el siguiente:\n\n\nif arr[j] > arr[j + 1]:\n    # Intercambio de elementos\n"
             ]
         },
         {
@@ -13420,7 +13420,7 @@
                 "dame la parte del intercambio en el algoritmo de burbuja en python"
             ],
             "responses": [
-                "El intercambio de elementos se realiza con una variable temporal:\n\n```python\ntemp = arr[j]\narr[j] = arr[j + 1]\narr[j + 1] = temp\n```"
+                "El intercambio de elementos se realiza con una variable temporal:\n\n\ntemp = arr[j]\narr[j] = arr[j + 1]\narr[j + 1] = temp\n"
             ]
         },
         {
@@ -13446,7 +13446,7 @@
                 "como implemento el quick sort en python"
             ],
             "responses": [
-                "El Quick Sort es un algoritmo de ordenamiento que utiliza el enfoque de dividir y conquistar. Divide la lista en sublistas usando un elemento como pivote, colocando los elementos menores a la izquierda y los mayores a la derecha. Luego aplica recursividad para ordenar las partes. Aquí tienes el código completo en Python:\n\n```python\ndef quick_sort(arr):\n    if len(arr) <= 1:\n        return arr\n    pivot = arr[-1]\n    left = [x for x in arr[:-1] if x < pivot]\n    right = [x for x in arr[:-1] if x >= pivot]\n    return quick_sort(left) + [pivot] + quick_sort(right)\n\n# Ejemplo de uso\nnumeros = [34, 7, 23, 32, 5, 62]\nprint(quick_sort(numeros))\n# Salida: [5, 7, 23, 32, 34, 62]\n```\n"
+                "El Quick Sort es un algoritmo de ordenamiento que utiliza el enfoque de dividir y conquistar. Divide la lista en sublistas usando un elemento como pivote, colocando los elementos menores a la izquierda y los mayores a la derecha. Luego aplica recursividad para ordenar las partes. Aquí tienes el código completo en Python:\n\n\ndef quick_sort(arr):\n    if len(arr) <= 1:\n        return arr\n    pivot = arr[-1]\n    left = [x for x in arr[:-1] if x < pivot]\n    right = [x for x in arr[:-1] if x >= pivot]\n    return quick_sort(left) + [pivot] + quick_sort(right)\n\n# Ejemplo de uso\nnumeros = [34, 7, 23, 32, 5, 62]\nprint(quick_sort(numeros))\n# Salida: [5, 7, 23, 32, 34, 62]\n\n"
             ]
         },
         {
@@ -13459,7 +13459,7 @@
                 "dame la parte donde se define la funcion en el quick sort en python"
             ],
             "responses": [
-                "La definición de la función Quick Sort en Python es esta:\n\n```python\ndef quick_sort(arr):\n    # Aquí va el cuerpo del algoritmo\n    pass\n```\n"
+                "La definición de la función Quick Sort en Python es esta:\n\n\ndef quick_sort(arr):\n    # Aquí va el cuerpo del algoritmo\n    pass\n\n"
             ]
         },
         {
@@ -13472,7 +13472,7 @@
                 "dame la parte donde se establece la condicion base en el quick sort en python"
             ],
             "responses": [
-                "La condición base del Quick Sort verifica si la lista tiene uno o ningún elemento, para detener la recursión:\n\n```python\nif len(arr) <= 1:\n    return arr\n```\n"
+                "La condición base del Quick Sort verifica si la lista tiene uno o ningún elemento, para detener la recursión:\n\n\nif len(arr) <= 1:\n    return arr\n\n"
             ]
         },
         {
@@ -13485,7 +13485,7 @@
                 "dame la parte del particionamiento en el quick sort en python"
             ],
             "responses": [
-                "El particionamiento del Quick Sort divide la lista en dos sublistas con base en un pivote:\n\n```python\npivot = arr[-1]\nleft = [x for x in arr[:-1] if x < pivot]\nright = [x for x in arr[:-1] if x >= pivot]\n```\n"
+                "El particionamiento del Quick Sort divide la lista en dos sublistas con base en un pivote:\n\n\npivot = arr[-1]\nleft = [x for x in arr[:-1] if x < pivot]\nright = [x for x in arr[:-1] if x >= pivot]\n\n"
             ]
         },
         {
@@ -13498,7 +13498,7 @@
                 "dame la parte de la combinacion en el quick sort en python"
             ],
             "responses": [
-                "La combinación de las sublistas con el pivote se realiza así:\n\n```python\nreturn quick_sort(left) + [pivot] + quick_sort(right)\n```\n"
+                "La combinación de las sublistas con el pivote se realiza así:\n\n\nreturn quick_sort(left) + [pivot] + quick_sort(right)\n\n"
             ]
         },
         {
@@ -13524,7 +13524,7 @@
                 "dame la parte del pivote en el quick sort en python"
             ],
             "responses": [
-                "El pivote se selecciona como el último elemento de la lista:\n\n```python\npivot = arr[-1]\n```\n"
+                "El pivote se selecciona como el último elemento de la lista:\n\n\npivot = arr[-1]\n\n"
             ]
         },
         {
@@ -13537,7 +13537,7 @@
                 "dame la parte de las sublistas en el quick sort en python"
             ],
             "responses": [
-                "Los elementos se separan en las sublistas izquierda y derecha en base al pivote:\n\n```python\nleft = [x for x in arr[:-1] if x < pivot]\nright = [x for x in arr[:-1] if x >= pivot]\n```\n"
+                "Los elementos se separan en las sublistas izquierda y derecha en base al pivote:\n\n\nleft = [x for x in arr[:-1] if x < pivot]\nright = [x for x in arr[:-1] if x >= pivot]\n\n"
             ]
         },
         {
@@ -13550,7 +13550,7 @@
                 "dame la parte de la recursion en el quick sort en py"
             ],
             "responses": [
-                "La recursion se aplica al ordenar los subarreglos izquierdo y derecho:\n\n```python\nreturn quick_sort(left) + [pivot] + quick_sort(right)\n```\n"
+                "La recursion se aplica al ordenar los subarreglos izquierdo y derecho:\n\n\nreturn quick_sort(left) + [pivot] + quick_sort(right)\n\n"
             ]
         },
         {
@@ -13563,7 +13563,7 @@
                 "como implemento el merge sort en python"
             ],
             "responses": [
-                "El Merge Sort es un algoritmo de ordenamiento que utiliza el enfoque de dividir y conquistar. Divide el arreglo en partes mas pequenas, las ordena y luego las combina. Aqui tienes el codigo completo en Python:\n\n```python\ndef merge_sort(arr):\n    if len(arr) <= 1:\n        return arr\n    mid = len(arr) // 2\n    left = arr[:mid]\n    right = arr[mid:]\n    return merge(merge_sort(left), merge_sort(right))\n\ndef merge(left, right):\n    result = []\n    while left and right:\n        if left[0] < right[0]:\n            result.append(left.pop(0))\n        else:\n            result.append(right.pop(0))\n    return result + left + right\n\n# Ejemplo de uso\nnumeros = [38, 27, 43, 3, 9, 82, 10]\nprint(merge_sort(numeros))\n# Salida: [3, 9, 10, 27, 38, 43, 82]\n```\n"
+                "El Merge Sort es un algoritmo de ordenamiento que utiliza el enfoque de dividir y conquistar. Divide el arreglo en partes mas pequenas, las ordena y luego las combina. Aqui tienes el codigo completo en Python:\n\n\ndef merge_sort(arr):\n    if len(arr) <= 1:\n        return arr\n    mid = len(arr) // 2\n    left = arr[:mid]\n    right = arr[mid:]\n    return merge(merge_sort(left), merge_sort(right))\n\ndef merge(left, right):\n    result = []\n    while left and right:\n        if left[0] < right[0]:\n            result.append(left.pop(0))\n        else:\n            result.append(right.pop(0))\n    return result + left + right\n\n# Ejemplo de uso\nnumeros = [38, 27, 43, 3, 9, 82, 10]\nprint(merge_sort(numeros))\n# Salida: [3, 9, 10, 27, 38, 43, 82]\n\n"
             ]
         },
         {
@@ -13576,7 +13576,7 @@
                 "dame la parte donde se define la funcion en el merge sort en py"
             ],
             "responses": [
-                "La funcion principal del Merge Sort se define asi:\n\n```python\ndef merge_sort(arr):\n    # Aqui va el cuerpo del algoritmo\n```\n"
+                "La funcion principal del Merge Sort se define asi:\n\n\ndef merge_sort(arr):\n    # Aqui va el cuerpo del algoritmo\n\n"
             ]
         },
         {
@@ -13589,7 +13589,7 @@
                 "dame la parte donde se establece la condicion base en el merge sort en py"
             ],
             "responses": [
-                "La condicion base del Merge Sort verifica si el arreglo tiene uno o ningun elemento, para detener la recursion:\n\n```python\nif len(arr) <= 1:\n    return arr\n```\n"
+                "La condicion base del Merge Sort verifica si el arreglo tiene uno o ningun elemento, para detener la recursion:\n\n\nif len(arr) <= 1:\n    return arr\n\n"
             ]
         },
         {
@@ -13602,7 +13602,7 @@
                 "dame la parte de la division en el merge sort en py"
             ],
             "responses": [
-                "El arreglo se divide en mitades utilizando el indice medio:\n\n```python\nmid = len(arr) // 2\nleft = arr[:mid]\nright = arr[mid:]\n```\n"
+                "El arreglo se divide en mitades utilizando el indice medio:\n\n\nmid = len(arr) // 2\nleft = arr[:mid]\nright = arr[mid:]\n\n"
             ]
         },
         {
@@ -13615,7 +13615,7 @@
                 "dame la parte de la recursion en el merge sort en python"
             ],
             "responses": [
-                "La recursion se aplica al ordenar las mitades izquierda y derecha:\n\n```python\nreturn merge(merge_sort(left), merge_sort(right))\n```\n"
+                "La recursion se aplica al ordenar las mitades izquierda y derecha:\n\n\nreturn merge(merge_sort(left), merge_sort(right))\n\n"
             ]
         },
         {
@@ -13628,7 +13628,7 @@
                 "dame la parte donde se define la funcion merge en el merge sort en python"
             ],
             "responses": [
-                "La funcion merge combina dos subarreglos ordenados en uno solo:\n\n```python\ndef merge(left, right):\n    # Aqui va el cuerpo de la funcion merge\n```\n"
+                "La funcion merge combina dos subarreglos ordenados en uno solo:\n\n\ndef merge(left, right):\n    # Aqui va el cuerpo de la funcion merge\n\n"
             ]
         },
         {
@@ -13641,7 +13641,7 @@
                 "dame la parte de la comparacion en el merge sort en python"
             ],
             "responses": [
-                "Los elementos se comparan para determinar cuál agregar al resultado:\n\n```python\nif left[0] < right[0]:\n    result.append(left.pop(0))\nelse:\n    result.append(right.pop(0))\n```"
+                "Los elementos se comparan para determinar cuál agregar al resultado:\n\n\nif left[0] < right[0]:\n    result.append(left.pop(0))\nelse:\n    result.append(right.pop(0))\n"
             ]
         },
         {
@@ -13654,7 +13654,7 @@
                 "dame la parte de la combinacion de restos en el merge sort en python"
             ],
             "responses": [
-                "Los elementos restantes de las mitades se combinan al resultado final:\n\n```python\nreturn result + left + right\n```"
+                "Los elementos restantes de las mitades se combinan al resultado final:\n\n\nreturn result + left + right\n"
             ]
         },
         {
@@ -13680,7 +13680,7 @@
                 "como implemento la serie de fibonacci en python"
             ],
             "responses": [
-                "El algoritmo de Fibonacci genera una secuencia donde cada número es la suma de los dos anteriores. Aquí tienes el código básico para calcular la serie de Fibonacci hasta un número n:\n\n```python\ndef fibonacci(n):\n    if n <= 1:\n        return n\n    return fibonacci(n - 1) + fibonacci(n - 2)\n\n# Ejemplo de uso\nprint(fibonacci(10)) # Salida: 55 (décimo número de Fibonacci)\n```"
+                "El algoritmo de Fibonacci genera una secuencia donde cada número es la suma de los dos anteriores. Aquí tienes el código básico para calcular la serie de Fibonacci hasta un número n:\n\n\ndef fibonacci(n):\n    if n <= 1:\n        return n\n    return fibonacci(n - 1) + fibonacci(n - 2)\n\n# Ejemplo de uso\nprint(fibonacci(10)) # Salida: 55 (décimo número de Fibonacci)\n"
             ]
         },
         {
@@ -13693,7 +13693,7 @@
                 "dame la parte donde se define la funcion fibonacci en python"
             ],
             "responses": [
-                "La función de Fibonacci se define así:\n\n```python\ndef fibonacci(n):\n    # Aquí va el cuerpo del algoritmo\n```"
+                "La función de Fibonacci se define así:\n\n\ndef fibonacci(n):\n    # Aquí va el cuerpo del algoritmo\n"
             ]
         },
         {
@@ -13706,7 +13706,7 @@
                 "dame la parte de la condicion base en fibonacci en python"
             ],
             "responses": [
-                "La condición base del algoritmo de Fibonacci es:\n\n```python\nif n <= 1:\n    return n\n```\nEsto asegura que el cálculo termine cuando n sea 0 o 1."
+                "La condición base del algoritmo de Fibonacci es:\n\n\nif n <= 1:\n    return n\n\nEsto asegura que el cálculo termine cuando n sea 0 o 1."
             ]
         },
         {
@@ -13719,7 +13719,7 @@
                 "dame la parte de la recursion en fibonacci en python"
             ],
             "responses": [
-                "La recursión en Fibonacci se realiza llamando a la función con valores decrecientes:\n\n```python\nreturn fibonacci(n - 1) + fibonacci(n - 2)\n```\nEsto calcula la suma de los dos números anteriores en la serie."
+                "La recursión en Fibonacci se realiza llamando a la función con valores decrecientes:\n\n\nreturn fibonacci(n - 1) + fibonacci(n - 2)\n\nEsto calcula la suma de los dos números anteriores en la serie."
             ]
         },
         {
@@ -13732,7 +13732,7 @@
                 "dame una implementacion iterativa de fibonacci en python"
             ],
             "responses": [
-                "Aquí tienes una versión iterativa del algoritmo de Fibonacci, que es más eficiente en términos de memoria y rendimiento:\n\n```python\ndef fibonacci_iterativo(n):\n    if n <= 1:\n        return n\n    a, b = 0, 1\n    for i in range(2, n + 1):\n        a, b = b, a + b\n    return b\n\n# Ejemplo de uso\nprint(fibonacci_iterativo(10)) # Salida: 55\n```"
+                "Aquí tienes una versión iterativa del algoritmo de Fibonacci, que es más eficiente en términos de memoria y rendimiento:\n\n\ndef fibonacci_iterativo(n):\n    if n <= 1:\n        return n\n    a, b = 0, 1\n    for i in range(2, n + 1):\n        a, b = b, a + b\n    return b\n\n# Ejemplo de uso\nprint(fibonacci_iterativo(10)) # Salida: 55\n"
             ]
         },
         {
@@ -13745,7 +13745,7 @@
                 "dame un algoritmo optimizado de fibonacci con almacenamiento en python"
             ],
             "responses": [
-                "El almacenamiento (memoization) se utiliza para guardar cálculos previos y mejorar la eficiencia del algoritmo. Aquí tienes una implementación optimizada de Fibonacci con memoization:\n\n```python\ndef fibonacci_memoization(n, memo = {}):\n    if n in memo:\n        return memo[n]\n    if n <= 1:\n        return n\n    memo[n] = fibonacci_memoization(n - 1, memo) + fibonacci_memoization(n - 2, memo)\n    return memo[n]\n\n# Ejemplo de uso\nprint(fibonacci_memoization(10)) # Salida: 55\n```"
+                "El almacenamiento (memoization) se utiliza para guardar cálculos previos y mejorar la eficiencia del algoritmo. Aquí tienes una implementación optimizada de Fibonacci con memoization:\n\n\ndef fibonacci_memoization(n, memo = {}):\n    if n in memo:\n        return memo[n]\n    if n <= 1:\n        return n\n    memo[n] = fibonacci_memoization(n - 1, memo) + fibonacci_memoization(n - 2, memo)\n    return memo[n]\n\n# Ejemplo de uso\nprint(fibonacci_memoization(10)) # Salida: 55\n"
             ]
         },
         {
@@ -13784,7 +13784,7 @@
                 "como implemento la busqueda en profundidad en python"
             ],
             "responses": [
-                "La búsqueda en profundidad (DFS) es un algoritmo que explora tanto como sea posible por un camino antes de retroceder. Aquí tienes una implementación básica en Python:\n\n```python\ndef dfs(graph, start, visited=None):\n    if visited is None:\n        visited = set()\n    print(start)\n    visited.add(start)\n\n    for neighbor in graph[start]:\n        if neighbor not in visited:\n            dfs(graph, neighbor, visited)\n\n# Ejemplo de uso\ngraph = {\n    'A': ['B', 'C'],\n    'B': ['D', 'E'],\n    'C': ['F'],\n    'D': [],\n    'E': ['F'],\n    'F': []\n}\ndfs(graph, 'A')\n```\nEste código imprimirá los nodos visitados en el orden DFS."
+                "La búsqueda en profundidad (DFS) es un algoritmo que explora tanto como sea posible por un camino antes de retroceder. Aquí tienes una implementación básica en Python:\n\n\ndef dfs(graph, start, visited=None):\n    if visited is None:\n        visited = set()\n    print(start)\n    visited.add(start)\n\n    for neighbor in graph[start]:\n        if neighbor not in visited:\n            dfs(graph, neighbor, visited)\n\n# Ejemplo de uso\ngraph = {\n    'A': ['B', 'C'],\n    'B': ['D', 'E'],\n    'C': ['F'],\n    'D': [],\n    'E': ['F'],\n    'F': []\n}\ndfs(graph, 'A')\n\nEste código imprimirá los nodos visitados en el orden DFS."
             ]
         },
         {
@@ -13797,7 +13797,7 @@
                 "dame la parte donde se define la funcion de busqueda en profundidad en python"
             ],
             "responses": [
-                "La función principal de DFS en Python se define así:\n\n```python\ndef dfs(graph, start, visited=None):\n    # Cuerpo del algoritmo aquí\n```\n"
+                "La función principal de DFS en Python se define así:\n\n\ndef dfs(graph, start, visited=None):\n    # Cuerpo del algoritmo aquí\n\n"
             ]
         },
         {
@@ -13810,7 +13810,7 @@
                 "dame la parte donde se registra un nodo como visitado en dfs en python"
             ],
             "responses": [
-                "Un nodo se marca como visitado agregándolo a un conjunto:\n\n```python\nvisited.add(start)\n```\nEsto evita visitar el mismo nodo más de una vez."
+                "Un nodo se marca como visitado agregándolo a un conjunto:\n\n\nvisited.add(start)\n\nEsto evita visitar el mismo nodo más de una vez."
             ]
         },
         {
@@ -13823,7 +13823,7 @@
                 "dame la parte donde se recorren los vecinos en dfs en python"
             ],
             "responses": [
-                "El recorrido de vecinos se realiza con un bucle for:\n\n```python\nfor neighbor in graph[start]:\n    if neighbor not in visited:\n        dfs(graph, neighbor, visited)\n```\nEsto garantiza que todos los nodos adyacentes sean explorados."
+                "El recorrido de vecinos se realiza con un bucle for:\n\n\nfor neighbor in graph[start]:\n    if neighbor not in visited:\n        dfs(graph, neighbor, visited)\n\nEsto garantiza que todos los nodos adyacentes sean explorados."
             ]
         },
         {
@@ -13836,7 +13836,7 @@
                 "dame un ejemplo de grafo para dfs en python"
             ],
             "responses": [
-                "Un grafo para DFS se representa típicamente como un diccionario donde las claves son nodos y los valores son listas de nodos adyacentes. Ejemplo:\n\n```python\ngraph = {\n    'A': ['B', 'C'],\n    'B': ['D', 'E'],\n    'C': ['F'],\n    'D': [],\n    'E': ['F'],\n    'F': []\n}\n```\nEsto permite representar la conectividad entre los nodos."
+                "Un grafo para DFS se representa típicamente como un diccionario donde las claves son nodos y los valores son listas de nodos adyacentes. Ejemplo:\n\n\ngraph = {\n    'A': ['B', 'C'],\n    'B': ['D', 'E'],\n    'C': ['F'],\n    'D': [],\n    'E': ['F'],\n    'F': []\n}\n\nEsto permite representar la conectividad entre los nodos."
             ]
         },
         {
@@ -13849,7 +13849,7 @@
                 "dame una implementacion iterativa de dfs en python"
             ],
             "responses": [
-                "Aquí tienes una implementación iterativa del DFS utilizando una pila:\n\n```python\ndef dfs_iterativo(graph, start):\n    stack = [start]\n    visited = set()\n\n    while stack:\n        node = stack.pop()\n\n        if node not in visited:\n            print(node)\n            visited.add(node)\n            for neighbor in graph[node]:\n                stack.append(neighbor)\n\n# Ejemplo de uso\ndfs_iterativo(graph, 'A')\n```\nEsto utiliza una pila en lugar de la recursión para controlar el flujo del algoritmo."
+                "Aquí tienes una implementación iterativa del DFS utilizando una pila:\n\n\ndef dfs_iterativo(graph, start):\n    stack = [start]\n    visited = set()\n\n    while stack:\n        node = stack.pop()\n\n        if node not in visited:\n            print(node)\n            visited.add(node)\n            for neighbor in graph[node]:\n                stack.append(neighbor)\n\n# Ejemplo de uso\ndfs_iterativo(graph, 'A')\n\nEsto utiliza una pila en lugar de la recursión para controlar el flujo del algoritmo."
             ]
         },
         {
@@ -13875,7 +13875,7 @@
                 "dame la parte donde se inicializa la pila en dfs iterativo en python"
             ],
             "responses": [
-                "En la implementación iterativa de DFS, la pila se inicializa con el nodo inicial:\n\n```python\nstack = [start]\n```\nEsto establece el punto de partida para explorar el grafo."
+                "En la implementación iterativa de DFS, la pila se inicializa con el nodo inicial:\n\n\nstack = [start]\n\nEsto establece el punto de partida para explorar el grafo."
             ]
         },
         {
@@ -13888,7 +13888,7 @@
                 "dame la parte donde se verifica si un nodo ya fue visitado en dfs en python"
             ],
             "responses": [
-                "Para garantizar que un nodo no sea visitado dos veces, se utiliza la función `not in` del conjunto de nodos visitados:\n\n```python\nif node not in visited:\n    # Procesar el nodo\n```\nEsto asegura que cada nodo se procese una sola vez."
+                "Para garantizar que un nodo no sea visitado dos veces, se utiliza la función `not in` del conjunto de nodos visitados:\n\n\nif node not in visited:\n    # Procesar el nodo\n\nEsto asegura que cada nodo se procese una sola vez."
             ]
         },
         {
@@ -13901,7 +13901,7 @@
                 "dame la parte donde se añaden los nodos vecinos a la pila en dfs en python"
             ],
             "responses": [
-                "En la versión iterativa de DFS, los vecinos del nodo actual se agregan a la pila con el bucle:\n\n```python\nfor neighbor in graph[node]:\n    stack.append(neighbor)\n```\nEsto asegura que los nodos conectados sean explorados en futuras iteraciones."
+                "En la versión iterativa de DFS, los vecinos del nodo actual se agregan a la pila con el bucle:\n\n\nfor neighbor in graph[node]:\n    stack.append(neighbor)\n\nEsto asegura que los nodos conectados sean explorados en futuras iteraciones."
             ]
         },
         {
@@ -13914,7 +13914,7 @@
                 "dame la parte donde se imprimen los nodos en dfs en python"
             ],
             "responses": [
-                "Los nodos visitados se imprimen utilizando la función `print` justo después de ser marcados como visitados:\n\n```python\nprint(node)\n```\nEsto registra cada nodo visitado en el orden de exploración."
+                "Los nodos visitados se imprimen utilizando la función `print` justo después de ser marcados como visitados:\n\n\nprint(node)\n\nEsto registra cada nodo visitado en el orden de exploración."
             ]
         },
         {
@@ -13927,7 +13927,7 @@
                 "dame la parte donde se explica el uso del set para nodos visitados en dfs en python"
             ],
             "responses": [
-                "El `set` se utiliza para almacenar los nodos visitados porque permite comprobar si un nodo ya fue visitado de manera eficiente:\n\n```python\nvisited.add(node)\nif neighbor not in visited:\n    # Procesar el vecino\n```\nEsta estructura tiene operaciones de inserción y verificación en tiempo constante."
+                "El `set` se utiliza para almacenar los nodos visitados porque permite comprobar si un nodo ya fue visitado de manera eficiente:\n\n\nvisited.add(node)\nif neighbor not in visited:\n    # Procesar el vecino\n\nEsta estructura tiene operaciones de inserción y verificación en tiempo constante."
             ]
         },
         {
@@ -13940,7 +13940,7 @@
                 "como implemento el heap sort en python"
             ],
             "responses": [
-                "El algoritmo de Heap Sort es un algoritmo de ordenamiento que utiliza la estructura de datos de un heap (montículo). Primero construye un heap máximo a partir del arreglo, luego intercambia el primer elemento (el máximo) con el último, reduce el tamaño del heap y aplica heapify nuevamente. Aquí tienes el código completo en Python:\n\n```python\ndef heap_sort(arr):\n    n = len(arr)\n\n    # Construir un heap máximo\n    for i in range(n // 2 - 1, -1, -1):\n        heapify(arr, n, i)\n\n    # Extraer elementos del heap uno por uno\n    for i in range(n - 1, 0, -1):\n        arr[0], arr[i] = arr[i], arr[0]\n        heapify(arr, i, 0)\n\n    return arr\n\ndef heapify(arr, n, i):\n    largest = i\n    left = 2 * i + 1\n    right = 2 * i + 2\n\n    if left < n and arr[left] > arr[largest]:\n        largest = left\n\n    if right < n and arr[right] > arr[largest]:\n        largest = right\n\n    if largest != i:\n        arr[i], arr[largest] = arr[largest], arr[i]\n        heapify(arr, n, largest)\n\n# Ejemplo de uso\nnumeros = [12, 11, 13, 5, 6, 7]\nprint(heap_sort(numeros))\n# Salida: [5, 6, 7, 11, 12, 13]\n```\nEste algoritmo es eficiente para grandes volúmenes de datos."
+                "El algoritmo de Heap Sort es un algoritmo de ordenamiento que utiliza la estructura de datos de un heap (montículo). Primero construye un heap máximo a partir del arreglo, luego intercambia el primer elemento (el máximo) con el último, reduce el tamaño del heap y aplica heapify nuevamente. Aquí tienes el código completo en Python:\n\n\ndef heap_sort(arr):\n    n = len(arr)\n\n    # Construir un heap máximo\n    for i in range(n // 2 - 1, -1, -1):\n        heapify(arr, n, i)\n\n    # Extraer elementos del heap uno por uno\n    for i in range(n - 1, 0, -1):\n        arr[0], arr[i] = arr[i], arr[0]\n        heapify(arr, i, 0)\n\n    return arr\n\ndef heapify(arr, n, i):\n    largest = i\n    left = 2 * i + 1\n    right = 2 * i + 2\n\n    if left < n and arr[left] > arr[largest]:\n        largest = left\n\n    if right < n and arr[right] > arr[largest]:\n        largest = right\n\n    if largest != i:\n        arr[i], arr[largest] = arr[largest], arr[i]\n        heapify(arr, n, largest)\n\n# Ejemplo de uso\nnumeros = [12, 11, 13, 5, 6, 7]\nprint(heap_sort(numeros))\n# Salida: [5, 6, 7, 11, 12, 13]\n\nEste algoritmo es eficiente para grandes volúmenes de datos."
             ]
         },
         {
@@ -13953,7 +13953,7 @@
                 "dame la parte donde se construye el heap maximo en heap sort en python"
             ],
             "responses": [
-                "El heap máximo se construye aplicando la función `heapify` desde la mitad del arreglo hacia atrás:\n\n```python\nfor i in range(len(arr) // 2 - 1, -1, -1):\n    heapify(arr, len(arr), i)\n```\nEsto asegura que los subárboles sean heaps válidos."
+                "El heap máximo se construye aplicando la función `heapify` desde la mitad del arreglo hacia atrás:\n\n\nfor i in range(len(arr) // 2 - 1, -1, -1):\n    heapify(arr, len(arr), i)\n\nEsto asegura que los subárboles sean heaps válidos."
             ]
         },
         {
@@ -13966,7 +13966,7 @@
                 "dame la parte del intercambio en heap sort en python"
             ],
             "responses": [
-                "En Heap Sort, el máximo (primer elemento) se intercambia con el último:\n\n```python\narr[0], arr[i] = arr[i], arr[0]\n```\nEsto mueve el elemento más grande al final del arreglo ordenado."
+                "En Heap Sort, el máximo (primer elemento) se intercambia con el último:\n\n\narr[0], arr[i] = arr[i], arr[0]\n\nEsto mueve el elemento más grande al final del arreglo ordenado."
             ]
         },
         {
@@ -13992,7 +13992,7 @@
                 "dame el fragmento donde se define la funcion principal de heap sort en python"
             ],
             "responses": [
-                "La definición de la función principal de Heap Sort es la siguiente:\n\n```python\ndef heap_sort(arr):\n    # Aquí empieza el cuerpo del algoritmo\n```\nEste es el punto de entrada para ordenar el arreglo."
+                "La definición de la función principal de Heap Sort es la siguiente:\n\n\ndef heap_sort(arr):\n    # Aquí empieza el cuerpo del algoritmo\n\nEste es el punto de entrada para ordenar el arreglo."
             ]
         },
         {
@@ -14005,7 +14005,7 @@
                 "dame la parte donde se construye el heap maximo en heap sort en python"
             ],
             "responses": [
-                "La iteración para construir el Heap máximo en el algoritmo Heap Sort es la siguiente:\n\n```python\nfor i in range(len(arr) // 2 - 1, -1, -1):\n    heapify(arr, len(arr), i)\n```\nEste bucle recorre la mitad del arreglo hacia atrás, aplicando la función `heapify`."
+                "La iteración para construir el Heap máximo en el algoritmo Heap Sort es la siguiente:\n\n\nfor i in range(len(arr) // 2 - 1, -1, -1):\n    heapify(arr, len(arr), i)\n\nEste bucle recorre la mitad del arreglo hacia atrás, aplicando la función `heapify`."
             ]
         },
         {
@@ -14018,7 +14018,7 @@
                 "como se intercambian los elementos en heap sort en python"
             ],
             "responses": [
-                "El intercambio de elementos en Heap Sort se realiza de la siguiente manera:\n\n```python\narr[0], arr[i] = arr[i], arr[0]\n```\nEste intercambio mueve el elemento más grande al final del arreglo ordenado."
+                "El intercambio de elementos en Heap Sort se realiza de la siguiente manera:\n\n\narr[0], arr[i] = arr[i], arr[0]\n\nEste intercambio mueve el elemento más grande al final del arreglo ordenado."
             ]
         },
         {
@@ -14031,7 +14031,7 @@
                 "como se usa el algoritmo heap sort en python"
             ],
             "responses": [
-                "Aquí tienes un ejemplo de uso del Heap Sort en Python:\n\n```python\nnumeros = [12, 11, 13, 5, 6, 7]\nprint(heap_sort(numeros))\n# Salida: [5, 6, 7, 11, 12, 13]\n```\nEste ejemplo demuestra cómo ordenar un arreglo de números utilizando el algoritmo Heap Sort."
+                "Aquí tienes un ejemplo de uso del Heap Sort en Python:\n\n\nnumeros = [12, 11, 13, 5, 6, 7]\nprint(heap_sort(numeros))\n# Salida: [5, 6, 7, 11, 12, 13]\n\nEste ejemplo demuestra cómo ordenar un arreglo de números utilizando el algoritmo Heap Sort."
             ]
         },
         {
@@ -14044,7 +14044,7 @@
                 "dame la parte donde se obtiene el tamaño del arreglo en heap sort en python"
             ],
             "responses": [
-                "El tamaño del arreglo se obtiene así:\n\n```python\nn = len(arr)\n```\nEsto guarda la longitud del arreglo en la variable `n`, que se utiliza en el algoritmo Heap Sort."
+                "El tamaño del arreglo se obtiene así:\n\n\nn = len(arr)\n\nEsto guarda la longitud del arreglo en la variable `n`, que se utiliza en el algoritmo Heap Sort."
             ]
         }
     ]
