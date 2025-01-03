@@ -319,28 +319,28 @@
         {
             "tag": "ejemplos_de_declaracion_de_variables_en_javascript",
             "patterns": [
-                "Dame ejemplos de cómo declarar variables en JavaScript.",
-                "¿Cómo se declaran variables en JavaScript?",
-                "Enséñame ejemplos de declaración de variables en JavaScript.",
+                "Dame ejemplos de cómo declarar variables en javascript.",
+                "¿Cómo se declaran variables en javascript?",
+                "Enséñame ejemplos de declaración de variables en javascript.",
                 "Quiero ver cómo se declaran variables con var, let y const.",
-                "¿Puedes darme un ejemplo de una variable en JavaScript?"
+                "¿Puedes darme un ejemplo de una variable en javascript?"
             ],
             "responses": [
                 "Aquí tienes un ejemplo básico:\n\tvar nombre = 'Juan';\n\tlet edad = 25;\n\tconst PI = 3.14;",
                 "Puedes declarar variables así:\n\tlet ciudad = 'Madrid';\n\tconst pais = 'España';",
                 "Con var puedes hacer esto:\n\tvar mensaje = 'Hola, mundo';\nSin embargo, se recomienda usar let o const.",
-                "Ejemplo con let y const:\n\tlet numero = 42;\n\tconst texto = 'JavaScript es genial';",
+                "Ejemplo con let y const:\n\tlet numero = 42;\n\tconst texto = 'javascript es genial';",
                 "Para declarar una variable que cambia:\n\tlet contador = 0;\nY para valores constantes:\n\tconst maximo = 100;"
             ]
         },
         {
             "tag": "ejemplos_de_declaracion_de_constantes_en_javascript",
             "patterns": [
-                "Dame ejemplos de cómo declarar constantes en JavaScript.",
-                "¿Cómo se declaran constantes en JavaScript?",
-                "Enséñame ejemplos de declaración de constantes en JavaScript.",
-                "Quiero ver cómo se usan las constantes en JavaScript.",
-                "¿Puedes darme ejemplos de constantes en JavaScript?"
+                "Dame ejemplos de cómo declarar constantes en javascript.",
+                "¿Cómo se declaran constantes en javascript?",
+                "Enséñame ejemplos de declaración de constantes en javascript.",
+                "Quiero ver cómo se usan las constantes en javascript.",
+                "¿Puedes darme ejemplos de constantes en javascript?"
             ],
             "responses": [
                 "Para declarar una constante:\n\tconst PI = 3.14;",
@@ -353,28 +353,28 @@
         {
             "tag": "ejemplos_de_ciclo_for_en_javascript",
             "patterns": [
-                "Dame ejemplos de un ciclo for en JavaScript.",
-                "¿Cómo se usa un ciclo for en JavaScript?",
-                "Enséñame ejemplos de bucles for en JavaScript.",
-                "Quiero ver un ejemplo práctico de un for en JavaScript.",
-                "¿Puedes mostrarme cómo se usa un for en JavaScript?"
+                "Dame ejemplos de un ciclo for en javascript.",
+                "¿Cómo se usa un ciclo for en javascript?",
+                "Enséñame ejemplos de bucles for en javascript.",
+                "Quiero ver un ejemplo práctico de un for en javascript.",
+                "¿Puedes mostrarme cómo se usa un for en javascript?"
             ],
             "responses": [
                 "Un ejemplo básico:\n\tfor (let i = 0; i < 5; i++) {\n\t\tconsole.log(i);\n\t}",
                 "Para recorrer un array:\n\tlet numeros = [1, 2, 3];\n\tfor (let i = 0; i < numeros.length; i++) {\n\t\tconsole.log(numeros[i]);\n\t}",
                 "Usando for con objetos:\n\tfor (let key in objeto) {\n\t\tconsole.log(objeto[key]);\n\t}",
-                "Recorriendo caracteres de una cadena:\n\tfor (let letra of 'JavaScript') {\n\t\tconsole.log(letra);\n\t}",
+                "Recorriendo caracteres de una cadena:\n\tfor (let letra of 'javascript') {\n\t\tconsole.log(letra);\n\t}",
                 "Un ciclo regresivo:\n\tfor (let i = 10; i > 0; i--) {\n\t\tconsole.log('Cuenta regresiva: ' + i);\n\t}"
             ]
         },
         {
             "tag": "ejemplos_de_ciclo_while_en_javascript",
             "patterns": [
-                "Dame ejemplos de un ciclo while en JavaScript.",
-                "¿Cómo se usa un ciclo while en JavaScript?",
-                "Enséñame ejemplos de bucles while en JavaScript.",
-                "Quiero ver un ejemplo práctico de un while en JavaScript.",
-                "¿Puedes mostrarme cómo se usa un while en JavaScript?"
+                "Dame ejemplos de un ciclo while en javascript.",
+                "¿Cómo se usa un ciclo while en javascript?",
+                "Enséñame ejemplos de bucles while en javascript.",
+                "Quiero ver un ejemplo práctico de un while en javascript.",
+                "¿Puedes mostrarme cómo se usa un while en javascript?"
             ],
             "responses": [
                 "Un ejemplo básico:\n\tlet i = 0;\n\twhile (i < 5) {\n\t\tconsole.log(i);\n\t\ti++;\n\t}",
@@ -387,11 +387,11 @@
         {
             "tag": "ejemplos_de_ciclo_do_while_en_javascript",
             "patterns": [
-                "Dame ejemplos de un ciclo do while en JavaScript.",
-                "¿Cómo se usa un ciclo do while en JavaScript?",
-                "Enséñame ejemplos de bucles do while en JavaScript.",
-                "Quiero ver un ejemplo práctico de un do while en JavaScript.",
-                "¿Puedes mostrarme cómo se usa un do while en JavaScript?"
+                "Dame ejemplos de un ciclo do while en javascript.",
+                "¿Cómo se usa un ciclo do while en javascript?",
+                "Enséñame ejemplos de bucles do while en javascript.",
+                "Quiero ver un ejemplo práctico de un do while en javascript.",
+                "¿Puedes mostrarme cómo se usa un do while en javascript?"
             ],
             "responses": [
                 "Un ejemplo básico:\n\tlet i = 0;\n\tdo {\n\t\tconsole.log(i);\n\t\ti++;\n\t} while (i < 5);",
@@ -404,11 +404,11 @@
         {
             "tag": "ejemplos_de_declaracion_de_metodos_en_javascript",
             "patterns": [
-                "Dame ejemplos de cómo declarar métodos en JavaScript.",
-                "¿Cómo se crean métodos en JavaScript?",
-                "Enséñame ejemplos de métodos en JavaScript.",
+                "Dame ejemplos de cómo declarar métodos en javascript.",
+                "¿Cómo se crean métodos en javascript?",
+                "Enséñame ejemplos de métodos en javascript.",
                 "Quiero ver cómo se declaran métodos en objetos.",
-                "¿Puedes mostrarme ejemplos de métodos en JavaScript?"
+                "¿Puedes mostrarme ejemplos de métodos en javascript?"
             ],
             "responses": [
                 "Un método dentro de un objeto:\n\tconst persona = {\n\t\tsaludar: function() {\n\t\t\tconsole.log('Hola');\n\t\t}\n\t};",
@@ -421,11 +421,11 @@
         {
             "tag": "ejemplos_de_declaracion_de_funciones_en_javascript",
             "patterns": [
-                "Dame ejemplos de cómo declarar funciones en JavaScript.",
-                "¿Cómo se crean funciones en JavaScript?",
-                "Enséñame ejemplos de funciones en JavaScript.",
-                "Quiero ver cómo se declaran funciones en JavaScript.",
-                "¿Puedes mostrarme ejemplos de funciones en JavaScript?"
+                "Dame ejemplos de cómo declarar funciones en javascript.",
+                "¿Cómo se crean funciones en javascript?",
+                "Enséñame ejemplos de funciones en javascript.",
+                "Quiero ver cómo se declaran funciones en javascript.",
+                "¿Puedes mostrarme ejemplos de funciones en javascript?"
             ],
             "responses": [
                 "Función clásica:\n\tfunction saludar() {\n\t\tconsole.log('Hola, mundo');\n\t}",
@@ -3550,6 +3550,82 @@
             ]
         },
         {
+            "tag": "ejemplos_algoritmos",
+            "patterns": [
+                "dime ejemplos de algoritmos",
+                "di ejemplos de algoritmos",
+                "que algoritmos conoces",
+                "que algoritmos me puedes decir",
+                "que algoritmos sabes",
+                "que algoritmos puedo aprender",
+                "que algoritmos puedo estudiar",
+                "que algoritmos puedo practicar",
+                "que algoritmos puedo conocer",
+                "que algoritmos puedo investigar",
+                "que algoritmos puedo revisar",
+                "algoritmos en js",
+                "algoritmos en python",
+                "algoritmos en javascript",
+                "lista de algoritmos en js",
+                "lista de algoritmos en python",
+                "lista de algoritmos en javascript",
+                "algoritmos de busqueda",
+                "algoritmos de ordenamiento",
+                "algoritmos de busqueda y ordenamiento",
+                "algoritmos de busqueda y ordenamiento en js",
+                "algoritmos de busqueda y ordenamiento en python",
+                "algoritmos de busqueda y ordenamiento en javascript",
+                "algoritmos de busqueda y ordenamiento mas comunes",
+                "algoritmos de busqueda y ordenamiento mas populares",
+                "algoritmos de busqueda y ordenamiento mas usados",
+                "algoritmos de busqueda y ordenamiento mas conocidos",
+                "algoritmos de busqueda y ordenamiento mas recomendados"
+            ],
+            "responses": [
+                "se estos: \n-busqueda secuencial \n-⁠búsqueda binaria \n-⁠ordenamiento burbuja \n-⁠quick sort /n-⁠merge sort \n-⁠Fibonacci \n-⁠búsqueda en profundidad \n-⁠heap sort",
+                "puedo ayudar con: \n-busqueda secuencial \n-⁠búsqueda binaria \n-⁠ordenamiento burbuja \n-⁠quick sort /n-⁠merge sort \n-⁠Fibonacci \n-⁠búsqueda en profundidad \n-⁠heap sort",
+                "conozco estos: \n-busqueda secuencial \n-⁠búsqueda binaria \n-⁠ordenamiento burbuja \n-⁠quick sort /n-⁠merge sort \n-⁠Fibonacci \n-⁠búsqueda en profundidad \n-⁠heap sort"
+            ]
+        },
+        {
+            "tag": "algorithm_examples",
+            "patterns": [
+                "tell me examples of algorithms",
+                "give examples of algorithms",
+                "what algorithms do you know",
+                "what algorithms can you tell me",
+                "what algorithms do you know",
+                "what algorithms can I learn",
+                "what algorithms can I study",
+                "what algorithms can I practice",
+                "what algorithms can I know",
+                "what algorithms can I investigate",
+                "what algorithms can I review",
+                "algorithms in js",
+                "algorithms in python",
+                "algorithms in javascript",
+                "list of algorithms in js",
+                "list of algorithms in python",
+                "list of algorithms in javascript",
+                "search algorithms",
+                "sorting algorithms",
+                "search and sorting algorithms",
+                "search and sorting algorithms in js",
+                "search and sorting algorithms in python",
+                "search and sorting algorithms in javascript",
+                "most common search and sorting algorithms",
+                "most popular search and sorting algorithms",
+                "most used search and sorting algorithms",
+                "most known search and sorting algorithms",
+                "most recommended search and sorting algorithms"
+            ],
+            "responses": [
+                "I know these: \n- Sequential search \n- Binary search \n- Bubble sort \n- Quick sort \n- Merge sort \n- Fibonacci \n- Depth-first search \n- Heap sort",
+                "I can help with: \n- Sequential search \n- Binary search \n- Bubble sort \n- Quick sort \n- Merge sort \n- Fibonacci \n- Depth-first search \n- Heap sort",
+                "I know these: \n- Sequential search \n- Binary search \n- Bubble sort \n- Quick sort \n- Merge sort \n- Fibonacci \n- Depth-first search \n- Heap sort"
+            ]
+        },        
+        {
             "tag": "frameworks_backend",
             "patterns": [
                 "que frameworks se usan en backend",
@@ -4151,7 +4227,7 @@
             "responses": [
                 "un array es una estructura de datos que almacena una colección de elementos del mismo tipo",
                 "los elementos de un array se almacenan en posiciones contiguas de memoria y se accede a ellos mediante un índice",
-                "en muchos lenguajes de programación, como JavaScript o Python, los arrays pueden ser dinámicos o de tamaño fijo"
+                "en muchos lenguajes de programación, como javascript o Python, los arrays pueden ser dinámicos o de tamaño fijo"
             ]
         },
         {
@@ -4194,7 +4270,7 @@
             "responses": [
                 "un diccionario es una estructura de datos que almacena pares de clave-valor",
                 "cada elemento en un diccionario está compuesto por una clave única y un valor asociado a esa clave",
-                "los diccionarios son útiles cuando necesitas buscar un valor rápidamente a partir de una clave, como en Python o JavaScript"
+                "los diccionarios son útiles cuando necesitas buscar un valor rápidamente a partir de una clave, como en Python o javascript"
             ]
         },
         {
@@ -4289,7 +4365,7 @@
             "responses": [
                 "un valor nulo es un valor especial que representa la ausencia de un valor válido o definido en una variable",
                 "el valor nulo puede ser utilizado para indicar que una variable aún no ha sido inicializada o que no tiene un valor asignado",
-                "en algunos lenguajes, como JavaScript, se utiliza 'null' para denotar un valor nulo, mientras que en otros, como Python, se utiliza 'None'"
+                "en algunos lenguajes, como javascript, se utiliza 'null' para denotar un valor nulo, mientras que en otros, como Python, se utiliza 'None'"
             ]
         },
         {
@@ -4741,28 +4817,28 @@
         {
             "tag": "examples_of_variable_declaration_in_javascript",
             "patterns": [
-                "Give me examples of how to declare variables in JavaScript.",
-                "How are variables declared in JavaScript?",
-                "Show me examples of variable declaration in JavaScript.",
+                "Give me examples of how to declare variables in javascript.",
+                "How are variables declared in javascript?",
+                "Show me examples of variable declaration in javascript.",
                 "I want to see how to declare variables with var, let, and const.",
-                "Can you give me an example of a variable in JavaScript?"
+                "Can you give me an example of a variable in javascript?"
             ],
             "responses": [
                 "Here is a basic example:\n\tvar name = 'Juan';\n\tlet age = 25;\n\tconst PI = 3.14;",
                 "You can declare variables like this:\n\tlet city = 'Madrid';\n\tconst country = 'Spain';",
                 "With var you can do this:\n\tvar message = 'Hello, world';\nHowever, it is recommended to use let or const.",
-                "Example with let and const:\n\tlet number = 42;\n\tconst text = 'JavaScript is awesome';",
+                "Example with let and const:\n\tlet number = 42;\n\tconst text = 'javascript is awesome';",
                 "To declare a variable that changes:\n\tlet counter = 0;\nAnd for constant values:\n\tconst maximum = 100;"
             ]
         },
         {
             "tag": "examples_of_constant_declaration_in_javascript",
             "patterns": [
-                "Give me examples of how to declare constants in JavaScript.",
-                "How are constants declared in JavaScript?",
-                "Show me examples of constant declaration in JavaScript.",
-                "I want to see how constants are used in JavaScript.",
-                "Can you give me examples of constants in JavaScript?"
+                "Give me examples of how to declare constants in javascript.",
+                "How are constants declared in javascript?",
+                "Show me examples of constant declaration in javascript.",
+                "I want to see how constants are used in javascript.",
+                "Can you give me examples of constants in javascript?"
             ],
             "responses": [
                 "To declare a constant:\n\tconst PI = 3.14;",
@@ -4775,28 +4851,28 @@
         {
             "tag": "examples_of_for_loop_in_javascript",
             "patterns": [
-                "Give me examples of a for loop in JavaScript.",
-                "How is a for loop used in JavaScript?",
-                "Show me examples of for loops in JavaScript.",
-                "I want to see a practical example of a for loop in JavaScript.",
-                "Can you show me how to use a for loop in JavaScript?"
+                "Give me examples of a for loop in javascript.",
+                "How is a for loop used in javascript?",
+                "Show me examples of for loops in javascript.",
+                "I want to see a practical example of a for loop in javascript.",
+                "Can you show me how to use a for loop in javascript?"
             ],
             "responses": [
                 "A basic example:\n\tfor (let i = 0; i < 5; i++) {\n\t\tconsole.log(i);\n\t}",
                 "To iterate over an array:\n\tlet numbers = [1, 2, 3];\n\tfor (let i = 0; i < numbers.length; i++) {\n\t\tconsole.log(numbers[i]);\n\t}",
                 "Using for with objects:\n\tfor (let key in object) {\n\t\tconsole.log(object[key]);\n\t}",
-                "Iterating over characters in a string:\n\tfor (let char of 'JavaScript') {\n\t\tconsole.log(char);\n\t}",
+                "Iterating over characters in a string:\n\tfor (let char of 'javascript') {\n\t\tconsole.log(char);\n\t}",
                 "A countdown loop:\n\tfor (let i = 10; i > 0; i--) {\n\t\tconsole.log('Countdown: ' + i);\n\t}"
             ]
         },
         {
             "tag": "examples_of_while_loop_in_javascript",
             "patterns": [
-                "Give me examples of a while loop in JavaScript.",
-                "How is a while loop used in JavaScript?",
-                "Show me examples of while loops in JavaScript.",
-                "I want to see a practical example of a while loop in JavaScript.",
-                "Can you show me how to use a while loop in JavaScript?"
+                "Give me examples of a while loop in javascript.",
+                "How is a while loop used in javascript?",
+                "Show me examples of while loops in javascript.",
+                "I want to see a practical example of a while loop in javascript.",
+                "Can you show me how to use a while loop in javascript?"
             ],
             "responses": [
                 "A basic example:\n\tlet i = 0;\n\twhile (i < 5) {\n\t\tconsole.log(i);\n\t\ti++;\n\t}",
@@ -4809,11 +4885,11 @@
         {
             "tag": "examples_of_do_while_loop_in_javascript",
             "patterns": [
-                "Give me examples of a do while loop in JavaScript.",
-                "How is a do while loop used in JavaScript?",
-                "Show me examples of do while loops in JavaScript.",
-                "I want to see a practical example of a do while loop in JavaScript.",
-                "Can you show me how to use a do while loop in JavaScript?"
+                "Give me examples of a do while loop in javascript.",
+                "How is a do while loop used in javascript?",
+                "Show me examples of do while loops in javascript.",
+                "I want to see a practical example of a do while loop in javascript.",
+                "Can you show me how to use a do while loop in javascript?"
             ],
             "responses": [
                 "A basic example:\n\tlet i = 0;\n\tdo {\n\t\tconsole.log(i);\n\t\ti++;\n\t} while (i < 5);",
@@ -4826,11 +4902,11 @@
         {
             "tag": "examples_of_method_declaration_in_javascript",
             "patterns": [
-                "Give me examples of how to declare methods in JavaScript.",
-                "How are methods created in JavaScript?",
-                "Show me examples of methods in JavaScript.",
+                "Give me examples of how to declare methods in javascript.",
+                "How are methods created in javascript?",
+                "Show me examples of methods in javascript.",
                 "I want to see how methods are declared in objects.",
-                "Can you show me examples of methods in JavaScript?"
+                "Can you show me examples of methods in javascript?"
             ],
             "responses": [
                 "A method inside an object:\n\tconst person = {\n\t\tgreet: function() {\n\t\t\tconsole.log('Hello');\n\t\t}\n\t};",
@@ -4843,11 +4919,11 @@
         {
             "tag": "examples_of_function_declaration_in_javascript",
             "patterns": [
-                "Give me examples of how to declare functions in JavaScript.",
-                "How are functions created in JavaScript?",
-                "Show me examples of functions in JavaScript.",
-                "I want to see how functions are declared in JavaScript.",
-                "Can you show me examples of functions in JavaScript?"
+                "Give me examples of how to declare functions in javascript.",
+                "How are functions created in javascript?",
+                "Show me examples of functions in javascript.",
+                "I want to see how functions are declared in javascript.",
+                "Can you show me examples of functions in javascript?"
             ],
             "responses": [
                 "Classic function:\n\tfunction greet() {\n\t\tconsole.log('Hello, world');\n\t}",
@@ -7223,7 +7299,7 @@
             "patterns": [
                 "What is javascript used for?",
                 "what can be done with javascript",
-                "What applications does JavaScript have?",
+                "What applications does javascript have?",
                 "that can be developed with javascript",
                 "that can be programmed with javascript"
             ],
@@ -8571,7 +8647,7 @@
             "responses": [
                 "An array is a data structure that stores a collection of elements of the same type",
                 "The elements of an array are stored in contiguous memory locations and are accessed using an index",
-                "In many programming languages, such as JavaScript or Python, arrays can be dynamic or fixed size"
+                "In many programming languages, such as javascript or Python, arrays can be dynamic or fixed size"
             ]
         },
         {
@@ -8614,7 +8690,7 @@
             "responses": [
                 "A dictionary is a data structure that stores key-value pairs",
                 "Each element in a dictionary is composed of a unique key and a value associated with that key",
-                "Dictionaries are useful when you need to quickly look up a value from a key, such as in Python or JavaScript"
+                "Dictionaries are useful when you need to quickly look up a value from a key, such as in Python or javascript"
             ]
         },
         {
@@ -8709,7 +8785,7 @@
             "responses": [
                 "A null value is a special value that represents the absence of a valid or defined value in a variable.",
                 "The null value can be used to indicate that a variable has not yet been initialized or that it does not have a value assigned",
-                "In some languages, such as JavaScript, 'null' is used to denote a null value, while in others, such as Python, 'None' is used"
+                "In some languages, such as javascript, 'null' is used to denote a null value, while in others, such as Python, 'None' is used"
             ]
         },
         {
@@ -8865,10 +8941,10 @@
             ],
             "responses": [
                 "Aquí tienes un ejemplo de un ciclo for con la variable declarada en el encabezado:\n\tfor (let i = 0; i < 5; i++) {\n\t\tconsole.log(i);\n\t}",
-                "En JavaScript puedes declarar una variable directamente en el encabezado del for, así:\n\tfor (let contador = 10; contador > 0; contador--) {\n\t\tconsole.log('Cuenta regresiva:', contador);\n\t}",
+                "En javascript puedes declarar una variable directamente en el encabezado del for, así:\n\tfor (let contador = 10; contador > 0; contador--) {\n\t\tconsole.log('Cuenta regresiva:', contador);\n\t}",
                 "La declaración de la variable en el encabezado del ciclo for puede verse así:\n\tfor (let indice = 0; indice < 3; indice++) {\n\t\tconsole.log(`Iteración número: ${indice}`);\n\t}",
                 "Un ejemplo donde se declara la variable en el encabezado del for:\n\tfor (let numero = 1; numero <= 5; numero++) {\n\t\tconsole.log(`Número actual: ${numero}`);\n\t}",
-                "Así puedes declarar una variable en el encabezado del for en JavaScript:\n\tfor (let paso = 0; paso < 4; paso++) {\n\t\tconsole.log(`Paso actual: ${paso}`);\n\t}"
+                "Así puedes declarar una variable en el encabezado del for en javascript:\n\tfor (let paso = 0; paso < 4; paso++) {\n\t\tconsole.log(`Paso actual: ${paso}`);\n\t}"
             ]
         },
         {
@@ -8989,7 +9065,7 @@
                 "ejemplo basico de tupla en js"
             ],
             "responses": [
-                "Una tupla en JavaScript se declara especificando los tipos en un arreglo:\n\tconst tupla  = ['Juan', 25];\n\tconsole.log(tupla);",
+                "Una tupla en javascript se declara especificando los tipos en un arreglo:\n\tconst tupla  = ['Juan', 25];\n\tconsole.log(tupla);",
                 "Puedes usar una tupla para representar datos relacionados:\n\tconst coordenadas = [40.7128, -74.0060];\n\tconsole.log(`Latitud: ${coordenadas[0]}, Longitud: ${coordenadas[1]}`);",
                 "Ejemplo con tipos mixtos:\n\tconst persona = ['Ana', 30, true];\n\tconsole.log(`Nombre: ${persona[0]}, Edad: ${persona[1]}, Activo: ${persona[2]}`);"
             ]
@@ -9004,7 +9080,7 @@
                 "como se estructura un if en js"
             ],
             "responses": [
-                "La estructura básica de un `if` en JavaScript es:\n\tif (condicion) {\n\t\t// código a ejecutar si la condición es verdadera\n\t}\nEjemplo:\n\tif (edad >= 18) {\n\t\tconsole.log('Eres adulto');\n\t}",
+                "La estructura básica de un `if` en javascript es:\n\tif (condicion) {\n\t\t// código a ejecutar si la condición es verdadera\n\t}\nEjemplo:\n\tif (edad >= 18) {\n\t\tconsole.log('Eres adulto');\n\t}",
                 "Un ejemplo sencillo de un `if`:\n\tlet numero = 10;\n\tif (numero > 5) {\n\t\tconsole.log('El número es mayor que 5');\n\t}",
                 "Otro ejemplo donde se utiliza una comparación:\n\tlet temperatura = 30;\n\tif (temperatura > 25) {\n\t\tconsole.log('Hace calor');\n\t}",
                 "Puedes comprobar condiciones lógicas en el `if`:\n\tlet edad = 20;\n\tif (edad >= 18) {\n\t\tconsole.log('Acceso permitido');\n\t}",
@@ -9220,7 +9296,7 @@
             "responses": [
                 "La estructura básica de un `switch` es la siguiente:\n\tlet dia = 2;\n\tswitch (dia) {\n\t\tcase 1:\n\t\t\tconsole.log('Lunes');\n\t\t\tbreak;\n\t\tcase 2:\n\t\t\tconsole.log('Martes');\n\t\t\tbreak;\n\t\tcase 3:\n\t\t\tconsole.log('Miércoles');\n\t\t\tbreak;\n\t\tdefault:\n\t\t\tconsole.log('Día no válido');\n\t}",
                 "Ejemplo básico de un `switch`:\n\tlet mes = 3;\n\tswitch (mes) {\n\t\tcase 1:\n\t\t\tconsole.log('Enero');\n\t\t\tbreak;\n\t\tcase 2:\n\t\t\tconsole.log('Febrero');\n\t\t\tbreak;\n\t\tcase 3:\n\t\t\tconsole.log('Marzo');\n\t\t\tbreak;\n\t\tdefault:\n\t\t\tconsole.log('Mes no válido');\n\t}",
-                "Un `switch` en JavaScript evalúa una expresión y compara su valor con las condiciones (`case`), si coincide ejecuta ese bloque de código:\n\tlet color = 'rojo';\n\tswitch (color) {\n\t\tcase 'rojo':\n\t\t\tconsole.log('Color rojo seleccionado');\n\t\t\tbreak;\n\t\tcase 'azul':\n\t\t\tconsole.log('Color azul seleccionado');\n\t\t\tbreak;\n\t\tdefault:\n\t\t\tconsole.log('Color no reconocido');\n\t}"
+                "Un `switch` en javascript evalúa una expresión y compara su valor con las condiciones (`case`), si coincide ejecuta ese bloque de código:\n\tlet color = 'rojo';\n\tswitch (color) {\n\t\tcase 'rojo':\n\t\t\tconsole.log('Color rojo seleccionado');\n\t\t\tbreak;\n\t\tcase 'azul':\n\t\t\tconsole.log('Color azul seleccionado');\n\t\t\tbreak;\n\t\tdefault:\n\t\t\tconsole.log('Color no reconocido');\n\t}"
             ]
         },
         {
@@ -9275,9 +9351,9 @@
                 "cual es la sintaxis para declarar una funcion en js"
             ],
             "responses": [
-                "La sintaxis básica para declarar una función en JavaScript es la siguiente:\n\tfunction saludo() {\n\t\tconsole.log('Hola, mundo');\n\t}",
-                "Un ejemplo de una función básica en JavaScript:\n\tfunction calcularSuma(a: number, b: number): number {\n\t\treturn a + b;\n\t}",
-                "Para declarar una función en JavaScript, simplemente utiliza la palabra clave `function`:\n\tfunction saludar(nombre: string): void {\n\t\tconsole.log('Hola ' + nombre);\n\t}"
+                "La sintaxis básica para declarar una función en javascript es la siguiente:\n\tfunction saludo() {\n\t\tconsole.log('Hola, mundo');\n\t}",
+                "Un ejemplo de una función básica en javascript:\n\tfunction calcularSuma(a: number, b: number): number {\n\t\treturn a + b;\n\t}",
+                "Para declarar una función en javascript, simplemente utiliza la palabra clave `function`:\n\tfunction saludar(nombre: string): void {\n\t\tconsole.log('Hola ' + nombre);\n\t}"
             ]
         },
         {
@@ -9289,7 +9365,7 @@
                 "como crear una funcion con parametros en javascript"
             ],
             "responses": [
-                "Para declarar una función con parámetros en JavaScript, se colocan los parámetros entre paréntesis después del nombre de la función:\n\tfunction saludar(nombre: string): void {\n\t\tconsole.log('Hola, ' + nombre);\n\t}",
+                "Para declarar una función con parámetros en javascript, se colocan los parámetros entre paréntesis después del nombre de la función:\n\tfunction saludar(nombre: string): void {\n\t\tconsole.log('Hola, ' + nombre);\n\t}",
                 "Ejemplo de una función con parámetros:\n\tfunction multiplicar(a: number, b: number): number {\n\t\treturn a * b;\n\t}",
                 "Los parámetros se definen entre paréntesis en la declaración de la función:\n\tfunction mostrarMensaje(mensaje: string): void {\n\t\tconsole.log(mensaje);\n\t}"
             ]
@@ -9303,9 +9379,9 @@
                 "como devolver un valor de una funcion en javascript"
             ],
             "responses": [
-                "Para especificar el tipo de retorno de una función en JavaScript, se coloca el tipo después de los paréntesis:\n\tfunction sumar(a: number, b: number): number {\n\t\treturn a + b;\n\t}",
+                "Para especificar el tipo de retorno de una función en javascript, se coloca el tipo después de los paréntesis:\n\tfunction sumar(a: number, b: number): number {\n\t\treturn a + b;\n\t}",
                 "Ejemplo de función con tipo de retorno:\n\tfunction obtenerNombre(): string {\n\t\treturn 'Juan';\n\t}",
-                "En JavaScript, puedes especificar el tipo de retorno de la siguiente manera:\n\tfunction esPositivo(numero: number): boolean {\n\t\treturn numero > 0;\n\t}"
+                "En javascript, puedes especificar el tipo de retorno de la siguiente manera:\n\tfunction esPositivo(numero: number): boolean {\n\t\treturn numero > 0;\n\t}"
             ]
         },
         {
@@ -9331,7 +9407,7 @@
                 "que es una funcion anonima en javascript"
             ],
             "responses": [
-                "Una función anónima en JavaScript se declara sin nombre:\n\tlet suma = function(a: number, b: number): number {\n\t\treturn a + b;\n\t};",
+                "Una función anónima en javascript se declara sin nombre:\n\tlet suma = function(a: number, b: number): number {\n\t\treturn a + b;\n\t};",
                 "Ejemplo de función anónima asignada a una variable:\n\tlet saludo = function(nombre: string): void {\n\t\tconsole.log('Hola, ' + nombre);\n\t};",
                 "Una función anónima es útil cuando necesitas pasar una función como argumento o asignarla a una variable:\n\tlet multiplicar = function(a: number, b: number): number {\n\t\treturn a * b;\n\t};"
             ]
@@ -9373,8 +9449,8 @@
                 "cual es la sintaxis para declarar un objeto en js"
             ],
             "responses": [
-                "En JavaScript, puedes declarar un objeto de la siguiente manera:\n\tlet persona = { nombre: 'Juan', edad: 25 };",
-                "Ejemplo básico de un objeto:\n\tlet libro = { titulo: 'JavaScript para principiantes', autor: 'Juan Pérez', anio: 2021 };",
+                "En javascript, puedes declarar un objeto de la siguiente manera:\n\tlet persona = { nombre: 'Juan', edad: 25 };",
+                "Ejemplo básico de un objeto:\n\tlet libro = { titulo: 'javascript para principiantes', autor: 'Juan Pérez', anio: 2021 };",
                 "La sintaxis para declarar un objeto es la siguiente:\n\tlet coche = { marca: 'Toyota', modelo: 'Corolla', anio: 2022 };"
             ]
         },
@@ -9387,9 +9463,9 @@
                 "como declarar un objeto con tipos en js"
             ],
             "responses": [
-                "Para tipar un objeto en JavaScript, puedes usar una interfaz o tipo:\n\tinterface Persona {\n\t\tnombre: string;\n\t\tedad: number;\n\t}\n\tlet persona: Persona = { nombre: 'Juan', edad: 25 };",
+                "Para tipar un objeto en javascript, puedes usar una interfaz o tipo:\n\tinterface Persona {\n\t\tnombre: string;\n\t\tedad: number;\n\t}\n\tlet persona: Persona = { nombre: 'Juan', edad: 25 };",
                 "Puedes tipar un objeto de la siguiente manera:\n\tlet coche: { marca: string; modelo: string; anio: number } = { marca: 'Toyota', modelo: 'Corolla', anio: 2022 };",
-                "Un ejemplo de tipado usando interfaces:\n\tinterface Libro {\n\t\ttitulo: string;\n\t\tautor: string;\n\t}\n\tlet miLibro: Libro = { titulo: 'JavaScript para todos', autor: 'Pedro' };"
+                "Un ejemplo de tipado usando interfaces:\n\tinterface Libro {\n\t\ttitulo: string;\n\t\tautor: string;\n\t}\n\tlet miLibro: Libro = { titulo: 'javascript para todos', autor: 'Pedro' };"
             ]
         },
         {
@@ -9417,7 +9493,7 @@
             "responses": [
                 "Puedes agregar métodos dentro de un objeto de esta manera:\n\tlet persona = {\n\t\tnombre: 'Juan',\n\t\tedad: 25,\n\t\tsaludar: function() {\n\t\t\tconsole.log('Hola, soy ' + this.nombre);\n\t\t}\n\t};",
                 "Ejemplo de un objeto con un método:\n\tlet coche = {\n\t\tmarca: 'Toyota',\n\t\tmodelo: 'Corolla',\n\t\tmostrarInfo: function() {\n\t\t\tconsole.log(this.marca + ' ' + this.modelo);\n\t\t}\n\t};",
-                "Puedes declarar métodos dentro de un objeto utilizando funciones:\n\tlet libro = {\n\t\ttitulo: 'JavaScript',\n\t\tautor: 'Juan',\n\t\timprimirInfo: function() {\n\t\t\tconsole.log(this.titulo + ' por ' + this.autor);\n\t\t}\n\t};"
+                "Puedes declarar métodos dentro de un objeto utilizando funciones:\n\tlet libro = {\n\t\ttitulo: 'javascript',\n\t\tautor: 'Juan',\n\t\timprimirInfo: function() {\n\t\t\tconsole.log(this.titulo + ' por ' + this.autor);\n\t\t}\n\t};"
             ]
         },
         {
@@ -9431,7 +9507,7 @@
             "responses": [
                 "Puedes acceder a las propiedades de un objeto utilizando la notación de punto:\n\tlet persona = { nombre: 'Juan', edad: 25 };\n\tconsole.log(persona.nombre);",
                 "Ejemplo de acceso a propiedades:\n\tlet coche = { marca: 'Toyota', modelo: 'Corolla' };\n\tconsole.log(coche.marca);",
-                "También puedes usar la notación de corchetes para acceder a las propiedades:\n\tlet libro = { titulo: 'JavaScript', autor: 'Juan' };\n\tconsole.log(libro['titulo']);"
+                "También puedes usar la notación de corchetes para acceder a las propiedades:\n\tlet libro = { titulo: 'javascript', autor: 'Juan' };\n\tconsole.log(libro['titulo']);"
             ]
         },
         {
@@ -9445,7 +9521,7 @@
             "responses": [
                 "Puedes modificar una propiedad de un objeto utilizando la notación de punto:\n\tlet persona = { nombre: 'Juan', edad: 25 };\n\tpersona.edad = 30;",
                 "Ejemplo de modificación de una propiedad:\n\tlet coche = { marca: 'Toyota', modelo: 'Corolla' };\n\tcoche.modelo = 'Camry';",
-                "Para cambiar el valor de una propiedad puedes hacer:\n\tlet libro = { titulo: 'JavaScript', autor: 'Juan' };\n\tlibro.titulo = 'JavaScript avanzado';"
+                "Para cambiar el valor de una propiedad puedes hacer:\n\tlet libro = { titulo: 'javascript', autor: 'Juan' };\n\tlibro.titulo = 'javascript avanzado';"
             ]
         },
         {
@@ -9459,7 +9535,7 @@
             "responses": [
                 "Puedes eliminar una propiedad de un objeto utilizando el operador `delete`:\n\tlet persona = { nombre: 'Juan', edad: 25 };\n\tdelete persona.edad;",
                 "Ejemplo de eliminación de una propiedad:\n\tlet coche = { marca: 'Toyota', modelo: 'Corolla' };\n\tdelete coche.modelo;",
-                "Usa el operador `delete` para eliminar propiedades:\n\tlet libro = { titulo: 'JavaScript', autor: 'Juan' };\n\tdelete libro.autor;"
+                "Usa el operador `delete` para eliminar propiedades:\n\tlet libro = { titulo: 'javascript', autor: 'Juan' };\n\tdelete libro.autor;"
             ]
         },
         {
@@ -9473,7 +9549,7 @@
             "responses": [
                 "Puedes declarar propiedades de solo lectura utilizando `readonly`:\n\tinterface Persona {\n\t\treadonly nombre: string;\n\t\tedad: number;\n\t}\n\tlet persona: Persona = { nombre: 'Juan', edad: 25 };",
                 "Ejemplo de objeto con propiedades de solo lectura:\n\tlet coche: { readonly marca: string; modelo: string } = { marca: 'Toyota', modelo: 'Corolla' };",
-                "La palabra clave `readonly` asegura que una propiedad no pueda ser modificada:\n\tlet libro: { readonly titulo: string; autor: string } = { titulo: 'JavaScript', autor: 'Juan' };"
+                "La palabra clave `readonly` asegura que una propiedad no pueda ser modificada:\n\tlet libro: { readonly titulo: string; autor: string } = { titulo: 'javascript', autor: 'Juan' };"
             ]
         },
         {
@@ -9487,7 +9563,7 @@
             "responses": [
                 "Puedes declarar un método dentro de un objeto de esta manera:\n\tlet persona = {\n\t\tnombre: 'Juan',\n\t\tedad: 25,\n\t\tsaludar: function() {\n\t\t\tconsole.log('Hola, soy ' + this.nombre);\n\t\t}\n\t};",
                 "Ejemplo de un objeto con un método:\n\tlet coche = {\n\t\tmarca: 'Toyota',\n\t\tmodelo: 'Corolla',\n\t\tmostrarInfo: function() {\n\t\t\tconsole.log(this.marca + ' ' + this.modelo);\n\t\t}\n\t};",
-                "Puedes declarar métodos dentro de un objeto utilizando funciones:\n\tlet libro = {\n\t\ttitulo: 'JavaScript',\n\t\tautor: 'Juan',\n\t\timprimirInfo: function() {\n\t\t\tconsole.log(this.titulo + ' por ' + this.autor);\n\t\t}\n\t};"
+                "Puedes declarar métodos dentro de un objeto utilizando funciones:\n\tlet libro = {\n\t\ttitulo: 'javascript',\n\t\tautor: 'Juan',\n\t\timprimirInfo: function() {\n\t\t\tconsole.log(this.titulo + ' por ' + this.autor);\n\t\t}\n\t};"
             ]
         },
         {
@@ -9501,7 +9577,7 @@
             "responses": [
                 "Puedes usar una función flecha como método de esta manera:\n\tlet persona = {\n\t\tnombre: 'Juan',\n\t\tedad: 25,\n\t\tsaludar: () => {\n\t\t\tconsole.log('Hola, soy ' + this.nombre);\n\t\t}\n\t};",
                 "Ejemplo de método de flecha:\n\tlet coche = {\n\t\tmarca: 'Toyota',\n\t\tmodelo: 'Corolla',\n\t\tmostrarInfo: () => {\n\t\t\tconsole.log(this.marca + ' ' + this.modelo);\n\t\t}\n\t};",
-                "Los métodos de flecha no tienen su propio `this`, por lo que se puede usar en situaciones como esta:\n\tlet libro = {\n\t\ttitulo: 'JavaScript',\n\t\tautor: 'Juan',\n\t\timprimirInfo: () => {\n\t\t\tconsole.log(this.titulo + ' por ' + this.autor);\n\t\t}\n\t};"
+                "Los métodos de flecha no tienen su propio `this`, por lo que se puede usar en situaciones como esta:\n\tlet libro = {\n\t\ttitulo: 'javascript',\n\t\tautor: 'Juan',\n\t\timprimirInfo: () => {\n\t\t\tconsole.log(this.titulo + ' por ' + this.autor);\n\t\t}\n\t};"
             ]
         },
         {
@@ -9515,7 +9591,7 @@
             "responses": [
                 "Puedes agregar parámetros a un método en un objeto de esta manera:\n\tlet persona = {\n\t\tnombre: 'Juan',\n\t\tedad: 25,\n\t\tcambiarNombre: function(nuevoNombre) {\n\t\t\tthis.nombre = nuevoNombre;\n\t\t}\n\t};",
                 "Ejemplo de un método con parámetros:\n\tlet coche = {\n\t\tmarca: 'Toyota',\n\t\tmodelo: 'Corolla',\n\t\tcambiarModelo: function(nuevoModelo) {\n\t\t\tthis.modelo = nuevoModelo;\n\t\t}\n\t};",
-                "Puedes definir un método con parámetros de esta forma:\n\tlet libro = {\n\t\ttitulo: 'JavaScript',\n\t\tautor: 'Juan',\n\t\tactualizarTitulo: function(nuevoTitulo) {\n\t\t\tthis.titulo = nuevoTitulo;\n\t\t}\n\t};"
+                "Puedes definir un método con parámetros de esta forma:\n\tlet libro = {\n\t\ttitulo: 'javascript',\n\t\tautor: 'Juan',\n\t\tactualizarTitulo: function(nuevoTitulo) {\n\t\t\tthis.titulo = nuevoTitulo;\n\t\t}\n\t};"
             ]
         },
         {
@@ -9529,7 +9605,7 @@
             "responses": [
                 "Para hacer que un método sea de solo lectura puedes utilizar `readonly` en el método:\n\tlet persona = {\n\t\treadonly nombre: string;\n\t\tedad: number,\n\t\tgetNombre: function() {\n\t\t\treturn this.nombre;\n\t\t}\n\t};",
                 "Ejemplo de método de solo lectura:\n\tlet coche = {\n\t\tmarca: 'Toyota',\n\t\tmodelo: 'Corolla',\n\t\tgetMarca: function() {\n\t\t\treturn this.marca;\n\t\t}\n\t};",
-                "Puedes declarar un método de solo lectura así:\n\tlet libro = {\n\t\ttitulo: 'JavaScript',\n\t\tgetTitulo: function() {\n\t\t\treturn this.titulo;\n\t\t}\n\t};"
+                "Puedes declarar un método de solo lectura así:\n\tlet libro = {\n\t\ttitulo: 'javascript',\n\t\tgetTitulo: function() {\n\t\t\treturn this.titulo;\n\t\t}\n\t};"
             ]
         },
         {
@@ -9543,7 +9619,7 @@
             "responses": [
                 "Puedes declarar un método asíncrono en un objeto utilizando `async` y `await`:\n\tlet persona = {\n\t\tnombre: 'Juan',\n\t\tedad: 25,\n\t\tasync obtenerNombre() {\n\t\t\tlet resultado = await fetch('url');\n\t\t\treturn resultado.json();\n\t\t}\n\t};",
                 "Ejemplo de un método asincrono:\n\tlet coche = {\n\t\tmarca: 'Toyota',\n\t\tmodelo: 'Corolla',\n\t\tasync obtenerModelo() {\n\t\t\tlet respuesta = await fetch('url');\n\t\t\treturn respuesta.json();\n\t\t}\n\t};",
-                "Puedes utilizar `async` y `await` para manejar tareas asincrónicas en un método:\n\tlet libro = {\n\t\ttitulo: 'JavaScript',\n\t\tasync obtenerDetalles() {\n\t\t\tlet detalles = await fetch('url');\n\t\t\treturn detalles.json();\n\t\t}\n\t};"
+                "Puedes utilizar `async` y `await` para manejar tareas asincrónicas en un método:\n\tlet libro = {\n\t\ttitulo: 'javascript',\n\t\tasync obtenerDetalles() {\n\t\t\tlet detalles = await fetch('url');\n\t\t\treturn detalles.json();\n\t\t}\n\t};"
             ]
         },
         {
@@ -9571,7 +9647,7 @@
             "responses": [
                 "Dentro de un método, `this` hace referencia al objeto actual:\n\tlet persona = {\n\t\tnombre: 'Juan',\n\t\tedad: 25,\n\t\tmostrarEdad: function() {\n\t\t\tconsole.log(this.edad);\n\t\t}\n\t};",
                 "Ejemplo de uso de `this`:\n\tlet coche = {\n\t\tmarca: 'Toyota',\n\t\tmodelo: 'Corolla',\n\t\tmostrarMarca: function() {\n\t\t\tconsole.log(this.marca);\n\t\t}\n\t};",
-                "Cuando usas `this`, accedes a las propiedades del objeto al que pertenece el método:\n\tlet libro = {\n\t\ttitulo: 'JavaScript',\n\t\tmostrarTitulo: function() {\n\t\t\tconsole.log(this.titulo);\n\t\t}\n\t};"
+                "Cuando usas `this`, accedes a las propiedades del objeto al que pertenece el método:\n\tlet libro = {\n\t\ttitulo: 'javascript',\n\t\tmostrarTitulo: function() {\n\t\t\tconsole.log(this.titulo);\n\t\t}\n\t};"
             ]
         },
         {
@@ -9585,7 +9661,7 @@
             "responses": [
                 "Puedes declarar una interface de esta manera:\n\tinterface Persona {\n\t\tnombre: string;\n\t\tedad: number;\n\t}\n\tlet persona: Persona = {\n\t\tnombre: 'Juan',\n\t\tedad: 25\n\t};",
                 "Ejemplo básico de una interface:\n\tinterface Coche {\n\t\tmarca: string;\n\t\tmodelo: string;\n\t}\n\tlet coche: Coche = {\n\t\tmarca: 'Toyota',\n\t\tmodelo: 'Corolla'\n\t};",
-                "Una interface se declara así:\n\tinterface Libro {\n\t\ttitulo: string;\n\t\tautor: string;\n\t}\n\tlet libro: Libro = {\n\t\ttitulo: 'JavaScript',\n\t\tautor: 'Juan'\n\t};"
+                "Una interface se declara así:\n\tinterface Libro {\n\t\ttitulo: string;\n\t\tautor: string;\n\t}\n\tlet libro: Libro = {\n\t\ttitulo: 'javascript',\n\t\tautor: 'Juan'\n\t};"
             ]
         },
         {
@@ -9599,7 +9675,7 @@
             "responses": [
                 "Puedes extender una interface utilizando `extends`:\n\tinterface Persona {\n\t\tnombre: string;\n\t\tedad: number;\n\t}\n\tinterface Empleado extends Persona {\n\t\tpuesto: string;\n\t}\n\tlet empleado: Empleado = {\n\t\tnombre: 'Juan',\n\t\tedad: 25,\n\t\tpuesto: 'Desarrollador'\n\t};",
                 "Ejemplo de extensión de interfaces:\n\tinterface Coche {\n\t\tmarca: string;\n\t\tmodelo: string;\n\t}\n\tinterface Deportivo extends Coche {\n\t\tvelocidadMaxima: number;\n\t}\n\tlet cocheDeportivo: Deportivo = {\n\t\tmarca: 'Ferrari',\n\t\tmodelo: 'F8',\n\t\tvelocidadMaxima: 340\n\t};",
-                "Una interface puede extender a otra para agregar más propiedades:\n\tinterface Libro {\n\t\ttitulo: string;\n\t\tautor: string;\n\t}\n\tinterface Ebook extends Libro {\n\t\ttamanoMB: number;\n\t}\n\tlet ebook: Ebook = {\n\t\ttitulo: 'JavaScript',\n\t\tautor: 'Juan',\n\t\ttamanoMB: 10\n\t};"
+                "Una interface puede extender a otra para agregar más propiedades:\n\tinterface Libro {\n\t\ttitulo: string;\n\t\tautor: string;\n\t}\n\tinterface Ebook extends Libro {\n\t\ttamanoMB: number;\n\t}\n\tlet ebook: Ebook = {\n\t\ttitulo: 'javascript',\n\t\tautor: 'Juan',\n\t\ttamanoMB: 10\n\t};"
             ]
         },
         {
@@ -9613,7 +9689,7 @@
             "responses": [
                 "Puedes declarar métodos dentro de una interface de esta manera:\n\tinterface Persona {\n\t\tnombre: string;\n\t\tedad: number;\n\t\tsaludar(): void;\n\t}\n\tlet persona: Persona = {\n\t\tnombre: 'Juan',\n\t\tedad: 25,\n\t\tsaludar: function() {\n\t\t\tconsole.log('Hola, soy ' + this.nombre);\n\t\t}\n\t};",
                 "Ejemplo de una interface con método:\n\tinterface Coche {\n\t\tmarca: string;\n\t\tmodelo: string;\n\t\tmostrarInfo(): void;\n\t}\n\tlet coche: Coche = {\n\t\tmarca: 'Toyota',\n\t\tmodelo: 'Corolla',\n\t\tmostrarInfo: function() {\n\t\t\tconsole.log(this.marca + ' ' + this.modelo);\n\t\t}\n\t};",
-                "Puedes declarar una interface con un método como este:\n\tinterface Libro {\n\t\ttitulo: string;\n\t\tautor: string;\n\t\timprimirInfo(): void;\n\t}\n\tlet libro: Libro = {\n\t\ttitulo: 'JavaScript',\n\t\tautor: 'Juan',\n\t\timprimirInfo: function() {\n\t\t\tconsole.log(this.titulo + ' por ' + this.autor);\n\t\t}\n\t};"
+                "Puedes declarar una interface con un método como este:\n\tinterface Libro {\n\t\ttitulo: string;\n\t\tautor: string;\n\t\timprimirInfo(): void;\n\t}\n\tlet libro: Libro = {\n\t\ttitulo: 'javascript',\n\t\tautor: 'Juan',\n\t\timprimirInfo: function() {\n\t\t\tconsole.log(this.titulo + ' por ' + this.autor);\n\t\t}\n\t};"
             ]
         },
         {
@@ -9627,7 +9703,7 @@
             "responses": [
                 "Puedes hacer que una propiedad sea opcional usando el signo `?`:\n\tinterface Persona {\n\t\tnombre: string;\n\t\tedad?: number;\n\t}\n\tlet persona: Persona = {\n\t\tnombre: 'Juan'\n\t};",
                 "Ejemplo de propiedad opcional en una interface:\n\tinterface Coche {\n\t\tmarca: string;\n\t\tmodelo: string;\n\t\tcolor?: string;\n\t}\n\tlet coche: Coche = {\n\t\tmarca: 'Toyota',\n\t\tmodelo: 'Corolla'\n\t};",
-                "Para declarar propiedades opcionales puedes usar `?`:\n\tinterface Libro {\n\t\ttitulo: string;\n\t\tautor: string;\n\t\tfechaPublicacion?: string;\n\t}\n\tlet libro: Libro = {\n\t\ttitulo: 'JavaScript',\n\t\tautor: 'Juan'\n\t};"
+                "Para declarar propiedades opcionales puedes usar `?`:\n\tinterface Libro {\n\t\ttitulo: string;\n\t\tautor: string;\n\t\tfechaPublicacion?: string;\n\t}\n\tlet libro: Libro = {\n\t\ttitulo: 'javascript',\n\t\tautor: 'Juan'\n\t};"
             ]
         },
         {
@@ -9641,7 +9717,7 @@
             "responses": [
                 "Puedes hacer que una propiedad sea de solo lectura utilizando `readonly`:\n\tinterface Persona {\n\t\treadonly nombre: string;\n\t\tedad: number;\n\t}\n\tlet persona: Persona = {\n\t\tnombre: 'Juan',\n\t\tedad: 25\n\t};",
                 "Ejemplo de propiedad de solo lectura:\n\tinterface Coche {\n\t\treadonly marca: string;\n\t\tmodelo: string;\n\t}\n\tlet coche: Coche = {\n\t\tmarca: 'Toyota',\n\t\tmodelo: 'Corolla'\n\t};",
-                "Para declarar propiedades de solo lectura puedes usar `readonly`:\n\tinterface Libro {\n\t\treadonly titulo: string;\n\t\tautor: string;\n\t}\n\tlet libro: Libro = {\n\t\ttitulo: 'JavaScript',\n\t\tautor: 'Juan'\n\t};"
+                "Para declarar propiedades de solo lectura puedes usar `readonly`:\n\tinterface Libro {\n\t\treadonly titulo: string;\n\t\tautor: string;\n\t}\n\tlet libro: Libro = {\n\t\ttitulo: 'javascript',\n\t\tautor: 'Juan'\n\t};"
             ]
         },
         {
@@ -9655,7 +9731,7 @@
             "responses": [
                 "Puedes declarar índices utilizando la siguiente sintaxis:\n\tinterface Persona {\n\t\t[nombre: string]: number;\n\t}\n\tlet edades: Persona = {\n\t\t'Juan': 25,\n\t\t'Ana': 30\n\t};",
                 "Ejemplo con índice en una interface:\n\tinterface Coche {\n\t\t[modelo: string]: number;\n\t}\n\tlet precios: Coche = {\n\t\t'Corolla': 25000,\n\t\t'Camry': 35000\n\t};",
-                "Para usar índices en una interface puedes hacer lo siguiente:\n\tinterface Libro {\n\t\t[autor: string]: string;\n\t}\n\tlet autoresLibros: Libro = {\n\t\t'Juan': 'JavaScript',\n\t\t'Pedro': 'JavaScript'\n\t};"
+                "Para usar índices en una interface puedes hacer lo siguiente:\n\tinterface Libro {\n\t\t[autor: string]: string;\n\t}\n\tlet autoresLibros: Libro = {\n\t\t'Juan': 'javascript',\n\t\t'Pedro': 'javascript'\n\t};"
             ]
         },
         {
@@ -9669,7 +9745,7 @@
             "responses": [
                 "Puedes utilizar una interface para definir los parámetros de una función:\n\tinterface Persona {\n\t\tnombre: string;\n\t\tedad: number;\n\t}\n\tfunction saludar(persona: Persona) {\n\t\tconsole.log('Hola, ' + persona.nombre);\n\t}\n\tsaludar({nombre: 'Juan', edad: 25});",
                 "Ejemplo de función con una interface:\n\tinterface Coche {\n\t\tmarca: string;\n\t\tmodelo: string;\n\t}\n\tfunction mostrarCoche(coche: Coche) {\n\t\tconsole.log(coche.marca + ' ' + coche.modelo);\n\t}\n\tmostrarCoche({marca: 'Toyota', modelo: 'Corolla'});",
-                "Puedes utilizar interfaces para definir los tipos de las funciones:\n\tinterface Libro {\n\t\ttitulo: string;\n\t\tautor: string;\n\t}\n\tfunction imprimirInfo(libro: Libro) {\n\t\tconsole.log(libro.titulo + ' por ' + libro.autor);\n\t}\n\timprimirInfo({titulo: 'JavaScript', autor: 'Juan'});"
+                "Puedes utilizar interfaces para definir los tipos de las funciones:\n\tinterface Libro {\n\t\ttitulo: string;\n\t\tautor: string;\n\t}\n\tfunction imprimirInfo(libro: Libro) {\n\t\tconsole.log(libro.titulo + ' por ' + libro.autor);\n\t}\n\timprimirInfo({titulo: 'javascript', autor: 'Juan'});"
             ]
         },
         {
@@ -9683,7 +9759,7 @@
             "responses": [
                 "Puedes utilizar una interface para definir los parámetros de una función:\n\tinterface Persona {\n\t\tnombre: string;\n\t\tedad: number;\n\t}\n\tfunction saludar(persona: Persona) {\n\t\tconsole.log('Hola, ' + persona.nombre);\n\t}\n\tsaludar({nombre: 'Juan', edad: 25});",
                 "Ejemplo de función con una interface:\n\tinterface Coche {\n\t\tmarca: string;\n\t\tmodelo: string;\n\t}\n\tfunction mostrarCoche(coche: Coche) {\n\t\tconsole.log(coche.marca + ' ' + coche.modelo);\n\t}\n\tmostrarCoche({marca: 'Toyota', modelo: 'Corolla'});",
-                "Puedes utilizar interfaces para definir los tipos de las funciones:\n\tinterface Libro {\n\t\ttitulo: string;\n\t\tautor: string;\n\t}\n\tfunction imprimirInfo(libro: Libro) {\n\t\tconsole.log(libro.titulo + ' por ' + libro.autor);\n\t}\n\timprimirInfo({titulo: 'JavaScript', autor: 'Juan'});"
+                "Puedes utilizar interfaces para definir los tipos de las funciones:\n\tinterface Libro {\n\t\ttitulo: string;\n\t\tautor: string;\n\t}\n\tfunction imprimirInfo(libro: Libro) {\n\t\tconsole.log(libro.titulo + ' por ' + libro.autor);\n\t}\n\timprimirInfo({titulo: 'javascript', autor: 'Juan'});"
             ]
         },
         {
@@ -9697,7 +9773,7 @@
             "responses": [
                 "Puedes declarar un enum de esta manera:\n\tenum Direccion {\n\t\tArriba,\n\t\tAbajo,\n\t\tIzquierda,\n\t\tDerecha\n\t}\n\tlet miDireccion: Direccion = Direccion.Arriba;",
                 "Ejemplo básico de un enum:\n\tenum Estado {\n\t\tActivo,\n\t\tInactivo,\n\t\tPendiente\n\t}\n\tlet estadoUsuario: Estado = Estado.Activo;",
-                "Un enum en JavaScript se declara así:\n\tenum Color {\n\t\tRojo,\n\t\tVerde,\n\t\tAzul\n\t}\n\tlet colorFavorito: Color = Color.Verde;"
+                "Un enum en javascript se declara así:\n\tenum Color {\n\t\tRojo,\n\t\tVerde,\n\t\tAzul\n\t}\n\tlet colorFavorito: Color = Color.Verde;"
             ]
         },
         {
@@ -9897,7 +9973,7 @@
                 "como implemento la busqueda binaria en javascript"
             ],
             "responses": [
-                "La búsqueda binaria es un algoritmo eficiente para encontrar un elemento en un arreglo ordenado. Se divide el rango de búsqueda a la mitad en cada paso. Aquí tienes el código básico en JavaScript:\n\n```javascript\nfunction busquedaBinaria(arreglo, valorBuscado) {\n    let inicio = 0;\n    let fin = arreglo.length - 1;\n\n    while (inicio <= fin) {\n        let medio = Math.floor((inicio + fin) / 2);\n\n        if (arreglo[medio] === valorBuscado) {\n            return medio; // Devuelve el índice si encuentra el valor\n        } else if (arreglo[medio] < valorBuscado) {\n            inicio = medio + 1; // Ajusta el inicio\n        } else {\n            fin = medio - 1; // Ajusta el final\n        }\n    }\n\n    return -1; // Retorna -1 si el valor no está presente\n}\n\n// Ejemplo de uso\nconst numeros = [1, 3, 5, 7, 9];\nconst resultado = busquedaBinaria(numeros, 7);\nconsole.log(resultado); // Salida: 3\n```"
+                "La búsqueda binaria es un algoritmo eficiente para encontrar un elemento en un arreglo ordenado. Se divide el rango de búsqueda a la mitad en cada paso. Aquí tienes el código básico en javascript:\n\n```javascript\nfunction busquedaBinaria(arreglo, valorBuscado) {\n    let inicio = 0;\n    let fin = arreglo.length - 1;\n\n    while (inicio <= fin) {\n        let medio = Math.floor((inicio + fin) / 2);\n\n        if (arreglo[medio] === valorBuscado) {\n            return medio; // Devuelve el índice si encuentra el valor\n        } else if (arreglo[medio] < valorBuscado) {\n            inicio = medio + 1; // Ajusta el inicio\n        } else {\n            fin = medio - 1; // Ajusta el final\n        }\n    }\n\n    return -1; // Retorna -1 si el valor no está presente\n}\n\n// Ejemplo de uso\nconst numeros = [1, 3, 5, 7, 9];\nconst resultado = busquedaBinaria(numeros, 7);\nconsole.log(resultado); // Salida: 3\n```"
             ]
         },
         {
@@ -9910,7 +9986,7 @@
                 "dame la parte donde se define la funcion en la busqueda binaria en js"
             ],
             "responses": [
-                "La función de búsqueda binaria en JavaScript se define así:\n\n```javascript\nfunction busquedaBinaria(arreglo, valorBuscado) {\n    // Aquí va el cuerpo del algoritmo\n}\n```"
+                "La función de búsqueda binaria en javascript se define así:\n\n```javascript\nfunction busquedaBinaria(arreglo, valorBuscado) {\n    // Aquí va el cuerpo del algoritmo\n}\n```"
             ]
         },
         {
@@ -9998,10 +10074,19 @@
                 "que es el algoritmo de burbuja en js",
                 "puedes explicarme el algoritmo de ordenamiento burbuja en javascript",
                 "dame el codigo del algoritmo de burbuja en js",
-                "como implemento el algoritmo de burbuja en javascript"
+                "como implemento el algoritmo de burbuja en javascript",
+                "dime el codigo del ordenamiento burbuja en js",
+                "como ordenar un arreglo con burbuja en js",
+                "quiero ver el codigo del ordenamiento burbuja en js",
+                "como se ordena un arreglo con burbuja en js",
+                "quiero entender el ordenamiento burbuja en js",
+                "dame el codigo para un ordenamiento burbuja en js",
+                "como se hace el ordenamiento burbuja en js",
+                "puedes darme un ejemplo de ordenamiento burbuja en js",
+                "como se implementa el ordenamiento burbuja en js"
             ],
             "responses": [
-                "El ordenamiento por burbuja es un algoritmo que compara elementos adyacentes en un arreglo y los intercambia si están en el orden incorrecto. Esto se repite hasta que el arreglo esté completamente ordenado. Aquí tienes el código en JavaScript:\n\n```javascript\nfunction ordenamientoBurbuja(arr) {\n    let n = arr.length;\n    for (let i = 0; i < n - 1; i++) {\n        for (let j = 0; j < n - i - 1; j++) {\n            if (arr[j] > arr[j + 1]) {\n                // Intercambio de elementos\n                let temp = arr[j];\n                arr[j] = arr[j + 1];\n                arr[j + 1] = temp;\n            }\n        }\n    }\n    return arr;\n}\n\n// Ejemplo de uso\nconst numeros = [64, 34, 25, 12, 22, 11, 90];\nconsole.log(ordenamientoBurbuja(numeros));\n// Salida: [11, 12, 22, 25, 34, 64, 90]\n```"
+                "El ordenamiento por burbuja es un algoritmo que compara elementos adyacentes en un arreglo y los intercambia si están en el orden incorrecto. Esto se repite hasta que el arreglo esté completamente ordenado. Aquí tienes el código en javascript:\n\n```javascript\nfunction ordenamientoBurbuja(arr) {\n    let n = arr.length;\n    for (let i = 0; i < n - 1; i++) {\n        for (let j = 0; j < n - i - 1; j++) {\n            if (arr[j] > arr[j + 1]) {\n                // Intercambio de elementos\n                let temp = arr[j];\n                arr[j] = arr[j + 1];\n                arr[j + 1] = temp;\n            }\n        }\n    }\n    return arr;\n}\n\n// Ejemplo de uso\nconst numeros = [64, 34, 25, 12, 22, 11, 90];\nconsole.log(ordenamientoBurbuja(numeros));\n// Salida: [11, 12, 22, 25, 34, 64, 90]\n```"
             ]
         },
         {
@@ -10014,7 +10099,7 @@
                 "dame la parte donde se define la funcion en el algoritmo de burbuja en js"
             ],
             "responses": [
-                "La función del ordenamiento burbuja en JavaScript se define así:\n\n```javascript\nfunction ordenamientoBurbuja(arr) {\n    // Aquí va el cuerpo del algoritmo\n}\n```"
+                "La función del ordenamiento burbuja en javascript se define así:\n\n```javascript\nfunction ordenamientoBurbuja(arr) {\n    // Aquí va el cuerpo del algoritmo\n}\n```"
             ]
         },
         {
@@ -10092,7 +10177,7 @@
                 "como implemento el quick sort en javascript"
             ],
             "responses": [
-                "El Quick Sort es un algoritmo de ordenamiento que utiliza el enfoque de dividir y conquistar. Divide el arreglo en subarreglos usando un elemento como pivote, colocando los elementos menores a la izquierda y los mayores a la derecha. Luego aplica recursividad para ordenar las partes. Aquí tienes el código completo en JavaScript:\n\n```javascript\nfunction quickSort(arr) {\n    if (arr.length <= 1) {\n        return arr;\n    }\n    const pivot = arr[arr.length - 1];\n    const left = [];\n    const right = [];\n    for (let i = 0; i < arr.length - 1; i++) {\n        if (arr[i] < pivot) {\n            left.push(arr[i]);\n        } else {\n            right.push(arr[i]);\n        }\n    }\n    return [...quickSort(left), pivot, ...quickSort(right)];\n}\n\n// Ejemplo de uso\nconst numeros = [34, 7, 23, 32, 5, 62];\nconsole.log(quickSort(numeros));\n// Salida: [5, 7, 23, 32, 34, 62]\n```\n"
+                "El Quick Sort es un algoritmo de ordenamiento que utiliza el enfoque de dividir y conquistar. Divide el arreglo en subarreglos usando un elemento como pivote, colocando los elementos menores a la izquierda y los mayores a la derecha. Luego aplica recursividad para ordenar las partes. Aquí tienes el código completo en javascript:\n\n```javascript\nfunction quickSort(arr) {\n    if (arr.length <= 1) {\n        return arr;\n    }\n    const pivot = arr[arr.length - 1];\n    const left = [];\n    const right = [];\n    for (let i = 0; i < arr.length - 1; i++) {\n        if (arr[i] < pivot) {\n            left.push(arr[i]);\n        } else {\n            right.push(arr[i]);\n        }\n    }\n    return [...quickSort(left), pivot, ...quickSort(right)];\n}\n\n// Ejemplo de uso\nconst numeros = [34, 7, 23, 32, 5, 62];\nconsole.log(quickSort(numeros));\n// Salida: [5, 7, 23, 32, 34, 62]\n```\n"
             ]
         },
         {
@@ -10105,7 +10190,7 @@
                 "dame la parte donde se define la funcion en el quick sort en js"
             ],
             "responses": [
-                "La definición de la función Quick Sort en JavaScript es esta:\n\n```javascript\nfunction quickSort(arr) {\n    // Aquí va el cuerpo del algoritmo\n}\n```\n"
+                "La definición de la función Quick Sort en javascript es esta:\n\n```javascript\nfunction quickSort(arr) {\n    // Aquí va el cuerpo del algoritmo\n}\n```\n"
             ]
         },
         {
@@ -10209,7 +10294,7 @@
                 "como implemento el merge sort en javascript"
             ],
             "responses": [
-                "El Merge Sort es un algoritmo de ordenamiento que utiliza el enfoque de dividir y conquistar. Divide el arreglo en partes más pequeñas, las ordena y luego las combina. Aquí tienes el código completo en JavaScript:\n\n```javascript\nfunction mergeSort(arr) {\n    if (arr.length <= 1) {\n        return arr;\n    }\n    const mid = Math.floor(arr.length / 2);\n    const left = arr.slice(0, mid);\n    const right = arr.slice(mid);\n    return merge(mergeSort(left), mergeSort(right));\n}\n\nfunction merge(left, right) {\n    const result = [];\n    while (left.length && right.length) {\n        if (left[0] < right[0]) {\n            result.push(left.shift());\n        } else {\n            result.push(right.shift());\n        }\n    }\n    return [...result, ...left, ...right];\n}\n\n// Ejemplo de uso\nconst numeros = [38, 27, 43, 3, 9, 82, 10];\nconsole.log(mergeSort(numeros));\n// Salida: [3, 9, 10, 27, 38, 43, 82]\n```\n"
+                "El Merge Sort es un algoritmo de ordenamiento que utiliza el enfoque de dividir y conquistar. Divide el arreglo en partes más pequeñas, las ordena y luego las combina. Aquí tienes el código completo en javascript:\n\n```javascript\nfunction mergeSort(arr) {\n    if (arr.length <= 1) {\n        return arr;\n    }\n    const mid = Math.floor(arr.length / 2);\n    const left = arr.slice(0, mid);\n    const right = arr.slice(mid);\n    return merge(mergeSort(left), mergeSort(right));\n}\n\nfunction merge(left, right) {\n    const result = [];\n    while (left.length && right.length) {\n        if (left[0] < right[0]) {\n            result.push(left.shift());\n        } else {\n            result.push(right.shift());\n        }\n    }\n    return [...result, ...left, ...right];\n}\n\n// Ejemplo de uso\nconst numeros = [38, 27, 43, 3, 9, 82, 10];\nconsole.log(mergeSort(numeros));\n// Salida: [3, 9, 10, 27, 38, 43, 82]\n```\n"
             ]
         },
         {
@@ -10430,7 +10515,7 @@
                 "como implemento la busqueda en profundidad en javascript"
             ],
             "responses": [
-                "La búsqueda en profundidad (DFS) es un algoritmo que explora tanto como sea posible por un camino antes de retroceder. Aquí tienes una implementación básica en JavaScript:\n\n```javascript\nfunction dfs(graph, start, visited = new Set()) {\n    console.log(start);\n    visited.add(start);\n\n    for (const neighbor of graph[start]) {\n        if (!visited.has(neighbor)) {\n            dfs(graph, neighbor, visited);\n        }\n    }\n}\n\n// Ejemplo de uso\nconst graph = {\n    A: ['B', 'C'],\n    B: ['D', 'E'],\n    C: ['F'],\n    D: [],\n    E: ['F'],\n    F: []\n};\ndfs(graph, 'A');\n```\nEste código imprimirá los nodos visitados en el orden DFS."
+                "La búsqueda en profundidad (DFS) es un algoritmo que explora tanto como sea posible por un camino antes de retroceder. Aquí tienes una implementación básica en javascript:\n\n```javascript\nfunction dfs(graph, start, visited = new Set()) {\n    console.log(start);\n    visited.add(start);\n\n    for (const neighbor of graph[start]) {\n        if (!visited.has(neighbor)) {\n            dfs(graph, neighbor, visited);\n        }\n    }\n}\n\n// Ejemplo de uso\nconst graph = {\n    A: ['B', 'C'],\n    B: ['D', 'E'],\n    C: ['F'],\n    D: [],\n    E: ['F'],\n    F: []\n};\ndfs(graph, 'A');\n```\nEste código imprimirá los nodos visitados en el orden DFS."
             ]
         },
         {
@@ -10443,7 +10528,7 @@
                 "dame la parte donde se define la funcion de busqueda en profundidad en js"
             ],
             "responses": [
-                "La función principal de DFS en JavaScript se define así:\n\n```javascript\nfunction dfs(graph, start, visited = new Set()) {\n    // Cuerpo del algoritmo aquí\n}\n```\n"
+                "La función principal de DFS en javascript se define así:\n\n```javascript\nfunction dfs(graph, start, visited = new Set()) {\n    // Cuerpo del algoritmo aquí\n}\n```\n"
             ]
         },
         {
@@ -10586,7 +10671,7 @@
                 "como implemento el heap sort en javascript"
             ],
             "responses": [
-                "El algoritmo de Heap Sort es un algoritmo de ordenamiento que utiliza la estructura de datos de un heap (montículo). Primero construye un heap máximo a partir del arreglo, luego intercambia el primer elemento (el máximo) con el último, reduce el tamaño del heap y aplica heapify nuevamente. Aquí tienes el código completo en JavaScript:\n\n```javascript\nfunction heapSort(arr) {\n\tlet n = arr.length;\n\n\t// Construir un heap máximo\n\tfor (let i = Math.floor(n / 2) - 1; i >= 0; i--) {\n\t\theapify(arr, n, i);\n\t}\n\n\t// Extraer elementos del heap uno por uno\n\tfor (let i = n - 1; i > 0; i--) {\n\t\t// Mover el máximo actual al final\n\t\t[arr[0], arr[i]] = [arr[i], arr[0]];\n\n\t\t// Aplicar heapify al heap reducido\n\t\theapify(arr, i, 0);\n\t}\n\n\treturn arr;\n}\n\nfunction heapify(arr, n, i) {\n\tlet largest = i;\n\tconst left = 2 * i + 1;\n\tconst right = 2 * i + 2;\n\n\t// Si el hijo izquierdo es más grande que el nodo raíz\n\tif (left < n && arr[left] > arr[largest]) {\n\t\tlargest = left;\n\t}\n\n\t// Si el hijo derecho es más grande que el nodo raíz\n\tif (right < n && arr[right] > arr[largest]) {\n\t\tlargest = right;\n\t}\n\n\t// Si el nodo raíz no es el más grande\n\tif (largest !== i) {\n\t\t[arr[i], arr[largest]] = [arr[largest], arr[i]];\n\t\theapify(arr, n, largest);\n\t}\n}\n\n// Ejemplo de uso\nconst numeros = [12, 11, 13, 5, 6, 7];\nconsole.log(heapSort(numeros));\n// Salida: [5, 6, 7, 11, 12, 13]\n```"
+                "El algoritmo de Heap Sort es un algoritmo de ordenamiento que utiliza la estructura de datos de un heap (montículo). Primero construye un heap máximo a partir del arreglo, luego intercambia el primer elemento (el máximo) con el último, reduce el tamaño del heap y aplica heapify nuevamente. Aquí tienes el código completo en javascript:\n\n```javascript\nfunction heapSort(arr) {\n\tlet n = arr.length;\n\n\t// Construir un heap máximo\n\tfor (let i = Math.floor(n / 2) - 1; i >= 0; i--) {\n\t\theapify(arr, n, i);\n\t}\n\n\t// Extraer elementos del heap uno por uno\n\tfor (let i = n - 1; i > 0; i--) {\n\t\t// Mover el máximo actual al final\n\t\t[arr[0], arr[i]] = [arr[i], arr[0]];\n\n\t\t// Aplicar heapify al heap reducido\n\t\theapify(arr, i, 0);\n\t}\n\n\treturn arr;\n}\n\nfunction heapify(arr, n, i) {\n\tlet largest = i;\n\tconst left = 2 * i + 1;\n\tconst right = 2 * i + 2;\n\n\t// Si el hijo izquierdo es más grande que el nodo raíz\n\tif (left < n && arr[left] > arr[largest]) {\n\t\tlargest = left;\n\t}\n\n\t// Si el hijo derecho es más grande que el nodo raíz\n\tif (right < n && arr[right] > arr[largest]) {\n\t\tlargest = right;\n\t}\n\n\t// Si el nodo raíz no es el más grande\n\tif (largest !== i) {\n\t\t[arr[i], arr[largest]] = [arr[largest], arr[i]];\n\t\theapify(arr, n, largest);\n\t}\n}\n\n// Ejemplo de uso\nconst numeros = [12, 11, 13, 5, 6, 7];\nconsole.log(heapSort(numeros));\n// Salida: [5, 6, 7, 11, 12, 13]\n```"
             ]
         },
         {
@@ -10677,7 +10762,7 @@
                 "como se usa el algoritmo heap sort en js"
             ],
             "responses": [
-                "Aquí tienes un ejemplo de uso del Heap Sort en JavaScript:\n\n```javascript\nconst numeros = [12, 11, 13, 5, 6, 7];\nconsole.log(heapSort(numeros));\n// Salida: [5, 6, 7, 11, 12, 13]\n```"
+                "Aquí tienes un ejemplo de uso del Heap Sort en javascript:\n\n```javascript\nconst numeros = [12, 11, 13, 5, 6, 7];\nconsole.log(heapSort(numeros));\n// Salida: [5, 6, 7, 11, 12, 13]\n```"
             ]
         },
         {
@@ -10716,10 +10801,10 @@
             ],
             "responses": [
                 "Aquí tienes un ejemplo de un ciclo for con la variable declarada en el encabezado:\n\tfor (let i = 0; i < 5; i++) {\n\t\tconsole.log(i);\n\t}",
-                "En JavaScript puedes declarar una variable directamente en el encabezado del for, así:\n\tfor (let contador = 10; contador > 0; contador--) {\n\t\tconsole.log('Cuenta regresiva:', contador);\n\t}",
+                "En javascript puedes declarar una variable directamente en el encabezado del for, así:\n\tfor (let contador = 10; contador > 0; contador--) {\n\t\tconsole.log('Cuenta regresiva:', contador);\n\t}",
                 "La declaración de la variable en el encabezado del ciclo for puede verse así:\n\tfor (let indice = 0; indice < 3; indice++) {\n\t\tconsole.log(`Iteración número: ${indice}`);\n\t}",
                 "Un ejemplo donde se declara la variable en el encabezado del for:\n\tfor (let numero = 1; numero <= 5; numero++) {\n\t\tconsole.log(`Número actual: ${numero}`);\n\t}",
-                "Así puedes declarar una variable en el encabezado del for en JavaScript:\n\tfor (let paso = 0; paso < 4; paso++) {\n\t\tconsole.log(`Paso actual: ${paso}`);\n\t}"
+                "Así puedes declarar una variable en el encabezado del for en javascript:\n\tfor (let paso = 0; paso < 4; paso++) {\n\t\tconsole.log(`Paso actual: ${paso}`);\n\t}"
             ]
         },
         {
@@ -10840,7 +10925,7 @@
                 "ejemplo basico de tupla en js"
             ],
             "responses": [
-                "Una tupla en JavaScript se declara especificando los tipos en un arreglo:\n\tconst tupla  = ['Juan', 25];\n\tconsole.log(tupla);",
+                "Una tupla en javascript se declara especificando los tipos en un arreglo:\n\tconst tupla  = ['Juan', 25];\n\tconsole.log(tupla);",
                 "Puedes usar una tupla para representar datos relacionados:\n\tconst coordenadas = [40.7128, -74.0060];\n\tconsole.log(`Latitud: ${coordenadas[0]}, Longitud: ${coordenadas[1]}`);",
                 "Ejemplo con tipos mixtos:\n\tconst persona = ['Ana', 30, true];\n\tconsole.log(`Nombre: ${persona[0]}, Edad: ${persona[1]}, Activo: ${persona[2]}`);"
             ]
@@ -10855,7 +10940,7 @@
                 "como se estructura un if en js"
             ],
             "responses": [
-                "La estructura básica de un `if` en JavaScript es:\n\tif (condicion) {\n\t\t// código a ejecutar si la condición es verdadera\n\t}\nEjemplo:\n\tif (edad >= 18) {\n\t\tconsole.log('Eres adulto');\n\t}",
+                "La estructura básica de un `if` en javascript es:\n\tif (condicion) {\n\t\t// código a ejecutar si la condición es verdadera\n\t}\nEjemplo:\n\tif (edad >= 18) {\n\t\tconsole.log('Eres adulto');\n\t}",
                 "Un ejemplo sencillo de un `if`:\n\tlet numero = 10;\n\tif (numero > 5) {\n\t\tconsole.log('El número es mayor que 5');\n\t}",
                 "Otro ejemplo donde se utiliza una comparación:\n\tlet temperatura = 30;\n\tif (temperatura > 25) {\n\t\tconsole.log('Hace calor');\n\t}",
                 "Puedes comprobar condiciones lógicas en el `if`:\n\tlet edad = 20;\n\tif (edad >= 18) {\n\t\tconsole.log('Acceso permitido');\n\t}",
@@ -11071,7 +11156,7 @@
             "responses": [
                 "La estructura básica de un `switch` es la siguiente:\n\tlet dia = 2;\n\tswitch (dia) {\n\t\tcase 1:\n\t\t\tconsole.log('Lunes');\n\t\t\tbreak;\n\t\tcase 2:\n\t\t\tconsole.log('Martes');\n\t\t\tbreak;\n\t\tcase 3:\n\t\t\tconsole.log('Miércoles');\n\t\t\tbreak;\n\t\tdefault:\n\t\t\tconsole.log('Día no válido');\n\t}",
                 "Ejemplo básico de un `switch`:\n\tlet mes = 3;\n\tswitch (mes) {\n\t\tcase 1:\n\t\t\tconsole.log('Enero');\n\t\t\tbreak;\n\t\tcase 2:\n\t\t\tconsole.log('Febrero');\n\t\t\tbreak;\n\t\tcase 3:\n\t\t\tconsole.log('Marzo');\n\t\t\tbreak;\n\t\tdefault:\n\t\t\tconsole.log('Mes no válido');\n\t}",
-                "Un `switch` en JavaScript evalúa una expresión y compara su valor con las condiciones (`case`), si coincide ejecuta ese bloque de código:\n\tlet color = 'rojo';\n\tswitch (color) {\n\t\tcase 'rojo':\n\t\t\tconsole.log('Color rojo seleccionado');\n\t\t\tbreak;\n\t\tcase 'azul':\n\t\t\tconsole.log('Color azul seleccionado');\n\t\t\tbreak;\n\t\tdefault:\n\t\t\tconsole.log('Color no reconocido');\n\t}"
+                "Un `switch` en javascript evalúa una expresión y compara su valor con las condiciones (`case`), si coincide ejecuta ese bloque de código:\n\tlet color = 'rojo';\n\tswitch (color) {\n\t\tcase 'rojo':\n\t\t\tconsole.log('Color rojo seleccionado');\n\t\t\tbreak;\n\t\tcase 'azul':\n\t\t\tconsole.log('Color azul seleccionado');\n\t\t\tbreak;\n\t\tdefault:\n\t\t\tconsole.log('Color no reconocido');\n\t}"
             ]
         },
         {
@@ -11126,9 +11211,9 @@
                 "cual es la sintaxis para declarar una funcion en js"
             ],
             "responses": [
-                "La sintaxis básica para declarar una función en JavaScript es la siguiente:\n\tfunction saludo() {\n\t\tconsole.log('Hola, mundo');\n\t}",
-                "Un ejemplo de una función básica en JavaScript:\n\tfunction calcularSuma(a: number, b: number): number {\n\t\treturn a + b;\n\t}",
-                "Para declarar una función en JavaScript, simplemente utiliza la palabra clave `function`:\n\tfunction saludar(nombre: string): void {\n\t\tconsole.log('Hola ' + nombre);\n\t}"
+                "La sintaxis básica para declarar una función en javascript es la siguiente:\n\tfunction saludo() {\n\t\tconsole.log('Hola, mundo');\n\t}",
+                "Un ejemplo de una función básica en javascript:\n\tfunction calcularSuma(a: number, b: number): number {\n\t\treturn a + b;\n\t}",
+                "Para declarar una función en javascript, simplemente utiliza la palabra clave `function`:\n\tfunction saludar(nombre: string): void {\n\t\tconsole.log('Hola ' + nombre);\n\t}"
             ]
         },
         {
@@ -11140,7 +11225,7 @@
                 "como crear una funcion con parametros en javascript"
             ],
             "responses": [
-                "Para declarar una función con parámetros en JavaScript, se colocan los parámetros entre paréntesis después del nombre de la función:\n\tfunction saludar(nombre: string): void {\n\t\tconsole.log('Hola, ' + nombre);\n\t}",
+                "Para declarar una función con parámetros en javascript, se colocan los parámetros entre paréntesis después del nombre de la función:\n\tfunction saludar(nombre: string): void {\n\t\tconsole.log('Hola, ' + nombre);\n\t}",
                 "Ejemplo de una función con parámetros:\n\tfunction multiplicar(a: number, b: number): number {\n\t\treturn a * b;\n\t}",
                 "Los parámetros se definen entre paréntesis en la declaración de la función:\n\tfunction mostrarMensaje(mensaje: string): void {\n\t\tconsole.log(mensaje);\n\t}"
             ]
@@ -11154,9 +11239,9 @@
                 "como devolver un valor de una funcion en javascript"
             ],
             "responses": [
-                "Para especificar el tipo de retorno de una función en JavaScript, se coloca el tipo después de los paréntesis:\n\tfunction sumar(a: number, b: number): number {\n\t\treturn a + b;\n\t}",
+                "Para especificar el tipo de retorno de una función en javascript, se coloca el tipo después de los paréntesis:\n\tfunction sumar(a: number, b: number): number {\n\t\treturn a + b;\n\t}",
                 "Ejemplo de función con tipo de retorno:\n\tfunction obtenerNombre(): string {\n\t\treturn 'Juan';\n\t}",
-                "En JavaScript, puedes especificar el tipo de retorno de la siguiente manera:\n\tfunction esPositivo(numero: number): boolean {\n\t\treturn numero > 0;\n\t}"
+                "En javascript, puedes especificar el tipo de retorno de la siguiente manera:\n\tfunction esPositivo(numero: number): boolean {\n\t\treturn numero > 0;\n\t}"
             ]
         },
         {
@@ -11182,7 +11267,7 @@
                 "que es una funcion anonima en javascript"
             ],
             "responses": [
-                "Una función anónima en JavaScript se declara sin nombre:\n\tlet suma = function(a: number, b: number): number {\n\t\treturn a + b;\n\t};",
+                "Una función anónima en javascript se declara sin nombre:\n\tlet suma = function(a: number, b: number): number {\n\t\treturn a + b;\n\t};",
                 "Ejemplo de función anónima asignada a una variable:\n\tlet saludo = function(nombre: string): void {\n\t\tconsole.log('Hola, ' + nombre);\n\t};",
                 "Una función anónima es útil cuando necesitas pasar una función como argumento o asignarla a una variable:\n\tlet multiplicar = function(a: number, b: number): number {\n\t\treturn a * b;\n\t};"
             ]
@@ -11224,8 +11309,8 @@
                 "cual es la sintaxis para declarar un objeto en js"
             ],
             "responses": [
-                "En JavaScript, puedes declarar un objeto de la siguiente manera:\n\tlet persona = { nombre: 'Juan', edad: 25 };",
-                "Ejemplo básico de un objeto:\n\tlet libro = { titulo: 'JavaScript para principiantes', autor: 'Juan Pérez', anio: 2021 };",
+                "En javascript, puedes declarar un objeto de la siguiente manera:\n\tlet persona = { nombre: 'Juan', edad: 25 };",
+                "Ejemplo básico de un objeto:\n\tlet libro = { titulo: 'javascript para principiantes', autor: 'Juan Pérez', anio: 2021 };",
                 "La sintaxis para declarar un objeto es la siguiente:\n\tlet coche = { marca: 'Toyota', modelo: 'Corolla', anio: 2022 };"
             ]
         },
@@ -11238,9 +11323,9 @@
                 "como declarar un objeto con tipos en js"
             ],
             "responses": [
-                "Para tipar un objeto en JavaScript, puedes usar una interfaz o tipo:\n\tinterface Persona {\n\t\tnombre: string;\n\t\tedad: number;\n\t}\n\tlet persona: Persona = { nombre: 'Juan', edad: 25 };",
+                "Para tipar un objeto en javascript, puedes usar una interfaz o tipo:\n\tinterface Persona {\n\t\tnombre: string;\n\t\tedad: number;\n\t}\n\tlet persona: Persona = { nombre: 'Juan', edad: 25 };",
                 "Puedes tipar un objeto de la siguiente manera:\n\tlet coche: { marca: string; modelo: string; anio: number } = { marca: 'Toyota', modelo: 'Corolla', anio: 2022 };",
-                "Un ejemplo de tipado usando interfaces:\n\tinterface Libro {\n\t\ttitulo: string;\n\t\tautor: string;\n\t}\n\tlet miLibro: Libro = { titulo: 'JavaScript para todos', autor: 'Pedro' };"
+                "Un ejemplo de tipado usando interfaces:\n\tinterface Libro {\n\t\ttitulo: string;\n\t\tautor: string;\n\t}\n\tlet miLibro: Libro = { titulo: 'javascript para todos', autor: 'Pedro' };"
             ]
         },
         {
@@ -11268,7 +11353,7 @@
             "responses": [
                 "Puedes agregar métodos dentro de un objeto de esta manera:\n\tlet persona = {\n\t\tnombre: 'Juan',\n\t\tedad: 25,\n\t\tsaludar: function() {\n\t\t\tconsole.log('Hola, soy ' + this.nombre);\n\t\t}\n\t};",
                 "Ejemplo de un objeto con un método:\n\tlet coche = {\n\t\tmarca: 'Toyota',\n\t\tmodelo: 'Corolla',\n\t\tmostrarInfo: function() {\n\t\t\tconsole.log(this.marca + ' ' + this.modelo);\n\t\t}\n\t};",
-                "Puedes declarar métodos dentro de un objeto utilizando funciones:\n\tlet libro = {\n\t\ttitulo: 'JavaScript',\n\t\tautor: 'Juan',\n\t\timprimirInfo: function() {\n\t\t\tconsole.log(this.titulo + ' por ' + this.autor);\n\t\t}\n\t};"
+                "Puedes declarar métodos dentro de un objeto utilizando funciones:\n\tlet libro = {\n\t\ttitulo: 'javascript',\n\t\tautor: 'Juan',\n\t\timprimirInfo: function() {\n\t\t\tconsole.log(this.titulo + ' por ' + this.autor);\n\t\t}\n\t};"
             ]
         },
         {
@@ -11282,7 +11367,7 @@
             "responses": [
                 "Puedes acceder a las propiedades de un objeto utilizando la notación de punto:\n\tlet persona = { nombre: 'Juan', edad: 25 };\n\tconsole.log(persona.nombre);",
                 "Ejemplo de acceso a propiedades:\n\tlet coche = { marca: 'Toyota', modelo: 'Corolla' };\n\tconsole.log(coche.marca);",
-                "También puedes usar la notación de corchetes para acceder a las propiedades:\n\tlet libro = { titulo: 'JavaScript', autor: 'Juan' };\n\tconsole.log(libro['titulo']);"
+                "También puedes usar la notación de corchetes para acceder a las propiedades:\n\tlet libro = { titulo: 'javascript', autor: 'Juan' };\n\tconsole.log(libro['titulo']);"
             ]
         },
         {
@@ -11296,7 +11381,7 @@
             "responses": [
                 "Puedes modificar una propiedad de un objeto utilizando la notación de punto:\n\tlet persona = { nombre: 'Juan', edad: 25 };\n\tpersona.edad = 30;",
                 "Ejemplo de modificación de una propiedad:\n\tlet coche = { marca: 'Toyota', modelo: 'Corolla' };\n\tcoche.modelo = 'Camry';",
-                "Para cambiar el valor de una propiedad puedes hacer:\n\tlet libro = { titulo: 'JavaScript', autor: 'Juan' };\n\tlibro.titulo = 'JavaScript avanzado';"
+                "Para cambiar el valor de una propiedad puedes hacer:\n\tlet libro = { titulo: 'javascript', autor: 'Juan' };\n\tlibro.titulo = 'javascript avanzado';"
             ]
         },
         {
@@ -11310,7 +11395,7 @@
             "responses": [
                 "Puedes eliminar una propiedad de un objeto utilizando el operador `delete`:\n\tlet persona = { nombre: 'Juan', edad: 25 };\n\tdelete persona.edad;",
                 "Ejemplo de eliminación de una propiedad:\n\tlet coche = { marca: 'Toyota', modelo: 'Corolla' };\n\tdelete coche.modelo;",
-                "Usa el operador `delete` para eliminar propiedades:\n\tlet libro = { titulo: 'JavaScript', autor: 'Juan' };\n\tdelete libro.autor;"
+                "Usa el operador `delete` para eliminar propiedades:\n\tlet libro = { titulo: 'javascript', autor: 'Juan' };\n\tdelete libro.autor;"
             ]
         },
         {
@@ -11324,7 +11409,7 @@
             "responses": [
                 "Puedes declarar propiedades de solo lectura utilizando `readonly`:\n\tinterface Persona {\n\t\treadonly nombre: string;\n\t\tedad: number;\n\t}\n\tlet persona: Persona = { nombre: 'Juan', edad: 25 };",
                 "Ejemplo de objeto con propiedades de solo lectura:\n\tlet coche: { readonly marca: string; modelo: string } = { marca: 'Toyota', modelo: 'Corolla' };",
-                "La palabra clave `readonly` asegura que una propiedad no pueda ser modificada:\n\tlet libro: { readonly titulo: string; autor: string } = { titulo: 'JavaScript', autor: 'Juan' };"
+                "La palabra clave `readonly` asegura que una propiedad no pueda ser modificada:\n\tlet libro: { readonly titulo: string; autor: string } = { titulo: 'javascript', autor: 'Juan' };"
             ]
         },
         {
@@ -11338,7 +11423,7 @@
             "responses": [
                 "Puedes declarar un método dentro de un objeto de esta manera:\n\tlet persona = {\n\t\tnombre: 'Juan',\n\t\tedad: 25,\n\t\tsaludar: function() {\n\t\t\tconsole.log('Hola, soy ' + this.nombre);\n\t\t}\n\t};",
                 "Ejemplo de un objeto con un método:\n\tlet coche = {\n\t\tmarca: 'Toyota',\n\t\tmodelo: 'Corolla',\n\t\tmostrarInfo: function() {\n\t\t\tconsole.log(this.marca + ' ' + this.modelo);\n\t\t}\n\t};",
-                "Puedes declarar métodos dentro de un objeto utilizando funciones:\n\tlet libro = {\n\t\ttitulo: 'JavaScript',\n\t\tautor: 'Juan',\n\t\timprimirInfo: function() {\n\t\t\tconsole.log(this.titulo + ' por ' + this.autor);\n\t\t}\n\t};"
+                "Puedes declarar métodos dentro de un objeto utilizando funciones:\n\tlet libro = {\n\t\ttitulo: 'javascript',\n\t\tautor: 'Juan',\n\t\timprimirInfo: function() {\n\t\t\tconsole.log(this.titulo + ' por ' + this.autor);\n\t\t}\n\t};"
             ]
         },
         {
@@ -11352,7 +11437,7 @@
             "responses": [
                 "Puedes usar una función flecha como método de esta manera:\n\tlet persona = {\n\t\tnombre: 'Juan',\n\t\tedad: 25,\n\t\tsaludar: () => {\n\t\t\tconsole.log('Hola, soy ' + this.nombre);\n\t\t}\n\t};",
                 "Ejemplo de método de flecha:\n\tlet coche = {\n\t\tmarca: 'Toyota',\n\t\tmodelo: 'Corolla',\n\t\tmostrarInfo: () => {\n\t\t\tconsole.log(this.marca + ' ' + this.modelo);\n\t\t}\n\t};",
-                "Los métodos de flecha no tienen su propio `this`, por lo que se puede usar en situaciones como esta:\n\tlet libro = {\n\t\ttitulo: 'JavaScript',\n\t\tautor: 'Juan',\n\t\timprimirInfo: () => {\n\t\t\tconsole.log(this.titulo + ' por ' + this.autor);\n\t\t}\n\t};"
+                "Los métodos de flecha no tienen su propio `this`, por lo que se puede usar en situaciones como esta:\n\tlet libro = {\n\t\ttitulo: 'javascript',\n\t\tautor: 'Juan',\n\t\timprimirInfo: () => {\n\t\t\tconsole.log(this.titulo + ' por ' + this.autor);\n\t\t}\n\t};"
             ]
         },
         {
@@ -11366,7 +11451,7 @@
             "responses": [
                 "Puedes agregar parámetros a un método en un objeto de esta manera:\n\tlet persona = {\n\t\tnombre: 'Juan',\n\t\tedad: 25,\n\t\tcambiarNombre: function(nuevoNombre) {\n\t\t\tthis.nombre = nuevoNombre;\n\t\t}\n\t};",
                 "Ejemplo de un método con parámetros:\n\tlet coche = {\n\t\tmarca: 'Toyota',\n\t\tmodelo: 'Corolla',\n\t\tcambiarModelo: function(nuevoModelo) {\n\t\t\tthis.modelo = nuevoModelo;\n\t\t}\n\t};",
-                "Puedes definir un método con parámetros de esta forma:\n\tlet libro = {\n\t\ttitulo: 'JavaScript',\n\t\tautor: 'Juan',\n\t\tactualizarTitulo: function(nuevoTitulo) {\n\t\t\tthis.titulo = nuevoTitulo;\n\t\t}\n\t};"
+                "Puedes definir un método con parámetros de esta forma:\n\tlet libro = {\n\t\ttitulo: 'javascript',\n\t\tautor: 'Juan',\n\t\tactualizarTitulo: function(nuevoTitulo) {\n\t\t\tthis.titulo = nuevoTitulo;\n\t\t}\n\t};"
             ]
         },
         {
@@ -11380,7 +11465,7 @@
             "responses": [
                 "Para hacer que un método sea de solo lectura puedes utilizar `readonly` en el método:\n\tlet persona = {\n\t\treadonly nombre: string;\n\t\tedad: number,\n\t\tgetNombre: function() {\n\t\t\treturn this.nombre;\n\t\t}\n\t};",
                 "Ejemplo de método de solo lectura:\n\tlet coche = {\n\t\tmarca: 'Toyota',\n\t\tmodelo: 'Corolla',\n\t\tgetMarca: function() {\n\t\t\treturn this.marca;\n\t\t}\n\t};",
-                "Puedes declarar un método de solo lectura así:\n\tlet libro = {\n\t\ttitulo: 'JavaScript',\n\t\tgetTitulo: function() {\n\t\t\treturn this.titulo;\n\t\t}\n\t};"
+                "Puedes declarar un método de solo lectura así:\n\tlet libro = {\n\t\ttitulo: 'javascript',\n\t\tgetTitulo: function() {\n\t\t\treturn this.titulo;\n\t\t}\n\t};"
             ]
         },
         {
@@ -11394,7 +11479,7 @@
             "responses": [
                 "Puedes declarar un método asíncrono en un objeto utilizando `async` y `await`:\n\tlet persona = {\n\t\tnombre: 'Juan',\n\t\tedad: 25,\n\t\tasync obtenerNombre() {\n\t\t\tlet resultado = await fetch('url');\n\t\t\treturn resultado.json();\n\t\t}\n\t};",
                 "Ejemplo de un método asincrono:\n\tlet coche = {\n\t\tmarca: 'Toyota',\n\t\tmodelo: 'Corolla',\n\t\tasync obtenerModelo() {\n\t\t\tlet respuesta = await fetch('url');\n\t\t\treturn respuesta.json();\n\t\t}\n\t};",
-                "Puedes utilizar `async` y `await` para manejar tareas asincrónicas en un método:\n\tlet libro = {\n\t\ttitulo: 'JavaScript',\n\t\tasync obtenerDetalles() {\n\t\t\tlet detalles = await fetch('url');\n\t\t\treturn detalles.json();\n\t\t}\n\t};"
+                "Puedes utilizar `async` y `await` para manejar tareas asincrónicas en un método:\n\tlet libro = {\n\t\ttitulo: 'javascript',\n\t\tasync obtenerDetalles() {\n\t\t\tlet detalles = await fetch('url');\n\t\t\treturn detalles.json();\n\t\t}\n\t};"
             ]
         },
         {
@@ -11422,7 +11507,7 @@
             "responses": [
                 "Dentro de un método, `this` hace referencia al objeto actual:\n\tlet persona = {\n\t\tnombre: 'Juan',\n\t\tedad: 25,\n\t\tmostrarEdad: function() {\n\t\t\tconsole.log(this.edad);\n\t\t}\n\t};",
                 "Ejemplo de uso de `this`:\n\tlet coche = {\n\t\tmarca: 'Toyota',\n\t\tmodelo: 'Corolla',\n\t\tmostrarMarca: function() {\n\t\t\tconsole.log(this.marca);\n\t\t}\n\t};",
-                "Cuando usas `this`, accedes a las propiedades del objeto al que pertenece el método:\n\tlet libro = {\n\t\ttitulo: 'JavaScript',\n\t\tmostrarTitulo: function() {\n\t\t\tconsole.log(this.titulo);\n\t\t}\n\t};"
+                "Cuando usas `this`, accedes a las propiedades del objeto al que pertenece el método:\n\tlet libro = {\n\t\ttitulo: 'javascript',\n\t\tmostrarTitulo: function() {\n\t\t\tconsole.log(this.titulo);\n\t\t}\n\t};"
             ]
         },
         {
@@ -11436,7 +11521,7 @@
             "responses": [
                 "Puedes declarar una interface de esta manera:\n\tinterface Persona {\n\t\tnombre: string;\n\t\tedad: number;\n\t}\n\tlet persona: Persona = {\n\t\tnombre: 'Juan',\n\t\tedad: 25\n\t};",
                 "Ejemplo básico de una interface:\n\tinterface Coche {\n\t\tmarca: string;\n\t\tmodelo: string;\n\t}\n\tlet coche: Coche = {\n\t\tmarca: 'Toyota',\n\t\tmodelo: 'Corolla'\n\t};",
-                "Una interface se declara así:\n\tinterface Libro {\n\t\ttitulo: string;\n\t\tautor: string;\n\t}\n\tlet libro: Libro = {\n\t\ttitulo: 'JavaScript',\n\t\tautor: 'Juan'\n\t};"
+                "Una interface se declara así:\n\tinterface Libro {\n\t\ttitulo: string;\n\t\tautor: string;\n\t}\n\tlet libro: Libro = {\n\t\ttitulo: 'javascript',\n\t\tautor: 'Juan'\n\t};"
             ]
         },
         {
@@ -11450,7 +11535,7 @@
             "responses": [
                 "Puedes extender una interface utilizando `extends`:\n\tinterface Persona {\n\t\tnombre: string;\n\t\tedad: number;\n\t}\n\tinterface Empleado extends Persona {\n\t\tpuesto: string;\n\t}\n\tlet empleado: Empleado = {\n\t\tnombre: 'Juan',\n\t\tedad: 25,\n\t\tpuesto: 'Desarrollador'\n\t};",
                 "Ejemplo de extensión de interfaces:\n\tinterface Coche {\n\t\tmarca: string;\n\t\tmodelo: string;\n\t}\n\tinterface Deportivo extends Coche {\n\t\tvelocidadMaxima: number;\n\t}\n\tlet cocheDeportivo: Deportivo = {\n\t\tmarca: 'Ferrari',\n\t\tmodelo: 'F8',\n\t\tvelocidadMaxima: 340\n\t};",
-                "Una interface puede extender a otra para agregar más propiedades:\n\tinterface Libro {\n\t\ttitulo: string;\n\t\tautor: string;\n\t}\n\tinterface Ebook extends Libro {\n\t\ttamanoMB: number;\n\t}\n\tlet ebook: Ebook = {\n\t\ttitulo: 'JavaScript',\n\t\tautor: 'Juan',\n\t\ttamanoMB: 10\n\t};"
+                "Una interface puede extender a otra para agregar más propiedades:\n\tinterface Libro {\n\t\ttitulo: string;\n\t\tautor: string;\n\t}\n\tinterface Ebook extends Libro {\n\t\ttamanoMB: number;\n\t}\n\tlet ebook: Ebook = {\n\t\ttitulo: 'javascript',\n\t\tautor: 'Juan',\n\t\ttamanoMB: 10\n\t};"
             ]
         },
         {
@@ -11464,7 +11549,7 @@
             "responses": [
                 "Puedes declarar métodos dentro de una interface de esta manera:\n\tinterface Persona {\n\t\tnombre: string;\n\t\tedad: number;\n\t\tsaludar(): void;\n\t}\n\tlet persona: Persona = {\n\t\tnombre: 'Juan',\n\t\tedad: 25,\n\t\tsaludar: function() {\n\t\t\tconsole.log('Hola, soy ' + this.nombre);\n\t\t}\n\t};",
                 "Ejemplo de una interface con método:\n\tinterface Coche {\n\t\tmarca: string;\n\t\tmodelo: string;\n\t\tmostrarInfo(): void;\n\t}\n\tlet coche: Coche = {\n\t\tmarca: 'Toyota',\n\t\tmodelo: 'Corolla',\n\t\tmostrarInfo: function() {\n\t\t\tconsole.log(this.marca + ' ' + this.modelo);\n\t\t}\n\t};",
-                "Puedes declarar una interface con un método como este:\n\tinterface Libro {\n\t\ttitulo: string;\n\t\tautor: string;\n\t\timprimirInfo(): void;\n\t}\n\tlet libro: Libro = {\n\t\ttitulo: 'JavaScript',\n\t\tautor: 'Juan',\n\t\timprimirInfo: function() {\n\t\t\tconsole.log(this.titulo + ' por ' + this.autor);\n\t\t}\n\t};"
+                "Puedes declarar una interface con un método como este:\n\tinterface Libro {\n\t\ttitulo: string;\n\t\tautor: string;\n\t\timprimirInfo(): void;\n\t}\n\tlet libro: Libro = {\n\t\ttitulo: 'javascript',\n\t\tautor: 'Juan',\n\t\timprimirInfo: function() {\n\t\t\tconsole.log(this.titulo + ' por ' + this.autor);\n\t\t}\n\t};"
             ]
         },
         {
@@ -11478,7 +11563,7 @@
             "responses": [
                 "Puedes hacer que una propiedad sea opcional usando el signo `?`:\n\tinterface Persona {\n\t\tnombre: string;\n\t\tedad?: number;\n\t}\n\tlet persona: Persona = {\n\t\tnombre: 'Juan'\n\t};",
                 "Ejemplo de propiedad opcional en una interface:\n\tinterface Coche {\n\t\tmarca: string;\n\t\tmodelo: string;\n\t\tcolor?: string;\n\t}\n\tlet coche: Coche = {\n\t\tmarca: 'Toyota',\n\t\tmodelo: 'Corolla'\n\t};",
-                "Para declarar propiedades opcionales puedes usar `?`:\n\tinterface Libro {\n\t\ttitulo: string;\n\t\tautor: string;\n\t\tfechaPublicacion?: string;\n\t}\n\tlet libro: Libro = {\n\t\ttitulo: 'JavaScript',\n\t\tautor: 'Juan'\n\t};"
+                "Para declarar propiedades opcionales puedes usar `?`:\n\tinterface Libro {\n\t\ttitulo: string;\n\t\tautor: string;\n\t\tfechaPublicacion?: string;\n\t}\n\tlet libro: Libro = {\n\t\ttitulo: 'javascript',\n\t\tautor: 'Juan'\n\t};"
             ]
         },
         {
@@ -11492,7 +11577,7 @@
             "responses": [
                 "Puedes hacer que una propiedad sea de solo lectura utilizando `readonly`:\n\tinterface Persona {\n\t\treadonly nombre: string;\n\t\tedad: number;\n\t}\n\tlet persona: Persona = {\n\t\tnombre: 'Juan',\n\t\tedad: 25\n\t};",
                 "Ejemplo de propiedad de solo lectura:\n\tinterface Coche {\n\t\treadonly marca: string;\n\t\tmodelo: string;\n\t}\n\tlet coche: Coche = {\n\t\tmarca: 'Toyota',\n\t\tmodelo: 'Corolla'\n\t};",
-                "Para declarar propiedades de solo lectura puedes usar `readonly`:\n\tinterface Libro {\n\t\treadonly titulo: string;\n\t\tautor: string;\n\t}\n\tlet libro: Libro = {\n\t\ttitulo: 'JavaScript',\n\t\tautor: 'Juan'\n\t};"
+                "Para declarar propiedades de solo lectura puedes usar `readonly`:\n\tinterface Libro {\n\t\treadonly titulo: string;\n\t\tautor: string;\n\t}\n\tlet libro: Libro = {\n\t\ttitulo: 'javascript',\n\t\tautor: 'Juan'\n\t};"
             ]
         },
         {
@@ -11506,7 +11591,7 @@
             "responses": [
                 "Puedes declarar índices utilizando la siguiente sintaxis:\n\tinterface Persona {\n\t\t[nombre: string]: number;\n\t}\n\tlet edades: Persona = {\n\t\t'Juan': 25,\n\t\t'Ana': 30\n\t};",
                 "Ejemplo con índice en una interface:\n\tinterface Coche {\n\t\t[modelo: string]: number;\n\t}\n\tlet precios: Coche = {\n\t\t'Corolla': 25000,\n\t\t'Camry': 35000\n\t};",
-                "Para usar índices en una interface puedes hacer lo siguiente:\n\tinterface Libro {\n\t\t[autor: string]: string;\n\t}\n\tlet autoresLibros: Libro = {\n\t\t'Juan': 'JavaScript',\n\t\t'Pedro': 'JavaScript'\n\t};"
+                "Para usar índices en una interface puedes hacer lo siguiente:\n\tinterface Libro {\n\t\t[autor: string]: string;\n\t}\n\tlet autoresLibros: Libro = {\n\t\t'Juan': 'javascript',\n\t\t'Pedro': 'javascript'\n\t};"
             ]
         },
         {
@@ -11520,7 +11605,7 @@
             "responses": [
                 "Puedes utilizar una interface para definir los parámetros de una función:\n\tinterface Persona {\n\t\tnombre: string;\n\t\tedad: number;\n\t}\n\tfunction saludar(persona: Persona) {\n\t\tconsole.log('Hola, ' + persona.nombre);\n\t}\n\tsaludar({nombre: 'Juan', edad: 25});",
                 "Ejemplo de función con una interface:\n\tinterface Coche {\n\t\tmarca: string;\n\t\tmodelo: string;\n\t}\n\tfunction mostrarCoche(coche: Coche) {\n\t\tconsole.log(coche.marca + ' ' + coche.modelo);\n\t}\n\tmostrarCoche({marca: 'Toyota', modelo: 'Corolla'});",
-                "Puedes utilizar interfaces para definir los tipos de las funciones:\n\tinterface Libro {\n\t\ttitulo: string;\n\t\tautor: string;\n\t}\n\tfunction imprimirInfo(libro: Libro) {\n\t\tconsole.log(libro.titulo + ' por ' + libro.autor);\n\t}\n\timprimirInfo({titulo: 'JavaScript', autor: 'Juan'});"
+                "Puedes utilizar interfaces para definir los tipos de las funciones:\n\tinterface Libro {\n\t\ttitulo: string;\n\t\tautor: string;\n\t}\n\tfunction imprimirInfo(libro: Libro) {\n\t\tconsole.log(libro.titulo + ' por ' + libro.autor);\n\t}\n\timprimirInfo({titulo: 'javascript', autor: 'Juan'});"
             ]
         },
         {
@@ -11534,7 +11619,7 @@
             "responses": [
                 "Puedes utilizar una interface para definir los parámetros de una función:\n\tinterface Persona {\n\t\tnombre: string;\n\t\tedad: number;\n\t}\n\tfunction saludar(persona: Persona) {\n\t\tconsole.log('Hola, ' + persona.nombre);\n\t}\n\tsaludar({nombre: 'Juan', edad: 25});",
                 "Ejemplo de función con una interface:\n\tinterface Coche {\n\t\tmarca: string;\n\t\tmodelo: string;\n\t}\n\tfunction mostrarCoche(coche: Coche) {\n\t\tconsole.log(coche.marca + ' ' + coche.modelo);\n\t}\n\tmostrarCoche({marca: 'Toyota', modelo: 'Corolla'});",
-                "Puedes utilizar interfaces para definir los tipos de las funciones:\n\tinterface Libro {\n\t\ttitulo: string;\n\t\tautor: string;\n\t}\n\tfunction imprimirInfo(libro: Libro) {\n\t\tconsole.log(libro.titulo + ' por ' + libro.autor);\n\t}\n\timprimirInfo({titulo: 'JavaScript', autor: 'Juan'});"
+                "Puedes utilizar interfaces para definir los tipos de las funciones:\n\tinterface Libro {\n\t\ttitulo: string;\n\t\tautor: string;\n\t}\n\tfunction imprimirInfo(libro: Libro) {\n\t\tconsole.log(libro.titulo + ' por ' + libro.autor);\n\t}\n\timprimirInfo({titulo: 'javascript', autor: 'Juan'});"
             ]
         },
         {
@@ -11548,7 +11633,7 @@
             "responses": [
                 "Puedes declarar un enum de esta manera:\n\tenum Direccion {\n\t\tArriba,\n\t\tAbajo,\n\t\tIzquierda,\n\t\tDerecha\n\t}\n\tlet miDireccion: Direccion = Direccion.Arriba;",
                 "Ejemplo básico de un enum:\n\tenum Estado {\n\t\tActivo,\n\t\tInactivo,\n\t\tPendiente\n\t}\n\tlet estadoUsuario: Estado = Estado.Activo;",
-                "Un enum en JavaScript se declara así:\n\tenum Color {\n\t\tRojo,\n\t\tVerde,\n\t\tAzul\n\t}\n\tlet colorFavorito: Color = Color.Verde;"
+                "Un enum en javascript se declara así:\n\tenum Color {\n\t\tRojo,\n\t\tVerde,\n\t\tAzul\n\t}\n\tlet colorFavorito: Color = Color.Verde;"
             ]
         },
         {
@@ -11748,7 +11833,7 @@
                 "como implemento la busqueda binaria en javascript"
             ],
             "responses": [
-                "La búsqueda binaria es un algoritmo eficiente para encontrar un elemento en un arreglo ordenado. Se divide el rango de búsqueda a la mitad en cada paso. Aquí tienes el código básico en JavaScript:\n\n```javascript\nfunction busquedaBinaria(arreglo, valorBuscado) {\n    let inicio = 0;\n    let fin = arreglo.length - 1;\n\n    while (inicio <= fin) {\n        let medio = Math.floor((inicio + fin) / 2);\n\n        if (arreglo[medio] === valorBuscado) {\n            return medio; // Devuelve el índice si encuentra el valor\n        } else if (arreglo[medio] < valorBuscado) {\n            inicio = medio + 1; // Ajusta el inicio\n        } else {\n            fin = medio - 1; // Ajusta el final\n        }\n    }\n\n    return -1; // Retorna -1 si el valor no está presente\n}\n\n// Ejemplo de uso\nconst numeros = [1, 3, 5, 7, 9];\nconst resultado = busquedaBinaria(numeros, 7);\nconsole.log(resultado); // Salida: 3\n```"
+                "La búsqueda binaria es un algoritmo eficiente para encontrar un elemento en un arreglo ordenado. Se divide el rango de búsqueda a la mitad en cada paso. Aquí tienes el código básico en javascript:\n\n```javascript\nfunction busquedaBinaria(arreglo, valorBuscado) {\n    let inicio = 0;\n    let fin = arreglo.length - 1;\n\n    while (inicio <= fin) {\n        let medio = Math.floor((inicio + fin) / 2);\n\n        if (arreglo[medio] === valorBuscado) {\n            return medio; // Devuelve el índice si encuentra el valor\n        } else if (arreglo[medio] < valorBuscado) {\n            inicio = medio + 1; // Ajusta el inicio\n        } else {\n            fin = medio - 1; // Ajusta el final\n        }\n    }\n\n    return -1; // Retorna -1 si el valor no está presente\n}\n\n// Ejemplo de uso\nconst numeros = [1, 3, 5, 7, 9];\nconst resultado = busquedaBinaria(numeros, 7);\nconsole.log(resultado); // Salida: 3\n```"
             ]
         },
         {
@@ -11761,7 +11846,7 @@
                 "dame la parte donde se define la funcion en la busqueda binaria en js"
             ],
             "responses": [
-                "La función de búsqueda binaria en JavaScript se define así:\n\n```javascript\nfunction busquedaBinaria(arreglo, valorBuscado) {\n    // Aquí va el cuerpo del algoritmo\n}\n```"
+                "La función de búsqueda binaria en javascript se define así:\n\n```javascript\nfunction busquedaBinaria(arreglo, valorBuscado) {\n    // Aquí va el cuerpo del algoritmo\n}\n```"
             ]
         },
         {
@@ -11852,7 +11937,7 @@
                 "como implemento el algoritmo de burbuja en javascript"
             ],
             "responses": [
-                "El ordenamiento por burbuja es un algoritmo que compara elementos adyacentes en un arreglo y los intercambia si están en el orden incorrecto. Esto se repite hasta que el arreglo esté completamente ordenado. Aquí tienes el código en JavaScript:\n\n```javascript\nfunction ordenamientoBurbuja(arr) {\n    let n = arr.length;\n    for (let i = 0; i < n - 1; i++) {\n        for (let j = 0; j < n - i - 1; j++) {\n            if (arr[j] > arr[j + 1]) {\n                // Intercambio de elementos\n                let temp = arr[j];\n                arr[j] = arr[j + 1];\n                arr[j + 1] = temp;\n            }\n        }\n    }\n    return arr;\n}\n\n// Ejemplo de uso\nconst numeros = [64, 34, 25, 12, 22, 11, 90];\nconsole.log(ordenamientoBurbuja(numeros));\n// Salida: [11, 12, 22, 25, 34, 64, 90]\n```"
+                "El ordenamiento por burbuja es un algoritmo que compara elementos adyacentes en un arreglo y los intercambia si están en el orden incorrecto. Esto se repite hasta que el arreglo esté completamente ordenado. Aquí tienes el código en javascript:\n\n```javascript\nfunction ordenamientoBurbuja(arr) {\n    let n = arr.length;\n    for (let i = 0; i < n - 1; i++) {\n        for (let j = 0; j < n - i - 1; j++) {\n            if (arr[j] > arr[j + 1]) {\n                // Intercambio de elementos\n                let temp = arr[j];\n                arr[j] = arr[j + 1];\n                arr[j + 1] = temp;\n            }\n        }\n    }\n    return arr;\n}\n\n// Ejemplo de uso\nconst numeros = [64, 34, 25, 12, 22, 11, 90];\nconsole.log(ordenamientoBurbuja(numeros));\n// Salida: [11, 12, 22, 25, 34, 64, 90]\n```"
             ]
         },
         {
@@ -11865,7 +11950,7 @@
                 "dame la parte donde se define la funcion en el algoritmo de burbuja en js"
             ],
             "responses": [
-                "La función del ordenamiento burbuja en JavaScript se define así:\n\n```javascript\nfunction ordenamientoBurbuja(arr) {\n    // Aquí va el cuerpo del algoritmo\n}\n```"
+                "La función del ordenamiento burbuja en javascript se define así:\n\n```javascript\nfunction ordenamientoBurbuja(arr) {\n    // Aquí va el cuerpo del algoritmo\n}\n```"
             ]
         },
         {
@@ -11943,7 +12028,7 @@
                 "como implemento el quick sort en javascript"
             ],
             "responses": [
-                "El Quick Sort es un algoritmo de ordenamiento que utiliza el enfoque de dividir y conquistar. Divide el arreglo en subarreglos usando un elemento como pivote, colocando los elementos menores a la izquierda y los mayores a la derecha. Luego aplica recursividad para ordenar las partes. Aquí tienes el código completo en JavaScript:\n\n```javascript\nfunction quickSort(arr) {\n    if (arr.length <= 1) {\n        return arr;\n    }\n    const pivot = arr[arr.length - 1];\n    const left = [];\n    const right = [];\n    for (let i = 0; i < arr.length - 1; i++) {\n        if (arr[i] < pivot) {\n            left.push(arr[i]);\n        } else {\n            right.push(arr[i]);\n        }\n    }\n    return [...quickSort(left), pivot, ...quickSort(right)];\n}\n\n// Ejemplo de uso\nconst numeros = [34, 7, 23, 32, 5, 62];\nconsole.log(quickSort(numeros));\n// Salida: [5, 7, 23, 32, 34, 62]\n```\n"
+                "El Quick Sort es un algoritmo de ordenamiento que utiliza el enfoque de dividir y conquistar. Divide el arreglo en subarreglos usando un elemento como pivote, colocando los elementos menores a la izquierda y los mayores a la derecha. Luego aplica recursividad para ordenar las partes. Aquí tienes el código completo en javascript:\n\n```javascript\nfunction quickSort(arr) {\n    if (arr.length <= 1) {\n        return arr;\n    }\n    const pivot = arr[arr.length - 1];\n    const left = [];\n    const right = [];\n    for (let i = 0; i < arr.length - 1; i++) {\n        if (arr[i] < pivot) {\n            left.push(arr[i]);\n        } else {\n            right.push(arr[i]);\n        }\n    }\n    return [...quickSort(left), pivot, ...quickSort(right)];\n}\n\n// Ejemplo de uso\nconst numeros = [34, 7, 23, 32, 5, 62];\nconsole.log(quickSort(numeros));\n// Salida: [5, 7, 23, 32, 34, 62]\n```\n"
             ]
         },
         {
@@ -11956,7 +12041,7 @@
                 "dame la parte donde se define la funcion en el quick sort en js"
             ],
             "responses": [
-                "La definición de la función Quick Sort en JavaScript es esta:\n\n```javascript\nfunction quickSort(arr) {\n    // Aquí va el cuerpo del algoritmo\n}\n```\n"
+                "La definición de la función Quick Sort en javascript es esta:\n\n```javascript\nfunction quickSort(arr) {\n    // Aquí va el cuerpo del algoritmo\n}\n```\n"
             ]
         },
         {
@@ -12060,7 +12145,7 @@
                 "como implemento el merge sort en javascript"
             ],
             "responses": [
-                "El Merge Sort es un algoritmo de ordenamiento que utiliza el enfoque de dividir y conquistar. Divide el arreglo en partes más pequeñas, las ordena y luego las combina. Aquí tienes el código completo en JavaScript:\n\n```javascript\nfunction mergeSort(arr) {\n    if (arr.length <= 1) {\n        return arr;\n    }\n    const mid = Math.floor(arr.length / 2);\n    const left = arr.slice(0, mid);\n    const right = arr.slice(mid);\n    return merge(mergeSort(left), mergeSort(right));\n}\n\nfunction merge(left, right) {\n    const result = [];\n    while (left.length && right.length) {\n        if (left[0] < right[0]) {\n            result.push(left.shift());\n        } else {\n            result.push(right.shift());\n        }\n    }\n    return [...result, ...left, ...right];\n}\n\n// Ejemplo de uso\nconst numeros = [38, 27, 43, 3, 9, 82, 10];\nconsole.log(mergeSort(numeros));\n// Salida: [3, 9, 10, 27, 38, 43, 82]\n```\n"
+                "El Merge Sort es un algoritmo de ordenamiento que utiliza el enfoque de dividir y conquistar. Divide el arreglo en partes más pequeñas, las ordena y luego las combina. Aquí tienes el código completo en javascript:\n\n```javascript\nfunction mergeSort(arr) {\n    if (arr.length <= 1) {\n        return arr;\n    }\n    const mid = Math.floor(arr.length / 2);\n    const left = arr.slice(0, mid);\n    const right = arr.slice(mid);\n    return merge(mergeSort(left), mergeSort(right));\n}\n\nfunction merge(left, right) {\n    const result = [];\n    while (left.length && right.length) {\n        if (left[0] < right[0]) {\n            result.push(left.shift());\n        } else {\n            result.push(right.shift());\n        }\n    }\n    return [...result, ...left, ...right];\n}\n\n// Ejemplo de uso\nconst numeros = [38, 27, 43, 3, 9, 82, 10];\nconsole.log(mergeSort(numeros));\n// Salida: [3, 9, 10, 27, 38, 43, 82]\n```\n"
             ]
         },
         {
@@ -12281,7 +12366,7 @@
                 "como implemento la busqueda en profundidad en javascript"
             ],
             "responses": [
-                "La búsqueda en profundidad (DFS) es un algoritmo que explora tanto como sea posible por un camino antes de retroceder. Aquí tienes una implementación básica en JavaScript:\n\n```javascript\nfunction dfs(graph, start, visited = new Set()) {\n    console.log(start);\n    visited.add(start);\n\n    for (const neighbor of graph[start]) {\n        if (!visited.has(neighbor)) {\n            dfs(graph, neighbor, visited);\n        }\n    }\n}\n\n// Ejemplo de uso\nconst graph = {\n    A: ['B', 'C'],\n    B: ['D', 'E'],\n    C: ['F'],\n    D: [],\n    E: ['F'],\n    F: []\n};\ndfs(graph, 'A');\n```\nEste código imprimirá los nodos visitados en el orden DFS."
+                "La búsqueda en profundidad (DFS) es un algoritmo que explora tanto como sea posible por un camino antes de retroceder. Aquí tienes una implementación básica en javascript:\n\n```javascript\nfunction dfs(graph, start, visited = new Set()) {\n    console.log(start);\n    visited.add(start);\n\n    for (const neighbor of graph[start]) {\n        if (!visited.has(neighbor)) {\n            dfs(graph, neighbor, visited);\n        }\n    }\n}\n\n// Ejemplo de uso\nconst graph = {\n    A: ['B', 'C'],\n    B: ['D', 'E'],\n    C: ['F'],\n    D: [],\n    E: ['F'],\n    F: []\n};\ndfs(graph, 'A');\n```\nEste código imprimirá los nodos visitados en el orden DFS."
             ]
         },
         {
@@ -12294,7 +12379,7 @@
                 "dame la parte donde se define la funcion de busqueda en profundidad en js"
             ],
             "responses": [
-                "La función principal de DFS en JavaScript se define así:\n\n```javascript\nfunction dfs(graph, start, visited = new Set()) {\n    // Cuerpo del algoritmo aquí\n}\n```\n"
+                "La función principal de DFS en javascript se define así:\n\n```javascript\nfunction dfs(graph, start, visited = new Set()) {\n    // Cuerpo del algoritmo aquí\n}\n```\n"
             ]
         },
         {
@@ -12437,7 +12522,7 @@
                 "como implemento el heap sort en javascript"
             ],
             "responses": [
-                "El algoritmo de Heap Sort es un algoritmo de ordenamiento que utiliza la estructura de datos de un heap (montículo). Primero construye un heap máximo a partir del arreglo, luego intercambia el primer elemento (el máximo) con el último, reduce el tamaño del heap y aplica heapify nuevamente. Aquí tienes el código completo en JavaScript:\n\n```javascript\nfunction heapSort(arr) {\n\tlet n = arr.length;\n\n\t// Construir un heap máximo\n\tfor (let i = Math.floor(n / 2) - 1; i >= 0; i--) {\n\t\theapify(arr, n, i);\n\t}\n\n\t// Extraer elementos del heap uno por uno\n\tfor (let i = n - 1; i > 0; i--) {\n\t\t// Mover el máximo actual al final\n\t\t[arr[0], arr[i]] = [arr[i], arr[0]];\n\n\t\t// Aplicar heapify al heap reducido\n\t\theapify(arr, i, 0);\n\t}\n\n\treturn arr;\n}\n\nfunction heapify(arr, n, i) {\n\tlet largest = i;\n\tconst left = 2 * i + 1;\n\tconst right = 2 * i + 2;\n\n\t// Si el hijo izquierdo es más grande que el nodo raíz\n\tif (left < n && arr[left] > arr[largest]) {\n\t\tlargest = left;\n\t}\n\n\t// Si el hijo derecho es más grande que el nodo raíz\n\tif (right < n && arr[right] > arr[largest]) {\n\t\tlargest = right;\n\t}\n\n\t// Si el nodo raíz no es el más grande\n\tif (largest !== i) {\n\t\t[arr[i], arr[largest]] = [arr[largest], arr[i]];\n\t\theapify(arr, n, largest);\n\t}\n}\n\n// Ejemplo de uso\nconst numeros = [12, 11, 13, 5, 6, 7];\nconsole.log(heapSort(numeros));\n// Salida: [5, 6, 7, 11, 12, 13]\n```"
+                "El algoritmo de Heap Sort es un algoritmo de ordenamiento que utiliza la estructura de datos de un heap (montículo). Primero construye un heap máximo a partir del arreglo, luego intercambia el primer elemento (el máximo) con el último, reduce el tamaño del heap y aplica heapify nuevamente. Aquí tienes el código completo en javascript:\n\n```javascript\nfunction heapSort(arr) {\n\tlet n = arr.length;\n\n\t// Construir un heap máximo\n\tfor (let i = Math.floor(n / 2) - 1; i >= 0; i--) {\n\t\theapify(arr, n, i);\n\t}\n\n\t// Extraer elementos del heap uno por uno\n\tfor (let i = n - 1; i > 0; i--) {\n\t\t// Mover el máximo actual al final\n\t\t[arr[0], arr[i]] = [arr[i], arr[0]];\n\n\t\t// Aplicar heapify al heap reducido\n\t\theapify(arr, i, 0);\n\t}\n\n\treturn arr;\n}\n\nfunction heapify(arr, n, i) {\n\tlet largest = i;\n\tconst left = 2 * i + 1;\n\tconst right = 2 * i + 2;\n\n\t// Si el hijo izquierdo es más grande que el nodo raíz\n\tif (left < n && arr[left] > arr[largest]) {\n\t\tlargest = left;\n\t}\n\n\t// Si el hijo derecho es más grande que el nodo raíz\n\tif (right < n && arr[right] > arr[largest]) {\n\t\tlargest = right;\n\t}\n\n\t// Si el nodo raíz no es el más grande\n\tif (largest !== i) {\n\t\t[arr[i], arr[largest]] = [arr[largest], arr[i]];\n\t\theapify(arr, n, largest);\n\t}\n}\n\n// Ejemplo de uso\nconst numeros = [12, 11, 13, 5, 6, 7];\nconsole.log(heapSort(numeros));\n// Salida: [5, 6, 7, 11, 12, 13]\n```"
             ]
         },
         {
@@ -12528,7 +12613,7 @@
                 "como se usa el algoritmo heap sort en js"
             ],
             "responses": [
-                "Aquí tienes un ejemplo de uso del Heap Sort en JavaScript:\n\n```javascript\nconst numeros = [12, 11, 13, 5, 6, 7];\nconsole.log(heapSort(numeros));\n// Salida: [5, 6, 7, 11, 12, 13]\n```"
+                "Aquí tienes un ejemplo de uso del Heap Sort en javascript:\n\n```javascript\nconst numeros = [12, 11, 13, 5, 6, 7];\nconsole.log(heapSort(numeros));\n// Salida: [5, 6, 7, 11, 12, 13]\n```"
             ]
         },
         {
@@ -13270,6 +13355,20 @@
             ],
             "responses": [
                 "La función del ordenamiento burbuja en Python se define así:\n\n```python\ndef ordenamiento_burbuja(arr):\n    # Aquí va el cuerpo del algoritmo\n```"
+            ]
+        },
+        {
+            "tag": "ordenamiento_burbuja_python",
+            "patterns": [
+                "como funciona el ordenamiento burbuja en python",
+                "que es el algoritmo de ordenamiento burbuja en python",
+                "puedes explicarme el algoritmo de ordenamiento burbuja en python",
+                "dame el codigo del ordenamiento burbuja en python",
+                "como implemento el ordenamiento burbuja en python"
+            ],
+            "responses": [
+                "El ordenamiento burbuja es un algoritmo simple que compara pares de elementos adyacentes y los intercambia si están en el orden incorrecto. Aquí tienes el código básico en Python:\n\n```python\ndef ordenamiento_burbuja(arr):\n    n = len(arr)\n    for i in range(n - 1):\n        for j in range(n - i - 1):\n            if arr[j] > arr[j + 1]:\n                temp = arr[j]\n                arr[j] = arr[j + 1]\n                arr[j + 1] = temp\n```"
+                
             ]
         },
         {
