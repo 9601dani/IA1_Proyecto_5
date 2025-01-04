@@ -2728,12 +2728,13 @@
             ]
         },
         {
-            "tag": "python",
+            "tag": "python_es",
             "patterns": [
                 "que es python",
                 "que significa python",
                 "que es un lenguaje de programacion python",
-                "python"
+                "python",
+                "dime que es el lenguaje de programacion python"
             ],
             "responses": [
                 "es un lenguaje de programacion de alto nivel, interpretado y multiproposito",
@@ -2755,7 +2756,7 @@
             ]
         },
         {
-            "tag": "java",
+            "tag": "java_es",
             "patterns": [
                 "que es java",
                 "que significa java",
@@ -2782,7 +2783,7 @@
             ]
         },
         {
-            "tag": "javascript",
+            "tag": "javascript_es",
             "patterns": [
                 "que es javascript",
                 "que significa javascript",
@@ -7224,7 +7225,7 @@
             ]
         },
         {
-            "tag": "python",
+            "tag": "python_en",
             "patterns": [
                 "what is python",
                 "what does python mean",
@@ -7251,7 +7252,7 @@
             ]
         },
         {
-            "tag": "Java",
+            "tag": "Java_en",
             "patterns": [
                 "what is java",
                 "what does java mean",
@@ -7278,7 +7279,7 @@
             ]
         },
         {
-            "tag": "javascript",
+            "tag": "javascript_en",
             "patterns": [
                 "what is javascript",
                 "what does javascript mean",
@@ -10093,7 +10094,7 @@
             "tag": "definicion_funcion_ordenamiento_burbuja_js",
             "patterns": [
                 "como se define la funcion en el ordenamiento burbuja en javascript",
-                "puedes darme solo la parte donde se define la funcion en el algoritmo de burbuja",
+                "puedes darme solo la parte donde se define la funcion en el algoritmo de burbuja en javascript",
                 "como empieza el ordenamiento burbuja en js",
                 "quiero ver la cabecera de la funcion de ordenamiento burbuja en javascript",
                 "dame la parte donde se define la funcion en el algoritmo de burbuja en js"
@@ -10106,7 +10107,7 @@
             "tag": "inicializacion_variable_n_ordenamiento_burbuja_js",
             "patterns": [
                 "como se inicializa la variable n en el ordenamiento burbuja en javascript",
-                "puedes darme la parte donde se inicializa n en el algoritmo de burbuja",
+                "puedes darme la parte donde se inicializa n en el algoritmo de burbuja en javascript",
                 "como se establece el tamano del arreglo en el algoritmo de burbuja en js",
                 "quiero ver como se inicializa n en ordenamiento burbuja en javascript",
                 "dame la parte donde se inicializa n en el algoritmo de burbuja en js"
@@ -10119,7 +10120,7 @@
             "tag": "estructura_bucle_anidado_burbuja_js",
             "patterns": [
                 "como funcionan los bucles en el ordenamiento burbuja en javascript",
-                "puedes darme la parte del bucle en el algoritmo de burbuja",
+                "puedes darme la parte del bucle en el algoritmo de burbuja en javascript",
                 "como son los ciclos en el algoritmo de burbuja en js",
                 "quiero ver el bucle anidado del ordenamiento burbuja en javascript",
                 "dame la parte de los ciclos en el algoritmo de burbuja en js"
@@ -10132,7 +10133,7 @@
             "tag": "condicion_comparacion_burbuja_js",
             "patterns": [
                 "como se comparan los elementos en el ordenamiento burbuja en javascript",
-                "puedes darme solo la parte donde se comparan los elementos en el algoritmo de burbuja",
+                "puedes darme solo la parte donde se comparan los elementos en el algoritmo de burbuja en javascript",
                 "como funciona la condicion del if en el algoritmo de burbuja en js",
                 "quiero ver la comparacion entre elementos en el ordenamiento burbuja en javascript",
                 "dame la parte del if en el algoritmo de burbuja en js"
@@ -10145,7 +10146,7 @@
             "tag": "intercambio_elementos_burbuja_js",
             "patterns": [
                 "como se intercambian los elementos en el ordenamiento burbuja en javascript",
-                "puedes darme solo la parte del intercambio en el algoritmo de burbuja",
+                "puedes darme solo la parte del intercambio en el algoritmo de burbuja en javascript",
                 "como se hace el swap en el algoritmo de burbuja en js",
                 "quiero ver como se intercambian los elementos en el ordenamiento burbuja en javascript",
                 "dame la parte del intercambio en el algoritmo de burbuja en js"
@@ -10301,7 +10302,7 @@
             "tag": "definicion_funcion_merge_sort_js",
             "patterns": [
                 "como se define la funcion en el merge sort en javascript",
-                "puedes darme solo la parte donde se define la funcion en el merge sort",
+                "puedes darme solo la parte donde se define la funcion en el merge sort en js",
                 "como empieza el merge sort en js",
                 "quiero ver la cabecera de la funcion de merge sort en javascript",
                 "dame la parte donde se define la funcion en el merge sort en js"
@@ -10314,7 +10315,7 @@
             "tag": "condicion_base_merge_sort_js",
             "patterns": [
                 "cual es la condicion base en el merge sort en javascript",
-                "puedes darme la parte de la condicion base en el merge sort",
+                "puedes darme la parte de la condicion base en el merge sort en js",
                 "como termina la recursion en el merge sort en js",
                 "quiero ver la condicion base del merge sort en javascript",
                 "dame la parte donde se establece la condicion base en el merge sort en js"
@@ -10327,7 +10328,7 @@
             "tag": "division_arreglo_merge_sort_js",
             "patterns": [
                 "como se divide el arreglo en el merge sort en javascript",
-                "puedes darme la parte donde se divide el arreglo en el merge sort",
+                "puedes darme la parte donde se divide el arreglo en el merge sort en js",
                 "como funciona la division en el merge sort en js",
                 "quiero ver como se divide el arreglo en el merge sort en javascript",
                 "dame la parte de la division en el merge sort en js"
@@ -10340,7 +10341,7 @@
             "tag": "recursion_merge_sort_js",
             "patterns": [
                 "como funciona la recursion en el merge sort en javascript",
-                "puedes darme la parte donde se aplica la recursion en el merge sort",
+                "puedes darme la parte donde se aplica la recursion en el merge sort en js",
                 "como se llaman las mitades recursivamente en el merge sort en js",
                 "quiero ver la recursion del merge sort en javascript",
                 "dame la parte de la recursion en el merge sort en js"
@@ -10353,7 +10354,7 @@
             "tag": "definicion_funcion_merge_js",
             "patterns": [
                 "como se define la funcion merge en el merge sort en javascript",
-                "puedes darme solo la parte donde se define la funcion merge en el merge sort",
+                "puedes darme solo la parte donde se define la funcion merge en el merge sort en js",
                 "como empieza la funcion merge en js",
                 "quiero ver la cabecera de la funcion merge en javascript",
                 "dame la parte donde se define la funcion merge en el merge sort en js"
@@ -10366,7 +10367,7 @@
             "tag": "comparacion_merge_js",
             "patterns": [
                 "como se comparan los elementos en el merge sort en javascript",
-                "puedes darme la parte donde se comparan los elementos en el merge sort",
+                "puedes darme la parte donde se comparan los elementos en el merge sort en js",
                 "como funciona la comparacion en el merge sort en js",
                 "quiero ver la comparacion de los elementos en el merge sort en javascript",
                 "dame la parte de la comparacion en el merge sort en js"
@@ -10379,7 +10380,7 @@
             "tag": "combinar_restos_merge_js",
             "patterns": [
                 "como se combinan los restos en el merge sort en javascript",
-                "puedes darme la parte donde se combinan los elementos restantes en el merge sort",
+                "puedes darme la parte donde se combinan los elementos restantes en el merge sort en js",
                 "como se manejan los restos en el merge sort en js",
                 "quiero ver como se combinan los restos en el merge sort en javascript",
                 "dame la parte de la combinacion de restos en el merge sort en js"
@@ -10399,19 +10400,6 @@
             ],
             "responses": [
                 "La complejidad del Merge Sort es:\n\n- **Mejor caso**: O(n log n), siempre, ya que divide y combina eficientemente.\n- **Peor caso**: O(n log n), ya que el algoritmo sigue siendo eficiente.\n- **Caso promedio**: O(n log n), independientemente de cómo estén ordenados los datos inicialmente."
-            ]
-        },
-        {
-            "tag": "fibonacci_js",
-            "patterns": [
-                "como funciona el algoritmo de fibonacci en javascript",
-                "que es el algoritmo de fibonacci en js",
-                "puedes explicarme como generar fibonacci en javascript",
-                "dame el codigo del fibonacci en js",
-                "como implemento la serie de fibonacci en javascript"
-            ],
-            "responses": [
-                "El algoritmo de Fibonacci genera una secuencia donde cada número es la suma de los dos anteriores. Aquí tienes el código básico para calcular la serie de Fibonacci hasta un número n:\n\n\nfunction fibonacci(n) {\n    if (n <= 1) {\n        return n;\n    }\n    return fibonacci(n - 1) + fibonacci(n - 2);\n}\n\n// Ejemplo de uso\nconsole.log(fibonacci(10)); // Salida: 55 (décimo número de Fibonacci)\n\n"
             ]
         },
         {
@@ -10704,7 +10692,7 @@
             "tag": "complejidad_heap_sort_js",
             "patterns": [
                 "cual es la complejidad del heap sort en javascript",
-                "puedes explicarme la eficiencia del heap sort",
+                "puedes explicarme la eficiencia del heap sort en js",
                 "que tan eficiente es el heap sort en js",
                 "quiero saber la complejidad temporal del heap sort en javascript",
                 "dame la complejidad del heap sort en js"
@@ -10717,7 +10705,7 @@
             "tag": "definicion_funcion_heap_sort_js",
             "patterns": [
                 "como se define la funcion principal en heap sort en javascript",
-                "puedes darme la cabecera de la funcion heap sort",
+                "puedes darme la cabecera de la funcion heap sort en js",
                 "como empieza la funcion heap sort en js",
                 "quiero ver la cabecera de la funcion de heap sort en javascript",
                 "dame el fragmento donde se define la funcion principal de heap sort en js"
@@ -10729,9 +10717,9 @@
         {
             "tag": "iteracion_heap_maximo_js",
             "patterns": [
-                "como se itera para construir el heap maximo en heap sort",
+                "como se itera para construir el heap maximo en heap sort en js",
                 "puedes darme el fragmento donde se itera para construir el heap maximo en js",
-                "quiero ver el bucle para construir el heap maximo en heap sort",
+                "quiero ver el bucle para construir el heap maximo en heap sort en js",
                 "como se hace la iteracion para construir el heap maximo en javascript",
                 "dame la parte donde se construye el heap maximo en heap sort en js"
             ],
@@ -10742,9 +10730,9 @@
         {
             "tag": "intercambio_elementos_heap_sort_js",
             "patterns": [
-                "como se intercambian los elementos en heap sort",
-                "puedes darme el código para intercambiar elementos en heap sort",
-                "quiero ver cómo se hace el intercambio de elementos en heap sort",
+                "como se intercambian los elementos en heap sort en js",
+                "puedes darme el código para intercambiar elementos en heap sort en js",
+                "quiero ver cómo se hace el intercambio de elementos en heap sort en js",
                 "dame el fragmento donde se intercambian elementos en heap sort en javascript",
                 "como se intercambian los elementos en heap sort en js"
             ],
@@ -10768,9 +10756,9 @@
         {
             "tag": "tamano_arreglo_heap_sort_js",
             "patterns": [
-                "como se obtiene el tamaño del arreglo en heap sort",
-                "puedes mostrarme el fragmento donde se obtiene el tamaño del arreglo en heap sort",
-                "como se define la variable que guarda el tamaño del arreglo en heap sort",
+                "como se obtiene el tamaño del arreglo en heap sort en js",
+                "puedes mostrarme el fragmento donde se obtiene el tamaño del arreglo en heap sort en js",
+                "como se define la variable que guarda el tamaño del arreglo en heap sort en js",
                 "quiero ver cómo se maneja el tamaño del arreglo en heap sort en javascript",
                 "dame la parte donde se obtiene el tamaño del arreglo en heap sort en js"
             ],
@@ -10787,7 +10775,7 @@
                 "dame un ejemplo de un ciclo for en js"
             ],
             "responses": [
-                "Aquí tienes un ejemplo básico de un ciclo for en JavaScrip:\n\tfor (let i = 0; i < 5; i++) {\n\t\tconsole.log(i);\n\t}",
+                "Aquí tienes un ejemplo básico de un ciclo for en JavaScript:\n\tfor (let i = 0; i < 5; i++) {\n\t\tconsole.log(i);\n\t}",
                 "Puedes usar un for para iterar sobre un arreglo:\n\tconst numeros = [1, 2, 3, 4];\n\tfor (let i = 0; i < numeros.length; i++) {\n\t\tconsole.log('Elemento:', numeros[i]);\n\t}"
             ]
         },
@@ -10813,7 +10801,7 @@
                 "como funciona la condicional en un ciclo for en js",
                 "dame un ejemplo de la condicional en un ciclo for en js",
                 "que hace la condicional en el encabezado de un for",
-                "dame un ciclo for con una condicional para iterar",
+                "dame un ciclo for con una condicional para iterar en js",
                 "como uso una condicional en un ciclo for en js"
             ],
             "responses": [
@@ -11944,7 +11932,7 @@
             "tag": "definicion_funcion_ordenamiento_burbuja_js",
             "patterns": [
                 "como se define la funcion en el ordenamiento burbuja en javascript",
-                "puedes darme solo la parte donde se define la funcion en el algoritmo de burbuja",
+                "puedes darme solo la parte donde se define la funcion en el algoritmo de burbuja en js",
                 "como empieza el ordenamiento burbuja en js",
                 "quiero ver la cabecera de la funcion de ordenamiento burbuja en javascript",
                 "dame la parte donde se define la funcion en el algoritmo de burbuja en js"
@@ -11957,7 +11945,7 @@
             "tag": "inicializacion_variable_n_ordenamiento_burbuja_js",
             "patterns": [
                 "como se inicializa la variable n en el ordenamiento burbuja en javascript",
-                "puedes darme la parte donde se inicializa n en el algoritmo de burbuja",
+                "puedes darme la parte donde se inicializa n en el algoritmo de burbuja en js",
                 "como se establece el tamano del arreglo en el algoritmo de burbuja en js",
                 "quiero ver como se inicializa n en ordenamiento burbuja en javascript",
                 "dame la parte donde se inicializa n en el algoritmo de burbuja en js"
@@ -11970,7 +11958,7 @@
             "tag": "estructura_bucle_anidado_burbuja_js",
             "patterns": [
                 "como funcionan los bucles en el ordenamiento burbuja en javascript",
-                "puedes darme la parte del bucle en el algoritmo de burbuja",
+                "puedes darme la parte del bucle en el algoritmo de burbuja en js",
                 "como son los ciclos en el algoritmo de burbuja en js",
                 "quiero ver el bucle anidado del ordenamiento burbuja en javascript",
                 "dame la parte de los ciclos en el algoritmo de burbuja en js"
@@ -11983,7 +11971,7 @@
             "tag": "condicion_comparacion_burbuja_js",
             "patterns": [
                 "como se comparan los elementos en el ordenamiento burbuja en javascript",
-                "puedes darme solo la parte donde se comparan los elementos en el algoritmo de burbuja",
+                "puedes darme solo la parte donde se comparan los elementos en el algoritmo de burbuja en js",
                 "como funciona la condicion del if en el algoritmo de burbuja en js",
                 "quiero ver la comparacion entre elementos en el ordenamiento burbuja en javascript",
                 "dame la parte del if en el algoritmo de burbuja en js"
@@ -11996,7 +11984,7 @@
             "tag": "intercambio_elementos_burbuja_js",
             "patterns": [
                 "como se intercambian los elementos en el ordenamiento burbuja en javascript",
-                "puedes darme solo la parte del intercambio en el algoritmo de burbuja",
+                "puedes darme solo la parte del intercambio en el algoritmo de burbuja en js",
                 "como se hace el swap en el algoritmo de burbuja en js",
                 "quiero ver como se intercambian los elementos en el ordenamiento burbuja en javascript",
                 "dame la parte del intercambio en el algoritmo de burbuja en js"
@@ -12152,7 +12140,7 @@
             "tag": "definicion_funcion_merge_sort_js",
             "patterns": [
                 "como se define la funcion en el merge sort en javascript",
-                "puedes darme solo la parte donde se define la funcion en el merge sort",
+                "puedes darme solo la parte donde se define la funcion en el merge sort en js",
                 "como empieza el merge sort en js",
                 "quiero ver la cabecera de la funcion de merge sort en javascript",
                 "dame la parte donde se define la funcion en el merge sort en js"
@@ -12165,7 +12153,7 @@
             "tag": "condicion_base_merge_sort_js",
             "patterns": [
                 "cual es la condicion base en el merge sort en javascript",
-                "puedes darme la parte de la condicion base en el merge sort",
+                "puedes darme la parte de la condicion base en el merge sort en js",
                 "como termina la recursion en el merge sort en js",
                 "quiero ver la condicion base del merge sort en javascript",
                 "dame la parte donde se establece la condicion base en el merge sort en js"
@@ -12178,7 +12166,7 @@
             "tag": "division_arreglo_merge_sort_js",
             "patterns": [
                 "como se divide el arreglo en el merge sort en javascript",
-                "puedes darme la parte donde se divide el arreglo en el merge sort",
+                "puedes darme la parte donde se divide el arreglo en el merge sort en js",
                 "como funciona la division en el merge sort en js",
                 "quiero ver como se divide el arreglo en el merge sort en javascript",
                 "dame la parte de la division en el merge sort en js"
@@ -12191,7 +12179,7 @@
             "tag": "recursion_merge_sort_js",
             "patterns": [
                 "como funciona la recursion en el merge sort en javascript",
-                "puedes darme la parte donde se aplica la recursion en el merge sort",
+                "puedes darme la parte donde se aplica la recursion en el merge sort en js",
                 "como se llaman las mitades recursivamente en el merge sort en js",
                 "quiero ver la recursion del merge sort en javascript",
                 "dame la parte de la recursion en el merge sort en js"
@@ -12204,7 +12192,7 @@
             "tag": "definicion_funcion_merge_js",
             "patterns": [
                 "como se define la funcion merge en el merge sort en javascript",
-                "puedes darme solo la parte donde se define la funcion merge en el merge sort",
+                "puedes darme solo la parte donde se define la funcion merge en el merge sort en js",
                 "como empieza la funcion merge en js",
                 "quiero ver la cabecera de la funcion merge en javascript",
                 "dame la parte donde se define la funcion merge en el merge sort en js"
@@ -12217,7 +12205,7 @@
             "tag": "comparacion_merge_js",
             "patterns": [
                 "como se comparan los elementos en el merge sort en javascript",
-                "puedes darme la parte donde se comparan los elementos en el merge sort",
+                "puedes darme la parte donde se comparan los elementos en el merge sort en js",
                 "como funciona la comparacion en el merge sort en js",
                 "quiero ver la comparacion de los elementos en el merge sort en javascript",
                 "dame la parte de la comparacion en el merge sort en js"
@@ -12230,7 +12218,7 @@
             "tag": "combinar_restos_merge_js",
             "patterns": [
                 "como se combinan los restos en el merge sort en javascript",
-                "puedes darme la parte donde se combinan los elementos restantes en el merge sort",
+                "puedes darme la parte donde se combinan los elementos restantes en el merge sort en js",
                 "como se manejan los restos en el merge sort en js",
                 "quiero ver como se combinan los restos en el merge sort en javascript",
                 "dame la parte de la combinacion de restos en el merge sort en js"
@@ -12253,7 +12241,7 @@
             ]
         },
         {
-            "tag": "fibonacci_js",
+            "tag": "fibonacci_js_es",
             "patterns": [
                 "como funciona el algoritmo de fibonacci en javascript",
                 "que es el algoritmo de fibonacci en js",
@@ -12555,7 +12543,7 @@
             "tag": "complejidad_heap_sort_js",
             "patterns": [
                 "cual es la complejidad del heap sort en javascript",
-                "puedes explicarme la eficiencia del heap sort",
+                "puedes explicarme la eficiencia del heap sort en js",
                 "que tan eficiente es el heap sort en js",
                 "quiero saber la complejidad temporal del heap sort en javascript",
                 "dame la complejidad del heap sort en js"
@@ -12568,7 +12556,7 @@
             "tag": "definicion_funcion_heap_sort_js",
             "patterns": [
                 "como se define la funcion principal en heap sort en javascript",
-                "puedes darme la cabecera de la funcion heap sort",
+                "puedes darme la cabecera de la funcion heap sort en js",
                 "como empieza la funcion heap sort en js",
                 "quiero ver la cabecera de la funcion de heap sort en javascript",
                 "dame el fragmento donde se define la funcion principal de heap sort en js"
@@ -12580,9 +12568,9 @@
         {
             "tag": "iteracion_heap_maximo_js",
             "patterns": [
-                "como se itera para construir el heap maximo en heap sort",
+                "como se itera para construir el heap maximo en heap sort en js",
                 "puedes darme el fragmento donde se itera para construir el heap maximo en js",
-                "quiero ver el bucle para construir el heap maximo en heap sort",
+                "quiero ver el bucle para construir el heap maximo en heap sort en js",
                 "como se hace la iteracion para construir el heap maximo en javascript",
                 "dame la parte donde se construye el heap maximo en heap sort en js"
             ],
@@ -12593,9 +12581,9 @@
         {
             "tag": "intercambio_elementos_heap_sort_js",
             "patterns": [
-                "como se intercambian los elementos en heap sort",
-                "puedes darme el código para intercambiar elementos en heap sort",
-                "quiero ver cómo se hace el intercambio de elementos en heap sort",
+                "como se intercambian los elementos en heap sort en js",
+                "puedes darme el código para intercambiar elementos en heap sort en js",
+                "quiero ver cómo se hace el intercambio de elementos en heap sort en js",
                 "dame el fragmento donde se intercambian elementos en heap sort en javascript",
                 "como se intercambian los elementos en heap sort en js"
             ],
@@ -12619,9 +12607,9 @@
         {
             "tag": "tamano_arreglo_heap_sort_js",
             "patterns": [
-                "como se obtiene el tamaño del arreglo en heap sort",
-                "puedes mostrarme el fragmento donde se obtiene el tamaño del arreglo en heap sort",
-                "como se define la variable que guarda el tamaño del arreglo en heap sort",
+                "como se obtiene el tamaño del arreglo en heap sort en js",
+                "puedes mostrarme el fragmento donde se obtiene el tamaño del arreglo en heap sort en js",
+                "como se define la variable que guarda el tamaño del arreglo en heap sort en js",
                 "quiero ver cómo se maneja el tamaño del arreglo en heap sort en javascript",
                 "dame la parte donde se obtiene el tamaño del arreglo en heap sort en js"
             ],
@@ -13348,7 +13336,7 @@
             "tag": "definicion_funcion_ordenamiento_burbuja_python",
             "patterns": [
                 "como se define la funcion en el ordenamiento burbuja en python",
-                "puedes darme solo la parte donde se define la funcion en el algoritmo de burbuja",
+                "puedes darme solo la parte donde se define la funcion en el algoritmo de burbuja en python",
                 "como empieza el ordenamiento burbuja en python",
                 "quiero ver la cabecera de la funcion de ordenamiento burbuja en python",
                 "dame la parte donde se define la funcion en el algoritmo de burbuja en python"
@@ -13375,7 +13363,7 @@
             "tag": "inicializacion_variable_n_ordenamiento_burbuja_python",
             "patterns": [
                 "como se inicializa la variable n en el ordenamiento burbuja en python",
-                "puedes darme la parte donde se inicializa n en el algoritmo de burbuja",
+                "puedes darme la parte donde se inicializa n en el algoritmo de burbuja en python",
                 "como se establece el tamano del arreglo en el algoritmo de burbuja en python",
                 "quiero ver como se inicializa n en ordenamiento burbuja en python",
                 "dame la parte donde se inicializa n en el algoritmo de burbuja en python"
@@ -13388,7 +13376,7 @@
             "tag": "estructura_bucle_anidado_burbuja_python",
             "patterns": [
                 "como funcionan los bucles en el ordenamiento burbuja en python",
-                "puedes darme la parte del bucle en el algoritmo de burbuja",
+                "puedes darme la parte del bucle en el algoritmo de burbuja en python",
                 "como son los ciclos en el algoritmo de burbuja en python",
                 "quiero ver el bucle anidado del ordenamiento burbuja en python",
                 "dame la parte de los ciclos en el algoritmo de burbuja en python"
@@ -13401,7 +13389,7 @@
             "tag": "condicion_comparacion_burbuja_python",
             "patterns": [
                 "como se comparan los elementos en el ordenamiento burbuja en python",
-                "puedes darme solo la parte donde se comparan los elementos en el algoritmo de burbuja",
+                "puedes darme solo la parte donde se comparan los elementos en el algoritmo de burbuja en python",
                 "como funciona la condicion del if en el algoritmo de burbuja en python",
                 "quiero ver la comparacion entre elementos en el ordenamiento burbuja en python",
                 "dame la parte del if en el algoritmo de burbuja en python"
@@ -13414,7 +13402,7 @@
             "tag": "intercambio_elementos_burbuja_python",
             "patterns": [
                 "como se intercambian los elementos en el ordenamiento burbuja en python",
-                "puedes darme solo la parte del intercambio en el algoritmo de burbuja",
+                "puedes darme solo la parte del intercambio en el algoritmo de burbuja en python",
                 "como se hace el swap en el algoritmo de burbuja en python",
                 "quiero ver como se intercambian los elementos en el ordenamiento burbuja en python",
                 "dame la parte del intercambio en el algoritmo de burbuja en python"
@@ -13570,7 +13558,7 @@
             "tag": "definicion_funcion_merge_sort_py",
             "patterns": [
                 "como se define la funcion en el merge sort en python",
-                "puedes darme solo la parte donde se define la funcion en el merge sort",
+                "puedes darme solo la parte donde se define la funcion en el merge sort en python",
                 "como empieza el merge sort en py",
                 "quiero ver la cabecera de la funcion de merge sort en python",
                 "dame la parte donde se define la funcion en el merge sort en py"
@@ -13583,7 +13571,7 @@
             "tag": "condicion_base_merge_sort_py",
             "patterns": [
                 "cual es la condicion base en el merge sort en python",
-                "puedes darme la parte de la condicion base en el merge sort",
+                "puedes darme la parte de la condicion base en el merge sort en python",
                 "como termina la recursion en el merge sort en py",
                 "quiero ver la condicion base del merge sort en python",
                 "dame la parte donde se establece la condicion base en el merge sort en py"
@@ -13596,7 +13584,7 @@
             "tag": "division_arreglo_merge_sort_py",
             "patterns": [
                 "como se divide el arreglo en el merge sort en python",
-                "puedes darme la parte donde se divide el arreglo en el merge sort",
+                "puedes darme la parte donde se divide el arreglo en el merge sort en python",
                 "como funciona la division en el merge sort en py",
                 "quiero ver como se divide el arreglo en el merge sort en python",
                 "dame la parte de la division en el merge sort en py"
@@ -13609,7 +13597,7 @@
             "tag": "recursion_merge_sort_py",
             "patterns": [
                 "como funciona la recursion en el merge sort en python",
-                "puedes darme la parte donde se aplica la recursion en el merge sort",
+                "puedes darme la parte donde se aplica la recursion en el merge sort en python",
                 "como se llaman las mitades recursivamente en el merge sort en py",
                 "quiero ver la recursion del merge sort en python",
                 "dame la parte de la recursion en el merge sort en python"
@@ -13622,7 +13610,7 @@
             "tag": "definicion_funcion_merge_py",
             "patterns": [
                 "como se define la funcion merge en el merge sort en python",
-                "puedes darme solo la parte donde se define la funcion merge en el merge sort",
+                "puedes darme solo la parte donde se define la funcion merge en el merge sort en python",
                 "como empieza la funcion merge en python",
                 "quiero ver la cabecera de la funcion merge en python",
                 "dame la parte donde se define la funcion merge en el merge sort en python"
@@ -13635,7 +13623,7 @@
             "tag": "comparacion_merge_python",
             "patterns": [
                 "como se comparan los elementos en el merge sort en python",
-                "puedes darme la parte donde se comparan los elementos en el merge sort",
+                "puedes darme la parte donde se comparan los elementos en el merge sort en python",
                 "como funciona la comparacion en el merge sort en python",
                 "quiero ver la comparacion de los elementos en el merge sort en python",
                 "dame la parte de la comparacion en el merge sort en python"
@@ -13648,7 +13636,7 @@
             "tag": "combinar_restos_merge_python",
             "patterns": [
                 "como se combinan los restos en el merge sort en python",
-                "puedes darme la parte donde se combinan los elementos restantes en el merge sort",
+                "puedes darme la parte donde se combinan los elementos restantes en el merge sort en python",
                 "como se manejan los restos en el merge sort en python",
                 "quiero ver como se combinan los restos en el merge sort en python",
                 "dame la parte de la combinacion de restos en el merge sort en python"
@@ -13671,7 +13659,7 @@
             ]
         },
         {
-            "tag": "fibonacci_python",
+            "tag": "fibonacci_python_es",
             "patterns": [
                 "como funciona el algoritmo de fibonacci en python",
                 "que es el algoritmo de fibonacci en python",
@@ -13973,7 +13961,7 @@
             "tag": "complejidad_heap_sort_python",
             "patterns": [
                 "cual es la complejidad del heap sort en python",
-                "puedes explicarme la eficiencia del heap sort",
+                "puedes explicarme la eficiencia del heap sort en python",
                 "que tan eficiente es el heap sort en python",
                 "quiero saber la complejidad temporal del heap sort en python",
                 "dame la complejidad del heap sort en python"
@@ -13986,7 +13974,7 @@
             "tag": "definicion_funcion_heap_sort_python",
             "patterns": [
                 "como se define la funcion principal en heap sort en python",
-                "puedes darme la cabecera de la funcion heap sort",
+                "puedes darme la cabecera de la funcion heap sort en python",
                 "como empieza la funcion heap sort en python",
                 "quiero ver la cabecera de la funcion de heap sort en python",
                 "dame el fragmento donde se define la funcion principal de heap sort en python"
@@ -14977,7 +14965,7 @@
               "I want to understand sequential search step by step"
             ],
             "responses": [
-              "Here is the sequential search algorithm explained step by step:\n\n1. **Define the function**:\n```javascript\nfunction sequentialSearch(array, targetValue) {\n```\nThis function takes an array and the value we want to search for.\n\n2. **Iterate through the array using a loop**:\n```javascript\nfor (let i = 0; i < array.length; i++) {\n```\nWe loop through each element of the array, using the index `i` to access the values.\n\n3. **Check if the current value matches the target**:\n```javascript\nif (array[i] === targetValue) {\n    return i; // Return the index if found\n}\n```\nWe compare the current value with the target value. If they match, return the index.\n\n4. **Return -1 if the value is not found**:\n```javascript\nreturn -1; // If the value is not found\n```\nThis indicates that the value is not in the array.\n\n5. **Complete example**:\n```javascript\nconst numbers = [4, 2, 7, 9, 5];\nconst result = sequentialSearch(numbers, 7);\nconsole.log(result); // Output: 2\n```"
+              "Here is the sequential search algorithm explained step by step:\n\n1. **Define the function**:\n\nfunction sequentialSearch(array, targetValue) {\n\nThis function takes an array and the value we want to search for.\n\n2. **Iterate through the array using a loop**:\n\nfor (let i = 0; i < array.length; i++) {\n\nWe loop through each element of the array, using the index `i` to access the values.\n\n3. **Check if the current value matches the target**:\n\nif (array[i] === targetValue) {\n    return i; // Return the index if found\n}\n\nWe compare the current value with the target value. If they match, return the index.\n\n4. **Return -1 if the value is not found**:\n\nreturn -1; // If the value is not found\n\nThis indicates that the value is not in the array.\n\n5. **Complete example**:\n\nconst numbers = [4, 2, 7, 9, 5];\nconst result = sequentialSearch(numbers, 7);\nconsole.log(result); // Output: 2\n"
             ]
           },
           {
@@ -14990,7 +14978,7 @@
               "give me the for loop part of sequential search in js"
             ],
             "responses": [
-              "The for loop in sequential search iterates through the array element by element:\n\n```javascript\nfor (let i = 0; i < array.length; i++) {\n    // Here, the elements are evaluated one by one\n}\n```"
+              "The for loop in sequential search iterates through the array element by element:\n\n\nfor (let i = 0; i < array.length; i++) {\n    // Here, the elements are evaluated one by one\n}\n"
             ]
           },
           {
@@ -15003,7 +14991,7 @@
               "give me the if part in sequential search in js"
             ],
             "responses": [
-              "The if condition checks if the current value matches the target:\n\n```javascript\nif (array[i] === targetValue) {\n    return i; // Return the index if found\n}\n```"
+              "The if condition checks if the current value matches the target:\n\n\nif (array[i] === targetValue) {\n    return i; // Return the index if found\n}\n"
             ]
           },
           {
@@ -15016,7 +15004,7 @@
               "give me the part where it doesn’t find the value in sequential search in js"
             ],
             "responses": [
-              "If the value is not found, the algorithm returns -1:\n\n```javascript\nreturn -1; // If the value is not found\n```"
+              "If the value is not found, the algorithm returns -1:\n\n\nreturn -1; // If the value is not found\n"
             ]
           },
           {
@@ -15029,7 +15017,7 @@
               "give me the part where the function is defined in sequential search in js"
             ],
             "responses": [
-              "The sequential search function is defined as follows:\n\n```javascript\nfunction sequentialSearch(array, targetValue) {\n    // Algorithm body goes here\n}\n```"
+              "The sequential search function is defined as follows:\n\n\nfunction sequentialSearch(array, targetValue) {\n    // Algorithm body goes here\n}\n"
             ]
           },
           {
@@ -15042,7 +15030,7 @@
               "give me the arguments for sequential search in js"
             ],
             "responses": [
-              "The sequential search function takes two arguments:\n\n1. **array**: The array to be searched.\n2. **targetValue**: The value to find.\n\nExample:\n```javascript\nsequentialSearch([4, 2, 7, 9], 7);\n```"
+              "The sequential search function takes two arguments:\n\n1. **array**: The array to be searched.\n2. **targetValue**: The value to find.\n\nExample:\n\nsequentialSearch([4, 2, 7, 9], 7);\n"
             ]
           },
           {
@@ -15055,7 +15043,7 @@
               "give me the part where it returns the index in sequential search in js"
             ],
             "responses": [
-              "When the target value is found, the function returns the index:\n\n```javascript\nreturn i; // Returns the index where the value was found\n```"
+              "When the target value is found, the function returns the index:\n\n\nreturn i; // Returns the index where the value was found\n"
             ]
           },
           {
@@ -15068,7 +15056,7 @@
               "give me an example of using sequential search in js"
             ],
             "responses": [
-              "Here is a practical example of using sequential search:\n\n```javascript\nconst numbers = [1, 3, 5, 7, 9];\nconst targetValue = 7;\nconst result = sequentialSearch(numbers, targetValue);\n\nif (result !== -1) {\n    console.log(`Value found at index ${result}`);\n} else {\n    console.log('Value not found');\n}\n```\nThis shows whether the value was found, its index, or indicates it is not present."
+              "Here is a practical example of using sequential search:\n\n\nconst numbers = [1, 3, 5, 7, 9];\nconst targetValue = 7;\nconst result = sequentialSearch(numbers, targetValue);\n\nif (result !== -1) {\n    console.log(`Value found at index ${result}`);\n} else {\n    console.log('Value not found');\n}\n\nThis shows whether the value was found, its index, or indicates it is not present."
             ]
           },
           {
@@ -15094,7 +15082,7 @@
               "how do I implement binary search in javascript"
             ],
             "responses": [
-              "Binary search is an efficient algorithm for finding an element in a sorted array. It halves the search range at each step. Here's the basic code in JavaScript:\n\n```javascript\nfunction binarySearch(array, targetValue) {\n    let start = 0;\n    let end = array.length - 1;\n\n    while (start <= end) {\n        let mid = Math.floor((start + end) / 2);\n\n        if (array[mid] === targetValue) {\n            return mid; // Returns the index if the value is found\n        } else if (array[mid] < targetValue) {\n            start = mid + 1; // Adjusts the start\n        } else {\n            end = mid - 1; // Adjusts the end\n        }\n    }\n\n    return -1; // Returns -1 if the value is not present\n}\n\n// Example usage\nconst numbers = [1, 3, 5, 7, 9];\nconst result = binarySearch(numbers, 7);\nconsole.log(result); // Output: 3\n```"
+              "Binary search is an efficient algorithm for finding an element in a sorted array. It halves the search range at each step. Here's the basic code in JavaScript:\n\n\nfunction binarySearch(array, targetValue) {\n    let start = 0;\n    let end = array.length - 1;\n\n    while (start <= end) {\n        let mid = Math.floor((start + end) / 2);\n\n        if (array[mid] === targetValue) {\n            return mid; // Returns the index if the value is found\n        } else if (array[mid] < targetValue) {\n            start = mid + 1; // Adjusts the start\n        } else {\n            end = mid - 1; // Adjusts the end\n        }\n    }\n\n    return -1; // Returns -1 if the value is not present\n}\n\n// Example usage\nconst numbers = [1, 3, 5, 7, 9];\nconst result = binarySearch(numbers, 7);\nconsole.log(result); // Output: 3\n"
             ]
           },
           {
@@ -15107,7 +15095,7 @@
               "give me the part where the function is defined in binary search in js"
             ],
             "responses": [
-              "The binary search function in JavaScript is defined as follows:\n\n```javascript\nfunction binarySearch(array, targetValue) {\n    // Algorithm body goes here\n}\n```"
+              "The binary search function in JavaScript is defined as follows:\n\n\nfunction binarySearch(array, targetValue) {\n    // Algorithm body goes here\n}\n"
             ]
           },
           {
@@ -15120,7 +15108,7 @@
               "give me the part where variables are initialized in binary search in js"
             ],
             "responses": [
-              "In binary search, variables are initialized as follows:\n\n```javascript\nlet start = 0;\nlet end = array.length - 1;\nlet mid = Math.floor((start + end) / 2);\n```"
+              "In binary search, variables are initialized as follows:\n\n\nlet start = 0;\nlet end = array.length - 1;\nlet mid = Math.floor((start + end) / 2);\n"
             ]
           },
           {
@@ -15133,7 +15121,7 @@
               "give me the while loop condition in binary search in js"
             ],
             "responses": [
-              "The while loop controls the search by dividing the range in half:\n\n```javascript\nwhile (start <= end) {\n    // Code to evaluate and adjust the boundaries goes here\n}\n```"
+              "The while loop controls the search by dividing the range in half:\n\n\nwhile (start <= end) {\n    // Code to evaluate and adjust the boundaries goes here\n}\n"
             ]
           },
           {
@@ -15146,7 +15134,7 @@
               "give me the if statement part in binary search in js"
             ],
             "responses": [
-              "The `if` condition checks if the searched value equals the value at the middle index:\n\n```javascript\nif (array[middle] === targetValue) {\n    return middle; // Returns the index if the value is found\n}\n```"
+              "The `if` condition checks if the searched value equals the value at the middle index:\n\n\nif (array[middle] === targetValue) {\n    return middle; // Returns the index if the value is found\n}\n"
             ]
           },
           {
@@ -15159,7 +15147,7 @@
               "give me the part where boundaries are adjusted in binary search in js"
             ],
             "responses": [
-              "In binary search, the boundaries are adjusted depending on the compared value:\n\n```javascript\nif (array[middle] < targetValue) {\n    start = middle + 1; // Adjusts the start\n} else {\n    end = middle - 1; // Adjusts the end\n}\n```"
+              "In binary search, the boundaries are adjusted depending on the compared value:\n\n\nif (array[middle] < targetValue) {\n    start = middle + 1; // Adjusts the start\n} else {\n    end = middle - 1; // Adjusts the end\n}\n"
             ]
           },
           {
@@ -15172,7 +15160,7 @@
               "give me the part where it doesn’t find the value in binary search in js"
             ],
             "responses": [
-              "If the value is not found, the function returns -1:\n\n```javascript\nreturn -1; // Returns -1 if the value is not present\n```"
+              "If the value is not found, the function returns -1:\n\n\nreturn -1; // Returns -1 if the value is not present\n"
             ]
           },
           {
@@ -15198,7 +15186,7 @@
               "how do I implement the bubble sort algorithm in javascript"
             ],
             "responses": [
-              "Bubble sort is an algorithm that compares adjacent elements in an array and swaps them if they are in the wrong order. This repeats until the array is completely sorted. Here is the code in JavaScript:\n\n```javascript\nfunction bubbleSort(arr) {\n    let n = arr.length;\n    for (let i = 0; i < n - 1; i++) {\n        for (let j = 0; j < n - i - 1; j++) {\n            if (arr[j] > arr[j + 1]) {\n                // Swap elements\n                let temp = arr[j];\n                arr[j] = arr[j + 1];\n                arr[j + 1] = temp;\n            }\n        }\n    }\n    return arr;\n}\n\n// Example usage\nconst numbers = [64, 34, 25, 12, 22, 11, 90];\nconsole.log(bubbleSort(numbers));\n// Output: [11, 12, 22, 25, 34, 64, 90]\n```"
+              "Bubble sort is an algorithm that compares adjacent elements in an array and swaps them if they are in the wrong order. This repeats until the array is completely sorted. Here is the code in JavaScript:\n\n\nfunction bubbleSort(arr) {\n    let n = arr.length;\n    for (let i = 0; i < n - 1; i++) {\n        for (let j = 0; j < n - i - 1; j++) {\n            if (arr[j] > arr[j + 1]) {\n                // Swap elements\n                let temp = arr[j];\n                arr[j] = arr[j + 1];\n                arr[j + 1] = temp;\n            }\n        }\n    }\n    return arr;\n}\n\n// Example usage\nconst numbers = [64, 34, 25, 12, 22, 11, 90];\nconsole.log(bubbleSort(numbers));\n// Output: [11, 12, 22, 25, 34, 64, 90]\n"
             ]
           },
           {
@@ -15211,7 +15199,7 @@
               "give me the part where the function is defined in the bubble sort algorithm in js"
             ],
             "responses": [
-              "The bubble sort function in JavaScript is defined as follows:\n\n```javascript\nfunction bubbleSort(arr) {\n    // The body of the algorithm goes here\n}\n```"
+              "The bubble sort function in JavaScript is defined as follows:\n\n\nfunction bubbleSort(arr) {\n    // The body of the algorithm goes here\n}\n"
             ]
           },
           {
@@ -15224,7 +15212,7 @@
               "give me the part where n is initialized in the bubble sort algorithm in js"
             ],
             "responses": [
-              "The variable `n` is initialized with the length of the array:\n\n```javascript\nlet n = arr.length;\n```"
+              "The variable `n` is initialized with the length of the array:\n\n\nlet n = arr.length;\n"
             ]
           },
           {
@@ -15237,7 +15225,7 @@
               "give me the part of the loops in the bubble sort algorithm in js"
             ],
             "responses": [
-              "The algorithm uses a nested loop to traverse the array:\n\n```javascript\nfor (let i = 0; i < n - 1; i++) {\n    for (let j = 0; j < n - i - 1; j++) {\n        // Comparison and swapping happen here\n    }\n}\n```"
+              "The algorithm uses a nested loop to traverse the array:\n\n\nfor (let i = 0; i < n - 1; i++) {\n    for (let j = 0; j < n - i - 1; j++) {\n        // Comparison and swapping happen here\n    }\n}\n"
             ]
           },
           {
@@ -15250,7 +15238,7 @@
               "give me the part of the if condition in the bubble sort algorithm in js"
             ],
             "responses": [
-              "The `if` condition checks if the current element is greater than the next one:\n\n```javascript\nif (arr[j] > arr[j + 1]) {\n    // Swap elements\n}\n```"
+              "The `if` condition checks if the current element is greater than the next one:\n\n\nif (arr[j] > arr[j + 1]) {\n    // Swap elements\n}\n"
             ]
           },
           {
@@ -15263,7 +15251,7 @@
               "give me the part of the swap in the bubble sort algorithm in js"
             ],
             "responses": [
-              "Elements are swapped using a temporary variable:\n\n```javascript\nlet temp = arr[j];\narr[j] = arr[j + 1];\narr[j + 1] = temp;\n```"
+              "Elements are swapped using a temporary variable:\n\n\nlet temp = arr[j];\narr[j] = arr[j + 1];\narr[j + 1] = temp;\n"
             ]
           },
           {
@@ -15289,59 +15277,59 @@
               "how do I implement quick sort in javascript"
             ],
             "responses": [
-              "Quick Sort is a sorting algorithm that uses the divide-and-conquer approach. It divides the array into subarrays using a pivot element, placing smaller elements to the left and larger elements to the right. Then, it recursively sorts the parts. Here's the full code in JavaScript:\n\n```javascript\nfunction quickSort(arr) {\n    if (arr.length <= 1) {\n        return arr;\n    }\n    const pivot = arr[arr.length - 1];\n    const left = [];\n    const right = [];\n    for (let i = 0; i < arr.length - 1; i++) {\n        if (arr[i] < pivot) {\n            left.push(arr[i]);\n        } else {\n            right.push(arr[i]);\n        }\n    }\n    return [...quickSort(left), pivot, ...quickSort(right)];\n}\n\n// Example usage\nconst numbers = [34, 7, 23, 32, 5, 62];\nconsole.log(quickSort(numbers));\n// Output: [5, 7, 23, 32, 34, 62]\n```\n"
+              "Quick Sort is a sorting algorithm that uses the divide-and-conquer approach. It divides the array into subarrays using a pivot element, placing smaller elements to the left and larger elements to the right. Then, it recursively sorts the parts. Here's the full code in JavaScript:\n\n\nfunction quickSort(arr) {\n    if (arr.length <= 1) {\n        return arr;\n    }\n    const pivot = arr[arr.length - 1];\n    const left = [];\n    const right = [];\n    for (let i = 0; i < arr.length - 1; i++) {\n        if (arr[i] < pivot) {\n            left.push(arr[i]);\n        } else {\n            right.push(arr[i]);\n        }\n    }\n    return [...quickSort(left), pivot, ...quickSort(right)];\n}\n\n// Example usage\nconst numbers = [34, 7, 23, 32, 5, 62];\nconsole.log(quickSort(numbers));\n// Output: [5, 7, 23, 32, 34, 62]\n\n"
             ]
           },
           {
             "tag": "function_definition_quick_sort_js",
             "patterns": [
               "how is the function defined in quick sort in javascript",
-              "can you give me just the part where the function is defined in quick sort",
+              "can you give me just the part where the function is defined in quick sort in js",
               "how does quick sort start in js",
               "i want to see the function header of quick sort in javascript",
               "give me the part where the function is defined in quick sort in js"
             ],
             "responses": [
-              "The definition of the Quick Sort function in JavaScript is as follows:\n\n```javascript\nfunction quickSort(arr) {\n    // The body of the algorithm goes here\n}\n```\n"
+              "The definition of the Quick Sort function in JavaScript is as follows:\n\n\nfunction quickSort(arr) {\n    // The body of the algorithm goes here\n}\n\n"
             ]
           },
           {
             "tag": "base_condition_quick_sort_js",
             "patterns": [
               "what is the base condition in quick sort in javascript",
-              "can you give me the part of the base condition in quick sort",
+              "can you give me the part of the base condition in quick sort in js",
               "how does recursion end in quick sort in js",
               "i want to see the base condition of quick sort in javascript",
               "give me the part where the base condition is established in quick sort in js"
             ],
             "responses": [
-              "The base condition of Quick Sort checks if the array has one or no elements to stop recursion:\n\n```javascript\nif (arr.length <= 1) {\n    return arr;\n}\n```\n"
+              "The base condition of Quick Sort checks if the array has one or no elements to stop recursion:\n\n\nif (arr.length <= 1) {\n    return arr;\n}\n\n"
             ]
           },
           {
             "tag": "partitioning_quick_sort_js",
             "patterns": [
               "how is partitioning done in quick sort in javascript",
-              "can you give me just the part of partitioning in quick sort",
+              "can you give me just the part of partitioning in quick sort in js",
               "how are elements divided in quick sort in js",
               "i want to see how the array is partitioned in quick sort in javascript",
               "give me the part of partitioning in quick sort in js"
             ],
             "responses": [
-              "Partitioning in Quick Sort divides the array into two subarrays based on a pivot:\n\n```javascript\nconst pivot = arr[arr.length - 1];\nconst left = [];\nconst right = [];\nfor (let i = 0; i < arr.length - 1; i++) {\n    if (arr[i] < pivot) {\n        left.push(arr[i]);\n    } else {\n        right.push(arr[i]);\n    }\n}\n```\n"
+              "Partitioning in Quick Sort divides the array into two subarrays based on a pivot:\n\n\nconst pivot = arr[arr.length - 1];\nconst left = [];\nconst right = [];\nfor (let i = 0; i < arr.length - 1; i++) {\n    if (arr[i] < pivot) {\n        left.push(arr[i]);\n    } else {\n        right.push(arr[i]);\n    }\n}\n\n"
             ]
           },
           {
             "tag": "combine_subarrays_quick_sort_js",
             "patterns": [
               "how are subarrays combined in quick sort in javascript",
-              "can you give me just the part of combining in quick sort",
+              "can you give me just the part of combining in quick sort in js",
               "how are elements joined in quick sort in js",
               "i want to see how subarrays are combined in quick sort in javascript",
               "give me the part of combining in quick sort in js"
             ],
             "responses": [
-              "The combination of subarrays with the pivot is done as follows:\n\n```javascript\nreturn [...quickSort(left), pivot, ...quickSort(right)];\n```\n"
+              "The combination of subarrays with the pivot is done as follows:\n\n\nreturn [...quickSort(left), pivot, ...quickSort(right)];\n\n"
             ]
           },
           {
@@ -15361,39 +15349,39 @@
             "tag": "pivot_selection_quick_sort_js",
             "patterns": [
               "how is the pivot selected in quick sort in javascript",
-              "can you give me just the part where the pivot is chosen in quick sort",
+              "can you give me just the part where the pivot is chosen in quick sort in js",
               "how does the pivot work in quick sort in js",
               "i want to see how the pivot is defined in quick sort in javascript",
               "give me the part about the pivot in quick sort in js"
             ],
             "responses": [
-              "The pivot is selected as the last element of the array:\n\n```javascript\nconst pivot = arr[arr.length - 1];\n```\n"
+              "The pivot is selected as the last element of the array:\n\n\nconst pivot = arr[arr.length - 1];\n\n"
             ]
           },
           {
             "tag": "filling_subarrays_quick_sort_js",
             "patterns": [
               "how are the subarrays filled in quick sort in javascript",
-              "can you give me just the part where the elements are distributed in quick sort",
+              "can you give me just the part where the elements are distributed in quick sort in js",
               "how are the elements separated in quick sort in js",
               "i want to see how the subarrays are filled in quick sort in javascript",
               "give me the part about the subarrays in quick sort in js"
             ],
             "responses": [
-              "The elements are separated into the left and right subarrays based on the pivot:\n\n```javascript\nconst left = [];\nconst right = [];\nfor (let i = 0; i < arr.length - 1; i++) {\n    if (arr[i] < pivot) {\n        left.push(arr[i]);\n    } else {\n        right.push(arr[i]);\n    }\n}\n```\n"
+              "The elements are separated into the left and right subarrays based on the pivot:\n\n\nconst left = [];\nconst right = [];\nfor (let i = 0; i < arr.length - 1; i++) {\n    if (arr[i] < pivot) {\n        left.push(arr[i]);\n    } else {\n        right.push(arr[i]);\n    }\n}\n\n"
             ]
           },
           {
             "tag": "recursion_quick_sort_js",
             "patterns": [
               "how does recursion work in quick sort in javascript",
-              "can you give me the part where recursion is applied in quick sort",
+              "can you give me the part where recursion is applied in quick sort in js",
               "how are the subarrays called recursively in quick sort in js",
               "i want to see the recursion of quick sort in javascript",
               "give me the part about recursion in quick sort in js"
             ],
             "responses": [
-              "Recursion is applied to sort the left and right subarrays:\n\n```javascript\nreturn [...quickSort(left), pivot, ...quickSort(right)];\n```\n"
+              "Recursion is applied to sort the left and right subarrays:\n\n\nreturn [...quickSort(left), pivot, ...quickSort(right)];\n\n"
             ]
           },
           {
@@ -15406,98 +15394,98 @@
               "how do I implement merge sort in javascript"
             ],
             "responses": [
-              "Merge Sort is a sorting algorithm that uses the divide-and-conquer approach. It divides the array into smaller parts, sorts them, and then merges them. Here's the full code in JavaScript:\n\n```javascript\nfunction mergeSort(arr) {\n    if (arr.length <= 1) {\n        return arr;\n    }\n    const mid = Math.floor(arr.length / 2);\n    const left = arr.slice(0, mid);\n    const right = arr.slice(mid);\n    return merge(mergeSort(left), mergeSort(right));\n}\n\nfunction merge(left, right) {\n    const result = [];\n    while (left.length && right.length) {\n        if (left[0] < right[0]) {\n            result.push(left.shift());\n        } else {\n            result.push(right.shift());\n        }\n    }\n    return [...result, ...left, ...right];\n}\n\n// Example usage\nconst numbers = [38, 27, 43, 3, 9, 82, 10];\nconsole.log(mergeSort(numbers));\n// Output: [3, 9, 10, 27, 38, 43, 82]\n```\n"
+              "Merge Sort is a sorting algorithm that uses the divide-and-conquer approach. It divides the array into smaller parts, sorts them, and then merges them. Here's the full code in JavaScript:\n\n\nfunction mergeSort(arr) {\n    if (arr.length <= 1) {\n        return arr;\n    }\n    const mid = Math.floor(arr.length / 2);\n    const left = arr.slice(0, mid);\n    const right = arr.slice(mid);\n    return merge(mergeSort(left), mergeSort(right));\n}\n\nfunction merge(left, right) {\n    const result = [];\n    while (left.length && right.length) {\n        if (left[0] < right[0]) {\n            result.push(left.shift());\n        } else {\n            result.push(right.shift());\n        }\n    }\n    return [...result, ...left, ...right];\n}\n\n// Example usage\nconst numbers = [38, 27, 43, 3, 9, 82, 10];\nconsole.log(mergeSort(numbers));\n// Output: [3, 9, 10, 27, 38, 43, 82]\n\n"
             ]
           },
           {
             "tag": "function_definition_merge_sort_js",
             "patterns": [
               "how is the function defined in merge sort in javascript",
-              "can you give me just the part where the function is defined in merge sort",
+              "can you give me just the part where the function is defined in merge sort in js",
               "how does merge sort start in js",
               "i want to see the function header of merge sort in javascript",
               "give me the part where the function is defined in merge sort in js"
             ],
             "responses": [
-              "The main function of Merge Sort is defined as follows:\n\n```javascript\nfunction mergeSort(arr) {\n    // The body of the algorithm goes here\n}\n```\n"
+              "The main function of Merge Sort is defined as follows:\n\n\nfunction mergeSort(arr) {\n    // The body of the algorithm goes here\n}\n\n"
             ]
           },
           {
             "tag": "base_condition_merge_sort_js",
             "patterns": [
               "what is the base condition in merge sort in javascript",
-              "can you give me the part of the base condition in merge sort",
+              "can you give me the part of the base condition in merge sort in js",
               "how does recursion end in merge sort in js",
               "i want to see the base condition of merge sort in javascript",
               "give me the part where the base condition is established in merge sort in js"
             ],
             "responses": [
-              "The base condition of Merge Sort checks if the array has one or no elements to stop recursion:\n\n```javascript\nif (arr.length <= 1) {\n    return arr;\n}\n```\n"
+              "The base condition of Merge Sort checks if the array has one or no elements to stop recursion:\n\n\nif (arr.length <= 1) {\n    return arr;\n}\n\n"
             ]
           },
           {
             "tag": "array_division_merge_sort_js",
             "patterns": [
               "how is the array divided in merge sort in javascript",
-              "can you give me the part where the array is divided in merge sort",
+              "can you give me the part where the array is divided in merge sort in js",
               "how does division work in merge sort in js",
               "i want to see how the array is divided in merge sort in javascript",
               "give me the part about division in merge sort in js"
             ],
             "responses": [
-              "The array is divided into halves using the middle index:\n\n```javascript\nconst mid = Math.floor(arr.length / 2);\nconst left = arr.slice(0, mid);\nconst right = arr.slice(mid);\n```\n"
+              "The array is divided into halves using the middle index:\n\n\nconst mid = Math.floor(arr.length / 2);\nconst left = arr.slice(0, mid);\nconst right = arr.slice(mid);\n\n"
             ]
           },
           {
             "tag": "recursion_merge_sort_js",
             "patterns": [
               "how does recursion work in merge sort in javascript",
-              "can you give me the part where recursion is applied in merge sort",
+              "can you give me the part where recursion is applied in merge sort in js",
               "how are the halves called recursively in merge sort in js",
               "i want to see the recursion of merge sort in javascript",
               "give me the part about recursion in merge sort in js"
             ],
             "responses": [
-              "Recursion is applied to sort the left and right halves:\n\n```javascript\nreturn merge(mergeSort(left), mergeSort(right));\n```\n"
+              "Recursion is applied to sort the left and right halves:\n\n\nreturn merge(mergeSort(left), mergeSort(right));\n\n"
             ]
           },
           {
             "tag": "function_definition_merge_js",
             "patterns": [
               "how is the merge function defined in merge sort in javascript",
-              "can you give me just the part where the merge function is defined in merge sort",
+              "can you give me just the part where the merge function is defined in merge sort in js",
               "how does the merge function start in js",
               "i want to see the function header of merge in javascript",
               "give me the part where the merge function is defined in merge sort in js"
             ],
             "responses": [
-              "The merge function combines two sorted subarrays into one:\n\n```javascript\nfunction merge(left, right) {\n    // The body of the merge function goes here\n}\n```\n"
+              "The merge function combines two sorted subarrays into one:\n\n\nfunction merge(left, right) {\n    // The body of the merge function goes here\n}\n\n"
             ]
           },
           {
             "tag": "comparison_merge_js",
             "patterns": [
               "how are the elements compared in merge sort in javascript",
-              "can you give me the part where elements are compared in merge sort",
+              "can you give me the part where elements are compared in merge sort in js",
               "how does comparison work in merge sort in js",
               "i want to see the comparison of elements in merge sort in javascript",
               "give me the part about comparison in merge sort in js"
             ],
             "responses": [
-              "The elements are compared to determine which one to add to the result:\n\n```javascript\nif (left[0] < right[0]) {\n    result.push(left.shift());\n} else {\n    result.push(right.shift());\n}\n```\n"
+              "The elements are compared to determine which one to add to the result:\n\n\nif (left[0] < right[0]) {\n    result.push(left.shift());\n} else {\n    result.push(right.shift());\n}\n\n"
             ]
           },
           {
             "tag": "merge_sort_remaining_elements_js",
             "patterns": [
               "how are the remaining elements combined in merge sort in JavaScript",
-              "can you show me the part where the remaining elements are merged in merge sort",
+              "can you show me the part where the remaining elements are merged in merge sort in js",
               "how are the remaining elements handled in merge sort in js",
               "I want to see how the remaining elements are merged in merge sort in JavaScript",
               "show me the part about merging remaining elements in merge sort in js"
             ],
             "responses": [
-              "The remaining elements from the halves are merged into the final result:\n\n```javascript\nreturn [...result, ...left, ...right];\n```\n"
+              "The remaining elements from the halves are merged into the final result:\n\n\nreturn [...result, ...left, ...right];\n\n"
             ]
           },
           {
@@ -15514,7 +15502,7 @@
             ]
           },
           {
-            "tag": "fibonacci_js",
+            "tag": "fibonacci_js_en",
             "patterns": [
               "how does the Fibonacci algorithm work in JavaScript",
               "what is the Fibonacci algorithm in js",
@@ -15523,7 +15511,7 @@
               "how do I implement the Fibonacci series in JavaScript"
             ],
             "responses": [
-              "The Fibonacci algorithm generates a sequence where each number is the sum of the two preceding ones. Here's the basic code to calculate the Fibonacci series up to a number n:\n\n```javascript\nfunction fibonacci(n) {\n    if (n <= 1) {\n        return n;\n    }\n    return fibonacci(n - 1) + fibonacci(n - 2);\n}\n\n// Usage example\nconsole.log(fibonacci(10)); // Output: 55 (10th Fibonacci number)\n```\n"
+              "The Fibonacci algorithm generates a sequence where each number is the sum of the two preceding ones. Here's the basic code to calculate the Fibonacci series up to a number n:\n\n\nfunction fibonacci(n) {\n    if (n <= 1) {\n        return n;\n    }\n    return fibonacci(n - 1) + fibonacci(n - 2);\n}\n\n// Usage example\nconsole.log(fibonacci(10)); // Output: 55 (10th Fibonacci number)\n\n"
             ]
           },
           {
@@ -15536,7 +15524,7 @@
               "show me the part where the Fibonacci function is defined in js"
             ],
             "responses": [
-              "The Fibonacci function is defined as:\n\n```javascript\nfunction fibonacci(n) {\n    // The body of the algorithm goes here\n}\n```\n"
+              "The Fibonacci function is defined as:\n\n\nfunction fibonacci(n) {\n    // The body of the algorithm goes here\n}\n\n"
             ]
           },
           {
@@ -15549,7 +15537,7 @@
               "show me the part about the base condition in Fibonacci in js"
             ],
             "responses": [
-              "The base condition of the Fibonacci algorithm is:\n\n```javascript\nif (n <= 1) {\n    return n;\n}\n```\nThis ensures the calculation stops when n is 0 or 1."
+              "The base condition of the Fibonacci algorithm is:\n\n\nif (n <= 1) {\n    return n;\n}\n\nThis ensures the calculation stops when n is 0 or 1."
             ]
           },
           {
@@ -15562,7 +15550,7 @@
               "show me the part about recursion in Fibonacci in js"
             ],
             "responses": [
-              "Recursion in Fibonacci is performed by calling the function with decreasing values:\n\n```javascript\nreturn fibonacci(n - 1) + fibonacci(n - 2);\n```\nThis calculates the sum of the two preceding numbers in the series."
+              "Recursion in Fibonacci is performed by calling the function with decreasing values:\n\n\nreturn fibonacci(n - 1) + fibonacci(n - 2);\n\nThis calculates the sum of the two preceding numbers in the series."
             ]
           },
           {
@@ -15575,7 +15563,7 @@
               "show me an iterative implementation of Fibonacci in js"
             ],
             "responses": [
-              "Here's an iterative version of the Fibonacci algorithm, which is more efficient in terms of memory and performance:\n\n```javascript\nfunction fibonacciIterative(n) {\n    if (n <= 1) {\n        return n;\n    }\n    let a = 0, b = 1;\n    for (let i = 2; i <= n; i++) {\n        const temp = a + b;\n        a = b;\n        b = temp;\n    }\n    return b;\n}\n\n// Usage example\nconsole.log(fibonacciIterative(10)); // Output: 55\n```\n"
+              "Here's an iterative version of the Fibonacci algorithm, which is more efficient in terms of memory and performance:\n\n\nfunction fibonacciIterative(n) {\n    if (n <= 1) {\n        return n;\n    }\n    let a = 0, b = 1;\n    for (let i = 2; i <= n; i++) {\n        const temp = a + b;\n        a = b;\n        b = temp;\n    }\n    return b;\n}\n\n// Usage example\nconsole.log(fibonacciIterative(10)); // Output: 55\n\n"
             ]
           },
           {
@@ -15588,7 +15576,7 @@
               "give me an optimized Fibonacci algorithm with memoization in JavaScript"
             ],
             "responses": [
-              "Memoization is used to store previous calculations and improve the efficiency of the algorithm. Here's an optimized Fibonacci implementation with memoization:\n\n```javascript\nfunction fibonacciMemoization(n, memo = {}) {\n    if (n in memo) {\n        return memo[n];\n    }\n    if (n <= 1) {\n        return n;\n    }\n    memo[n] = fibonacciMemoization(n - 1, memo) + fibonacciMemoization(n - 2, memo);\n    return memo[n];\n}\n\n// Example usage\nconsole.log(fibonacciMemoization(10)); // Output: 55\n```\n"
+              "Memoization is used to store previous calculations and improve the efficiency of the algorithm. Here's an optimized Fibonacci implementation with memoization:\n\n\nfunction fibonacciMemoization(n, memo = {}) {\n    if (n in memo) {\n        return memo[n];\n    }\n    if (n <= 1) {\n        return n;\n    }\n    memo[n] = fibonacciMemoization(n - 1, memo) + fibonacciMemoization(n - 2, memo);\n    return memo[n];\n}\n\n// Example usage\nconsole.log(fibonacciMemoization(10)); // Output: 55\n\n"
             ]
           },
           {
@@ -15627,7 +15615,7 @@
               "how do I implement depth-first search in JavaScript"
             ],
             "responses": [
-              "Depth-first search (DFS) is an algorithm that explores as far as possible along a branch before backtracking. Here's a basic implementation in JavaScript:\n\n```javascript\nfunction dfs(graph, start, visited = new Set()) {\n    console.log(start);\n    visited.add(start);\n\n    for (const neighbor of graph[start]) {\n        if (!visited.has(neighbor)) {\n            dfs(graph, neighbor, visited);\n        }\n    }\n}\n\n// Example usage\nconst graph = {\n    A: ['B', 'C'],\n    B: ['D', 'E'],\n    C: ['F'],\n    D: [],\n    E: ['F'],\n    F: []\n};\ndfs(graph, 'A');\n```\nThis code will print the nodes visited in DFS order."
+              "Depth-first search (DFS) is an algorithm that explores as far as possible along a branch before backtracking. Here's a basic implementation in JavaScript:\n\n\nfunction dfs(graph, start, visited = new Set()) {\n    console.log(start);\n    visited.add(start);\n\n    for (const neighbor of graph[start]) {\n        if (!visited.has(neighbor)) {\n            dfs(graph, neighbor, visited);\n        }\n    }\n}\n\n// Example usage\nconst graph = {\n    A: ['B', 'C'],\n    B: ['D', 'E'],\n    C: ['F'],\n    D: [],\n    E: ['F'],\n    F: []\n};\ndfs(graph, 'A');\n\nThis code will print the nodes visited in DFS order."
             ]
           },
           {
@@ -15640,7 +15628,7 @@
               "show me the part where the depth-first search function is defined in js"
             ],
             "responses": [
-              "The main DFS function in JavaScript is defined as:\n\n```javascript\nfunction dfs(graph, start, visited = new Set()) {\n    // Algorithm body here\n}\n```\n"
+              "The main DFS function in JavaScript is defined as:\n\n\nfunction dfs(graph, start, visited = new Set()) {\n    // Algorithm body here\n}\n\n"
             ]
           },
           {
@@ -15653,7 +15641,7 @@
               "show me the part where a node is recorded as visited in DFS in js"
             ],
             "responses": [
-              "A node is marked as visited by adding it to a set:\n\n```javascript\nvisited.add(start);\n```\nThis prevents visiting the same node more than once."
+              "A node is marked as visited by adding it to a set:\n\n\nvisited.add(start);\n\nThis prevents visiting the same node more than once."
             ]
           },
           {
@@ -15666,7 +15654,7 @@
               "show me the part where neighbors are traversed in dfs in js"
             ],
             "responses": [
-              "Neighbor traversal is performed with a for loop:\n\n```javascript\nfor (const neighbor of graph[start]) {\n    if (!visited.has(neighbor)) {\n        dfs(graph, neighbor, visited);\n    }\n}\n```\nThis ensures that all adjacent nodes are explored."
+              "Neighbor traversal is performed with a for loop:\n\n\nfor (const neighbor of graph[start]) {\n    if (!visited.has(neighbor)) {\n        dfs(graph, neighbor, visited);\n    }\n}\n\nThis ensures that all adjacent nodes are explored."
             ]
           },
           {
@@ -15679,7 +15667,7 @@
               "give me an example of a graph for dfs in js"
             ],
             "responses": [
-              "A graph for DFS is typically represented as an object where the keys are nodes and the values are lists of adjacent nodes. Example:\n\n```javascript\nconst graph = {\n    A: ['B', 'C'],\n    B: ['D', 'E'],\n    C: ['F'],\n    D: [],\n    E: ['F'],\n    F: []\n};\n```\nThis representation shows the connectivity between nodes."
+              "A graph for DFS is typically represented as an object where the keys are nodes and the values are lists of adjacent nodes. Example:\n\n\nconst graph = {\n    A: ['B', 'C'],\n    B: ['D', 'E'],\n    C: ['F'],\n    D: [],\n    E: ['F'],\n    F: []\n};\n\nThis representation shows the connectivity between nodes."
             ]
           },
           {
@@ -15692,7 +15680,7 @@
               "give me an iterative implementation of dfs in js"
             ],
             "responses": [
-              "Here's an iterative implementation of DFS using a stack:\n\n```javascript\nfunction dfsIterative(graph, start) {\n    const stack = [start];\n    const visited = new Set();\n\n    while (stack.length > 0) {\n        const node = stack.pop();\n\n        if (!visited.has(node)) {\n            console.log(node);\n            visited.add(node);\n            for (const neighbor of graph[node]) {\n                stack.push(neighbor);\n            }\n        }\n    }\n}\n\n// Example usage\ndfsIterative(graph, 'A');\n```\nThis uses a stack instead of recursion to control the algorithm's flow."
+              "Here's an iterative implementation of DFS using a stack:\n\n\nfunction dfsIterative(graph, start) {\n    const stack = [start];\n    const visited = new Set();\n\n    while (stack.length > 0) {\n        const node = stack.pop();\n\n        if (!visited.has(node)) {\n            console.log(node);\n            visited.add(node);\n            for (const neighbor of graph[node]) {\n                stack.push(neighbor);\n            }\n        }\n    }\n}\n\n// Example usage\ndfsIterative(graph, 'A');\n\nThis uses a stack instead of recursion to control the algorithm's flow."
             ]
           },
           {
@@ -15718,7 +15706,7 @@
               "give me the part where the stack is initialized in iterative dfs in js"
             ],
             "responses": [
-              "In the iterative DFS implementation, the stack is initialized with the starting node:\n\n```javascript\nconst stack = [start];\n```\nThis sets the starting point for graph exploration."
+              "In the iterative DFS implementation, the stack is initialized with the starting node:\n\n\nconst stack = [start];\n\nThis sets the starting point for graph exploration."
             ]
           },
           {
@@ -15731,7 +15719,7 @@
               "give me the part where it checks if a node has already been visited in dfs in js"
             ],
             "responses": [
-              "To ensure a node is not visited twice, use the `has` function of the visited nodes set:\n\n```javascript\nif (!visited.has(node)) {\n    // Process the node\n}\n```\nThis ensures that each node is processed only once."
+              "To ensure a node is not visited twice, use the `has` function of the visited nodes set:\n\n\nif (!visited.has(node)) {\n    // Process the node\n}\n\nThis ensures that each node is processed only once."
             ]
           },
           {
@@ -15744,7 +15732,7 @@
               "give me the part where adjacent nodes are added to the stack in dfs in js"
             ],
             "responses": [
-              "In the iterative version of DFS, the neighbors of the current node are added to the stack with the loop:\n\n```javascript\nfor (const neighbor of graph[node]) {\n    stack.push(neighbor);\n}\n```\nThis ensures that connected nodes are explored in future iterations."
+              "In the iterative version of DFS, the neighbors of the current node are added to the stack with the loop:\n\n\nfor (const neighbor of graph[node]) {\n    stack.push(neighbor);\n}\n\nThis ensures that connected nodes are explored in future iterations."
             ]
           },
           {
@@ -15757,7 +15745,7 @@
               "give me the part where nodes are printed in dfs in js"
             ],
             "responses": [
-              "Visited nodes are printed using the `console.log` function right after being marked as visited:\n\n```javascript\nconsole.log(node);\n```\nThis logs each visited node in the order of exploration."
+              "Visited nodes are printed using the `console.log` function right after being marked as visited:\n\n\nconsole.log(node);\n\nThis logs each visited node in the order of exploration."
             ]
           },
           {
@@ -15770,7 +15758,7 @@
               "give me the part where the use of the set for visited nodes in dfs in js is explained"
             ],
             "responses": [
-              "The `Set` is used to store visited nodes because it allows efficient checking if a node has already been visited:\n\n```javascript\nvisited.add(node);\nif (!visited.has(neighbor)) {\n    // Process the neighbor\n}\n```\nThis structure has constant-time insertion and checking operations."
+              "The `Set` is used to store visited nodes because it allows efficient checking if a node has already been visited:\n\n\nvisited.add(node);\nif (!visited.has(neighbor)) {\n    // Process the neighbor\n}\n\nThis structure has constant-time insertion and checking operations."
             ]
           },
           {
@@ -15783,7 +15771,7 @@
               "how do I implement heap sort in javascript"
             ],
             "responses": [
-              "The Heap Sort algorithm is a sorting algorithm that uses the heap data structure. It first builds a max heap from the array, then swaps the first element (the maximum) with the last, reduces the heap size, and applies heapify again. Here's the complete code in JavaScript:\n\n```javascript\nfunction heapSort(arr) {\n    let n = arr.length;\n\n    // Build a max heap\n    for (let i = Math.floor(n / 2) - 1; i >= 0; i--) {\n        heapify(arr, n, i);\n    }\n\n    // Extract elements from the heap one by one\n    for (let i = n - 1; i > 0; i--) {\n        // Move the current maximum to the end\n        [arr[0], arr[i]] = [arr[i], arr[0]];\n\n        // Apply heapify to the reduced heap\n        heapify(arr, i, 0);\n    }\n\n    return arr;\n}\n\nfunction heapify(arr, n, i) {\n    let largest = i;\n    const left = 2 * i + 1;\n    const right = 2 * i + 2;\n\n    // If the left child is larger than the root\n    if (left < n && arr[left] > arr[largest]) {\n        largest = left;\n    }\n\n    // If the right child is larger than the root\n    if (right < n && arr[right] > arr[largest]) {\n        largest = right;\n    }\n\n    // If the root is not the largest\n    if (largest !== i) {\n        [arr[i], arr[largest]] = [arr[largest], arr[i]];\n        heapify(arr, n, largest);\n    }\n}\n\n// Usage example\nconst numbers = [12, 11, 13, 5, 6, 7];\nconsole.log(heapSort(numbers));\n// Output: [5, 6, 7, 11, 12, 13]\n```"
+              "The Heap Sort algorithm is a sorting algorithm that uses the heap data structure. It first builds a max heap from the array, then swaps the first element (the maximum) with the last, reduces the heap size, and applies heapify again. Here's the complete code in JavaScript:\n\n\nfunction heapSort(arr) {\n    let n = arr.length;\n\n    // Build a max heap\n    for (let i = Math.floor(n / 2) - 1; i >= 0; i--) {\n        heapify(arr, n, i);\n    }\n\n    // Extract elements from the heap one by one\n    for (let i = n - 1; i > 0; i--) {\n        // Move the current maximum to the end\n        [arr[0], arr[i]] = [arr[i], arr[0]];\n\n        // Apply heapify to the reduced heap\n        heapify(arr, i, 0);\n    }\n\n    return arr;\n}\n\nfunction heapify(arr, n, i) {\n    let largest = i;\n    const left = 2 * i + 1;\n    const right = 2 * i + 2;\n\n    // If the left child is larger than the root\n    if (left < n && arr[left] > arr[largest]) {\n        largest = left;\n    }\n\n    // If the right child is larger than the root\n    if (right < n && arr[right] > arr[largest]) {\n        largest = right;\n    }\n\n    // If the root is not the largest\n    if (largest !== i) {\n        [arr[i], arr[largest]] = [arr[largest], arr[i]];\n        heapify(arr, n, largest);\n    }\n}\n\n// Usage example\nconst numbers = [12, 11, 13, 5, 6, 7];\nconsole.log(heapSort(numbers));\n// Output: [5, 6, 7, 11, 12, 13]\n"
             ]
           },
           {
@@ -15796,7 +15784,7 @@
               "show me the part where the max heap is built in heap sort in js"
             ],
             "responses": [
-              "The max heap is built by applying the `heapify` function from the middle of the array backwards:\n\n```javascript\nfor (let i = Math.floor(arr.length / 2) - 1; i >= 0; i--) {\n    heapify(arr, arr.length, i);\n}\n```"
+              "The max heap is built by applying the `heapify` function from the middle of the array backwards:\n\n\nfor (let i = Math.floor(arr.length / 2) - 1; i >= 0; i--) {\n    heapify(arr, arr.length, i);\n}\n"
             ]
           },
           {
@@ -15809,14 +15797,14 @@
               "give me the part about swapping in heap sort in js"
             ],
             "responses": [
-              "In Heap Sort, the maximum (first element) is swapped with the last:\n\n```javascript\n[arr[0], arr[i]] = [arr[i], arr[0]];\n```\nThis moves the largest element to the end of the sorted array."
+              "In Heap Sort, the maximum (first element) is swapped with the last:\n\n\n[arr[0], arr[i]] = [arr[i], arr[0]];\n\nThis moves the largest element to the end of the sorted array."
             ]
           },
           {
             "tag": "heap_sort_complexity_js",
             "patterns": [
               "what is the complexity of heap sort in javascript",
-              "can you explain the efficiency of heap sort",
+              "can you explain the efficiency of heap sort en js",
               "how efficient is heap sort in js",
               "I want to know the time complexity of heap sort in javascript",
               "give me the complexity of heap sort in js"
@@ -15835,33 +15823,33 @@
               "show me the fragment where the main heap sort function is defined in js"
             ],
             "responses": [
-              "The definition of the main Heap Sort function is as follows:\n\n```javascript\nfunction heapSort(arr) {\n    // The body of the algorithm starts here\n}\n```"
+              "The definition of the main Heap Sort function is as follows:\n\n\nfunction heapSort(arr) {\n    // The body of the algorithm starts here\n}\n"
             ]
           },
           {
             "tag": "max_heap_iteration_js",
             "patterns": [
-              "how is the iteration done to build the max heap in heap sort",
+              "how is the iteration done to build the max heap in heap sort in js",
               "can you give me the fragment where the iteration is done to build the max heap in js",
-              "I want to see the loop for building the max heap in heap sort",
+              "I want to see the loop for building the max heap in heap sort in js",
               "how is the iteration done to build the max heap in javascript",
               "show me the part where the max heap is built in heap sort in js"
             ],
             "responses": [
-              "The iteration to build the max heap in the Heap Sort algorithm is as follows:\n\n```javascript\nfor (let i = Math.floor(arr.length / 2) - 1; i >= 0; i--) {\n    heapify(arr, arr.length, i);\n}\n```"
+              "The iteration to build the max heap in the Heap Sort algorithm is as follows:\n\n\nfor (let i = Math.floor(arr.length / 2) - 1; i >= 0; i--) {\n    heapify(arr, arr.length, i);\n}\n"
             ]
           },
           {
             "tag": "swap_elements_heap_sort_js",
             "patterns": [
-              "how are elements swapped in heap sort",
-              "can you give me the code to swap elements in heap sort",
-              "I want to see how elements are swapped in heap sort",
+              "how are elements swapped in heap sort in js",
+              "can you give me the code to swap elements in heap sort in js",
+              "I want to see how elements are swapped in heap sort in js",
               "show me the fragment where elements are swapped in heap sort in javascript",
               "how are elements swapped in heap sort in js"
             ],
             "responses": [
-              "The swapping of elements in Heap Sort is done as follows:\n\n```javascript\n[arr[0], arr[i]] = [arr[i], arr[0]];\n```"
+              "The swapping of elements in Heap Sort is done as follows:\n\n\n[arr[0], arr[i]] = [arr[i], arr[0]];\n"
             ]
           },
           {
@@ -15874,20 +15862,20 @@
               "how is the heap sort algorithm used in js"
             ],
             "responses": [
-              "Here is an example of using Heap Sort in JavaScript:\n\n```javascript\nconst numbers = [12, 11, 13, 5, 6, 7];\nconsole.log(heapSort(numbers));\n// Output: [5, 6, 7, 11, 12, 13]\n```"
+              "Here is an example of using Heap Sort in JavaScript:\n\n\nconst numbers = [12, 11, 13, 5, 6, 7];\nconsole.log(heapSort(numbers));\n// Output: [5, 6, 7, 11, 12, 13]\n"
             ]
           },
           {
             "tag": "array_size_heap_sort_js",
             "patterns": [
-              "how do you get the size of the array in heap sort",
-              "can you show me the snippet where the array size is retrieved in heap sort",
-              "how do you define the variable that holds the array size in heap sort",
+              "how do you get the size of the array in heap sort in js",
+              "can you show me the snippet where the array size is retrieved in heap sort in js",
+              "how do you define the variable that holds the array size in heap sort in js",
               "I want to see how the array size is managed in heap sort in javascript",
               "show me the part where the array size is retrieved in heap sort in js"
             ],
             "responses": [
-              "The array size is obtained as follows:\n\n```javascript\nlet n = arr.length;\n```"
+              "The array size is obtained as follows:\n\n\nlet n = arr.length;\n"
             ]
           },
           {
@@ -15899,8 +15887,8 @@
               "give me an example of a for loop in python"
             ],
             "responses": [
-              "Here is a basic example of a for loop in Python:\n\n```python\nfor i in range(5):\n    print(i)\n```",
-              "You can use a for loop to iterate over a list:\n\n```python\nnumbers = [1, 2, 3, 4]\nfor number in numbers:\n    print(f'Element: {number}')\n```"
+              "Here is a basic example of a for loop in Python:\n\n\nfor i in range(5):\n    print(i)\n",
+              "You can use a for loop to iterate over a list:\n\n\nnumbers = [1, 2, 3, 4]\nfor number in numbers:\n    print(f'Element: {number}')\n"
             ]
           },
           {
@@ -15912,8 +15900,8 @@
               "give me an example of a for loop with the variable declared in the header"
             ],
             "responses": [
-              "In Python, the variable is automatically declared in the loop's header:\n\n```python\nfor i in range(5):\n    print(i)\n```",
-              "An example where the variable is declared in the for loop's header:\n\n```python\nfor number in range(1, 6):\n    print(f'Current number: {number}')\n```"
+              "In Python, the variable is automatically declared in the loop's header:\n\n\nfor i in range(5):\n    print(i)\n",
+              "An example where the variable is declared in the for loop's header:\n\n\nfor number in range(1, 6):\n    print(f'Current number: {number}')\n"
             ]
           },
           {
@@ -15926,8 +15914,8 @@
               "how do I use a conditional in a for loop in python"
             ],
             "responses": [
-              "You can use a conditional inside a for loop. Example:\n\n```python\nfor i in range(5):\n    if i % 2 == 0:\n        print(f'{i} is an even number')\n```",
-              "An example with a conditional in a for loop:\n\n```python\nnumbers = [1, 2, 3, 4, 5]\nfor number in numbers:\n    if number > 3:\n        print(f'Number greater than 3: {number}')\n```"
+              "You can use a conditional inside a for loop. Example:\n\n\nfor i in range(5):\n    if i % 2 == 0:\n        print(f'{i} is an even number')\n",
+              "An example with a conditional in a for loop:\n\n\nnumbers = [1, 2, 3, 4, 5]\nfor number in numbers:\n    if number > 3:\n        print(f'Number greater than 3: {number}')\n"
             ]
           },
           {
@@ -15940,8 +15928,8 @@
               "example of a for loop that increments on each iteration"
             ],
             "responses": [
-              "In Python, you can specify the increment in the for loop with `range`:\n\n```python\nfor i in range(0, 10, 2):\n    print(i)\n```",
-              "An example of incrementing in a for loop:\n\n```python\nfor number in range(1, 6):\n    print(f'Number: {number}')\n```"
+              "In Python, you can specify the increment in the for loop with `range`:\n\n\nfor i in range(0, 10, 2):\n    print(i)\n",
+              "An example of incrementing in a for loop:\n\n\nfor number in range(1, 6):\n    print(f'Number: {number}')\n"
             ]
           },
           {
@@ -15954,8 +15942,8 @@
               "example of a for loop that decrements on each iteration"
             ],
             "responses": [
-              "To decrement, use a negative step in `range`:\n\n```python\nfor i in range(10, 0, -1):\n    print(i)\n```",
-              "A loop that decrements in steps of 2:\n\n```python\nfor i in range(20, 0, -2):\n    print(i)\n```"
+              "To decrement, use a negative step in `range`:\n\n\nfor i in range(10, 0, -1):\n    print(i)\n",
+              "A loop that decrements in steps of 2:\n\n\nfor i in range(20, 0, -2):\n    print(i)\n"
             ]
           },
           {
@@ -16018,9 +16006,9 @@
           {
             "tag": "basic_if_structure_python",
             "patterns": [
-              "how does an if work in python",
-              "give me examples of an if in python",
-              "how to use an if in python",
+              "how does an if statement work in python",
+              "give me examples of an if statement in python",
+              "how to use an if statement in python",
               "give me an example of an if structure in python",
               "how is an if structured in python"
             ],
@@ -16394,7 +16382,7 @@
               "i want to understand sequential search step by step in python"
             ],
             "responses": [
-              "Here is the sequential search algorithm explained step by step:\n\n1. **Define the function**:\n```python\ndef sequential_search(array, target_value):\n```\nThis function takes an array and the value we want to find.\n\n2. **Iterate over the array using a loop**:\n```python\nfor i in range(len(array)):\n```\nWe iterate through each element in the array, using the index `i` to access the values.\n\n3. **Check if the current value matches the target**:\n```python\nif array[i] == target_value:\n    return i  # Return the index if found\n```\nWe compare the current value to the target value. If they match, we return the index.\n\n4. **Return -1 if the value is not found**:\n```python\nreturn -1  # If the value is not found\n```\nThis indicates that the value is not present in the array.\n\n5. **Complete example**:\n```python\nnumbers = [4, 2, 7, 9, 5]\nresult = sequential_search(numbers, 7)\nprint(result)  # Output: 2\n```"
+              "Here is the sequential search algorithm explained step by step:\n\n1. **Define the function**:\n\ndef sequential_search(array, target_value):\n\nThis function takes an array and the value we want to find.\n\n2. **Iterate over the array using a loop**:\n\nfor i in range(len(array)):\n\nWe iterate through each element in the array, using the index `i` to access the values.\n\n3. **Check if the current value matches the target**:\n\nif array[i] == target_value:\n    return i  # Return the index if found\n\nWe compare the current value to the target value. If they match, we return the index.\n\n4. **Return -1 if the value is not found**:\n\nreturn -1  # If the value is not found\n\nThis indicates that the value is not present in the array.\n\n5. **Complete example**:\n\nnumbers = [4, 2, 7, 9, 5]\nresult = sequential_search(numbers, 7)\nprint(result)  # Output: 2\n"
             ]
           },
           {
@@ -16407,7 +16395,7 @@
               "give me the for loop part of sequential search in python"
             ],
             "responses": [
-              "The for loop in sequential search goes through the array element by element:\n\n```python\nfor i in range(len(array)):\n    # Here, each element is evaluated one by one\n```\n"
+              "The for loop in sequential search goes through the array element by element:\n\n\nfor i in range(len(array)):\n    # Here, each element is evaluated one by one\n\n"
             ]
           },
           {
@@ -16420,7 +16408,7 @@
               "give me the if part of sequential search in python"
             ],
             "responses": [
-              "The if condition checks if the current value matches the target:\n\n```python\nif array[i] == target_value:\n    return i  # Return the index if found\n```\n"
+              "The if condition checks if the current value matches the target:\n\n\nif array[i] == target_value:\n    return i  # Return the index if found\n\n"
             ]
           },
           {
@@ -16433,7 +16421,7 @@
               "give me the part where the value is not found in sequential search in python"
             ],
             "responses": [
-              "If the value is not found, the algorithm returns -1:\n\n```python\nreturn -1  # If the value is not found\n```\n"
+              "If the value is not found, the algorithm returns -1:\n\n\nreturn -1  # If the value is not found\n\n"
             ]
           },
           {
@@ -16446,7 +16434,7 @@
               "give me the function definition part in sequential search in python"
             ],
             "responses": [
-              "The sequential search function is defined like this:\n\n```python\ndef sequential_search(array, target_value):\n    # Here goes the algorithm body\n```\n"
+              "The sequential search function is defined like this:\n\n\ndef sequential_search(array, target_value):\n    # Here goes the algorithm body\n\n"
             ]
           },
           {
@@ -16459,7 +16447,7 @@
               "give me the arguments of sequential search in python"
             ],
             "responses": [
-              "The sequential search function takes two arguments:\n\n1. **array**: This is the list that will be iterated over.\n2. **target_value**: This is the value we want to find.\n\nExample:\n```python\nsequential_search([4, 2, 7, 9], 7)\n```"
+              "The sequential search function takes two arguments:\n\n1. **array**: This is the list that will be iterated over.\n2. **target_value**: This is the value we want to find.\n\nExample:\n\nsequential_search([4, 2, 7, 9], 7)\n"
             ]
           },
           {
@@ -16472,7 +16460,7 @@
               "give me the part where it returns the index in sequential search in python"
             ],
             "responses": [
-              "When the target value is found, the function returns the index:\n\n```python\nreturn i  # returns the index where the value was found\n```"
+              "When the target value is found, the function returns the index:\n\n\nreturn i  # returns the index where the value was found\n"
             ]
           },
           {
@@ -16485,7 +16473,7 @@
               "give me an example of sequential search usage in python"
             ],
             "responses": [
-              "Here is a practical example of using sequential search:\n\n```python\ndef sequential_search(lst, target):\n    for i in range(len(lst)):\n        if lst[i] == target:\n            return i\n    return -1\n\nnumbers = [1, 3, 5, 7, 9]\ntarget = 7\nresult = sequential_search(numbers, target)\n\nif result != -1:\n    print(f'Value found at index {result}')\nelse:\n    print('Value not found')\n```"
+              "Here is a practical example of using sequential search:\n\n\ndef sequential_search(lst, target):\n    for i in range(len(lst)):\n        if lst[i] == target:\n            return i\n    return -1\n\nnumbers = [1, 3, 5, 7, 9]\ntarget = 7\nresult = sequential_search(numbers, target)\n\nif result != -1:\n    print(f'Value found at index {result}')\nelse:\n    print('Value not found')\n"
             ]
           },
           {
@@ -16511,7 +16499,7 @@
               "how do i implement binary search in python"
             ],
             "responses": [
-              "Binary search is an efficient algorithm to find an element in a sorted list. It halves the search range at each step. Here is the basic code in Python:\n\n```python\ndef binary_search(lst, target):\n    start = 0\n    end = len(lst) - 1\n\n    while start <= end:\n        mid = (start + end) // 2\n\n        if lst[mid] == target:\n            return mid  # returns the index if the value is found\n        elif lst[mid] < target:\n            start = mid + 1  # adjusts the start\n        else:\n            end = mid - 1  # adjusts the end\n\n    return -1  # returns -1 if the value is not present\n\n# Example usage\nnumbers = [1, 3, 5, 7, 9]\nresult = binary_search(numbers, 7)\nprint(result)  # Output: 3\n```"
+              "Binary search is an efficient algorithm to find an element in a sorted list. It halves the search range at each step. Here is the basic code in Python:\n\n\ndef binary_search(lst, target):\n    start = 0\n    end = len(lst) - 1\n\n    while start <= end:\n        mid = (start + end) // 2\n\n        if lst[mid] == target:\n            return mid  # returns the index if the value is found\n        elif lst[mid] < target:\n            start = mid + 1  # adjusts the start\n        else:\n            end = mid - 1  # adjusts the end\n\n    return -1  # returns -1 if the value is not present\n\n# Example usage\nnumbers = [1, 3, 5, 7, 9]\nresult = binary_search(numbers, 7)\nprint(result)  # Output: 3\n"
             ]
           },
           {
@@ -16524,7 +16512,7 @@
               "give me the part where the function is defined in binary search in python"
             ],
             "responses": [
-              "The binary search function in Python is defined like this:\n\n```python\ndef binary_search(lst, target):\n    # Here goes the body of the algorithm\n    pass\n```"
+              "The binary search function in Python is defined like this:\n\n\ndef binary_search(lst, target):\n    # Here goes the body of the algorithm\n    pass\n"
             ]
           },
           {
@@ -16537,7 +16525,7 @@
               "give me the part where variables are initialized in binary search in python"
             ],
             "responses": [
-              "In binary search, the variables are initialized as follows:\n\n```python\nstart = 0\nend = len(lst) - 1\nmid = (start + end) // 2\n```"
+              "In binary search, the variables are initialized as follows:\n\n\nstart = 0\nend = len(lst) - 1\nmid = (start + end) // 2\n"
             ]
           },
           {
@@ -16550,7 +16538,7 @@
               "give me the loop condition in binary search in python"
             ],
             "responses": [
-              "The while loop controls the search by halving the range:\n\n```python\nwhile start <= end:\n    # Code to evaluate and adjust the limits goes here\n    pass\n```"
+              "The while loop controls the search by halving the range:\n\n\nwhile start <= end:\n    # Code to evaluate and adjust the limits goes here\n    pass\n"
             ]
           },
           {
@@ -16563,7 +16551,7 @@
               "give me the if condition part in binary search in python"
             ],
             "responses": [
-              "The `if` conditional checks if the target value equals the value at the middle index:\n\n```python\nif lst[mid] == target:\n    return mid  # Returns the index if the value is found\n```"
+              "The `if` conditional checks if the target value equals the value at the middle index:\n\n\nif lst[mid] == target:\n    return mid  # Returns the index if the value is found\n"
             ]
           },
           {
@@ -16576,7 +16564,7 @@
               "give me the part where limits are adjusted in binary search in python"
             ],
             "responses": [
-              "In binary search, the limits are adjusted depending on the compared value:\n\n```python\nif lst[mid] < target:\n    start = mid + 1  # Adjusts the start\nelse:\n    end = mid - 1  # Adjusts the end\n```"
+              "In binary search, the limits are adjusted depending on the compared value:\n\n\nif lst[mid] < target:\n    start = mid + 1  # Adjusts the start\nelse:\n    end = mid - 1  # Adjusts the end\n"
             ]
           },
           {
@@ -16589,7 +16577,7 @@
               "give me the part where it doesn't find the value in binary search in python"
             ],
             "responses": [
-              "If the value is not found, the function returns -1:\n\n```python\nreturn -1  # Returns -1 if the value is not present\n```"
+              "If the value is not found, the function returns -1:\n\n\nreturn -1  # Returns -1 if the value is not present\n"
             ]
           },
           {
@@ -16615,7 +16603,7 @@
               "give me the part where the function is defined in the bubble sort algorithm in python"
             ],
             "responses": [
-              "The bubble sort function in Python is defined like this:\n\n```python\ndef bubble_sort(arr):\n    # The body of the algorithm goes here\n```"
+              "The bubble sort function in Python is defined like this:\n\n\ndef bubble_sort(arr):\n    # The body of the algorithm goes here\n"
             ]
           },
           {
@@ -16628,7 +16616,7 @@
               "give me the part where n is initialized in the bubble sort algorithm in python"
             ],
             "responses": [
-              "The variable `n` is initialized with the length of the array:\n\n```python\nn = len(arr)\n```"
+              "The variable `n` is initialized with the length of the array:\n\n\nn = len(arr)\n"
             ]
           },
           {
@@ -16641,7 +16629,7 @@
               "give me the loop part in the bubble sort algorithm in python"
             ],
             "responses": [
-              "The algorithm uses a nested loop to iterate through the array:\n\n```python\nfor i in range(n - 1):\n    for j in range(n - i - 1):\n        # Comparison and swapping here\n```"
+              "The algorithm uses a nested loop to iterate through the array:\n\n\nfor i in range(n - 1):\n    for j in range(n - i - 1):\n        # Comparison and swapping here\n"
             ]
           },
           {
@@ -16654,7 +16642,7 @@
               "give me the if part in the bubble sort algorithm in python"
             ],
             "responses": [
-              "The `if` condition checks if the current element is greater than the next:\n\n```python\nif arr[j] > arr[j + 1]:\n    # Swap elements\n```"
+              "The `if` condition checks if the current element is greater than the next:\n\n\nif arr[j] > arr[j + 1]:\n    # Swap elements\n"
             ]
           },
           {
@@ -16667,7 +16655,7 @@
               "give me the swapping part in the bubble sort algorithm in python"
             ],
             "responses": [
-              "The swapping of elements is done using a temporary variable:\n\n```python\ntemp = arr[j]\narr[j] = arr[j + 1]\narr[j + 1] = temp\n```"
+              "The swapping of elements is done using a temporary variable:\n\n\ntemp = arr[j]\narr[j] = arr[j + 1]\narr[j + 1] = temp\n"
             ]
           },
           {
@@ -16693,59 +16681,59 @@
               "how do i implement quick sort in python"
             ],
             "responses": [
-              "Quick Sort is a sorting algorithm that uses the divide-and-conquer approach. It divides the list into sublists using a pivot element, placing smaller elements to the left and larger elements to the right. It then recursively sorts the parts. Here's the complete code in Python:\n\n```python\ndef quick_sort(arr):\n    if len(arr) <= 1:\n        return arr\n    pivot = arr[-1]\n    left = [x for x in arr[:-1] if x < pivot]\n    right = [x for x in arr[:-1] if x >= pivot]\n    return quick_sort(left) + [pivot] + quick_sort(right)\n\n# Example usage\nnumbers = [34, 7, 23, 32, 5, 62]\nprint(quick_sort(numbers))\n# Output: [5, 7, 23, 32, 34, 62]\n```\n"
+              "Quick Sort is a sorting algorithm that uses the divide-and-conquer approach. It divides the list into sublists using a pivot element, placing smaller elements to the left and larger elements to the right. It then recursively sorts the parts. Here's the complete code in Python:\n\n\ndef quick_sort(arr):\n    if len(arr) <= 1:\n        return arr\n    pivot = arr[-1]\n    left = [x for x in arr[:-1] if x < pivot]\n    right = [x for x in arr[:-1] if x >= pivot]\n    return quick_sort(left) + [pivot] + quick_sort(right)\n\n# Example usage\nnumbers = [34, 7, 23, 32, 5, 62]\nprint(quick_sort(numbers))\n# Output: [5, 7, 23, 32, 34, 62]\n\n"
             ]
           },
           {
             "tag": "function_definition_quick_sort_py",
             "patterns": [
               "how is the function defined in quick sort in python",
-              "can you give me just the part where the function is defined in quick sort",
+              "can you give me just the part where the function is defined in quick sort in python",
               "how does quick sort start in python",
               "i want to see the header of the quick sort function in python",
               "give me the part where the function is defined in quick sort in python"
             ],
             "responses": [
-              "The Quick Sort function definition in Python is as follows:\n\n```python\ndef quick_sort(arr):\n    # Here goes the algorithm body\n    pass\n```\n"
+              "The Quick Sort function definition in Python is as follows:\n\n\ndef quick_sort(arr):\n    # Here goes the algorithm body\n    pass\n\n"
             ]
           },
           {
             "tag": "base_condition_quick_sort_py",
             "patterns": [
               "what is the base condition in quick sort in python",
-              "can you give me the part with the base condition in quick sort",
+              "can you give me the part with the base condition in quick sort in python",
               "how does recursion end in quick sort in python",
               "i want to see the base condition of quick sort in python",
               "give me the part where the base condition is set in quick sort in python"
             ],
             "responses": [
-              "The base condition of Quick Sort checks if the list has one or no elements, stopping recursion:\n\n```python\nif len(arr) <= 1:\n    return arr\n```\n"
+              "The base condition of Quick Sort checks if the list has one or no elements, stopping recursion:\n\n\nif len(arr) <= 1:\n    return arr\n\n"
             ]
           },
           {
             "tag": "partitioning_quick_sort_py",
             "patterns": [
               "how is partitioning done in quick sort in python",
-              "can you give me just the partitioning part in quick sort",
+              "can you give me just the partitioning part in quick sort in python",
               "how are elements divided in quick sort in python",
               "i want to see how the list is partitioned in quick sort in python",
               "give me the partitioning part in quick sort in python"
             ],
             "responses": [
-              "The Quick Sort partitioning divides the list into two sublists based on a pivot:\n\n```python\npivot = arr[-1]\nleft = [x for x in arr[:-1] if x < pivot]\nright = [x for x in arr[:-1] if x >= pivot]\n```\n"
+              "The Quick Sort partitioning divides the list into two sublists based on a pivot:\n\n\npivot = arr[-1]\nleft = [x for x in arr[:-1] if x < pivot]\nright = [x for x in arr[:-1] if x >= pivot]\n\n"
             ]
           },
           {
             "tag": "sublist_combination_quick_sort_py",
             "patterns": [
               "how are sublists combined in quick sort in python",
-              "can you give me just the combination part in quick sort",
+              "can you give me just the combination part in quick sort in python",
               "how are elements merged in quick sort in python",
               "i want to see how sublists are combined in quick sort in python",
               "give me the combination part in quick sort in python"
             ],
             "responses": [
-              "The combination of the sublists with the pivot is done as follows:\n\n```python\nreturn quick_sort(left) + [pivot] + quick_sort(right)\n```\n"
+              "The combination of the sublists with the pivot is done as follows:\n\n\nreturn quick_sort(left) + [pivot] + quick_sort(right)\n\n"
             ]
           },
           {
@@ -16765,39 +16753,39 @@
             "tag": "pivot_selection_quick_sort_py",
             "patterns": [
               "how is the pivot selected in quick sort in python",
-              "can you give me just the part where the pivot is chosen in quick sort",
+              "can you give me just the part where the pivot is chosen in quick sort in python",
               "how does the pivot work in quick sort in python",
               "i want to see how the pivot is defined in quick sort in python",
               "give me the pivot part in quick sort in python"
             ],
             "responses": [
-              "The pivot is selected as the last element of the list:\n\n```python\npivot = arr[-1]\n```\n"
+              "The pivot is selected as the last element of the list:\n\n\npivot = arr[-1]\n\n"
             ]
           },
           {
             "tag": "sublist_filling_quick_sort_py",
             "patterns": [
               "how are sublists filled in quick sort in python",
-              "can you give me just the part where elements are distributed in quick sort",
+              "can you give me just the part where elements are distributed in quick sort in python",
               "how are elements separated in quick sort in python",
               "i want to see how sublists are filled in quick sort in python",
               "give me the sublist part in quick sort in python"
             ],
             "responses": [
-              "Elements are separated into the left and right sublists based on the pivot:\n\n```python\nleft = [x for x in arr[:-1] if x < pivot]\nright = [x for x in arr[:-1] if x >= pivot]\n```\n"
+              "Elements are separated into the left and right sublists based on the pivot:\n\n\nleft = [x for x in arr[:-1] if x < pivot]\nright = [x for x in arr[:-1] if x >= pivot]\n\n"
             ]
           },
           {
             "tag": "recursion_quick_sort_py",
             "patterns": [
               "how does recursion work in quick sort in python",
-              "can you give me the part where recursion is applied in quick sort",
+              "can you give me the part where recursion is applied in quick sort in python",
               "how are subarrays called recursively in quick sort in py",
               "i want to see the recursion of quick sort in python",
               "give me the recursion part in quick sort in py"
             ],
             "responses": [
-              "Recursion is applied by sorting the left and right subarrays:\n\n```python\nreturn quick_sort(left) + [pivot] + quick_sort(right)\n```\n"
+              "Recursion is applied by sorting the left and right subarrays:\n\n\nreturn quick_sort(left) + [pivot] + quick_sort(right)\n\n"
             ]
           },
           {
@@ -16810,98 +16798,98 @@
               "how do i implement merge sort in python"
             ],
             "responses": [
-              "Merge Sort is a sorting algorithm that uses the divide-and-conquer approach. It divides the array into smaller parts, sorts them, and then merges them. Here's the complete code in Python:\n\n```python\ndef merge_sort(arr):\n    if len(arr) <= 1:\n        return arr\n    mid = len(arr) // 2\n    left = arr[:mid]\n    right = arr[mid:]\n    return merge(merge_sort(left), merge_sort(right))\n\ndef merge(left, right):\n    result = []\n    while left and right:\n        if left[0] < right[0]:\n            result.append(left.pop(0))\n        else:\n            result.append(right.pop(0))\n    return result + left + right\n\n# Example usage\nnumbers = [38, 27, 43, 3, 9, 82, 10]\nprint(merge_sort(numbers))\n# Output: [3, 9, 10, 27, 38, 43, 82]\n```\n"
+              "Merge Sort is a sorting algorithm that uses the divide-and-conquer approach. It divides the array into smaller parts, sorts them, and then merges them. Here's the complete code in Python:\n\n\ndef merge_sort(arr):\n    if len(arr) <= 1:\n        return arr\n    mid = len(arr) // 2\n    left = arr[:mid]\n    right = arr[mid:]\n    return merge(merge_sort(left), merge_sort(right))\n\ndef merge(left, right):\n    result = []\n    while left and right:\n        if left[0] < right[0]:\n            result.append(left.pop(0))\n        else:\n            result.append(right.pop(0))\n    return result + left + right\n\n# Example usage\nnumbers = [38, 27, 43, 3, 9, 82, 10]\nprint(merge_sort(numbers))\n# Output: [3, 9, 10, 27, 38, 43, 82]\n\n"
             ]
           },
           {
             "tag": "function_definition_merge_sort_py",
             "patterns": [
               "how is the function defined in merge sort in python",
-              "can you give me just the part where the function is defined in merge sort",
+              "can you give me just the part where the function is defined in merge sort in python",
               "how does merge sort start in py",
               "i want to see the header of the merge sort function in python",
               "give me the part where the function is defined in merge sort in py"
             ],
             "responses": [
-              "The main function of Merge Sort is defined as follows:\n\n```python\ndef merge_sort(arr):\n    # Here goes the algorithm body\n```\n"
+              "The main function of Merge Sort is defined as follows:\n\n\ndef merge_sort(arr):\n    # Here goes the algorithm body\n\n"
             ]
           },
           {
             "tag": "base_condition_merge_sort_py",
             "patterns": [
               "what is the base condition in merge sort in python",
-              "can you give me the base condition part in merge sort",
+              "can you give me the base condition part in merge sort in python",
               "how does recursion end in merge sort in py",
               "i want to see the base condition of merge sort in python",
               "give me the part where the base condition is set in merge sort in py"
             ],
             "responses": [
-              "The base condition of Merge Sort checks if the array has one or no elements, stopping recursion:\n\n```python\nif len(arr) <= 1:\n    return arr\n```\n"
+              "The base condition of Merge Sort checks if the array has one or no elements, stopping recursion:\n\n\nif len(arr) <= 1:\n    return arr\n\n"
             ]
           },
           {
             "tag": "array_division_merge_sort_py",
             "patterns": [
               "how is the array divided in merge sort in python",
-              "can you give me the part where the array is divided in merge sort",
+              "can you give me the part where the array is divided in merge sort in python",
               "how does division work in merge sort in py",
               "i want to see how the array is divided in merge sort in python",
               "give me the division part in merge sort in py"
             ],
             "responses": [
-              "The array is divided into halves using the middle index:\n\n```python\nmid = len(arr) // 2\nleft = arr[:mid]\nright = arr[mid:]\n```\n"
+              "The array is divided into halves using the middle index:\n\n\nmid = len(arr) // 2\nleft = arr[:mid]\nright = arr[mid:]\n\n"
             ]
           },
           {
             "tag": "recursion_merge_sort_py",
             "patterns": [
               "how does recursion work in merge sort in python",
-              "can you give me the part where recursion is applied in merge sort",
+              "can you give me the part where recursion is applied in merge sort in python",
               "how are halves called recursively in merge sort in py",
               "i want to see the recursion of merge sort in python",
               "give me the recursion part in merge sort in python"
             ],
             "responses": [
-              "Recursion is applied by sorting the left and right halves:\n\n```python\nreturn merge(merge_sort(left), merge_sort(right))\n```\n"
+              "Recursion is applied by sorting the left and right halves:\n\n\nreturn merge(merge_sort(left), merge_sort(right))\n\n"
             ]
           },
           {
             "tag": "definition_function_merge_py",
             "patterns": [
               "how is the merge function defined in merge sort in python",
-              "can you give me just the part where the merge function is defined in merge sort",
+              "can you give me just the part where the merge function is defined in merge sort in python",
               "how does the merge function start in python",
               "i want to see the header of the merge function in python",
               "give me the part where the merge function is defined in merge sort in python"
             ],
             "responses": [
-              "The merge function combines two sorted subarrays into one:\n\n```python\ndef merge(left, right):\n    # Here goes the body of the merge function\n```\n"
+              "The merge function combines two sorted subarrays into one:\n\n\ndef merge(left, right):\n    # Here goes the body of the merge function\n\n"
             ]
           },
           {
             "tag": "comparison_merge_python",
             "patterns": [
               "how are elements compared in merge sort in python",
-              "can you give me the part where elements are compared in merge sort",
+              "can you give me the part where elements are compared in merge sort in python",
               "how does comparison work in merge sort in python",
               "i want to see the comparison of elements in merge sort in python",
               "give me the comparison part in merge sort in python"
             ],
             "responses": [
-              "Elements are compared to determine which one to add to the result:\n\n```python\nif left[0] < right[0]:\n    result.append(left.pop(0))\nelse:\n    result.append(right.pop(0))\n```\n"
+              "Elements are compared to determine which one to add to the result:\n\n\nif left[0] < right[0]:\n    result.append(left.pop(0))\nelse:\n    result.append(right.pop(0))\n\n"
             ]
           },
           {
             "tag": "combine_remainders_merge_python",
             "patterns": [
               "how are remainders combined in merge sort in python",
-              "can you give me the part where remaining elements are combined in merge sort",
+              "can you give me the part where remaining elements are combined in merge sort in python",
               "how are remainders handled in merge sort in python",
               "i want to see how remainders are combined in merge sort in python",
               "give me the part of combining remainders in merge sort in python"
             ],
             "responses": [
-              "The remaining elements from the halves are combined into the final result:\n\n```python\nreturn result + left + right\n```\n"
+              "The remaining elements from the halves are combined into the final result:\n\n\nreturn result + left + right\n\n"
             ]
           },
           {
@@ -16918,7 +16906,7 @@
             ]
           },
           {
-            "tag": "fibonacci_python",
+            "tag": "fibonacci_python_en",
             "patterns": [
               "how does the fibonacci algorithm work in python",
               "what is the fibonacci algorithm in python",
@@ -16927,7 +16915,7 @@
               "how do i implement the fibonacci series in python"
             ],
             "responses": [
-              "The Fibonacci algorithm generates a sequence where each number is the sum of the two preceding ones. Here's the basic code to calculate the Fibonacci series up to a number n:\n\n```python\ndef fibonacci(n):\n    if n <= 1:\n        return n\n    return fibonacci(n - 1) + fibonacci(n - 2)\n\n# Example usage\nprint(fibonacci(10)) # Output: 55 (tenth Fibonacci number)\n```\n"
+              "The Fibonacci algorithm generates a sequence where each number is the sum of the two preceding ones. Here's the basic code to calculate the Fibonacci series up to a number n:\n\n\ndef fibonacci(n):\n    if n <= 1:\n        return n\n    return fibonacci(n - 1) + fibonacci(n - 2)\n\n# Example usage\nprint(fibonacci(10)) # Output: 55 (tenth Fibonacci number)\n\n"
             ]
           },
           {
@@ -16940,7 +16928,7 @@
               "give me the part where the fibonacci function is defined in python"
             ],
             "responses": [
-              "The Fibonacci function is defined as follows:\n\n```python\ndef fibonacci(n):\n    # Here goes the body of the algorithm\n```\n"
+              "The Fibonacci function is defined as follows:\n\n\ndef fibonacci(n):\n    # Here goes the body of the algorithm\n\n"
             ]
           },
           {
@@ -16953,7 +16941,7 @@
               "give me the base condition part in fibonacci in python"
             ],
             "responses": [
-              "The base condition of the Fibonacci algorithm is:\n\n```python\nif n <= 1:\n    return n\n```\nThis ensures the calculation ends when n is 0 or 1."
+              "The base condition of the Fibonacci algorithm is:\n\n\nif n <= 1:\n    return n\n\nThis ensures the calculation ends when n is 0 or 1."
             ]
           },
           {
@@ -16966,7 +16954,7 @@
               "give me the recursion part in fibonacci in python"
             ],
             "responses": [
-              "Recursion in Fibonacci is done by calling the function with decreasing values:\n\n```python\nreturn fibonacci(n - 1) + fibonacci(n - 2)\n```\nThis calculates the sum of the two preceding numbers in the series."
+              "Recursion in Fibonacci is done by calling the function with decreasing values:\n\n\nreturn fibonacci(n - 1) + fibonacci(n - 2)\n\nThis calculates the sum of the two preceding numbers in the series."
             ]
           },
           {
@@ -16979,7 +16967,7 @@
               "give me an iterative implementation of fibonacci in python"
             ],
             "responses": [
-              "Here's an iterative version of the Fibonacci algorithm, which is more memory and performance efficient:\n\n```python\ndef fibonacci_iterative(n):\n    if n <= 1:\n        return n\n    a, b = 0, 1\n    for i in range(2, n + 1):\n        a, b = b, a + b\n    return b\n\n# Example usage\nprint(fibonacci_iterative(10)) # Output: 55\n```"
+              "Here's an iterative version of the Fibonacci algorithm, which is more memory and performance efficient:\n\n\ndef fibonacci_iterative(n):\n    if n <= 1:\n        return n\n    a, b = 0, 1\n    for i in range(2, n + 1):\n        a, b = b, a + b\n    return b\n\n# Example usage\nprint(fibonacci_iterative(10)) # Output: 55\n"
             ]
           },
           {
@@ -16992,7 +16980,7 @@
               "give me an optimized algorithm for fibonacci with storage in python"
             ],
             "responses": [
-              "Memoization is used to save previous calculations and improve the efficiency of the algorithm. Here's an optimized implementation of Fibonacci with memoization:\n\n```python\ndef fibonacci_memoization(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n <= 1:\n        return n\n    memo[n] = fibonacci_memoization(n - 1, memo) + fibonacci_memoization(n - 2, memo)\n    return memo[n]\n\n# Example usage\nprint(fibonacci_memoization(10)) # Output: 55\n```"
+              "Memoization is used to save previous calculations and improve the efficiency of the algorithm. Here's an optimized implementation of Fibonacci with memoization:\n\n\ndef fibonacci_memoization(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n <= 1:\n        return n\n    memo[n] = fibonacci_memoization(n - 1, memo) + fibonacci_memoization(n - 2, memo)\n    return memo[n]\n\n# Example usage\nprint(fibonacci_memoization(10)) # Output: 55\n"
             ]
           },
           {
@@ -17031,7 +17019,7 @@
               "how do i implement depth first search in python"
             ],
             "responses": [
-              "Depth First Search (DFS) is an algorithm that explores as far as possible along a path before backtracking. Here's a basic implementation in Python:\n\n```python\ndef dfs(graph, start, visited=None):\n    if visited is None:\n        visited = set()\n    print(start)\n    visited.add(start)\n\n    for neighbor in graph[start]:\n        if neighbor not in visited:\n            dfs(graph, neighbor, visited)\n\n# Example usage\ngraph = {\n    'A': ['B', 'C'],\n    'B': ['D', 'E'],\n    'C': ['F'],\n    'D': [],\n    'E': ['F'],\n    'F': []\n}\ndfs(graph, 'A')\n```\nThis code will print the nodes visited in DFS order."
+              "Depth First Search (DFS) is an algorithm that explores as far as possible along a path before backtracking. Here's a basic implementation in Python:\n\n\ndef dfs(graph, start, visited=None):\n    if visited is None:\n        visited = set()\n    print(start)\n    visited.add(start)\n\n    for neighbor in graph[start]:\n        if neighbor not in visited:\n            dfs(graph, neighbor, visited)\n\n# Example usage\ngraph = {\n    'A': ['B', 'C'],\n    'B': ['D', 'E'],\n    'C': ['F'],\n    'D': [],\n    'E': ['F'],\n    'F': []\n}\ndfs(graph, 'A')\n\nThis code will print the nodes visited in DFS order."
             ]
           },
           {
@@ -17044,7 +17032,7 @@
               "give me the part where the depth first search function is defined in python"
             ],
             "responses": [
-              "The main DFS function in Python is defined as follows:\n\n```python\ndef dfs(graph, start, visited=None):\n    # Algorithm body here\n```\n"
+              "The main DFS function in Python is defined as follows:\n\n\ndef dfs(graph, start, visited=None):\n    # Algorithm body here\n\n"
             ]
           },
           {
@@ -17057,7 +17045,7 @@
               "give me the part where a node is registered as visited in dfs in python"
             ],
             "responses": [
-              "A node is marked as visited by adding it to a set:\n\n```python\nvisited.add(start)\n```\nThis prevents visiting the same node more than once."
+              "A node is marked as visited by adding it to a set:\n\n\nvisited.add(start)\n\nThis prevents visiting the same node more than once."
             ]
           },
           {
@@ -17070,7 +17058,7 @@
               "give me the part where neighbors are iterated in dfs in python"
             ],
             "responses": [
-              "Neighbors are iterated using a for loop:\n\n```python\nfor neighbor in graph[start]:\n    if neighbor not in visited:\n        dfs(graph, neighbor, visited)\n```\nThis ensures all adjacent nodes are explored."
+              "Neighbors are iterated using a for loop:\n\n\nfor neighbor in graph[start]:\n    if neighbor not in visited:\n        dfs(graph, neighbor, visited)\n\nThis ensures all adjacent nodes are explored."
             ]
           },
           {
@@ -17083,7 +17071,7 @@
               "give me an example of a graph for dfs in python"
             ],
             "responses": [
-              "A graph for DFS is typically represented as a dictionary where the keys are nodes and the values are lists of adjacent nodes. Example:\n\n```python\ngraph = {\n    'A': ['B', 'C'],\n    'B': ['D', 'E'],\n    'C': ['F'],\n    'D': [],\n    'E': ['F'],\n    'F': []\n}\n```\nThis allows representing the connectivity between nodes."
+              "A graph for DFS is typically represented as a dictionary where the keys are nodes and the values are lists of adjacent nodes. Example:\n\n\ngraph = {\n    'A': ['B', 'C'],\n    'B': ['D', 'E'],\n    'C': ['F'],\n    'D': [],\n    'E': ['F'],\n    'F': []\n}\n\nThis allows representing the connectivity between nodes."
             ]
           },
           {
@@ -17096,7 +17084,7 @@
               "give me an iterative implementation of dfs in python"
             ],
             "responses": [
-              "Here is an iterative implementation of DFS using a stack:\n\n```python\ndef dfs_iterative(graph, start):\n    stack = [start]\n    visited = set()\n\n    while stack:\n        node = stack.pop()\n\n        if node not in visited:\n            print(node)\n            visited.add(node)\n            for neighbor in graph[node]:\n                stack.append(neighbor)\n\n# Example usage\ndfs_iterative(graph, 'A')\n```\nThis uses a stack instead of recursion to control the algorithm's flow."
+              "Here is an iterative implementation of DFS using a stack:\n\n\ndef dfs_iterative(graph, start):\n    stack = [start]\n    visited = set()\n\n    while stack:\n        node = stack.pop()\n\n        if node not in visited:\n            print(node)\n            visited.add(node)\n            for neighbor in graph[node]:\n                stack.append(neighbor)\n\n# Example usage\ndfs_iterative(graph, 'A')\n\nThis uses a stack instead of recursion to control the algorithm's flow."
             ]
           },
           {
@@ -17122,7 +17110,7 @@
               "give me the part where the stack is initialized in iterative dfs in python"
             ],
             "responses": [
-              "In the iterative implementation of DFS, the stack is initialized with the starting node:\n\n```python\nstack = [start]\n```\nThis sets the starting point for graph exploration."
+              "In the iterative implementation of DFS, the stack is initialized with the starting node:\n\n\nstack = [start]\n\nThis sets the starting point for graph exploration."
             ]
           },
           {
@@ -17135,7 +17123,7 @@
               "give me the part where it checks if a node has already been visited in dfs in python"
             ],
             "responses": [
-              "To ensure a node is not visited twice, the `not in` function of the visited set is used:\n\n```python\nif node not in visited:\n    # Process the node\n```\nThis ensures each node is processed only once."
+              "To ensure a node is not visited twice, the `not in` function of the visited set is used:\n\n\nif node not in visited:\n    # Process the node\n\nThis ensures each node is processed only once."
             ]
           },
           {
@@ -17148,7 +17136,7 @@
               "give me the part where neighboring nodes are added to the stack in dfs in python"
             ],
             "responses": [
-              "In the iterative version of DFS, the neighbors of the current node are added to the stack using the loop:\n\n```python\nfor neighbor in graph[node]:\n    stack.append(neighbor)\n```\nThis ensures connected nodes are explored in future iterations."
+              "In the iterative version of DFS, the neighbors of the current node are added to the stack using the loop:\n\n\nfor neighbor in graph[node]:\n    stack.append(neighbor)\n\nThis ensures connected nodes are explored in future iterations."
             ]
           },
           {
@@ -17161,7 +17149,7 @@
               "give me the part where nodes are printed in dfs in python"
             ],
             "responses": [
-              "Visited nodes are printed using the `print` function immediately after being marked as visited:\n\n```python\nprint(node)\n```\nThis logs each visited node in the exploration order."
+              "Visited nodes are printed using the `print` function immediately after being marked as visited:\n\n\nprint(node)\n\nThis logs each visited node in the exploration order."
             ]
           },
           {
@@ -17174,7 +17162,7 @@
               "give me the part where the use of the set for visited nodes in dfs in python is explained"
             ],
             "responses": [
-              "The `set` is used to store visited nodes because it allows efficient checks to see if a node has already been visited:\n\n```python\nvisited.add(node)\nif neighbor not in visited:\n    # Process the neighbor\n```\nThis structure provides constant-time insertion and verification operations."
+              "The `set` is used to store visited nodes because it allows efficient checks to see if a node has already been visited:\n\n\nvisited.add(node)\nif neighbor not in visited:\n    # Process the neighbor\n\nThis structure provides constant-time insertion and verification operations."
             ]
           },
           {
@@ -17187,7 +17175,7 @@
               "how do i implement heap sort in python"
             ],
             "responses": [
-              "The Heap Sort algorithm is a sorting algorithm that uses the heap data structure. It first builds a max heap from the array, then swaps the first element (the maximum) with the last, reduces the heap size, and applies heapify again. Here's the complete code in Python:\n\n```python\ndef heap_sort(arr):\n    n = len(arr)\n\n    # Build a max heap\n    for i in range(n // 2 - 1, -1, -1):\n        heapify(arr, n, i)\n\n    # Extract elements from the heap one by one\n    for i in range(n - 1, 0, -1):\n        arr[0], arr[i] = arr[i], arr[0]\n        heapify(arr, i, 0)\n\n    return arr\n\ndef heapify(arr, n, i):\n    largest = i\n    left = 2 * i + 1\n    right = 2 * i + 2\n\n    if left < n and arr[left] > arr[largest]:\n        largest = left\n\n    if right < n and arr[right] > arr[largest]:\n        largest = right\n\n    if largest != i:\n        arr[i], arr[largest] = arr[largest], arr[i]\n        heapify(arr, n, largest)\n\n# Example usage\nnumbers = [12, 11, 13, 5, 6, 7]\nprint(heap_sort(numbers))\n# Output: [5, 6, 7, 11, 12, 13]\n```\nThis algorithm is efficient for large datasets."
+              "The Heap Sort algorithm is a sorting algorithm that uses the heap data structure. It first builds a max heap from the array, then swaps the first element (the maximum) with the last, reduces the heap size, and applies heapify again. Here's the complete code in Python:\n\n\ndef heap_sort(arr):\n    n = len(arr)\n\n    # Build a max heap\n    for i in range(n // 2 - 1, -1, -1):\n        heapify(arr, n, i)\n\n    # Extract elements from the heap one by one\n    for i in range(n - 1, 0, -1):\n        arr[0], arr[i] = arr[i], arr[0]\n        heapify(arr, i, 0)\n\n    return arr\n\ndef heapify(arr, n, i):\n    largest = i\n    left = 2 * i + 1\n    right = 2 * i + 2\n\n    if left < n and arr[left] > arr[largest]:\n        largest = left\n\n    if right < n and arr[right] > arr[largest]:\n        largest = right\n\n    if largest != i:\n        arr[i], arr[largest] = arr[largest], arr[i]\n        heapify(arr, n, largest)\n\n# Example usage\nnumbers = [12, 11, 13, 5, 6, 7]\nprint(heap_sort(numbers))\n# Output: [5, 6, 7, 11, 12, 13]\n\nThis algorithm is efficient for large datasets."
             ]
           },
           {
@@ -17200,7 +17188,7 @@
               "give me the part where the max heap is built in heap sort in python"
             ],
             "responses": [
-              "The max heap is built by applying the `heapify` function from the middle of the array backward:\n\n```python\nfor i in range(len(arr) // 2 - 1, -1, -1):\n    heapify(arr, len(arr), i)\n```\nThis ensures that subtrees are valid heaps."
+              "The max heap is built by applying the `heapify` function from the middle of the array backward:\n\n\nfor i in range(len(arr) // 2 - 1, -1, -1):\n    heapify(arr, len(arr), i)\n\nThis ensures that subtrees are valid heaps."
             ]
           },
           {
@@ -17213,14 +17201,14 @@
               "give me the part where the swap happens in heap sort in python"
             ],
             "responses": [
-              "In Heap Sort, the maximum (first element) is swapped with the last:\n\n```python\narr[0], arr[i] = arr[i], arr[0]\n```\nThis moves the largest element to the end of the sorted array."
+              "In Heap Sort, the maximum (first element) is swapped with the last:\n\n\narr[0], arr[i] = arr[i], arr[0]\n\nThis moves the largest element to the end of the sorted array."
             ]
           },
           {
             "tag": "complexity_heap_sort_python",
             "patterns": [
               "what is the complexity of heap sort in python",
-              "can you explain the efficiency of heap sort",
+              "can you explain the efficiency of heap sort en python",
               "how efficient is heap sort in python",
               "i want to know the time complexity of heap sort in python",
               "give me the complexity of heap sort in python"
@@ -17239,7 +17227,7 @@
               "give me the snippet where the main heap sort function is defined in python"
             ],
             "responses": [
-              "The definition of the main Heap Sort function is as follows:\n\n```python\ndef heap_sort(arr):\n    # Here begins the body of the algorithm\n```\nThis is the entry point for sorting the array."
+              "The definition of the main Heap Sort function is as follows:\n\n\ndef heap_sort(arr):\n    # Here begins the body of the algorithm\n\nThis is the entry point for sorting the array."
             ]
           },
           {
@@ -17252,7 +17240,7 @@
               "give me the part where the max heap is built in heap sort in python"
             ],
             "responses": [
-              "The iteration for building the max heap in the Heap Sort algorithm is as follows:\n\n```python\nfor i in range(len(arr) // 2 - 1, -1, -1):\n    heapify(arr, len(arr), i)\n```\nThis loop iterates from the middle of the array backward, applying the `heapify` function."
+              "The iteration for building the max heap in the Heap Sort algorithm is as follows:\n\n\nfor i in range(len(arr) // 2 - 1, -1, -1):\n    heapify(arr, len(arr), i)\n\nThis loop iterates from the middle of the array backward, applying the `heapify` function."
             ]
           },
           {
@@ -17265,7 +17253,7 @@
               "how are elements swapped in heap sort in python"
             ],
             "responses": [
-              "The element swap in Heap Sort is performed as follows:\n\n```python\narr[0], arr[i] = arr[i], arr[0]\n```\nThis swap moves the largest element to the end of the sorted array."
+              "The element swap in Heap Sort is performed as follows:\n\n\narr[0], arr[i] = arr[i], arr[0]\n\nThis swap moves the largest element to the end of the sorted array."
             ]
           },
           {
@@ -17278,7 +17266,7 @@
               "how is the heap sort algorithm used in python"
             ],
             "responses": [
-              "Here is an example of using Heap Sort in Python:\n\n```python\nnumbers = [12, 11, 13, 5, 6, 7]\nprint(heap_sort(numbers))\n# Output: [5, 6, 7, 11, 12, 13]\n```\nThis example demonstrates how to sort an array of numbers using the Heap Sort algorithm."
+              "Here is an example of using Heap Sort in Python:\n\n\nnumbers = [12, 11, 13, 5, 6, 7]\nprint(heap_sort(numbers))\n# Output: [5, 6, 7, 11, 12, 13]\n\nThis example demonstrates how to sort an array of numbers using the Heap Sort algorithm."
             ]
           },
           {
@@ -17291,7 +17279,7 @@
               "give me the part where the size of the array is obtained in heap sort in python"
             ],
             "responses": [
-              "The size of the array is obtained as follows:\n\n```python\nn = len(arr)\n```\nThis stores the length of the array in the variable `n`, which is used in the Heap Sort algorithm."
+              "The size of the array is obtained as follows:\n\n\nn = len(arr)\n\nThis stores the length of the array in the variable `n`, which is used in the Heap Sort algorithm."
             ]
           }
     ]
