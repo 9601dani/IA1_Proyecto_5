@@ -6,6 +6,7 @@
 
 ## Aplication Running
 1. [Modelo Primera Fase ](https://9601dani.github.io/IA1_Proyecto_5/home)
+2. [Link de app de escritorio](https://drive.google.com/drive/folders/1X8_ESSG6KedSnNDf7D-DVsmPNuQtv9Lv?usp=sharing)
 
 ![App Screenshot](https://i.imgur.com/6SLGM9t.png)
 

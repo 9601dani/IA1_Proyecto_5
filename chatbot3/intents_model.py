@@ -1,4 +1,3 @@
-from googletrans import Translator
 import json
 import pickle
 import random
@@ -28,11 +27,8 @@ def clean_text(text):
     return ' '.join(words)
 
 def train_model():
-    # Traductor de Google
-    translator = Translator()
-
-    # Cargar el archivo JSON con el formato proporcionado
-    with open('./intents.json', 'r', encoding='utf-8') as file:
+    # Cargar el archivo JSON traducido
+    with open('intents.json', 'r', encoding='utf-8') as file:
         intents_data = json.load(file)
 
     # Preparar los datos
@@ -45,25 +41,15 @@ def train_model():
         patterns = intent["patterns"]
         responses = intent["responses"]
 
-        # Traducir patrones al inglés
-        translated_patterns = []
-        for pattern in patterns:
-            translated = translator.translate(pattern, src='es', dest='en').text
-            translated_patterns.append(translated)
-        
-        # Combinar los patrones en ambos idiomas
-        patterns += translated_patterns
-
-        # Agregar patrones limpios y etiquetas
+        # Limpiar patrones y mapear respuestas
         for pattern in patterns:
             all_inputs.append(clean_text(pattern))
             all_outputs.append(tag)
         
-        # Guardar las respuestas (sin traducir)
         responses_map[tag] = responses
 
     # Tokenización
-    tokenizer = Tokenizer(num_words=3000, oov_token="<OOV>")
+    tokenizer = Tokenizer(num_words=5000, oov_token="<OOV>")
     tokenizer.fit_on_texts(all_inputs)
     sequences = tokenizer.texts_to_sequences(all_inputs)
     x_data = pad_sequences(sequences)
@@ -101,3 +87,5 @@ def train_model():
     # Guardar el responses_map
     with open('./responses_map.pkl', 'wb') as file:
         pickle.dump(responses_map, file)
+
+    print("Modelo entrenado y archivos guardados correctamente.")
